@@ -49,6 +49,7 @@ function enemy:set_center_enemy(other)
   local other_x, other_y = other:get_position()
   center_xy.x, center_xy.y = x - other_x, y - other_y
   center_enemy = other
+  self:restart()
 end
 
 function enemy:on_pre_draw()
@@ -76,13 +77,15 @@ end
 
 function enemy:on_restarted()
 
-  local m = sol.movement.create("circle")
-  m:set_center(center_enemy, center_xy.x, center_xy.y)
-  m:set_radius(56)
-  m:set_radius_speed(50)
-  m:set_max_rotations(4)
-  m:set_loop(2000)
-  m:set_angle_speed(360)
-  m:start(self)
+  if center_enemy ~= nil then
+    local m = sol.movement.create("circle")
+    m:set_center(center_enemy, center_xy.x, center_xy.y)
+    m:set_radius(56)
+    m:set_radius_speed(50)
+    m:set_max_rotations(4)
+    m:set_loop_delay(2000)
+    m:set_angle_speed(360)
+    m:start(self)
+  end
 end
 
