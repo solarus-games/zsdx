@@ -24,11 +24,11 @@ function sol.main:debug_on_key_pressed(key, modifiers)
 
   local handled = true
   if key == "f1" then
-    self:start_savegame("save1.dat")
+    self:start_savegame(sol.game.load("save1.dat"))
   elseif key == "f2" then
-    self:start_savegame("save2.dat")
+    self:start_savegame(sol.game.load("save2.dat"))
   elseif key == "f3" then
-    self:start_savegame("save3.dat")
+    self:start_savegame(sol.game.load("save3.dat"))
   elseif key == "f12" and not console.enabled then
     console:start()
   elseif sol.main.game ~= nil and not console.enabled then
@@ -148,7 +148,7 @@ function sol.main:start_menu(menu)
 end
 
 -- Stops the current menu if any and starts a game.
-function sol.main:start_savegame(file_name)
+function sol.main:start_savegame(game)
 
   if sol.main.menu ~= nil then
     sol.menu.stop(sol.main.menu)
@@ -156,7 +156,6 @@ function sol.main:start_savegame(file_name)
 
   sol.main.menu = nil
 
-  local game = sol.game.load(file_name)
   local play_game = sol.main.load_file("play_game")
   play_game(game)
 end

@@ -366,7 +366,7 @@ function savegame_menu:key_pressed_phase_select_file(key)
         -- The file exists: run it after a fade-out effect.
         self.finished = true
         self.surface:fade_out(function()
-	  self:start_game(slot.savegame)
+	  sol.main:start_savegame(slot.savegame)
         end)
       else
         -- It's a new savegame: choose the player's name.
@@ -995,12 +995,6 @@ function savegame_menu:set_initial_values(savegame)
   savegame:get_item("tunic"):set_variant(1)
   savegame:set_ability("tunic", 1)
   savegame:get_item("rupee_bag"):set_variant(1)
-end
-
-function savegame_menu:start_game(game)
-
-  local play_game = sol.main.load_file("play_game")
-  play_game(game)
 end
 
 return savegame_menu
