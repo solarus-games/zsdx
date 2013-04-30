@@ -1,10 +1,10 @@
-This package contains the data files of the quest Zelda: Mystery of Solarus DX.
+This package contains the data files of the game Zelda: Mystery of Solarus DX.
 This quest is a free, open-source game that works with Solarus,
 an open-source Zelda-like 2D game engine.
 To play this game, you need Solarus.
 We assume in this readme that Solarus is already installed.
 
-See our development blog (http://www.solarus-engine.org) to get more
+See our development blog (http://www.solarus-games.org) to get more
 information and documentation about Solarus and our games.
 
 
@@ -26,7 +26,7 @@ You need to specify to the solarus binary the path of the quest data files to
 use.
 solarus accepts two forms of quest paths:
 - a directory having a subdirectory named "data" with all data inside,
-- a directory having an archive "data.solarus" with all data inside.
+- a directory having a zip archive "data.solarus" with all data inside.
 
 Thus, to run zsdx, if the current directory is the one that
 contains the "data" subdirectory (and this readme), you can type
