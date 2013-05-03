@@ -8,3 +8,7 @@ install_manifest.txt
 cmake_install.cmake
 *.luac
 data.solarus
+error.txt
+stdout.txt
+stderr.txt
+
