@@ -26,3 +26,11 @@ function game:initialize_dialog_box()
   sol.menu.start(self, self.dialog_box)
 end
 
+function game:quit_dialog_box()
+
+  if self.dialog_box ~= nil then
+    sol.menu.stop(self.dialog_box)
+    self.dialog_box = nil
+  end
+end
+

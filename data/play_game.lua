@@ -16,6 +16,13 @@ function game:on_started()
   self:initialize_hud()
 end
 
+function game:on_finished()
+
+  -- Clean what was created by on_started().
+  self:quit_hud()
+  self:quit_dialog_box()
+end
+
 -- This event is called when a new map has just become active.
 function game:on_map_changed(map)
 

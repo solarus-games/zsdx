@@ -69,6 +69,15 @@ function game:initialize_hud()
   self:check_hud()
 end
 
+function game:quit_hud()
+
+  if self:is_hud_enabled() then
+    -- Stop all HUD menus.
+    self:set_hud_enabled(false)
+  end
+  self.hud = nil
+end
+
 function game:check_hud()
 
   local map = self:get_map()
@@ -157,14 +166,14 @@ end
 
 function game:set_hud_enabled(hud_enabled)
 
-  if hud_enabled ~= game.hud_enabled then
+  if hud_enabled ~= self.hud_enabled then
     game.hud_enabled = hud_enabled
 
     for _, menu in ipairs(self.hud) do
       if hud_enabled then
-	sol.menu.start(self, menu)
+        sol.menu.start(self, menu)
       else
-	sol.menu.stop(menu)
+        sol.menu.stop(menu)
       end
     end
   end
