@@ -42,7 +42,9 @@ function title_screen:phase_zs_presents()
   sol.audio.play_sound("intro")
 
   sol.timer.start(self, 2000, function()
-    self:phase_title()
+    self.surface:fade_out(10, function()
+      self:phase_title()
+    end)
   end)
 end
 
