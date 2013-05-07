@@ -284,6 +284,7 @@ function map:on_update()
     and are_all_torches_on() then
 
     lock_torches()
+    map:get_game():set_value("b618", true)
     map:move_camera(32, 120, 250, function()
       sol.audio.play_sound("secret")
       nw_hint_stone:set_position(32, 125)
