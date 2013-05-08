@@ -1,14 +1,23 @@
+zsdx-1.6 (under development)
+
+* Use solarus 1.0.0.
+* Fix a door bug that could get the hero stuck in empty rooms.
+* Dungeon 1: keep the final door open when coming back in the boss room.
+* Dungeon 7 2F: save the nort-west torches.
+* Savegames menu: the joypad was not working to delete a savegame.
+
 zsdx-1.5.2 (under development)
 
 * Use solarus 0.9.3.
 * German dialogs available.
-* Castle 1F: fix NPCs possibly overlapping the hero (#44).
-* West mountains cave: fix a chest possibly overlapping the hero (#37).
-* Fix wrong displaying of a question in French dialogs (#54).
+* Castle 1F: fix NPCs possibly overlapping the hero.
+* West mountains cave: fix a chest possibly overlapping the hero.
+* Fix wrong displaying of a question in French dialogs.
 * Fix three typos in French dialogs (thanks Stella).
 * Improve the English translation (thanks Rypervenche).
 * Fix a wrong empty line in English dialogs.
 * Dungeon 5: fix an error the Spanish translation (thanks Joan).
+* Fix the CMake script that creates the zip archive (#1).
 
 zsdx-1.5.1 (2012-05-20)
 
