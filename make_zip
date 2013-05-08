@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# This script creates the data.solarus archive from the git files.
+# It does the same work as 'cmake . && make' but does not need cmake.
+
+rm -rf zip
+mkdir zip
+git archive -o zip/data.tar HEAD data
+cd zip
+tar xf data.tar
+rm data.tar
+cd data
+rm -f ../../data.solarus
+zip -r ../../data.solarus *
+cd ../..
+rm -r zip
+
