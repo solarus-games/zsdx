@@ -87,8 +87,10 @@ function inventory_submenu:on_finished()
     self:finish_assigning_item()
   end
 
-  self.game.hud.item_icon_1.surface:set_opacity(255)
-  self.game.hud.item_icon_2.surface:set_opacity(255)
+  if self.game.hud ~= nil then
+    self.game.hud.item_icon_1.surface:set_opacity(255)
+    self.game.hud.item_icon_2.surface:set_opacity(255)
+  end
 end
 
 function inventory_submenu:set_cursor_position(row, column)
