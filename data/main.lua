@@ -24,11 +24,17 @@ function sol.main:debug_on_key_pressed(key, modifiers)
 
   local handled = true
   if key == "f1" then
-    self:start_savegame(sol.game.load("save1.dat"))
+    if sol.game.exists("save1.dat") then
+      self:start_savegame(sol.game.load("save1.dat"))
+    end
   elseif key == "f2" then
-    self:start_savegame(sol.game.load("save2.dat"))
+    if sol.game.exists("save2.dat") then
+      self:start_savegame(sol.game.load("save2.dat"))
+    end
   elseif key == "f3" then
-    self:start_savegame(sol.game.load("save3.dat"))
+    if sol.game.exists("save3.dat") then
+      self:start_savegame(sol.game.load("save3.dat"))
+    end
   elseif key == "f12" and not console.enabled then
     console:start()
   elseif sol.main.game ~= nil and not console.enabled then
