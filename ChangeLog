@@ -5,6 +5,7 @@ zsdx-1.6 (under development)
 * Dungeon 1: keep the final door open when coming back in the boss room.
 * Dungeon 7 2F: save the nort-west torches.
 * Savegames menu: the joypad was not working to delete a savegame.
+* Dungeon 10 B1: fix a cauldron the hero could walk on (#20).
 
 zsdx-1.5.2 (2013-05-08)
 
