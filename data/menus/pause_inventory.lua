@@ -59,7 +59,7 @@ function inventory_submenu:on_started()
           horizontal_alignment = "center",
           vertical_alignment = "top",
           text = item:get_amount(),
-          font = "white_digits",
+          font = (amount == maximum) and "green_digits" or "white_digits",
         }
       end
 
