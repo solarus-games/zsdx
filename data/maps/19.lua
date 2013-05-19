@@ -9,15 +9,6 @@ local function has_obtained_bottle()
   return map:get_game():get_value("b32")
 end
 
-local function talk_to_seller()
-
-  if not has_talked_about_apples() or has_obtained_bottle() then
-    map:start_dialog("cake_shop.seller.choose_item")
-  else
-    map:start_dialog("cake_shop.seller.ask_apples_again", apples_question_finished)
-  end
-end
-
 local function apples_question_finished(answer)
 
   map:get_game():set_value("b46", true)
@@ -35,6 +26,15 @@ local function apples_question_finished(answer)
     else
       map:start_dialog("cake_shop.no_apples")
     end
+  end
+end
+
+local function talk_to_seller()
+
+  if not has_talked_about_apples() or has_obtained_bottle() then
+    map:start_dialog("cake_shop.seller.choose_item")
+  else
+    map:start_dialog("cake_shop.seller.ask_apples_again", apples_question_finished)
   end
 end
 
