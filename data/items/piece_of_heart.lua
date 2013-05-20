@@ -7,6 +7,12 @@ local message_id = {
   "found_piece_of_heart.fourth"
 }
 
+function item:on_created()
+
+  self:set_sound_when_picked(nil)
+  self:set_sound_when_brandished("piece_of_heart")
+end
+
 function item:on_obtained(variant)
 
   local game = self:get_game()
