@@ -4,6 +4,16 @@ local map = ...
 local fighting_miniboss = false
 local camera_back_start_timer = false
 
+local function open_hidden_stairs()
+  map:set_entities_enabled("hidden_stairs_closed", false)
+  map:set_entities_enabled("hidden_stairs_open", true)
+end
+
+local function open_hidden_door()
+  map:set_entities_enabled("hidden_door_closed", false)
+  map:set_entities_enabled("hidden_door_open", true)
+end
+
 local function check_eye_statues()
 
   if left_eye_switch:is_activated() and right_eye_switch:is_activated() then
@@ -27,16 +37,6 @@ local function check_eye_statues()
       end)
     end
   end
-end
-
-local function open_hidden_stairs()
-  map:set_entities_enabled("hidden_stairs_closed", false)
-  map:set_entities_enabled("hidden_stairs_open", true)
-end
-
-local function open_hidden_door()
-  map:set_entities_enabled("hidden_door_closed", false)
-  map:set_entities_enabled("hidden_door_open", true)
 end
 
 function map:on_started(destination)
