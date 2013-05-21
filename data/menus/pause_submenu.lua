@@ -142,6 +142,10 @@ function submenu:on_command_pressed(command)
     end
   else
     -- The save dialog is visible.
+    if command ~= "pause" then
+      handled = true  -- Block all commands on the submenu except pause.
+    end
+
     if command == "left" or command == "right" then
       -- Move the cursor.
       sol.audio.play_sound("cursor")
@@ -152,7 +156,6 @@ function submenu:on_command_pressed(command)
         self.save_dialog_choice = 0
         self.save_dialog_sprite:set_animation("left")
       end
-      handled = true
     elseif command == "action" or command == "attack" then
       -- Validate a choice.
       if self.save_dialog_state == 1 then
@@ -178,7 +181,6 @@ function submenu:on_command_pressed(command)
           sol.main.reset()
         end
       end
-      handled = true
     end
   end
 
