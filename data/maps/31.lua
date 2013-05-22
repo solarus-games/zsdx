@@ -22,7 +22,6 @@ local boss_arrows = {
   [80] = { x = 1056, y = 477, created = true },
 }
 local fighting_boss = false
-local timers = {}
 
 local function puzzle_switch_activated(switch)
 
@@ -98,7 +97,7 @@ local function boss_change_floor(first, last, inc, enable)
     end
 
     if index ~= last then
-      timers[#timers + 1] = sol.timer.start(delay, repeat_change)
+      sol.timer.start(map, delay, repeat_change)
     end
     index = index + inc
   end
@@ -109,7 +108,7 @@ local function boss_restore_floor(with_arrows)
 
   -- restore the whole floor immediately
   map:set_entities_enabled("boss_floor", true)
-  for _, t in ipairs(timers) do t:stop() end
+  sol.timer.stop_all(map)
 
   if with_arrows then
     for k, v in pairs(boss_arrows) do
@@ -196,7 +195,7 @@ function boss_floor_sensor_1:on_activated()
     map:set_entities_enabled("boss_floor_sensor", false)
     boss_restore_floor(true)
     boss_change_floor(1, 92, 1, false)
-    timers[#timers + 1] = sol.timer.start(10000, function()
+    sol.timer.start(map, 10000, function()
       map:set_entities_enabled("boss_floor_sensor", true)
       boss_change_floor(92, 1, -1, true)
     end)
@@ -211,7 +210,7 @@ function boss_floor_sensor_2:on_activated()
     map:set_entities_enabled("boss_floor_sensor", false)
     boss_restore_floor(true)
     boss_change_floor(92, 1, -1, false)
-    timers[#timers + 1] = sol.timer.start(10000, function()
+    sol.timer.start(map, 10000, function()
       map:set_entities_enabled("boss_floor_sensor", true)
       boss_change_floor(1, 92, 1, true)
     end)
@@ -250,7 +249,7 @@ if boss ~= nil then
       y = 437,
       layer = 0
     }
-    for _, t in ipairs(timers) do t:stop() end
+    sol.timer.stop_all(map)
   end
 end
 
