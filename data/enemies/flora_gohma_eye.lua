@@ -13,6 +13,8 @@ local speed = 24
 
 function enemy:on_created()
 
+  body = self:get_map():get_entity("boss")
+
   self:set_life(12)
   self:set_damage(4)
   eye_sprite = self:create_sprite("enemies/flora_gohma_eye")
