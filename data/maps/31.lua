@@ -61,6 +61,10 @@ local function puzzle_switch_left(switch)
     end
   end
 end
+for switch, _ in pairs(switches_puzzle_order) do
+  switch.on_activated = puzzle_switch_activated
+  switch.on_left = puzzle_switch_left
+end
 
 local function boss_change_floor(first, last, inc, enable)
 
@@ -136,8 +140,6 @@ function map:on_started(destination)
     -- boss key chest already found
     for switch, _ in pairs(switches_puzzle_order) do
       switch:set_activated(true)
-      switch.on_activated = puzzle_switch_activated
-      switch.on_left = puzzle_switch_left
     end
   end
 
