@@ -144,7 +144,7 @@ function map:on_started(destination)
   end
 
   map:set_doors_open("boss_door", true)
-  if destination:get_name() == "from_final_room"
+  if destination == from_final_room
       or map:get_game():get_value("b103") then
     map:set_doors_open("final_room_door", true)
   end
