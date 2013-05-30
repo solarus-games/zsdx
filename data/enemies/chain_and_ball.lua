@@ -85,6 +85,7 @@ function enemy:on_restarted()
     m:set_max_rotations(4)
     m:set_loop_delay(2000)
     m:set_angle_speed(360)
+    m:set_ignore_obstacles(true)
     m:start(self)
   end
 end
