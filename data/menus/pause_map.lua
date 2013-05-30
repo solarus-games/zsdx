@@ -361,6 +361,7 @@ function map_submenu:load_dungeon_map_image()
 
     self.hero_x, self.hero_y = self:to_dungeon_minimap_coordinates(
         hero_absolute_x, hero_absolute_y)
+    self.hero_x = self.hero_x - 1
 
     -- Boss.
     local boss = self.dungeon.boss
@@ -368,7 +369,10 @@ function map_submenu:load_dungeon_map_image()
         and boss.floor == self.selected_floor
         and boss.savegame_variable ~= nil
         and not self.game:get_value(boss.savegame_variable) then
+      -- Boss coordinates are already relative to its floor.
       local dst_x, dst_y = self:to_dungeon_minimap_coordinates(boss.x, boss.y) 
+      dst_x = dst_x - 4
+      dst_y = dst_y - 4
       self.dungeon_map_icons_img:draw_region(78, 0, 8, 8,
           self.dungeon_map_img, dst_x, dst_y)
     end
@@ -383,10 +387,11 @@ function map_submenu:load_dungeon_map_image()
       if chest.floor == self.selected_floor
           and chest.savegame_variable ~= nil
           and not self.game:get_value(chest.savegame_variable) then
+          -- Chests coordinates are already relative to its floor.
         local dst_x, dst_y = self:to_dungeon_minimap_coordinates(chest.x, chest.y)
         dst_y = dst_y - 1
         if chest.big then
-          dst_x = dst_x - 1
+          dst_x = dst_x - 3
           self.dungeon_map_icons_img:draw_region(78, 12, 6, 4,
           self.dungeon_map_img, dst_x, dst_y)
         else
@@ -405,22 +410,26 @@ function map_submenu:load_chests()
 
   local dungeon = self.dungeon
   dungeon.chests = {}
+  local current_floor, current_map_x, current_map_y
 
   -- Here is the magic: set up a special environment to load map data files.
   local environment = {
 
     properties = function(map_properties)
-      -- Remember the floor to be used for subsequent chests.
-      dungeon.chests.current_floor = map_properties.floor
+      -- Remember the floor and the map location
+      -- to be used for subsequent chests.
+      current_floor = map_properties.floor
+      current_map_x = map_properties.x
+      current_map_y = map_properties.y
     end,
 
     chest = function(chest_properties) 
       -- Get the info about this chest and store it into the dungeon table.
-      if dungeon.chests.current_floor ~= nil then
+      if current_floor ~= nil then
         dungeon.chests[#dungeon.chests + 1] = {
-          floor = dungeon.chests.current_floor,
-          x = chest_properties.x,
-          y = chest_properties.y,
+          floor = current_floor,
+          x = current_map_x + chest_properties.x,
+          y = current_map_y + chest_properties.y,
           big = (chest_properties.sprite == "entities/big_chest"),
           savegame_variable = chest_properties.treasure_savegame_variable,
         }
@@ -448,7 +457,6 @@ function map_submenu:load_chests()
   end
 
   -- Cleanup temporary value.
-  dungeon.chests.current_floor = nil
 end
 
 return map_submenu
