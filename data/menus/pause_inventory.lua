@@ -247,8 +247,10 @@ function inventory_submenu:show_info_message()
   end
 
   self.game:set_custom_command_effect("action", nil)
+  self.game:set_custom_command_effect("attack", nil)
   map:start_dialog("_item_description." .. item_name .. "." .. variant, function()
     self.game:set_custom_command_effect("action", "info")
+    self.game:set_custom_command_effect("attack", "save")
     map:set_dialog_position(0)  -- Back to automatic position.
   end)
 
