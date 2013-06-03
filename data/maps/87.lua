@@ -46,7 +46,7 @@ function solarus_child:on_interaction()
           end)
         end)
       end)
-    end, 0)
+    end, 1000, 86400000)
   end
 end
 

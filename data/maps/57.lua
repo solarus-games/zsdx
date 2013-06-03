@@ -99,8 +99,8 @@ function map:on_obtained_treasure(item, variant, savegame_variable)
               end)
 	    end)
 	  end)
-	end)
-      end)
+        end)
+      end, 1000, 86400000)
     end)
   end
 end
