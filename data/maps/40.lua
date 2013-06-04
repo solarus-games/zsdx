@@ -3,6 +3,12 @@ local map = ...
 -- Dungeon 3 1F.
 
 local remove_water_delay = 500  -- delay between each step when some water is disappearing
+local remove_c_water
+local remove_c_water_2
+local remove_c_water_3
+local remove_c_water_4
+local remove_c_water_5
+local remove_c_water_6
 
 -- Returns whether all five torches are on
 local function are_all_torches_on()
@@ -25,38 +31,38 @@ local function lock_torches()
   torch_5:remove()
 end
 
-local function remove_c_water()
+function remove_c_water()
   sol.audio.play_sound("water_drain_begin")
   sol.audio.play_sound("water_drain")
   c_water_tile_out:set_enabled(true)
   c_water_tile_source:set_enabled(false)
-  sol.timer.start(remove_water_delay, remove_c_water_2)
+  sol.timer.start(map, remove_water_delay, remove_c_water_2)
 end
 
-local function remove_c_water_2()
+function remove_c_water_2()
   c_water_tile_middle:set_enabled(false)
-  sol.timer.start(remove_water_delay, remove_c_water_3)
+  sol.timer.start(map, remove_water_delay, remove_c_water_3)
 end
 
-local function remove_c_water_3()
+function remove_c_water_3()
   c_water_tile:set_enabled(false)
   c_water_tile_less_1:set_enabled(true)
-  sol.timer.start(remove_water_delay, remove_c_water_4)
+  sol.timer.start(map, remove_water_delay, remove_c_water_4)
 end
 
-local function remove_c_water_4()
+function remove_c_water_4()
   c_water_tile_less_1:set_enabled(false)
   c_water_tile_less_2:set_enabled(true)
-  sol.timer.start(remove_water_delay, remove_c_water_5)
+  sol.timer.start(map, remove_water_delay, remove_c_water_5)
 end
 
-local function remove_c_water_5()
+function remove_c_water_5()
   c_water_tile_less_2:set_enabled(false)
   c_water_tile_less_3:set_enabled(true)
-  sol.timer.start(remove_water_delay, remove_c_water_6)
+  sol.timer.start(map, remove_water_delay, remove_c_water_6)
 end
 
-local function remove_c_water_6()
+function remove_c_water_6()
   c_water_tile_less_3:set_enabled(false)
   map:set_entities_enabled("c_water_on_jumper", false)
   map:set_entities_enabled("c_water_off_obstacle", true)
