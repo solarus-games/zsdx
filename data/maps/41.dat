@@ -505,7 +505,7 @@ dynamic_tile{
   y = 888,
   width = 16,
   height = 16,
-  name = "se_water_tile_tile_out",
+  name = "se_water_tile_out",
   pattern = 402,
   enabled_at_start = false,
 }
