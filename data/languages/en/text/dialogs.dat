@@ -9,6 +9,7 @@
 -- * Christopho
 -- * JeFF
 -- * rypervenche
+-- * bcallah@openbsd.org
 
 -- ****** Please respect the limit of each line! ******
 -- 23 chars for normal lines,
@@ -177,7 +178,7 @@ dialog{
   icon = 9,
   skip = "all",
   text = [[
-Drink Red Potion
+Drink the Red Potion
 to fill up your
 Heart Meter.
 ]]
@@ -190,7 +191,7 @@ dialog{
   icon = 10,
   skip = "all",
   text = [[
-Drink Green Potion
+Drink the Green Potion
 to fill up your
 Magic Meter.
 ]]
@@ -203,7 +204,7 @@ dialog{
   icon = 11,
   skip = "all",
   text = [[
-Drink Blue Potion
+Drink the Blue Potion
 to fill up both your
 Heart and Magic
 Meters!
@@ -261,7 +262,7 @@ dialog{
   icon = 9,
   skip = "all",
   text = [[
-Drink Red Potion
+Drink the Red Potion
 to fill up your
 Heart Meter.
 ]]
@@ -274,7 +275,7 @@ dialog{
   icon = 10,
   skip = "all",
   text = [[
-Drink Green Potion
+Drink the Green Potion
 to fill up your
 Magic Meter.
 ]]
@@ -287,7 +288,7 @@ dialog{
   icon = 11,
   skip = "all",
   text = [[
-Drink Blue Potion
+Drink the Blue Potion
 to fill up both your
 Heart and Magic
 Meters!
@@ -345,7 +346,7 @@ dialog{
   icon = 9,
   skip = "all",
   text = [[
-Drink Red Potion
+Drink the Red Potion
 to fill up your
 Heart Meter.
 ]]
@@ -358,7 +359,7 @@ dialog{
   icon = 10,
   skip = "all",
   text = [[
-Drink Green Potion
+Drink the Green Potion
 to fill up your
 Magic Meter.
 ]]
@@ -371,7 +372,7 @@ dialog{
   icon = 11,
   skip = "all",
   text = [[
-Drink Blue Potion
+Drink the Blue Potion
 to fill up both your
 Heart and Magic
 Meters!
@@ -429,7 +430,7 @@ dialog{
   icon = 9,
   skip = "all",
   text = [[
-Drink Red Potion
+Drink the Red Potion
 to fill up your
 Heart Meter.
 ]]
@@ -442,7 +443,7 @@ dialog{
   icon = 10,
   skip = "all",
   text = [[
-Drink Green Potion
+Drink the Green Potion
 to fill up your
 Magic Meter.
 ]]
@@ -455,7 +456,7 @@ dialog{
   icon = 11,
   skip = "all",
   text = [[
-Drink Blue Potion
+Drink the Blue Potion
 to fill up both your
 Heart and Magic
 Meters!
@@ -567,7 +568,7 @@ dialog{
   text = [[
 The Rock Key! But
 where is the right
-lock ?
+lock?
 ]]
 }
 --------------------
@@ -682,7 +683,7 @@ dialog{
   skip = "all",
   text = [[
 The Iron Key.
-Be sure to use it in
+Be sure to use it on
 the correct lock!
 ]]
 }
@@ -912,7 +913,7 @@ dialog{
   id = "_treasure.bottle_1.3",
   icon = 9,
   text = [[
-You found some Red
+You found a Red
 Potion!$0
 
 Drink it to recover
@@ -926,7 +927,7 @@ dialog{
   id = "_treasure.bottle_1.4",
   icon = 10,
   text = [[
-You found some
+You found a
 Green Potion!$0
 
 Drink it to recover
@@ -940,7 +941,7 @@ dialog{
   id = "_treasure.bottle_1.5",
   icon = 11,
   text = [[
-You found some 
+You found a
 Blue Potion!$0
 
 Drink it to fully
@@ -997,8 +998,8 @@ dialog{
   id = "_treasure.bottle_2.3",
   icon = 9,
   text = [[
-You found some Red
-Potion!$0
+You found a
+Red Potion!$0
 
 Drink it to recover
 your health.
@@ -1011,7 +1012,7 @@ dialog{
   id = "_treasure.bottle_2.4",
   icon = 10,
   text = [[
-You found some
+You found a
 Green Potion!$0
 
 Drink it to recover
@@ -1025,7 +1026,7 @@ dialog{
   id = "_treasure.bottle_2.5",
   icon = 11,
   text = [[
-You found some 
+You found a
 Blue Potion!$0
 
 Drink it to fully
@@ -1083,8 +1084,8 @@ dialog{
   id = "_treasure.bottle_3.3",
   icon = 9,
   text = [[
-You found some Red
-Potion!$0
+You found a
+Red Potion!$0
 
 Drink it to recover
 your health.
@@ -1097,7 +1098,7 @@ dialog{
   id = "_treasure.bottle_3.4",
   icon = 10,
   text = [[
-You found some
+You found a
 Green Potion!$0
 
 Drink it to recover
@@ -1111,7 +1112,7 @@ dialog{
   id = "_treasure.bottle_3.5",
   icon = 11,
   text = [[
-You found some 
+You found a
 Blue Potion!$0
 
 Drink it to fully
@@ -1168,8 +1169,8 @@ dialog{
   id = "_treasure.bottle_4.3",
   icon = 9,
   text = [[
-You found some Red
-Potion!$0
+You found a
+Red Potion!$0
 
 Drink it to recover
 your health.
@@ -1182,7 +1183,7 @@ dialog{
   id = "_treasure.bottle_4.4",
   icon = 10,
   text = [[
-You found some
+You found a
 Green Potion!$0
 
 Drink it to recover
@@ -1196,7 +1197,7 @@ dialog{
   id = "_treasure.bottle_4.5",
   icon = 11,
   text = [[
-You found some 
+You found a
 Blue Potion!$0
 
 Drink it to fully
@@ -1293,7 +1294,7 @@ Chocolate Croissant!$0
 
 Eat a Chocolate
 Croissant to recover
-some life.
+some Hearts.
 ]]
 }
 --------------------
@@ -1304,8 +1305,8 @@ dialog{
   icon = 18,
   text = [[
 You found a
-Croissant!$0 It's
-all crispy! Eat a
+Croissant!$0 
+It's crispy! Eat a
 Croissant to recover
 Hearts.
 ]]
@@ -1359,8 +1360,8 @@ dialog{
 You found an Apple
 Pie!$0
 $1...$3 Hmmm, I
-wouldn't taste it
-if I were you, it
+wouldn't eat it if
+I were you, it
 looks odd...
 ]]
 }
@@ -1403,8 +1404,8 @@ dialog{
   icon = 25,
   text = [[
 You found the Tiger
-Scrolls!$0 You now
-master the long
+Scrolls!$0 You've now
+mastered the long
 forgotten Whirlwind
 Attack.
 ]]
@@ -1530,8 +1531,8 @@ dialog{
   id = "_treasure.fire_stone.1",
   icon = 34,
   text = [[
-You found a Fire
-Stone!
+You found a
+Fire Stone!
 ]]
 }
 --------------------
@@ -1555,8 +1556,8 @@ dialog{
   id = "_treasure.rupee_bag.2",
   icon = 52,
   text = [[
-You found the Big
-Wallet!$0
+You found the
+Big Wallet!$0
 
 It can hold up to
 300 Rupees!
@@ -1569,8 +1570,8 @@ dialog{
   id = "_treasure.rupee_bag.3",
   icon = 53,
   text = [[
-You found the Giant
-Wallet!$0
+You found the
+Giant Wallet!$0
 
 It can hold up to
 999 Rupees!
@@ -1587,7 +1588,7 @@ dialog{
 You found the Bomb
 Bag!$0 It holds 10
 Bombs.
-Assign them to a key
+Assign it to a key
 and bombs away!
 ]]
 }
@@ -1656,8 +1657,8 @@ dialog{
   id = "_treasure.tunic.2",
   icon = 61,
   text = [[
-You found the Blue
-Mail!$0
+You found the
+Blue Mail!$0
 It reduces damage
 taken from enemies
 and resists freezing
@@ -1671,8 +1672,8 @@ dialog{
   id = "_treasure.tunic.3",
   icon = 62,
   text = [[
-You found the Red
-Mail!$0
+You found the
+Red Mail!$0
 
 It provides even
 better protection
@@ -1725,13 +1726,14 @@ lasers!
 }
 --------------------
 
+--#The second half needs a rewrite...
 -- Epée 1 (Epée du courage) / First Sword
 dialog{
   id = "_treasure.sword.1",
   icon = 66,
   text = [[
-You found the Sword
-of Courage!$0
+You found the
+Sword of Courage!$0
 
 You can cross swords
 and confront your
@@ -1784,10 +1786,10 @@ dialog{
   text = [[
 You found the
 Master Sword!$0
-The power of
-this ultimate
-sword is beyond
-everything...
+The power of this
+ultimate sword is
+beyond anything you
+have ever seen!
 ]]
 }
 --------------------
@@ -2016,7 +2018,7 @@ dialog{
 You found a Small
 Magic Jar! Your
 Magic Meter is
-slightly filled.
+refilled a bit.
 ]]
 }
 --------------------
@@ -2029,7 +2031,7 @@ dialog{
 You found a Large
 Magic Jar! Your
 Magic Meter is
-greatly filled.
+greatly refilled.
 ]]
 }
 --------------------
@@ -2039,8 +2041,8 @@ dialog{
   id = "_treasure.rupee.1",
   icon = 90,
   text = [[
-You found a Green
-Rupee!
+You found a
+Green Rupee!
 That's one Rupee!
 ]]
 }
@@ -2051,8 +2053,8 @@ dialog{
   id = "_treasure.rupee.2",
   icon = 91,
   text = [[
-You found a Blue
-Rupee!
+You found a
+Blue Rupee!
 That's 5 Rupees!
 ]]
 }
@@ -2063,8 +2065,8 @@ dialog{
   id = "_treasure.rupee.3",
   icon = 92,
   text = [[
-You found a Red
-Rupee!
+You found a
+Red Rupee!
 That's 20 Rupees!
 ]]
 }
@@ -2111,8 +2113,8 @@ dialog{
   id = "_treasure.red_potion.1",
   icon = 96,
   text = [[
-You found some Red
-Potion!$0
+You found a
+Red Potion!$0
 
 Drink it to
 completely restore
@@ -2126,8 +2128,8 @@ dialog{
   id = "_treasure.green_potion.1",
   icon = 97,
   text = [[
-You found some Green
-Potion!$0
+You found a
+Green Potion!$0
 
 Drink it to
 completely restore
@@ -2141,8 +2143,8 @@ dialog{
   id = "_treasure.blue_potion.1",
   icon = 98,
   text = [[
-You found some Blue
-Potion!$0
+You found a
+Blue Potion!$0
 
 Drink it to restore
 both your life and
@@ -2197,7 +2199,7 @@ dialog{
   icon = 73,
   skip = "all",
   text = [[
-Eh? It's locked!
+Huh? It's locked!
 If you had the Large
 Key you might be
 able to open it!
@@ -2291,7 +2293,8 @@ have enough Rupees!
 dialog{
   id = "_shop.amount_full",
   text = [[
-You are already full!
+You can't carry any
+more!
 ]]
 }
 -----------------------
@@ -2473,8 +2476,8 @@ dialog{
   text = [[
 Your Magic Bottle is
 filled with water.
-What do you
-want to do?
+Do you want to pour
+it out?
 Pour water
 Keep it
 ]]
@@ -2574,14 +2577,14 @@ sorceror named Agahnim
 fought back the
 darkness. Acclaimed by
 the people, the King
-entrusted him with a
-high-ranking status.
+entrusted him with
+protecting Hyrule.
 However, the sorceror
 was in fact plotting
 against the royal
 family. He tried to
 bring back Ganondorf,
-King of thieves, from a
+King of Thieves, from a
 forgotten time.
 ]]
 }
@@ -2596,7 +2599,7 @@ $2It is said that a young
 man dressed in green
 went on a quest,
 exploring lost temples,
-traveling through
+traveling through the
 plains and valleys.
 ]]
 }
@@ -2643,14 +2646,13 @@ dialog{
   text = [[
 $2But a few years
 later, Hyrule's King
-became ill beyond
-any chance of curing.
+became gravely ill.
 Doctors from across
 the kingdom tried to
 cure him but to no
 avail... The King
-vanished and so did
-his power. The seal
+passed and his power
+vanished. The seal
 of the Seven Sages
 weakened once again.
 ]]
@@ -2667,13 +2669,13 @@ guidance of his master
 Sahasrahla, trusted
 the heiress of the
 royal powers, Princess
-Zelda with the
+Zelda, with the
 Triforce.
 Zelda teamed with eight
 mysterious children to
 shatter the Triforce
 into eight fragments
-and to conceal them
+and conceal them
 across the kingdom.
 Peace was restored.
 
@@ -2702,8 +2704,7 @@ dialog{
   id = "outside_world.village.monkey",
   next = "_unknown",
   text = [[
-Help! Everyone is
-afraid tonight!
+Help!
 
 The village has been
 surrounded by
@@ -2715,8 +2716,8 @@ monsters!
 dialog{
   id = "outside_world.village.monkey.without_shield",
   text = [[
-I don't know what is
-happening, but I
+I don't know what's
+going on, but I
 wouldn't leave town
 without protection if
 I were you.
@@ -2728,8 +2729,8 @@ I were you.
 dialog{
   id = "outside_world.village.monkey.with_shield",
   text = [[
-I don't know what is
-happening, but you are
+I don't know what's
+going on, but you are
 right to at least have
 a Shield with you...
 Be careful!
@@ -2743,7 +2744,7 @@ dialog{
   skip = "current",
   text = [[
 If you do not know
-what to do at one
+what to do at some
 point in your journey,
 you should go see
 Grandma Lyly. She
@@ -2764,9 +2765,10 @@ dialog{
   skip = "all",
   text = [[
 When the blue icon
-appears, it tells what
-you can do by pressing
-the Action key (space).
+appears, it tells you
+what action pressing
+the Action key (space)
+will perform.
 Depending on what you
 are examining, it will
 trigger several actions
@@ -2838,7 +2840,7 @@ There is supposed to be
 a treasure hidden by
 the waterfall behind
 the ancient castle.
-Do you believe it's
+Do you believe that's
 true ?
 ]]
 }
@@ -2896,8 +2898,8 @@ dialog{
   id = "outside_world.village.letter_box",
   skip = "all",
   text = [[
-Don't start looking
-into what's not yours!
+Don't look at letters
+that aren't yours!
 ]]
 }
 -----------------------
@@ -2953,7 +2955,7 @@ icons say. Don't forget
 that you can customize
 the controls in the
 options screen, and
-that you can even play
+you can even play
 with a gamepad!
 
 
@@ -2982,7 +2984,7 @@ dialog{
 Thank you for listening
 to the whole
 explanation!
-I am really thankful!
+I am really grateful!
 Here, you deserve this
 little gift.
 ]]
@@ -3002,7 +3004,7 @@ It's locked!
 dialog{
   id = "outside_world.warning_holes_sign",
   text = [[
-Beware of the holes!
+Beware of holes!
 ]]
 }
 -----------------------
@@ -3027,8 +3029,8 @@ dialog{
   text = [[
 The hole close to the
 flower isn't as
-dangerous as it looks
-like...
+dangerous as it
+looks...
 ]]
 }
 -----------------------
@@ -3269,7 +3271,7 @@ dialog{
   id = "rupee_house.game_2.choose_bet",
   question = true,
   text = [[
-How much do you bet?
+How much will you bet?
 5 Rupees
 20 Rupees
 ]]
@@ -3317,7 +3319,7 @@ dialog{
   id = "rupee_house.game_2.reward.green_rupees",
   text = [[
 Three green Rupees,
-nice! You get 5 times
+nice! You win 5 times
 your bet.
 ]]
 }
@@ -3330,7 +3332,7 @@ dialog{
 Three blue Rupees!
 Congratulations, you
 are off with 7 times
-your initial bet!
+your bet!
 ]]
 }
 -----------------------
@@ -3341,8 +3343,8 @@ dialog{
   text = [[
 Three red Rupees!!!
 That's astonishing!
-You earn no less than
-10 times your bet!
+You earn 10 times
+your bet!
 ]]
 }
 -----------------------
@@ -3369,8 +3371,8 @@ $1...$3Three Yoshi?!
 I-n-c-r-e-d-i-b-l-e!
 That's the best
 possible combination...
-Your initial bet is
-multiplied by 20.
+You win 20 times what
+you bet!
 ]]
 }
 -----------------------
@@ -3381,7 +3383,8 @@ dialog{
   question = true,
   text = [[
 Tough luck, you didn't
-make any combination.
+make a winning
+combination.
 
 Want to try again?
 Yes
@@ -3396,9 +3399,9 @@ dialog{
   question = true,
   text = [[
 Navigate through the
-maze before the time
-is out. You may have
-to push blocks along
+maze before time runs
+out. You may have to
+push blocks along
 the way to open up a
 passage. You could win
 a Piece of Heart, and 
@@ -3448,10 +3451,10 @@ dialog{
   id = "rupee_house.game_3.restart_question",
   question = true,
   text = [[
-You want to restart
-from the beginning?
+Do you want to try
+again?
 
-That will be 10 rupees.
+That will be 10 Rupees.
 Yes
 No
 ]]
@@ -3473,7 +3476,7 @@ dialog{
   id = "rupee_house.pay_first",
   text = [[
 Hey! You have to pay if
-you want to play here!
+you want to play!
 ]]
 }
 -----------------------
@@ -3490,14 +3493,13 @@ robbed!
 ]]
 }
 -----------------------
-
 -- Maison des rubis dévalisée (PNJ du milieu)
 dialog{
   id = "rupee_house_broken.help_us_middle",
   text = [[
 The bandits stole
-the Rupees used to
-pay the gains!
+the Rupees used for
+payout!
 ]]
 }
 -----------------------
@@ -3542,7 +3544,7 @@ dialog{
   text = [[
 Monsters are lurking
 in the field. That's
-not a good sign: I am
+not a good sign; I am
 certain that something
 terrible has happened.
 
@@ -3571,12 +3573,12 @@ can slash through the
 bushes protecting the
 village. You are
 looking for Sahasrahla
-the Ancient, are you
-not?
+the Ancient, aren't
+you?
 His house is southwest
 of here, close to the
-bakery. You did not
-remember that?
+bakery. You don't
+remember?
 ]]
 }
 -----------------------
@@ -3604,9 +3606,9 @@ One of the four
 children who was
 kidnapped may be held
 in a gloomy dungeon in
-the forest down south
-to the village. What
-are YOU waiting for?
+the forest south of
+the village. What are
+you waiting for?
 ]]
 }
 -----------------------
@@ -3616,10 +3618,10 @@ dialog{
   id = "grandma_house.go_back_sahasrahla",
   skip = "all",
   text = [[
-This time it goes
-beyond my knowledge.
-Sahasrahla would be
-of better help.
+I can't help you, I
+don't know.
+Sahasrahla should be
+able to help.
 ]]
 }
 -----------------------
@@ -3635,7 +3637,7 @@ access the twin caves
 to the south, and
 unveil the secrets
 they withhold.
-Go for them!
+Go for it!
 ]]
 }
 -----------------------
@@ -3658,16 +3660,16 @@ dialog{
   id = "grandma_house.go_telepathic_booth",
   skip = "all",
   text = [[
-What is that you say?
+What's that you say?
 I can't hear you well!
-Come my age, my ears
+With my age, my ears
 are not working as
 well as they used to...
 How about communicating
 through telepathy?
 Modern and more
-convenient for my
-elder body.
+convenient for this
+old body.
 ]]
 }
 -----------------------
@@ -3678,14 +3680,14 @@ dialog{
   text = [[
 Agahnim seized control
 of the kingdom...
-Evil grows along his
+Evil is sowed along his
 path. One of the
 castle's soldiers, Tom,
 is considered guilty of
 having taken Sahasrahla
 away, but that is not
 possible!
-Moreover some culprits
+Moreover, some culprits
 ransacked the Rupee
 House!
 ]]
@@ -3724,7 +3726,7 @@ $v, do you hear me?
 It's Grandma Lyly!
 Telepathy, it works!
 Something tells me that
-the twin caves south to
+the twin caves south of
 the forest dungeon,
 hide an important
 treasure...
@@ -3787,16 +3789,16 @@ $v, do you hear me?
 It's Grandma Lyly!
 Telepathy, it works!
 But times are hard.
-Desolation has spread
-across the devastated
-kingdom... It is as if
-life itself had come
-to a halt.
+Devastation has spread
+across the kingdom...
+It is as if life itself
+has come to a halt.
 Except for the town's
 shop! Ever since they
-only sell weapons for
-survival and are making
-real Rupees!
+started selling only
+weapons for survival,
+they're making real
+Rupees!
 ]]
 }
 -----------------------
@@ -3812,8 +3814,8 @@ bare hands.
 You can have it for
 only 75 Rupees!
 
-With your shield alone
-you won't get far.
+You won't get very far
+with just that shield.
 
 So, interested?
 Yes
@@ -3911,8 +3913,9 @@ dialog{
   id = "lyriann_shop.heart",
   next = "_unknown",
   text = [[
-A Heart to be used
-right now.
+Refills one Heart, used
+immediately upon
+purchase.
 ]]
 }
 -----------------------
@@ -4035,7 +4038,7 @@ dialog{
   id = "cake_shop.not_enough_apples",
   text = [[
 Oh, you don't have
-eneough apples... Come
+enough apples... Come
 back later then.
 ]]
 }
@@ -4078,15 +4081,15 @@ Oh, $v, you heard my
 call.
 I have important things
 to say. We are in
-critical times.
+trying times.
 Four of the eight
-Solarus' children have
+Solarus children have
 been kidnapped...
 I fear the Triforce is
 in great danger.
 Someone wants to
 benefit from the King's
-death and get ahold of
+death and get a hold of
 the Triforce.
 Who could have done
 that?
@@ -4157,7 +4160,7 @@ dialog{
   text = [[
 Here's a little item
 that you will find
-useful on your tale...
+useful on your quest...
 ]]
 }
 -----------------------
@@ -4168,7 +4171,7 @@ dialog{
   text = [[
 You should check out
 the cave, I store some
-objects that you could
+things that you could
 use. Nothing too fancy
 I guess, it's been a
 while since I went back
@@ -4262,7 +4265,7 @@ dialog{
   id = "sahasrahla_house.frozen_door",
   skip = "all",
   text = [[
-This door is frozen.
+The door is frozen.
 There must be a way to
 melt the ice!
 ]]
@@ -4515,7 +4518,7 @@ Princess Zelda. We are
 devoted to watching
 over the remains of the
 holy relic, the
-Triforce, creed left by
+Triforce, left by
 the three goddesses
 after the creation of
 your world. Throughout
@@ -4602,9 +4605,8 @@ who watch over justice,
 allow me to present you
 with this gift...
 
-You have proven in the
-past that you deserve
-it.
+You have proven that
+you deserve it.
 ]]
 }
 -----------------------
@@ -4679,7 +4681,7 @@ dialog{
   text = [[
 Patience is the virtue
 of a true hero.
- - Author unknown (?) -
+    - Author unknown -
 ]]
 }
 -----------------------
@@ -4736,10 +4738,12 @@ every danger, and
 walked away unscathed.
 
 
-It is heroically so
-that I found this
-flower of extreme
-value: an edelweiss!
+It is a great
+demonstration of my
+heroism that I found
+this flower of
+extreme value:
+an edelweiss!
 ]]
 }
 -----------------------
@@ -4836,9 +4840,10 @@ dialog{
   id = "outside_world.surprise_wall_guy.closed",
   text = [[
 If you give me
-something to eat, I'll
-let you on the other
-side of this wall.
+something to eat,
+I'll give you entry to
+the other side of
+this wall.
 ]]
 }
 -----------------------
@@ -4948,19 +4953,17 @@ dialog{
   id = "lake_shop.bombs",
   text = [[
 Eight bombs. I'll give
-them to you at cost
-price!
+them to you at cost!
 ]]
 }
 -----------------------
---#Perhaps a better translation out there? "ratio" maybe?
 
 dialog{
   id = "lake_shop.arrows",
   text = [[
 Ten arrows, an
-excellent value for its
-price.
+excellent value for the
+price!
 ]]
 }
 -----------------------
@@ -4969,8 +4972,7 @@ dialog{
   id = "lake_shop.big_magic_flask",
   text = [[
 Special offer:
-a jar of magic
-energy.
+a jar of magic energy.
 ]]
 }
 -----------------------
@@ -5120,9 +5122,9 @@ Standard Arrows.
 dialog{
   id = "junk_shop.red_rupee",
   text = [[
-A special offer Red
-Rupee, but it's the
-floor model.
+A special offer on a
+Red Rupee, but it's
+the floor model.
 ]]
 }
 -----------------------
@@ -5220,7 +5222,7 @@ dialog{
 .....$0..................
 
 How did you get here?
-You are walking on
+You are walking in
 a forbidden area!
 ]]
 }
@@ -5267,8 +5269,7 @@ Tom, one of our best
 soldiers, has
 mysteriously
 disappeared while he
-was gone exploring a
-cave.
+was exploring a cave.
 ]]
 }
 -----------------------
@@ -5300,7 +5301,7 @@ dialog{
   skip = "all",
   text = [[
 What a magnificent
-barrel!
+cannon!
 You had better not be
 an enemy of the King!
 ]]
@@ -5335,7 +5336,7 @@ dialog{
   skip = "current",
   text = [[
 You will endure three
-courage ordeals.
+trials of courage.
 
 River.
 $0Mountain.
@@ -5355,10 +5356,11 @@ dialog{
   question = true,
   text = [[
 You made it through
-the three ordeals with
-success! Your bravery
-is truly unique, I must
-bow down before it.
+the three trials
+successfully! Your
+bravery is truly unique,
+I must bow down before
+you.
 I will grant you
 anything you wish.
 
@@ -5510,8 +5512,7 @@ dialog{
   skip = "all",
   text = [[
 Only by repelling light
-will then shine light
-anew.
+will light shine anew.
 ]]
 }
 -----------------------
@@ -5520,7 +5521,7 @@ dialog{
   id = "hidden_palace.door_closed",
   skip = "all",
   text = [[
-This door won't open...
+The door won't open...
 ]]
 }
 -----------------------
@@ -5599,7 +5600,7 @@ dialog{
   text = [[
 KARGHHH!!! I have been
 defeated, but you won't
-go far...
+get far...
 You will
 never succeed...
 ]]
@@ -5613,7 +5614,7 @@ $2$v... Thank you.
 You saved my life.
 Thanks to you, this
 horrible creature will
-not never trouble the
+never trouble the
 Kingdom again.
 I am one of the eight
 protectors called forth
@@ -5647,8 +5648,7 @@ dialog{
   id = "dungeon_4.hint_use_map",
   text = [[
 When the exits do not
-appear upon you, use
-the map.
+appear, use the map.
 ]]
 }
 -----------------------
@@ -5683,7 +5683,7 @@ I am one of the eight
 protectors called forth
 by Princess Zelda.
 You have demonstrated
-a remarkable courage.
+remarkable courage.
 Thanks to you, we are
 now all together again,
 and the Triforce is
@@ -5700,7 +5700,7 @@ dialog{
   id = "dungeon_4.agahnim",
   text = [[
 $1A G A H N I M !
-$3Yes, himself!
+$3It's him!
 
 The sorcerer back from
 the land of the dead!!!
@@ -5713,14 +5713,14 @@ him outside by saying
 that the Triforce is
 safe...
 Ah ah ah ah ah ah!!!
-Acknowledge, young man,
+Realize, young man,
 that I did not come
 back to free the
 despicable Ganon, he
 who once dared call me
 his alter ego...
 I would rather leave
-that filthy culprit
+that filthy thief
 sealed away in his
 Dark World! Thus I can
 keep the Triforce for
@@ -5815,14 +5815,13 @@ work.
 ]]
 }
 -----------------------
---#May need to be prettied up
 
 dialog{
   id = "dungeon_5.prison_2_locked_3",
   text = [[
 Perhaps there is a way
-to force open this old
-lock...
+to force this old lock
+open...
 ]]
 }
 -----------------------
@@ -5841,10 +5840,9 @@ dialog{
   id = "dungeon_5.agahnim_beginning",
   text = [[
 You were able to pass
-through the security of
-my guards and avoid the
-traps laid in the
-castle.
+through my guards and
+avoid the traps laid
+in the castle.
 I don't care, your
 flight ends here!
 ]]
@@ -5937,10 +5935,10 @@ I was under Agahnim's
 control...
 He cast a spell on me
 and I lost my free
-will... There is
+will... There was
 nothing I could do...
 When the spell broke I
-realised what had
+realized what had
 happened... Thus I
 decided to retire to
 the cave where we first
@@ -6000,7 +5998,7 @@ beneath your soles...
 dialog{
   id = "dungeon_7.2f_dont_fall_alone_hint",
   text = [[
-The solution was to not
+The solution is to not
 fall alone.
 ]]
 }
@@ -6014,12 +6012,12 @@ You saved my life.
 
 Had I only been able
 to resist a while
-more...
-Those culprits coaxed
-me into revealing the
+longer...
+They coaxed me into
+revealing the
 location of Zelda and
 the Solarus children.
-Protect them from all
+Protect them from
 danger, before
 something dreadful
 happens...
@@ -6090,7 +6088,7 @@ dialog{
   skip = "current",
   text = [[
 If you are stuck, fight
-the spades with spades.
+spades with spades.
 ]]
 }
 -----------------------
@@ -6102,13 +6100,13 @@ You did not think you
 would find your old
 buddy Billy the
 Reckless, greatest
-hero of all times?!
+hero of all time?!
 The princess and the
 eight children are not
 here anymore.
-They did find shelter
+They found shelter
 in my palace, but I
-took the responsability
+took the responsibility
 of handing them to
 Agahnim...
 
@@ -6184,15 +6182,14 @@ considering it made him
 free me, the dark times
 are not over! As a
 reward for your work,
-you, the Princess as
-well as the eight
-children, are invited
-to join me in my
-palace. I will take
-the Triforce back and
-you shall be the first
-to witness this amazing
-event.
+you, the Princess,
+and the eight children
+are invited to join me
+in my palace. I will
+take the Triforce back
+and you shall be the
+first to witness this
+amazing event.
 Let your spirit travel
 freely...
 ]]
@@ -6259,7 +6256,7 @@ lit clockwise.
 dialog{
   id = "dungeon_9.boss",
   text = [[
-There you are, young
+There you are, little
 weakling.
 
 I have been waiting
@@ -6276,9 +6273,9 @@ dialog{
   id = "dungeon_9.zelda",
   text = [[
 $1$v... Thank you.
-Your victory on evil
+Your victory over evil
 shows once again that
-wisdom and justice
+wisdom and justice will
 always triumph over
 the forces of evil.
 Thanks to your
@@ -6304,9 +6301,9 @@ restore the Triforce
 from its fragments.
 Even if it is for a
 good purpose as you
-once used it, the evil
+once used it, evil
 will always try to
-reach for it, like
+obtain it, like
 Agahnim and Ganondorf.
 With the power of the
 eight beings created
@@ -6330,7 +6327,7 @@ Solarus has vanished
 forever.
 The Triforce will
 remain sealed until
-time ends.
+the end of time.
 ]]
 }
 -----------------------
@@ -6401,6 +6398,7 @@ $1        English
 Alex_XelA$0
 Rypervenche$0
 Jeff$0
+bcallah@openbsd.org$0
 ]]
 }
 -----------------------
