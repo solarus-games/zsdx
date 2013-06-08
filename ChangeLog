@@ -1,6 +1,7 @@
 zsdx-1.6 (under development)
 
-* Use solarus 1.0.0.
+* Use solarus 1.0.2.
+* Improve the English translation.
 * Fix a door bug that could get the hero stuck in empty rooms.
 * Dungeon 1: keep the final door open when coming back in the boss room.
 * Dungeon 7 2F: save the nort-west torches.

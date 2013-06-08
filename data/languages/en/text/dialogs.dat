@@ -4293,7 +4293,7 @@ were still here to
 protect it...
 You're trying to solve
 the mysteries of this
-cavern?  This place is
+cavern? This place is
 overflowing with
 riddles, treasure, and
 danger. You seem very
@@ -4304,7 +4304,6 @@ I wasn't able to
 protect our King.
 Give me a chance to
 make it up!
-
 
 Do you accept my help?
 Yes
@@ -5364,7 +5363,6 @@ you.
 I will grant you
 anything you wish.
 
-
 What do you want?
 The black stones...
 100 Rupees?
@@ -6395,9 +6393,8 @@ Christopho$0
 $1        English
      localization :$0
 
-Alex_XelA$0
+Alex_XelA$0          Jeff$0
 Rypervenche$0
-Jeff$0
 bcallah@openbsd.org$0
 ]]
 }
