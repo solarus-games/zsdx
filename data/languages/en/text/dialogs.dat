@@ -5647,8 +5647,8 @@ dialog{
 dialog{
   id = "dungeon_4.hint_use_map",
   text = [[
-When the exits do not
-appear, use the map.
+If you do not see the
+exits, use the map.
 ]]
 }
 -----------------------
