@@ -4131,6 +4131,7 @@ dialog{
   text = [[
 $v, I must insist.
 You are the only hope
+
 for the kingdom...
 Alright
 No way
@@ -4301,7 +4302,6 @@ I wasn't able to
 protect our King.
 Give me a chance to
 make it up!
-
 Do you accept my help?
 Yes
 No
@@ -5945,6 +5945,7 @@ in jail while trying
 to resist when Agahnim
 seized control of the
 castle...
+
 $v... You must now
 travel to Mount Terror.
 Agahnim went there
