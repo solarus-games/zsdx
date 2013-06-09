@@ -28,7 +28,7 @@ function se_door_switch:on_activated()
   end
 end
 
-function nc_door_switch:is_activated()
+function nc_door_switch:on_activated()
 
   if not nc_door:is_open() then
     sol.audio.play_sound("secret")
