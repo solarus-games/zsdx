@@ -913,8 +913,8 @@ dialog{
   id = "_treasure.bottle_1.3",
   icon = 9,
   text = [[
-You found a Red
-Potion!$0
+You found a
+Red Potion!$0
 
 Drink it to recover
 your health.
@@ -1368,7 +1368,6 @@ looks odd...
 --------------------
 
 -- Lingots d'or
---#Really need a better translation
 dialog{
   id = "_treasure.level_4_way.2",
   icon = 23,
@@ -1661,7 +1660,8 @@ You found the
 Blue Mail!$0
 It reduces damage
 taken from enemies
-and resists freezing
+and protects you
+from freezing
 temperatures...
 ]]
 }
@@ -1726,7 +1726,6 @@ lasers!
 }
 --------------------
 
---#The second half needs a rewrite...
 -- Epée 1 (Epée du courage) / First Sword
 dialog{
   id = "_treasure.sword.1",
@@ -1735,9 +1734,8 @@ dialog{
 You found the
 Sword of Courage!$0
 
-You can cross swords
-and confront your
-enemies!
+Use it to vanquish
+your enemies!
 ]]
 }
 --------------------
@@ -1760,8 +1758,8 @@ dialog{
   id = "_treasure.sword.2.1",
   text = [[
 is twice as
-powerful as the
-previous one!
+powerful as your
+old one!
 ]]
 }
 -----------------------
@@ -2348,9 +2346,9 @@ dialog{
   id = "found_piece_of_heart.first",
   icon = 75,
   text = [[
-Collect four pieces
-to obtain a new
-Heart.
+Collect four Pieces
+of Heart to obtain
+a new Heart.
 ]]
 }
 --------------------
@@ -2468,7 +2466,6 @@ it...
 --------------------
 
 -- Utiliser un Flacon contenant de l'eau
---#Not sure on question syntax here again
 dialog{
   id = "use_bottle_with_water",
   icon = 8,
@@ -2552,7 +2549,7 @@ kingdom called Hyrule
 that existed long ago.
 The kingdom prospered
 under the blessing of
-three goddesses
+three goddesses,
 represented in the form
 of the Triforce. Seven
 sages sealed the
@@ -2571,8 +2568,8 @@ dialog{
   text = [[
 $2Many generations
 later, an evil spell
-seemed to threaten
-Hyrule. A mysterious
+threatened Hyrule.
+A mysterious
 sorceror named Agahnim
 fought back the
 darkness. Acclaimed by
@@ -2645,7 +2642,7 @@ dialog{
   skip = "current",
   text = [[
 $2But a few years
-later, Hyrule's King
+later, the King
 became gravely ill.
 Doctors from across
 the kingdom tried to
@@ -3071,7 +3068,7 @@ Entry Forbidden!
 dialog{
   id = "outside_world.beaumont_hill_sign",
   text = [[
-He who will plant an
+He who plants an
 edelweiss at the top
 of the Beaumont Hill,
 will have a nice day.
@@ -3367,7 +3364,7 @@ The reward amounts to
 dialog{
   id = "rupee_house.game_2.reward.yoshi",
   text = [[
-$1...$3Three Yoshi?!
+$1...$3Three Yoshis?!
 I-n-c-r-e-d-i-b-l-e!
 That's the best
 possible combination...
@@ -3508,7 +3505,7 @@ payout!
 dialog{
   id = "rupee_house_broken.help_us_right",
   text = [[
-The culprits were
+The bandits were
 headed towards the
 blacksmith's cave!
 ]]
@@ -3549,7 +3546,7 @@ certain that something
 terrible has happened.
 
 You are looking for a
-sword? With my age, I
+sword? At my age, I
 wouldn't know what to
 do with such things...
 You had better go see
@@ -3618,8 +3615,8 @@ dialog{
   id = "grandma_house.go_back_sahasrahla",
   skip = "all",
   text = [[
-I can't help you, I
-don't know.
+I'm sorry, but I don't
+know.
 Sahasrahla should be
 able to help.
 ]]
@@ -3662,7 +3659,7 @@ dialog{
   text = [[
 What's that you say?
 I can't hear you well!
-With my age, my ears
+At my age, my ears
 are not working as
 well as they used to...
 How about communicating
@@ -3683,11 +3680,11 @@ of the kingdom...
 Evil is sowed along his
 path. One of the
 castle's soldiers, Tom,
-is considered guilty of
-having taken Sahasrahla
-away, but that is not
+is alleged to have
+taken Sahasrahla away,
+but that is not
 possible!
-Moreover, some culprits
+Moreover, some bandits
 ransacked the Rupee
 House!
 ]]
@@ -3713,7 +3710,7 @@ It's Grandma Lyly!
 Telepathy, it works!
 You should pay a visit
 to Sahasrahla, he has
-things for you.
+something for you.
 ]]
 }
 -----------------------
@@ -3726,8 +3723,8 @@ $v, do you hear me?
 It's Grandma Lyly!
 Telepathy, it works!
 Something tells me that
-the twin caves south of
-the forest dungeon,
+the twin caves, south
+of the forest dungeon,
 hide an important
 treasure...
 ]]
@@ -3938,7 +3935,8 @@ dialog{
   next = "_unknown",
   text = [[
 A larger Quiver.
-Useful in these times.
+Now you can carry
+more arrows!
 ]]
 }
 -----------------------
@@ -4105,11 +4103,8 @@ We must not let him
 acquire such power!
 I can feel the courage
 in you, $v.
-Do you feel capable of
-traveling through the
-most dangerous places
-of this land to rescue
-the children and to
+You must rescue the
+children and
 ]]
 }
 -----------------------
@@ -4123,7 +4118,7 @@ dialog{
   text = [[
 protect the Triforce?
 I am up to it!
-Never
+No thanks...
 ]]
 }
 -----------------------
@@ -4134,10 +4129,9 @@ dialog{
   next = "sahasrahla_house.beginning.thanks",
   next2 = "sahasrahla_house.beginning.insisting",
   text = [[
-$v, I must insist,
-you are our only hope
-to protect the
-kingdom...
+$v, I must insist.
+You are the only hope
+for the kingdom...
 Alright
 No way
 ]]
@@ -4155,12 +4149,13 @@ on your courage.
 }
 -----------------------
 
+--# "that will help you on your way" SMB3 quote :)
 dialog{
   id = "sahasrahla_house.give_world_map",
   text = [[
 Here's a little item
-that you will find
-useful on your quest...
+that you will help you
+on your way.
 ]]
 }
 -----------------------
@@ -4280,10 +4275,11 @@ dialog{
   text = [[
 Hello, young
 adventurer. I am Tom,
-an ex-guard of our late
-King. I didn't think
-anyone would find me
-here. What are you doing
+a former guard of our
+late King.
+I didn't think anyone
+would find me here.
+What are you doing
 in this gloomy cavern?
 What? The Triforce is
 in danger? $0None of
@@ -4415,8 +4411,8 @@ think you have found
 everything... If you
 don't mind, I'll be
 taking my Boomerang
-back. You need a level
-of skill to be able to
+back. You need some
+skill to be able to
 use it! Come see me
 again if you would like
 my help.
@@ -4439,7 +4435,7 @@ as you are courageous.
 
 If you don't mind, I'll
 be taking my Boomerang
-back.
+back now.
 ]]
 }
 -----------------------
@@ -4451,8 +4447,8 @@ back.
 dialog{
   id = "lyriann_cave.tom.see_you_later",
   text = [[
-If you like, I can come
-give you a hand during
+If you like, I can
+lend a hand during
 your adventures, if
 ever you are in need.
 ]]
@@ -4501,7 +4497,7 @@ dialog{
   id = "outside_world.tom_dungeon_1_entrance.finished",
   text = [[
 Be careful, it looks
-ominous in there.
+dangerous in there.
 ]]
 }
 -----------------------
@@ -4527,7 +4523,7 @@ source of life and
 prosperity, was also
 the source of great
 greed and constant
-struggles between the
+struggle between the
 forces of good and
 evil. Even today, the
 holy relic is in
@@ -4570,6 +4566,7 @@ pierced.
 }
 -----------------------
 
+--#"pierced with perseverance" doesn't make sense. talk about what weapon you need to use instead?
 dialog{
   id = "dungeon_2.eye_2_hint",
   skip = "all",
@@ -4731,7 +4728,7 @@ plant.
 I am the only living
 soul to have one in his
 possession. I cleared
-all of the obstacles of
+all of the obstacles on
 Mount Terror, faced
 every danger, and
 walked away unscathed.
@@ -4840,8 +4837,8 @@ dialog{
   text = [[
 If you give me
 something to eat,
-I'll give you entry to
-the other side of
+I'll grant you entry
+to the other side of
 this wall.
 ]]
 }
@@ -4980,7 +4977,8 @@ dialog{
   id = "chests_game_cave.first_time",
   next = "chests_game_cave.play_question",
   text = [[
-How did you get here??
+How did you get in
+here??
 
 
 ... Now that you're
@@ -5032,9 +5030,9 @@ Thanks! To play the
 game, just open one of
 the chests. Its
 contents are yours to
-keep. The grand prize
-of the day is a
-magnificent wooden key.
+keep. Today's
+Grand Prize is a
+magnificent wooden key!
 ]]
 }
 -----------------------
@@ -5047,9 +5045,9 @@ Thanks! To play the
 game, just open one of
 the chests. Its
 contents are yours to
-keep. The grand prize
-of the day is a
-Piece of Heart.
+keep. Today's
+Grand Prize is a
+Piece of Heart!
 ]]
 }
 -----------------------
@@ -5220,7 +5218,8 @@ dialog{
 ........$0....?!$#!@&=!??
 .....$0..................
 
-How did you get here?
+How did you get in
+here?
 You are walking in
 a forbidden area!
 ]]
@@ -5265,8 +5264,7 @@ dialog{
   skip = "all",
   text = [[
 Tom, one of our best
-soldiers, has
-mysteriously
+soldiers, mysteriously
 disappeared while he
 was exploring a cave.
 ]]
@@ -5357,13 +5355,14 @@ dialog{
 You made it through
 the three trials
 successfully! Your
-bravery is truly unique,
+bravery is truly
+astonishing!
 I must bow down before
 you.
 I will grant you
 anything you wish.
 
-What do you want?
+What would you like?
 The black stones...
 100 Rupees?
 ]]
@@ -5391,12 +5390,12 @@ dialog{
   id = "inferno.want_black_stones",
   text = [[
 Before you can lift
-these black stones,
+the black stones,
 you will have to
 survive in an infernal
 land, and overcome
 many dangers.
-Let me bring you to
+I shall send you to
 the hell of flames...
 ]]
 }
@@ -5610,7 +5609,7 @@ dialog{
   text = [[
 $2$v... Thank you.
 You saved my life.
-Thanks to you, this
+Thanks to you, that
 horrible creature will
 never trouble the
 Kingdom again.
@@ -5727,7 +5726,7 @@ only master...
 Ah ah ah ah ah!
 Upon leaving this room,
 you will witness my
-control over this
+control over the
 kingdom...
 Ah ah ah ah ah ah ah!
 Now you, young and
@@ -5837,12 +5836,13 @@ is activated...
 dialog{
   id = "dungeon_5.agahnim_beginning",
   text = [[
-You were able to pass
-through my guards and
+You were able to slip
+past my guards and
 avoid the traps laid
 in the castle.
-I don't care, your
-flight ends here!
+Impressive!
+Unfortunately for you,
+your journey ends here!
 ]]
 }
 -----------------------
@@ -5924,8 +5924,7 @@ since we last met.
 dialog{
   id = "dungeon_6.tom_revelation",
   text = [[
-$2I need to confess
-some serious facts...
+$2I must confess...
 Our king's death was
 not accidental.
 I poisoned him.
@@ -6015,8 +6014,8 @@ They coaxed me into
 revealing the
 location of Zelda and
 the Solarus children.
-Protect them from
-danger, before
+Please, protect them
+from danger, before
 something dreadful
 happens...
 They are hiding in a
@@ -6075,8 +6074,8 @@ dialog{
   text = [[
 Throw yourself into
 the depths of the
-dungeon and carry on
-your journey.
+dungeon and continue
+on your journey.
 ]]
 }
 -----------------------
@@ -6099,7 +6098,7 @@ would find your old
 buddy Billy the
 Reckless, greatest
 hero of all time?!
-The princess and the
+The Princess and the
 eight children are not
 here anymore.
 They found shelter
@@ -6125,12 +6124,12 @@ with all my other
 minions, could not end
 you, little parasite, I
 am making it a private
-matter. You will
-disappear once and for
+matter. You will be
+defeated once and for
 all. And then, finally,
 I will get my hands on
-the Triforce and extend
-my power to the whole
+the Triforce and
+conquer the whole
 world. Ah ah ah ah!
 ]]
 }
