@@ -4116,8 +4116,8 @@ dialog{
   next = "sahasrahla_house.beginning.thanks",
   next2 = "sahasrahla_house.beginning.insisting",
   text = [[
-protect the Triforce?
-I am up to it!
+protect the Triforce!
+You can count on me!
 No thanks...
 ]]
 }
@@ -4143,8 +4143,9 @@ dialog{
   id = "sahasrahla_house.beginning.thanks",
   next = "sahasrahla_house.give_world_map",
   text = [[
-I knew I could count
-on your courage.
+Thank you, courageous
+child. We put our
+faith in you!
 ]]
 }
 -----------------------
@@ -4154,7 +4155,7 @@ dialog{
   id = "sahasrahla_house.give_world_map",
   text = [[
 Here's a little item
-that you will help you
+that will help you
 on your way.
 ]]
 }
