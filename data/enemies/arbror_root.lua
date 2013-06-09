@@ -57,7 +57,7 @@ function enemy:go()
   end
 end
 
-function enemy:on_hurt(attack, life_points)
+function enemy:on_immobilized()
 
   if not self.immobilized then
     -- Tell Master Arbror that I am immobilized.
@@ -65,11 +65,6 @@ function enemy:on_hurt(attack, life_points)
       self.master_arbror:son_started_immobilized()
     end
   end
-end
-
-function enemy:on_immobilized()
-
-  -- Just immobilized.
   self.immobilized = true
   self:restart()  -- To stop the buit-in behavior of being immobilized.
 end

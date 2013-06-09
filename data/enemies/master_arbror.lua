@@ -127,7 +127,7 @@ end
 
 function enemy:son_started_immobilized()
 
-  if get_nb_sons_immobilized() < nb_sons_immobilized_needed then
+  if enemy:get_nb_sons_immobilized() < nb_sons_immobilized_needed then
     local animation = sprite:get_animation()
 
     if animation == "preparing_son" then
