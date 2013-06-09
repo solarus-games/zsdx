@@ -82,7 +82,7 @@ function enemy:create_son()
 
   local son_name = self:get_name() .. "_son_" .. (#sons + 1)
   local son = self:create_enemy(son_name, "arbror_root", x, 80)
-  son.master_arbor = self
+  son.master_arbror = self
   son.speed = 48 + (initial_life - self:get_life()) * 5
   sons[#sons + 1] = son
   sol.audio.play_sound("stone")
@@ -127,7 +127,7 @@ end
 
 function enemy:son_started_immobilized()
 
-  if get_nb_sons_immobilized() < nb_sons_immobilized_needed then
+  if enemy:get_nb_sons_immobilized() < nb_sons_immobilized_needed then
     local animation = sprite:get_animation()
 
     if animation == "preparing_son" then

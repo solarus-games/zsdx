@@ -51,13 +51,13 @@ end
 function enemy:go()
 
   if not self.immobilized then
-    local m = sol.movement.movement_create("path_finding")
+    local m = sol.movement.create("path_finding")
     m:set_speed(self.speed)
     m:start(self)
   end
 end
 
-function enemy:on_hurt(attack, life_points)
+function enemy:on_immobilized()
 
   if not self.immobilized then
     -- Tell Master Arbror that I am immobilized.
@@ -65,11 +65,6 @@ function enemy:on_hurt(attack, life_points)
       self.master_arbror:son_started_immobilized()
     end
   end
-end
-
-function enemy:on_immobilized()
-
-  -- Just immobilized.
   self.immobilized = true
   self:restart()  -- To stop the buit-in behavior of being immobilized.
 end
