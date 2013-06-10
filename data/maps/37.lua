@@ -3,32 +3,6 @@ local map = ...
 
 local billy_leave_step = 0
 
-local function give_croissant()
-
-  if map:get_game():get_item("croissants_counter"):has_amount(1) then
-    map:start_dialog("billy_cave.give_croissant")
-  else
-    map:start_dialog("billy_cave.give_croissant_without")
-  end
-end
-
-local function give_apple_pie()
-  if map:get_game():get_item("level_4_way"):get_variant() == 1 then
-    map:start_dialog("billy_cave.give_apple_pie")
-  else
-    map:start_dialog("billy_cave.give_apple_pie_without")
-  end
-end
-
-local function give_golden_bars()
-  map:start_dialog("billy_cave.give_golden_bars", function()
-    hero:start_treasure("level_4_way", 3, "b134", function()
-      -- got the edelweiss: make Billy leave
-      billy_leave()
-    end)
-  end)
-end
-
 local function billy_leave()
 
   billy_leave_step = billy_leave_step + 1
@@ -59,6 +33,32 @@ local function billy_leave()
     billy:remove()
     hero:unfreeze()
   end
+end
+
+local function give_croissant()
+
+  if map:get_game():get_item("croissants_counter"):has_amount(1) then
+    map:start_dialog("billy_cave.give_croissant")
+  else
+    map:start_dialog("billy_cave.give_croissant_without")
+  end
+end
+
+local function give_apple_pie()
+  if map:get_game():get_item("level_4_way"):get_variant() == 1 then
+    map:start_dialog("billy_cave.give_apple_pie")
+  else
+    map:start_dialog("billy_cave.give_apple_pie_without")
+  end
+end
+
+local function give_golden_bars()
+  map:start_dialog("billy_cave.give_golden_bars", function()
+    hero:start_treasure("level_4_way", 3, "b134", function()
+      -- got the edelweiss: make Billy leave
+      billy_leave()
+    end)
+  end)
 end
 
 function map:on_started(destination)
