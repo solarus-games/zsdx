@@ -26,7 +26,7 @@ function surprise_wall_guy:on_interaction()
 
   if surprise_wall_door_tile:is_enabled() then
     map:start_dialog("outside_world.surprise_wall_guy.closed", function()
-      if map:get_game():get_item("level_4_way").get_variant() == 1 then
+      if map:get_game():get_item("level_4_way"):get_variant() == 1 then
         -- the player has the apple pie
         map:start_dialog("outside_world.surprise_wall_guy.give_me_apple_pie", function(answer)
           if answer == 1 then
