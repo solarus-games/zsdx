@@ -8,7 +8,7 @@ function map:on_started(destination)
 
   map:set_doors_open("miniboss_door", true)
   map:set_doors_open("boss_door", true)
-  if destination:get_name() == "from_5f_c"
+  if destination == from_5f_c
       or map:get_game():get_value("b903") then
     map:set_doors_open("final_room_door", true)
   end

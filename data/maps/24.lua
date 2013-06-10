@@ -4,7 +4,7 @@ local map = ...
 function map:on_started(destination)
 
   if destination ~= nil then
-    if destination:get_name() == "from_1F_hole" then
+    if destination == from_1F_hole then
       -- we are in the boss room
 
       if not map:get_game():get_value("b63") then
@@ -12,7 +12,7 @@ function map:on_started(destination)
         boss:set_enabled(true)
         sol.audio.play_music("boss")
       end
-    elseif destination:get_name() == "from_1F_east" then
+    elseif destination == from_1F_east then
       map:set_doors_open("se_door", true)
       se_switch:set_activated(true)
     end

@@ -58,7 +58,7 @@ end
 
 function map:on_started(destination)
 
-  if destination:get_name() == "from_outside_hole" then
+  if destination == from_outside_hole then
     hero:set_direction(2)
   end
 
@@ -98,7 +98,7 @@ function map:on_started(destination)
 
   -- initialize doors
   local i = 1
-  if destination:get_name() == "prison" then
+  if destination == prison then
     i = math.random(#door_sets)
   end
   for _, door in ipairs(door_sets[i]) do
@@ -116,7 +116,7 @@ end
 function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
-  if destination:get_name() == "from_outside_hole" then
+  if destination == from_outside_hole then
     map:start_dialog("dungeon_5.welcome")
   end
 end

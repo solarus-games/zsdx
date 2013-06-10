@@ -3,7 +3,7 @@ local map = ...
 
 function map:on_started(destination)
 
-  if destination:get_name() == "from_outside_hole" then
+  if destination == from_outside_hole then
     hero:set_direction(2)
   end
 end

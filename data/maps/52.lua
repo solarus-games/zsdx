@@ -4,7 +4,7 @@ local map = ...
 function map:on_started(destination)
 
   ganon_npc:set_enabled(false)
-  if destination:get_name() == "from_1F" then
+  if destination == from_1F then
     if map:get_game():get_value("b728") then
       -- Agahnim already killed
       agahnim_npc:set_enabled(false)

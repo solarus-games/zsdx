@@ -28,14 +28,14 @@ function map:on_started(destination)
   map:set_entities_enabled("puzzle_a_green", false)
 
   -- puzzle B
-  if destination:get_name() == "from_b1_w"
-      or destination:get_name() == "from_b1_e" then
+  if destination == from_b1_w
+      or destination == from_b1_e then
     map:set_doors_open("puzzle_b_door", true)
     puzzle_b_door_switch:set_activated(true)
   end
 
   -- south door
-  if destination:get_name() ~= "from_outside" then
+  if destination ~= from_outside then
     map:set_doors_open("s_door", true)
   end
 
@@ -76,7 +76,7 @@ end
 function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
-  if destination:get_name() == "from_outside" then
+  if destination == "from_outside" then
     map:start_dialog("dungeon_9.welcome")
   end
 end

@@ -3,7 +3,7 @@ local map = ...
 
 function map:on_started(destination)
 
-  if destination:get_name() == "from_ending" then
+  if destination == from_ending then
     hero:freeze()
     hero:set_visible(false)
     map:get_game():set_hud_enabled(false)

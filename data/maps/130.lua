@@ -60,7 +60,7 @@ end
 
 function map:on_opening_transition_finished(destination)
 
-  if destination:get_name() == "from_6f" then
+  if destination == from_6f then
     if not map:get_game():get_value("b881") then
       map:start_dialog("dungeon_9.boss", function()
         sol.audio.play_music("ganon_battle")

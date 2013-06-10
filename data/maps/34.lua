@@ -20,7 +20,7 @@ end
 
 function map:on_started(destination)
 
-  if destination ~= nil and destination:get_name() == "from_2F" then
+  if destination == from_2F then
     map:set_doors_open("door", true)
   else
     close_door_sensor:set_enabled(false)

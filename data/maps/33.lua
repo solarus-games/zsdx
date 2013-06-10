@@ -3,7 +3,7 @@ local map = ...
 
 function map:on_started(destination)
 
-  if destination:get_name() ~= "main_entrance" then
+  if destination ~= main_entrance then
     map:set_doors_open("door", true)
   end
 end

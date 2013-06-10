@@ -20,7 +20,7 @@ function map:on_started(destination)
     RC100:set_enabled(false)
   end
 
-  if destination ~= nil and destination:get_name() == "from_B3_C" then
+  if destination == from_B3_C then
     map:set_doors_open("LD15", true)
     for i = 1, 9 do
       map:get_entity("BRoom" .. i):set_activated(true)

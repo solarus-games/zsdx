@@ -32,7 +32,7 @@ function map:on_started(destination)
     block_saved:set_enabled(false)
   end
 
-  if destination:get_name() ~= "main_entrance" then
+  if destination ~= main_entrance then
     map:set_doors_open("eye_door", true)
   end
 
@@ -63,7 +63,7 @@ end
 
 function map:on_opening_transition_finished(destination)
 
-  if destination:get_name() == "main_entrance" then
+  if destination == main_entrance then
     map:start_dialog("dungeon_10.welcome")
   end
 end

@@ -12,7 +12,7 @@ function map:on_started(destination)
   map:set_doors_open("door2", true)
   map:set_entities_enabled("evil_tile_", false)
 
-  if destination:get_name() == "entrance_F_1" then
+  if destination == entrance_F_1 then
     sensor1:set_enabled(false)
     map:set_doors_open("door3", true)
     switch1_1:set_activated(true)

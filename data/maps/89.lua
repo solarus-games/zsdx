@@ -15,7 +15,7 @@ function map:on_started(destination)
   random_walk(walking_npc_1)
   random_walk(walking_npc_2)
 
-  if destination:get_name() == "from_ending" then
+  if destination == from_ending then
     -- game ending sequence
     hero:freeze()
     hero:set_visible(false)
@@ -28,7 +28,7 @@ end
 
 function map:on_opening_transition_finished(destination)
 
-  if destination:get_name() == "from_ending" then
+  if destination == from_ending then
     map:start_dialog("credits_4", function()
       sol.timer.start(2000, function()
         hero:teleport(119, "from_ending")

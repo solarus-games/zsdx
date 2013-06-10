@@ -14,7 +14,7 @@ end
 
 function map:on_opening_transition_finished(destination)
 
-  if destination:get_name() == "from_3F" then
+  if destination == from_3F then
     map:close_doors("door")
   end
 end

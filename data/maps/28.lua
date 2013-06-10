@@ -19,7 +19,7 @@ end
 
 function map:on_started(destination)
 
-  if destination:get_name() == "from_intro" then
+  if destination == from_intro then
     -- the intro scene is playing
     map:get_game():set_hud_enabled(true)
     map:set_pause_enabled(false)

@@ -19,7 +19,7 @@ end
 function map:on_started(destination)
 
   -- game ending sequence
-  if destination:get_name() == "from_ending" then
+  if destination == from_ending then
     hero:freeze()
     hero:set_visible(false)
     map:get_game():set_hud_enabled(false)
@@ -41,7 +41,7 @@ end
 
 function map:on_opening_transition_finished(destination)
 
-  if destination:get_name() == "from_ending" then
+  if destination == from_ending then
     map:start_dialog("credits_3", function()
       sol.timer.start(2000, function()
         hero:teleport(89, "from_ending")

@@ -3,7 +3,7 @@ local map = ...
 
 function map:on_started(destination)
 
-  if destination:get_name() == "from_outside_s" then
+  if destination == from_outside_s then
     map:set_doors_open("door", true)
     door_switch:set_activated(true)
     door_switch:set_locked(true)

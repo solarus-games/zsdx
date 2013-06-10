@@ -66,9 +66,9 @@ end
 function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
-  if destination:get_name() == "from_roof"
-      or destination:get_name() == "from_outside_w"
-      or destination:get_name() == "from_outside_e" then
+  if destination == from_roof
+      or destination == from_outside_w
+      or destination == from_outside_e then
     map:start_dialog("dungeon_5.welcome")
   end
 end

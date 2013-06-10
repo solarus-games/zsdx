@@ -70,7 +70,7 @@ function map:on_started(destination)
   map:set_entities_enabled("miniboss_enemy", false)
 
   -- save the north-west door from 1F
-  if destination:get_name() == "from_1f_ne" then
+  if destination == from_1f_ne then
     map:get_game():set_value("b621", true)
   end
 
