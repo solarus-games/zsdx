@@ -11,7 +11,6 @@ function map:on_started(destination)
       -- unless all advanced equipment was bought
       apples:remove()
       heart:remove()
-      lamp:remove()
 
       if not map:get_game():get_value("b938") then
         -- a bomb bag still available in this shop
