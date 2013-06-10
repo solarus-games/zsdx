@@ -83,13 +83,13 @@ function map:on_started(destination)
 
   if map:get_game():get_value("b908") then
     -- shortcut A
-    map:set_entities_enabled("shortcut_a", false)
+    map:set_entities_enabled("shortcut_a_tile", false)
     shortcut_a_switch:set_activated(true)
   end
 
   if map:get_game():get_value("b909") then
     -- shortcut B
-    map:set_entities_enabled("shortcut_b", false)
+    map:set_entities_enabled("shortcut_b_tile", false)
     shortcut_b_switch:set_activated(true)
   end
 

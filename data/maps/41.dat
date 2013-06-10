@@ -8832,7 +8832,7 @@ dynamic_tile{
   y = 160,
   width = 32,
   height = 8,
-  name = "shortcut_a",
+  name = "shortcut_a_tile",
   pattern = 605,
   enabled_at_start = true,
 }
@@ -8843,7 +8843,7 @@ dynamic_tile{
   y = 168,
   width = 16,
   height = 16,
-  name = "shortcut_a_2",
+  name = "shortcut_a_tile_2",
   pattern = 607,
   enabled_at_start = true,
 }
@@ -8854,7 +8854,7 @@ dynamic_tile{
   y = 168,
   width = 8,
   height = 16,
-  name = "shortcut_a_3",
+  name = "shortcut_a_tile_3",
   pattern = 609,
   enabled_at_start = true,
 }
@@ -8865,7 +8865,7 @@ dynamic_tile{
   y = 168,
   width = 8,
   height = 16,
-  name = "shortcut_a_4",
+  name = "shortcut_a_tile_4",
   pattern = 608,
   enabled_at_start = true,
 }
@@ -8876,7 +8876,7 @@ dynamic_tile{
   y = 184,
   width = 32,
   height = 8,
-  name = "shortcut_a_5",
+  name = "shortcut_a_tile_5",
   pattern = 606,
   enabled_at_start = true,
 }
@@ -8897,7 +8897,7 @@ dynamic_tile{
   y = 704,
   width = 32,
   height = 8,
-  name = "shortcut_b",
+  name = "shortcut_b_tile",
   pattern = 605,
   enabled_at_start = true,
 }
@@ -8908,7 +8908,7 @@ dynamic_tile{
   y = 712,
   width = 16,
   height = 16,
-  name = "shortcut_b_3",
+  name = "shortcut_b_tile_3",
   pattern = 607,
   enabled_at_start = true,
 }
@@ -8919,7 +8919,7 @@ dynamic_tile{
   y = 712,
   width = 8,
   height = 16,
-  name = "shortcut_b_4",
+  name = "shortcut_b_tile_4",
   pattern = 609,
   enabled_at_start = true,
 }
@@ -8930,7 +8930,7 @@ dynamic_tile{
   y = 712,
   width = 8,
   height = 16,
-  name = "shortcut_b_2",
+  name = "shortcut_b_tile_2",
   pattern = 608,
   enabled_at_start = true,
 }
@@ -8941,7 +8941,7 @@ dynamic_tile{
   y = 728,
   width = 32,
   height = 8,
-  name = "shortcut_b_5",
+  name = "shortcut_b_tile_5",
   pattern = 606,
   enabled_at_start = true,
 }
