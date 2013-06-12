@@ -1,7 +1,7 @@
 local map = ...
 -- Dungeon 5 2F
 
-sol.main.do_file("maps/prison_guard")
+sol.main.load_file("maps/prison_guard")(map)
 
 local puzzle_next_sensor = 1
 
@@ -73,9 +73,11 @@ function map:on_opening_transition_finished(destination)
   end
 end
 
-function puzzle_wrong_sensor:on_activated()
-
+local function puzzle_wrong_sensor_activated()
   puzzle_next_sensor = 1
+end
+for _, sensor in ipairs(map:get_entities("puzzle_wrong_sensor_")) do
+  sensor.on_activated = puzzle_wrong_sensor_activated
 end
 
 function save_s_blocks_sensor:on_activated()
