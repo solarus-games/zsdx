@@ -171,6 +171,7 @@ local function create_bats()
       layer = 0,
       x = v.x,
       y = v.y,
+      direction = 0,
       treasure_name = "random"
     }
   end
