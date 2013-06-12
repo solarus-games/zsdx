@@ -14,7 +14,6 @@ local door_sets = { -- possible doors open when going to prison
 
 local function init_guard(guard, x, y, direction, path)
 
-  guard:stop_movement()
   guard:set_position(x, y)
   local sprite = guard:get_sprite()
   if path ~= nil then
@@ -26,6 +25,7 @@ local function init_guard(guard, x, y, direction, path)
     m:start(guard)
     sprite:set_animation("walking")
   else
+    guard:stop_movement()
     sprite:set_animation("stopped")
     sprite:set_direction(direction)
   end
