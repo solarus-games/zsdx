@@ -122,64 +122,6 @@ if boss ~= nil then
   end
 end
 
-local function check_torches()
-
-  local states = {
-    torch_1:get_sprite():get_animation() == "lit",
-    torch_2:get_sprite():get_animation() == "lit",
-    torch_3:get_sprite():get_animation() == "lit",
-    torch_4:get_sprite():get_animation() == "lit"
-  }
-  local on = {}
-
-  for i = 1, #states do
-    if states[i] then
-      on[#on + 1] = i
-    end
-  end
-
-  if #on == torches_nb_on then
-    -- no change
-    return
-  end
-
-  if #on == #states then
-   -- all torches are on
-    if torches_error then
-      sol.audio.play_sound("wrong")
-      torches_error = false
-      torches_next = nil
-      torches_nb_on = 0
-      unlight_torches()
-    else
-      torches_solved()
-      torches_next = on[1] % #states + 1
-    end
-
-  elseif #on == 0 then
-    -- no torch is on
-    torches_error = false
-    torches_next = nil
-
-  elseif #on == 1 then
-    torches_error = false
-    torches_next = on[1] % #states + 1
-
-  elseif not torches_error then
-
-    if #on == torches_nb_on + 1 then
-      -- a torch was just turned on
-      if states[torches_next] then
-        -- it's the correct one
-        torches_next = torches_next % #states + 1
-      else
-	torches_error = true
-      end
-    end
-
-  torches_nb_on = #on
-end
-
 local function unlight_torches()
 
   for i = 1, 4 do
@@ -329,6 +271,64 @@ end
 -- we want a longer delay and special Ganon interaction
 local function torch_interaction(torch)
   map:start_dialog("torch.need_lamp")
+end
+
+local function check_torches()
+
+  local states = {
+    torch_1:get_sprite():get_animation() == "lit",
+    torch_2:get_sprite():get_animation() == "lit",
+    torch_3:get_sprite():get_animation() == "lit",
+    torch_4:get_sprite():get_animation() == "lit"
+  }
+  local on = {}
+
+  for i = 1, #states do
+    if states[i] then
+      on[#on + 1] = i
+    end
+  end
+
+  if #on == torches_nb_on then
+    -- no change
+    return
+  end
+
+  if #on == #states then
+   -- all torches are on
+    if torches_error then
+      sol.audio.play_sound("wrong")
+      torches_error = false
+      torches_next = nil
+      torches_nb_on = 0
+      unlight_torches()
+    else
+      torches_solved()
+      torches_next = on[1] % #states + 1
+    end
+
+  elseif #on == 0 then
+    -- no torch is on
+    torches_error = false
+    torches_next = nil
+
+  elseif #on == 1 then
+    torches_error = false
+    torches_next = on[1] % #states + 1
+
+  elseif not torches_error then
+
+    if #on == torches_nb_on + 1 then
+      -- a torch was just turned on
+      if states[torches_next] then
+        -- it's the correct one
+        torches_next = torches_next % #states + 1
+      else
+	torches_error = true
+      end
+    end
+
+  torches_nb_on = #on
 end
 
 -- Called when fire touches a torch.
