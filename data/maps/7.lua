@@ -17,18 +17,18 @@ local function inferno_open()
   hero:walk("66", false, false)
 end
 
+local function inferno_set_open()
+
+  inferno:get_sprite():set_animation("open")
+  to_dungeon_6:set_enabled(true)
+end
+
 local function inferno_open_finish()
 
   sol.audio.play_sound("secret")
   hero:unfreeze()
   map:get_game():set_value("b914", true)
   inferno_set_open()
-end
-
-local function inferno_set_open()
-
-  inferno:get_sprite():set_animation("open")
-  to_dungeon_6:set_enabled(true)
 end
 
 function map:on_started(destination)

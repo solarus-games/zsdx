@@ -26,7 +26,7 @@ function item:on_npc_interaction_item(npc, item_used)
   if side ~= nil and item:get_name() == "mystic_mirror" then
     -- Using the mirror with the waterfall: reverse the waterfall
     -- and traverse it.
-    self:get_map():hero_freeze()
+    self:get_map():get_entity("hero"):freeze()
     sol.audio.play_sound("water_drain")
     if timer ~= nil then
       timer:stop()

@@ -45,7 +45,7 @@ function enemy:on_restarted()
     sol.timer.start(self, 700, function() self:hide() end)
   else
     sprite:set_animation("hurt")
-    self:get_map():hero_freeze()
+    self:get_map():get_entity("hero"):freeze()
     sol.timer.start(self, 500, function() self:end_dialog() end)
     sol.timer.start(self, 1000, function() self:fade_out() end)
     sol.timer.start(self, 1500, function() self:escape() end)
@@ -114,8 +114,8 @@ function enemy:fire_step_3()
 
   throw_fire()
   if self:get_life() <= initial_life / 2 then
-    sol.timer.start(self, 200, function() self:throw_fire() end)
-    sol.timer.start(self, 400, function() self:throw_fire() end)
+    sol.timer.start(self, 200, function() throw_fire() end)
+    sol.timer.start(self, 400, function() throw_fire() end)
   end
 end
 
@@ -144,7 +144,7 @@ end
 
 function enemy:end_dialog()
 
-  self:get_map():remove_entities("agahnim_fire_ball_" .. i)
+  self:get_map():remove_entities("agahnim_fireball")
   local sprite = self:get_sprite()
   sprite:set_ignore_suspend(true)
   self:get_map():start_dialog("dungeon_5.agahnim_end")
@@ -168,7 +168,7 @@ function enemy:escape()
     layer = 0
   }
   self:get_map():get_entity("hero"):unfreeze()
-  self:get_game():set_value("b520", true)
+  self:get_map():get_game():set_value("b520", true)
   self:remove()
 end
 

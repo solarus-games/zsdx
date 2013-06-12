@@ -3,7 +3,9 @@ local map = ...
 
 local remove_water_delay = 500
 
-local function remove_water()
+local remove_water, remove_water_2, remove_water_3, remove_water_4;
+
+remove_water = function()
   sol.audio.play_sound("water_drain_begin")
   sol.audio.play_sound("water_drain")
   water_tile_less_1:set_enabled(true)
@@ -11,19 +13,19 @@ local function remove_water()
   sol.timer.start(remove_water_delay, remove_water_2)
 end
 
-local function remove_water_2()
+remove_water_2 = function()
   water_tile_less_2:set_enabled(true)
   water_tile_less_1:set_enabled(false)
   sol.timer.start(remove_water_delay, remove_water_3)
 end
 
-local function remove_water_3()
+remove_water_3 = function()
   water_tile_less_3:set_enabled(true)
   water_tile_less_2:set_enabled(false)
   sol.timer.start(remove_water_delay, remove_water_4)
 end
 
-local function remove_water_4()
+remove_water_4 = function()
   water_tile_less_3:set_enabled(false)
   map:set_entities_enabled("water_on_jumper", false)
   map:set_entities_enabled("water_off_obstacle", true)

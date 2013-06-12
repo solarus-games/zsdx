@@ -30,7 +30,8 @@ local function repeat_lava_spawner()
       breed = "drakomos_lava_spawner",
       layer = 1,
       x = spawner_xy[index].x,
-      y = spawner_xy[index].y
+      y = spawner_xy[index].y,
+      direction = 0
     }
     sol.timer.start(5000 + math.random(10000), repeat_lava_spawner)
   end

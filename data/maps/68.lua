@@ -17,6 +17,9 @@ local pools = {
 }
 local savegame_variable = 160
 
+local fill_water_step_1, fill_water_step_2, fill_water_step_3, fill_water_step_4;
+local drain_water_step_1, drain_water_step_2, drain_water_step_3, drain_water_step_4;
+
 local function fill_water(index)
   current_pool_index = index
   map:move_camera(pools[index].x, pools[index].y, 250, fill_water_step_1, 1000, 2500)
@@ -67,26 +70,26 @@ local function set_water_drained(i)
   end
 end
 
-local function fill_water_step_1()
+fill_water_step_1 = function()
   sol.audio.play_sound("water_fill_begin")
   sol.audio.play_sound("water_fill")
   map:get_entity("water_" .. current_pool_index .. "_less_3"):set_enabled(true)
   sol.timer.start(water_delay, fill_water_step_2)
 end
 
-local function fill_water_step_2()
+fill_water_step_2 = function()
   map:get_entity("water_" .. current_pool_index .. "_less_3"):set_enabled(false)
   map:get_entity("water_" .. current_pool_index .. "_less_2"):set_enabled(true)
   sol.timer.start(water_delay, fill_water_step_3)
 end
 
-local function fill_water_step_3()
+fill_water_step_3 = function()
   map:get_entity("water_" .. current_pool_index .. "_less_2"):set_enabled(false)
   map:get_entity("water_" .. current_pool_index .. "_less_1"):set_enabled(true)
   sol.timer.start(water_delay, fill_water_step_4)
 end
 
-local function fill_water_step_4()
+fill_water_step_4 = function()
   map:get_entity("water_" .. current_pool_index .. "_less_1"):set_enabled(false)
   map:get_entity("water_" .. current_pool_index .. "_full"):set_enabled(true)
   map:get_game():set_value("b" .. (savegame_variable + current_pool_index),
@@ -94,7 +97,7 @@ local function fill_water_step_4()
   set_water_filled(current_pool_index)
 end
 
-local function drain_water_step_1()
+drain_water_step_1 = function()
   sol.audio.play_sound("water_drain_begin")
   sol.audio.play_sound("water_drain")
   map:get_entity("water_" .. current_pool_index .. "_full"):set_enabled(false)
@@ -102,19 +105,19 @@ local function drain_water_step_1()
   sol.timer.start(water_delay, drain_water_step_2)
 end
 
-local function drain_water_step_2()
+drain_water_step_2 = function()
   map:get_entity("water_" .. current_pool_index .. "_less_1"):set_enabled(false)
   map:get_entity("water_" .. current_pool_index .. "_less_2"):set_enabled(true)
   sol.timer.start(water_delay, drain_water_step_3)
 end
 
-local function drain_water_step_3()
+drain_water_step_3 = function()
   map:get_entity("water_" .. current_pool_index .. "_less_2"):set_enabled(false)
   map:get_entity("water_" .. current_pool_index .. "_less_3"):set_enabled(true)
   sol.timer.start(water_delay, drain_water_step_4)
 end
 
-local function drain_water_step_4()
+drain_water_step_4 = function()
   map:get_entity("water_" .. current_pool_index .. "_less_3"):set_enabled(false)
   map:get_game():set_value("b" .. (savegame_variable + current_pool_index),
     pools[current_pool_index].initially_filled)
@@ -125,7 +128,7 @@ function map:on_started(destination)
 
   -- initialize all pools
   for i, pool in ipairs(pools) do
-    if pool.initially_filled ~= map:get_game():get_value("b" .. (savegame_variable + i)) then
+    if pool.initially_filled == not map:get_game():get_value("b" .. (savegame_variable + i)) then
       -- this pool is filled
       set_water_filled(i)
     else
@@ -135,7 +138,7 @@ function map:on_started(destination)
   end
 end
 
-local function water_switch_ativated(switch)
+local function water_switch_activated(switch)
 
   local matched = switch:get_name():match("^water_([1-9])_on_switch$")
   if matched then
@@ -143,10 +146,10 @@ local function water_switch_ativated(switch)
     fill_water(index)
   end
 end
-for i in 1, 9 do
-  local switch = map:get_entity("water_" .. i "_on_switch")
+for i = 1, 9 do
+  local switch = map:get_entity("water_" .. i .. "_on_switch")
   if switch ~= nil then
-    switch:on_activated = water_switch_activated
+    switch.on_activated = water_switch_activated
   end
 end
 
@@ -164,14 +167,14 @@ local function water_block_moved(block)
     end
   end
 end
-for i in 1, 9 do
-  local block = map:get_entity("water_" .. i "_on_block")
+for i = 1, 9 do
+  local block = map:get_entity("water_" .. i .. "_on_block")
   if block ~= nil then
-    block:on_moved = water_block_moved
+    block.on_moved = water_block_moved
   end
-  block = map:get_entity("water_" .. i "_off_block")
+  block = map:get_entity("water_" .. i .. "_off_block")
   if block ~= nil then
-    block:on_moved = water_block_moved
+    block.on_moved = water_block_moved
   end
 end
 
