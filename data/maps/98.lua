@@ -14,9 +14,9 @@ local function set_water_drained()
   map:set_entities_enabled("water_on_jumper", false)
 end
 
-local drain_water_step_1, drain_water_step_2, drain_water_step_3, drain_water_step_4;
+local drain_water_step_1, drain_water_step_2, drain_water_step_3, drain_water_step_4
 
-drain_water_step_1 = function()
+function drain_water_step_1()
 
   sol.audio.play_sound("water_drain_begin")
   sol.audio.play_sound("water_drain")
@@ -25,21 +25,21 @@ drain_water_step_1 = function()
   sol.timer.start(water_delay, drain_water_step_2)
 end
 
-drain_water_step_2 = function()
+function drain_water_step_2()
 
   water_tile_less_1:set_enabled(false)
   water_tile_less_2:set_enabled(true)
   sol.timer.start(water_delay, drain_water_step_3)
 end
 
-drain_water_step_3 = function()
+function drain_water_step_3()
 
   water_tile_less_2:set_enabled(false)
   water_tile_less_3:set_enabled(true)
   sol.timer.start(water_delay, drain_water_step_4)
 end
 
-drain_water_step_4 = function()
+function drain_water_step_4()
 
   water_tile_less_3:set_enabled(false)
   map:get_game():set_value("b297", true)
