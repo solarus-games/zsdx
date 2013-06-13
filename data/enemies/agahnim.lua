@@ -14,12 +14,12 @@ local initial_life = 10
 local finished = false
 local blue_fireball_proba = 33  -- Percent.
 local vulnerable = false
+local sprite
 
 function enemy:on_created()
 
   self:set_life(initial_life)
   self:set_damage(12)
-  self:create_sprite("enemies/agahnim")
   self:set_optimization_distance(0)
   self:set_size(16, 16)
   self:set_origin(8, 13)
@@ -31,23 +31,23 @@ function enemy:on_created()
   self:set_pushed_back_when_hurt(false)
   self:set_push_hero_on_sword(true)
 
-  local sprite = self:get_sprite()
-  sprite:set_animation("stopped")
+  sprite = self:create_sprite("enemies/agahnim")
 end
 
 function enemy:on_restarted()
 
   vulnerable = false
-  local sprite = self:get_sprite()
 
   if not finished then
-    sprite:fade_out()
-    sol.timer.start(self, 700, function() self:hide() end)
+    sprite:set_animation("stopped")
+    sol.timer.start(self, 100, function()
+      sprite:fade_out(function() self:hide() end)
+    end)
   else
     sprite:set_animation("hurt")
     self:get_map():get_entity("hero"):freeze()
     sol.timer.start(self, 500, function() self:end_dialog() end)
-    sol.timer.start(self, 1000, function() self:fade_out() end)
+    sol.timer.start(self, 1000, function() sprite:fade_out() end)
     sol.timer.start(self, 1500, function() self:escape() end)
   end
 end
@@ -63,7 +63,7 @@ function enemy:unhide()
 
   local position = (positions[math.random(#positions)])
   self:set_position(position.x, position.y)
-  local sprite = self:get_sprite()
+  sprite:set_animation("walking")
   sprite:set_direction(position.direction4)
   sprite:fade_in()
   sol.timer.start(self, 1000, function() self:fire_step_1() end)
@@ -71,14 +71,12 @@ end
 
 function enemy:fire_step_1()
 
-  local sprite = self:get_sprite()
   sprite:set_animation("arms_up")
   sol.timer.start(self, 1000, function() self:fire_step_2() end)
 end
 
 function enemy:fire_step_2()
 
-  local sprite = self:get_sprite()
   if math.random(100) <= blue_fireball_proba then
     sprite:set_animation("preparing_blue_fireball")
   else
@@ -89,8 +87,6 @@ function enemy:fire_step_2()
 end
 
 function enemy:fire_step_3()
-
-  local sprite = self:get_sprite()
 
   local sound, breed
   if sprite:get_animation() == "preparing_blue_fireball" then
@@ -104,7 +100,7 @@ function enemy:fire_step_3()
   sol.audio.play_sound(sound)
 
   vulnerable = true
-  sol.timer.start(self, 700, function() self:restart() end)
+  sol.timer.start(self, 1300, function() self:restart() end)
 
   local function throw_fire()
 
@@ -145,15 +141,8 @@ end
 function enemy:end_dialog()
 
   self:get_map():remove_entities("agahnim_fireball")
-  local sprite = self:get_sprite()
   sprite:set_ignore_suspend(true)
   self:get_map():start_dialog("dungeon_5.agahnim_end")
-end
-
-function enemy:fade_out()
-
-  local sprite = self:get_sprite()
-  sprite:fade_out()
 end
 
 function enemy:escape()

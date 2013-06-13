@@ -34,6 +34,7 @@ function enemy:on_restarted()
   local m = sol.movement.create("straight")
   m:set_speed(speed)
   m:set_angle(angle)
+  m:set_smooth(false)
   m:start(self)
 end
 

@@ -27,12 +27,12 @@ local vulnerable = false
 local hurt_proba
 local middle_dialog = false
 local nb_fakes_created = 0
+local sprite
 
 function enemy:on_created()
 
   self:set_life(initial_life)
   self:set_damage(16)
-  self:create_sprite("enemies/agahnim_2")
   self:set_optimization_distance(0)
   self:set_size(16, 16)
   self:set_origin(8, 13)
@@ -46,25 +46,22 @@ function enemy:on_created()
   self:set_push_hero_on_sword(true)
   self:set_can_attack(false)
 
-  local sprite = self:get_sprite()
-  sprite:set_animation("stopped")
+  sprite = self:create_sprite("enemies/agahnim_2")
 end
 
 function enemy:on_restarted()
 
   vulnerable = false
-  local sprite = self:get_sprite()
+  sprite:set_animation("stopped")
   sprite:set_ignore_suspend(false)
-  sprite:fade_out()
-  sol.timer.start(self, 700, function()
-    self:hide()
+  sol.timer.start(self, 100, function()
+    sprite:fade_out(function() self:hide() end)
   end)
 end
 
 function enemy:on_update()
 
   -- Look in the direction of the hero.
-  local sprite = self:get_sprite()
   sprite:set_direction(self:get_direction4_to_hero())
 end
 
@@ -91,7 +88,7 @@ function enemy:unhide()
   -- Come back somewhere.
   local position = (positions[math.random(#positions)])
   self:set_position(position.x, position.y)
-  local sprite = self:get_sprite()
+  sprite:set_animation("walking")
   sprite:set_direction(self:get_direction4_to_hero())
   sprite:fade_in()
   sol.timer.start(self, 1000, function()
@@ -102,7 +99,6 @@ end
 function enemy:fire_step_1()
 
   -- Before preparing a fireball.
-  local sprite = self:get_sprite()
   sprite:set_animation("arms_up")
   sol.timer.start(self, 1000, function()
     self:fire_step_2()
@@ -113,7 +109,6 @@ end
 function enemy:fire_step_2()
 
   -- Prepare a fireball (red or blue).
-  local sprite = self:get_sprite()
   local blue = math.random(100) <= blue_fireball_proba
 
   if math.random(5) == 1 then
@@ -143,22 +138,21 @@ end
 function fire_step_3()
 
   -- Shoot the fireball(s).
-  local sprite = self:get_sprite()
   sprite:set_animation("stopped")
   sol.audio.play_sound(next_fireball_sound)
   vulnerable = true
 
   local delay  -- Delay before fading out and going somewhere else.
   if next_fireball_breed == "blue_fireball_triple" then
-    delay = 700
+    delay = 1300
   else
-    delay = 3000  -- Red fireball: stay longer to play ping-pong.
+    delay = 3600  -- Red fireball: stay longer to play ping-pong.
   end
   sol.timer.start(self, delay, function()
     self:restart()
   end)
 
-  function throw_fire()
+  local function throw_fire()
     nb_sons_created = nb_sons_created + 1
     self:create_enemy("agahnim_fireball_" .. nb_sons_created,
         next_fireball_breed, 0, -21)
@@ -191,7 +185,6 @@ function enemy:receive_bounced_fireball(fireball)
       and vulnerable then
     -- Receive a fireball shot back by the hero: get hurt or throw it back.
     if math.random(100) <= hurt_proba then
-      sol.timer.stop_all(self)
       fireball:remove()
       self:hurt(1)
     else
@@ -205,7 +198,6 @@ end
 
 function enemy:on_hurt(attack, life_lost)
 
-  local sprite = self:get_sprite()
   local life = self:get_life()
   if life <= 0 then
     -- Dying.
