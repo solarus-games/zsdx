@@ -106,7 +106,7 @@ function enemy:fire_step_3()
   vulnerable = true
   sol.timer.start(self, 700, function() self:restart() end)
 
-  function throw_fire()
+  local function throw_fire()
 
     nb_sons_created = nb_sons_created + 1
     self:create_enemy("agahnim_fireball_" .. nb_sons_created, breed, 0, -21)
