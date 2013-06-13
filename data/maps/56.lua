@@ -53,13 +53,14 @@ end
 
 function map:on_update()
 
-  if torches_door:is_closed()
+  if not map:get_game():get_value("b323")
+      and torches_door:is_closed()
       and are_all_torches_on() then
 
+    lock_torches()
     map:move_camera(360, 104, 250, function()
       sol.audio.play_sound("secret")
       map:open_doors("torches_door")
-      lock_torches()
     end)
   end
 end

@@ -2287,7 +2287,6 @@ chest{
   y = 285,
   name = "torches_chest",
   treasure_name = "map",
-  treasure_variant = 1,
   treasure_savegame_variable = "b312",
   sprite = "entities/chest",
 }
@@ -2394,7 +2393,6 @@ destructible{
   y = 629,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -2403,7 +2401,6 @@ destructible{
   y = 629,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -2414,7 +2411,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -2425,7 +2421,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -2436,7 +2431,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -2447,7 +2441,6 @@ enemy{
   direction = 3,
   breed = "red_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -2458,7 +2451,6 @@ enemy{
   direction = 3,
   breed = "ropa",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -2467,7 +2459,6 @@ destructible{
   y = 173,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 tile{
@@ -6496,7 +6487,6 @@ destructible{
   y = 133,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -6505,7 +6495,6 @@ destructible{
   y = 117,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -6514,7 +6503,6 @@ destructible{
   y = 133,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -6523,7 +6511,6 @@ destructible{
   y = 117,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -6532,7 +6519,6 @@ destructible{
   y = 77,
   subtype = "pot",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b317",
 }
 
@@ -7016,7 +7002,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -7027,7 +7012,6 @@ enemy{
   direction = 3,
   breed = "ropa",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -7038,7 +7022,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -7049,7 +7032,6 @@ enemy{
   direction = 3,
   breed = "ropa",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destination{
@@ -7058,6 +7040,18 @@ destination{
   y = 237,
   name = "from_2f_n_hole",
   direction = -1,
+}
+
+teletransporter{
+  layer = 1,
+  x = 496,
+  y = 728,
+  width = 16,
+  height = 16,
+  name = "teletransporter_16",
+  transition = 0,
+  destination_map = "56",
+  destination = "tmp_2",
 }
 
 tile{

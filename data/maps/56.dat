@@ -657,7 +657,6 @@ destructible{
   y = 573,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -666,7 +665,6 @@ destructible{
   y = 573,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9000,7 +8998,6 @@ destructible{
   y = 125,
   subtype = "pot",
   treasure_name = "arrow",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9036,7 +9033,6 @@ destructible{
   y = 141,
   subtype = "pot",
   treasure_name = "magic_flask",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9045,7 +9041,6 @@ destructible{
   y = 237,
   subtype = "pot",
   treasure_name = "magic_flask",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9054,7 +9049,6 @@ destructible{
   y = 125,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9063,7 +9057,6 @@ destructible{
   y = 253,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 dynamic_tile{
@@ -9094,7 +9087,6 @@ destructible{
   y = 477,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 crystal_block{
@@ -9364,7 +9356,6 @@ chest{
   y = 413,
   name = "chest",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b305",
   sprite = "entities/chest",
 }
@@ -9375,7 +9366,6 @@ destructible{
   y = 493,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9384,7 +9374,6 @@ destructible{
   y = 557,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 block{
@@ -10476,7 +10465,6 @@ chest{
   y = 413,
   name = "chest_2",
   treasure_name = "big_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b315",
   sprite = "entities/chest",
 }
@@ -10487,7 +10475,6 @@ chest{
   y = 317,
   name = "chest_3",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b316",
   sprite = "entities/chest",
 }
@@ -10534,7 +10521,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10545,7 +10531,6 @@ enemy{
   direction = 3,
   breed = "red_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10556,7 +10541,6 @@ enemy{
   direction = 3,
   breed = "ropa",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10567,7 +10551,6 @@ enemy{
   direction = 3,
   breed = "ropa",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10578,7 +10561,6 @@ enemy{
   direction = 3,
   breed = "ropa",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10587,7 +10569,6 @@ destructible{
   y = 189,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10596,7 +10577,6 @@ destructible{
   y = 205,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10605,7 +10585,6 @@ destructible{
   y = 205,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10614,7 +10593,6 @@ destructible{
   y = 221,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10623,7 +10601,6 @@ destructible{
   y = 221,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10632,7 +10609,6 @@ destructible{
   y = 189,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10643,7 +10619,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10654,7 +10629,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10665,7 +10639,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10676,7 +10649,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10687,7 +10659,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10698,7 +10669,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10709,7 +10679,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 sensor{
@@ -10760,7 +10729,6 @@ destructible{
   y = 309,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10769,7 +10737,6 @@ destructible{
   y = 325,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10778,7 +10745,6 @@ destructible{
   y = 405,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10787,7 +10753,6 @@ destructible{
   y = 405,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10796,7 +10761,6 @@ destructible{
   y = 725,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10805,7 +10769,6 @@ destructible{
   y = 725,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10814,7 +10777,6 @@ destructible{
   y = 421,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10823,7 +10785,6 @@ destructible{
   y = 421,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10832,7 +10793,6 @@ destructible{
   y = 709,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10841,7 +10801,6 @@ destructible{
   y = 709,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 crystal_block{
@@ -10893,7 +10852,6 @@ destructible{
   y = 541,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10902,7 +10860,6 @@ destructible{
   y = 557,
   subtype = "black_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 crystal{
@@ -10910,6 +10867,14 @@ crystal{
   x = 408,
   y = 453,
   name = "crystal_4",
+}
+
+destination{
+  layer = 1,
+  x = 104,
+  y = 93,
+  name = "tmp_2",
+  direction = -1,
 }
 
 tile{
