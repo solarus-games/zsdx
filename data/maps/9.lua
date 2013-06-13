@@ -109,8 +109,8 @@ function map:on_obtained_treasure(item, variant, savegame_variable)
       end)
     end)
     sol.audio.play_music("victory")
-    self:freeze()
-    self:set_direction(3)
+    hero:freeze()
+    hero:set_direction(3)
   end
 end
 

@@ -297,6 +297,7 @@ function close_w_room_sensor:on_activated()
       layer = 1,
       x = 752,
       y = 877,
+      direction = 0,
       treasure_name = "random"
     }
     map:create_enemy{
@@ -305,6 +306,7 @@ function close_w_room_sensor:on_activated()
       layer = 1,
       x = 808,
       y = 885,
+      direction = 0,
       treasure_name = "random"
     }
     map:create_enemy{
@@ -313,6 +315,7 @@ function close_w_room_sensor:on_activated()
       layer = 1,
       x = 864,
       y = 877,
+      direction = 0,
       treasure_name = "random"
     }
   end

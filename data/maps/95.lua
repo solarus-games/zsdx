@@ -10,7 +10,7 @@ local function potion_buying(shop_item)
     bottle_2:set_variant(1)
   end
 
-  if map:get_first_empty_bottle() == nil then
+  if map:get_game():get_first_empty_bottle() == nil then
     map:start_dialog("potion_shop.no_empty_bottle")
     return false
   end
