@@ -205,8 +205,8 @@ heart entities/items.png 1 100 24
 112	48	8	8	4	8	25	10
 
 fairy entities/items.png 2 100 0
-192	48	16	16	8	25	2	2
-192	64	16	16	8	25	2	2
+192	48	16	16	8	13	2	2
+192	64	16	16	8	13	2	2
 
 apple entities/items.png 1 0 -1
 160	16	16	16	8	13	1	1
