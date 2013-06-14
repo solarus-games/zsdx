@@ -128,7 +128,11 @@ function sprite:on_animation_finished(animation)
       sol.timer.start(
           enemy:get_map(),  -- To make this timer persist after the enemy gets hurt.
           4000,
-          function() enemy:stop_vulnerable() end
+          function()
+            if enemy:get_life() > 0 then
+              enemy:stop_vulnerable()
+            end
+          end
       )
       enemy:remove_sons()
     else
