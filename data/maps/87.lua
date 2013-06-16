@@ -9,6 +9,12 @@ function map:on_opening_transition_finished(destination)
   solarus_child_sprite:set_ignore_suspend(true)
 end
 
+local function start_timer_unsuspended(delay, callback)
+
+  local timer = sol.timer.start(delay, callback)
+  timer:set_suspended_with_map(false)
+end
+
 function solarus_child:on_interaction()
 
   if map:get_game():is_dungeon_finished(4) then
@@ -21,19 +27,19 @@ function solarus_child:on_interaction()
       map:set_dialog_variable("dungeon_4.solarus_child", map:get_game():get_player_name())
       map:start_dialog("dungeon_4.solarus_child", function()
         hero:start_victory(function()
-          sol.timer.start(2000, function()
+          start_timer_unsuspended(2000, function()
             hero:unfreeze()
             hero:set_direction(1)
-            sol.timer.start(1000, function()
+            start_timer_unsuspended(1000, function()
               solarus_child:get_sprite():fade_out()
               sol.audio.stop_music()
               sol.audio.play_sound("warp")
-              sol.timer.start(3000, function()
+              start_timer_unsuspended(3000, function()
                 agahnim:set_position(160, 141)
                 sol.audio.play_music("agahnim")
-                sol.timer.start(1000, function()
+                start_timer_unsuspended(1000, function()
                   map:start_dialog("dungeon_4.agahnim", function()
-                    sol.timer.start(2000, function()
+                    start_timer_unsuspended(2000, function()
                       map:get_game():set_dungeon_finished(4)
                       map:get_game():set_value("b905", true) -- enable the dark world
                       map:get_game():set_value("b155", true) -- break the rupee house
