@@ -72,7 +72,7 @@ function childs_hint_sensor:on_activated()
   hero:set_direction(1)
   map:set_entities_enabled("child_", true)
   for i = 1, 8 do
-    local sprite = map:npc_get_sprite("child_" .. i)
+    local sprite = map:get_entity("child_" .. i)
     sprite:set_ignore_suspend(true)
   end
   sol.timer.start(3000, function()
@@ -83,11 +83,13 @@ function childs_hint_sensor:on_activated()
 end
 
 -- door D
-function door_d_enemy:on_dead()
+if door_d_enemy ~= nil then
+  function door_d_enemy:on_dead()
 
-  if not door_d:is_open() then
-    sol.audio.play_sound("secret")
-    map:open_doors("door_d")
+    if not door_d:is_open() then
+      sol.audio.play_sound("secret")
+      map:open_doors("door_d")
+    end
   end
 end
 
