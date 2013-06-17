@@ -55,7 +55,8 @@ function enemy:on_restarted()
   sprite:set_animation("stopped")
   sprite:set_ignore_suspend(false)
   sol.timer.start(self, 100, function()
-    sprite:fade_out(function() self:hide() end)
+    sprite:fade_out()
+    sol.timer.start(self, 600, function() self:hide() end)
   end)
 end
 

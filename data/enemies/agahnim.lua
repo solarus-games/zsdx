@@ -41,7 +41,8 @@ function enemy:on_restarted()
   if not finished then
     sprite:set_animation("stopped")
     sol.timer.start(self, 100, function()
-      sprite:fade_out(function() self:hide() end)
+      sprite:fade_out()
+      sol.timer.start(self, 600, function() self:hide() end)
     end)
   else
     sprite:set_animation("hurt")
