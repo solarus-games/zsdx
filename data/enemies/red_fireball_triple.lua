@@ -72,6 +72,7 @@ function enemy:on_custom_attack_received(attack, sprite)
     local m = sol.movement.create("straight")
     m:set_speed(speed)
     m:set_angle(angle)
+    m:set_smooth(false)
     m:start(self)
     sol.audio.play_sound("boss_fireball")
     used_sword = true
