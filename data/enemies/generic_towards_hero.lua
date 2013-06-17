@@ -108,6 +108,7 @@ function enemy:check_hero()
     self:go_random()
   end
 
+  sol.timer.stop_all(self)
   sol.timer.start(self, 100, function() self:check_hero() end)
 end
 

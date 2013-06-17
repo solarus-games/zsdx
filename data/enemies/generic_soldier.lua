@@ -94,6 +94,7 @@ function enemy:check_hero()
   elseif not near_hero and going_hero then
     self:go_random()
   end
+  sol.timer.stop_all(self)
   sol.timer.start(self, 1000, function() self:check_hero() end)
 end
 

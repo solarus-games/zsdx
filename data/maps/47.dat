@@ -457,7 +457,6 @@ destructible{
   y = 1717,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 block{
@@ -9088,7 +9087,6 @@ chest{
   y = 1341,
   name = "KC01",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b702",
   sprite = "entities/chest",
 }
@@ -9099,7 +9097,6 @@ destructible{
   y = 1469,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9108,7 +9105,6 @@ destructible{
   y = 1485,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9117,7 +9113,6 @@ destructible{
   y = 1485,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9126,7 +9121,6 @@ destructible{
   y = 1501,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9135,7 +9129,6 @@ destructible{
   y = 1501,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9144,7 +9137,6 @@ destructible{
   y = 1501,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9155,7 +9147,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9166,7 +9157,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9177,7 +9167,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -9354,7 +9343,6 @@ enemy{
   direction = 3,
   breed = "skeletor",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9365,7 +9353,6 @@ enemy{
   direction = 3,
   breed = "skeletor",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9376,7 +9363,6 @@ enemy{
   direction = 3,
   breed = "skeletor",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9387,7 +9373,6 @@ enemy{
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9398,7 +9383,6 @@ enemy{
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9409,7 +9393,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9420,7 +9403,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9431,7 +9413,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9442,7 +9423,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destination{
@@ -9494,7 +9474,6 @@ enemy{
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -9542,7 +9521,6 @@ chest{
   y = 397,
   name = "BK01",
   treasure_name = "big_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b705",
   sprite = "entities/chest",
 }
@@ -9553,7 +9531,6 @@ destructible{
   y = 861,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9562,7 +9539,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9571,7 +9547,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9580,7 +9555,6 @@ destructible{
   y = 957,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9589,7 +9563,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9598,7 +9571,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9607,7 +9579,6 @@ destructible{
   y = 957,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9616,7 +9587,6 @@ destructible{
   y = 861,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9625,7 +9595,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9634,7 +9603,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9643,7 +9611,6 @@ destructible{
   y = 957,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9652,7 +9619,6 @@ destructible{
   y = 861,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9661,7 +9627,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9670,7 +9635,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9679,7 +9643,6 @@ destructible{
   y = 957,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9688,7 +9651,6 @@ destructible{
   y = 861,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9697,7 +9659,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9706,7 +9667,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9715,7 +9675,6 @@ destructible{
   y = 957,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9724,7 +9683,6 @@ destructible{
   y = 861,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9733,7 +9691,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9742,7 +9699,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9751,7 +9707,6 @@ destructible{
   y = 957,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9762,7 +9717,6 @@ enemy{
   direction = 3,
   breed = "bubble",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9773,7 +9727,6 @@ enemy{
   direction = 3,
   breed = "bubble",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 sensor{
@@ -9830,7 +9783,6 @@ destructible{
   y = 1733,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9839,7 +9791,6 @@ destructible{
   y = 1621,
   subtype = "pot",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b704",
 }
 
@@ -9849,7 +9800,6 @@ destructible{
   y = 1757,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9858,7 +9808,6 @@ destructible{
   y = 1597,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 chest{
@@ -9867,7 +9816,6 @@ chest{
   y = 1677,
   name = "MAP",
   treasure_name = "map",
-  treasure_variant = 1,
   treasure_savegame_variable = "b700",
   sprite = "entities/chest",
 }
@@ -9889,7 +9837,6 @@ destructible{
   y = 1485,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 door{
@@ -9931,7 +9878,6 @@ enemy{
   direction = 3,
   breed = "globul",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9942,7 +9888,6 @@ enemy{
   direction = 3,
   breed = "globul",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9953,7 +9898,6 @@ enemy{
   direction = 3,
   breed = "globul",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9964,7 +9908,6 @@ enemy{
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9975,7 +9918,6 @@ enemy{
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9986,7 +9928,6 @@ enemy{
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 door{
@@ -10003,7 +9944,6 @@ pickable{
   x = 416,
   y = 397,
   treasure_name = "piece_of_heart",
-  treasure_variant = 1,
   treasure_savegame_variable = "b724",
 }
 
@@ -10023,7 +9963,6 @@ destructible{
   y = 861,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 door{
@@ -10061,7 +10000,6 @@ enemy{
   direction = 3,
   breed = "red_helmasaur",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10072,7 +10010,6 @@ enemy{
   direction = 3,
   breed = "red_helmasaur",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10083,7 +10020,6 @@ enemy{
   direction = 3,
   breed = "red_helmasaur",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10094,7 +10030,6 @@ enemy{
   direction = 3,
   breed = "red_helmasaur",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10105,7 +10040,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10116,7 +10050,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10127,7 +10060,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10138,7 +10070,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10149,7 +10080,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -10212,7 +10142,6 @@ enemy{
   direction = 3,
   breed = "red_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10223,7 +10152,6 @@ enemy{
   direction = 3,
   breed = "red_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -10286,7 +10214,6 @@ enemy{
   direction = 3,
   breed = "laser",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -10324,7 +10251,6 @@ enemy{
   direction = 3,
   breed = "laser",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -10504,7 +10430,6 @@ destructible{
   y = 317,
   subtype = "pot",
   treasure_name = "magic_flask",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10513,7 +10438,6 @@ destructible{
   y = 477,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10522,7 +10446,6 @@ destructible{
   y = 477,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10531,7 +10454,6 @@ destructible{
   y = 317,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10540,7 +10462,6 @@ destructible{
   y = 429,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10549,7 +10470,6 @@ destructible{
   y = 333,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10560,7 +10480,6 @@ enemy{
   direction = 3,
   breed = "red_bullblin",
   treasure_name = "fairy",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10645,7 +10564,6 @@ enemy{
   rank = 2,
   savegame_variable = "b727",
   treasure_name = "heart_container",
-  treasure_variant = 1,
   treasure_savegame_variable = "b729",
 }
 
@@ -10885,8 +10803,8 @@ teletransporter{
   height = 16,
   name = "teletransporter_3",
   transition = 0,
-  destination_map = "50",
-  destination = "tmp",
+  destination_map = "49",
+  destination = "tmp_2",
 }
 
 wall{
