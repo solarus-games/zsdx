@@ -24,7 +24,7 @@ function solarus_child:on_interaction()
           hero:teleport(3, "from_dungeon_2")
         end)
       end)
-    end, 1000, 86400000)
+    end)
   end
 end
 

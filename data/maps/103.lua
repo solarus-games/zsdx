@@ -273,7 +273,7 @@ function map:on_obtained_treasure(item, variant, savegame_variable)
             hero:teleport(8, "from_dungeon_7")
           end)
 	end)
-      end, 1000, 86400000)
+      end)
     end)
   end
 end
