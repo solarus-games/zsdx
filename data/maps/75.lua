@@ -78,7 +78,7 @@ local function chest_empty(chest)
     local index = math.random(#rewards)
 
     while rewards[index].savegame_variable ~= nil and
-        map:get_game():get_value("b" .. rewards[index].savegame_variable) do
+        map:get_game():get_value(rewards[index].savegame_variable) do
       -- don't give a saved reward twice (wooden key or piece of heart)
       index = math.random(#rewards)
     end

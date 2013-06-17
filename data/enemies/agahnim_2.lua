@@ -36,7 +36,7 @@ function enemy:on_created()
   self:set_optimization_distance(0)
   self:set_size(16, 16)
   self:set_origin(8, 13)
-  self:set_position(-100, -100)
+  --self:set_position(-100, -100) --FIXME
   self:set_invincible()
   self:set_attack_consequence("sword", "protected")
   self:set_attack_consequence("arrow", "protected")
@@ -135,7 +135,7 @@ function enemy:fire_step_2()
   end)
 end
 
-function fire_step_3()
+function enemy:fire_step_3()
 
   -- Shoot the fireball(s).
   sprite:set_animation("stopped")
@@ -158,16 +158,16 @@ function fire_step_3()
         next_fireball_breed, 0, -21)
   end
 
-  self:throw_fire()
+  throw_fire()
 
   -- Shoot more fireballs if the life becomes short.
   local life = self:get_life()
   if life <= initial_life / 2 then
-    sol.timer.start(self, 200, function() self:throw_fire() end)
-    sol.timer.start(self, 400, function() self:throw_fire() end)
+    sol.timer.start(self, 200, function() throw_fire() end)
+    sol.timer.start(self, 400, function() throw_fire() end)
     if life <= initial_life / 4 then
-      sol.timer.start(self, 600, function() self:throw_fire() end)
-      sol.timer.start(self, 800, function() self:throw_fire() end)
+      sol.timer.start(self, 600, function() throw_fire() end)
+      sol.timer.start(self, 800, function() throw_fire() end)
     end
   end
 
@@ -233,4 +233,3 @@ function enemy:create_fakes()
     self:create_fakes()
   end
 end
-

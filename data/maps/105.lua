@@ -139,9 +139,6 @@ local function w_room_enemy_dead(enemy)
     end
   end
 end
-for _, enemy in ipairs(map:get_entities("w_room_enemy")) do
-  enemy.on_dead = w_room_enemy_dead
-end
 
 -- east enemies room
 local function e_room_enemy_dead(enemy)
@@ -318,6 +315,9 @@ function close_w_room_sensor:on_activated()
       direction = 0,
       treasure_name = "random"
     }
+    for _, enemy in ipairs(map:get_entities("w_room_enemy")) do
+      enemy.on_dead = w_room_enemy_dead
+    end
   end
 end
 
@@ -375,7 +375,7 @@ local function torch_interaction(torch)
 end
 
 -- Called when fire touches a torch.
-local function torch_collsion_fire(torch)
+local function torch_collision_fire(torch)
 
   local torch_sprite = torch:get_sprite()
   if torch_sprite:get_animation() == "unlit" then

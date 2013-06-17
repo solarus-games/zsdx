@@ -8,6 +8,8 @@ local retracted_delay = 3000  -- delay while the tail remains retracted
 
 function enemy:on_created()
 
+  body = self:get_map():get_entity("boss")
+
   self:set_life(1000000)
   self:set_damage(12)
   self:create_sprite("enemies/gelidrak_tail")

@@ -328,6 +328,7 @@ local function check_torches()
 	torches_error = true
       end
     end
+  end
 
   torches_nb_on = #on
 end
@@ -340,7 +341,8 @@ local function torch_collision_fire(torch)
     -- temporarily light the torch up
     torch_sprite:set_animation("lit")
     check_torches()
-    torches_timers[npc_name] = sol.timer.start(torches_delay, function()
+    local name = torch:get_name()
+    torches_timers[name] = sol.timer.start(torches_delay, function()
       torch_sprite:set_animation("unlit")
       if distant_switch_1:is_enabled() then
         map:set_entities_enabled("switch_floor", false)
