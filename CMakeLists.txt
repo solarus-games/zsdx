@@ -46,7 +46,7 @@ add_custom_target(${quest_name}_data
 # create a script that executes the engine with this quest
 add_custom_command(
   OUTPUT ${quest_name}
-  COMMAND echo '\#!/bin/bash' > ${quest_name}
+  COMMAND echo '\#!/bin/sh' > ${quest_name}
   COMMAND echo 'solarus ${CMAKE_INSTALL_PREFIX}/share/solarus/${quest_name} $*' >> ${quest_name}
 )
 add_custom_target(${quest_name}_command
