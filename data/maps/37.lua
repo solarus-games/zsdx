@@ -68,7 +68,7 @@ function map:on_started(destination)
     billy:remove()
   end
 
-  if destination ~= from_outside then
+  if map:get_game():get_value("b928") then
     map:set_doors_open("door", true)
   end
 end
