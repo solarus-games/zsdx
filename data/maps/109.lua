@@ -72,7 +72,7 @@ function childs_hint_sensor:on_activated()
   hero:set_direction(1)
   map:set_entities_enabled("child_", true)
   for i = 1, 8 do
-    local sprite = map:get_entity("child_" .. i)
+    local sprite = map:get_entity("child_" .. i):get_sprite()
     sprite:set_ignore_suspend(true)
   end
   sol.timer.start(3000, function()
