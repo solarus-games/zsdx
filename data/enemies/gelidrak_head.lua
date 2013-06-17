@@ -9,6 +9,8 @@ local nb_flames_created = 0
 
 function enemy:on_created()
 
+  body = self:get_map():get_entity("boss")
+
   self:set_life(24)
   self:set_damage(12)
   self:create_sprite("enemies/gelidrak_head")

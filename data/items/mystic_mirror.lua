@@ -42,7 +42,7 @@ function item:on_npc_interaction_item(npc, item_used)
     i = 1
 
     function repeat_change_riverfall()
-      self:get_map():tile_set_enabled("riverfall_" .. i, true)
+      self:get_map():get_entity("riverfall_tile_" .. i):set_enabled(true)
       i = i + 1
       if i <= 8 then
         timer = sol.timer.start(350, repeat_change_riverfall)
@@ -55,7 +55,7 @@ function item:on_npc_interaction_item(npc, item_used)
 
     function repeat_restore_riverfall()
       i = i - 1
-      local tile = self:get_map():get_entity("riverfall_" .. i)
+      local tile = self:get_map():get_entity("riverfall_tile_" .. i)
       tile:set_enabled(false)
       if i > 1 then
         timer = sol.timer.start(350, repeat_restore_riverfall)

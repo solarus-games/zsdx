@@ -139,7 +139,7 @@ end
 
 local function pipe_sensor_out_activated(sensor)
 
-  local pipe = string.match(sensor_name, "^pipe_out_([a-z])_sensor")
+  local pipe = string.match(sensor:get_name(), "^pipe_out_([a-z])_sensor")
   if pipe ~= nil then
     -- leaving a pipe
     map:set_entities_enabled("pipe_under_" .. pipe, true)

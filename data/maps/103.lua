@@ -215,7 +215,7 @@ end
 local function repeat_give_arrows()
 
   -- give arrows if necessary during the boss fight
-  if map:get_game():get_item_amount("bow") == 0 then
+  if map:get_game():get_item("bow"):get_amount() == 0 then
     local positions = {
       { x = 416, y = 685 },
       { x = 672, y = 685 },

@@ -327,7 +327,7 @@ local function torch_interaction(torch)
 end
 
 -- Called when fire touches a torch.
-local function torch_collsion_fire(torch)
+local function torch_collision_fire(torch)
 
   local torch_sprite = torch:get_sprite()
   if torch_sprite:get_animation() == "unlit" then
