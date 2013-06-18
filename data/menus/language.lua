@@ -1,5 +1,5 @@
--- This menu is displayed when the program starts, before the title screen.
--- The user can select his language.
+-- This menu is displayed when the program starts, after the solarus logo and
+-- before the title screen. The user can select his language.
 -- If a language is already set, we go directly to the title screen.
 
 local language_menu = {}

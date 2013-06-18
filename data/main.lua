@@ -8,11 +8,9 @@ function sol.main:on_started()
   -- Load built-in settings (audio volume, video mode, etc.).
   sol.main.load_settings()
 
-  -- Just need this here, no need to require globally.
-  local language_menu = require("menus/language")
-
-  -- Show the language menu initially.
-  sol.main:start_menu(language_menu:new())
+  -- Show the Solarus logo initially.
+  local solarus_logo_menu = require("menus/solarus_logo")
+  sol.main:start_menu(solarus_logo_menu)
 end
 
 function sol.main:on_finished()

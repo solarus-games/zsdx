@@ -124,6 +124,11 @@ function title_screen:phase_title()
 
   -- show an opening transition
   self.surface:fade_in(30)
+
+  self.allow_skip = false
+  sol.timer.start(self, 2000, function()
+    self.allow_skip = true
+  end)
 end
 
 function title_screen:on_draw(dst_surface)
@@ -206,7 +211,7 @@ function title_screen:try_finish_title()
   local handled = false
 
   if self.phase == "title"
-      and self.dx_img ~= nil
+      and self.allow_skip
       and not self.finished then
     self.finished = true
 
