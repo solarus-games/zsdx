@@ -1,6 +1,7 @@
 -- Savegame selection screen, displayed after the title screen.
 
 local savegame_menu = {}
+local cloud_width, cloud_height = 111, 88
 
 function savegame_menu:new()
   local object = {}
@@ -153,7 +154,7 @@ function savegame_menu:on_draw(dst_surface)
     local x, y = position.x, position.y
     self.cloud_img:draw(self.surface, x, y)
 
-    if position.x >= width - 80 then
+    if position.x >= width - cloud_width then
       x = position.x - width
       y = position.y
       self.cloud_img:draw(self.surface, x, y)
@@ -327,8 +328,8 @@ function savegame_menu:repeat_move_clouds()
     end
 
     position.y = position.y - 1
-    if position.y <= -44 then
-      position.y = height - 44
+    if position.y <= -cloud_height then
+      position.y = height - cloud_height
     end
   end
 

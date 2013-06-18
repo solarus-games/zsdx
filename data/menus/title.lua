@@ -59,16 +59,12 @@ function title_screen:phase_title()
   -- show a background that depends on the hour of the day
   local hours = tonumber(os.date("%H"))
   local time_of_day
-  local hour_text_color
   if hours >= 8 and hours < 18 then
     time_of_day = "daylight"
-    hour_text_color = {0, 0, 92}
   elseif hours >= 18 and hours < 20 then
     time_of_day = "sunset"
-    hour_text_color = {0, 0, 92}
   else
     time_of_day = "night"
-    hour_text_color = {255, 128, 0}
   end
 
   -- create all images
@@ -77,19 +73,18 @@ function title_screen:phase_title()
   self.clouds_img = sol.surface.create("menus/title_" .. time_of_day
       .. "_clouds.png")
   self.logo_img = sol.surface.create("menus/title_logo.png")
+  self.borders_img = sol.surface.create("menus/title_borders.png")
 
   self.website_img = sol.text_surface.create{
-    font = "dialog",
-    rendering_mode = "antialiasing",
-    color = hour_text_color,
+    font = "fixed",
+    color = {240, 200, 56},
     text_key = "title_screen.website",
     horizontal_alignment = "center"
   }
 
   self.press_space_img = sol.text_surface.create{
-    font = "dialog_big",
-    rendering_mode = "antialiasing",
-    color = hour_text_color,
+    font = "dialog",
+    color = {255, 255, 255},
     text_key = "title_screen.press_space",
     horizontal_alignment = "center"
   }
@@ -160,6 +155,9 @@ function title_screen:draw_phase_title()
   y = self.clouds_xy.y - 299
   self.clouds_img:draw(self.surface, x, y)
 
+  -- black bars
+  self.borders_img:draw(self.surface, 0, 0)
+
   -- website name and logo
   self.website_img:draw(self.surface, 160, 220)
   self.logo_img:draw(self.surface)
@@ -171,7 +169,7 @@ function title_screen:draw_phase_title()
     self.star_img:draw(self.surface)
   end
   if self.show_press_space then
-    self.press_space_img:draw(self.surface, 160, 190)
+    self.press_space_img:draw(self.surface, 160, 200)
   end
 end
 

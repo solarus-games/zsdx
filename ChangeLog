@@ -2,6 +2,7 @@ zsdx-1.6 (under development)
 
 * Use solarus 1.0.2.
 * Improve the English translation.
+* New title screen from Neovyse (#45).
 * Fix a typo in French dialogs.
 * Fix a door bug that could get the hero stuck in empty rooms.
 * Dungeon 1: keep the final door open when coming back in the boss room.
