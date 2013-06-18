@@ -5,6 +5,7 @@ zsdx-1.6 (under development)
 * New title screen from Neovyse (#45).
 * Fix a typo in French dialogs.
 * Fix a door bug that could get the hero stuck in empty rooms.
+* Fix saving the state of Billy's door.
 * Dungeon 1: keep the final door open when coming back in the boss room.
 * Dungeon 7 2F: save the nort-west torches.
 * Savegames menu: the joypad was not working to delete a savegame.
