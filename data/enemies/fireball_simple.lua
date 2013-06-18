@@ -23,6 +23,7 @@ function enemy:go(angle)
   local m = sol.movement.create("straight")
   m:set_speed(192)
   m:set_angle(angle)
+  m:set_smooth(false)
   m:start(self)
 end
 
