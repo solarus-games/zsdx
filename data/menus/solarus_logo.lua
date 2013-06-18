@@ -16,7 +16,7 @@ function solarus_logo_menu:on_started()
   finished = false
   surface = sol.surface.create("menus/solarus_logo.png")
   surface:fade_in(function()
-    
+ 
     sol.timer.start(solarus_logo_menu, 1000, function()
       if not finished then
         finished = true
