@@ -6,6 +6,7 @@ local body = nil               -- Gelidrak's body.
 local vulnerable = false       -- Becomes vulnerable when the tail is hurt.
 local vulnerable_delay = 5000  -- Delay while the head remains vulnerable.
 local nb_flames_created = 0
+local going_back = false
 
 function enemy:on_created()
 
@@ -44,7 +45,8 @@ end
 
 function enemy:on_collision_enemy(other_enemy, other_sprite, my_sprite)
 
-  if not vulnerable then
+  -- Make sure the head stays south of the body.
+  if other_enemy == body and not vulnerable and not going_back then
     self:go_back()
   end
 end
@@ -57,6 +59,7 @@ function enemy:go_back()
   m:set_target(x, y + 48)
   m:set_ignore_obstacles(true)
   m:start(self)
+  going_back = true
 end
 
 function enemy:on_movement_finished(movement)
@@ -66,6 +69,7 @@ function enemy:on_movement_finished(movement)
   m:set_max_distance(16)
   m:set_ignore_obstacles(true)
   m:start(self)
+  going_back = false
   sol.timer.start(self, 5000, function() self:go_back() end)
 end
 
