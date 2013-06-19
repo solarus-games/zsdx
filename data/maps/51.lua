@@ -42,21 +42,11 @@ end
 
 function DB03:on_inactivated()
 
-  if not DB04:is_activated() then
-    if LD06:is_open() and not dont_close_LD06 then
-      map:close_doors("LD06")
-    end
+  if not LD06:is_closed() and not dont_close_LD06 then
+    map:close_doors("LD06")
   end
 end
-
-function DB04:on_inactivated()
-
-  if not DB03:is_activated() then
-    if LD06:is_open() and not dont_close_LD06 then
-      map:close_doors("LD06")
-    end
-  end
-end
+DB04.on_inactivated = DB03.on_inactivated
 
 function dont_close_LD06_sensor:on_activated()
   dont_close_LD06 = true

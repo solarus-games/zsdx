@@ -9320,7 +9320,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 280,
+  x = 288,
   y = 616,
   width = 8,
   height = 8,
@@ -9394,7 +9394,7 @@ tile{
   layer = 1,
   x = 256,
   y = 616,
-  width = 24,
+  width = 32,
   height = 8,
   pattern = 70,
 }

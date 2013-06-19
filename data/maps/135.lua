@@ -21,15 +21,15 @@ unhide_hero_sensor_2.on_activated = unhide_hero_sensor_1.on_activated
 
 -- enable border A
 function pipe_border_a_sensor_1:on_activated()
-  map:set_entities_enabled("pipe_border_a", true)
-  map:set_entities_enabled("pipe_border_b", false)
+  map:set_entities_enabled("pipe_border_a_wall", true)
+  map:set_entities_enabled("pipe_border_b_wall", false)
 end
 pipe_border_a_sensor_2.on_activated = pipe_border_a_sensor_1.on_activated
 
 -- enable border B
 function pipe_border_b_sensor_1:on_activated()
-  map:set_entities_enabled("pipe_border_b", true)
-  map:set_entities_enabled("pipe_border_a", false)
+  map:set_entities_enabled("pipe_border_b_wall", true)
+  map:set_entities_enabled("pipe_border_a_wall", false)
 end
 pipe_border_b_sensor_2.on_activated = pipe_border_b_sensor_1.on_activated
 
