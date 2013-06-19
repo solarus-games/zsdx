@@ -72,6 +72,15 @@ function map:on_opening_transition_finished(destination)
 end
 
 if boss ~= nil then
+  function boss:on_dying()
+    sol.timer.stop_all(map)
+    for i = 1, 4 do
+      map:get_entity("distant_switch_" .. i):set_activated(false)
+    end
+    -- Remove small enemies.
+    map:remove_entities("boss_")
+  end
+
   function boss:on_dead()
 
     sol.timer.stop_all(map)
@@ -266,7 +275,7 @@ local function distant_switch_activated(switch)
   end
 end
 
-for _, switch in ipairs(map:get_entities("distance_switch")) do
+for _, switch in ipairs(map:get_entities("distant_switch")) do
   switch.on_activated = distant_switch_activated
 end
 

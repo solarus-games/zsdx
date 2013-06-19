@@ -9,7 +9,7 @@ function map:on_started(destination)
     map:get_game():set_hud_enabled(false)
     map:set_pause_enabled(false)
     sol.timer.start(25000, function()
-      map:get_game().reset()
+      sol.main.reset()
     end)
   end
 end

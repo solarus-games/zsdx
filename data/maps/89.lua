@@ -23,6 +23,7 @@ function map:on_started(destination)
     sol.audio.play_music("fanfare")
   else
     tom:set_enabled(false)
+    sol.audio.play_music("castle")
   end
 end
 

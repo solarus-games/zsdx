@@ -29,6 +29,7 @@ local nb_floors_destroyed = 0
 local nb_flames_created = 0
 local nb_bats_created = 0
 local cancel_next_attack = false
+local attack_scheduled = false
 
 function enemy:on_created()
 
@@ -62,7 +63,9 @@ function enemy:on_restarted()
       m:set_speed(64)
       m:start(self)
       self:set_hurt_style("normal")
-      self:schedule_attack()
+      if not attack_scheduled then
+        self:schedule_attack()
+      end
     else
       self:jump()
     end
@@ -159,7 +162,7 @@ function enemy:destroy_floor(prefix, first, last)
       sol.audio.play_sound("stone")
     end
 
-    self:get_map():set_entities_enabled(prefix .. index, false)
+    self:get_map():get_entity(prefix .. index):set_enabled(false)
 
     if index ~= last then
       sol.timer.start(self:get_map(), delay, repeat_change)
@@ -208,13 +211,15 @@ function enemy:throw_flames()
     self:create_enemy(son_name, "red_flame", 0, -24, 0)
     nb_to_create = nb_to_create - 1
     if nb_to_create > 0 then
-      sol.timer.start(self, 150, repeat_throw_flame)
+      sol.timer.start(self:get_map(), 150, repeat_throw_flame)
     else
       attacking = false
+      attack_scheduled = false
       self:restart()
     end
   end
   self:stop_movement()
+  self:get_sprite():set_direction(0)
   repeat_throw_flame()
 end
 
@@ -261,12 +266,13 @@ function enemy:throw_bats()
     end
   end
   self:stop_movement()
+  self:get_sprite():set_direction(0)
   repeat_throw_bat()
 end
 
 function enemy:schedule_attack()
 
-  sol.timer.start(self, math.random(3000, 6000), function()
+  sol.timer.start(self:get_map(), math.random(3000, 6000), function()
     self:attack()
   end)
   attack_scheduled = true

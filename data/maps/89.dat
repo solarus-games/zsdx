@@ -6,7 +6,7 @@ properties{
   world = "inside_world",
   floor = 0,
   tileset = "12",
-  music = "castle",
+  music = "same",
 }
 
 tile{
