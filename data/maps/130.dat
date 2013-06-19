@@ -1001,7 +1001,6 @@ enemy{
   breed = "ganon",
   rank = 2,
   savegame_variable = "b881",
-  treasure_variant = 1,
 }
 
 destination{
@@ -1017,7 +1016,7 @@ npc{
   x = 120,
   y = 125,
   name = "torch_1",
-  direction = 3,
+  direction = -1,
   subtype = "0",
   sprite = "entities/torch",
 }
@@ -1027,7 +1026,7 @@ npc{
   x = 360,
   y = 125,
   name = "torch_2",
-  direction = 3,
+  direction = -1,
   subtype = "0",
   sprite = "entities/torch",
 }
@@ -1037,7 +1036,7 @@ npc{
   x = 360,
   y = 365,
   name = "torch_3",
-  direction = 3,
+  direction = -1,
   subtype = "0",
   sprite = "entities/torch",
 }
@@ -1047,7 +1046,7 @@ npc{
   x = 120,
   y = 365,
   name = "torch_4",
-  direction = 3,
+  direction = -1,
   subtype = "0",
   sprite = "entities/torch",
 }

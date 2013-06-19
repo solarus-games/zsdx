@@ -74,6 +74,7 @@ end
 if boss ~= nil then
   function boss:on_dead()
 
+    sol.timer.stop_all(map)
     sol.timer.start(1000, function()
       hero:freeze()
       hero:set_direction(3)
@@ -124,10 +125,12 @@ end
 
 local function unlight_torches()
 
+  print("unlight torches")
   for i = 1, 4 do
     map:get_entity("torch_" .. i):get_sprite():set_animation("unlit")
   end
-  for _, t in ipairs(torches_timers) do t:stop() end
+  for _, t in pairs(torches_timers) do t:stop() end
+  torches_timers = {}
 end
 
 local function create_pickables()
@@ -200,7 +203,7 @@ local function create_stone()
     x = x,
     y = y,
     layer = 0,
-    destruction_callback = function()
+    on_destroyed = function()
       allow_stone_creation = true
     end
   }
@@ -341,8 +344,7 @@ local function torch_collision_fire(torch)
     -- temporarily light the torch up
     torch_sprite:set_animation("lit")
     check_torches()
-    local name = torch:get_name()
-    torches_timers[name] = sol.timer.start(torches_delay, function()
+    torches_timers[torch] = sol.timer.start(torches_delay, function()
       torch_sprite:set_animation("unlit")
       if distant_switch_1:is_enabled() then
         map:set_entities_enabled("switch_floor", false)

@@ -50,6 +50,7 @@ function enemy:go_circle(center_entity)
   m:set_radius(48)
   m:set_initial_angle(math.pi / 2)
   m:set_angle_speed(150)
+  m:set_ignore_obstacles(true)
   m:start(self)
 end
 
