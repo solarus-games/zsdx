@@ -157,10 +157,10 @@ for door, _ in pairs(door_properties) do
   local close_sensor = map:get_entity(door:get_name() .. "_close_sensor")
   switch.on_activated = timed_door_switch_activated
   if done_sensor ~= nil then
-    done_sensor.on_activated = timer_door_done_sensor_activated
+    done_sensor.on_activated = timed_door_done_sensor_activated
   end
   if close_sensor ~= nil then
-    close_sensor.on_activated = timer_door_close_sensor_activated
+    close_sensor.on_activated = timed_door_close_sensor_activated
   end
 end
 
@@ -178,16 +178,17 @@ function map:on_camera_back()
     special_torch_timer:set_with_sound(true)
 
   elseif current_door ~= nil then
-    local door_name = current_door:get_name()
-    local timer = sol.timer.start(door_properties[current_door].delay, function()
-      if door_timers[current_door] ~= nil then
+    local door = current_door
+    local door_name = door:get_name()
+    local timer = sol.timer.start(door_properties[door].delay, function()
+      if door_timers[door] ~= nil then
 	map:close_doors(door_name)
 	map:get_entity(door_name .. "_switch"):set_activated(false)
-	door_timers[current_door] = nil
+	door_timers[door] = nil
       end
     end)
     timer:set_with_sound(true)
-    door_timers[current_door] = true
+    door_timers[door] = true
     current_door = nil
 
   end

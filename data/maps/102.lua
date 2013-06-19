@@ -225,9 +225,9 @@ local function code_switch_activated(switch)
 	code_nb_activated = 0
 
 	-- make sure the switch index won't get reactivated right now
-	self:set_locked(true)
+	switch:set_locked(true)
 	sol.timer.start(500, function()
-	  self:set_locked(false)
+	  switch:set_locked(false)
 	end)
       end
     end

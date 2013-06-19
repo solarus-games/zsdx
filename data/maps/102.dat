@@ -971,7 +971,6 @@ enemy{
   direction = 3,
   breed = "blue_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -982,7 +981,6 @@ enemy{
   direction = 3,
   breed = "red_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -993,7 +991,6 @@ enemy{
   direction = 3,
   breed = "red_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1004,7 +1001,6 @@ enemy{
   direction = 3,
   breed = "blue_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 tile{
@@ -8138,7 +8134,6 @@ chest{
   y = 213,
   name = "chest",
   treasure_name = "cane_of_somaria",
-  treasure_variant = 1,
   treasure_savegame_variable = "b608",
   sprite = "entities/big_chest",
   opening_method = "interaction_if_savegame_variable",
@@ -8323,7 +8318,6 @@ chest{
   y = 893,
   name = "chest_2",
   treasure_name = "big_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b609",
   sprite = "entities/chest",
 }
@@ -8348,7 +8342,6 @@ chest{
   y = 933,
   name = "chest_3",
   treasure_name = "compass",
-  treasure_variant = 1,
   treasure_savegame_variable = "b611",
   sprite = "entities/chest",
 }
@@ -10104,7 +10097,6 @@ destructible{
   y = 213,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10124,7 +10116,6 @@ enemy{
   direction = 3,
   breed = "pike_auto",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10133,7 +10124,6 @@ destructible{
   y = 997,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10144,7 +10134,6 @@ enemy{
   direction = 3,
   breed = "pike_auto",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10153,7 +10142,6 @@ destructible{
   y = 997,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10162,7 +10150,6 @@ destructible{
   y = 997,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10171,7 +10158,6 @@ destructible{
   y = 997,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10180,7 +10166,6 @@ destructible{
   y = 997,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10191,7 +10176,6 @@ enemy{
   direction = 1,
   breed = "pike_auto",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10200,7 +10184,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10209,7 +10192,6 @@ destructible{
   y = 909,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10218,7 +10200,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10227,7 +10208,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10236,7 +10216,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10245,7 +10224,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10254,7 +10232,6 @@ destructible{
   y = 909,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10263,7 +10240,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10272,7 +10248,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10281,7 +10256,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10290,7 +10264,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10299,7 +10272,6 @@ destructible{
   y = 893,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10310,7 +10282,6 @@ enemy{
   direction = 0,
   breed = "pike_auto",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10319,7 +10290,6 @@ destructible{
   y = 805,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10328,7 +10298,6 @@ destructible{
   y = 821,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10337,7 +10306,6 @@ destructible{
   y = 821,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10346,7 +10314,6 @@ destructible{
   y = 805,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10357,7 +10324,6 @@ enemy{
   direction = 2,
   breed = "pike_auto",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 sensor{
@@ -10448,7 +10414,6 @@ destructible{
   y = 725,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10457,7 +10422,6 @@ destructible{
   y = 709,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10466,7 +10430,6 @@ destructible{
   y = 693,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10475,7 +10438,6 @@ destructible{
   y = 677,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10484,7 +10446,6 @@ destructible{
   y = 661,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10493,7 +10454,6 @@ destructible{
   y = 645,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10504,7 +10464,6 @@ enemy{
   direction = 3,
   breed = "blue_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10515,7 +10474,6 @@ enemy{
   direction = 3,
   breed = "blue_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10526,7 +10484,6 @@ enemy{
   direction = 3,
   breed = "blue_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10537,7 +10494,6 @@ enemy{
   direction = 3,
   breed = "lizalfos",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10548,7 +10504,6 @@ enemy{
   direction = 3,
   breed = "lizalfos",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10559,7 +10514,6 @@ enemy{
   direction = 3,
   breed = "lizalfos",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10570,7 +10524,6 @@ enemy{
   direction = 3,
   breed = "lizalfos",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10581,7 +10534,6 @@ enemy{
   direction = 3,
   breed = "lizalfos",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10592,7 +10544,6 @@ enemy{
   direction = 3,
   breed = "lizalfos",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 door{
@@ -10629,7 +10580,6 @@ enemy{
   direction = 3,
   breed = "blue_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10640,7 +10590,6 @@ enemy{
   direction = 3,
   breed = "lizalfos",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10651,7 +10600,6 @@ enemy{
   direction = 3,
   breed = "lizalfos",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10662,7 +10610,6 @@ enemy{
   direction = 3,
   breed = "red_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10673,7 +10620,6 @@ enemy{
   direction = 3,
   breed = "green_duck_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -10751,7 +10697,6 @@ destructible{
   y = 405,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10760,7 +10705,6 @@ destructible{
   y = 461,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10769,7 +10713,6 @@ destructible{
   y = 405,
   subtype = "pot",
   treasure_name = "fairy",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10778,7 +10721,6 @@ destructible{
   y = 213,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10787,7 +10729,6 @@ destructible{
   y = 213,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 block{
@@ -10817,7 +10758,6 @@ destructible{
   y = 349,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 teletransporter{
