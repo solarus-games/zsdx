@@ -8468,7 +8468,6 @@ chest{
   y = 333,
   name = "chest",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b811",
   sprite = "entities/chest",
 }
@@ -8488,7 +8487,6 @@ destructible{
   x = 1704,
   y = 381,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 door{
@@ -8535,7 +8533,6 @@ enemy{
   direction = 3,
   breed = "red_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8546,7 +8543,6 @@ enemy{
   direction = 3,
   breed = "red_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 sensor{
@@ -8631,7 +8627,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8639,7 +8634,6 @@ destructible{
   x = 2296,
   y = 845,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8647,7 +8641,6 @@ destructible{
   x = 2296,
   y = 973,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8655,7 +8648,6 @@ destructible{
   x = 2520,
   y = 845,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8663,7 +8655,6 @@ destructible{
   x = 2520,
   y = 973,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8671,7 +8662,6 @@ destructible{
   x = 2408,
   y = 861,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8679,7 +8669,6 @@ destructible{
   x = 2424,
   y = 877,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8687,7 +8676,6 @@ destructible{
   x = 2440,
   y = 893,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8695,7 +8683,6 @@ destructible{
   x = 2456,
   y = 909,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8703,7 +8690,6 @@ destructible{
   x = 2392,
   y = 877,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8711,7 +8697,6 @@ destructible{
   x = 2408,
   y = 893,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8719,7 +8704,6 @@ destructible{
   x = 2424,
   y = 909,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8727,7 +8711,6 @@ destructible{
   x = 2440,
   y = 925,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8735,7 +8718,6 @@ destructible{
   x = 2376,
   y = 893,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8743,7 +8725,6 @@ destructible{
   x = 2392,
   y = 909,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8751,7 +8732,6 @@ destructible{
   x = 2408,
   y = 925,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8759,7 +8739,6 @@ destructible{
   x = 2424,
   y = 941,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8767,7 +8746,6 @@ destructible{
   x = 2360,
   y = 909,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8775,7 +8753,6 @@ destructible{
   x = 2376,
   y = 925,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8783,7 +8760,6 @@ destructible{
   x = 2392,
   y = 941,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8791,7 +8767,6 @@ destructible{
   x = 2408,
   y = 957,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8799,7 +8774,6 @@ destructible{
   x = 2408,
   y = 909,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 switch{
@@ -8864,7 +8838,6 @@ destructible{
   x = 2296,
   y = 989,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8872,7 +8845,6 @@ destructible{
   x = 2312,
   y = 989,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8880,7 +8852,6 @@ destructible{
   x = 2504,
   y = 989,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8888,7 +8859,6 @@ destructible{
   x = 2520,
   y = 989,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8896,7 +8866,6 @@ destructible{
   x = 2296,
   y = 829,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8904,7 +8873,6 @@ destructible{
   x = 2312,
   y = 829,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8912,7 +8880,6 @@ destructible{
   x = 2504,
   y = 829,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8920,7 +8887,6 @@ destructible{
   x = 2520,
   y = 829,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 sensor{
@@ -9193,7 +9159,6 @@ chest{
   x = 2112,
   y = 397,
   name = "compass_chest_1",
-  treasure_variant = 1,
   sprite = "entities/chest",
 }
 
@@ -9202,7 +9167,6 @@ chest{
   x = 2040,
   y = 397,
   name = "compass_chest_2",
-  treasure_variant = 1,
   sprite = "entities/chest",
 }
 
@@ -9211,7 +9175,6 @@ chest{
   x = 1992,
   y = 397,
   name = "compass_chest_3",
-  treasure_variant = 1,
   sprite = "entities/chest",
 }
 
@@ -9220,7 +9183,6 @@ chest{
   x = 2136,
   y = 397,
   name = "compass_chest_4",
-  treasure_variant = 1,
   sprite = "entities/chest",
 }
 
@@ -9229,7 +9191,6 @@ chest{
   x = 2088,
   y = 397,
   name = "compass_chest_5",
-  treasure_variant = 1,
   sprite = "entities/chest",
 }
 
@@ -9238,7 +9199,6 @@ chest{
   x = 2016,
   y = 397,
   name = "compass_chest_6",
-  treasure_variant = 1,
   sprite = "entities/chest",
 }
 
@@ -9247,7 +9207,6 @@ chest{
   x = 2064,
   y = 397,
   name = "compass_chest_7",
-  treasure_variant = 1,
   sprite = "entities/chest",
 }
 
@@ -9337,7 +9296,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9348,7 +9306,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9359,7 +9316,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9370,7 +9326,6 @@ enemy{
   direction = 3,
   breed = "red_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 door{
@@ -9461,7 +9416,6 @@ destructible{
   y = 317,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9470,7 +9424,6 @@ destructible{
   y = 477,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9479,7 +9432,6 @@ destructible{
   y = 317,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9488,7 +9440,6 @@ destructible{
   y = 477,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9499,7 +9450,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9510,7 +9460,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 door{
@@ -9627,7 +9576,6 @@ destructible{
   x = 808,
   y = 333,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9635,7 +9583,6 @@ destructible{
   x = 856,
   y = 365,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9643,7 +9590,6 @@ destructible{
   x = 888,
   y = 397,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9651,7 +9597,6 @@ destructible{
   x = 728,
   y = 397,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9659,7 +9604,6 @@ destructible{
   x = 760,
   y = 429,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9667,7 +9611,6 @@ destructible{
   x = 808,
   y = 461,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9675,7 +9618,6 @@ destructible{
   x = 760,
   y = 365,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9683,7 +9625,6 @@ destructible{
   x = 856,
   y = 429,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 wall{
@@ -9785,7 +9726,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9796,7 +9736,6 @@ enemy{
   direction = 3,
   breed = "red_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -9807,7 +9746,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 door{
@@ -9934,7 +9872,6 @@ destructible{
   x = 1032,
   y = 717,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 npc{
@@ -9942,7 +9879,7 @@ npc{
   x = 1128,
   y = 845,
   name = "torch_1",
-  direction = 3,
+  direction = -1,
   subtype = "0",
   sprite = "entities/torch",
 }
@@ -9952,7 +9889,7 @@ npc{
   x = 1240,
   y = 909,
   name = "torch_2",
-  direction = 3,
+  direction = -1,
   subtype = "0",
   sprite = "entities/torch",
 }
@@ -9962,7 +9899,7 @@ npc{
   x = 1016,
   y = 989,
   name = "torch_3",
-  direction = 3,
+  direction = -1,
   subtype = "0",
   sprite = "entities/torch",
 }
@@ -9972,7 +9909,7 @@ npc{
   x = 1144,
   y = 1053,
   name = "torch_4",
-  direction = 3,
+  direction = -1,
   subtype = "0",
   sprite = "entities/torch",
 }
@@ -10413,7 +10350,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10424,7 +10360,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -10458,7 +10393,6 @@ pickable{
   x = 776,
   y = 909,
   treasure_name = "fairy",
-  treasure_variant = 1,
 }
 
 pickable{
@@ -10466,7 +10400,6 @@ pickable{
   x = 808,
   y = 909,
   treasure_name = "fairy",
-  treasure_variant = 1,
 }
 
 switch{
@@ -10485,7 +10418,6 @@ destructible{
   y = 1245,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10494,7 +10426,6 @@ destructible{
   y = 573,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10503,7 +10434,6 @@ destructible{
   y = 573,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10511,7 +10441,6 @@ destructible{
   x = 1336,
   y = 1245,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 sensor{

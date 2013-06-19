@@ -150,7 +150,7 @@ end
 
 local function nw_switch_left(switch)
 
-  self:set_locked(false)
+  switch:set_locked(false)
 end
 
 for _, switch in ipairs(map:get_entities("nw_switch")) do

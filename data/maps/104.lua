@@ -18,7 +18,7 @@ function door_switch:on_activated()
     map:open_doors("door")
     door_timer = sol.timer.start(12000, function()
       map:close_doors("door")
-      map:get_entity(switch_name):set_activated(false)
+      door_switch:set_activated(false)
     end)
     door_timer:set_with_sound(true)
   end
