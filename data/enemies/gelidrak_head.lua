@@ -85,13 +85,19 @@ function enemy:set_vulnerable()
     local sprite = self:get_sprite()
     sprite:set_animation("walking")
     sol.timer.stop_all(self)
-    sol.timer.start(self, vulnerable_delay, function()
-      vulnerable = false
-      self:on_restarted()
-      self:set_can_attack(true)
-      self:set_attack_consequence("sword", "protected")
-      body:head_recovered()
-    end)
+    sol.timer.start(  -- To make this timer persist after the enemy gets hurt.
+        self:get_map(),
+        vulnerable_delay,
+        function()
+          if self:get_life() > 0 then
+            vulnerable = false
+            self:on_restarted()
+            self:set_can_attack(true)
+            self:set_attack_consequence("sword", "protected")
+            body:head_recovered()
+          end
+        end
+    )
   end
 end
 
