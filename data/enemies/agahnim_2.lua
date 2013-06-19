@@ -36,7 +36,7 @@ function enemy:on_created()
   self:set_optimization_distance(0)
   self:set_size(16, 16)
   self:set_origin(8, 13)
-  --self:set_position(-100, -100) --FIXME
+  self:set_position(-100, -100)
   self:set_invincible()
   self:set_attack_consequence("sword", "protected")
   self:set_attack_consequence("arrow", "protected")
@@ -53,9 +53,9 @@ function enemy:on_restarted()
 
   vulnerable = false
   sprite:set_animation("stopped")
-  sprite:set_ignore_suspend(false)
-  sol.timer.start(self, 100, function()
-    sprite:fade_out(function() self:hide() end)
+  sprite:fade_out()
+  sol.timer.start(self, 700, function()
+    self:hide()
   end)
 end
 
@@ -144,9 +144,9 @@ function enemy:fire_step_3()
 
   local delay  -- Delay before fading out and going somewhere else.
   if next_fireball_breed == "blue_fireball_triple" then
-    delay = 1300
+    delay = 700
   else
-    delay = 3600  -- Red fireball: stay longer to play ping-pong.
+    delay = 3000  -- Red fireball: stay longer to play ping-pong.
   end
   sol.timer.start(self, delay, function()
     self:restart()
