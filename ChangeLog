@@ -10,6 +10,7 @@ zsdx-1.6 (under development)
 * Dungeon 7 2F: save the nort-west torches.
 * Savegames menu: the joypad was not working to delete a savegame.
 * Dungeon 10 B1: fix a cauldron the hero could walk on (#20).
+* Rupee house: don't let the player to get the piece of heart with the sword.
 * Dungeon 6 2F: move crystal blocks to avoid a possible breach.
 * Outside world B3: fix a minor tile error (#12).
 * Dungeon 8 B1: fix a minor tile error (#2).
