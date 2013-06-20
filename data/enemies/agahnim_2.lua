@@ -53,9 +53,8 @@ function enemy:on_restarted()
 
   vulnerable = false
   sprite:set_animation("stopped")
-  sprite:fade_out()
-  sol.timer.start(self, 700, function()
-    self:hide()
+  sol.timer.start(self, 100, function()
+    sprite:fade_out(function() self:hide() end)
   end)
 end
 
