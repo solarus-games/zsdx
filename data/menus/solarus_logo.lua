@@ -7,8 +7,10 @@ local surface
 
 local function start_next_menu()
 
-  local language_menu = require("menus/language")
-  sol.main:start_menu(language_menu:new())
+  if sol.main.menu == solarus_logo_menu then
+    local language_menu = require("menus/language")
+    sol.main:start_menu(language_menu:new())
+  end
 end
 
 function solarus_logo_menu:on_started()
