@@ -1,6 +1,7 @@
-zsdx-1.6.2 (under development)
+zsdx-1.6.2 (2013-06-25)
 
-* Fix an empty line in an English dialog.
+* Use solarus 1.0.4.
+* Fix line errors in English dialogs.
 
 zsdx-1.6.1 (2013-06-25)
 
