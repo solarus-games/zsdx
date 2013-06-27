@@ -248,6 +248,12 @@ function savegame_menu:read_savegames()
     slot.player_name_text = sol.text_surface.create()
     if sol.game.exists(slot.file_name) then
       -- Existing file.
+      if slot.savegame:get_ability("tunic") == 0 then
+        -- Savegame not fully initialized (created with Solarus 0.9).
+        slot.savegame:set_ability("tunic", 1)
+        slot.savegame:get_item("rupee_bag"):set_variant(1)
+      end
+
       slot.player_name_text:set_text(slot.savegame:get_value("player_name"))
 
       -- Hearts.

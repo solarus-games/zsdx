@@ -1,6 +1,7 @@
 zsdx-1.7.0 (under development)
 
 * Use solarus 1.1.
+* Fix savegames freshly created with Solarus 0.9 and never run yet.
 
 zsdx-1.6.2 (2013-06-25)
 
