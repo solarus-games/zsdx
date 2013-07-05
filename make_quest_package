@@ -14,7 +14,7 @@ version="$2"
 
 rm -rf "${quest}-${version}"
 mkdir "${quest}-${version}"
-git archive -o "${quest}-${version}/tmp.tar" HEAD data ChangeLog CMakeLists.txt readme.txt make_quest_package make_zip
+git archive -o "${quest}-${version}/tmp.tar" HEAD data build ChangeLog CMakeLists.txt readme.txt make_quest_package make_zip
 cd "${quest}-${version}"
 tar xf tmp.tar
 rm tmp.tar
