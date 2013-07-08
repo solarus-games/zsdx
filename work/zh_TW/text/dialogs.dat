@@ -1,0 +1,5688 @@
+-- Zelda Mystery of Solarus DX:
+-- English dialogs
+
+-- ****** Contributors ******
+-- Please add your name to this list if you helped.
+-- These names will appear in the English localization credits
+-- at the end of the game.
+-- * AleX_XelA
+-- * Christopho
+-- * JeFF
+-- * rypervenche
+-- * sundae
+
+-- ****** Please respect the limit of each line! ******
+-- 23 chars for normal lines,
+-- 20 chars for dialogs with an icon or lines that are answers to a question,
+-- 17 chars for lines with both an icon and an answer.
+-- Each dialog ends with a comment with dashes indicating the maximum line size.
+-- Please don't exceed the maximum size of lines,
+-- and don't break lines too early either.
+-- Don't try to reproduce the exact same lines: it's normal for dialogs to be
+-- shorter or longer than in the language you are translating from.
+-- It's also normal for lines to end on different words.
+
+-- ****** Typo warning! ******
+-- Remember that ponctuation characters like ! ? : ; are preceeded by a space
+-- character in French and NOT in English.
+
+-- ****** More documentation ******
+-- If you have a doubt, please refer to the doc:
+-- http://www.solarus-games.org/doc/latest/dialog_syntax.html
+-- or just ask.
+
+-- Thanks for your contribution!
+
+
+-- Plume / Feather
+dialog{
+  id = "_item_description.feather.1",
+  icon = 0,
+  skip = "all",
+  text = [[
+使用羽毛越过障碍。
+]]
+}
+--------------------
+
+-- Bombes / Bombs
+dialog{
+  id = "_item_description.bombs_counter.1",
+  icon = 1,
+  skip = "all",
+  text = [[
+使用炸弹抵抗敌人和
+摧毁障碍。
+]]
+}
+--------------------
+
+-- Arc / Bow
+dialog{
+  id = "_item_description.bow.1",
+  icon = 2,
+  skip = "all",
+  text = [[
+你没有剩余的箭矢。
+]]
+}
+--------------------
+
+-- Arc & Flèches / Bow & Arrows
+dialog{
+  id = "_item_description.bow.2",
+  icon = 3,
+  skip = "all",
+  text = [[
+射出箭矢去击败
+顽强的敌人。
+]]
+}
+--------------------
+
+-- Boomerang
+dialog{
+  id = "_item_description.boomerang.1",
+  icon = 4,
+  skip = "all",
+  text = [[
+使用回旋镖固定敌人
+和拾起远处的物品。
+]]
+}
+--------------------
+
+-- Super Boomerang
+dialog{
+  id = "_item_description.boomerang.2",
+  icon = 35,
+  skip = "all",
+  text = [[
+用超级回旋镖固定敌人
+和拾起远处的物品。
+]]
+}
+--------------------
+
+-- Lanterne / Lamp
+dialog{
+  id = "_item_description.lamp.1",
+  icon = 5,
+  skip = "all",
+  text = [[
+使用油灯照亮黑暗
+和点燃火炬，但是
+注意你的魔力。·
+]]
+}
+--------------------
+
+-- Grappin / Hookshot
+dialog{
+  id = "_item_description.hookshot.1",
+  icon = 6,
+  skip = "all",
+  text = [[
+在飞爪帮助下到达难以
+接触的地方。
+]]
+}
+--------------------
+
+-- Flacon Magique vide / Empty bottle
+dialog{
+  id = "_item_description.bottle_1.1",
+  icon = 7,
+  skip = "all",
+  text = [[
+魔瓶能容纳各种物品。
+]]
+}
+--------------------
+
+-- Eau dans Flacon / Water in Bottle
+--#Second part may need changing
+dialog{
+  id = "_item_description.bottle_1.2",
+  icon = 8,
+  skip = "all",
+  text = [[
+你的魔瓶充满了水，
+
+在合适的地点
+使用它...
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_item_description.bottle_1.3",
+  icon = 9,
+  skip = "all",
+  text = [[
+喝下红药水恢复
+生命。
+]]
+}
+--------------------
+
+-- Potion verte / Red potion
+dialog{
+  id = "_item_description.bottle_1.4",
+  icon = 10,
+  skip = "all",
+  text = [[
+喝下绿药水恢复
+魔力。
+]]
+}
+--------------------
+
+-- Potion bleue / Red potion
+dialog{
+  id = "_item_description.bottle_1.5",
+  icon = 11,
+  skip = "all",
+  text = [[
+喝下蓝药水恢复
+生命和魔力。
+]]
+}
+--------------------
+
+-- Fée dans Flacon / Fairy in Bottle
+dialog{
+  id = "_item_description.bottle_1.6",
+  icon = 12,
+  skip = "all",
+  text = [[
+精灵会在关键的时候
+帮助你。
+你也能随时用它恢复
+生命。
+]]
+}
+--------------------
+
+-- Flacon Magique vide / Empty bottle
+dialog{
+  id = "_item_description.bottle_2.1",
+  icon = 7,
+  skip = "all",
+  text = [[
+魔瓶能容纳各种物品。
+]]
+}
+--------------------
+
+-- Eau dans Flacon / Water in Bottle
+dialog{
+  id = "_item_description.bottle_2.2",
+  icon = 8,
+  skip = "all",
+  text = [[
+你的魔瓶装满了水，
+
+在合适的地方用它...
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_item_description.bottle_2.3",
+  icon = 9,
+  skip = "all",
+  text = [[
+喝下红药水恢复
+生命.
+]]
+}
+--------------------
+
+-- Potion verte / Green potion
+dialog{
+  id = "_item_description.bottle_2.4",
+  icon = 10,
+  skip = "all",
+  text = [[
+喝下绿药水恢复
+魔力.
+]]
+}
+--------------------
+
+-- Potion bleue / Blue potion
+dialog{
+  id = "_item_description.bottle_2.5",
+  icon = 11,
+  skip = "all",
+  text = [[
+喝下蓝药水恢复
+生命和魔力.
+]]
+}
+--------------------
+
+-- Fée dans Flacon / Fairy in Bottle
+dialog{
+  id = "_item_description.bottle_2.6",
+  icon = 12,
+  skip = "all",
+  text = [[
+精灵会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
+]]
+}
+--------------------
+
+-- Flacon Magique vide / Empty bottle
+dialog{
+  id = "_item_description.bottle_3.1",
+  icon = 7,
+  skip = "all",
+  text = [[
+魔瓶能容纳各种物品.
+]]
+}
+--------------------
+
+-- Eau dans Flacon / Water in Bottle
+dialog{
+  id = "_item_description.bottle_3.2",
+  icon = 8,
+  skip = "all",
+  text = [[
+你的魔瓶装满了水,
+
+在合适的地点使用.
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_item_description.bottle_3.3",
+  icon = 9,
+  skip = "all",
+  text = [[
+喝下红药水恢复
+生命.
+]]
+}
+--------------------
+
+-- Potion verte / Green potion
+dialog{
+  id = "_item_description.bottle_3.4",
+  icon = 10,
+  skip = "all",
+  text = [[
+喝下绿药水恢复
+魔力.
+]]
+}
+--------------------
+
+-- Potion bleue / Blue potion
+dialog{
+  id = "_item_description.bottle_3.5",
+  icon = 11,
+  skip = "all",
+  text = [[
+喝下蓝药水恢复生命
+和魔力.
+]]
+}
+--------------------
+
+-- Fée dans Flacon / Fairy in Bottle
+dialog{
+  id = "_item_description.bottle_3.6",
+  icon = 12,
+  skip = "all",
+  text = [[
+精灵会在关键的时候
+帮助你,你也能随时
+用它恢复生命.
+]]
+}
+--------------------
+
+-- Flacon Magique vide / Empty bottle
+dialog{
+  id = "_item_description.bottle_4.1",
+  icon = 7,
+  skip = "all",
+  text = [[
+魔瓶能容纳各种物品.
+]]
+}
+--------------------
+
+-- Eau dans Flacon / Water in Bottle
+dialog{
+  id = "_item_description.bottle_4.2",
+  icon = 8,
+  skip = "all",
+  text = [[
+你的魔瓶装满了水,
+
+在合适的地点使用.
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_item_description.bottle_4.3",
+  icon = 9,
+  skip = "all",
+  text = [[
+喝下红药水恢复
+生命.
+]]
+}
+--------------------
+
+-- Potion verte / Red potion
+dialog{
+  id = "_item_description.bottle_4.4",
+  icon = 10,
+  skip = "all",
+  text = [[
+喝下绿药水恢复
+魔力.
+]]
+}
+--------------------
+
+-- Potion bleue / Red potion
+dialog{
+  id = "_item_description.bottle_4.5",
+  icon = 11,
+  skip = "all",
+  text = [[
+喝下蓝药水恢复
+生命和魔力.
+]]
+}
+--------------------
+
+-- Fée dans Flacon / Fairy in Bottle
+dialog{
+  id = "_item_description.bottle_4.6",
+  icon = 12,
+  skip = "all",
+  text = [[
+精灵会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
+]]
+}
+--------------------
+
+-- Bottes de Pégase / Pegasus Shoes
+dialog{
+  id = "_item_description.pegasus_shoes.1",
+  icon = 13,
+  skip = "all",
+  text = [[
+天马之靴让你快速奔跑。
+按住动作键不放开始。
+]]
+}
+--------------------
+
+-- Miroir Mystique / Mystic Mirror
+dialog{
+  id = "_item_description.mystic_mirror.1",
+  icon = 14,
+  skip = "all",
+  text = [[
+神秘的镜子有
+奇异的力量...
+]]
+}
+--------------------
+
+-- Canne de Somaria / Cane of Somaria
+--#May need "blocks" or "a block"
+dialog{
+  id = "_item_description.cane_of_somaria.1",
+  icon = 15,
+  skip = "all",
+  next = "_warning_magic",
+  text = [[
+创造方块使你用飞爪
+到达它.
+]]
+}
+--------------------
+
+-- Pommes / Apples
+dialog{
+  id = "_item_description.apples_counter.1",
+  icon = 16,
+  skip = "all",
+  text = [[
+Eat Apples to
+recover Hearts.
+吃苹果能恢复生命.
+]]
+}
+--------------------
+
+-- Pains au Chocolat / Chocolate Croissants
+dialog{
+  id = "_item_description.pains_au_chocolat_counter.1",
+  icon = 17,
+  skip = "all",
+  text = [[
+吃一个巧克力面包恢复
+三颗心.
+]]
+}
+--------------------
+
+-- Croissant / Croissant
+dialog{
+  id = "_item_description.croissants_counter.1",
+  icon = 18,
+  skip = "all",
+  text = [[
+吃一个羊角面包恢复
+七颗心.
+]]
+}
+--------------------
+
+-- Clé de Roc / Rock Key
+dialog{
+  id = "_item_description.rock_key.1",
+  icon = 19,
+  skip = "all",
+  text = [[
+岩之钥,但是正确的
+锁在哪?
+]]
+}
+--------------------
+
+-- Clé d'Os / Bone Key
+dialog{
+  id = "_item_description.bone_key.1",
+  icon = 20,
+  skip = "all",
+  text = [[
+骨之钥能用在什么上?
+]]
+}
+--------------------
+
+-- Clé de Terre / Earth Key
+--#Check translation
+dialog{
+  id = "_item_description.clay_key.1",
+  icon = 21,
+  skip = "all",
+  text = [[
+地之钥,允许你进入
+村庄的洞穴.
+]]
+}
+--------------------
+
+-- Tarte aux Pommes / Apple Pie
+dialog{
+  id = "_item_description.level_4_way.1",
+  icon = 22,
+  skip = "all",
+  text = [[
+这苹果派看起来奇怪...
+]]
+}
+--------------------
+
+-- Lingots d'or / Gold bars
+dialog{
+  id = "_item_description.level_4_way.2",
+  icon = 23,
+  skip = "all",
+  text = [[
+三个真正的金条!
+]]
+}
+--------------------
+
+-- Edelweiss / Edelweiss
+dialog{
+  id = "_item_description.level_4_way.3",
+  icon = 24,
+  skip = "all",
+  text = [[
+在海拉尔王国,雪绒花
+非常稀有.
+]]
+}
+--------------------
+
+-- Précis d'escrime / Tiger scrolls
+dialog{
+  id = "_item_description.level_4_way.4",
+  icon = 25,
+  skip = "all",
+  text = [[
+这些虎皮卷轴会使你
+掌握高级剑技.
+]]
+}
+--------------------
+
+-- Palmes / Flippers
+dialog{
+  id = "_item_description.flippers.1",
+  icon = 26,
+  skip = "all",
+  text = [[
+用这些脚蹼在深水处
+游泳.
+]]
+}
+--------------------
+
+-- Cape magique / Magic Cape
+dialog{
+  id = "_item_description.magic_cape.1",
+  icon = 27,
+  skip = "all",
+  text = [[
+魔力披肩会在当你经过
+易碎的墙时提醒你。
+]]
+}
+--------------------
+
+-- Clé de Fer / Iron Key
+dialog{
+  id = "_item_description.iron_key.1",
+  icon = 28,
+  skip = "all",
+  text = [[
+铁之钥,确定在正确的
+锁里使用它!
+]]
+}
+--------------------
+
+-- Clé de Pierre / Stone Key
+dialog{
+  id = "_item_description.stone_key.1",
+  icon = 29,
+  skip = "all",
+  text = [[
+石之钥,让我们找到
+正确的锁!
+]]
+}
+--------------------
+
+-- Clé de Bois / Wooden Key
+--#May need to be translated better
+dialog{
+  id = "_item_description.wooden_key.1",
+  icon = 30,
+  skip = "all",
+  text = [[
+木之钥,仅仅有一把锁
+配这个钥匙!
+]]
+}
+--------------------
+
+-- Clé de Glace / Ice Key
+dialog{
+  id = "_item_description.ice_key.1",
+  icon = 31,
+  skip = "all",
+  text = [[
+冰之钥,你必须找到冰冷的
+地方才有用!
+]]
+}
+-----------------------
+
+-- Poigne de Fer / Iron Glove
+dialog{
+  id = "_item_description.glove.1",
+  icon = 32,
+  skip = "all",
+  text = [[
+这些铁手套能使你
+举起岩石.
+]]
+}
+--------------------
+
+-- Poigne d'Or / Golden Glove
+dialog{
+  id = "_item_description.glove.2",
+  icon = 33,
+  skip = "all",
+  text = [[
+用金手套举起黑岩.
+]]
+}
+--------------------
+
+-- Pierres de Feu / Fire Stones
+dialog{
+  id = "_item_description.fire_stones_counter.1",
+  icon = 34,
+  skip = "all",
+  text = [[
+找全三火石并带它们
+去地狱.
+]]
+}
+--------------------
+
+-- ---------------------
+-- When finding a treasure
+-- ---------------------
+--
+-- Messages shown below are seen when the player
+-- obtains a treasure, usually by opening a chest or by buying it from a
+-- merchant in a shop.
+--------------------
+
+-- Plume / Feather
+dialog{
+  id = "_treasure.feather.1",
+  icon = 0,
+  skip = "all",
+  text = [[
+你发现羽毛!$0 去
+在适当的地方跳跃和
+越过障碍!
+]]
+}
+--------------------
+
+-- Arc seul / Bow alone
+dialog{
+  id = "_treasure.bow.1",
+  icon = 2,
+  text = [[
+发现弓!$0找一些箭矢
+你将有能力从远处击败
+顽强的敌人!
+]]
+}
+--------------------
+
+-- Arc & Flèches / Bow & Arrows
+--#Choose one
+dialog{
+  id = "_treasure.bow.2",
+  icon = 3,
+  text = [[
+发现弓! $0
+你能从远处攻击敌人!
+]]
+}
+--------------------
+
+-- Boomerang
+dialog{
+  id = "_treasure.boomerang.1",
+  icon = 4,
+  text = [[
+发现回旋镖!$0 你能
+固定敌人和捡起远处
+的物品,有几种使用
+它的方法,取决于你
+全部发现它们!
+]]
+}
+--------------------
+
+-- Super Boomerang
+--#Check for better word for "ancien"
+dialog{
+  id = "_treasure.boomerang.2",
+  icon = 35,
+  text = [[
+发现超级回旋镖!$0
+
+比原始的更快!
+更有力量!
+
+]]
+}
+--------------------
+
+-- Lanterne / Lamp
+dialog{
+  id = "_treasure.lamp.1",
+  icon = 5,
+  next = "_warning_magic",
+  text = [[
+发现油灯!$0
+用它照亮黑暗和
+点燃火炬.
+]]
+}
+--------------------
+
+-- Grappin / Hookshot
+dialog{
+  id = "_treasure.hookshot.1",
+  icon = 6,
+  text = [[
+你发现飞爪!$0
+
+固定你的敌人和使你
+飞向难以触及的地方!
+]]
+}
+--------------------
+
+-- Flacon vide / empty Bottle
+dialog{
+  id = "_treasure.bottle_1.1",
+  icon = 7,
+  text = [[
+你发现一个魔瓶!$0
+
+用各种物品装满它.
+]]
+}
+--------------------
+
+-- Eau / Water
+dialog{
+  id = "_treasure.bottle_1.2",
+  icon = 8,
+  text = [[
+你用水装满了魔瓶!
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_treasure.bottle_1.3",
+  icon = 9,
+  text = [[
+发现一些红药水!$0
+
+喝下去恢复你的生命.
+]]
+}
+--------------------
+
+-- Potion verte / Green potion
+dialog{
+  id = "_treasure.bottle_1.4",
+  icon = 10,
+  text = [[
+发现一些绿药水!$0
+
+喝下去恢复你的魔力.
+]]
+}
+--------------------
+
+-- Potion bleue / Blue potion
+dialog{
+  id = "_treasure.bottle_1.5",
+  icon = 11,
+  text = [[
+发现一些红药水!$0
+
+喝下它去填满1
+]]
+}
+--------------------
+
+-- Fée dans Flacon / Fairy in Bottle
+dialog{
+  id = "_treasure.bottle_1.6",
+  icon = 12,
+  skip = "all",
+  text = [[
+你捉到一个精灵!它
+会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
+]]
+}
+--------------------
+
+-- Flacon vide / Empty Flask
+dialog{
+  id = "_treasure.bottle_2.1",
+  icon = 7,
+  text = [[
+你发现一个魔瓶!$0
+
+用各种物品装满它.
+]]
+}
+--------------------
+
+-- Eau / Water
+dialog{
+  id = "_treasure.bottle_2.2",
+  icon = 8,
+  text = [[
+You filled your
+Magic Bottle with
+water!
+你用水装满了魔瓶!
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_treasure.bottle_2.3",
+  icon = 9,
+  text = [[
+发现一些红药水!$0
+
+喝下去恢复你的生命.
+]]
+}
+--------------------
+
+-- Potion verte / Green potion
+dialog{
+  id = "_treasure.bottle_2.4",
+  icon = 10,
+  text = [[
+发现一些绿药水!$0
+
+喝下去恢复你的魔力.
+]]
+}
+--------------------
+
+-- Potion bleue / Blue potion
+dialog{
+  id = "_treasure.bottle_2.5",
+  icon = 11,
+  text = [[
+发现一些蓝药水!0
+
+喝下去恢复生命和
+魔力!
+]]
+}
+
+--------------------
+
+-- Fée dans Flacon / Fairy in Bottle
+dialog{
+  id = "_treasure.bottle_2.6",
+  icon = 12,
+  skip = "all",
+  text = [[
+你捉到一个精灵!
+它会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
+]]
+}
+--------------------
+
+-- Flacon vide / Empty Flask
+dialog{
+  id = "_treasure.bottle_3.1",
+  icon = 7,
+  text = [[
+你发现一个魔瓶!$0
+
+用各种物品装满它.
+]]
+}
+--------------------
+
+-- Eau / Water
+dialog{
+  id = "_treasure.bottle_3.2",
+  icon = 8,
+  text = [[
+你用水装满了魔瓶!
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_treasure.bottle_3.3",
+  icon = 9,
+  text = [[
+发现一些红药水!$0
+
+喝下去恢复你的生命.
+]]
+}
+--------------------
+
+-- Potion verte / Green potion
+dialog{
+  id = "_treasure.bottle_3.4",
+  icon = 10,
+  text = [[
+你发现一些蓝药水!$0
+
+喝下去回复你的魔力.
+]]
+}
+--------------------
+
+-- Potion bleue / Blue potion
+dialog{
+  id = "_treasure.bottle_3.5",
+  icon = 11,
+  text = [[
+你发现一些蓝药水!$0
+
+喝下去完全恢复生命和
+魔力!
+]]
+}
+--------------------
+
+-- Fée dans Flacon / Fairy in Bottle
+dialog{
+  id = "_treasure.bottle_3.6",
+  icon = 12,
+  skip = "all",
+  text = [[
+你捉到一个精灵!
+它会在关键的时候
+帮助你,你也可随时
+用它恢复生命!
+]]
+}
+--------------------
+
+-- Flacon vide / Empty Flask
+dialog{
+  id = "_treasure.bottle_4.1",
+  icon = 7,
+  text = [[
+发现一个魔瓶!$0
+
+用各种物品装满它.
+]]
+}
+--------------------
+
+-- Eau / Water
+dialog{
+  id = "_treasure.bottle_4.2",
+  icon = 8,
+  text = [[
+你用水装满了魔瓶!
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_treasure.bottle_4.3",
+  icon = 9,
+  text = [[
+你发现一些红药水!$0
+
+喝下去恢复你的生命.
+]]
+}
+--------------------
+
+-- Potion verte / Green potion
+dialog{
+  id = "_treasure.bottle_4.4",
+  icon = 10,
+  text = [[
+你发现一些绿药水!$0
+
+喝下去恢复你的魔力.
+]]
+}
+--------------------
+
+-- Potion bleue / Blue potion
+dialog{
+  id = "_treasure.bottle_4.5",
+  icon = 11,
+  text = [[
+你发现一些蓝药水!$0
+
+喝下去完全恢复你的
+生命和魔力!
+]]
+}
+--------------------
+
+-- Fée dans Flacon / Fairy in Bottle
+dialog{
+  id = "_treasure.bottle_4.6",
+  icon = 12,
+  skip = "all",
+  text = [[
+你捉到一个精灵!
+它会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
+]]
+}
+--------------------
+
+-- Bottes de Pégase / Pegasus Boots
+dialog{
+  id = "_treasure.pegasus_shoes.1",
+  icon = 13,
+  text = [[
+你发现天马之靴!$0
+
+奔跑和冲过最顽强的
+敌人!
+按住动作键不放去用
+它们.
+]]
+}
+--------------------
+
+-- Miroir Mystique / Mystic Mirror
+dialog{
+  id = "_treasure.mystic_mirror.1",
+  icon = 14,
+  text = [[
+发现神秘的镜子!$0
+它奇异的力量确定会
+帮助你的探索.
+]]
+}
+--------------------
+
+-- Canne de Somaria / Cane of Somaria
+dialog{
+  id = "_treasure.cane_of_somaria.1",
+  icon = 15,
+  next = "_warning_magic",
+  text = [[
+发现索马利亚之杖!$0
+你能创造一个方块并可
+用飞爪抓在它的上面.
+]]
+}
+--------------------
+
+-- 3 Pommes
+dialog{
+  id = "_treasure.apple.1",
+  icon = 16,
+  text = [[
+你发现三个苹果!$0
+吃了它们后去恢复生命!
+]]
+}
+--------------------
+
+-- 1 Pain au Chocolat
+dialog{
+  id = "_treasure.pain_au_chocolat.1",
+  icon = 17,
+  text = [[
+你发现一个巧克力
+羊角面包!$0
+
+吃了它恢复少许生命.
+]]
+}
+--------------------
+
+-- 1 Croissant
+dialog{
+  id = "_treasure.croissant.1",
+  icon = 18,
+  text = [[
+你发现羊角面包!$0
+全是酥脆的,吃了它去
+恢复生命.
+]]
+}
+--------------------
+
+-- Clé de Roc
+dialog{
+  id = "_treasure.rock_key.1",
+  icon = 19,
+  text = [[
+你发现岩钥匙$0
+]]
+}
+--------------------
+
+-- Clé d'os
+dialog{
+  id = "_treasure.bone_key.1",
+  icon = 20,
+  text = [[
+你发现骨钥匙!$0
+
+但是它用在
+什么东西上呢?
+]]
+}
+--------------------
+
+-- Clé de Terre
+dialog{
+  id = "_treasure.clay_key.1",
+  icon = 21,
+  text = [[
+你发现地钥匙!$0
+
+现在你能进入村庄的
+洞穴!
+]]
+}
+--------------------
+
+-- Tarte aux Pommes
+dialog{
+  id = "_treasure.level_4_way.1",
+  icon = 22,
+  text = [[
+你发现苹果派!$0
+$1...$3 嗯,如果我是你
+决不去尝它,它看起来
+奇怪...
+]]
+}
+--------------------
+
+-- Lingots d'or
+--#Really need a better translation
+dialog{
+  id = "_treasure.level_4_way.2",
+  icon = 23,
+  text = [[
+你发现一些金条!!!$0
+
+它们闪烁并且非常有
+价值!
+]]
+}
+--------------------
+
+-- Edelweiss
+dialog{
+  id = "_treasure.level_4_way.3",
+  icon = 24,
+  text = [[
+发现一朵雪绒花!$0
+
+这海拉尔山脉上美丽
+的花朵极其稀少!
+]]
+}
+--------------------
+
+-- Précis d'escrime / Tiger Scrolls
+dialog{
+  id = "_treasure.level_4_way.4",
+  icon = 25,
+  text = [[
+You found the Tiger
+Scrolls!$0 You now
+master the long
+forgotten Whirlwind
+Attack.
+你发现虎皮卷轴!$0
+你现在掌握早被遗忘的
+旋风剑击.
+]]
+}
+--------------------
+
+-- Palmes / Flippers
+dialog{
+  id = "_treasure.flippers.1",
+  icon = 26,
+  text = [[
+你发现脚蹼!$0
+
+你现在能在深水处
+游泳!
+]]
+}
+--------------------
+
+-- Cape Magique
+dialog{
+  id = "_treasure.magic_cape.1",
+  icon = 27,
+  text = [[
+你发现魔力披肩!$0
+
+它会在你靠近易碎的墙
+时提醒你.
+]]
+}
+--------------------
+
+-- Clé de Fer
+dialog{
+  id = "_treasure.iron_key.1",
+  icon = 28,
+  text = [[
+你发现铁钥匙!$0
+
+确定它能打开一扇门!
+]]
+}
+--------------------
+
+-- Clé de Pierre
+dialog{
+  id = "_treasure.stone_key.1",
+  icon = 29,
+  text = [[
+你发现石钥匙!$0
+
+但是它开的锁
+在哪呢?
+]]
+}
+--------------------
+
+-- Clé de Bois
+dialog{
+  id = "_treasure.wooden_key.1",
+  icon = 30,
+  text = [[
+你发现木钥匙!$0
+
+一定要找到地方去
+用它!
+]]
+}
+--------------------
+
+-- Clé de Glace
+dialog{
+  id = "_treasure.ice_key.1",
+  icon = 31,
+  text = [[
+你发现冰钥匙!$0
+
+它一定能开启去一个
+冰冷地方路...
+]]
+}
+--------------------
+
+-- Poigne de Fer / Iron Gloves
+dialog{
+  id = "_treasure.glove.1",
+  icon = 32,
+  text = [[
+你发现铁手套!$0
+
+用这些你能举起岩石.
+]]
+}
+--------------------
+
+-- Poigne d'Or / Golden Gloves
+--#Still sounds odd.
+dialog{
+  id = "_treasure.glove.2",
+  icon = 33,
+  text = [[
+你发现金手套!$0
+
+现在你能举起黑岩!
+]]
+}
+--------------------
+
+-- Pierre de Feu / Fire Stone
+dialog{
+  id = "_treasure.fire_stone.1",
+  icon = 34,
+  text = [[
+你发现一个火石!
+]]
+}
+--------------------
+
+-- Carte du Monde / World Map
+dialog{
+  id = "_treasure.world_map.1",
+  icon = 50,
+  text = [[
+你发现世界地图!$0
+
+在地图界面看它.
+]]
+}
+--------------------
+
+-- Grand sac de rubis / Big Wallet
+dialog{
+  id = "_treasure.rupee_bag.2",
+  icon = 52,
+  text = [[
+你发现一个大钱包!$0
+
+它能装300卢币!
+]]
+}
+--------------------
+
+-- Sac de rubis géant / Giant Wallet
+dialog{
+  id = "_treasure.rupee_bag.3",
+  icon = 53,
+  text = [[
+你发现超大钱包！$0
+
+它能装999卢币!
+]]
+}
+--------------------
+
+-- Petit sac de bombes / Small Bomb Bag
+--#Bomb away vs. bombs away
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = 54,
+  text = [[
+你发现炸弹包!$0 
+它能装十个炸弹.
+分配它们到一个按键
+然后投放它们!
+]]
+}
+--------------------
+
+-- Grand sac de bombes / Large Bomb Bag
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = 55,
+  text = [[
+你发现大炸弹包!$0
+
+它能容纳30个炸弹
+而不是10个!
+]]
+}
+--------------------
+
+-- Sac de bombes géant / Giant Bomb Bag
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = 56,
+  text = [[
+你发现超大炸弹包!$0
+
+它能容纳99个炸弹
+而不是30个!
+]]
+}
+--------------------
+
+-- Grand carquois / Large Quiver
+dialog{
+  id = "_treasure.quiver.2",
+  icon = 58,
+  text = [[
+你发现箭袋!$0
+
+它能容纳30支箭矢
+而不是10支!
+]]
+}
+--------------------
+
+-- Carquois géant / Giant Quiver
+dialog{
+  id = "_treasure.quiver.3",
+  icon = 59,
+  text = [[
+你发现超大箭袋!$0
+
+它能容纳99支箭矢
+而不是30支!
+]]
+}
+--------------------
+
+-- Cotte de mailles bleue / Blue Mail
+dialog{
+  id = "_treasure.tunic.2",
+  icon = 61,
+  text = [[
+你发现蓝色盔甲!$0
+它能减少敌人伤害和
+抵抗低温...
+]]
+}
+--------------------
+
+-- Cotte de mailles rouge / Red Mail
+dialog{
+  id = "_treasure.tunic.3",
+  icon = 62,
+  text = [[
+你发现红色盔甲!$0
+
+它能比蓝色盔甲提供
+更好地保护!
+]]
+}
+--------------------
+
+-- Bouclier / Shield
+dialog{
+  id = "_treasure.shield.1",
+  icon = 63,
+  text = [[
+你发现护盾!$0
+
+你能从敌人的攻击中
+保护自己!
+]]
+}
+--------------------
+
+-- Bouclier de Feu / Fire Shield
+dialog{
+  id = "_treasure.shield.2",
+  icon = 64,
+  text = [[
+你发现火之护盾!$0
+
+你现在能从火击中
+保护自己!
+]]
+}
+--------------------
+
+-- Bouclier Miroir / Mirror Shield
+dialog{
+  id = "_treasure.shield.3",
+  icon = 65,
+  text = [[
+你发现镜之护盾!$0
+
+你现在能反射激光!
+]]
+}
+--------------------
+
+-- Epée 1 (Epée du courage) / First Sword
+dialog{
+  id = "_treasure.sword.1",
+  icon = 66,
+  text = [[
+你发现勇气之剑!$0
+
+你能交锋和面对
+你的敌人!
+]]
+}
+--------------------
+
+-- Epée 2 (Glaive Hylien) / Hylian Blade
+dialog{
+  id = "_treasure.sword.2",
+  icon = 67,
+  next = "_treasure.sword.2.1",
+  text = [[
+$1你发现海拉尔之剑!
+$0$0$0
+这个新剑
+]]
+}
+--------------------
+--#Previous one or last?
+
+dialog{
+  id = "_treasure.sword.2.1",
+  text = [[
+是旧的力量的强
+两倍!
+]]
+}
+-----------------------
+
+-- Epée 3 (Sabre du Héros) / Hero's Sword
+dialog{
+  id = "_treasure.sword.3",
+  icon = 68,
+  next = "_treasure.sword.2.1",
+  text = [[
+$1你发现英雄之剑!$0
+这个新剑
+]]
+}
+--------------------
+
+-- Epée 4 (Lame Purificatrice) / Master Sword
+dialog{
+  id = "_treasure.sword.4",
+  icon = 69,
+  text = [[
+你发现主宰之剑!
+$0这最终之剑的
+力量超越一切...
+]]
+}
+--------------------
+
+-- Demi de magie / Half Magic Meter
+dialog{
+  id = "_treasure.magic_bar.2",
+  icon = 99,
+  text = [[
+你发现半魔力器!$0
+
+你的魔力器才两倍!
+]]
+}
+--------------------
+
+-- Carte / Map
+dialog{
+  id = "_treasure.map.1",
+  icon = 70,
+  text = [[
+你发现地图!用它
+去看地牢的布局.
+]]
+}
+--------------------
+
+-- Boussole / Compass
+dialog{
+  id = "_treasure.compass.1",
+  icon = 71,
+  text = [[
+你发现指南针!现在你能
+从地图中看你的位置,
+箱子的位置,同样老怪的
+藏身处!现在我们正在
+到达一些地方!
+]]
+}
+--------------------
+
+-- Petite clé / Small key
+dialog{
+  id = "_treasure.small_key.1",
+  icon = 72,
+  text = [[
+你发现小钥匙!
+
+这个钥匙会打开这地牢
+中一扇锁着的门.
+]]
+}
+--------------------
+
+-- Grande Clé / Large Key
+dialog{
+  id = "_treasure.big_key.1",
+  icon = 73,
+  text = [[
+你发现大钥匙!
+
+你现在能打开特殊的门
+并找到新宝藏!
+]]
+}
+--------------------
+
+-- Clé du Maître / Boss Key
+dialog{
+  id = "_treasure.boss_key.1",
+  icon = 74,
+  text = [[
+你发现老怪钥匙!
+
+现在你能进入老怪
+的躲藏处!
+]]
+}
+--------------------
+
+-- Fragment de Coeur / Piece of Heart
+dialog{
+  id = "_treasure.piece_of_heart.1",
+  icon = 79,
+  text = [[
+你发现一个
+心之碎片!
+]]
+}
+--------------------
+
+-- Réceptacle de Coeur / Heart Container
+dialog{
+  id = "_treasure.heart_container.1",
+  icon = 80,
+  text = [[
+你发现一个心容器!
+
+你的心显示增加了
+一个!
+]]
+}
+--------------------
+
+-- 1 Bombe / 1 Bomb
+dialog{
+  id = "_treasure.bomb.1",
+  icon = 82,
+  next = "_treasure.bomb.1.1",
+  text = [[
+你发现一个炸弹!$0
+]]
+}
+--------------------
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  text = [[
+用一个炸弹毁灭敌人和
+障碍.
+]]
+}
+--------------------
+
+-- 3 Bombes / 3 Bombs
+dialog{
+  id = "_treasure.bomb.2",
+  icon = 82,
+  next = "_treasure.bomb.1.1",
+  text = [[
+你发现三个炸弹!$0
+]]
+}
+--------------------
+
+-- 8 Bombes / 8 Bombs
+dialog{
+  id = "_treasure.bomb.3",
+  icon = 82,
+  next = "_treasure.bomb.1.1",
+  text = [[
+你发现八个炸弹!$0
+]]
+}
+--------------------
+
+-- 1 Flèche / 1 Arrow
+dialog{
+  id = "_treasure.arrow.1",
+  icon = 83,
+  next = "_treasure.arrow.1.1",
+  text = [[
+你发现一支箭!$0
+用弓和箭去
+]]
+}
+--------------------
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  text = [[
+从远处击败敌人
+]]
+}
+--------------------
+
+-- 5 Flèches / 5 Arrows
+dialog{
+  id = "_treasure.arrow.2",
+  icon = 83,
+  next = "_treasure.arrow.1.1",
+  text = [[
+你发现5支箭!$0
+用弓和箭去
+]]
+}
+--------------------
+
+-- 10 Flèches / 10 Arrows
+dialog{
+  id = "_treasure.arrow.3",
+  icon = 83,
+  next = "_treasure.arrow.1.1",
+  text = [[
+你发现十支箭!$0
+用弓和箭去
+]]
+}
+--------------------
+
+-- 1 Coeur / 1 Heart
+dialog{
+  id = "_treasure.heart.1",
+  icon = 84,
+  text = [[
+你发现一颗心!
+]]
+}
+--------------------
+
+-- Petite bouteille de magie / Magic Flask
+dialog{
+  id = "_treasure.magic_flask.1",
+  icon = 85,
+  text = [[
+发现一个小魔力罐!
+你的魔力轻微
+补满.
+]]
+}
+--------------------
+
+-- Grande bouteille de magie / Magic Jar
+dialog{
+  id = "_treasure.magic_flask.2",
+  icon = 86,
+  text = [[
+发现一个大魔力罐!
+魔力十分充满.
+]]
+}
+--------------------
+
+-- 1 rubis vert / 1 green rupee
+dialog{
+  id = "_treasure.rupee.1",
+  icon = 90,
+  text = [[
+发现一个绿色卢比!
+价值一卢币!
+]]
+}
+--------------------
+
+-- 1 rubis bleu / 1 blue rupee
+dialog{
+  id = "_treasure.rupee.2",
+  icon = 91,
+  text = [[
+发现蓝色卢比!
+价值5卢币!
+]]
+}
+--------------------
+
+-- 1 rubis rouge / 1 red rupee
+dialog{
+  id = "_treasure.rupee.3",
+  icon = 92,
+  text = [[
+发现红色卢币!
+价值20卢币!
+]]
+}
+--------------------
+
+-- 50 rubis / 50 rupees
+-- Remarque : clin d'oeil à Link's Awakening
+dialog{
+  id = "_treasure.rupee.4",
+  icon = 90,
+  text = [[
+你发现50卢币!
+了不起!
+]]
+}
+--------------------
+
+-- 100 rubis / 100 rupees
+-- Remarque : clin d'oeil à Link's Awakening
+dialog{
+  id = "_treasure.rupee.5",
+  icon = 90,
+  text = [[
+你发现100卢币!
+真迷人!
+]]
+}
+--------------------
+
+-- 300 rubis / 300 rupees
+-- Remarque : clin d'oeil à Link's Awakening
+dialog{
+  id = "_treasure.rupee.6",
+  icon = 90,
+  text = [[
+你发现300卢币!
+真美好!
+]]
+}
+--------------------
+
+-- Potion rouge / Red potion
+dialog{
+  id = "_treasure.red_potion.1",
+  icon = 96,
+  text = [[
+发现一些红药水!$0
+
+喝下去完全恢复
+你的生命.
+]]
+}
+--------------------
+
+-- Potion verte / Green potion
+dialog{
+  id = "_treasure.green_potion.1",
+  icon = 97,
+  text = [[
+发现一些绿药水!$0
+
+喝下去完全恢复
+你的魔力.
+]]
+}
+--------------------
+
+-- Potion bleue / Blue potion
+dialog{
+  id = "_treasure.blue_potion.1",
+  icon = 98,
+  text = [[
+发现一些蓝药水!$0
+
+喝下去恢复
+生命和魔力.
+]]
+}
+--------------------
+
+-- ---------------
+-- Autres messages
+-- ---------------
+--
+-- Autres messages divers affichés par le moteur de jeu
+-- Affiché à la fin des dialogues expliquant
+-- que le joueur a obtenu un objet qui consomme
+-- de l'énergie magique (même message que dans ALTTP)
+dialog{
+  id = "_warning_magic",
+  text = [[
+查看你的魔力!
+]]
+}
+--------------------
+
+-- Lorsqu'on ouvre un coffre vide
+dialog{
+  id = "_empty_chest",
+  text = [[
+箱子是空的!
+真糟糕!
+]]
+}
+-----------------------
+
+-- Lorsqu'on regarde une porte verrouillé ou un bloc verrouillé
+-- et qu'on ne possède pas de Petite Clé
+dialog{
+  id = "_small_key_required",
+  icon = 72,
+  skip = "all",
+  text = [[
+锁的!
+]]
+}
+--------------------
+
+-- Lorsqu'on regarde le grand coffre ou une porte verrouillée nécessitant la Grande Clé
+-- et qu'on ne possède pas celle-ci
+dialog{
+  id = "_big_key_required",
+  icon = 73,
+  skip = "all",
+  text = [[
+嗯?锁的!
+有大钥匙的话或许能
+打开它!
+]]
+}
+--------------------
+
+-- Lorsqu'on regarde la porte du boss sans avoir la Clé du Maître
+dialog{
+  id = "_boss_key_required",
+  icon = 74,
+  skip = "all",
+  text = [[
+这扇门通向老怪的
+房间!
+你将需要老怪钥匙
+去打开它.
+]]
+}
+--------------------
+
+-- Lorsqu'on tente de soulever un buisson
+-- au lieu de le couper avec l'épée
+dialog{
+  id = "_cannot_lift_should_cut",
+  skip = "all",
+  text = [[
+你需要一些尖锐的东西
+砍着通过这些灌木.
+]]
+}
+-----------------------
+
+-- Lorsqu'on tente de soulever une pierre
+-- sans avoir de bracelet de force
+-- (Clin d'oeil à Link's Awakening)
+dialog{
+  id = "_cannot_lift_too_heavy",
+  skip = "all",
+  text = [[
+真讨厌,这种方法
+太重了!
+
+你永远不会空手
+去解决它!
+]]
+}
+-----------------------
+
+-- Lorsqu'on tente de soulever une pierre vraiment lourde
+-- en ayant seulement la poigne de fer
+dialog{
+  id = "_cannot_lift_still_too_heavy",
+  skip = "all",
+  text = [[
+对你来说太重了!
+]]
+}
+-----------------------
+
+-- Lorsqu'on regarde un objet vendu dans un magasin
+-- (message affiché après avoir lu la description de l'objet)
+dialog{
+  id = "_shop.question",
+  question = true,
+  text = [[
+价格: $v 卢币
+买
+不买
+]]
+}
+-----------------------
+
+-- Lorsqu'on veut acheter un objet dans un magasin
+-- mais qu'on n'a pas assez de Rubis
+dialog{
+  id = "_shop.not_enough_money",
+  skip = "all",
+  text = [[
+对不起,你没有
+足够的卢比!
+]]
+}
+-----------------------
+
+-- Lorsqu'on veut acheter un objet dans un magasin
+-- mais qu'on a déjà le maximum de la quantité possible
+-- (pour des Bombes, des Flèches, etc.)
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+你已经完成了!
+]]
+}
+-----------------------
+
+-- Lorsqu'on regarde un interrupteur de cristal
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+这是一个水晶按钮.
+试图用东西击打它...
+]]
+}
+-----------------------
+
+-- Lorsqu'on pénètre dans le donjon 1
+dialog{
+  id = "dungeon_1",
+  skip = "current",
+  text = [[
+	      Lv 1
+		  
+	  「森林土牢」
+]]
+}
+-----------------------
+
+-- Lorsqu'on pénètre dans le donjon 2
+dialog{
+  id = "dungeon_2",
+  skip = "current",
+  text = [[
+         Lv 2
+		 
+	 「岩之洞窟」
+]]
+}
+-----------------------
+
+-- Lorsqu'on pénètre dans le donjon 3
+dialog{
+  id = "dungeon_3",
+  skip = "current",
+  text = [[
+         Level 3
+  Master Arbror's Den
+          Lv 3
+		   
+     「木精巢穴」
+]]
+}
+-----------------------
+
+dialog{
+  id = "found_piece_of_heart.first",
+  icon = 75,
+  text = [[
+收集四个心之碎片去
+获得一颗心.
+]]
+}
+--------------------
+
+dialog{
+  id = "found_piece_of_heart.second",
+  icon = 76,
+  text = [[
+再有两个你将拥有
+另外一颗心.
+]]
+}
+--------------------
+
+dialog{
+  id = "found_piece_of_heart.third",
+  icon = 77,
+  text = [[
+再有一个你将有
+另外一颗心.
+]]
+}
+--------------------
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  icon = 78,
+  text = [[
+你已发现四个心之碎片
+增加一颗心容器.
+]]
+}
+--------------------
+
+-- Lorsqu'on trouve une Fée en ayant au moins un Flacon (même dialogue que dans ALTTP)
+dialog{
+  id = "found_fairy",
+  icon = 81,
+  skip = "current",
+  next = "found_fairy.1",
+  text = [[
+你发现一个精灵,
+她多美丽!
+]]
+}
+--------------------
+
+-- |--------------------___|
+dialog{
+  id = "found_fairy.1",
+  icon = -1,
+  question = true,
+  text = [[
+你想要做什么?
+恢复你的生命
+保留它
+]]
+}
+--------------------
+
+-- Lorsqu'on veut conserver une Fée mais qu'on n'a pas de Flacon vide
+dialog{
+  id = "found_fairy.no_empty_bottle",
+  skip = "current",
+  text = [[
+你没有一个空瓶子
+]]
+}
+-----------------------
+
+-- Lorsqu'on trouve de l'eau et qu'on a un Flacon vide
+dialog{
+  id = "found_water",
+  icon = 8,
+  question = true,
+  text = [[
+你想要在魔瓶里
+装些水吗?
+
+
+是
+不
+]]
+}
+--------------------
+
+-- Lorsqu'on trouve de l'eau mais qu'on n'a aucun Flacon
+dialog{
+  id = "found_water.no_bottle",
+  skip = "all",
+  text = [[
+这里有一些水,但是你
+没法储存它...
+]]
+}
+-----------------------
+
+-- Lorsqu'on trouve de l'eau et qu'on a au moins un Flacon, mais pas de Flacon vide
+dialog{
+  id = "found_water.no_empty_bottle",
+  icon = 8,
+  skip = "all",
+  text = [[
+这里有一些水,但是
+你需要一些空瓶去
+储存它...
+]]
+}
+--------------------
+
+-- Utiliser un Flacon contenant de l'eau
+--#Not sure on question syntax here again
+dialog{
+  id = "use_bottle_with_water",
+  icon = 8,
+  question = true,
+  text = [[
+你的魔瓶装满了水.
+
+你想要做什么?
+
+倒掉
+保留
+]]
+}
+--------------------
+
+-- Utiliser une Pomme
+dialog{
+  id = "use_apples",
+  icon = 16,
+  question = true,
+  text = [[
+吃一个苹果将恢复
+一颗心.
+你想要做什么?
+
+吃苹果
+什么也不做
+]]
+}
+--------------------
+
+-- Use a Chocolate Croissant
+dialog{
+  id = "use_pains_au_chocolat",
+  icon = 17,
+  question = true,
+  text = [[
+一份巧克力羊角面包.
+
+你想要做什么?
+
+吃一个
+什么也不做
+]]
+}
+--------------------
+
+-- Utiliser un Croissant
+dialog{
+  id = "use_croissants",
+  icon = 18,
+  question = true,
+  text = [[
+一份羊角恢复七颗心.
+
+你想要做什么?
+
+吃一个
+什么也不做
+]]
+}
+--------------------
+
+dialog{
+  id = "torch.need_lamp",
+  skip = "all",
+  text = [[
+一定有方法点亮
+这个火炬...
+]]
+}
+-----------------------
+
+-- Intro : écran noir
+dialog{
+  id = "intro0",
+  skip = "current",
+  text = [[
+$2
+古老的传说讲述很久以前
+有一个名为海拉尔的壮丽
+王国,在三位女神的三角
+的祝福下繁荣着.七个圣贤
+封印着三角在金土地
+世界的乌托邦影像.几个
+世纪过去.....
+]]
+}
+-----------------------
+-- Intro : fresque 1
+dialog{
+  id = "intro1",
+  skip = "current",
+  text = [[
+$2
+许多代后,一个邪恶的咒语
+看起来威胁着海拉尔.一个
+叫Agahnim的神秘魔法师
+击退了黑暗,受到人们的
+表扬,国王委托他一个较高
+的职位.然而事实上魔法师
+密谋反对王室,试图带回
+Ganondorf,盗贼王,从
+一个被遗忘的岁月.
+]]
+}
+-----------------------
+
+-- Intro : fresque 2
+dialog{
+  id = "intro2",
+  skip = "current",
+  text = [[
+$2
+据说一个身穿绿衣的年轻人
+进行着探索,调查遗失的
+庙宇,越过平原和山谷.
+]]
+}
+-----------------------
+
+-- Intro : fresque 3
+dialog{
+  id = "intro3",
+  skip = "current",
+  text = [[
+$2
+最终,他被称为击退恶魔的
+英雄.感谢他的勇气,他打败
+了Ganondorf,他在金土地上
+建立了一个令人影响深刻的
+金字塔
+]]
+}
+-----------------------
+
+-- Intro : fresque 4
+dialog{
+  id = "intro4",
+  skip = "current",
+  text = [[
+$2
+年轻的英雄希望
+Ganondorf永远被囚禁在
+金土地上.
+海拉尔之王,七个圣贤的
+后裔,用封印的魔力抛弃
+了Ganondorf.
+]]
+}
+-----------------------
+
+dialog{
+  id = "intro5",
+  skip = "current",
+  text = [[
+$2
+但是数年后,海拉尔国王
+生病的没有治愈的可能,
+来自全国各地的医生
+无济于事...
+国王不在存在，
+他的力量也是.
+封印的力量再一次虚弱.
+]]
+}
+-----------------------
+
+-- Intro : fresque 6
+dialog{
+  id = "intro6",
+  skip = "current",
+  text = [[
+$2
+英雄在Sahasrahla的
+引导下,信任皇室权势的
+女继承人,带着女神三角
+的塞尔达公主.塞尔达与
+八个神秘儿童将三角粉碎
+成八个碎片并在王国内
+隐藏它们,和平被修复.
+
+那么开始,我们的旅行...
+]]
+}
+-----------------------
+
+-- Pancarte du village
+dialog{
+  id = "outside_world.village.welcome_sign",
+  text = [[
+
+	欢迎来到Lyriann
+	
+]]
+}
+-----------------------
+
+-- Dialogue avec le singe tout au début du jeu
+-- _unknown car on sait qu'il va y avoir une suite, mais on ne sait pas encore laquelle
+-- cela permet d'indiquer au moteur d'afficher une flèche en bas de la boîte de dialogue et non un carré
+-- Suite du dialogue avec le singe, dans le cas où on n'a pas le bouclier
+dialog{
+  id = "outside_world.village.monkey",
+  next = "_unknown",
+  text = [[
+救命!今晚大家
+都很害怕!
+
+村庄已经被怪物
+包围!
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.village.monkey.without_shield",
+  text = [[
+我不知道发生了什么,
+但是如果我是你绝不会
+没有保护下离开小镇.
+]]
+}
+-----------------------
+
+-- Suite du dialogue avec le singe, dans le cas où on a le bouclier
+dialog{
+  id = "outside_world.village.monkey.with_shield",
+  text = [[
+我不知道发生了什么,
+但你至少带着一个
+护盾是正确的...
+小心点!
+]]
+}
+-----------------------
+
+-- Dialogue avec l'enfant
+dialog{
+  id = "outside_world.village.grand_son_npc",
+  skip = "current",
+  text = [[
+如果在旅途中感到迷惑
+，你应该去见Lyly奶奶
+，她热爱给建议和引导
+冒险者.她住在卢币屋
+旁边.其他的我不知道,
+我只是一个小孩!
+]]
+}
+-----------------------
+
+-- Dialogue avec la femme au chignon
+dialog{
+  id = "outside_world.village.chignon_woman",
+  skip = "all",
+  text = [[
+当蓝色图标出现,他告诉你
+能做通过按动作键(空格)。
+取决于你正在检查什么，
+会引发几种动作如查找，
+对话，阅读路牌，举起
+瓶子...留意图标去知道
+什么时候你能与周围环境
+相互作用！
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.village.chignon_woman_dungeons",
+  skip = "all",
+  text = [[
+据说每个地牢都隐藏着
+一个心之碎片...
+有趣,不是吗?
+]]
+}
+-----------------------
+
+-- Dialogue avec le vieux près de la grotte de Tom dans le village
+dialog{
+  id = "outside_world.village.cliff_man_npc",
+  skip = "all",
+  text = [[
+你知道你能跳下确定
+的悬崖吗？这或许能
+让你到达难以接近的
+地点.
+]]
+}
+-----------------------
+
+-- Dialogue avec l'homme au chapeau vert dans le village
+dialog{
+  id = "outside_world.village.hat_man_npc",
+  skip = "all",
+  text = [[
+如果你需要卢币，我建议
+你不要去卢币屋，因为你
+或许以需要更多的卢币
+告终！虽然，你做的
+看起来比我聪明。
+
+或许你做的比我更好!
+]]
+}
+-----------------------
+
+-- Dialogue avec l'homme au chapeau vert dans le village
+-- (une fois le donjon 1 terminé
+dialog{
+  id = "outside_world.village.hat_man_npc_waterfall",
+  skip = "all",
+  text = [[
+据说在古城堡瀑布后面
+有个被隐藏的宝藏，
+你认为这是真的吗？
+]]
+}
+-----------------------
+
+-- Pancarte à l'entrée de la maison des rubis
+dialog{
+  id = "outside_world.village.rupee_house_sign",
+  text = [[
+     - 卢币屋 -
+	
+    快乐赢卢币！
+]]
+}
+-----------------------
+
+-- Pancarte près de la cascade du village
+-- C'est un clin d'oeil à Majora's Mask
+-- dans les Marais du Sud où on trouve
+-- le même type de pancarte.
+dialog{
+  id = "outside_world.village.waterfall_sign",
+  text = [[
+请随意将我们新鲜的
+春水带回家。
+
+      Lyriann
+      旅游中心
+]]
+}
+-----------------------
+
+-- Pancarte à l'entrée de la pâtisserie
+dialog{
+  id = "outside_world.village.cake_shop_sign",
+  text = [[
+
+		 面包店
+]]
+}
+-----------------------
+
+-- Pancarte à l'entrée de la boutique
+dialog{
+  id = "outside_world.village.shop_sign",
+  text = [[
+
+		  商店
+]]
+}
+-----------------------
+
+-- Message affiché quand on regarde une boîte aux lettres
+dialog{
+  id = "outside_world.village.letter_box",
+  skip = "all",
+  text = [[
+不要开始调查
+不是你的东西！
+]]
+}
+-----------------------
+
+-- Long message de la femme près de l'arbre dans le village
+dialog{
+  id = "outside_world.village.tree_woman",
+  skip = "all",
+  next = "outside_world.village.tree_woman.long_text",
+  text = [[
+你对状态显示感到疑惑？
+让我解释，
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.village.tree_woman.long_text",
+  question = true,
+  next = "outside_world.village.tree_woman.thank_you",
+  next2 = "outside_world.village.tree_woman.again",
+  text = [[
+左边的一行的图标如键盘
+上的按键,C键是绿色图标
+你能使用剑通过按它.但是
+当游戏暂停,图标改变告诉
+你是用来储存游戏!
+并且当你与某人谈话,它
+允许你结束一段对话,仅仅
+留意icon告诉你C键能做
+什么.
+其他图标围绕着C键,橙色
+(D键)暂停游戏,蓝色图标
+(空格键)是动作键,两个
+灰色按钮表示道具能分配
+到X键和V键.所以总是
+留意图标说什么.不要
+忘记你能在选择屏幕(D
+键)里自定义按键甚至用
+一个游戏手柄!
+你全记住了吗?
+是
+没有
+}
+-----------------------
+
+dialog{
+  id = "outside_world.village.tree_woman.again",
+  next = "outside_world.village.tree_woman.long_text",
+  text = [[
+好吧,让我在此解释,但是
+这次仔细听.
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.village.tree_woman.thank_you",
+  text = [[
+感谢你对整个解释的聆听
+我真的感激，你应得这份
+小礼物。
+]]
+}
+-----------------------
+
+-- Message affiché lorsqu'on tente d'ouvrir la grotte de Tom sans avoir la Clé de Terre
+dialog{
+  id = "outside_world.village.clay_key_required",
+  text = [[
+它是锁的!
+]]
+}
+-----------------------
+
+-- Pancarte en haut de la falaise du village
+dialog{
+  id = "outside_world.warning_holes_sign",
+  text = [[
+小心地洞！
+]]
+}
+-----------------------
+
+-- Dialogue avec l'homme qui explique comment sauvegarder
+dialog{
+  id = "outside_world.how_to_save_npc",
+  skip = "all",
+  text = [[
+为了保存你的进程,
+按D暂停游戏,然后按
+C键,注意绿色图标.
+]]
+}
+-----------------------
+
+-- Pancarte dans la forêt à l'est du village
+dialog{
+  id = "outside_world.flower_hole_sign",
+  text = [[
+靠近花的洞不像它
+看起来的那样危险...
+]]
+}
+-----------------------
+
+-- Pancarte à l'entrée de la cabine télépathique
+dialog{
+  id = "outside_world.telepathic_booth_sign",
+  text = [[
+    电话亭
+]]
+}
+-----------------------
+
+-- Pancarte à l'entrée du mur aux surprises
+dialog{
+  id = "outside_world.surprise_wall_sign",
+  text = [[
+    -惊喜之墙-
+进来试试你的运气获得
+隐藏的宝物!
+]]
+}
+-----------------------
+
+-- Pancarte à l'entrée de la caverne de Billy
+dialog{
+  id = "outside_world.billy_cavern_sign",
+  text = [[
+Billy the Reckless的
+洞穴.
+    禁止进入!
+]]
+}
+-----------------------
+
+-- Pancarte près de la Colline de Beaumont
+dialog{
+  id = "outside_world.beaumont_hill_sign",
+  text = [[
+在Beaumont丘陵顶上种
+一朵雪绒花的人将会
+有美好的一天.
+]]
+}
+-----------------------
+
+-- Le joueur plante l'edelweiss au sommet de la Colline de Beaumont
+dialog{
+  id = "outside_world.beaumont_hill_put_edelweiss",
+  text = [[
+你正在种你的雪绒花...
+]]
+}
+-----------------------
+
+-- Tenter d'ouvrir la grotte du jeu des coffres sans avoir la Clé de Pierre
+dialog{
+  id = "outside_world.stone_key_required",
+  text = [[
+   - 石锁 -
+   
+它是锁的!
+]]
+}
+-----------------------
+
+-- Tenter d'ouvrir la fin de la grotte de la fée sans avoir la Clé de Fer
+dialog{
+  id = "outside_world.iron_key_required",
+  text = [[
+    - 铁锁 -
+
+它是锁的!
+]]
+}
+-----------------------
+
+-- Tenter d'ouvrir la grotte de la cascade sans avoir la Clé de Bois
+dialog{
+  id = "outside_world.wooden_key_required",
+  text = [[
+   - 木锁 -
+   
+它是锁的!
+]]
+}
+-----------------------
+
+-- Tenter d'ouvrir le donjon 7 sans avoir la Clé de Glace
+dialog{
+  id = "outside_world.ice_key_required",
+  text = [[
+   - 冰锁 -
+
+它是锁的!
+]]
+}
+-----------------------
+
+-- Cascade au nord-est des montagnes
+dialog{
+  id = "outside_world.mountain_riverfall",
+  skip = "all",
+  text = [[
+一定有办法通过
+这个瀑布...
+]]
+}
+-----------------------
+
+-- Link qui entend Sahasrahla en rêve en dormant dans son lit après l'intro
+dialog{
+  id = "link_house.dream",
+  text = [[
+... $v...
+是我...
+... Sahasrahla...
+我有...要说...
+快点来...$v...
+]]
+}
+-----------------------
+
+-- Jeu du coffre-mystère dans la maison des rubis
+dialog{
+  id = "rupee_house.game_1.intro",
+  question = true,
+  text = [[
+欢迎来到奇异的箱子
+游戏,付20卢币打开
+其中一个,有机会赚
+更多的卢比!
+玩
+不玩
+]]
+}
+-----------------------
+
+-- Coffre-mystère : quand on parle au vendeur après avoir déjà payé
+dialog{
+  id = "rupee_house.game_1.choose_chest",
+  text = [[
+快点选择一个箱子!
+
+别盯着我，我不会告诉
+你选择哪一个！
+]]
+}
+-----------------------
+
+-- Coffre-mystère : quand on accepte de jouer
+dialog{
+  id = "rupee_house.game_1.good_luck",
+  text = [[
+祝你好远!
+]]
+}
+-----------------------
+
+-- Coffre-mystère : quand on a déjà trop gagné pour avoir le droit de rejouer
+dialog{
+  id = "rupee_house.game_1.not_allowed_to_play",
+  text = [[
+你不是已经赢了吗？
+我们因你而损失！
+]]
+}
+-----------------------
+
+-- Coffre-mystère : veut-on rejouer ?
+dialog{
+  id = "rupee_house.game_1.play_again_question",
+  question = true,
+  text = [[
+你想再玩一次吗?
+玩
+不玩
+]]
+}
+-----------------------
+
+-- Coffre-mystère : quand on refuse de jouer
+-- C'est un clin d'oeil à Link's Awakening, dans le stand
+-- de pêche tout au début du jeu, quand on refuse de jouer ou de rejouer
+-- English Translation taken from the actual LA text dump.
+-- http://www.zeldalegends.net/files/emulation/dumps/zelda4/usa/z4dump(usa).html
+dialog{
+  id = "rupee_house.game_1.not_playing",
+  text = [[
+你不得不有更多的激情!
+享受一下生活！
+]]
+}
+-----------------------
+
+-- Jeu du bandit manchot dans la maison des rubis
+dialog{
+  id = "rupee_house.game_2.intro",
+  question = true,
+  text = [[
+欢迎来到崭新的老虎机!
+放入5或20卢币，尽力使
+一行三个同样的标志去
+赢得几倍的钱！
+
+
+你想玩吗?
+玩
+不玩
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on refuse de jouer
+dialog{
+  id = "rupee_house.game_2.not_playing",
+  text = [[
+下次来玩...
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on accepte de jouer
+dialog{
+  id = "rupee_house.game_2.choose_bet",
+  question = true,
+  text = [[
+你准备赌多少卢币?
+5
+20
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on a choisi une des deux sommes à miser
+-- et qu'on a effectiement assez d'argent
+dialog{
+  id = "rupee_house.game_2.just_paid",
+  next = "rupee_house.game_2.playing",
+  text = [[
+谢谢!
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on reparle au vendeur pendant que les roulettes tournent déjà
+dialog{
+  id = "rupee_house.game_2.playing",
+  text = [[
+站在轮盘旁按动作键
+使它们停止.
+祝你好运!
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on obtient 3 symboles identiques qui ne rapportent rien d'exceptionnel
+dialog{
+  id = "rupee_house.game_2.reward.same_any",
+  text = [[
+三个相同轮盘,不坏!
+你赢得4倍赌注.
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on obtient 3 symboles de rubis verts
+dialog{
+  id = "rupee_house.game_2.reward.green_rupees",
+  text = [[
+三个绿卢币,漂亮!
+你赢得5倍赌注.
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on obtient 3 symboles de rubis bleus
+dialog{
+  id = "rupee_house.game_2.reward.blue_rupees",
+  text = [[
+三个蓝卢币!恭喜!
+你赢得七倍赌注.
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on obtient 3 symboles de rubis rouges
+dialog{
+  id = "rupee_house.game_2.reward.red_rupees",
+  text = [[
+三个红卢币!!!惊人的!
+你赢得至少十倍赌注!
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on obtient 3 symboles de rubis différents
+dialog{
+  id = "rupee_house.game_2.reward.different_rupees",
+  text = [[
+Wow!!!你得到三个不同
+颜色的卢币,这不是每天
+都发生的!
+奖励15被赌注!!
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on obtient 3 symboles Yoshi (c'est la récompense maximale)
+dialog{
+  id = "rupee_house.game_2.reward.yoshi",
+  text = [[
+$1...
+三个Yoshi?!
+难-以-置-信!
+这是最好的组合..
+你原始的赌注乘以20.
+]]
+}
+-----------------------
+
+-- Bandit manchot : quand on n'obtient rien
+dialog{
+  id = "rupee_house.game_2.reward.none",
+  question = true,
+  text = [[
+坏运气,没得到任何组合
+
+想再来吗?
+
+是
+不
+]]
+}
+-----------------------
+
+-- Jeu du labyrinthe dans la maison des rubis
+dialog{
+  id = "rupee_house.game_3.intro",
+  question = true,
+  text = [[
+控制在时间用尽前通过
+迷宫,你或许不得不推开
+路旁的石块打开新道路,
+你能赢得心之碎片,并且
+我听说它十分稀少...
+仅需要10卢币.
+你想玩吗?
+是
+不
+]]
+}
+-----------------------
+
+-- Jeu du labyrinthe : quand on accepte de jouer et qu'on a assez d'argent
+dialog{
+  id = "rupee_house.game_3.go",
+  text = [[
+我们走!
+祝你好运!
+]]
+}
+-----------------------
+
+-- Jeu du labyrinthe : quand on refuse de jouer
+dialog{
+  id = "rupee_house.game_3.not_playing",
+  text = [[
+这是你的选择...
+]]
+}
+-----------------------
+
+-- Jeu du labyrinthe : quand on parle au vendeur alors qu'on a déjà obtenu le fragment de coeur
+dialog{
+  id = "rupee_house.game_3.not_allowed_to_play",
+  text = [[
+对不起,你已经赢得了这个
+游戏!
+]]
+}
+-----------------------
+
+-- Jeu du labyrinthe : quand on parle au vendeur alors que le jeu est déjà commencé
+dialog{
+  id = "rupee_house.game_3.restart_question",
+  question = true,
+  text = [[
+你想重新开始吗?
+
+这将会要10卢币.
+
+是
+不
+]]
+}
+-----------------------
+
+-- Maison des rubis : quand on n'a pas assez d'argent (quel que soit le jeu)
+dialog{
+  id = "rupee_house.not_enough_money",
+  text = [[
+你没有足够的钱!
+]]
+}
+-----------------------
+
+-- Maison des rubis : quand on interagit avec le jeu sans avoir payé (coffre-mystère et bandit manchot)
+dialog{
+  id = "rupee_house.pay_first",
+  text = [[
+嘿!如果你想玩的话
+必须付钱!
+]]
+}
+-----------------------
+
+-- Maison des rubis dévalisée (PNJ de gauche)
+dialog{
+  id = "rupee_house_broken.help_us_left",
+  text = [[
+救命!
+救命!
+
+
+屋子被抢劫了!
+]]
+}
+-----------------------
+
+-- Maison des rubis dévalisée (PNJ du milieu)
+dialog{
+  id = "rupee_house_broken.help_us_middle",
+  text = [[
+土匪偷走了用于
+支付收益的卢币!
+]]
+}
+-----------------------
+
+-- Maison des rubis dévalisée (PNJ de droite)
+dialog{
+  id = "rupee_house_broken.help_us_right",
+  text = [[
+犯人是朝blacksmith
+的洞穴走!
+]]
+}
+-----------------------
+
+-- Maison des rubis dévalisée (voleurs battus)
+dialog{
+  id = "rupee_house_broken.thanks",
+  text = [[
+你找到了我们的卢币!
+我们准备使生意恢复
+和继续,我不知道
+怎样报答你才好...
+]]
+}
+-----------------------
+
+dialog{
+  id = "rupee_house_broken.thanks_again",
+  text = [[
+再次感谢!
+]]
+}
+-----------------------
+
+-- Dialogue chez la grand-mère (au début du jeu)
+dialog{
+  id = "grandma_house.sword",
+  skip = "all",
+  text = [[
+怪物在潜伏在田野里,这
+不是好兆头:我确信不好
+的事情已经发生.
+你正在寻找剑吗?
+我这样的年龄,不想去
+做这样的事..你最好去
+看村庄最北的山洞里的
+blacksmith,他有点
+粗鲁但将能帮助你.
+]]
+}
+-----------------------
+
+-- Dialogue chez la grand-mère (après avoir obtenu l'épée)
+dialog{
+  id = "grandma_house.find_sahasrahla",
+  skip = "all",
+  text = [[
+用这剑,你能砍着通过
+保护村庄的灌木.你正在
+寻找Sahasrahla
+不是吗?他的房子在这
+最南方的,靠近面包点,
+你不记得吗?
+]]
+}
+-----------------------
+
+-- Dialogue chez la grand-mère (après avoir obtenu la clé de terre)
+dialog{
+  id = "grandma_house.go_lyriann_cave",
+  skip = "all",
+  text = [[
+这钥匙允许你进入村庄
+北面的洞穴.
+]]
+}
+-----------------------
+
+-- Dialogue chez la grand-mère (après avoir fini la grotte de Tom)
+-- GoNintendo What are YOU waiting for?
+dialog{
+  id = "grandma_house.go_dungeon_1",
+  skip = "all",
+  text = [[
+四个孩子之一或许被关在
+村南边的森林里的暗黑
+土牢,你还在等什么?
+]]
+}
+-----------------------
+
+-- Dialogue chez la grand-mère (après avoir fini le donjon 1)
+dialog{
+  id = "grandma_house.go_back_sahasrahla",
+  skip = "all",
+  text = [[
+这次超过了我的知识,
+Sahasrahla将会是
+更好的帮助.
+]]
+}
+-----------------------
+
+-- Dialogue chez la grand-mère (après avoir obtenu l'arc)
+dialog{
+  id = "grandma_house.go_twin_caves",
+  skip = "all",
+  text = [[
+你找到了弓,我认为你
+能进入南方的两个洞穴
+并解开它们隐藏的秘密
+去吧!
+]]
+}
+-----------------------
+
+-- Dialogue chez la grand-mère (après avoir obtenu la clé de roc)
+dialog{
+  id = "grandma_house.go_dungeon_2",
+  skip = "all",
+  text = [[
+你手上拿着多棒的钥匙!
+不正是去寻找第二个
+丢失的孩子的时候吗?
+]]
+}
+-----------------------
+
+dialog{
+  id = "grandma_house.go_telepathic_booth",
+  skip = "all",
+  text = [[
+你说什么?我听不清!
+上了年龄,耳朵不像
+过去一样好...
+用电话交流怎么样?
+时尚和方便对我的
+老身体.
+]]
+}
+-----------------------
+
+dialog{
+  id = "grandma_house.dark_world_enabled",
+  skip = "all",
+  text = [[
+Agahnim控制了国家
+..邪恶伴随他一起生长.
+一位城堡的军人Tom被认为
+带走Sahasraha而有罪，
+这不可能!
+此外,一些犯人抢劫了
+卢币房!
+]]
+}
+-----------------------
+
+dialog{
+  id = "telepathic_booth.not_working",
+  skip = "all",
+  text = [[
+喂?...喂？
+这里有人吗？
+]]
+}
+-----------------------
+
+dialog{
+  id = "telepathic_booth.go_sahasrahla",
+  skip = "all",
+  text = [[
+$v,听到我说话吗?
+我是Lyly奶奶,电话,
+有作用了!你应该拜访
+Sahasrahla,他有事
+对你说.
+]]
+}
+-----------------------
+
+dialog{
+  id = "telepathic_booth.go_twin_caves",
+  skip = "all",
+  text = [[
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!
+有些事告诉我南方
+森林土牢旁的两个洞穴
+有重要的宝物...
+]]
+}
+-----------------------
+
+dialog{
+  id = "telepathic_booth.dungeon_2_not_really_finished",
+  skip = "all",
+  text = [[
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!但是
+你确定你找到岩之洞窟
+里的每件物品?
+]]
+}
+-----------------------
+
+dialog{
+  id = "telepathic_booth.go_master_arbror",
+  skip = "all",
+  text = [[
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!
+看起来有条路通过
+北方的森林
+Master Arbror经常在
+被水淹没的土地出没.
+]]
+}
+-----------------------
+
+dialog{
+  id = "telepathic_booth.go_billy",
+  skip = "all",
+  text = [[
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!
+你知道Billy the 
+Reckness吗？听说安全
+从恐怖山的旅行中
+回来!
+]]
+}
+-----------------------
+
+dialog{
+  id = "telepathic_booth.shop",
+  skip = "all",
+  text = [[
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!
+但是时间无情
+荒芜遍布混乱的王国..
+看起来生活它自己已经
+走向停止.
+除了镇中曾经只卖武器
+的小店为了生存正在
+制造真卢币!
+]]
+}
+-----------------------
+
+-- Dialogue avec le forgeron
+dialog{
+  id = "smith_cave.without_sword",
+  question = true,
+  text = [[
+我亲手锻造的青铜剑,
+你能75卢币拥有它!
+单单你的盾不会走更远.
+有兴趣吗?
+有
+没有
+]]
+}
+-----------------------
+
+-- Dialogue avec le forgeron: quand on a déjà acheté l'épée
+dialog{
+  id = "smith_cave.with_sword",
+  text = [[
+不要去弄断我的剑,因为
+我不会锻造另一个给你!
+]]
+}
+-----------------------
+
+-- Dialogue avec le forgeron: quand on refuse d'acheter l'épée
+dialog{
+  id = "smith_cave.not_buying",
+  text = [[
+取决于你,但是如果你
+陷入严重的麻烦别回
+这里哭泣.
+]]
+}
+-----------------------
+
+-- Dialogue avec le forgeron : quand on n'a pas assez d'argent
+dialog{
+  id = "smith_cave.not_enough_money",
+  text = [[
+你正在想从我这偷窃吗?
+你没有足够的卢币!
+]]
+}
+-----------------------
+
+-- Dialogue avec le forgeron : quand on achète l'épée
+dialog{
+  id = "smith_cave.thank_you",
+  text = [[
+非常感谢.挥动你的剑,按
+C键,或者按住C键准备
+一个回旋击.
+]]
+}
+-----------------------
+
+-- Boutique : quand on parle au vendeur
+dialog{
+  id = "lyriann_shop.salesman",
+  text = [[
+欢迎,选择你想要买的
+物品.
+]]
+}
+-----------------------
+
+-- Boutique : quand on regarde les pommes
+dialog{
+  id = "lyriann_shop.apples",
+  next = "_unknown",
+  text = [[
+三个新鲜今早刚摘的
+苹果,每个苹果恢复
+一颗心.
+]]
+}
+-----------------------
+
+-- _unknown car c'est le moteur qui se chargera de la suite pour gérer la vente
+-- cela permet d'afficher une flèche en bas de la boîte de dialogue au lieu du carré
+-- Boutique : quand on regarde la lanterne
+dialog{
+  id = "lyriann_shop.lamp",
+  next = "_unknown",
+  text = [[
+一盏油灯.
+通过黑暗的地方.
+]]
+}
+-----------------------
+
+-- Boutique : quand on regarde le coeur
+dialog{
+  id = "lyriann_shop.heart",
+  next = "_unknown",
+  text = [[
+现在一颗心将被用.
+]]
+}
+-----------------------
+
+-- Boutique : quand on regarde le sac de bombes 2 ou 3
+dialog{
+  id = "lyriann_shop.bomb_bag",
+  next = "_unknown",
+  text = [[
+一个更大的炸弹包,
+现在真时尚.
+]]
+}
+-----------------------
+
+-- Boutique : quand on regarde le carquois 2 ou 3
+dialog{
+  id = "lyriann_shop.quiver",
+  next = "_unknown",
+  text = [[
+一个更大的大箭袋,
+这时候真有用.
+]]
+}
+-----------------------
+
+-- Boutique : quand on regarde le sac de rubis 2
+dialog{
+  id = "lyriann_shop.rupee_bag",
+  next = "_unknown",
+  text = [[
+一个新钱包能装更多
+的卢币.
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on parle à la vendeuse
+dialog{
+  id = "cake_shop.seller.choose_item",
+  text = [[
+欢迎,选择你想买的点心.
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on regarde le pain au chocolat
+dialog{
+  id = "cake_shop.pain_au_chocolat",
+  next = "_unknown",
+  text = [[
+美味的巧克力面包
+恢复三颗心
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on regarde les croissants
+dialog{
+  id = "cake_shop.croissant",
+  next = "_unknown",
+  text = [[
+酥脆的羊角面包
+恢复七颗心.
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on regarde la tarte aux pommes
+dialog{
+  id = "cake_shop.apple_pie",
+  next = "_unknown",
+  text = [[
+一个苹果派,
+在你的帮助下完成烘焙!
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on est sur le point de partir
+dialog{
+  id = "cake_shop.dont_leave",
+  question = true,
+  text = [[
+嘿,等下!
+我正在寻找苹果烘焙
+苹果派,需要6个苹果
+你想帮忙吗?
+是
+不
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on parle à la vendeuse une fois qu'elle a déjà parlé des pommes
+dialog{
+  id = "cake_shop.seller.ask_apples_again",
+  skip = "all",
+  question = true,
+  text = [[
+我仍在寻找6个苹果
+烘焙超级苹果派.
+你想帮忙吗?
+
+是
+不
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on accepte d'aider la vendeuse en ayant des pommes mais pas assez
+dialog{
+  id = "cake_shop.not_enough_apples",
+  text = [[
+哦,你没有足够的苹果...
+以后再来..
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on accepte d'aider la vendeuse sans avoir de pommes
+dialog{
+  id = "cake_shop.no_apples",
+  text = [[
+谢谢你...如果你找到
+一些,回来看我!
+]]
+}
+-----------------------
+
+-- Pâtisserie : quand on accepte d'aider la vendeuse en ayant assez de pommes
+dialog{
+  id = "cake_shop.thank_you",
+  text = [[
+噢,谢谢你,人真好!
+
+对不起我只有这个空瓶..
+
+这是小奖励但是我确定你
+将很好利用它.
+]]
+}
+-----------------------
+
+-- Chez Sahasrahla : première visite
+dialog{
+  id = "sahasrahla_house.beginning",
+  next = "sahasrahla_house.beginning.12",
+  text = [[
+oh,$v,你听到了我的呼唤.
+我有重要的事情要说,我们
+在紧急时机.八个太阳神
+战士的孩子中的四个的被
+抓走.我感觉三角有危险.
+有人想从国王的死中获益
+并且控制女神的三角..
+谁能做这个呢？
+肯定Ganondorf和他的
+奴才们...
+七圣贤的封印由于国王
+的死虚弱.Ganon从黑暗
+世界逃出来了吗?
+我们必须不让他获得这
+力量!我能感觉到你的
+勇气,$v.你能胜任通过
+这片大陆上最危险的
+地方拯救孩子保护三角
+吗?
+]]
+}
+-----------------------
+
+dialog{
+  id = "sahasrahla_house.beginning.12",
+  skip = "none",
+  question = true,
+  next = "sahasrahla_house.beginning.thanks",
+  next2 = "sahasrahla_house.beginning.insisting",
+  text = [[
+保护女神的三角?
+我能胜任!
+不能
+]]
+}
+-----------------------
+
+dialog{
+  id = "sahasrahla_house.beginning.insisting",
+  question = true,
+  next = "sahasrahla_house.beginning.thanks",
+  next2 = "sahasrahla_house.beginning.insisting",
+  text = [[
+$v,我必须坚持,你是
+我们保护王国唯一的
+希望..
+
+好吧
+没门
+]]
+}
+-----------------------
+
+-- Chez Sahasrahla : quand on accepte la demande
+dialog{
+  id = "sahasrahla_house.beginning.thanks",
+  next = "sahasrahla_house.give_world_map",
+  text = [[
+我知道我能相信你的
+勇气.
+]]
+}
+-----------------------
+
+dialog{
+  id = "sahasrahla_house.give_world_map",
+  text = [[
+这是一个小物品对你
+将来的旅行有用...
+]]
+}
+-----------------------
+
+-- Chez Sahasrahla : quand on lui reparle après avoir accepté
+dialog{
+  id = "sahasrahla_house.quest_accepted",
+  text = [[
+你应该检查洞穴,我储存了
+一些你能用到的东西.
+不用幻想我猜,自我回到这
+有段时间了...
+]]
+}
+-----------------------
+
+-- Chez Sahasrahla : quand on lui reparle après avoir fini le donjon 1
+dialog{
+  id = "sahasrahla_house.dungeon_1_finished",
+  next = "sahasrahla_house.go_grandma",
+  text = [[
+做得好,你完成了森林土牢
+的挑战.在你重踏旅途之前
+回到我的洞穴,或许有
+新物品发现.
+]]
+}
+-----------------------
+
+-- Chez Sahasrahla : quand on regarde sa bibliothèque
+dialog{
+  id = "sahasrahla_house.memories",
+  question = true,
+  next = "sahasrahla_house.memories.read",
+  text = [[
+Sahasrahla的回忆,读吗?
+读
+不读
+]]
+}
+-----------------------
+
+dialog{
+  id = "sahasrahla_house.memories.read",
+  text = [[
+这条路太长了!
+]]
+}
+-----------------------
+
+-- Chez Sahasrahla : quand on lui reparle après avoir vu la porte gelée dans la cave
+dialog{
+  id = "sahasrahla_house.frozen_door_advice",
+  skip = "all",
+  text = [[
+门冻住了?
+试图用水融化冰.
+]]
+}
+-----------------------
+
+-- Chez Sahasrahla : dialogue par défaut quand il n'a rien de spécial à dire pour guider le joueur
+dialog{
+  id = "sahasrahla_house.default",
+  skip = "all",
+  next = "sahasrahla_house.go_grandma",
+  text = [[
+我对你有信心,勇气和智慧
+会引导你.
+]]
+}
+-----------------------
+
+dialog{
+  id = "sahasrahla_house.go_grandma",
+  text = [[
+如果你旅途中感到迷惑
+去拜访Lily奶奶,村庄的
+东面,她是一位老朋友
+知道这个地区的一切.
+]]
+}
+-----------------------
+
+-- Cave de Sahasrahla : quand on regarde la porte gelée
+dialog{
+  id = "sahasrahla_house.frozen_door",
+  skip = "all",
+  text = [[
+门冻住了,一定有方法
+融化冰!
+]]
+}
+-----------------------
+
+-- Grotte de Tom : premier dialogue avec Tom
+dialog{
+  id = "lyriann_cave.tom.first_time",
+  question = true,
+  next2 = "lyriann_cave.tom.refuse_help",
+  text = [[
+你好,年轻的探索者,我是
+Tom,国王的前护卫,我不
+认为任何人能找到这里,
+你在这黑暗的洞穴里
+干吗?什么?三角有危险?
+$0如果国王仍在保护它的
+话一切就不会发生...
+你试图解决这个洞穴的迷
+吗?这个地方充满着谜语,
+宝物和危险,你看起来非常
+有勇气!请接收我的帮助..
+我失败了,我不能保护国王
+请给我一次弥补的机会!
+
+你接受我的帮助吗?
+
+接受
+不接受
+]]
+}
+-----------------------
+
+-- Grotte de Tom : quand on lui reparle sans avoir son Boomerang,
+-- car on a refusé son aide ou bien on lui a déjà rendu le Boomerang mais sans finir la grotte
+dialog{
+  id = "lyriann_cave.tom.not_first_time",
+  question = true,
+  next2 = "lyriann_cave.tom.refuse_help",
+  text = [[
+年轻的探索者,接受我的
+帮助,我失败了,我不能
+保护国王,给我一次弥补
+的机会!你愿意接受吗?
+接受
+不接受
+]]
+}
+-----------------------
+
+-- Grotte de Tom : quand on accepte son aide
+--#I'm not extremely happy with this translation
+--#"If you manage...impressed!" Too word for word.
+dialog{
+  id = "lyriann_cave.tom.accept_help",
+  text = [[
+谢谢你!我能借你这个,
+希望它有用,不要忘记
+完成后归还我.如果你成功
+获得心容器我将非常惊讶!
+]]
+}
+-----------------------
+
+-- Grotte de Tom : quand on refuse son aide
+dialog{
+  id = "lyriann_cave.tom.refuse_help",
+  text = [[
+好,如你所愿.
+]]
+}
+-----------------------
+
+-- Grotte de Tom : quand on lui reparle en ayant son Boomerang et sans avoir fini la grotte
+dialog{
+  id = "lyriann_cave.tom.not_finished",
+  question = true,
+  text = [[
+一切还好吗?用我的回旋镖
+战胜障碍.你需要获得一个
+掌握它的等级如果你想
+发现洞穴所有秘密..不要
+忘记回旋镖总是会飞回你
+即使你在移动!
+你想要做什么?
+继续
+归还回旋镖
+]]
+}
+-----------------------
+
+-- Grotte de Tom : quand on vient de lui rendre son Boomerang sans avoir fini la grotte
+dialog{
+  id = "lyriann_cave.tom.gave_boomerang_back",
+  text = [[
+谢谢你,再来见我
+如果你想要我帮助.
+]]
+}
+-----------------------
+
+-- Grotte de Tom : quand on tente de quitter la grotte sans lui avoir rendu son Boomerang
+dialog{
+  id = "lyriann_cave.tom.leaving",
+  text = [[
+嘿!等等!
+]]
+}
+-----------------------
+
+-- Grotte de Tom : quand on tente de quitter la grotte sans lui avoir rendu son Boomerang
+-- et sans avoir trouvé le Réceptacle de Coeur
+dialog{
+  id = "lyriann_cave.tom.leaving.cavern_not_finished",
+  text = [[
+你已经完成探险?我不认为
+你发现每个东西...假如你
+不介意的话,我将拿回我的
+回旋镖,你需要一个技能的
+等级去死用它!再来见我
+如果你想要我帮助.
+]]
+}
+-----------------------
+
+-- Grotte de Tom : quand on a trouvé le Réceptacle de Coeur (et donc
+-- fini la grotte) mais qu'on ne lui a pas encore rendu son Boomerang,
+-- que ce soit en lui parlant directement ou en tentant de quitter la grotte
+dialog{
+  id = "lyriann_cave.tom.cavern_finished",
+  next = "lyriann_cave.tom.see_you_later",
+  text = [[
+你解决了这个洞穴的迷?
+佩服!
+你像你的胆量一样
+有技巧.
+
+如果你不介意,我将拿回
+我的回旋镖.
+]]
+}
+-----------------------
+
+-- Grotte de Tom : fin du dialogue ci-dessus
+-- et également quand on vient le revoir à nouveau après
+-- avoir fini la grotte et rendu le Boomerang
+--#Slightly awkward translation
+dialog{
+  id = "lyriann_cave.tom.see_you_later",
+  text = [[
+如果你想,我能在你旅途中
+帮你,如果你需要的话.
+]]
+}
+-----------------------
+
+-- Entrée du donjon 1 : quand on s'approche
+-- de la falaise en ayant fini la grotte de Tom
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.hey",
+  text = [[
+嘿!
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.need_help",
+  text = [[
+需要帮忙吗?
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.let_me_see",
+  text = [[
+嗯,我打赌这里藏着个
+阶梯,让我们看看...
+]]
+}
+-----------------------
+
+-- Tom has found a ladder and is opening the access to dungeon 1
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.open",
+  text = [[
+我认为我能移动它.
+$0可不是!
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.finished",
+  text = [[
+小心点,这里的这个东西
+看起来不吉利.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_1.solarus_child",
+  text = [[
+$2$v... 
+谢谢你救了我,我是
+八个守护者之一被
+塞尔达公主叫做forth
+我们献身于看管
+神圣的太阳神战士的
+遗物的保护物,三角
+ ,三女神创世后
+留下的意志.
+经历了千年,虽然三角
+是生命的根源和繁荣,
+但也是贪婪和正义和
+邪恶间不停争斗的
+根源..
+即使今天,神圣的遗物
+任有危险.然而历史重复
+着它自己.无论哪里危险,
+总有一个英雄的勇气驱逐
+走黑暗.找到我的兄弟们,
+发现这背后的操纵者,
+在黑暗使海拉尔陷入
+混乱之前...
+或许英雄带来和平和
+繁荣给这个国度!
+]]
+}
+-----------------------
+
+-- Message affiché lorsqu'on tente d'ouvrir la porte d'entrée
+-- du donjon 2 sans avoir la Clé de Roc
+dialog{
+  id = "outside_world.rock_key_required",
+  text = [[
+锁的!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_2.eye_hint",
+  skip = "all",
+  text = [[
+两眼必须被射穿.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_2.eye_2_hint",
+  skip = "all",
+  text = [[
+必须坚持射穿两眼.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_2.code_hint",
+  skip = "all",
+  text = [[
+       F | B | E 
+      ---|---|---
+       C | D | A 
+]]
+}
+-----------------------
+
+dialog{
+  id = "fairy_cave.first_time",
+  text = [[
+欢迎充满智慧的年轻人.
+我一直等你的到来.我是
+Enchanting Fairy.你
+守护正义,允许我给你
+这个礼物...
+你已经证明你应该
+拥有它.
+]]
+}
+-----------------------
+
+dialog{
+  id = "fairy_cave.restore_health",
+  text = [[
+欢迎,充满智慧的年轻人.
+
+我是Enchanting Fairy.
+闭上眼然后放松.
+]]
+}
+-----------------------
+
+dialog{
+  id = "north_fairy_fountain.first_time",
+  text = [[
+欢迎,充满勇气的年轻人.
+我一直等待你的到来.
+我是Traveling Fairy.你
+周游世界无情的与邪恶
+战斗,允许我传授你古老
+的技能...
+]]
+}
+-----------------------
+
+dialog{
+  id = "north_fairy_fountain.restore_health",
+  text = [[
+欢迎,充满勇气的年轻人.
+
+我是Traveling Fairy.
+闭上眼然后放松.
+]]
+}
+-----------------------
+
+dialog{
+  id = "mountain_cave.mountain_sign",
+  skip = "all",
+  text = [[
+  
+	 恐怖山
+	  --->
+]]
+}
+-----------------------
+
+dialog{
+  id = "mountain_cave.not_much_done",
+  skip = "all",
+  text = [[
+如果你正在读这个,你将
+不会走多远.
+]]
+}
+-----------------------
+
+dialog{
+  id = "mountain_cave.patience",
+  skip = "all",
+  text = [[
+ 耐心是真英雄的优点.
+        ---佚名
+]]
+}
+-----------------------
+
+dialog{
+  id = "mountain_cave.almost_done",
+  skip = "all",
+  text = [[
+最坏的还没来.
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.old_castle_sign",
+  skip = "all",
+  text = [[
+
+		古城堡
+		
+		 <---
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.hello",
+  skip = "current",
+  text = [[
+如果你敢进入我的巢穴，
+我希望你是为有意义的
+事来，我是(Billy the 
+Reckless,一直是最伟大
+的冒险者),
+
+在我去恐怖山探险的
+期间，我带回一个无价的
+宝物。即使塞尔达公主也
+不能找到它，它是一种
+极其稀少的植物.
+
+我是唯一活着的并拥有
+它的人.我清楚恐怖山
+所有的障碍,面对
+过每个危险,无伤的
+走出带.
+
+这是英雄般的以至于
+发现这极其有价值的花
+: 雪绒花！
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.what_do_you_have",
+  skip = "current",
+  next = "_unknown",
+  text = [[
+不要期待我免费给你我的
+雪绒花，我面对着恐怖山
+的危险找到它.
+如果你没有任何有价值
+的东西给我,那么走开.
+
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.without_golden_bars",
+  question = true,
+  text = [[
+你将给我什么?
+羊角面包
+苹果派
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.with_golden_bars",
+  question = true,
+  text = [[
+你将给我什么?
+金条
+苹果派
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.give_croissant_without",
+  text = [[
+小贼!你羊角面包
+都没有!
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.give_croissant",
+  text = [[
+羊角面包?
+你是开我玩笑吗?
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.give_apple_pie_without",
+  text = [[
+呸!你甚至没有
+苹果派!
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.give_apple_pie",
+  text = [[
+不谢,这不公平...
+]]
+}
+-----------------------
+
+dialog{
+  id = "billy_cave.give_golden_bars",
+  text = [[
+什么?你有金条?
+$1...$0..$0........
+$3成交!
+拿走你愚蠢的花..
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.surprise_wall_guy.closed",
+  text = [[
+如果你给我东西吃,
+我会让你在墙的
+另一边.
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.surprise_wall_guy.give_me_apple_pie",
+  question = true,
+  text = [[
+给我苹果派好吗?
+好
+没门
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.surprise_wall_guy.open",
+  text = [[
+有人认为墙后面有宝藏,
+但是我从来没有找到.
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.surprise_wall_guy.thanks",
+  next = "outside_world.surprise_wall_guy.open",
+  text = [[
+真好!感谢我能吃苹果派.
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.surprise_wall_closed",
+  text = [[
+关的!
+]]
+}
+-----------------------
+
+dialog{
+  id = "surprise_wall.direction_0",
+  text = [[
+
+         右
+]]
+}
+-----------------------
+
+dialog{
+  id = "surprise_wall.direction_1",
+  text = [[
+
+         上
+]]
+}
+-----------------------
+
+dialog{
+  id = "surprise_wall.direction_2",
+  text = [[
+
+         左
+]]
+}
+-----------------------
+
+dialog{
+  id = "surprise_wall.direction_3",
+  text = [[
+
+         下
+]]
+}
+-----------------------
+
+dialog{
+  id = "lake_shop.seller",
+  text = [[
+欢迎来到滨湖小店,
+我们的物品是这个地区
+最便宜的,我能为你
+做些什么?
+]]
+}
+-----------------------
+--#A bit difficult to translate. Maybe "discount(ed)" could work
+
+dialog{
+  id = "lake_shop.apples",
+  text = [[
+标价的三个苹果.
+]]
+}
+-----------------------
+--#This is apparently an English expression. Change if you like
+
+dialog{
+  id = "lake_shop.bombs",
+  text = [[
+八个炸弹.我会以成本价
+给你!
+]]
+}
+-----------------------
+--#Perhaps a better translation out there? "ratio" maybe?
+
+dialog{
+  id = "lake_shop.arrows",
+  text = [[
+十支箭,这个价格非常
+合适.
+]]
+}
+-----------------------
+
+dialog{
+  id = "lake_shop.big_magic_flask",
+  text = [[
+特别提供:
+魔力罐.
+]]
+}
+-----------------------
+
+dialog{
+  id = "chests_game_cave.first_time",
+  next = "chests_game_cave.play_question",
+  text = [[
+你怎么来到这的? 
+
+...既然你来了,你想成为
+第一个玩我的新游戏的人
+吗?一次游戏30卢币...
+]]
+}
+-----------------------
+
+dialog{
+  id = "chests_game_cave.not_first_time",
+  skip = "current",
+  next = "chests_game_cave.play_question",
+  text = [[
+嘿!一次游戏30卢币!
+]]
+}
+-----------------------
+
+dialog{
+  id = "chests_game_cave.play_question",
+  question = true,
+  text = [[
+你想玩吗?
+玩
+不玩
+]]
+}
+-----------------------
+
+dialog{
+  id = "chests_game_cave.not_enough_money",
+  skip = "all",
+  text = [[
+你没有足够的卢币!
+]]
+}
+-----------------------
+
+dialog{
+  id = "chests_game_cave.start_game_wooden_key",
+  skip = "all",
+  text = [[
+谢谢!玩游戏仅仅要打开
+箱子.里面有你想要的
+东西.今天的大奖是
+卓越的木钥匙.
+]]
+}
+-----------------------
+
+dialog{
+  id = "chests_game_cave.start_game_piece_of_heart",
+  skip = "all",
+  text = [[
+谢谢!玩游戏仅仅要打开
+箱子,里面有你想要的
+东西,今天的大奖是:
+心之碎片.
+]]
+}
+-----------------------
+--#Might be able to translate this a little better
+
+dialog{
+  id = "chests_game_cave.start_game",
+  skip = "all",
+  text = [[
+谢谢!你能打开其中一个
+箱子,里面有你想要的
+东西.
+]]
+}
+-----------------------
+
+dialog{
+  id = "chests_game_cave.already_playing",
+  skip = "all",
+  text = [[
+挑选一个箱子!
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.junk_shop_sign",
+  skip = "all",
+  text = [[
+
+       旧货商店
+	   
+期待的价格,
+多量的选择.
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.seller",
+  skip = "all",
+  text = [[
+欢迎来到旧货商店!
+特别价格有着顶级的
+品种!请自便！
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.croissant",
+  text = [[
+羊角面包.
+补充生命.
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.arrows",
+  text = [[
+标准的箭.
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.red_rupee",
+  text = [[
+特别提供红卢比,但是
+这是基本模型.
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.mystic_mirror",
+  text = [[
+神秘的镜子.据说能
+使水倒流!
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.heart",
+  text = [[
+一颗心,如果你需要力量
+它是有用的.
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.bombs",
+  text = [[
+八个炸弹在减价.
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.piece_of_heart",
+  text = [[
+一个真正的心容器.
+]]
+}
+-----------------------
+
+dialog{
+  id = "junk_shop.pain_au_chocolat",
+  text = [[
+恢复心的巧克力
+羊角面包.
+]]
+}
+-----------------------
+--#Needs work. Won't remove French until it's fixed
+
+dialog{
+  id = "castle.welcome",
+  skip = "all",
+  text = [[
+欢迎来到被列为历史遗迹
+的古皇家城堡,
+请避免损坏周围.
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.forbidden_stairs",
+  skip = "all",
+  text = [[
+楼梯通往上一层的阳台.
+公众禁止通行.
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.forbidden_door",
+  skip = "all",
+  text = [[
+对不起先生,但是你不被
+允许进入牢房.
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.forbidden_door_wtf",
+  text = [[
+.....$0...?!$#@=!??
+......$0....
+你怎么来到这的?
+你已进入禁止的
+区域.
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.npc_1",
+  skip = "all",
+  text = [[
+城堡曾经属于王室.
+现在,海拉尔全国的游客
+到此旅游,目睹这地方
+的美丽.
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.npc_2",
+  skip = "all",
+  text = [[
+你认为所有的精力用来
+建造这个城堡吗?
+我只能想的是他们是
+怎样用那时的手段
+成功完成建筑这一
+如此美妙的部分.
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.where_is_tom",
+  skip = "all",
+  text = [[
+Tom,最好的战士之一,
+当他探索一个洞穴时
+奇怪的消失了.
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.npc_3",
+  skip = "all",
+  text = [[
+多奢侈!多么宏伟的
+地方!
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.prison",
+  skip = "all",
+  text = [[
+国王的囚犯被关在
+这些黑狱室里.
+]]
+}
+-----------------------
+
+dialog{
+  id = "castle.cannon",
+  skip = "all",
+  text = [[
+多强大的炮!你最好
+不是国王的敌人
+]]
+}
+-----------------------
+
+dialog{
+  id = "inferno.first_time",
+  next = "inferno.find_fire_stones",
+  text = [[
+谁敢在我地盘上走!
+孩子!你不知道这是
+多么愚蠢去打扰伟大的
+火焰之神，
+Infero(地狱).
+你将会由于你的
+行为被惩罚,试图找到
+被我藏在我那
+黑暗的迷宫的三个火石
+]]
+}
+-----------------------
+
+dialog{
+  id = "inferno.find_fire_stones",
+  skip = "current",
+  text = [[
+你将会接受三个
+勇气的考验.
+
+战胜等待你的挑战,
+带回三个火石,然后可以
+平静Inferno的愤怒.
+]]
+}
+-----------------------
+
+dialog{
+  id = "inferno.found_fire_stones",
+  question = true,
+  text = [[
+你一定会成功通过三个
+考验,你的勇气十分
+独特,我必须屈服.我会
+授予你任何想要的东西.
+
+
+你想要什么?
+黑色石头
+100卢币
+]]
+}
+-----------------------
+
+dialog{
+  id = "inferno.want_rupees",
+  text = [[
+那就这样吧.
+]]
+}
+-----------------------
+
+dialog{
+  id = "inferno.want_rupees_again",
+  text = [[
+我已经给了你奖励.
+]]
+}
+-----------------------
+
+dialog{
+  id = "inferno.want_black_stones",
+  text = [[
+在你能举起黑石之前,
+你必须在地狱般的土地
+上生存,克服各种危险,
+让我带你去火的地狱.
+]]
+}
+-----------------------
+
+dialog{
+  id = "potion_shop.witch",
+  text = [[
+欢迎来到药店!
+嘻嘻嘻...
+红给你生命,绿给你魔力
+蓝给你生命和魔力!
+]]
+}
+-----------------------
+
+dialog{
+  id = "potion_shop.witch_bottle_offered",
+  text = [[
+欢迎来到药店!
+嘻嘻嘻...
+魔瓶免费给新顾客!
+嘻嘻嘻...
+红给你生命,绿给你魔力
+蓝给你生命和魔力!
+]]
+}
+-----------------------
+
+dialog{
+  id = "potion_shop.no_empty_bottle",
+  text = [[
+你不能买药没有一个
+空瓶!嘻嘻嘻..
+]]
+}
+-----------------------
+
+dialog{
+  id = "potion_shop.red_potion",
+  text = [[
+红药水:
+恢复生命!
+嘻嘻嘻..
+]]
+}
+-----------------------
+
+dialog{
+  id = "potion_shop.green_potion",
+  text = [[
+绿药水:
+恢复魔力!
+嘻嘻嘻...
+]]
+}
+-----------------------
+
+dialog{
+  id = "potion_shop.blue_potion",
+  text = [[
+蓝药水:
+恢复生命和魔力!
+嘻嘻嘻...
+]]
+}
+-----------------------
+
+dialog{
+  id = "potion_shop.give_bottle",
+  text = [[
+做为新顾客,离开时可
+免费带走一个魔瓶.
+嘻嘻嘻...
+]]
+}
+-----------------------
+
+dialog{
+  id = "outside_world.vine_start",
+  skip = "all",
+  text = [[
+周围的土地看起来
+非常富饶,但是缺乏
+湿度...
+]]
+}
+-----------------------
+
+dialog{
+  id = "cave_to_dungeon_8.hint",
+  skip = "all",
+  text = [[
+只有一个细心的观察者
+才能注意到道路.
+]]
+}
+-----------------------
+
+dialog{
+  id = "bone_key_cave.hint",
+  skip = "all",
+  text = [[
+只能靠抵抗光,
+然后耀眼的光重现.
+]]
+}
+-----------------------
+
+dialog{
+  id = "hidden_palace.door_closed",
+  skip = "all",
+  text = [[
+这扇门不会打开...
+]]
+}
+-----------------------
+
+dialog{
+  id = "hidden_palace.using_bone_key",
+  icon = 20,
+  text = [[
+$1你用了石钥匙...
+]]
+}
+--------------------
+
+dialog{
+  id = "dungeon_2.solarus_child",
+  text = [[
+$2$v...感谢你救了我,
+我是八个保护者之一
+被塞尔达公主称为forth
+看管众神三角,用太阳神
+遗物的力量,一个戴在
+塞尔达身上的遗物,这是
+唯一的方法去恢复三角.
+我们粉碎它成八个碎片
+藏在整个王国,我们在这
+里保护八个碎片,同样
+塞尔达公主看管太阳神
+遗物,它一定没有落入
+邪恶的手里.我们相信
+你的勇气.或许英雄带来
+和平和繁荣给这个国家!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_3.arbror_direction_hint",
+  text = [[
+
+   北: 恐怖山
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_3.water_drained_somewhere",
+  text = [[
+远处...有动静...
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_3.arbror_hello",
+  text = [[
+哈!!你永远打败不了
+我,Master Arbror!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_3.arbror_killed",
+  text = [[
+咳咳!!我被打败了,但是
+你不会走更远了,你决不
+会成功的!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_3.solarus_child",
+  text = [[
+$2$v...感谢你救了我.
+感谢你,这些生物将永远
+不会骚扰这个王国.我是
+八个守护者之一,被塞尔
+达公主称为第四.只要
+我的兄弟任然被俘虏三角
+就在危险下..
+你的旅途将要结束了.
+救他、带回和平给这些
+土地，或许英雄能带来
+和平和繁荣给
+整个王国！
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_4.welcome",
+  skip = "current",
+  text = [[
+         Level 4
+	 Beaumont的宫殿
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_4.hint_use_map",
+  text = [[
+当出口不出现在你面前，
+查看地图。
+
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_4.hint_chests",
+  text = [[
+四个箱子的
+交叉显示出道路.
+]]
+}
+-----------------------
+
+-- The hero attemps to enter the frozen room in dungeon 4
+-- but doesn't have the blue tunic.
+dialog{
+  id = "dungeon_4.too_cold",
+  text = [[
+这里太冷了...
+你需要离开!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_4.solarus_child",
+  text = [[
+$2$v...感谢你救了我,
+我是八个守护者之一,被
+塞尔达公主称为forth.
+你展示了非凡的勇气.
+感谢你,我们能够再一次
+相聚,并且三角是安全的.
+
+或许英雄带来和平和繁荣
+给这个国家.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_4.agahnim",
+  text = [[
+$1再次!
+$3是的，他自己!
+
+魔术师从死亡大陆回来!!
+Ah ah ah ah ah ah!!!
+So you managed to
+gather the four kids?
+This child doesn't have
+a clue of what awaits
+him outside by saying
+that the Triforce is
+safe...
+所以你打算聚集4个孩子?
+这孩子没有说三角是安全
+在外面等他的迹象...
+Ah ah ah ah ah ah!!!
+确认,年轻人,我回来不是
+释放卑鄙的Ganon,他曾经
+敢叫我他的更改的意识..
+我想离开那个肮脏的被
+封印在黑暗世界的囚犯!
+因此我能持有众神三角
+为我自己作为唯一的
+主人..
+Ah ah ah ah ah!
+离开这个房间,你将目睹
+我控制着整个王国...
+Ah ah ah ah ah ah ah!
+现在你,年轻冲动的
+冒险者,等时间到了
+我会再见你,,我准备
+返回城堡!
+Ah ah ah ah ah! We will
+我们将再次见面和
+我的力量,我会结束你的
+故事!
+Ah ah ah ah ah ah!!!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.welcome",
+  skip = "current",
+  text = [[
+         Level 5
+     
+	     古城堡
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.pots_hint",
+  skip = "all",
+  text = [[
+谜的关键是将旋转罐子
+至正确的方向.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.hero_seen_by_guard",
+  text = [[
+停下!
+别动!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.prison_1_locked",
+  text = [[
+     - Iron Lock -
+     - 铁锁 -
+你的钥匙,
+看起来都不合适...
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.prison_1_use_iron_key",
+  icon = 28,
+  text = [[
+$1
+你用了铁钥匙...
+]]
+}
+--------------------
+
+dialog{
+  id = "dungeon_5.prison_2_locked_1",
+  text = [[
+锁的!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.prison_2_locked_2",
+  text = [[
+它是如此的生锈以至于
+大钥匙不起作用.
+]]
+}
+-----------------------
+--#May need to be prettied up
+
+dialog{
+  id = "dungeon_5.prison_2_locked_3",
+  text = [[
+或许有方法强行打开
+这个旧锁...
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.puzzle_solved",
+  text = [[
+城堡的深处的某个地方
+一个触发器被激活...
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.agahnim_beginning",
+  text = [[
+你能通过我的安全防守
+并且避免放在城堡里的
+陷阱.我不在意,你能
+一路打到这里!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_5.agahnim_end",
+  text = [[
+....$0...........$0
+这次你打败了我...
+但是我们还会见面的..
+
+Ah ah ah ah ah!
+你的小旅行将不会改变
+任何事情...
+Sahasrahla在我的控制下
+会告诉我公主和八个孩子
+在哪...
+Ah ah ah ah ah!
+我现在必须离开,再见!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_6.welcome",
+  skip = "current",
+  text = [[
+         Level 6
+		 
+	  Infero的迷宫
+]]
+}
+-----------------------
+
+-- Hint for the weak floor
+dialog{
+  id = "dungeon_6.torches_hint",
+  text = [[
+三个灯显示去下面的路.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_6.dont_fall_hint",
+  text = [[
+别落下,但要跳.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_6.close_way_hint",
+  text = [[
+然后你后方的路关闭.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_6.tom",
+  text = [[
+$2$v...谢谢你救了我.
+你已经过漫长的旅途和
+克服许多考验自从我们
+上次见面.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_6.tom_revelation",
+  text = [[
+我需要承认一些严肃的
+事实,国王的死不是
+意外的.
+我在Agahnim控制向他
+下毒...
+他下了咒语在我身上,
+我失去了我自由的意志..
+我不能做任何改变的事..
+当咒语失效我意识到
+发生了什么...因此我
+决定退休去洞穴当我们
+第一次见面.Agahnim已经
+控制城堡时,我试图抵抗,
+然后我被被扔进监狱...
+
+$v...你现在一定准备去
+恐怖山.Agahnim
+在哪儿搜索塞尔达.你
+首先必须在魔法师得到
+他需要的信息之前
+解救Sahasrahla...
+请带上这个,我对你
+探索的小贡献...
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_7.welcome",
+  skip = "current",
+  text = [[
+         Level 7
+    
+        水晶神庙
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_7.code",
+  skip = "all",
+  text = [[
+        4  7  2        
+        6  1  8        
+           3  5        
+]]
+}
+-----------------------
+
+-- The original dialog was a reference
+-- to Link's Awakening
+dialog{
+  id = "dungeon_7.2f_weak_floor_hint",
+  text = [[
+你鞋底下的土地
+沉睡着秘密...
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_7.2f_dont_fall_alone_hint",
+  text = [[
+解决方法是不要落单.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_7.sahasrahla",
+  text = [[
+$2$v... 
+感谢你救了我,
+我仅能存在更久点..
+那些犯人诱骗我透露
+塞尔达和八个孩子的
+位置.从危险中保护
+他们在可怕的事情
+发生之前.
+他们正藏在东方的山脉
+八个孩子必须从
+Agahnim处逃出,另外
+魔法师能打破被
+太阳神护身符创造的
+封印,遗物被塞尔达
+戴着,需要去聚集三角
+碎片.
+太阳神战士之谜是安全
+的保存在遗物中.
+遗物的拥有者有能力
+召唤太阳神战士的力量
+去封印一个物品,一个地方
+,甚至整个世界,因为七个
+圣贤曾经做过封印了整个
+金土地.
+塞尔达是力量的继承者,她
+用它封印三角碎片,用八个
+被太阳神创造出来的人.
+因此,只要她单独知道
+遗物的秘密,她就单独控制
+着三角的封印.这是为什么
+你必须保护封印.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_8.welcome",
+  skip = "current",
+  text = [[
+         Level 8
+		 
+        岩峰土牢
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_8.hint_1F",
+  skip = "current",
+  text = [[
+将你自己抛向地牢深处,
+继续你的旅途.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_8.hint_B1",
+  skip = "current",
+  text = [[
+如果你卡住了,
+一锹一锹挖.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_8.billy",
+  text = [[
+
+你不认为你想发现
+你的老伙伴(Billy the 
+Reckness,greast hero 
+of all times)?
+公主和八个孩子再不会
+在这,他们在我的宫殿
+找到藏身处,但是我有
+责任把他们交给
+ Agahnim...
+
+现在,临到你去死了!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_8.agahnim",
+  text = [[
+$1
+那个Billy确实是个无能.
+看他的样子,随着我另
+一个奴隶,不能终结你,
+小寄生虫,我准备做一个
+私人的物品.你将会立即
+整个人消失.到那时,
+最终我将持有三角扩展
+我的力量至整个世界.
+Ah ah ah ah!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_8.agahnim_middle",
+  text = [[
+$1$0...$0.............$0
+你很强，这不是谎言，
+但这是为什么？
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_8.agahnim_end",
+  text = [[
+$1$0...$0 .........$0
+我被击败了...$0
+结束了...    $0
+我不能接受...
+
+
+我屈服你的勇气.$0
+
+既然我不能战胜你,是
+时候释放我的主人...
+Ah ah ah ah ah ah!!!
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_8.ganon",
+  text = [[
+$1
+因此,你成功打败了我
+自主的意识,黑暗魔法师
+Agahimn...
+这相当无助考虑的使他
+释放我,黑暗时代将
+永远不会结束!作为你
+工作的奖励,你,公主和
+八个孩子被邀请加入我的
+宫殿.我将拿回三角并且
+你将成为目击这惊人事件
+的人..
+让你的心灵自由旅行...
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.welcome",
+  skip = "current",
+  text = [[
+         Level 9
+   
+        记忆神殿
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.clockwise_switches_hint",
+  skip = "all",
+  text = [[
+顺时针走.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.3f_door_b_hint_0",
+  skip = "all",
+  text = [[
+向右走.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.3f_door_b_hint_2",
+  skip = "all",
+  text = [[
+向左走.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.3f_door_b_hint_3",
+  skip = "all",
+  text = [[
+向下.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.5f_childs_hint",
+  skip = "all",
+  text = [[
+$1为了打败Ganon,
+火炬必须顺时针点燃.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.boss",
+  text = [[
+你来了,年轻的弱者.
+
+我等你很久了.
+复仇的时间最终来临!
+准备死吧.
+
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.zelda",
+  text = [[
+$1$v...感谢你..你对
+邪恶的胜利再一次展示
+智慧和正义总是
+战胜邪恶力量.
+
+感谢你的成就,我们世界
+已经恢复原状.
+海拉尔王国再次统一.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.zelda_children",
+  text = [[
+$1
+我必须毁了这个遗物.
+太阳神战士的力量太危险
+,通过毁灭它,将不会有
+任何方法从碎片中
+恢复三角,即使你曾经
+为了一个好的目的
+使用它,但邪恶总是想得
+到它,像Agahnim和
+Ganondorf,通过用太阳
+神精华八个部分创造的
+人,纪念物能毁掉封印.
+现在你明白为什么我
+必须毁了它.
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_9.zelda_end",
+  text = [[
+$1 结束了 $0
+
+太阳神战士的力量永远
+消失而三角维持封印
+直到时间终结...
+]]
+}
+-----------------------
+
+dialog{
+  id = "dungeon_10.welcome",
+  skip = "current",
+  text = [[
+     Secret level
+    
+	 天空之塔
+]]
+}
+-----------------------
+
+dialog{
+  id = "credits_1",
+  text = [[
+$1        Credits$0
+
+
+      程序:$0
+	  
+Christopho$0
+]]
+}
+-----------------------
+
+dialog{
+  id = "credits_2",
+  text = [[
+$1 地图和谜题:$0
+     
+Christopho$0
+Metallizer$0
+Binbin$0
+Mymy$0
+]]
+}
+-----------------------
+
+dialog{
+  id = "credits_3",
+  text = [[
+$1   图片资源:$0
+Newlink$0
+Neovyse$0
+@PyroNet$0
+Djipi$0
+$1      Music音乐:$0
+Marine$0
+Metallizer$0
+]]
+}
+-----------------------
+
+dialog{
+  id = "credits_4",
+  text = [[
+$1        故事:$0
+Guillaume F.$0
+Christopho$0
+$1        English
+     localization :$0
+
+Alex_XelA$0
+Rypervenche$0
+Jeff$0
+]]
+}
+-----------------------
+
+dialog{
+  id = "credits_6",
+  text = [[
+$1     测试:$0
+
+
+Thyb$0
+Morwenn$0
+BenObiWan$0
+$1   Special thanks to:$0
+
+
+19oj19$0           Yohann$0
+MultiSync_XV17$0   Krytzz$0
+HelpTheWretched$0
+
+        Nintendo$0
+
+
+Thanks for playing!$0
+
+
+
+ www.solarus-games.org$0
+]]
+}
+-----------------------
+

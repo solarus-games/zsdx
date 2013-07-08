@@ -21,8 +21,13 @@ language{
 
 --[[
 language{
- code = "zh",
-  name = "Chinese"
+ code = "zh_CN",
+  name = "Chinese (simplified)"
+}
+
+language{
+ code = "zh_TW",
+  name = "Chinese (traditional)"
 }
 ]]--
 
