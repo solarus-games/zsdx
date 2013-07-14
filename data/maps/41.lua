@@ -110,7 +110,7 @@ function map:on_opening_transition_finished(destination)
   end
 end
 
-for _, enemy in ipairs(map:get_entities("e_room_enemy")) do
+for enemy in map:get_entities("e_room_enemy") do
   function enemy:on_dead()
 
     if not map:has_entities("e_room_enemy")

@@ -153,7 +153,7 @@ local function nw_switch_left(switch)
   switch:set_locked(false)
 end
 
-for _, switch in ipairs(map:get_entities("nw_switch")) do
+for switch in map:get_entities("nw_switch") do
   switch.on_activated = nw_switch_activated
   switch.on_left = nw_switch_left
 end
@@ -209,7 +209,7 @@ local function close_door_g()
   end
 end
 
-for _, sensor in ipairs(map:get_entities("close_door_g_sensor")) do
+for sensor in map:get_entities("close_door_g_sensor") do
   sensor.on_activated = close_door_g
 end
 
@@ -222,7 +222,7 @@ local function close_door_e()
   end
 end
 
-for _, sensor in ipairs(map:get_entities("close_door_e_sensor")) do
+for sensor in map:get_entities("close_door_e_sensor") do
   sensor.on_activated = close_door_e
 end
 
@@ -250,16 +250,16 @@ function close_door_c_sensor_1:on_activated()
   end
 end
 close_door_c_sensor_2.on_activated = close_door_c_sensor_1.on_activated 
---
+
 -- save solid ground location
-for _, sensor in ipairs(map:get_entities("save_solid_ground_sensor")) do
+for sensor in map:get_entities("save_solid_ground_sensor") do
   function sensor:on_activated()
     hero:save_solid_ground()
   end
 end
 
 -- reset solid ground location
-for _, sensor in ipairs(map:get_entities("reset_solid_ground_sensor")) do
+for sensor in map:get_entities("reset_solid_ground_sensor") do
   function sensor:on_activated()
     hero:reset_solid_ground()
   end
@@ -275,7 +275,7 @@ local function door_b_enemy_dead(enemy)
   end
 end
 
-for _, enemy in ipairs(map:get_entities("door_b_enemy")) do
+for enemy in map:get_entities("door_b_enemy") do
   enemy.on_dead = door_b_enemy_dead
 end
 
@@ -289,7 +289,7 @@ local function door_c_enemy_dead(enemy)
   end
 end
 
-for _, enemy in ipairs(map:get_entities("door_c_enemy")) do
+for enemy in map:get_entities("door_c_enemy") do
   enemy.on_dead = door_c_enemy_dead
 end
 
@@ -315,7 +315,7 @@ local function compass_chest_empty(chest)
   end
 end
 
-for _, chest in ipairs(map:get_entities("compass_chest_")) do
+for chest in map:get_entities("compass_chest_") do
   chest.on_empty = compass_chest_empty
 end
 
@@ -347,7 +347,7 @@ local function torch_collision_fire(torch)
   end
 end
 
-for _, torch in ipairs(map:get_entities("torch_")) do
+for torch in map:get_entities("torch_") do
   torch.on_interaction = torch_interaction
   torch.on_collision_fire = torch_collision_fire
 end

@@ -109,7 +109,7 @@ local function hidden_enemy_dead(enemy)
     end)
   end
 end
-for _, enemy in ipairs(map:get_entities("hidden_enemy")) do
+for enemy in map:get_entities("hidden_enemy") do
   enemy.on_dead = hidden_enemy_dead
 end
 
@@ -124,7 +124,7 @@ local function s_door_enemy_dead(enemy)
     end)
   end
 end
-for _, enemy in ipairs(map:get_entities("s_door_enemy")) do
+for enemy in map:get_entities("s_door_enemy") do
   enemy.on_dead = s_door_enemy_dead
 end
 
@@ -151,7 +151,7 @@ local function e_room_enemy_dead(enemy)
     end)
   end
 end
-for _, enemy in ipairs(map:get_entities("e_room_enemy")) do
+for enemy in map:get_entities("e_room_enemy") do
   enemy.on_dead = e_room_enemy_dead
 end
 
@@ -236,7 +236,7 @@ local function puzzle_b_switch_left(switch)
 
   switch:set_locked(false)
 end
-for _, switch in ipairs(map:get_entities("puzzle_b_switch")) do
+for switch in map:get_entities("puzzle_b_switch") do
   switch.on_activated = puzzle_b_switch_activated
   switch.on_left = puzzle_b_switch_left
 end
@@ -278,7 +278,7 @@ local function puzzle_a_switch_activated(switch)
     end
   end
 end
-for _, switch in ipairs(map:get_entities("puzzle_a_switch")) do
+for switch in map:get_entities("puzzle_a_switch") do
   switch.on_activated = puzzle_a_switch_activated
 end
 
@@ -315,7 +315,7 @@ function close_w_room_sensor:on_activated()
       direction = 0,
       treasure_name = "random"
     }
-    for _, enemy in ipairs(map:get_entities("w_room_enemy")) do
+    for enemy in map:get_entities("w_room_enemy") do
       enemy.on_dead = w_room_enemy_dead
     end
   end
@@ -354,14 +354,14 @@ end
 close_puzzle_b_door_sensor_2.on_activated = close_puzzle_b_door_sensor.on_activated
 
 -- save solid ground location
-for _, sensor in ipairs(map:get_entities("save_solid_ground_sensor")) do
+for sensor in map:get_entities("save_solid_ground_sensor") do
   function sensor:on_activated()
     hero:save_solid_ground()
   end
 end
 
 -- reset solid ground location
-for _, sensor in ipairs(map:get_entities("reset_solid_ground_sensor")) do
+for sensor in map:get_entities("reset_solid_ground_sensor") do
   function sensor:on_activated()
     hero:reset_solid_ground()
   end
@@ -394,7 +394,7 @@ local function torch_collision_fire(torch)
     end)
   end
 end
-for _, torch in ipairs(map:get_entities("torch_")) do
+for torch in map:get_entities("torch_") do
   torch.on_interaction = torch_interaction
   torch.on_collision_fire = torch_collision_fire
 end

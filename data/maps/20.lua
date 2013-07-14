@@ -67,7 +67,7 @@ function map:on_started(destination)
     open_barrier_switch:set_activated(true)
   end
 
-  for _, enemy in ipairs(map:get_entities("battle_1_enemy")) do
+  for enemy in map:get_entities("battle_1_enemy") do
     function enemy:on_dead()
       if not map:has_entities("battle_1_enemy") and battle_1_barrier:is_enabled() then
         map:move_camera(352, 288, 250, function()
@@ -78,7 +78,7 @@ function map:on_started(destination)
     end
   end
 
-  for _, enemy in ipairs(map:get_entities("battle_2_enemy")) do
+  for enemy in map:get_entities("battle_2_enemy") do
     function enemy:on_dead()
       if not map:has_entities("battle_2_enemy") and battle_2_barrier:is_enabled() then
         map:move_camera(344, 488, 250, function()

@@ -90,7 +90,7 @@ local function chest_empty(chest)
     chest:set_open(false)
   end
 end
-for _, chest in ipairs(map:get_entities("chest_")) do
+for chest in map:get_entities("chest_") do
   chest.on_empty = chest_empty
 end
 

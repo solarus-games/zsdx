@@ -76,7 +76,7 @@ end
 local function puzzle_wrong_sensor_activated()
   puzzle_next_sensor = 1
 end
-for _, sensor in ipairs(map:get_entities("puzzle_wrong_sensor_")) do
+for sensor in map:get_entities("puzzle_wrong_sensor_") do
   sensor.on_activated = puzzle_wrong_sensor_activated
 end
 
@@ -102,7 +102,7 @@ local function puzzle_sensor_activated(sensor)
     end
   end
 end
-for _, sensor in ipairs(map:get_entities("puzzle_sensor_")) do
+for sensor in map:get_entities("puzzle_sensor_") do
   sensor.on_activated = puzzle_sensor_activated
 end
 

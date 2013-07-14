@@ -82,7 +82,7 @@ function start_miniboss_sensor:on_activated()
   end
 end
 
-for _, enemy in ipairs(map:get_entities("miniboss_enemy")) do
+for enemy in map:get_entities("miniboss_enemy") do
 
   function enemy:on_dead()
 

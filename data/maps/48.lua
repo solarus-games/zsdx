@@ -111,7 +111,7 @@ function map:on_obtaining_treasure(item, variant, savegame_variable)
   end
 end
 
-for _, enemy in ipairs(map:get_entities("LD7_enemy")) do
+for enemy in map:get_entities("LD7_enemy") do
 
   function enemy:on_dead()
     if not map:has_entities("LD7_enemy") then
@@ -124,7 +124,7 @@ for _, enemy in ipairs(map:get_entities("LD7_enemy")) do
   end
 end
 
-for _, enemy in ipairs(map:get_entities("LD9_enemy")) do
+for enemy in map:get_entities("LD9_enemy") do
 
   function enemy:on_dead()
 

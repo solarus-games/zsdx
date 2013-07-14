@@ -43,7 +43,7 @@ if khorneth ~= nil then
   end
 end
 
-for _, enemy in ipairs(map:get_entities("boss_key_battle")) do
+for enemy in map:get_entities("boss_key_battle") do
   function enemy:on_dead()
     if not map:has_entities("boss_key_battle")
         and not boss_key_chest:is_enabled() then

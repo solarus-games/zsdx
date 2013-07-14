@@ -99,7 +99,7 @@ end
 function enemy:get_nb_sons_immobilized()
 
   local count = 0
-  for _, son in ipairs(self:get_map():get_entities(son_prefix)) do
+  for son in self:get_map():get_entities(son_prefix) do
     if son.immobilized and not son.disappearing then
       count = count + 1
     end
@@ -167,7 +167,7 @@ end
 
 function enemy:remove_sons()
 
-  for _, son in ipairs(self:get_map():get_entities(son_prefix)) do
+  for son in self:get_map():get_entities(son_prefix) do
     if son:exists() then
       son:disappear()
     end

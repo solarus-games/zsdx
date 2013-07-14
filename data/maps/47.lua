@@ -96,7 +96,7 @@ function DB06:on_activated()
   sol.audio.play_sound("secret")
 end
 
-for _, switch in ipairs(map:get_entities("RPS")) do
+for switch in map:get_entities("RPS") do
 
   function switch:on_activated()
     -- Resets position of statues
@@ -149,7 +149,7 @@ function start_boss_sensor:on_activated()
   end
 end
 
-for _, enemy in ipairs(map:get_entities("room_LD1_enemy")) do
+for enemy in map:get_entities("room_LD1_enemy") do
   
   function enemy:on_dead()
     if not map:has_entities("room_LD1_enemy") then
@@ -163,7 +163,7 @@ for _, enemy in ipairs(map:get_entities("room_LD1_enemy")) do
   end
 end
 
-for _, enemy in ipairs(map:get_entities("room_LD5_enemy")) do
+for enemy in map:get_entities("room_LD5_enemy") do
   
   function enemy:on_dead()
 
@@ -175,7 +175,7 @@ for _, enemy in ipairs(map:get_entities("room_LD5_enemy")) do
   end
 end
 
-for _, enemy in ipairs(map:get_entities("map_enemy")) do
+for enemy in map:get_entities("map_enemy") do
   
   function enemy:on_dead()
 
@@ -192,7 +192,7 @@ for _, enemy in ipairs(map:get_entities("map_enemy")) do
   end
 end
 
-for _, enemy in ipairs(map:get_entities("room_big_enemy")) do
+for enemy in map:get_entities("room_big_enemy") do
   
   function enemy:on_dead()
 

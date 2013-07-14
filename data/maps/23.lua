@@ -64,13 +64,13 @@ function enable_sensor:on_activated()
   close_sw_door_sensor:set_enabled(true)
 end
 
-for _, sensor in ipairs(map:get_entities("save_solid_ground_sensor")) do
+for sensor in map:get_entities("save_solid_ground_sensor") do
   function sensor:on_activated()
     hero:save_solid_ground()
   end
 end
 
-for _, enemy in ipairs(map:get_entities("compass_room_battle")) do
+for enemy in map:get_entities("compass_room_battle") do
   function enemy:on_dead()
     if not map:has_entities("compass_room_battle")
       and not compass_chest:is_enabled() then

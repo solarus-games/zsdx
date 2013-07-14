@@ -36,24 +36,24 @@ function map:on_started(destination)
     map:set_doors_open("eye_door", true)
   end
 
-  local enemy_group1 = map:get_entities("enemy_group1_")
-  for _, enemy in ipairs(enemy_group1) do
-    enemy.on_dead = function()
-      if not map:has_entities("enemy_group1")
-        and not map:get_game():get_value("b200") then
-        map:move_camera(616, 552, 250, function()
-          map:create_pickable{
-	    treasure_name = "small_key",
-	    treasure_variant = 1,
-	    treasure_savegame_variable = "b200",
-	    x = 616,
-	    y = 557,
-	    layer = 1
-	  }
-          sol.audio.play_sound("secret")
-        end)
-      end
+  local function enemy_group1_dead(enemy)
+    if not map:has_entities("enemy_group1")
+      and not map:get_game():get_value("b200") then
+      map:move_camera(616, 552, 250, function()
+        map:create_pickable{
+          treasure_name = "small_key",
+          treasure_variant = 1,
+          treasure_savegame_variable = "b200",
+          x = 616,
+          y = 557,
+          layer = 1
+        }
+        sol.audio.play_sound("secret")
+      end)
     end
+  end
+  for enemy in map:get_entities("enemy_group1_") do
+    enemy.on_dead = enemy_group1_dead
   end
 end
 

@@ -32,7 +32,7 @@ local function enemy_dead(enemy)
     end)
   end
 end
-for _, enemy in ipairs(map:get_entities("enemy")) do
+for enemy in map:get_entities("enemy") do
   enemy.on_dead = enemy_dead
 end
 

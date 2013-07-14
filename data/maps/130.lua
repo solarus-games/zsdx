@@ -275,7 +275,7 @@ local function distant_switch_activated(switch)
   end
 end
 
-for _, switch in ipairs(map:get_entities("distant_switch")) do
+for switch in map:get_entities("distant_switch") do
   switch.on_activated = distant_switch_activated
 end
 
@@ -365,7 +365,7 @@ local function torch_collision_fire(torch)
   end
 end
 
-for _, torch in ipairs(map:get_entities("torch")) do
+for torch in map:get_entities("torch") do
   torch.on_interaction = torch_interaction
   torch.on_collision_fire = torch_collision_fire
 end

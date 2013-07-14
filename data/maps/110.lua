@@ -25,7 +25,7 @@ local function wrong_sensor_activated(sensor)
   end
 end
 
-for _, sensor in ipairs(map:get_entities("wrong_sensor_")) do
+for sensor in map:get_entities("wrong_sensor_") do
   sensor.on_activated = wrong_sensor_activated
 end
 

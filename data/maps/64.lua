@@ -55,7 +55,7 @@ function se_room_enemy:on_dead()
   end
 end
 
-for _, enemy in ipairs(map:get_entities("s_room_enemy")) do
+for enemy in map:get_entities("s_room_enemy") do
 
   function enemy:on_dead()
     if not map:has_entities("s_room_enemy")

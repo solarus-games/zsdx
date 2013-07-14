@@ -14,7 +14,7 @@ function map:on_started(destination)
   end
 end
 
-for _, sign in ipairs(map:get_entities("sign_")) do
+for sign in map:get_entities("sign_") do
   function sign:on_interaction()
 
     if self:get_name() == "sign_" .. next_sign then

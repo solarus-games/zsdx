@@ -153,7 +153,7 @@ function TD02:on_interaction()
   hero:set_position(hero_x + 320, hero_y)
 end
 
-for _, enemy in ipairs(map:get_entities("rupee_enemy")) do
+for enemy in map:get_entities("rupee_enemy") do
 
   function enemy:on_dead(enemy_name)
     if not map:has_entities("rupee_enemy") then
