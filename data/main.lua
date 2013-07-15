@@ -97,6 +97,10 @@ function sol.main:debug_on_key_pressed(key, modifiers)
       if layer ~= 2 then
 	hero:set_position(x, y, layer + 1)
       end
+    elseif key == "shift" then
+      if game.dialog_box:is_enabled() then
+        game.dialog_box:show_all_now()
+      end
     else
       -- Not a known in-game debug key.
       handled = false

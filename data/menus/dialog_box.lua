@@ -2,13 +2,23 @@ local game = ...
 
 local dialog_box = {}
 
-function dialog_box:new(game)
+function game:initialize_dialog_box()
 
-  local object = { game = game }
-  setmetatable(object, self)
-  self.__index = self
+  game.dialog_box = dialog_box
+  dialog_box.game = game
+  sol.menu.start(game, dialog_box)
+end
 
-  return object
+function game:quit_dialog_box()
+
+  if dialog_box ~= nil then
+    sol.menu.stop(dialog_box)
+    game.dialog_box = nil
+  end
+end
+
+function game:on_dialog_started(dialog)
+  -- TODO
 end
 
 function dialog_box:on_draw(dst_surface)
@@ -17,20 +27,6 @@ function dialog_box:on_draw(dst_surface)
   local map = self.game:get_map()
   if map ~= nil and map:is_dialog_enabled() then
     map:draw_dialog_box(dst_surface)
-  end
-end
-
-function game:initialize_dialog_box()
-
-  self.dialog_box = dialog_box:new(self)
-  sol.menu.start(self, self.dialog_box)
-end
-
-function game:quit_dialog_box()
-
-  if self.dialog_box ~= nil then
-    sol.menu.stop(self.dialog_box)
-    self.dialog_box = nil
   end
 end
 
