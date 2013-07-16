@@ -1542,7 +1542,7 @@ dialog{
   icon = 50,
   text = [[
 You found the
-World Map !$0
+World Map!$0
 
 View it on the Map
 screen.
@@ -2788,7 +2788,7 @@ dialog{
 It is said that every
 dungeon hides a Piece
 of Heart...
-Funny, isn't it ?
+Funny, isn't it?
 ]]
 }
 -----------------------
@@ -2800,7 +2800,7 @@ dialog{
   text = [[
 Did you know that
 you can jump off
-certain cliffs ?
+certain cliffs?
 That might help you
 reach places that are
 difficult to access.
@@ -2839,7 +2839,7 @@ a treasure hidden by
 the waterfall behind
 the ancient castle.
 Do you believe that's
-true ?
+true?
 ]]
 }
 -----------------------
