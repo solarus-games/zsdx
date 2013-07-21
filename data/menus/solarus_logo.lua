@@ -22,7 +22,8 @@ function solarus_logo_menu:on_started()
     sol.timer.start(solarus_logo_menu, 1000, function()
       if not finished then
         finished = true
-        surface:fade_out(start_next_menu)
+        surface:fade_out()
+        sol.timer.start(self, 700, start_next_menu)
       end
     end)
   end)
@@ -49,7 +50,8 @@ function solarus_logo_menu:on_key_pressed(key)
     if not finished then
       handled = true
       finished = true
-      surface:fade_out(start_next_menu)
+      surface:fade_out()
+      sol.timer.start(self, 700, start_next_menu)
     end
 
     return handled

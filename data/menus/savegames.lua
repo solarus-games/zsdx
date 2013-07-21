@@ -372,7 +372,8 @@ function savegame_menu:key_pressed_phase_select_file(key)
       if sol.game.exists(slot.file_name) then
         -- The file exists: run it after a fade-out effect.
         self.finished = true
-        self.surface:fade_out(function()
+        self.surface:fade_out()
+        sol.timer.start(self, 700, function()
 	  sol.main:start_savegame(slot.savegame)
         end)
       else

@@ -91,7 +91,8 @@ function language_menu:on_key_pressed(key)
       local language = self.languages[self.cursor_position]
       sol.language.set_language(language.id)
       self.finished = true
-      self.surface:fade_out(function()
+      self.surface:fade_out()
+      sol.timer.start(self, 700, function()
         self:start_title_screen()
       end)
     end
