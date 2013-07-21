@@ -21,17 +21,19 @@ function game:quit_dialog_box()
   end
 end
 
+--[[
 function game:on_dialog_started(dialog, info)
 
   dialog_box.dialog = dialog
   sol.menu.start(game, dialog_box)
 end
 
-function game:on_dialog_finished()
+function game:on_dialog_finished(dialog)
 
   sol.menu.stop(dialog_box)
   dialog_box.dialog = nil
 end
+--]]
 
 -- Sets the style of the dialog box for subsequent dialogs.
 -- style must be one of:
