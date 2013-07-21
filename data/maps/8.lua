@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Outside world A1
 
 local function remove_dungeon_7_lock()
@@ -12,18 +13,18 @@ function map:on_started(destination)
   if destination == from_ending then
     hero:freeze()
     hero:set_visible(false)
-    map:get_game():set_hud_enabled(false)
+    game:set_hud_enabled(false)
     map:set_entities_enabled("enemy", false)
     sol.audio.play_music("fanfare")
   else
     -- enable dark world
-    if map:get_game():get_value("b905") then
+    if game:get_value("b905") then
       map:set_tileset(13)
     end
   end
 
   -- remove the dungeon 7 lock if open
-  if map:get_game():get_value("b919") then
+  if game:get_value("b919") then
     remove_dungeon_7_lock()
   end
 end
@@ -31,7 +32,7 @@ end
 function map:on_opening_transition_finished(destination)
 
   if destination == from_ending then
-    map:start_dialog("credits_1", function()
+    game:start_dialog("credits_1", function()
       sol.timer.start(2000, function()
 	hero:teleport(4, "from_ending")
       end)
@@ -43,13 +44,13 @@ end
 function dungeon_7_lock:on_interaction()
 
   -- open the door if the player has the ice key
-  if map:get_game():has_item("ice_key") then
+  if game:has_item("ice_key") then
     sol.audio.play_sound("door_open")
     sol.audio.play_sound("secret")
-    map:get_game():set_value("b919", true)
+    game:set_value("b919", true)
     remove_dungeon_7_lock()
   else
-    map:start_dialog("outside_world.ice_key_required")
+    game:start_dialog("outside_world.ice_key_required")
   end
 end
 

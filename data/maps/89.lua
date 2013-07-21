@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Castle 1F
 
 local function random_walk(npc)
@@ -19,7 +20,7 @@ function map:on_started(destination)
     -- game ending sequence
     hero:freeze()
     hero:set_visible(false)
-    map:get_game():set_hud_enabled(false)
+    game:set_hud_enabled(false)
     sol.audio.play_music("fanfare")
   else
     tom:set_enabled(false)
@@ -30,7 +31,7 @@ end
 function map:on_opening_transition_finished(destination)
 
   if destination == from_ending then
-    map:start_dialog("credits_4", function()
+    game:start_dialog("credits_4", function()
       sol.timer.start(2000, function()
         hero:teleport(119, "from_ending")
       end)
@@ -43,9 +44,9 @@ function forbidden_door_npc:on_interaction()
 
   local hero_x = hero:get_position()
   if hero_x < 832 then
-    map:start_dialog("castle.forbidden_door")
+    game:start_dialog("castle.forbidden_door")
   else
-    map:start_dialog("castle.forbidden_door_wtf", function()
+    game:start_dialog("castle.forbidden_door_wtf", function()
       local m = sol.movement.create("path")
       m:set_path{2,2}
       m:set_speed(32)

@@ -25,7 +25,7 @@ local function seen_by_guard(guard)
       prison_go_timer:stop()
       prison_go_timer = nil
     end
-    map:start_dialog("dungeon_5.hero_seen_by_guard", function()
+    map:get_game():start_dialog("dungeon_5.hero_seen_by_guard", function()
       prison_go_timer = sol.timer.start(1000, function()
 	hero_seen = false
 	if prison_dialog_timer ~= nil then

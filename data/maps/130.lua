@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 9 boss
 
 local torches_error = false
@@ -46,7 +47,7 @@ local bonuses_done = {}
 
 function map:on_started(destination)
 
-  if not map:get_game():get_value("b881") then
+  if not game:get_value("b881") then
     sol.audio.play_music("ganon_appears")
     boss:set_enabled(true)
     zelda:set_enabled(false)
@@ -61,8 +62,8 @@ end
 function map:on_opening_transition_finished(destination)
 
   if destination == from_6f then
-    if not map:get_game():get_value("b881") then
-      map:start_dialog("dungeon_9.boss", function()
+    if not game:get_value("b881") then
+      game:start_dialog("dungeon_9.boss", function()
         sol.audio.play_music("ganon_battle")
       end)
     else
@@ -104,10 +105,10 @@ if boss ~= nil then
         end
 
         sol.timer.start(3000, function()
-          map:set_dialog_variable("dungeon_9.zelda", map:get_game():get_player_name())
-          map:start_dialog("dungeon_9.zelda", function()
+          map:set_dialog_variable("dungeon_9.zelda", game:get_player_name())
+          game:start_dialog("dungeon_9.zelda", function()
             sol.timer.start(1000, function()
-              map:start_dialog("dungeon_9.zelda_children", function()
+              game:start_dialog("dungeon_9.zelda_children", function()
                 sol.audio.stop_music()
                 sol.audio.play_sound("world_warp")
                 sol.timer.start(1000, function()
@@ -116,7 +117,7 @@ if boss ~= nil then
                   end
                 end)
                 sol.timer.start(5000, function()
-                  map:start_dialog("dungeon_9.zelda_end", function()
+                  game:start_dialog("dungeon_9.zelda_end", function()
                     sol.timer.start(2000, function()
                       hero:teleport(8, "from_ending")
                       -- Yeah! New nested anonymous functions record!
@@ -283,7 +284,7 @@ end
 -- because we don't want usual behavior from items/lamp.lua:
 -- we want a longer delay and special Ganon interaction
 local function torch_interaction(torch)
-  map:start_dialog("torch.need_lamp")
+  game:start_dialog("torch.need_lamp")
 end
 
 local function check_torches()

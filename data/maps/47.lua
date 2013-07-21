@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 8 1F
 
 -- Legend
@@ -22,17 +23,17 @@ function map:on_started(destination)
   map:set_doors_open("boss_door", true)
 
   -- Hide the map chest if not already opened
-  if not map:get_game():get_value("b700") then
+  if not game:get_value("b700") then
     MAP:set_enabled(false)
   end
 
   -- Hide the big key chest if not already opened
-  if not map:get_game():get_value("b705") then
+  if not game:get_value("b705") then
     BK01:set_enabled(false)
   end
 
   -- Link has the mirror shield: no laser obstacles
-  if map:get_game():get_ability("shield") >= 3 then
+  if game:get_ability("shield") >= 3 then
     LO1:set_enabled(false)
     map:set_entities_enabled("LO2", false)
   end
@@ -46,24 +47,24 @@ function map:on_started(destination)
   end
 
   -- door to Agahnim open if Billy's heart container was picked
-  if map:get_game():get_value("b729") then
+  if game:get_value("b729") then
     map:set_doors_open("agahnim_door", true)
   end
 
   -- statues puzzle
-  if map:get_game():get_value("b723") then
+  if game:get_value("b723") then
     DB06:set_activated(true)
   end
 
   -- boss key door and laser
-  if map:get_game():get_value("b730") then
+  if game:get_value("b730") then
     boss_key_door_laser:remove()
   end
 end
 
 function map:on_opening_transition_finished(destination)
   if destination == from_outside then
-    map:start_dialog("dungeon_8.welcome")
+    game:start_dialog("dungeon_8.welcome")
   end
 end
 
@@ -132,14 +133,14 @@ end
 
 function start_boss_sensor:on_activated()
 
-  if not fighting_boss and not map:get_game():get_value("b727") then
+  if not fighting_boss and not game:get_value("b727") then
     sol.audio.stop_music()
     map:close_doors("boss_door")
     billy_npc:set_enabled(true)
     hero:freeze()
     fighting_boss = true
     sol.timer.start(1000, function()
-      map:start_dialog("dungeon_8.billy", function()
+      game:start_dialog("dungeon_8.billy", function()
         sol.audio.play_music("boss")
         hero:unfreeze()
         boss:set_enabled(true)
@@ -181,7 +182,7 @@ for enemy in map:get_entities("map_enemy") do
 
     if not map:has_entities("map_enemy") then
       -- Map chest room: kill all enemies and the chest will appear
-      if not map:get_game():get_value("b700") then
+      if not game:get_value("b700") then
         MAP:set_enabled(true)
         sol.audio.play_sound("chest_appears")
       elseif not LD3:is_open() then
@@ -198,7 +199,7 @@ for enemy in map:get_entities("room_big_enemy") do
 
     if not map:has_entities("room_big_enemy") then
       -- Big key chest room: kill all enemies and the chest will appear
-      if not map:get_game():get_value("b705") then
+      if not game:get_value("b705") then
         BK01:set_enabled(true)
         sol.audio.play_sound("chest_appears")
       end

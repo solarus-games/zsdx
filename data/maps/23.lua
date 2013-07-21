@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 1 1F
 
 local function open_sw_door()
@@ -24,7 +25,7 @@ function map:on_started(destination)
     compass_chest:set_enabled(false)
   end
 
-  if map:get_game():get_value("b54") then
+  if game:get_value("b54") then
     map_room_switch:set_activated(true)
   end
 
@@ -35,7 +36,7 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination == from_outside then
-    map:start_dialog("dungeon_1")
+    game:start_dialog("dungeon_1")
   end
 end
 

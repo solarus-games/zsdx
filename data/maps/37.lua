@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Billy's cave
 
 local billy_leave_step = 0
@@ -37,23 +38,23 @@ end
 
 local function give_croissant()
 
-  if map:get_game():get_item("croissants_counter"):has_amount(1) then
-    map:start_dialog("billy_cave.give_croissant")
+  if game:get_item("croissants_counter"):has_amount(1) then
+    game:start_dialog("billy_cave.give_croissant")
   else
-    map:start_dialog("billy_cave.give_croissant_without")
+    game:start_dialog("billy_cave.give_croissant_without")
   end
 end
 
 local function give_apple_pie()
-  if map:get_game():get_item("level_4_way"):get_variant() == 1 then
-    map:start_dialog("billy_cave.give_apple_pie")
+  if game:get_item("level_4_way"):get_variant() == 1 then
+    game:start_dialog("billy_cave.give_apple_pie")
   else
-    map:start_dialog("billy_cave.give_apple_pie_without")
+    game:start_dialog("billy_cave.give_apple_pie_without")
   end
 end
 
 local function give_golden_bars()
-  map:start_dialog("billy_cave.give_golden_bars", function()
+  game:start_dialog("billy_cave.give_golden_bars", function()
     hero:start_treasure("level_4_way", 3, "b134", function()
       -- got the edelweiss: make Billy leave
       billy_leave()
@@ -63,26 +64,26 @@ end
 
 function map:on_started(destination)
 
-  if map:get_game():get_value("b134") then
+  if game:get_value("b134") then
     -- the player has already given the golden bars and obtained the edelweiss
     billy:remove()
   end
 
-  if map:get_game():get_value("b928") then
+  if game:get_value("b928") then
     map:set_doors_open("door", true)
   end
 end
 
 function billy:on_interaction()
 
-  if not map:get_game():get_value("b135") then
-    map:start_dialog("billy_cave.hello")
-    map:get_game():set_value("b135", true)
+  if not game:get_value("b135") then
+    game:start_dialog("billy_cave.hello")
+    game:set_value("b135", true)
   else
-    map:start_dialog("billy_cave.what_do_you_have", function()
-      if map:get_game():get_item("level_4_way"):get_variant() == 2 then
+    game:start_dialog("billy_cave.what_do_you_have", function()
+      if game:get_item("level_4_way"):get_variant() == 2 then
         -- the player has the golden bars
-        map:start_dialog("billy_cave.with_golden_bars", function(answer)
+        game:start_dialog("billy_cave.with_golden_bars", function(answer)
           if answer == 1 then
             give_golden_bars()
           else
@@ -90,7 +91,7 @@ function billy:on_interaction()
           end
         end)
       else
-        map:start_dialog("billy_cave.without_golden_bars", function(answer)
+        game:start_dialog("billy_cave.without_golden_bars", function(answer)
           if answer == 1 then
             give_croissant()
           else

@@ -1,11 +1,13 @@
 local map = ...
+local game = map:get_game()
+local game = map:get_game()
 -- Dungeon 4 1F
 
 local fighting_boss = false
 
 function map:on_started(destination)
 
-  if map:get_game():get_value("b412") then
+  if game:get_value("b412") then
     weak_floor:set_enabled(false)
     weak_floor_sensor:set_enabled(false)
   else
@@ -20,7 +22,7 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination == from_outside then
-    map:start_dialog("dungeon_4.welcome")
+    game:start_dialog("dungeon_4.welcome")
   end
 end
 
@@ -42,13 +44,13 @@ function weak_floor_sensor:on_collision_explosion()
     weak_floor_sensor:set_enabled(false)
     weak_floor_teletransporter:set_enabled(true)
     sol.audio.play_sound("secret")
-    map:get_game():set_value("b412", true)
+    game:set_value("b412", true)
   end
 end
 
 function start_boss_sensor:on_activated()
 
-  if not map:get_game():get_value("b415")
+  if not game:get_value("b415")
       and not fighting_boss then
     map:close_doors("boss_door")
     map:close_doors("final_room_door")

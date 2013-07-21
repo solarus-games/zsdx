@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Sahasrahla's cave icy room
 
 local frozen_door_sprite = nil
@@ -7,7 +8,7 @@ local frozen_door_opposite_sprite = nil
 -- Function called when the map starts
 function map:on_started(destination)
 
-  if map:get_game():get_value("b35") then
+  if game:get_value("b35") then
     -- remove the frozen door
     frozen_door:remove()
     frozen_door_opposite:remove()
@@ -22,8 +23,8 @@ end
 
 -- Function called when the player presses the action key on the frozen door
 function frozen_door:on_interaction()
-  map:start_dialog("sahasrahla_house.frozen_door")
-  map:get_game():set_value("b34", true)
+  game:start_dialog("sahasrahla_house.frozen_door")
+  game:set_value("b34", true)
 end
 
 -- Function called when the player uses an item on the frozen door
@@ -38,7 +39,7 @@ function frozen_door:on_interaction_item(item)
     frozen_door_opposite_sprite:set_animation("disappearing")
     sol.timer.start(800, function()
       sol.audio.play_sound("secret")
-      map:get_game():set_value("b35", true)
+      game:set_value("b35", true)
       frozen_door:remove()
       frozen_door_opposite:remove()
       hero:unfreeze()

@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 3 4F
 
 local fighting_miniboss = false
@@ -9,14 +10,14 @@ function map:on_started(destination)
   map:set_doors_open("miniboss_door", true)
   map:set_doors_open("boss_door", true)
   if destination == from_5f_c
-      or map:get_game():get_value("b903") then
+      or game:get_value("b903") then
     map:set_doors_open("final_room_door", true)
   end
 end
 
 function start_miniboss_sensor:on_activated()
 
-  if not map:get_game():get_value("b901")
+  if not game:get_value("b901")
       and not fighting_miniboss then
     -- the miniboss is alive
     map:close_doors("miniboss_door")
@@ -26,7 +27,7 @@ end
 
 function start_miniboss_sensor_2:on_activated()
 
-  if not map:get_game():get_value("b901")
+  if not game:get_value("b901")
       and not fighting_miniboss then
     hero:freeze()
     sol.audio.stop_music()
@@ -42,14 +43,14 @@ end
 
 function start_boss_sensor:on_activated()
 
-  if not map:get_game():get_value("b902")
+  if not game:get_value("b902")
       and not fighting_boss then
     hero:freeze()
     map:close_doors("boss_door")
     sol.audio.stop_music()
     sol.timer.start(1000, function()
       boss:set_enabled(true)
-      map:start_dialog("dungeon_3.arbror_hello", function()
+      game:start_dialog("dungeon_3.arbror_hello", function()
         hero:unfreeze()
         sol.audio.play_music("boss")
         fighting_boss = true

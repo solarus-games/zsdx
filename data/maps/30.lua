@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 2 1F
 
 local fighting_miniboss = false
@@ -21,19 +22,19 @@ local function check_eye_statues()
     left_eye_switch:set_activated(false)
     right_eye_switch:set_activated(false)
 
-    if not map:get_game():get_value("b90") then
+    if not game:get_value("b90") then
       sol.audio.play_sound("switch")
       map:move_camera(456, 232, 250, function()
         sol.audio.play_sound("secret")
         open_hidden_stairs()
-        map:get_game():set_value("b90", true)
+        game:set_value("b90", true)
       end)
-    elseif not map:get_game():get_value("b91") then
+    elseif not game:get_value("b91") then
       sol.audio.play_sound("switch")
       map:move_camera(520, 320, 250, function()
         sol.audio.play_sound("secret")
         open_hidden_door()
-        map:get_game():set_value("b91", true)
+        game:set_value("b91", true)
       end)
     end
   end
@@ -42,18 +43,18 @@ end
 function map:on_started(destination)
 
   -- west barrier
-  if map:get_game():get_value("b78") then
+  if game:get_value("b78") then
     barrier:set_enabled(false)
     barrier_switch:set_activated(true)
   end
 
   -- hidden stairs
-  if map:get_game():get_value("b90") then
+  if game:get_value("b90") then
     open_hidden_stairs()
   end
 
   -- hidden door
-  if map:get_game():get_value("b91") then
+  if game:get_value("b91") then
     open_hidden_door()
   end
 
@@ -66,13 +67,13 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination == from_outside then
-    map:start_dialog("dungeon_2")
+    game:start_dialog("dungeon_2")
   end
 end
 
 function start_miniboss_sensor:on_activated()
 
-  if not map:get_game():get_value("b92") and not fighting_miniboss then
+  if not game:get_value("b92") and not fighting_miniboss then
     -- the miniboss is alive
     map:close_doors("miniboss_door")
     hero:freeze()
@@ -98,7 +99,7 @@ function barrier_switch:on_activated()
   map:move_camera(120, 536, 250, function()
     sol.audio.play_sound("secret")
     barrier:set_enabled(false)
-    map:get_game():set_value("b78", true)
+    game:set_value("b78", true)
   end)
 end
 

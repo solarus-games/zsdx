@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 10 1F
 
 local function are_all_torches_on()
@@ -22,11 +23,11 @@ function map:on_started(destination)
 
   map:set_light(1)
 
-  if map:get_game():get_value("b201") then
+  if game:get_value("b201") then
     lock_torches()
   end
 
-  if map:get_game():get_value("b228") then
+  if game:get_value("b228") then
     block_13:set_enabled(false)
   else
     block_saved:set_enabled(false)
@@ -38,7 +39,7 @@ function map:on_started(destination)
 
   local function enemy_group1_dead(enemy)
     if not map:has_entities("enemy_group1")
-      and not map:get_game():get_value("b200") then
+      and not game:get_value("b200") then
       map:move_camera(616, 552, 250, function()
         map:create_pickable{
           treasure_name = "small_key",
@@ -64,7 +65,7 @@ end
 function map:on_opening_transition_finished(destination)
 
   if destination == main_entrance then
-    map:start_dialog("dungeon_10.welcome")
+    game:start_dialog("dungeon_10.welcome")
   end
 end
 
@@ -79,8 +80,8 @@ end
 
 function map:on_update()
 
-  if not map:get_game():get_value("b201") and are_all_torches_on() then
-    map:get_game():set_value("b201", true)
+  if not game:get_value("b201") and are_all_torches_on() then
+    game:set_value("b201", true)
     lock_torches()
     map:move_camera(232, 488, 250, function()
       sol.audio.play_sound("secret")
@@ -97,6 +98,6 @@ function map:on_update()
 end
 
 function block_13:on_moved()
-  map:get_game():set_value("b228", true)
+  game:set_value("b228", true)
 end
 

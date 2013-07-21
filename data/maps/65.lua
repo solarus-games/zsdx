@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 5 B1
 
 sol.main.load_file("maps/prison_guard")(map)
@@ -62,27 +63,27 @@ function map:on_started(destination)
     hero:set_direction(2)
   end
 
-  if not map:get_game():get_value("b907") then
+  if not game:get_value("b907") then
     -- this door is open until the main entrance door of
     -- the castle is open
     map:set_doors_open("n_door", true)
   end
 
-  if map:get_game():get_value("b511") then
+  if game:get_value("b511") then
     prison_1_lock:remove()
   end
 
-  if map:get_game():get_value("b512") then
+  if game:get_value("b512") then
     prison_2_nb_messages = 3
   end
 
-  if not map:get_game():get_value("b519") then
+  if not game:get_value("b519") then
     boss_key_chest:set_enabled(false)
   end
 
   -- bomb bag 2 or 3
   local variant = 2
-  if map:get_game():get_value("b938") then
+  if game:get_value("b938") then
     -- already has the other one
     variant = 3
   end
@@ -117,7 +118,7 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination == from_outside_hole then
-    map:start_dialog("dungeon_5.welcome")
+    game:start_dialog("dungeon_5.welcome")
   end
 end
 
@@ -135,14 +136,14 @@ end
 
 function prison_1_lock:on_interaction()
 
-  if not map:get_game():has_item("iron_key") then
-    map:start_dialog("dungeon_5.prison_1_locked")
+  if not game:has_item("iron_key") then
+    game:start_dialog("dungeon_5.prison_1_locked")
   else
-    map:start_dialog("dungeon_5.prison_1_use_iron_key", function()
+    game:start_dialog("dungeon_5.prison_1_use_iron_key", function()
       sol.audio.play_sound("secret")
       sol.audio.play_sound("door_open")
       prison_1_lock:remove()
-      map:get_game():set_value("b511", true)
+      game:set_value("b511", true)
     end)
   end
 end
@@ -151,12 +152,12 @@ function prison_2_lock:on_interaction()
 
   prison_2_nb_messages = prison_2_nb_messages + 1
   if prison_2_nb_messages <= 3 then
-    map:start_dialog("dungeon_5.prison_2_locked_" .. prison_2_nb_messages)
+    game:start_dialog("dungeon_5.prison_2_locked_" .. prison_2_nb_messages)
   else
     sol.audio.play_sound("secret")
     sol.audio.play_sound("door_open")
     prison_2_lock:set_position(648, -32)
-    map:get_game():set_value("b512", true)
+    game:set_value("b512", true)
   end
 end
 

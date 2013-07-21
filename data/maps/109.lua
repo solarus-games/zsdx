@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 9 5F
 
 function map:on_started(destination)
@@ -78,7 +79,7 @@ function childs_hint_sensor:on_activated()
   sol.timer.start(3000, function()
     hero:unfreeze()
     self:set_enabled(false)
-    map:start_dialog("dungeon_9.5f_childs_hint")
+    game:start_dialog("dungeon_9.5f_childs_hint")
   end)
 end
 

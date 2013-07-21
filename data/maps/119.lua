@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Outside world C3
 
 local fighting_boss = false
@@ -11,13 +12,13 @@ function map:on_started(destination)
     -- game ending sequence
     hero:freeze()
     hero:set_visible(false)
-    map:get_game():set_hud_enabled(false)
+    game:set_hud_enabled(false)
     map:set_entities_enabled("enemy", false)
     new_music = "fanfare"
     map:set_entities_enabled("roof_entrance", false)
   else
     -- enable dark world
-    if map:get_game():get_value("b905") then
+    if game:get_value("b905") then
       new_music = "dark_mountain"
       map:set_tileset(13)
     else
@@ -27,14 +28,14 @@ function map:on_started(destination)
     -- boss fight
     if destination == from_dungeon_10_5f then
 
-      if not map:get_game():get_value("b299") then
+      if not game:get_value("b299") then
 	-- boss not killed yet
         new_music = "none"
         map:set_entities_enabled("enemy", false) -- disable all simple enemies
-      elseif not map:get_game():get_value("b298") then
+      elseif not game:get_value("b298") then
 	-- boss killed but sword not got yet
 	local variant = 2
-	if map:get_game():get_ability("sword") >= 2 then
+	if game:get_ability("sword") >= 2 then
 	  -- the player already has the second one: give the third one instead
 	  variant = 3
 	end
@@ -58,7 +59,7 @@ end
 function map:on_opening_transition_finished(destination)
 
   if destination == from_ending then
-    map:start_dialog("credits_6", function()
+    game:start_dialog("credits_6", function()
       sol.timer.start(2000, function()
         hero:teleport(131, "from_ending")
       end)
@@ -70,7 +71,7 @@ end
 local function repeat_give_arrows()
 
   -- give arrows if necessary during the boss fight
-  if map:get_game():get_item("bow"):get_amount() == 0 then
+  if game:get_item("bow"):get_amount() == 0 then
     local positions = {
       { x = 408, y = 189 },
       { x = 472, y = 189 },
@@ -89,7 +90,7 @@ end
 
 function start_boss_sensor:on_activated()
 
-  if not map:get_game():get_value("b299")
+  if not game:get_value("b299")
       and not fighting_boss then
 
     -- boss fight
@@ -112,7 +113,7 @@ if boss ~= nil then
   function boss:on_dead()
     -- give the second sword
     local variant = 2
-    if map:get_game():get_ability("sword") == 2 then
+    if game:get_ability("sword") == 2 then
       -- the player already has the second one: give the third one instead
       variant = 3
     end
@@ -142,12 +143,12 @@ function map:on_obtained_treasure(item, variant, savegame_variable)
 
   if item:get_name() == "sword" then
     hero:start_victory(function()
-      map:get_game():set_dungeon_finished(10)
+      game:set_dungeon_finished(10)
       hero:teleport(119, "from_dungeon_10")
       map:set_entities_enabled("enemy", true) -- enable simple enemies back
 
       sol.timer.start(1000, function()
-        if map:get_game():get_value("b905") then
+        if game:get_value("b905") then
           sol.audio.play_music("dark_mountain")
         else
           sol.audio.play_music("overworld")
