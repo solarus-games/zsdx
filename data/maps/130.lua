@@ -105,8 +105,7 @@ if boss ~= nil then
         end
 
         sol.timer.start(3000, function()
-          map:set_dialog_variable("dungeon_9.zelda", game:get_player_name())
-          game:start_dialog("dungeon_9.zelda", function()
+          game:start_dialog("dungeon_9.zelda", game:get_player_name(), function()
             sol.timer.start(1000, function()
               game:start_dialog("dungeon_9.zelda_children", function()
                 sol.audio.stop_music()

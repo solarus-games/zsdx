@@ -1,6 +1,9 @@
 local game = ...
 
-local dialog_box = {}
+local dialog_box = {
+  style = "box",
+  position = "auto",
+}
 
 function game:initialize_dialog_box()
 
@@ -19,6 +22,23 @@ end
 
 function game:on_dialog_started(dialog, info)
   -- TODO
+end
+
+-- Sets the style of the dialog box for subsequent dialogs.
+-- style must be one of:
+-- - "box" (default): Usual dialog box.
+-- - "empty": No decoration.
+function game:set_dialog_style(style)
+  dialog_box.style = style
+end
+
+-- Sets the vertical position of the dialog box for subsequent dialogs.
+-- position must be one of:
+-- - "auto" (default): Choose automatically so that the hero is not hidden.
+-- - "top": Top of the screen.
+-- - "bototm": Botton of the screen.
+function game:set_dialog_position(position)
+  dialog_box.position = position
 end
 
 function dialog_box:on_draw(dst_surface)

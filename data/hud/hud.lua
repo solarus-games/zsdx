@@ -110,12 +110,12 @@ function game:check_hud()
 
     -- During a dialog, move the action icon and the sword icon.
     if not self.hud.showing_dialog and
-        map:is_dialog_enabled() then
+        game:is_dialog_enabled() then
       self.hud.showing_dialog = true
       self.hud.action_icon:set_dst_position(0, 54)
       self.hud.attack_icon:set_dst_position(0, 29)
     elseif self.hud.showing_dialog and
-        not map:is_dialog_enabled() then
+        not game:is_dialog_enabled() then
       self.hud.showing_dialog = false
       self.hud.action_icon:set_dst_position(26, 51)
       self.hud.attack_icon:set_dst_position(13, 29)

@@ -19,8 +19,7 @@ function solarus_child:on_interaction()
   else
     -- start the final sequence
     map:move_camera(160, 120, 100, function()
-      map:set_dialog_variable("dungeon_4.solarus_child", game:get_player_name())
-      game:start_dialog("dungeon_4.solarus_child", function()
+      game:start_dialog("dungeon_4.solarus_child", game:get_player_name(), function()
         hero:start_victory(function()
           sol.timer.start(2000, function()
             hero:unfreeze()

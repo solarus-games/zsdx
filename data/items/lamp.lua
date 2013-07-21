@@ -86,7 +86,7 @@ end
 function item:on_npc_interaction(npc)
 
   if npc:get_name():find("^torch") then
-    npc:get_map():start_dialog("torch.need_lamp")
+    npc:get_map():get_game():start_dialog("torch.need_lamp")
   end
 end
 

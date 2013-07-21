@@ -17,7 +17,7 @@ function item:on_using()
     -- water
   elseif variant == 2 then
     -- ask the hero to pour away the water
-    map:start_dialog("use_bottle_with_water", function(answer)
+    game:start_dialog("use_bottle_with_water", function(answer)
       if answer == 1 then
 	-- empty the water
 	self:set_variant(1) -- make the bottle empty
@@ -71,17 +71,17 @@ function item:on_npc_interaction(npc)
     if game:has_bottle() then
       local first_empty_bottle = game:get_first_empty_bottle()
       if first_empty_bottle ~= nil then
-        map:start_dialog("found_water", function(answer)
+        game:start_dialog("found_water", function(answer)
 	  if answer == 1 then
             local hero = map:get_entity("hero")
             hero:start_treasure(first_empty_bottle:get_name(), 2, nil)
 	  end
 	end)
       else
-        map:start_dialog("found_water.no_empty_bottle")
+        game:start_dialog("found_water.no_empty_bottle")
       end
     else
-      map:start_dialog("found_water.no_bottle")
+      game:start_dialog("found_water.no_bottle")
     end
   end
 end

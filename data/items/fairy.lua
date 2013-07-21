@@ -51,7 +51,7 @@ function item:on_obtaining(variant, savegame_variable)
     self:get_game():add_life(7 * 4)
   else
     -- The player has a bottle: start the dialog.
-    self:get_map():start_dialog("found_fairy", function(answer)
+    self:get_game():start_dialog("found_fairy", function(answer)
 
       if answer == "skipped" or answer == 1 then
 	-- Restore 7 hearts.
@@ -61,7 +61,7 @@ function item:on_obtaining(variant, savegame_variable)
 	local first_empty_bottle = self:get_game():get_first_empty_bottle()
 	if first_empty_bottle == nil then
 	  -- No empty bottle.
-	  self:get_map():start_dialog("found_fairy.no_empty_bottle", function()
+	  self:get_game():start_dialog("found_fairy.no_empty_bottle", function()
 	    self:get_game():add_life(7 * 4)
 	  end)
 	  sol.audio.play_sound("wrong")

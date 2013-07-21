@@ -18,8 +18,7 @@ function solarus_child:on_interaction()
   else
     -- start the final sequence
     map:move_camera(160, 120, 100, function()
-      map:set_dialog_variable("dungeon_3.solarus_child", game:get_player_name())
-      game:start_dialog("dungeon_3.solarus_child", function()
+      game:start_dialog("dungeon_3.solarus_child", game:get_player_name(), function()
         hero:start_victory(function()
           game:set_dungeon_finished(3)
           hero:teleport(3, "from_dungeon_3")

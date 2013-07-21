@@ -17,7 +17,7 @@ local function next_fresco()
     fresco_sprite:set_animation(fresco_index)
     fresco_sprite:fade_in()
   else
-    map:set_dialog_style(0)
+    game:set_dialog_style("box")
     hero:teleport(28, "from_intro")
   end
 end
@@ -26,7 +26,7 @@ function map:on_started(destination)
   hero:freeze()
   game:set_hud_enabled(false)
   map:set_pause_enabled(false)
-  map:set_dialog_style(1)
+  game:set_dialog_style("empty")
   fresco_sprite = fresco:get_sprite()
   fresco_sprite:set_ignore_suspend(true)
   game:start_dialog("intro0", function()

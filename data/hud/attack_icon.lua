@@ -46,8 +46,7 @@ end
 
 function attack_icon:compute_icon_region_y()
 
-  local map = self.game:get_map()
-  if self.effect_displayed ~= nil or map == nil or not map:is_dialog_enabled() then
+  if self.effect_displayed ~= nil or not self.game:is_dialog_enabled() then
     if self.effect_displayed == nil then
       -- Show an empty icon.
       self.icon_region_y = 0
@@ -74,8 +73,7 @@ function attack_icon:check()
   if not self.flipping then
     local effect = self.game.hud.custom_command_effects["attack"] or self.game:get_command_effect("attack")
     local sword = self.game:get_ability("sword")
-    local map = self.game:get_map()
-    local showing_dialog = map ~= nil and map:is_dialog_enabled()
+    local showing_dialog = self.game:is_dialog_enabled()
     if effect ~= self.effect_displayed
         or sword ~= self.sword_displayed
         or showing_dialog ~= self.showing_dialog then

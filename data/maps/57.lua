@@ -83,13 +83,11 @@ function map:on_obtained_treasure(item, variant, savegame_variable)
       hero:set_direction(1)
       tom:set_position(272, 237)
       map:move_camera(272, 232, 100, function()
-	map:set_dialog_variable("dungeon_6.tom", game:get_player_name())
-	game:start_dialog("dungeon_6.tom", function()
+	game:start_dialog("dungeon_6.tom", game:get_player_name(), function()
 	  sol.audio.stop_music()
 	  sol.timer.start(1000, function()
 	    sol.audio.play_music("legend")
-	    map:set_dialog_variable("dungeon_6.tom_revelation", game:get_player_name())
-	    game:start_dialog("dungeon_6.tom_revelation", function()
+	    game:start_dialog("dungeon_6.tom_revelation", game:get_player_name(), function()
 	      local variant = 2
 	      if game:get_value("b939") then
 		variant = 3
