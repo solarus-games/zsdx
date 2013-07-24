@@ -5,7 +5,7 @@ local game = map:get_game()
 local function jump_from_bed()
   hero:set_visible(true)
   hero:start_jumping(4, 24, true)
-  map:set_pause_enabled(true)
+  game:set_pause_allowed(true)
   bed:get_sprite():set_animation("empty_open")
   sol.audio.play_sound("hero_lands")
 end
@@ -23,7 +23,7 @@ function map:on_started(destination)
   if destination == from_intro then
     -- the intro scene is playing
     game:set_hud_enabled(true)
-    map:set_pause_enabled(false)
+    game:set_pause_allowed(false)
     game:set_dialog_style("box")
     snores:get_sprite():set_ignore_suspend(true)
     bed:get_sprite():set_animation("hero_sleeping")

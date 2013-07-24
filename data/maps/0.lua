@@ -25,7 +25,7 @@ end
 function map:on_started(destination)
   hero:freeze()
   game:set_hud_enabled(false)
-  map:set_pause_enabled(false)
+  game:set_pause_allowed(false)
   game:set_dialog_style("empty")
   fresco_sprite = fresco:get_sprite()
   fresco_sprite:set_ignore_suspend(true)
