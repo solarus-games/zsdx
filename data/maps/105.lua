@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 9 1F
 
 -- puzzle B
@@ -12,12 +13,12 @@ function map:on_started(destination)
 
   -- hidden Gibdo and chest
   map:set_entities_enabled("hidden_enemy", false)
-  if not map:get_game():get_value("b800") then
+  if not game:get_value("b800") then
     hidden_chest:set_enabled(false)
   end
 
   -- puzzle A
-  if map:get_game():get_value("b802") then
+  if game:get_value("b802") then
     -- already solved
     map:set_entities_enabled("puzzle_a_red", false)
     map:set_entities_enabled("puzzle_a_switch", false)
@@ -43,7 +44,7 @@ function map:on_started(destination)
   map:set_entities_enabled("bridge", false)
 
   -- west enemies room
-  if not map:get_game():get_value("b806") then
+  if not game:get_value("b806") then
     w_room_chest:set_enabled(false)
   else
     map:set_doors_open("w_room_door", true)
@@ -54,12 +55,12 @@ function map:on_started(destination)
   map:set_doors_open("c_door_s", true)
 
   -- east enemies room
-  if not map:get_game():get_value("b808") then
+  if not game:get_value("b808") then
     e_room_chest:set_enabled(false)
   end
 
   -- north-west chest
-  if not map:get_game():get_value("b810") then
+  if not game:get_value("b810") then
     nw_chest:set_enabled(false)
   else
     nw_switch_1:set_activated(true)
@@ -67,7 +68,7 @@ function map:on_started(destination)
   end
 
   -- shortcut to the boss
-  if not map:get_game():get_value("b816") then
+  if not game:get_value("b816") then
     shortcut:set_enabled(false)
     shortcut_teletransporter:set_enabled(false)
   end
@@ -77,7 +78,7 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination == from_outside then
-    map:start_dialog("dungeon_9.welcome")
+    game:start_dialog("dungeon_9.welcome")
   end
 end
 
@@ -273,7 +274,7 @@ local function puzzle_a_switch_activated(switch)
       map:move_camera(896, 1896, 250, function()
 	sol.audio.play_sound("chest_appears")
 	puzzle_a_chest:set_enabled(true)
-	map:get_game():set_value("b802", true)
+	game:set_value("b802", true)
       end)
     end
   end
@@ -371,7 +372,7 @@ end
 -- because we don't want usual behavior from items/lamp.lua:
 -- we want a shorter delay and we want torches to enable the bridge
 local function torch_interaction(torch)
-  map:start_dialog("torch.need_lamp")
+  game:start_dialog("torch.need_lamp")
 end
 
 -- Called when fire touches a torch.

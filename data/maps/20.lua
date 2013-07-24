@@ -1,35 +1,36 @@
 local map = ...
+local game = map:get_game()
 -- Lyriann cave 1F
 
 local tom_initial_x = 0
 local tom_initial_y = 0
 
 local function has_seen_tom()
-  return map:get_game():get_value("b47")
+  return game:get_value("b47")
 end
 
 local function has_boomerang_of_tom()
-  return map:get_game():get_value("b41")
+  return game:get_value("b41")
 end
 
 local function has_finished_cavern()
   -- the cavern is considered has finished if the player has found the heart container
-  return map:get_game():get_value("b37")
+  return game:get_value("b37")
 end
 
 local function tom_please_help_dialog_finished(answer)
 
-  map:get_game():set_value("b47", true)
+  game:set_value("b47", true)
   if answer == 1 then
-    map:start_dialog("lyriann_cave.tom.accept_help", function()
+    game:start_dialog("lyriann_cave.tom.accept_help", function()
       hero:start_treasure("boomerang", 1, "b41")
     end)
   end
 end
 
 local function give_boomerang_back()
-  map:get_game():get_item("boomerang"):set_variant(0)
-  map:get_game():set_value("b41", false)
+  game:get_item("boomerang"):set_variant(0)
+  game:set_value("b41", false)
 end
 
 local function tom_go_back()
@@ -62,7 +63,7 @@ function map:on_started(destination)
     tom:remove()
   end
 
-  if map:get_game():get_value("b38") then
+  if game:get_value("b38") then
     barrier:set_enabled(false)
     open_barrier_switch:set_activated(true)
   end
@@ -94,29 +95,29 @@ function open_barrier_switch:on_activated()
   map:move_camera(136, 304, 250, function()
     sol.audio.play_sound("secret")
     barrier:set_enabled(false)
-    map:get_game():set_value("b38", true)
+    game:set_value("b38", true)
   end)
 end
 
 function tom:on_interaction()
 
   if not has_seen_tom() then
-    map:start_dialog("lyriann_cave.tom.first_time", tom_please_help_dialog_finished)
+    game:start_dialog("lyriann_cave.tom.first_time", tom_please_help_dialog_finished)
   elseif has_finished_cavern() then
     if has_boomerang_of_tom() then
-      map:start_dialog("lyriann_cave.tom.cavern_finished", tom_go_back)
+      game:start_dialog("lyriann_cave.tom.cavern_finished", tom_go_back)
     else
-      map:start_dialog("lyriann_cave.tom.see_you_later")
+      game:start_dialog("lyriann_cave.tom.see_you_later")
     end
   elseif has_boomerang_of_tom() then
-    map:start_dialog("lyriann_cave.tom.not_finished", function(answer)
+    game:start_dialog("lyriann_cave.tom.not_finished", function(answer)
       if answer == 2 then
         give_boomerang_back()
-        map:start_dialog("lyriann_cave.tom.gave_boomerang_back")
+        game:start_dialog("lyriann_cave.tom.gave_boomerang_back")
       end
     end)
   else
-    map:start_dialog("lyriann_cave.tom.not_first_time", tom_please_help_dialog_finished)
+    game:start_dialog("lyriann_cave.tom.not_first_time", tom_please_help_dialog_finished)
   end
 end
 
@@ -124,9 +125,9 @@ function tom:on_movement_finished()
 
   if has_boomerang_of_tom() then
     if has_finished_cavern() then
-      map:start_dialog("lyriann_cave.tom.cavern_finished", tom_go_back)
+      game:start_dialog("lyriann_cave.tom.cavern_finished", tom_go_back)
     else
-      map:start_dialog("lyriann_cave.tom.leaving.cavern_not_finished", tom_go_back)
+      game:start_dialog("lyriann_cave.tom.leaving.cavern_not_finished", tom_go_back)
     end
   else
     tom:set_position(tom_initial_x, tom_initial_y)
@@ -139,7 +140,7 @@ function leave_cavern_sensor:on_activated()
 
   if has_boomerang_of_tom() then
     hero:freeze()
-    map:start_dialog("lyriann_cave.tom.leaving", function()
+    game:start_dialog("lyriann_cave.tom.leaving", function()
       sol.audio.play_sound("warp")
       hero:set_direction(1)
       sol.timer.start(1700, start_moving_tom)

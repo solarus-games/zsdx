@@ -110,12 +110,12 @@ function game:check_hud()
 
     -- During a dialog, move the action icon and the sword icon.
     if not self.hud.showing_dialog and
-        map:is_dialog_enabled() then
+        game:is_dialog_enabled() then
       self.hud.showing_dialog = true
       self.hud.action_icon:set_dst_position(0, 54)
       self.hud.attack_icon:set_dst_position(0, 29)
     elseif self.hud.showing_dialog and
-        not map:is_dialog_enabled() then
+        not game:is_dialog_enabled() then
       self.hud.showing_dialog = false
       self.hud.action_icon:set_dst_position(26, 51)
       self.hud.attack_icon:set_dst_position(13, 29)
@@ -184,13 +184,15 @@ function game:get_custom_command_effect(command)
   return self.hud.custom_command_effects[command]
 end
 
--- Make the action (or attack) icon show something else than the
+-- Make the action (or attack) icon of the HUD show something else than the
 -- built-in effect or the action (or attack) command.
 -- You are responsible to override the command if you don't want the built-in
 -- effect to be performed.
 -- Set the effect to nil to show the built-in effect again.
 function game:set_custom_command_effect(command, effect)
 
-  self.hud.custom_command_effects[command] = effect
+  if self.hud ~= nil then
+    self.hud.custom_command_effects[command] = effect
+  end
 end
 

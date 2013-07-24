@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 6 1F
 
 local function are_all_torches_on()
@@ -15,7 +16,7 @@ end
 
 function map:on_started(destination)
 
-  if map:get_game():get_value("b313") then
+  if game:get_value("b313") then
     -- the torches are lit
     lock_torches()
   elseif not torches_chest:is_open() then
@@ -27,18 +28,18 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination == from_outside then
-    map:start_dialog("dungeon_6.welcome")
+    game:start_dialog("dungeon_6.welcome")
   end
 end
 
 function map:on_update()
 
-  if not map:get_game():get_value("b313")
+  if not game:get_value("b313")
     and are_all_torches_on() then
 
     sol.audio.play_sound("chest_appears")
     torches_chest:set_enabled(true)
-    map:get_game():set_value("b313", true)
+    game:set_value("b313", true)
     lock_torches()
   end
 end

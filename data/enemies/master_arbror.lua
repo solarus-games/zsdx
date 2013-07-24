@@ -48,7 +48,7 @@ function enemy:on_hurt(attack, life_lost)
   local life = self:get_life()
   if life <= 0 then
     sprite:set_ignore_suspend(true)
-    self:get_map():start_dialog("dungeon_3.arbror_killed")
+    self:get_map():get_game():start_dialog("dungeon_3.arbror_killed")
     self:remove_sons()
   else
     if life > 9 then

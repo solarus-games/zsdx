@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 7 1F
 
 local next_sign = 1
@@ -25,7 +26,7 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination == from_outside then
-    map:start_dialog("dungeon_7.welcome")
+    game:start_dialog("dungeon_7.welcome")
   end
 end
 
@@ -122,7 +123,7 @@ local function sign_interaction(sign)
     if sign:get_name() == "sign_" .. next_sign then
 
       if next_sign <= #directions then
-        map:start_dialog("surprise_wall.direction_" .. directions[next_sign])
+        game:start_dialog("surprise_wall.direction_" .. directions[next_sign])
       elseif next_sign == #directions + 1 then
 	map:move_camera(376, 984, 250, function()
 	  sol.audio.play_sound("secret")

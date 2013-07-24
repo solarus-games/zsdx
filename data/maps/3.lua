@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 
 -- Outside world A3.
 
@@ -24,21 +25,21 @@ end
 function map:on_started(destination)
 
   -- enable dark world
-  if map:get_game():get_value("b905") then
+  if game:get_value("b905") then
     sol.audio.play_music("dark_world")
     map:set_tileset(13)
   else
     sol.audio.play_music("overworld")
   end
 
-  if map:get_game():get_value("b24") then
+  if game:get_value("b24") then
     -- remove the monkey from Link's house entrance
     monkey:remove()
   else
     monkey_sprite = monkey:get_sprite()
   end
 
-  if map:get_game():get_value("b89") then
+  if game:get_value("b89") then
     -- remove the dungeon 2 door
     remove_dungeon_2_door()
   end
@@ -47,14 +48,14 @@ function map:on_started(destination)
   random_walk(hat_man)
   random_walk(grand_son)
 
-  if map:get_game():is_dungeon_finished(1) then
+  if game:is_dungeon_finished(1) then
     how_to_save_npc:remove()
   else
     random_walk(how_to_save_npc)
   end
 
   -- smith cave with thiefs
-  if map:get_game():get_value("b155") and not map:get_game():get_value("b156") then
+  if game:get_value("b155") and not game:get_value("b156") then
     to_smith_cave:set_enabled(false)
   else
     to_smith_cave_thiefs:set_enabled(false)
@@ -80,16 +81,16 @@ end
 
 function monkey:on_interaction()
 
-  if not map:get_game():get_value("b24") then
+  if not game:get_value("b24") then
     -- monkey first dialog
     sol.audio.play_sound("monkey")
-    map:start_dialog("outside_world.village.monkey", function()
+    game:start_dialog("outside_world.village.monkey", function()
 
       -- show another message depending on the shield
-      if not map:get_game():has_ability("shield") then
-	map:start_dialog("outside_world.village.monkey.without_shield")
+      if not game:has_ability("shield") then
+	game:start_dialog("outside_world.village.monkey.without_shield")
       else
-	map:start_dialog("outside_world.village.monkey.with_shield", function()
+	game:start_dialog("outside_world.village.monkey.with_shield", function()
 	  -- make the monkey leave
 	  hero:freeze()
 	  sol.audio.play_sound("monkey")
@@ -101,41 +102,41 @@ function monkey:on_interaction()
           m:start(monkey)
 	  monkey_sprite:set_animation("jumping")
 	  monkey_jumps = 1
-	  map:get_game():set_value("b24", true)
+	  game:set_value("b24", true)
 	end)
       end
     end)
   else
     sol.audio.play_sound("monkey")
-    map:start_dialog("outside_world.dungeon_2_entrance.monkey")
+    game:start_dialog("outside_world.dungeon_2_entrance.monkey")
   end
 end
 
 function dungeon_2_door:on_interaction()
 
   -- open the door if the player has the Rock Key
-  if map:get_game():has_item("rock_key") then
+  if game:has_item("rock_key") then
     sol.audio.play_sound("door_open")
     sol.audio.play_sound("secret")
-    map:get_game():set_value("b89", true)
+    game:set_value("b89", true)
     remove_dungeon_2_door()
   else
-    map:start_dialog("outside_world.rock_key_required")
+    game:start_dialog("outside_world.rock_key_required")
   end
 end
 
 function hat_man:on_interaction()
 
-  if map:get_game():is_dungeon_finished(1) then
-    map:start_dialog("outside_world.village.hat_man_npc_waterfall")
+  if game:is_dungeon_finished(1) then
+    game:start_dialog("outside_world.village.hat_man_npc_waterfall")
   else
-    map:start_dialog("outside_world.village.hat_man_npc")
+    game:start_dialog("outside_world.village.hat_man_npc")
   end
 end
 
 function tree_woman:on_interaction()
 
-  map:start_dialog("outside_world.village.tree_woman", function(answer)
+  game:start_dialog("outside_world.village.tree_woman", function(answer)
     if answer ~= "skipped" then
       hero:start_treasure("rupee", 1)
     end

@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Link's house
 
 local function jump_from_bed()
@@ -21,19 +22,16 @@ function map:on_started(destination)
 
   if destination == from_intro then
     -- the intro scene is playing
-    map:get_game():set_hud_enabled(true)
+    game:set_hud_enabled(true)
     map:set_pause_enabled(false)
-    map:set_dialog_style(0)
+    game:set_dialog_style("box")
     snores:get_sprite():set_ignore_suspend(true)
     bed:get_sprite():set_animation("hero_sleeping")
     hero:freeze()
     hero:set_visible(false)
     sol.timer.start(2000, function()
-      map:set_dialog_variable("link_house.dream", map:get_game():get_player_name())
-      map:start_dialog("link_house.dream", function()
-        sol.timer.start(1000, function()
-          wake_up()
-        end)
+      game:start_dialog("link_house.dream", game:get_player_name(), function()
+        sol.timer.start(1000, wake_up)
       end)
     end)
   else

@@ -142,7 +142,7 @@ function enemy:end_dialog()
 
   self:get_map():remove_entities("agahnim_fireball")
   sprite:set_ignore_suspend(true)
-  self:get_map():start_dialog("dungeon_5.agahnim_end")
+  self:get_map():get_game():start_dialog("dungeon_5.agahnim_end")
 end
 
 function enemy:escape()

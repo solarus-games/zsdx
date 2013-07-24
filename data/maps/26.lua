@@ -1,12 +1,13 @@
 local map = ...
+local game = map:get_game()
 -- Fairy cave
 
 local function has_fairy_appeared()
-  return map:get_game():get_value("b99")
+  return game:get_value("b99")
 end
 
 local function has_boomerang_from_fairy()
-  return map:get_game():get_value("b100")
+  return game:get_value("b100")
 end
 
 local function show_fairy()
@@ -42,7 +43,7 @@ function map:on_update()
       and are_all_torches_on() then
 
     sol.audio.play_sound("secret")
-    map:get_game():set_value("b99", true)
+    game:set_value("b99", true)
     show_fairy()
   end
 end
@@ -54,14 +55,14 @@ function fairy_sensor:on_activated()
     hero:freeze()
     hero:set_direction(1)
     if not has_boomerang_from_fairy() then
-      map:start_dialog("fairy_cave.first_time", function()
+      game:start_dialog("fairy_cave.first_time", function()
         hero:unfreeze()
         hero:start_treasure("boomerang", 2, "b100")
       end)
     else
-      map:start_dialog("fairy_cave.restore_health", function()
+      game:start_dialog("fairy_cave.restore_health", function()
         hero:unfreeze()
-        map:get_game():add_life(map:get_game():get_max_life())
+        game:add_life(game:get_max_life())
       end)
     end
   end

@@ -11,6 +11,14 @@
 -- * rypervenche
 -- * bcallah@openbsd.org
 
+-- ****** Syntax of this file ******
+-- If you want to translate the game, only translate the "text"
+-- property of each dialog and leave other properties unchanged.
+-- The meaning of all properties is specified at the end of this file
+-- if you are interested.
+-- See also http://www.solarus-games.org/doc/latest/translation.html
+-- for general translation instructions.
+
 -- ****** Please respect the limit of each line! ******
 -- 23 chars for normal lines,
 -- 20 chars for dialogs with an icon or lines that are answers to a question,
@@ -25,11 +33,6 @@
 -- ****** Typo warning! ******
 -- Remember that ponctuation characters like ! ? : ; are preceeded by a space
 -- character in French and NOT in English.
-
--- ****** More documentation ******
--- If you have a doubt, please refer to the doc:
--- http://www.solarus-games.org/doc/latest/dialog_syntax.html
--- or just ask.
 
 -- Thanks for your contribution!
 
@@ -828,7 +831,7 @@ Boomerang!$0 You can
 immobilize enemies
 and pick up far-away
 objects.
-There are several 
+There are several
 ways of using it,
 it’s up to you to
 discover them all!
@@ -1305,7 +1308,7 @@ dialog{
   icon = 18,
   text = [[
 You found a
-Croissant!$0 
+Croissant!$0
 It's crispy! Eat a
 Croissant to recover
 Hearts.
@@ -1390,7 +1393,7 @@ You found an
 Edelweiss!$0
 
 This pretty flower
-from Hyrule's 
+from Hyrule's
 mountains is
 extremely rare!
 ]]
@@ -1626,7 +1629,7 @@ dialog{
   id = "_treasure.quiver.2",
   icon = 58,
   text = [[
-You found the 
+You found the
 Large Quiver!$0
 
 It can hold up to
@@ -2774,7 +2777,7 @@ such as looking,
 talking, reading a sign,
 lifting a vase, etc.
 Keep an eye on the icon
-to know when you can 
+to know when you can
 interact with your
 environment!
 ]]
@@ -3401,7 +3404,7 @@ out. You may have to
 push blocks along
 the way to open up a
 passage. You could win
-a Piece of Heart, and 
+a Piece of Heart, and
 I heard those are
 pretty rare...
 It's 10 Rupees only.
@@ -4583,9 +4586,9 @@ dialog{
   id = "dungeon_2.code_hint",
   skip = "all",
   text = [[
-       F | B | E 
+       F | B | E
       ---|---|---
-       C | D | A 
+       C | D | A
 ]]
 }
 -----------------------
@@ -6427,4 +6430,126 @@ Thanks for playing!$0
 ]]
 }
 -----------------------
+
+-- ****** Full specification of dialog properties ******
+
+-- We describe here the meaning of each dialog property.
+
+-- You will be interested in this documentation
+-- if you are modifying this quest or making a
+-- quest that uses the same dialog system.
+-- If you are only translating the quest,
+-- you must not change properties other than "text".
+
+-- Remember that properties "id" and "text" are the only ones
+-- imposed by the Solarus engine.
+-- All other properties are custom, they work with
+-- the specific dialog box system of Zelda Mystery of Solarus DX.
+-- In other words, the documentation below relates to Zelda Mystery of
+-- Solarus DX (or to any other quest that uses the same dialog box system),
+-- but not to all Solarus quests.
+
+-- In Zelda Mystery of Solarus DX, a dialog has the following properties:
+--
+-- - id (string): A name identifying the dialog.
+--   The id allows the engine and the scripts to refer to the dialog whenever they
+--   want to display it.
+--   If you are translating dialogs, you must never translate the id.
+--
+-- - text (multi-line string): Contents of this dialog.
+--   If you are translating dialogs, text is the only property to translate.
+--   The text has usually several lines.
+--   The text should be enclosed between [[ and ]], which is
+--   the notation for multiline strings.
+--   In the game, it will be displayed in groups of 3 lines because the dialog box
+--   has space for 3 lines. Each group of 3 lines is called a message.
+--   There is no automatic line breaking: you have to break your lines explicitly.
+--   A line shoud not exceed the maximum number of characters that fit in the
+--   dialog box. This limit depends on the font used.
+--   To make sure you don't exceed the limit, you
+--   should use a text editor with a fixed width font and that shows the column
+--   number.
+--   Hint: you can also put a special comment (outside the string!) whose only
+--   purpose is to show the maximum line size.
+--
+-- - skip (string, optional): Defines what happens when the player
+--   tries to skip the dialog (by pressing the attack command).
+--   There are three possible values:
+--   - "none" (default): The message cannot be skipped.
+--   - "current": If the command is pressed, the current group of 3 lines
+--     is immediately shown (instead of being displayed gradually, letter by
+--     letter).
+--     This allows to get to the next message faster.
+--   - "all": The whole dialog can be skipped.
+--     The dialog box is immediataly closed and
+--     the subsequent groups of 3 lines will not be displayed at all.
+--     Use this only for non-essential dialogs that can be read again later.
+--   The value of skip takes effect applies until the dialog box is closed.
+--
+-- - icon (number, optional): displays a small image of 16x16 pixels in the
+--   dialog box.
+--   The value is a number that identifies the position of the icon in the icon
+--   image file sprites/hud/dialog_icons.png.
+--   The icon (if any) is displayed on the left of the dialog.
+--   This takes space:
+--   when an icon is shown, the whole text is shifted of 32 pixels to the right
+--   in the dialog box. Therefore, there is less space for characters.
+--   The icon remains displayed in the next message, until its value
+--   is changed or the dialog box is closed. A value of -1
+--   means that you want to remove the icon.
+--
+-- - next (string, optional): Id of the next dialog to display.
+--   If this value is not set, the dialog box is closed
+--   when the current dialog finishes.
+--
+--   During the last message (group of 3 lines) of a dialog,
+--   if next is set, then an arrow is displayed on the
+--   bottom of the dialog box to indicate that there will
+--   be at least another message after this one.
+--   If next is not set, then this arrow is replaced
+--   by a square to indicate that this message is the last one.
+--   A message having a question (see below) is always displayed
+--   with an arrow.
+--
+--   Sometimes, even if a dialog is finished, you may
+--   want to show an arrow.
+--   This is typically the case when you know that another
+--   dialog will start immediately, but you don't know which one yet
+--   (a script will decide at the last moment). In this very specific
+--   case, you can set an empty string ("") as the value of next
+--   to indicate that the dialog will be followed by another one,
+--   unknown for now.
+--   This will display the arrow instead of the square, but everything
+--   else works exactly as if the value next was not set.
+--
+-- - question (boolean, optional): If set to true, the last message
+--   (group of 3 lines) of the dialog will be displayed as a question
+--   with two choices.
+--   The first line of the message is considered as the question
+--   and the two other lines are the two possible answers.
+--   A cursor lets the player choose its answer. The cursor takes space:
+--   when there is a question, the whole text is shifted of 32 pixels to the right
+--   in the dialog box. Therefore, there is less space for characters.
+--   It is possible to have both a question and an icon: in this case, you have
+--   even less space for the text.
+--
+-- - next2 (string, optional): If there is a question, you can define this
+--   value next2. next specifies the message to show when the first answer
+--   is selected. next2 specifies the message to show when the second answer
+--   is selected.
+--   As for next, if next2 is unspecified and the player chooses
+--   the second answer, the sequence stops and the dialog box is closed.
+--
+-- There exists special characters that you can put in the text of a
+-- dialog:
+-- - $0: Makes a break of one second in the letter scrolling.
+-- - $1: Sets the letter scrolling speed to slow.
+-- - $2: Sets the letter scrolling speed to medium.
+-- - $3: Sets the letter scrolling speed to fast (default).
+--   Note that the letter scrolling speed applies until the dialog box is closed.
+-- - $v: Inserts in the text some value that is only known at runtime
+--   (for example the player's name or some money reward won in a mini-game).
+--   The $v sequence is substituted by the appropriate value. The value
+--   has to be specified at runtime by the quest programmer using the Lua API
+--   (through the info parameter of game:start_dialog()).
 

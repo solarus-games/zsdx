@@ -1,12 +1,13 @@
 local map = ...
+local game = map:get_game()
 -- North Fairy Fountain
 
 local function has_fairy_appeared()
-  return map:get_game():get_value("b929")
+  return game:get_value("b929")
 end
 
 local function has_tiger_scrolls()
-  return map:get_game():get_value("b930")
+  return game:get_value("b930")
 end
 
 local function show_fairy()
@@ -41,7 +42,7 @@ function map:on_update()
       and are_all_torches_on() then
 
     sol.audio.play_sound("secret")
-    map:get_game():set_value("b929", true)
+    game:set_value("b929", true)
     show_fairy()
   end
 end
@@ -54,14 +55,14 @@ function fairy_sensor:on_activated()
     hero:freeze()
     hero:set_direction(1)
     if not has_tiger_scrolls() then
-      map:start_dialog("north_fairy_fountain.first_time", function()
+      game:start_dialog("north_fairy_fountain.first_time", function()
         hero:unfreeze()
         hero:start_treasure("level_4_way", 4, "b930")
       end)
     else
-      map:start_dialog("north_fairy_fountain.restore_health", function()
+      game:start_dialog("north_fairy_fountain.restore_health", function()
         hero:unfreeze()
-        map:get_game():add_life(map:get_game():get_max_life())
+        game:add_life(game:get_max_life())
       end)
     end
   end

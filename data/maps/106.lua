@@ -1,4 +1,5 @@
 local map = ...
+local game = map:get_game()
 -- Dungeon 9 2F
 
 local ne_puzzle_step = nil
@@ -25,7 +26,7 @@ end
 function map:on_started(destination)
 
   -- north barrier
-  if map:get_game():get_value("b812") then
+  if game:get_value("b812") then
     n_barrier_switch:set_activated(true)
     n_barrier:set_enabled(false)
   end
@@ -46,7 +47,7 @@ function map:on_started(destination)
   end
 
   -- compass
-  if map:get_game():get_value("b814") then
+  if game:get_value("b814") then
     for i = 1, 7 do
       map:get_entity("compass_chest_" .. i):set_open(true)
     end
@@ -72,7 +73,7 @@ function map:on_opening_transition_finished(destination)
 
   -- show the welcome message
   if destination ~= nil and destination:get_name():find("^from_outside") then
-    map:start_dialog("dungeon_9.welcome")
+    game:start_dialog("dungeon_9.welcome")
   end
 end
 
@@ -82,7 +83,7 @@ function n_barrier_switch:on_activated()
   sol.audio.play_sound("secret")
   sol.audio.play_sound("door_open")
   n_barrier:set_enabled(false)
-  map:get_game():set_value("b812", true)
+  game:set_value("b812", true)
 end
 
 -- door A
@@ -323,7 +324,7 @@ end
 -- because we don't want usual behavior from items/lamp.lua:
 -- we want a shorter delay and we want torches to enable the bridge
 local function torch_interaction(torch)
-  map:start_dialog("torch.need_lamp")
+  game:start_dialog("torch.need_lamp")
 end
 
 -- Called when fire touches a torch.

@@ -54,10 +54,8 @@ function submenu:on_started()
   self.game:set_custom_command_effect("action", nil)
   self.game:set_custom_command_effect("attack", "save")
 
-  -- Show this menu below the dialog box and HUD.
+  -- Show this menu below the HUD.
   -- TODO make functions sol.menu.bring_to_front, sol.menu.bring_to_back
-  sol.menu.stop(self.game.dialog_box)
-  sol.menu.start(self.game, self.game.dialog_box)
   self.game:set_hud_enabled(false)
   self.game:set_hud_enabled(true)
 end
@@ -124,6 +122,11 @@ end
 function submenu:on_command_pressed(command)
 
   local handled = false
+
+  if self.game:is_dialog_enabled() then
+    -- Commands will be applied to the dialog box only.
+    return false
+  end
 
   if self.save_dialog_state == 0 then
     -- The save dialog is not shown

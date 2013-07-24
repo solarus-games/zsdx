@@ -1,6 +1,6 @@
 local game = ...
 
--- Include the dungeon features.
+-- Include the various game features.
 sol.main.load_file("dungeons")(game)
 sol.main.load_file("equipment")(game)
 sol.main.load_file("menus/pause")(game)
