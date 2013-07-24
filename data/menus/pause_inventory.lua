@@ -103,8 +103,8 @@ function inventory_submenu:set_cursor_position(row, column)
 
   -- Update the caption text and the action icon.
   local item_name = item_names[index + 1]
-  local item = self.game:get_item(item_name)
-  local variant = item:get_variant()
+  local item = item_name and self.game:get_item(item_name) or nil
+  local variant = item and item:get_variant() or 0
 
   local item_icon_opacity = 128
   if variant > 0 then
