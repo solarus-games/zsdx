@@ -21,6 +21,9 @@ local dialog_box = {
   line_index = nil,            -- Line currently being shown.
   char_index = nil,            -- Next character to show in the current line.
   char_delay = nil,            -- Delay between two characters in milliseconds.
+  full = false,                -- Whether the 3 visible lines have shown all content.
+  need_letter_sound = false,   -- Whether a sound should be played with the next character.
+  gradual = true,              -- Whether text is displayed gradually.
 
   -- Graphics.
   dialog_surface = nil,
@@ -114,27 +117,20 @@ function game:set_dialog_position(vertical_position)
   dialog_box.vertical_position = vertical_position
 end
 
-local function repeat_letter_sound()
-
-  if not dialog_box:is_full() then
-    sol.audio.play_sound("message_letter")
-    sol.timer.start(dialog_box, letter_sound_delay, repeat_letter_sound)
-  end
-end
-
 local function repeat_show_character()
 
+  dialog_box:check_full()
   while not dialog_box:is_full()
       and dialog_box.char_index > #dialog_box.lines[dialog_box.line_index] do
     -- The current line is finished.
     dialog_box.char_index = 1
     dialog_box.line_index = dialog_box.line_index + 1
+    dialog_box:check_full()
   end
 
   if not dialog_box:is_full() then
     dialog_box:add_character()
   else
-    sol.timer.stop_all(dialog_box)
     sol.audio.play_sound("message_end")
     if dialog_box:has_more_lines()
         or dialog_box.dialog.next ~= nil
@@ -214,6 +210,8 @@ function dialog_box:show_dialog()
   self.line_index = 1
   self.char_index = 1
   self.skipped = false
+  self.full = false
+  self.need_letter_sound = self.style ~= "empty"
 
   if dialog.skip ~= nil then
     -- The skip mode changes for this dialog.
@@ -244,12 +242,20 @@ function dialog_box:has_more_lines()
   return self.next_line ~= nil
 end
 
+-- Updates the result of is_full().
+function dialog_box:check_full()
+  if self.line_index >= nb_visible_lines
+      and self.char_index > #self.lines[nb_visible_lines] then
+    self.full = true
+  else
+    self.full = false
+  end
+end
+
 -- Returns whether all 3 current lines of the dialog box are entirely
 -- displayed.
 function dialog_box:is_full()
-
-  return self.line_index >= nb_visible_lines
-      and self.char_index > #self.lines[nb_visible_lines]
+  return self.full
 end
 
 -- Shows the next dialog of the sequence.
@@ -290,7 +296,7 @@ end
 -- Shows the next dialog (if any) if there are no remaining lines.
 function dialog_box:show_more_lines()
 
-  sol.timer.stop_all(self)
+  self.gradual = true
 
   if not self:has_more_lines() then
     self:show_next_dialog()
@@ -319,9 +325,8 @@ function dialog_box:show_more_lines()
   self.line_index = 1
   self.char_index = 1
 
-  sol.timer.start(self, self.char_delay, repeat_show_character)
-  if self.style ~= "empty" then
-    sol.timer.start(self, letter_sound_delay, repeat_letter_sound)
+  if self.gradual then
+    sol.timer.start(self, self.char_delay, repeat_show_character)
   end
 end
 
@@ -351,7 +356,7 @@ function dialog_box:add_character()
     -- Special character.
 
     special = true
-    current_char = line:sub(self.char_index, self.char_index + 1)
+    current_char = line:sub(self.char_index, self.char_index)
     self.char_index = self.char_index + 1
 
     if current_char == "0" then
@@ -397,7 +402,18 @@ function dialog_box:add_character()
     end
   end
 
-  sol.timer.start(self, self.char_delay + additional_delay, repeat_show_character)
+  if not special and current_char ~= nil and self.need_letter_sound then
+    -- Play a letter sound sometimes.
+    sol.audio.play_sound("message_letter")
+    self.need_letter_sound = false
+    sol.timer.start(self, letter_sound_delay, function()
+      self.need_letter_sound = true
+    end)
+  end
+
+  if self.gradual then
+    sol.timer.start(self, self.char_delay + additional_delay, repeat_show_character)
+  end
 end
 
 -- Stops displaying gradually the current 3 lines, shows them immediately.
@@ -405,22 +421,25 @@ end
 -- (if any).
 function dialog_box:show_all_now()
 
-  sol.timer.stop_all(self)
   if self:is_full() then
     self:show_more_lines()
   else
+    self.gradual = false
     -- Check the end of the current line.
+    self:check_full()
     while not self:is_full() do
 
       while not self:is_full()
           and self.char_index > #self.lines[self.line_index] do
         self.char_index = 1
         self.line_index = self.line_index + 1
+        self:check_full()
       end
 
       if not self:is_full() then
         self:add_character()
       end
+      self:check_full()
     end
   end
 end
