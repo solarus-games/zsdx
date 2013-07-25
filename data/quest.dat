@@ -2,5 +2,8 @@ quest{
   solarus_version = "1.1",
   write_dir = "zsdx",
   title_bar = "Zelda Mystery of Solarus DX",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x200",
+  max_quest_size = "400x240",
 }
 
