@@ -97,10 +97,6 @@ function sol.main:debug_on_key_pressed(key, modifiers)
       if layer ~= 2 then
 	hero:set_position(x, y, layer + 1)
       end
-    elseif key == "left shift" or key == "right shift" then
-      if game:is_dialog_enabled() then
-        game.dialog_box:show_all_now()
-      end
     else
       -- Not a known in-game debug key.
       handled = false
@@ -111,6 +107,20 @@ function sol.main:debug_on_key_pressed(key, modifiers)
   end
 
   return handled
+end
+
+-- If debug is enabled, the shift key skips dialogs.
+if sol.main.is_debug_enabled() then
+
+  function sol.main:on_update()
+
+    local game = sol.main.game
+    if game ~= nil and game:is_dialog_enabled() then
+      if sol.input.is_key_pressed("left shift") or sol.input.is_key_pressed("right shift") then
+        game.dialog_box:show_all_now()
+      end
+    end
+  end
 end
 
 -- Event called when the player pressed a keyboard key.
