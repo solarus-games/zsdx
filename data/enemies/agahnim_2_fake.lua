@@ -139,8 +139,12 @@ function enemy:fire_step_3()
   function throw_fire()
 
     nb_sons_created = nb_sons_created + 1
-    self:create_enemy(self:get_name() .. "_fireball_" .. nb_sons_created,
-      next_fireball_breed, 0, -21)
+    self:create_enemy{
+      name = self:get_name() .. "_fireball_" .. nb_sons_created,
+      breed = next_fireball_breed,
+      x = 0,
+      y = -21,
+    }
   end
 
   throw_fire()

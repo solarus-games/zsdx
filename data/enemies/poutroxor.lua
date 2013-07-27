@@ -58,7 +58,13 @@ function enemy:skeleton_attack()
     skeleton:set_animation("walking")
     nb_flames_created = nb_flames_created + 1
     local son_name = self:get_name() .. "_son_" .. nb_flames_created
-    local son = self:create_enemy(son_name, "blue_flame", 0, -48, 2)
+    local son = self:create_enemy{
+      name = son_name,
+      breed = "blue_flame",
+      x = 0,
+      y = -48,
+      layer = 2,
+    }
     local angle = son:get_angle(self:get_map():get_entity("hero"))
     son:go(angle)
     sol.timer.start(self, math.random(1000, 3000), function()
@@ -99,7 +105,12 @@ function enemy:repeat_flame()
     local son_name = self:get_name() .. "_son_" .. nb_flames_created
     local angle = math.random(30, 90) * math.pi / 40
     nb_flames_created = nb_flames_created + 1
-    local son = self:create_enemy(son_name, "blue_flame", 0, 16)
+    local son = self:create_enemy{
+      name = son_name,
+      breed = "blue_flame",
+      x = 0,
+      y = 16,
+    }
     son:go(angle)
     sol.audio.play_sound("lamp")
     sol.timer.start(self, 150, function() self:repeat_flame() end)

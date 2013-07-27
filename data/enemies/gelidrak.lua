@@ -31,13 +31,23 @@ function enemy:on_created()
 
   -- Create the head.
   local my_name = self:get_name()
-  head = self:create_enemy(my_name .. "_head", "gelidrak_head", 0, 48)
+  head = self:create_enemy{
+    name = my_name .. "_head",
+    breed = "gelidrak_head",
+    x = 0,
+    y = 48,
+  }
   head_ball_sprite = sol.sprite.create("enemies/gelidrak")
   head_ball_sprite:set_animation("head_ball")
 
   -- Create the tail.
   local my_name = self:get_name()
-  tail = self:create_enemy(my_name .. "_tail", "gelidrak_tail", 0, -112)
+  tail = self:create_enemy{
+    name = my_name .. "_tail",
+    breed = "gelidrak_tail",
+    x = 0,
+    y = -112,
+  }
   tail_ball_sprite = sol.sprite.create("enemies/gelidrak")
   tail_ball_sprite:set_animation("tail_ball")
 

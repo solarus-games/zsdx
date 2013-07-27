@@ -208,7 +208,13 @@ function enemy:throw_flames()
     sol.audio.play_sound("lamp")
     nb_flames_created = nb_flames_created + 1
     local son_name = prefix .. nb_flames_created
-    self:create_enemy(son_name, "red_flame", 0, -24, 0)
+    self:create_enemy{
+      name = son_name,
+      breed = "red_flame",
+      x = 0,
+      y = -24,
+      layer = 0,
+    }
     nb_to_create = nb_to_create - 1
     if nb_to_create > 0 then
       sol.timer.start(self:get_map(), 150, repeat_throw_flame)
@@ -244,7 +250,13 @@ function enemy:throw_bats()
     sol.audio.play_sound("lamp")
     nb_bats_created = nb_bats_created + 1
     local son_name = prefix .. nb_bats_created
-    local son = self:create_enemy(son_name, "fire_bat", 0, -21, 0)
+    local son = self:create_enemy{
+      name = son_name,
+      breed = "fire_bat",
+      x = 0,
+      y = -21,
+      layer = 0,
+    }
     if math.random(6) == 1 then
       son:set_treasure("magic_flask", 1)
     end

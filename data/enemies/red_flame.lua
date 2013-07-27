@@ -35,7 +35,10 @@ function enemy:on_movement_finished(movement)
 
   -- Let a circle of fire on the ground.
   local son_name = self:get_name() .. "_circle"
-  self:create_enemy(son_name, "fire_circle", 0, 0)
+  self:create_enemy{
+    name = son_name,
+    breed = "fire_circle",
+  }
   self:remove()
 end
 

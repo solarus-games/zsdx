@@ -36,7 +36,10 @@ function enemy:on_restarted()
     if math.random(2) == 1 or self:get_distance(hero) < 24 then
       nb_sons_created = nb_sons_created + 1
       local son_name = self:get_name() .. "_son_" .. nb_sons_created
-      local son = self:create_enemy(son_name, "red_helmasaur", 0, 0)
+      local son = self:create_enemy{
+        name = son_name,
+        breed = "red_helmasaur",
+      }
       local game = self:get_map():get_game()
       if game:get_life() <= game:get_max_life() / 3 then
 	son:set_treasure("heart", 1)

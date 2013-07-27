@@ -20,7 +20,12 @@ function enemy:on_created()
 
   -- Create the chain and ball.
   local chain_name = self:get_name() .. "_chain"
-  chain = self:create_enemy(chain_name, "chain_and_ball", -16, -33)
+  chain = self:create_enemy{
+    name = chain_name,
+    breed = "chain_and_ball",
+    x = -16,
+    y = -33,
+  }
   chain:set_center_enemy(self)
 end
 

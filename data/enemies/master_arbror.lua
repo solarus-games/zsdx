@@ -83,7 +83,12 @@ function enemy:create_son()
 
   nb_sons_created = nb_sons_created + 1
   local son_name = son_prefix .. nb_sons_created
-  local son = self:create_enemy(son_name, "arbror_root", x, 80)
+  local son = self:create_enemy{
+    name = son_name,
+    breed = "arbror_root",
+    x = x,
+    y = 80,
+  }
   son.master_arbror = self
   son.speed = 48 + (initial_life - self:get_life()) * 5
   sol.audio.play_sound("stone")

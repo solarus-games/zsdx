@@ -22,7 +22,12 @@ function enemy:on_created()
 
   -- Create the eye.
   local my_name = self:get_name()
-  eye = self:create_enemy(my_name .. "_eye", "flora_gohma_eye", 0, -112)
+  eye = self:create_enemy{
+    name = my_name .. "_eye",
+    breed = "flora_gohma_eye",
+    x = 0,
+    y = -112
+  }
   eye.body = self
 
   -- Create the balls of the neck.

@@ -133,7 +133,12 @@ function enemy:repeat_flame()
     nb_flames_created = nb_flames_created + 1
     local son_name = self:get_name() .. "_son_" .. nb_flames_created
     local angle = math.random(360) * math.pi / 180
-    local son = self:create_enemy(son_name, "blue_flame", 0, 16)
+    local son = self:create_enemy{
+      name = son_name,
+      breed = "blue_flame",
+      x = 0,
+      y = 16,
+    }
     son:go(angle)
     sol.audio.play_sound("lamp")
     sol.timer.start(self, 150, function() self:repeat_flame() end)

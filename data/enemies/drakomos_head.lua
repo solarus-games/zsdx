@@ -62,7 +62,12 @@ function enemy:repeat_fire()
     local angle_start = 2 * math.pi / 4
     local angle_end = 9 * math.pi / 4
     local angle = angle_start + nb_fire_created * (angle_end - angle_start) / max_fire_created
-    local son = self:create_enemy(son_name, "fireball_simple", 0, 16)
+    local son = self:create_enemy{
+      name = son_name,
+      breed = "fireball_simple",
+      x = 0,
+      y = 16
+    }
     son:go(angle)
     sol.audio.play_sound("lamp")
     sol.timer.start(self, 150, function() self:repeat_fire() end)

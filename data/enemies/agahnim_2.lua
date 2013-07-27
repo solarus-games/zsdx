@@ -153,8 +153,12 @@ function enemy:fire_step_3()
 
   local function throw_fire()
     nb_sons_created = nb_sons_created + 1
-    self:create_enemy("agahnim_fireball_" .. nb_sons_created,
-        next_fireball_breed, 0, -21)
+    self:create_enemy{
+      name = "agahnim_fireball_" .. nb_sons_created,
+      breed = next_fireball_breed,
+      x = 0,
+      y = -21,
+    }
   end
 
   throw_fire()
@@ -223,7 +227,10 @@ function enemy:create_fakes()
   if self:get_map():get_entities_count(prefix) < 3 then
     nb_fakes_created = nb_fakes_created + 1
     local fake_name = prefix .. nb_fakes_created
-    self:create_enemy(fake_name, "agahnim_2_fake", 0, 0)
+    self:create_enemy{
+      name = fake_name,
+      breed = "agahnim_2_fake",
+    }
   end
 
   if self:get_life() < initial_life / 3

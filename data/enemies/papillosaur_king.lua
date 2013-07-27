@@ -82,7 +82,12 @@ function enemy:throw_egg()
   -- Create the egg.
   nb_eggs_created = nb_eggs_created + 1
   local egg_name = self:get_name() .. "_minillosaur_" .. nb_eggs_created
-  local egg = self:create_enemy(egg_name, "minillosaur_egg_thrown", 0, 16)
+  local egg = self:create_enemy{
+    name = egg_name,
+    breed = "minillosaur_egg_thrown",
+    x = 0,
+    y = 16,
+  }
   egg:set_treasure(nil)
   sol.audio.play_sound("boss_fireball")
 

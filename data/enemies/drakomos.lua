@@ -16,8 +16,18 @@ function enemy:on_created()
 
   -- Create the heads.
   local my_name = self:get_name()
-  head_1 = self:create_enemy(my_name .. "head_1", "drakomos_head", -76, 40)
-  head_2 = self:create_enemy(my_name .. "head_2", "drakomos_head", 76, 40)
+  head_1 = self:create_enemy{
+    name = my_name .. "head_1",
+    breed = "drakomos_head",
+    x = -76,
+    y = 40,
+  }
+  head_2 = self:create_enemy{
+    name = my_name .. "head_2",
+    breed = "drakomos_head",
+    x = 76,
+    y = 40,
+  }
   ball_sprite = sol.sprite.create("enemies/drakomos")
   ball_sprite:set_animation("ball")
 end

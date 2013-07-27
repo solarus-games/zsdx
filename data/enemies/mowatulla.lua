@@ -88,7 +88,12 @@ function enemy:throw_son()
   -- Create the son.
   nb_sons_created = nb_sons_created + 1
   local son_name = self:get_name() .. "_mini_" .. nb_sons_created
-  self:create_enemy(son_name, "mini_mowatulla", 0, 40)
+  self:create_enemy{
+    name = son_name,
+    breed = "mini_mowatulla",
+    x = 0,
+    y = 40,
+  }
   sol.audio.play_sound("ice")
 
   -- See what to do next.

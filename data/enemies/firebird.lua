@@ -50,7 +50,13 @@ function enemy:prepare_flames()
     sol.audio.play_sound("lamp")
     nb_sons_created = nb_sons_created + 1
     local son_name = prefix .. nb_sons_created
-    self:create_enemy(son_name, "red_flame", 0, -16, 0)
+    self:create_enemy{
+      name = son_name,
+      breed = "red_flame",
+      x = 0,
+      y = -16,
+      layer = 0,
+    }
     nb_to_create = nb_to_create - 1
     if nb_to_create > 0 then
       sol.timer.start(self, 200, repeat_throw_flame)
