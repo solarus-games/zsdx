@@ -92,6 +92,8 @@ function console:on_key_pressed(key, modifiers)
     self:history_up()
   elseif key == "down" then
     self:history_down()
+  elseif key == "left shift" or key == "right shift" then
+    -- Stop propagation.
   else
     handled = false
   end
