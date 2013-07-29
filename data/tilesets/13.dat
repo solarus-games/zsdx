@@ -121,7 +121,7 @@ tile_pattern{
 
 tile_pattern{
   id = 21,
-  ground = "water_top_right",
+  ground = "wall_top_right_water",
   default_layer = 0,
   x = { 0, 16, 32 },
   y = { 152, 152, 152 },
@@ -141,7 +141,7 @@ tile_pattern{
 
 tile_pattern{
   id = 23,
-  ground = "water_top_left",
+  ground = "wall_top_left_water",
   default_layer = 0,
   x = { 0, 16, 32 },
   y = { 184, 184, 184 },
@@ -201,7 +201,7 @@ tile_pattern{
 
 tile_pattern{
   id = 29,
-  ground = "water_bottom_left",
+  ground = "wall_bottom_left_water",
   default_layer = 0,
   x = { 0, 16, 32 },
   y = { 232, 232, 232 },
@@ -1001,7 +1001,7 @@ tile_pattern{
 
 tile_pattern{
   id = 280,
-  ground = "water_bottom_right",
+  ground = "wall_bottom_right_water",
   default_layer = 0,
   x = { 0, 16, 32 },
   y = { 264, 264, 264 },
