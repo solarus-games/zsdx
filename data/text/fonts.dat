@@ -22,6 +22,12 @@ font{
 }
 
 font{
+  id = "traditional_chinese",
+  file = "text/wqy-microhei.ttc",
+  size = 12,
+}
+
+font{
   id = "white_digits",
   file = "text/white_digits.png",
 }

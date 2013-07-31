@@ -5,31 +5,33 @@ function options_submenu:on_started()
 
   submenu.on_started(self)
 
+  local font = sol.language.get_menu_font()
+
   self.video_mode_text = sol.text_surface.create{
     horizontal_alignment = "right",
     vertical_alignment = "top",
-    font = "fixed",
+    font = font,
     text_key = "options.video_mode." .. sol.video.get_mode(),
   }
 
   self.command_column_text = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "top",
-    font = "fixed",
+    font = font,
     text_key = "options.commands_column",
   }
 
   self.keyboard_column_text = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "top",
-    font = "fixed",
+    font = font,
     text_key = "options.keyboard_column",
   }
 
   self.joypad_column_text = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "top",
-    font = "fixed",
+    font = font,
     text_key = "options.joypad_column",
   }
 
@@ -47,20 +49,20 @@ function options_submenu:on_started()
     self.command_texts[i] = sol.text_surface.create{
       horizontal_alignment = "left",
       vertical_alignment = "top",
-      font = "fixed",
+      font = font,
       text_key = "options.command." .. self.command_names[i],
     }
 
     self.keyboard_texts[i] = sol.text_surface.create{
       horizontal_alignment = "left",
       vertical_alignment = "top",
-      font = "fixed",
+      font = font,
     }
 
     self.joypad_texts[i] = sol.text_surface.create{
       horizontal_alignment = "left",
       vertical_alignment = "top",
-      font = "fixed",
+      font = font,
     }
   end
 

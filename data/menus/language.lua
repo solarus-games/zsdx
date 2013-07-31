@@ -32,7 +32,7 @@ function language_menu:on_started()
       local language = {}
       language.id = id
       language.text = sol.text_surface.create{
-        font = "fixed",
+        font = sol.language.get_menu_font(id),
         text = sol.language.get_language_name(id),
         horizontal_alignment = "center"
       }

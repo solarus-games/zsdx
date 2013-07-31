@@ -23,7 +23,7 @@ function savegame_menu:on_started()
   self.option2_text = sol.text_surface.create()
   self.title_text = sol.text_surface.create{
     horizontal_alignment = "center",
-    font = "fixed"
+    font = sol.language.get_menu_font(),
   }
   self.cursor_position = 1
   self.cursor_sprite = sol.sprite.create("menus/selection_menu_cursor")
@@ -245,7 +245,9 @@ function savegame_menu:read_savegames()
     slot.savegame = sol.game.load(slot.file_name)
     slot.number_img = sol.surface.create("menus/selection_menu_save" .. i .. ".png")
 
-    slot.player_name_text = sol.text_surface.create()
+    slot.player_name_text = sol.text_surface.create{
+      font = sol.language.get_dialog_font(),
+    }
     if sol.game.exists(slot.file_name) then
       -- Existing file.
       if slot.savegame:get_ability("tunic") == 0 then
@@ -603,13 +605,13 @@ function savegame_menu:init_phase_options()
 
     -- Text surface of the label.
     option.label_text = sol.text_surface.create{
-      font = "fixed",
+      font = sol.language.get_menu_font(),
       text_key = "selection_menu.options." .. option.name
     }
 
     -- Text surface of the value.
     option.value_text = sol.text_surface.create{
-      font = "fixed",
+      font = sol.language.get_menu_font(),
       horizontal_alignment = "right"
     }
   end
@@ -811,9 +813,12 @@ end
 -- This function is called when the language has just been changed.
 function savegame_menu:reload_options_strings()
 
+  local font = sol.language.get_menu_font()
   -- Update the label of each option.
   for _, option in ipairs(self.options) do
 
+    option.label_text:set_font(font)
+    option.value_text:set_font(font)
     option.label_text:set_text_key("selection_menu.options." .. option.name)
 
     -- And the value of the video mode.
@@ -825,6 +830,7 @@ function savegame_menu:reload_options_strings()
 
   -- Other menu elements
   self.title_text:set_text_key("selection_menu.phase.options")
+  self.title_text:set_font(font)
   self:set_bottom_buttons("selection_menu.back", nil)
   self:read_savegames()  -- To update "- Empty -" mentions.
 end
@@ -838,7 +844,9 @@ function savegame_menu:init_phase_choose_name()
   self.title_text:set_text_key("selection_menu.phase.choose_name")
   self.cursor_sprite:set_animation("letters")
   self.player_name = ""
-  self.player_name_text = sol.text_surface.create()
+  self.player_name_text = sol.text_surface.create{
+    font = sol.language.get_menu_font()
+  }
   self.letter_cursor = { x = 0, y = 0 }
   self.letters_img = sol.surface.create("menus/selection_menu_letters.png")
   self.name_arrow_sprite = sol.sprite.create("menus/arrow")

@@ -178,3 +178,53 @@ function sol.main:start_savegame(game)
   play_game(game)
 end
 
+-- Utility function to decide the font to use for dialogs
+-- depending on the current language.
+function sol.language.get_dialog_font()
+
+  local language = sol.language.get_language()
+  local font
+  if language == "zh_TW" then
+    -- Traditional Chinese font.
+    font = "traditional_chinese"
+  else
+    font = "dialog"
+  end
+
+end
+
+-- Returns the font to be used for dialogs
+-- depending on the specified language (the current one by default).
+function sol.language.get_dialog_font(language)
+
+  language = language or sol.language.get_language()
+
+  local language = sol.language.get_language()
+  local font
+  if language == "zh_TW" then
+    -- Traditional Chinese font.
+    font = "traditional_chinese"
+  else
+    font = "dialog"
+  end
+
+  return font
+end
+
+-- Returns the font to be used to display text in menus
+-- depending on the specified language (the current one by default).
+function sol.language.get_menu_font(language)
+
+  language = language or sol.language.get_language()
+
+  local font
+  if language == "zh_TW" then
+    -- Traditional Chinese font.
+    font = "traditional_chinese"
+  else
+    font = "fixed"
+  end
+
+  return font
+end
+

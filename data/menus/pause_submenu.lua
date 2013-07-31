@@ -16,39 +16,48 @@ function submenu:on_started()
   self.save_dialog_sprite = sol.sprite.create("menus/pause_save_dialog")
   self.save_dialog_state = 0
 
+  local dialog_font = sol.language.get_dialog_font()
+  local menu_font = sol.language.get_menu_font()
+
   self.question_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     color = {8, 8, 8},
+    font = dialog_font,
   }
   self.question_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     color = {8, 8, 8},
+    font = dialog_font,
   }
   self.answer_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     color = {8, 8, 8},
     text_key = "save_dialog.yes",
+    font = dialog_font,
   }
   self.answer_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     color = {8, 8, 8},
     text_key = "save_dialog.no",
+    font = dialog_font,
   }
 
   self.caption_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     font = "fixed",
+    font = menu_font,
   }
 
   self.caption_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
     font = "fixed",
+    font = menu_font,
   }
 
   self.game:set_custom_command_effect("action", nil)

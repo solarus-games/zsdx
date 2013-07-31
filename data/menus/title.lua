@@ -77,14 +77,14 @@ function title_screen:phase_title()
   self.borders_img = sol.surface.create("menus/title_borders.png")
 
   self.website_img = sol.text_surface.create{
-    font = "fixed",
+    font = sol.language.get_menu_font(),
     color = {240, 200, 56},
     text_key = "title_screen.website",
     horizontal_alignment = "center"
   }
 
   self.press_space_img = sol.text_surface.create{
-    font = "dialog",
+    font = sol.language.get_dialog_font(),
     color = {255, 255, 255},
     text_key = "title_screen.press_space",
     horizontal_alignment = "center"
