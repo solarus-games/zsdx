@@ -19,7 +19,6 @@ language{
   name = "Deutsch"
 }
 
---[[
 language{
  code = "zh_CN",
   name = "Chinese (simplified)"
@@ -29,5 +28,4 @@ language{
  code = "zh_TW",
   name = "Chinese (traditional)"
 }
-]]--
 
