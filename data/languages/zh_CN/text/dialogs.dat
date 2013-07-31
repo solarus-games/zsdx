@@ -9,6 +9,7 @@
 -- * Christopho
 -- * JeFF
 -- * rypervenche
+-- * sundae
 
 -- ****** Please respect the limit of each line! ******
 -- 23 chars for normal lines,
@@ -39,8 +40,7 @@ dialog{
   icon = 0,
   skip = "all",
   text = [[
-Use the Feather to
-jump over obstacles.
+使用羽毛越过障碍。
 ]]
 }
 --------------------
@@ -51,9 +51,8 @@ dialog{
   icon = 1,
   skip = "all",
   text = [[
-Use Bombs against
-enemies and to
-destroy obstacles.
+使用炸弹抵抗敌人和
+摧毁障碍。
 ]]
 }
 --------------------
@@ -64,8 +63,7 @@ dialog{
   icon = 2,
   skip = "all",
   text = [[
-You don't have any
-Arrows left!
+你没有剩余的箭矢。
 ]]
 }
 --------------------
@@ -76,9 +74,8 @@ dialog{
   icon = 3,
   skip = "all",
   text = [[
-Shoot Arrows to
-defeat tough
-enemies.
+射出箭矢去击败
+顽强的敌人。
 ]]
 }
 --------------------
@@ -89,10 +86,8 @@ dialog{
   icon = 4,
   skip = "all",
   text = [[
-Use the Boomerang to
-immobilize enemies
-and pick up far-away
-objects.
+使用回旋镖固定敌人
+和拾起远处的物品。
 ]]
 }
 --------------------
@@ -103,11 +98,8 @@ dialog{
   icon = 35,
   skip = "all",
   text = [[
-Use the Super
-Boomerang to
-immobilize enemies
-and pick up far-away
-objects.
+用超级回旋镖固定敌人
+和拾起远处的物品。
 ]]
 }
 --------------------
@@ -118,11 +110,9 @@ dialog{
   icon = 5,
   skip = "all",
   text = [[
-Brighten dark places
-and light torches
-with the Lamp, but
-watch your Magic
-Meter!
+使用油灯照亮黑暗
+和点燃火炬，但是
+注意你的魔力。·
 ]]
 }
 --------------------
@@ -133,10 +123,8 @@ dialog{
   icon = 6,
   skip = "all",
   text = [[
-Hoist yourself up to
-inaccessible places
-with the help of the
-Hookshot.
+在飞爪帮助下到达难以
+接触的地方。
 ]]
 }
 --------------------
@@ -147,9 +135,7 @@ dialog{
   icon = 7,
   skip = "all",
   text = [[
-The Magic Bottle can
-hold various
-substances.
+魔瓶能容纳各种物品。
 ]]
 }
 --------------------
@@ -161,12 +147,10 @@ dialog{
   icon = 8,
   skip = "all",
   text = [[
-Your Magic Bottle
-is filled with
-water.
+你的魔瓶充满了水，
 
-Use it at an
-appropriate spot...
+在合适的地点
+使用它...
 ]]
 }
 --------------------
@@ -177,9 +161,8 @@ dialog{
   icon = 9,
   skip = "all",
   text = [[
-Drink Red Potion
-to fill up your
-Heart Meter.
+喝下红药水恢复
+生命。
 ]]
 }
 --------------------
@@ -190,9 +173,8 @@ dialog{
   icon = 10,
   skip = "all",
   text = [[
-Drink Green Potion
-to fill up your
-Magic Meter.
+喝下绿药水恢复
+魔力。
 ]]
 }
 --------------------
@@ -203,10 +185,8 @@ dialog{
   icon = 11,
   skip = "all",
   text = [[
-Drink Blue Potion
-to fill up both your
-Heart and Magic
-Meters!
+喝下蓝药水恢复
+生命和魔力。
 ]]
 }
 --------------------
@@ -217,11 +197,10 @@ dialog{
   icon = 12,
   skip = "all",
   text = [[
-This Fairy will help
-you in time of need.
-You can also use it
-whenever you want to
-recover your Hearts!
+精灵会在关键的时候
+帮助你。
+你也能随时用它恢复
+生命。
 ]]
 }
 --------------------
@@ -232,9 +211,7 @@ dialog{
   icon = 7,
   skip = "all",
   text = [[
-The Magic Bottle can
-hold various
-substances.
+魔瓶能容纳各种物品。
 ]]
 }
 --------------------
@@ -245,12 +222,9 @@ dialog{
   icon = 8,
   skip = "all",
   text = [[
-Your Magic Bottle
-is filled with
-water.
+你的魔瓶装满了水，
 
-Use it at an
-appropriate spot...
+在合适的地方用它...
 ]]
 }
 --------------------
@@ -261,9 +235,8 @@ dialog{
   icon = 9,
   skip = "all",
   text = [[
-Drink Red Potion
-to fill up your
-Heart Meter.
+喝下红药水恢复
+生命.
 ]]
 }
 --------------------
@@ -274,9 +247,8 @@ dialog{
   icon = 10,
   skip = "all",
   text = [[
-Drink Green Potion
-to fill up your
-Magic Meter.
+喝下绿药水恢复
+魔力.
 ]]
 }
 --------------------
@@ -287,10 +259,8 @@ dialog{
   icon = 11,
   skip = "all",
   text = [[
-Drink Blue Potion
-to fill up both your
-Heart and Magic
-Meters!
+喝下蓝药水恢复
+生命和魔力.
 ]]
 }
 --------------------
@@ -301,11 +271,9 @@ dialog{
   icon = 12,
   skip = "all",
   text = [[
-This Fairy will help
-you in time of need.
-You can also use it
-whenever you want to
-recover your Hearts!
+精灵会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
 ]]
 }
 --------------------
@@ -316,9 +284,7 @@ dialog{
   icon = 7,
   skip = "all",
   text = [[
-The Magic Bottle can
-hold various
-substances.
+魔瓶能容纳各种物品.
 ]]
 }
 --------------------
@@ -329,12 +295,9 @@ dialog{
   icon = 8,
   skip = "all",
   text = [[
-Your Magic Bottle
-is filled with
-water.
+你的魔瓶装满了水,
 
-Use it at an
-appropriate spot...
+在合适的地点使用.
 ]]
 }
 --------------------
@@ -345,9 +308,8 @@ dialog{
   icon = 9,
   skip = "all",
   text = [[
-Drink Red Potion
-to fill up your
-Heart Meter.
+喝下红药水恢复
+生命.
 ]]
 }
 --------------------
@@ -358,9 +320,8 @@ dialog{
   icon = 10,
   skip = "all",
   text = [[
-Drink Green Potion
-to fill up your
-Magic Meter.
+喝下绿药水恢复
+魔力.
 ]]
 }
 --------------------
@@ -371,10 +332,8 @@ dialog{
   icon = 11,
   skip = "all",
   text = [[
-Drink Blue Potion
-to fill up both your
-Heart and Magic
-Meters!
+喝下蓝药水恢复生命
+和魔力.
 ]]
 }
 --------------------
@@ -385,11 +344,9 @@ dialog{
   icon = 12,
   skip = "all",
   text = [[
-This Fairy will help
-you in time of need.
-You can also use it
-whenever you want to
-recover your Hearts!
+精灵会在关键的时候
+帮助你,你也能随时
+用它恢复生命.
 ]]
 }
 --------------------
@@ -400,9 +357,7 @@ dialog{
   icon = 7,
   skip = "all",
   text = [[
-The Magic Bottle can
-hold various
-substances.
+魔瓶能容纳各种物品.
 ]]
 }
 --------------------
@@ -413,12 +368,9 @@ dialog{
   icon = 8,
   skip = "all",
   text = [[
-Your Magic Bottle
-is filled with
-water.
+你的魔瓶装满了水,
 
-Use it at an
-appropriate spot...
+在合适的地点使用.
 ]]
 }
 --------------------
@@ -429,9 +381,8 @@ dialog{
   icon = 9,
   skip = "all",
   text = [[
-Drink Red Potion
-to fill up your
-Heart Meter.
+喝下红药水恢复
+生命.
 ]]
 }
 --------------------
@@ -442,9 +393,8 @@ dialog{
   icon = 10,
   skip = "all",
   text = [[
-Drink Green Potion
-to fill up your
-Magic Meter.
+喝下绿药水恢复
+魔力.
 ]]
 }
 --------------------
@@ -455,10 +405,8 @@ dialog{
   icon = 11,
   skip = "all",
   text = [[
-Drink Blue Potion
-to fill up both your
-Heart and Magic
-Meters!
+喝下蓝药水恢复
+生命和魔力.
 ]]
 }
 --------------------
@@ -469,11 +417,9 @@ dialog{
   icon = 12,
   skip = "all",
   text = [[
-This Fairy will help
-you in time of need.
-You can also use it
-whenever you want to
-recover your Hearts!
+精灵会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
 ]]
 }
 --------------------
@@ -484,11 +430,8 @@ dialog{
   icon = 13,
   skip = "all",
   text = [[
-Run as fast as
-lightning by using
-the Pegasus Shoes.
-Press and hold the
-Action key to run.
+天马之靴让你快速奔跑。
+按住动作键不放开始。
 ]]
 }
 --------------------
@@ -499,9 +442,8 @@ dialog{
   icon = 14,
   skip = "all",
   text = [[
-The Mystic Mirror
-has strange
-powers...
+神秘的镜子有
+奇异的力量...
 ]]
 }
 --------------------
@@ -514,9 +456,8 @@ dialog{
   skip = "all",
   next = "_warning_magic",
   text = [[
-Create a block and
-hook yourself to it
-using the Hookshot.
+创造方块使你用飞爪
+到达它.
 ]]
 }
 --------------------
@@ -529,6 +470,7 @@ dialog{
   text = [[
 Eat Apples to
 recover Hearts.
+吃苹果能恢复生命.
 ]]
 }
 --------------------
@@ -539,9 +481,8 @@ dialog{
   icon = 17,
   skip = "all",
   text = [[
-Eat a Chocolate
-Croissant to recover
-three Hearts.
+吃一个巧克力面包恢复
+三颗心.
 ]]
 }
 --------------------
@@ -552,9 +493,8 @@ dialog{
   icon = 18,
   skip = "all",
   text = [[
-Eat a Croissant to
-recover seven
-Hearts.
+吃一个羊角面包恢复
+七颗心.
 ]]
 }
 --------------------
@@ -565,9 +505,8 @@ dialog{
   icon = 19,
   skip = "all",
   text = [[
-The Rock Key! But
-where is the right
-lock ?
+岩之钥,但是正确的
+锁在哪?
 ]]
 }
 --------------------
@@ -578,8 +517,7 @@ dialog{
   icon = 20,
   skip = "all",
   text = [[
-What could the Bone
-Key be used for?
+骨之钥能用在什么上?
 ]]
 }
 --------------------
@@ -591,9 +529,8 @@ dialog{
   icon = 21,
   skip = "all",
   text = [[
-The Earth Key. It
-allows access to the
-village's cave.
+地之钥,允许你进入
+村庄的洞穴.
 ]]
 }
 --------------------
@@ -604,8 +541,7 @@ dialog{
   icon = 22,
   skip = "all",
   text = [[
-This Apple Pie looks
-odd...
+这苹果派看起来奇怪...
 ]]
 }
 --------------------
@@ -616,8 +552,7 @@ dialog{
   icon = 23,
   skip = "all",
   text = [[
-Three authentic Gold
-Bars!
+三个真正的金条!
 ]]
 }
 --------------------
@@ -628,10 +563,8 @@ dialog{
   icon = 24,
   skip = "all",
   text = [[
-The Edelweiss is a
-very rare flower in
-the Kingdom of
-Hyrule.
+在海拉尔王国,雪绒花
+非常稀有.
 ]]
 }
 --------------------
@@ -642,10 +575,8 @@ dialog{
   icon = 25,
   skip = "all",
   text = [[
-These Tiger Scrolls
-will let you master
-advanced sword
-techniques.
+这些虎皮卷轴会使你
+掌握高级剑技.
 ]]
 }
 --------------------
@@ -656,8 +587,8 @@ dialog{
   icon = 26,
   skip = "all",
   text = [[
-Swim in deep waters
-with these flippers.
+用这些脚蹼在深水处
+游泳.
 ]]
 }
 --------------------
@@ -668,9 +599,8 @@ dialog{
   icon = 27,
   skip = "all",
   text = [[
-The Magic Cape warns
-you when you are
-near a weak wall.
+魔力披肩会在当你经过
+易碎的墙时提醒你。
 ]]
 }
 --------------------
@@ -681,9 +611,8 @@ dialog{
   icon = 28,
   skip = "all",
   text = [[
-The Iron Key.
-Be sure to use it in
-the correct lock!
+铁之钥,确定在正确的
+锁里使用它!
 ]]
 }
 --------------------
@@ -694,9 +623,8 @@ dialog{
   icon = 29,
   skip = "all",
   text = [[
-The Stone Key!
-Let's find the right
-lock!
+石之钥,让我们找到
+正确的锁!
 ]]
 }
 --------------------
@@ -708,9 +636,8 @@ dialog{
   icon = 30,
   skip = "all",
   text = [[
-The Wooden Key.
-There's only one
-lock for this key!
+木之钥,仅仅有一把锁
+配这个钥匙!
 ]]
 }
 --------------------
@@ -721,9 +648,8 @@ dialog{
   icon = 31,
   skip = "all",
   text = [[
-The Ice Key. You must
-find a frozen place for
-it to work!
+冰之钥,你必须找到冰冷的
+地方才有用!
 ]]
 }
 -----------------------
@@ -734,9 +660,8 @@ dialog{
   icon = 32,
   skip = "all",
   text = [[
-These Iron Gloves
-will let you lift
-rocks.
+这些铁手套能使你
+举起岩石.
 ]]
 }
 --------------------
@@ -747,9 +672,7 @@ dialog{
   icon = 33,
   skip = "all",
   text = [[
-Lift black rocks
-with these Golden
-Gloves.
+用金手套举起黑岩.
 ]]
 }
 --------------------
@@ -760,9 +683,8 @@ dialog{
   icon = 34,
   skip = "all",
   text = [[
-Find all three Fire
-Stones and bring
-them to Inferno.
+找全三火石并带它们
+去地狱.
 ]]
 }
 --------------------
@@ -782,10 +704,9 @@ dialog{
   icon = 0,
   skip = "all",
   text = [[
-You found the
-Feather!$0 Use it to
-jump in place and
-over obstacles!
+你发现羽毛!$0 去
+在适当的地方跳跃和
+越过障碍!
 ]]
 }
 --------------------
@@ -795,11 +716,9 @@ dialog{
   id = "_treasure.bow.1",
   icon = 2,
   text = [[
-You found the Bow!$0
-Find some Arrows and
-you will be able to
-defeat tough enemies
-from afar!
+发现弓!$0找一些箭矢
+你将有能力从远处击败
+顽强的敌人!
 ]]
 }
 --------------------
@@ -810,9 +729,8 @@ dialog{
   id = "_treasure.bow.2",
   icon = 3,
   text = [[
-You found the Bow!$0
-You can fight tough
-enemies from afar!
+发现弓! $0
+你能从远处攻击敌人!
 ]]
 }
 --------------------
@@ -822,15 +740,11 @@ dialog{
   id = "_treasure.boomerang.1",
   icon = 4,
   text = [[
-You found the
-Boomerang!$0 You can
-immobilize enemies
-and pick up far-away
-objects.
-There are several 
-ways of using it,
-it’s up to you to
-discover them all!
+发现回旋镖!$0 你能
+固定敌人和捡起远处
+的物品,有几种使用
+它的方法,取决于你
+全部发现它们!
 ]]
 }
 --------------------
@@ -841,12 +755,11 @@ dialog{
   id = "_treasure.boomerang.2",
   icon = 35,
   text = [[
-You found the
-Super Boomerang!$0
+发现超级回旋镖!$0
 
-It's faster and
-more powerful than
-the original!
+比原始的更快!
+更有力量!
+
 ]]
 }
 --------------------
@@ -857,10 +770,9 @@ dialog{
   icon = 5,
   next = "_warning_magic",
   text = [[
-You found the Lamp!$0
-Use it to brighten
-dark places and
-light torches.
+发现油灯!$0
+用它照亮黑暗和
+点燃火炬.
 ]]
 }
 --------------------
@@ -870,13 +782,10 @@ dialog{
   id = "_treasure.hookshot.1",
   icon = 6,
   text = [[
-You found the
-Hookshot!$0
+你发现飞爪!$0
 
-Immobilize your
-enemies and fling
-yourself to
-inaccessible places!
+固定你的敌人和使你
+飞向难以触及的地方!
 ]]
 }
 --------------------
@@ -886,11 +795,9 @@ dialog{
   id = "_treasure.bottle_1.1",
   icon = 7,
   text = [[
-You found a
-Magic Bottle!$0
+你发现一个魔瓶!$0
 
-Fill it with
-various substances.
+用各种物品装满它.
 ]]
 }
 --------------------
@@ -900,9 +807,7 @@ dialog{
   id = "_treasure.bottle_1.2",
   icon = 8,
   text = [[
-You filled your
-Magic Bottle with
-water!
+你用水装满了魔瓶!
 ]]
 }
 --------------------
@@ -912,11 +817,9 @@ dialog{
   id = "_treasure.bottle_1.3",
   icon = 9,
   text = [[
-You found some Red
-Potion!$0
+发现一些红药水!$0
 
-Drink it to recover
-your health.
+喝下去恢复你的生命.
 ]]
 }
 --------------------
@@ -926,11 +829,9 @@ dialog{
   id = "_treasure.bottle_1.4",
   icon = 10,
   text = [[
-You found some
-Green Potion!$0
+发现一些绿药水!$0
 
-Drink it to recover
-your magic energy.
+喝下去恢复你的魔力.
 ]]
 }
 --------------------
@@ -940,12 +841,9 @@ dialog{
   id = "_treasure.bottle_1.5",
   icon = 11,
   text = [[
-You found some 
-Blue Potion!$0
+发现一些红药水!$0
 
-Drink it to fully
-restore both your
-health and magic!
+喝下它去填满1
 ]]
 }
 --------------------
@@ -956,12 +854,10 @@ dialog{
   icon = 12,
   skip = "all",
   text = [[
-You captured a
-Fairy! It will help
-you in a time of
-need. You can also
-use it at any time
-to recover Hearts!
+你捉到一个精灵!它
+会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
 ]]
 }
 --------------------
@@ -971,11 +867,9 @@ dialog{
   id = "_treasure.bottle_2.1",
   icon = 7,
   text = [[
-You found a
-Magic Bottle!$0
+你发现一个魔瓶!$0
 
-Fill it with
-various substances.
+用各种物品装满它.
 ]]
 }
 --------------------
@@ -988,6 +882,7 @@ dialog{
 You filled your
 Magic Bottle with
 water!
+你用水装满了魔瓶!
 ]]
 }
 --------------------
@@ -997,11 +892,9 @@ dialog{
   id = "_treasure.bottle_2.3",
   icon = 9,
   text = [[
-You found some Red
-Potion!$0
+发现一些红药水!$0
 
-Drink it to recover
-your health.
+喝下去恢复你的生命.
 ]]
 }
 --------------------
@@ -1011,11 +904,9 @@ dialog{
   id = "_treasure.bottle_2.4",
   icon = 10,
   text = [[
-You found some
-Green Potion!$0
+发现一些绿药水!$0
 
-Drink it to recover
-your magic energy.
+喝下去恢复你的魔力.
 ]]
 }
 --------------------
@@ -1025,12 +916,10 @@ dialog{
   id = "_treasure.bottle_2.5",
   icon = 11,
   text = [[
-You found some 
-Blue Potion!$0
+发现一些蓝药水!0
 
-Drink it to fully
-restore both your
-health and magic!
+喝下去恢复生命和
+魔力!
 ]]
 }
 
@@ -1042,12 +931,10 @@ dialog{
   icon = 12,
   skip = "all",
   text = [[
-You captured a
-Fairy! It will help
-you in a time of
-need. You can also
-use it at any time
-to recover Hearts!
+你捉到一个精灵!
+它会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
 ]]
 }
 --------------------
@@ -1057,11 +944,9 @@ dialog{
   id = "_treasure.bottle_3.1",
   icon = 7,
   text = [[
-You found a
-Magic Bottle!$0
+你发现一个魔瓶!$0
 
-Fill it with
-various substances.
+用各种物品装满它.
 ]]
 }
 --------------------
@@ -1071,9 +956,7 @@ dialog{
   id = "_treasure.bottle_3.2",
   icon = 8,
   text = [[
-You filled your
-Magic Bottle with
-water!
+你用水装满了魔瓶!
 ]]
 }
 --------------------
@@ -1083,11 +966,9 @@ dialog{
   id = "_treasure.bottle_3.3",
   icon = 9,
   text = [[
-You found some Red
-Potion!$0
+发现一些红药水!$0
 
-Drink it to recover
-your health.
+喝下去恢复你的生命.
 ]]
 }
 --------------------
@@ -1097,11 +978,9 @@ dialog{
   id = "_treasure.bottle_3.4",
   icon = 10,
   text = [[
-You found some
-Green Potion!$0
+你发现一些蓝药水!$0
 
-Drink it to recover
-your magic energy.
+喝下去回复你的魔力.
 ]]
 }
 --------------------
@@ -1111,12 +990,10 @@ dialog{
   id = "_treasure.bottle_3.5",
   icon = 11,
   text = [[
-You found some 
-Blue Potion!$0
+你发现一些蓝药水!$0
 
-Drink it to fully
-restore both your
-health and magic!
+喝下去完全恢复生命和
+魔力!
 ]]
 }
 --------------------
@@ -1127,12 +1004,10 @@ dialog{
   icon = 12,
   skip = "all",
   text = [[
-You captured a
-Fairy! It will help
-you in a time of
-need. You can also
-use it at any time
-to recover Hearts!
+你捉到一个精灵!
+它会在关键的时候
+帮助你,你也可随时
+用它恢复生命!
 ]]
 }
 --------------------
@@ -1142,11 +1017,9 @@ dialog{
   id = "_treasure.bottle_4.1",
   icon = 7,
   text = [[
-You found a
-Magic Bottle!$0
+发现一个魔瓶!$0
 
-Fill it with
-various substances.
+用各种物品装满它.
 ]]
 }
 --------------------
@@ -1156,9 +1029,7 @@ dialog{
   id = "_treasure.bottle_4.2",
   icon = 8,
   text = [[
-You filled your
-Magic Bottle with
-water!
+你用水装满了魔瓶!
 ]]
 }
 --------------------
@@ -1168,11 +1039,9 @@ dialog{
   id = "_treasure.bottle_4.3",
   icon = 9,
   text = [[
-You found some Red
-Potion!$0
+你发现一些红药水!$0
 
-Drink it to recover
-your health.
+喝下去恢复你的生命.
 ]]
 }
 --------------------
@@ -1182,11 +1051,9 @@ dialog{
   id = "_treasure.bottle_4.4",
   icon = 10,
   text = [[
-You found some
-Green Potion!$0
+你发现一些绿药水!$0
 
-Drink it to recover
-your magic energy.
+喝下去恢复你的魔力.
 ]]
 }
 --------------------
@@ -1196,12 +1063,10 @@ dialog{
   id = "_treasure.bottle_4.5",
   icon = 11,
   text = [[
-You found some 
-Blue Potion!$0
+你发现一些蓝药水!$0
 
-Drink it to fully
-restore both your
-health and magic!
+喝下去完全恢复你的
+生命和魔力!
 ]]
 }
 --------------------
@@ -1212,12 +1077,10 @@ dialog{
   icon = 12,
   skip = "all",
   text = [[
-You captured a
-Fairy! It will help
-you in a time of
-need. You can also
-use it at any time
-to recover Hearts!
+你捉到一个精灵!
+它会在关键的时候
+帮助你,你也可随时
+用它恢复生命.
 ]]
 }
 --------------------
@@ -1227,15 +1090,12 @@ dialog{
   id = "_treasure.pegasus_shoes.1",
   icon = 13,
   text = [[
-You found the
-Pegasus Shoes!$0
+你发现天马之靴!$0
 
-Run and charge
-through the toughest
-enemies!
-Press and hold the
-Action key to use
-them.
+奔跑和冲过最顽强的
+敌人!
+按住动作键不放去用
+它们.
 ]]
 }
 --------------------
@@ -1245,12 +1105,9 @@ dialog{
   id = "_treasure.mystic_mirror.1",
   icon = 14,
   text = [[
-You found the
-Mystic Mirror!$0
-
-Its strange powers
-will surely be of
-help in your quest.
+发现神秘的镜子!$0
+它奇异的力量确定会
+帮助你的探索.
 ]]
 }
 --------------------
@@ -1261,12 +1118,9 @@ dialog{
   icon = 15,
   next = "_warning_magic",
   text = [[
-You found the
-Cane of Somaria!$0
-You can create a
-block and grab onto
-it with the
-Hookshot.
+发现索马利亚之杖!$0
+你能创造一个方块并可
+用飞爪抓在它的上面.
 ]]
 }
 --------------------
@@ -1276,9 +1130,8 @@ dialog{
   id = "_treasure.apple.1",
   icon = 16,
   text = [[
-You found 3 Apples!$0
-Eat them later to
-recover Hearts!
+你发现三个苹果!$0
+吃了它们后去恢复生命!
 ]]
 }
 --------------------
@@ -1288,12 +1141,10 @@ dialog{
   id = "_treasure.pain_au_chocolat.1",
   icon = 17,
   text = [[
-You found a
-Chocolate Croissant!$0
+你发现一个巧克力
+羊角面包!$0
 
-Eat a Chocolate
-Croissant to recover
-some life.
+吃了它恢复少许生命.
 ]]
 }
 --------------------
@@ -1303,11 +1154,9 @@ dialog{
   id = "_treasure.croissant.1",
   icon = 18,
   text = [[
-You found a
-Croissant!$0 It's
-all crispy! Eat a
-Croissant to recover
-Hearts.
+你发现羊角面包!$0
+全是酥脆的,吃了它去
+恢复生命.
 ]]
 }
 --------------------
@@ -1317,8 +1166,7 @@ dialog{
   id = "_treasure.rock_key.1",
   icon = 19,
   text = [[
-You found the Rock
-Key!$0
+你发现岩钥匙$0
 ]]
 }
 --------------------
@@ -1328,11 +1176,10 @@ dialog{
   id = "_treasure.bone_key.1",
   icon = 20,
   text = [[
-You found the Bone
-Key!$0
+你发现骨钥匙!$0
 
-But what could it be
-used for?
+但是它用在
+什么东西上呢?
 ]]
 }
 --------------------
@@ -1342,11 +1189,10 @@ dialog{
   id = "_treasure.clay_key.1",
   icon = 21,
   text = [[
-You found the Earth
-Key!$0
+你发现地钥匙!$0
 
-Now you can access
-the village's cave!
+现在你能进入村庄的
+洞穴!
 ]]
 }
 --------------------
@@ -1356,12 +1202,10 @@ dialog{
   id = "_treasure.level_4_way.1",
   icon = 22,
   text = [[
-You found an Apple
-Pie!$0
-$1...$3 Hmmm, I
-wouldn't taste it
-if I were you, it
-looks odd...
+你发现苹果派!$0
+$1...$3 嗯,如果我是你
+决不去尝它,它看起来
+奇怪...
 ]]
 }
 --------------------
@@ -1372,11 +1216,10 @@ dialog{
   id = "_treasure.level_4_way.2",
   icon = 23,
   text = [[
-You found some
-Gold Bars!!!$0
+你发现一些金条!!!$0
 
-They shimmer and
-are very valuable!
+它们闪烁并且非常有
+价值!
 ]]
 }
 --------------------
@@ -1386,13 +1229,10 @@ dialog{
   id = "_treasure.level_4_way.3",
   icon = 24,
   text = [[
-You found an
-Edelweiss!$0
+发现一朵雪绒花!$0
 
-This pretty flower
-from Hyrule's 
-mountains is
-extremely rare!
+这海拉尔山脉上美丽
+的花朵极其稀少!
 ]]
 }
 --------------------
@@ -1407,6 +1247,9 @@ Scrolls!$0 You now
 master the long
 forgotten Whirlwind
 Attack.
+你发现虎皮卷轴!$0
+你现在掌握早被遗忘的
+旋风剑击.
 ]]
 }
 --------------------
@@ -1416,11 +1259,10 @@ dialog{
   id = "_treasure.flippers.1",
   icon = 26,
   text = [[
-You found the
-Flippers!$0
+你发现脚蹼!$0
 
-You can now swim
-in deep waters!
+你现在能在深水处
+游泳!
 ]]
 }
 --------------------
@@ -1430,12 +1272,10 @@ dialog{
   id = "_treasure.magic_cape.1",
   icon = 27,
   text = [[
-You found the Magic
-Cape!$0
+你发现魔力披肩!$0
 
-It will warn you
-when you are near a
-weak wall.
+它会在你靠近易碎的墙
+时提醒你.
 ]]
 }
 --------------------
@@ -1445,11 +1285,9 @@ dialog{
   id = "_treasure.iron_key.1",
   icon = 28,
   text = [[
-You found the Iron
-Key!$0
+你发现铁钥匙!$0
 
-Surely it must open
-a door!
+确定它能打开一扇门!
 ]]
 }
 --------------------
@@ -1459,11 +1297,10 @@ dialog{
   id = "_treasure.stone_key.1",
   icon = 29,
   text = [[
-You found the Stone
-Key!$0
+你发现石钥匙!$0
 
-But where is the
-lock it opens?
+但是它开的锁
+在哪呢?
 ]]
 }
 --------------------
@@ -1473,11 +1310,10 @@ dialog{
   id = "_treasure.wooden_key.1",
   icon = 30,
   text = [[
-You found the Wooden
-Key!$0
+你发现木钥匙!$0
 
-You must find where
-to use it!
+一定要找到地方去
+用它!
 ]]
 }
 --------------------
@@ -1487,11 +1323,10 @@ dialog{
   id = "_treasure.ice_key.1",
   icon = 31,
   text = [[
-You found the Ice
-Key!$0
+你发现冰钥匙!$0
 
-It must open the way
-to a frozen place...
+它一定能开启去一个
+冰冷地方路...
 ]]
 }
 --------------------
@@ -1501,11 +1336,9 @@ dialog{
   id = "_treasure.glove.1",
   icon = 32,
   text = [[
-You found the Iron
-Gloves!$0
+你发现铁手套!$0
 
-With these you can
-lift rocks.
+用这些你能举起岩石.
 ]]
 }
 --------------------
@@ -1516,11 +1349,9 @@ dialog{
   id = "_treasure.glove.2",
   icon = 33,
   text = [[
-You found the Golden
-Gloves!$0
+你发现金手套!$0
 
-Now you can lift
-black rocks!
+现在你能举起黑岩!
 ]]
 }
 --------------------
@@ -1530,8 +1361,7 @@ dialog{
   id = "_treasure.fire_stone.1",
   icon = 34,
   text = [[
-You found a Fire
-Stone!
+你发现一个火石!
 ]]
 }
 --------------------
@@ -1541,11 +1371,9 @@ dialog{
   id = "_treasure.world_map.1",
   icon = 50,
   text = [[
-You found the
-World Map !$0
+你发现世界地图!$0
 
-View it on the Map
-screen.
+在地图界面看它.
 ]]
 }
 --------------------
@@ -1555,11 +1383,9 @@ dialog{
   id = "_treasure.rupee_bag.2",
   icon = 52,
   text = [[
-You found the Big
-Wallet!$0
+你发现一个大钱包!$0
 
-It can hold up to
-300 Rupees!
+它能装300卢币!
 ]]
 }
 --------------------
@@ -1569,11 +1395,9 @@ dialog{
   id = "_treasure.rupee_bag.3",
   icon = 53,
   text = [[
-You found the Giant
-Wallet!$0
+你发现超大钱包！$0
 
-It can hold up to
-999 Rupees!
+它能装999卢币!
 ]]
 }
 --------------------
@@ -1584,11 +1408,10 @@ dialog{
   id = "_treasure.bomb_bag.1",
   icon = 54,
   text = [[
-You found the Bomb
-Bag!$0 It holds 10
-Bombs.
-Assign them to a key
-and bombs away!
+你发现炸弹包!$0 
+它能装十个炸弹.
+分配它们到一个按键
+然后投放它们!
 ]]
 }
 --------------------
@@ -1598,11 +1421,10 @@ dialog{
   id = "_treasure.bomb_bag.2",
   icon = 55,
   text = [[
-You found the Large
-Bomb Bag!$0
+你发现大炸弹包!$0
 
-It can hold up to 30
-Bombs instead of 10!
+它能容纳30个炸弹
+而不是10个!
 ]]
 }
 --------------------
@@ -1612,11 +1434,10 @@ dialog{
   id = "_treasure.bomb_bag.3",
   icon = 56,
   text = [[
-You found the Giant
-Bomb Bag!$0
+你发现超大炸弹包!$0
 
-It can hold up to 99
-Bombs instead of 30!
+它能容纳99个炸弹
+而不是30个!
 ]]
 }
 --------------------
@@ -1626,12 +1447,10 @@ dialog{
   id = "_treasure.quiver.2",
   icon = 58,
   text = [[
-You found the 
-Large Quiver!$0
+你发现箭袋!$0
 
-It can hold up to
-30 Arrows instead of
-10!
+它能容纳30支箭矢
+而不是10支!
 ]]
 }
 --------------------
@@ -1641,12 +1460,10 @@ dialog{
   id = "_treasure.quiver.3",
   icon = 59,
   text = [[
-You found the
-Giant Quiver!$0
+你发现超大箭袋!$0
 
-It can hold up to
-99 Arrows instead of
-30!
+它能容纳99支箭矢
+而不是30支!
 ]]
 }
 --------------------
@@ -1656,12 +1473,9 @@ dialog{
   id = "_treasure.tunic.2",
   icon = 61,
   text = [[
-You found the Blue
-Mail!$0
-It reduces damage
-taken from enemies
-and resists freezing
-temperatures...
+你发现蓝色盔甲!$0
+它能减少敌人伤害和
+抵抗低温...
 ]]
 }
 --------------------
@@ -1671,12 +1485,10 @@ dialog{
   id = "_treasure.tunic.3",
   icon = 62,
   text = [[
-You found the Red
-Mail!$0
+你发现红色盔甲!$0
 
-It provides even
-better protection
-than the Blue Mail!
+它能比蓝色盔甲提供
+更好地保护!
 ]]
 }
 --------------------
@@ -1686,12 +1498,10 @@ dialog{
   id = "_treasure.shield.1",
   icon = 63,
   text = [[
-You found the
-Shield!$0
+你发现护盾!$0
 
-You can defend
-yourself from enemy
-attacks!
+你能从敌人的攻击中
+保护自己!
 ]]
 }
 --------------------
@@ -1701,12 +1511,10 @@ dialog{
   id = "_treasure.shield.2",
   icon = 64,
   text = [[
-You found the
-Fire Shield!$0
+你发现火之护盾!$0
 
-You are now
-protected from fire
-attacks!
+你现在能从火击中
+保护自己!
 ]]
 }
 --------------------
@@ -1716,11 +1524,9 @@ dialog{
   id = "_treasure.shield.3",
   icon = 65,
   text = [[
-You found the
-Mirror Shield!$0
+你发现镜之护盾!$0
 
-You can now reflect
-lasers!
+你现在能反射激光!
 ]]
 }
 --------------------
@@ -1730,12 +1536,10 @@ dialog{
   id = "_treasure.sword.1",
   icon = 66,
   text = [[
-You found the Sword
-of Courage!$0
+你发现勇气之剑!$0
 
-You can cross swords
-and confront your
-enemies!
+你能交锋和面对
+你的敌人!
 ]]
 }
 --------------------
@@ -1746,9 +1550,9 @@ dialog{
   icon = 67,
   next = "_treasure.sword.2.1",
   text = [[
-$1You found the
-Hylian Blade!$0$0$0
-This new sword
+$1你发现海拉尔之剑!
+$0$0$0
+这个新剑
 ]]
 }
 --------------------
@@ -1757,9 +1561,8 @@ This new sword
 dialog{
   id = "_treasure.sword.2.1",
   text = [[
-is twice as
-powerful as the
-previous one!
+是旧的力量的强
+两倍!
 ]]
 }
 -----------------------
@@ -1770,9 +1573,8 @@ dialog{
   icon = 68,
   next = "_treasure.sword.2.1",
   text = [[
-$1You found the
-Hero's Sword!$0$0$0
-This new blade
+$1你发现英雄之剑!$0
+这个新剑
 ]]
 }
 --------------------
@@ -1782,12 +1584,9 @@ dialog{
   id = "_treasure.sword.4",
   icon = 69,
   text = [[
-You found the
-Master Sword!$0
-The power of
-this ultimate
-sword is beyond
-everything...
+你发现主宰之剑!
+$0这最终之剑的
+力量超越一切...
 ]]
 }
 --------------------
@@ -1797,11 +1596,9 @@ dialog{
   id = "_treasure.magic_bar.2",
   icon = 99,
   text = [[
-You found the Half
-Magic Meter!$0
+你发现半魔力器!$0
 
-Your Magic Meter
-just doubled!
+你的魔力器才两倍!
 ]]
 }
 --------------------
@@ -1811,9 +1608,8 @@ dialog{
   id = "_treasure.map.1",
   icon = 70,
   text = [[
-You found the Map!
-Use it to see the
-dungeon's layout.
+你发现地图!用它
+去看地牢的布局.
 ]]
 }
 --------------------
@@ -1823,15 +1619,11 @@ dialog{
   id = "_treasure.compass.1",
   icon = 71,
   text = [[
-You found the
-Compass! Now you can
-see your position on
-the Map, the
-locations of chests,
-as well as the
-Boss's Lair! Now
-we're getting
-somewhere!
+你发现指南针!现在你能
+从地图中看你的位置,
+箱子的位置,同样老怪的
+藏身处!现在我们正在
+到达一些地方!
 ]]
 }
 --------------------
@@ -1841,12 +1633,10 @@ dialog{
   id = "_treasure.small_key.1",
   icon = 72,
   text = [[
-You found a Small
-Key!
+你发现小钥匙!
 
-This key will open
-a locked door in
-this dungeon.
+这个钥匙会打开这地牢
+中一扇锁着的门.
 ]]
 }
 --------------------
@@ -1856,12 +1646,10 @@ dialog{
   id = "_treasure.big_key.1",
   icon = 73,
   text = [[
-You found the Large
-Key!
+你发现大钥匙!
 
-You can now open
-special doors and
-find new treasures!
+你现在能打开特殊的门
+并找到新宝藏!
 ]]
 }
 --------------------
@@ -1871,11 +1659,10 @@ dialog{
   id = "_treasure.boss_key.1",
   icon = 74,
   text = [[
-You found the Boss
-Key!
+你发现老怪钥匙!
 
-Now you can enter
-the Boss's Lair!
+现在你能进入老怪
+的躲藏处!
 ]]
 }
 --------------------
@@ -1885,8 +1672,8 @@ dialog{
   id = "_treasure.piece_of_heart.1",
   icon = 79,
   text = [[
-You found a
-Piece of Heart!
+你发现一个
+心之碎片!
 ]]
 }
 --------------------
@@ -1896,11 +1683,10 @@ dialog{
   id = "_treasure.heart_container.1",
   icon = 80,
   text = [[
-You found a Heart
-Container!
+你发现一个心容器!
 
-Your Heart Meter
-increased by one!
+你的心显示增加了
+一个!
 ]]
 }
 --------------------
@@ -1911,7 +1697,7 @@ dialog{
   icon = 82,
   next = "_treasure.bomb.1.1",
   text = [[
-You found a Bomb!$0
+你发现一个炸弹!$0
 ]]
 }
 --------------------
@@ -1919,9 +1705,8 @@ You found a Bomb!$0
 dialog{
   id = "_treasure.bomb.1.1",
   text = [[
-Use a Bomb to make
-an enemy or obstacle
-explode.
+用一个炸弹毁灭敌人和
+障碍.
 ]]
 }
 --------------------
@@ -1932,8 +1717,7 @@ dialog{
   icon = 82,
   next = "_treasure.bomb.1.1",
   text = [[
-You found three
-Bombs!$0
+你发现三个炸弹!$0
 ]]
 }
 --------------------
@@ -1944,8 +1728,7 @@ dialog{
   icon = 82,
   next = "_treasure.bomb.1.1",
   text = [[
-You found eight
-Bombs!$0
+你发现八个炸弹!$0
 ]]
 }
 --------------------
@@ -1956,9 +1739,8 @@ dialog{
   icon = 83,
   next = "_treasure.arrow.1.1",
   text = [[
-You found an Arrow!$0
-Use the Bow and
-Arrows to defeat
+你发现一支箭!$0
+用弓和箭去
 ]]
 }
 --------------------
@@ -1966,8 +1748,7 @@ Arrows to defeat
 dialog{
   id = "_treasure.arrow.1.1",
   text = [[
-tough enemies from
-afar.
+从远处击败敌人
 ]]
 }
 --------------------
@@ -1978,9 +1759,8 @@ dialog{
   icon = 83,
   next = "_treasure.arrow.1.1",
   text = [[
-You found 5 Arrows!$0
-Use the Bow and
-Arrows to defeat
+你发现5支箭!$0
+用弓和箭去
 ]]
 }
 --------------------
@@ -1991,9 +1771,8 @@ dialog{
   icon = 83,
   next = "_treasure.arrow.1.1",
   text = [[
-You found 10 Arrows!$0
-Use the Bow and
-Arrows to defeat
+你发现十支箭!$0
+用弓和箭去
 ]]
 }
 --------------------
@@ -2003,7 +1782,7 @@ dialog{
   id = "_treasure.heart.1",
   icon = 84,
   text = [[
-You found a Heart!
+你发现一颗心!
 ]]
 }
 --------------------
@@ -2013,10 +1792,9 @@ dialog{
   id = "_treasure.magic_flask.1",
   icon = 85,
   text = [[
-You found a Small
-Magic Jar! Your
-Magic Meter is
-slightly filled.
+发现一个小魔力罐!
+你的魔力轻微
+补满.
 ]]
 }
 --------------------
@@ -2026,10 +1804,8 @@ dialog{
   id = "_treasure.magic_flask.2",
   icon = 86,
   text = [[
-You found a Large
-Magic Jar! Your
-Magic Meter is
-greatly filled.
+发现一个大魔力罐!
+魔力十分充满.
 ]]
 }
 --------------------
@@ -2039,9 +1815,8 @@ dialog{
   id = "_treasure.rupee.1",
   icon = 90,
   text = [[
-You found a Green
-Rupee!
-That's one Rupee!
+发现一个绿色卢比!
+价值一卢币!
 ]]
 }
 --------------------
@@ -2051,9 +1826,8 @@ dialog{
   id = "_treasure.rupee.2",
   icon = 91,
   text = [[
-You found a Blue
-Rupee!
-That's 5 Rupees!
+发现蓝色卢比!
+价值5卢币!
 ]]
 }
 --------------------
@@ -2063,9 +1837,8 @@ dialog{
   id = "_treasure.rupee.3",
   icon = 92,
   text = [[
-You found a Red
-Rupee!
-That's 20 Rupees!
+发现红色卢币!
+价值20卢币!
 ]]
 }
 --------------------
@@ -2076,8 +1849,8 @@ dialog{
   id = "_treasure.rupee.4",
   icon = 90,
   text = [[
-You found 50 Rupees!
-Marvelous!
+你发现50卢币!
+了不起!
 ]]
 }
 --------------------
@@ -2088,8 +1861,8 @@ dialog{
   id = "_treasure.rupee.5",
   icon = 90,
   text = [[
-You found 100
-Rupees! Fantastic!
+你发现100卢币!
+真迷人!
 ]]
 }
 --------------------
@@ -2100,8 +1873,8 @@ dialog{
   id = "_treasure.rupee.6",
   icon = 90,
   text = [[
-You found 300 Rupees!
-How wonderful!
+你发现300卢币!
+真美好!
 ]]
 }
 --------------------
@@ -2111,12 +1884,10 @@ dialog{
   id = "_treasure.red_potion.1",
   icon = 96,
   text = [[
-You found some Red
-Potion!$0
+发现一些红药水!$0
 
-Drink it to
-completely restore
-your life energy.
+喝下去完全恢复
+你的生命.
 ]]
 }
 --------------------
@@ -2126,12 +1897,10 @@ dialog{
   id = "_treasure.green_potion.1",
   icon = 97,
   text = [[
-You found some Green
-Potion!$0
+发现一些绿药水!$0
 
-Drink it to
-completely restore
-your magic energy.
+喝下去完全恢复
+你的魔力.
 ]]
 }
 --------------------
@@ -2141,12 +1910,10 @@ dialog{
   id = "_treasure.blue_potion.1",
   icon = 98,
   text = [[
-You found some Blue
-Potion!$0
+发现一些蓝药水!$0
 
-Drink it to restore
-both your life and
-magic energy.
+喝下去恢复
+生命和魔力.
 ]]
 }
 --------------------
@@ -2162,8 +1929,7 @@ magic energy.
 dialog{
   id = "_warning_magic",
   text = [[
-Watch your Magic
-Meter!
+查看你的魔力!
 ]]
 }
 --------------------
@@ -2172,8 +1938,8 @@ Meter!
 dialog{
   id = "_empty_chest",
   text = [[
-This chest is empty!
-Too bad!
+箱子是空的!
+真糟糕!
 ]]
 }
 -----------------------
@@ -2185,7 +1951,7 @@ dialog{
   icon = 72,
   skip = "all",
   text = [[
-It's locked!
+锁的!
 ]]
 }
 --------------------
@@ -2197,10 +1963,9 @@ dialog{
   icon = 73,
   skip = "all",
   text = [[
-Eh? It's locked!
-If you had the Large
-Key you might be
-able to open it!
+嗯?锁的!
+有大钥匙的话或许能
+打开它!
 ]]
 }
 --------------------
@@ -2211,10 +1976,10 @@ dialog{
   icon = 74,
   skip = "all",
   text = [[
-This door leads to
-the Boss's Lair!
-You will need the
-Boss Key to open it.
+这扇门通向老怪的
+房间!
+你将需要老怪钥匙
+去打开它.
 ]]
 }
 --------------------
@@ -2225,9 +1990,8 @@ dialog{
   id = "_cannot_lift_should_cut",
   skip = "all",
   text = [[
-You will need something
-sharp to cut through
-these bushes.
+你需要一些尖锐的东西
+砍着通过这些灌木.
 ]]
 }
 -----------------------
@@ -2239,11 +2003,11 @@ dialog{
   id = "_cannot_lift_too_heavy",
   skip = "all",
   text = [[
-Darn it, this is way
-too heavy!
+真讨厌,这种方法
+太重了!
 
-You'll never manage
-with your bare hands!
+你永远不会空手
+去解决它!
 ]]
 }
 -----------------------
@@ -2254,8 +2018,7 @@ dialog{
   id = "_cannot_lift_still_too_heavy",
   skip = "all",
   text = [[
-It's still too heavy
-for you!
+对你来说太重了!
 ]]
 }
 -----------------------
@@ -2266,9 +2029,9 @@ dialog{
   id = "_shop.question",
   question = true,
   text = [[
-Price: $v Rupees.
-Buy
-Don't Buy
+价格: $v 卢币
+买
+不买
 ]]
 }
 -----------------------
@@ -2279,8 +2042,8 @@ dialog{
   id = "_shop.not_enough_money",
   skip = "all",
   text = [[
-Sorry, you don't
-have enough Rupees!
+对不起,你没有
+足够的卢比!
 ]]
 }
 -----------------------
@@ -2291,7 +2054,7 @@ have enough Rupees!
 dialog{
   id = "_shop.amount_full",
   text = [[
-You are already full!
+你已经完成了!
 ]]
 }
 -----------------------
@@ -2301,9 +2064,8 @@ dialog{
   id = "_crystal",
   skip = "all",
   text = [[
-It's a crystal switch.
-Try to hit it with
-something...
+这是一个水晶按钮.
+试图用东西击打它...
 ]]
 }
 -----------------------
@@ -2313,8 +2075,9 @@ dialog{
   id = "dungeon_1",
   skip = "current",
   text = [[
-         Level 1
-      Forest Dungeon
+	      Lv 1
+		  
+	  「森林土牢」
 ]]
 }
 -----------------------
@@ -2324,8 +2087,9 @@ dialog{
   id = "dungeon_2",
   skip = "current",
   text = [[
-這是正體字，用注音符號打字。
-      我寫「中文」。
+         Lv 2
+		 
+	 「岩之洞窟」
 ]]
 }
 -----------------------
@@ -2337,6 +2101,9 @@ dialog{
   text = [[
          Level 3
   Master Arbror's Den
+          Lv 3
+		   
+     「木精巢穴」
 ]]
 }
 -----------------------
@@ -2345,9 +2112,8 @@ dialog{
   id = "found_piece_of_heart.first",
   icon = 75,
   text = [[
-Collect four pieces
-to obtain a new
-Heart.
+收集四个心之碎片去
+获得一颗心.
 ]]
 }
 --------------------
@@ -2356,8 +2122,8 @@ dialog{
   id = "found_piece_of_heart.second",
   icon = 76,
   text = [[
-Two more and you'll
-have another Heart.
+再有两个你将拥有
+另外一颗心.
 ]]
 }
 --------------------
@@ -2366,9 +2132,8 @@ dialog{
   id = "found_piece_of_heart.third",
   icon = 77,
   text = [[
-Find one more and
-you will have
-another Heart!
+再有一个你将有
+另外一颗心.
 ]]
 }
 --------------------
@@ -2377,9 +2142,8 @@ dialog{
   id = "found_piece_of_heart.fourth",
   icon = 78,
   text = [[
-You found four
-Pieces of Heart. You
-got an extra Heart!
+你已发现四个心之碎片
+增加一颗心容器.
 ]]
 }
 --------------------
@@ -2391,8 +2155,8 @@ dialog{
   skip = "current",
   next = "found_fairy.1",
   text = [[
-You found a Fairy,
-she's wonderful!
+你发现一个精灵,
+她多美丽!
 ]]
 }
 --------------------
@@ -2403,9 +2167,9 @@ dialog{
   icon = -1,
   question = true,
   text = [[
-What do you want to do?
-Recover your health
-Keep it
+你想要做什么?
+恢复你的生命
+保留它
 ]]
 }
 --------------------
@@ -2415,8 +2179,7 @@ dialog{
   id = "found_fairy.no_empty_bottle",
   skip = "current",
   text = [[
-You don't have an empty
-Bottle!
+你没有一个空瓶子
 ]]
 }
 -----------------------
@@ -2427,12 +2190,12 @@ dialog{
   icon = 8,
   question = true,
   text = [[
-Do you want to put
-some water in your
+你想要在魔瓶里
+装些水吗?
 
-Magic Bottle?
-Yes
-No
+
+是
+不
 ]]
 }
 --------------------
@@ -2442,9 +2205,8 @@ dialog{
   id = "found_water.no_bottle",
   skip = "all",
   text = [[
-There is some water
-here, but you have no
-way of storing it...
+这里有一些水,但是你
+没法储存它...
 ]]
 }
 -----------------------
@@ -2455,11 +2217,9 @@ dialog{
   icon = 8,
   skip = "all",
   text = [[
-There is some water
-here, but you need
-an empty Magic
-Bottle to store
-it...
+这里有一些水,但是
+你需要一些空瓶去
+储存它...
 ]]
 }
 --------------------
@@ -2471,12 +2231,12 @@ dialog{
   icon = 8,
   question = true,
   text = [[
-Your Magic Bottle is
-filled with water.
-What do you
-want to do?
-Pour water
-Keep it
+你的魔瓶装满了水.
+
+你想要做什么?
+
+倒掉
+保留
 ]]
 }
 --------------------
@@ -2487,12 +2247,12 @@ dialog{
   icon = 16,
   question = true,
   text = [[
-Eating an apple will
-restore one Heart.
-What do you want to
-do?
-Eat an apple
-Nothing
+吃一个苹果将恢复
+一颗心.
+你想要做什么?
+
+吃苹果
+什么也不做
 ]]
 }
 --------------------
@@ -2503,12 +2263,12 @@ dialog{
   icon = 17,
   question = true,
   text = [[
-A Chocolate
-Croissant restores
-three hearts. What
-do you want to do?
-Eat one
-Nothing
+一份巧克力羊角面包.
+
+你想要做什么?
+
+吃一个
+什么也不做
 ]]
 }
 --------------------
@@ -2519,11 +2279,12 @@ dialog{
   icon = 18,
   question = true,
   text = [[
-A Croissant restores
-seven hearts. What
-do you want to do?
-Eat one
-Nothing
+一份羊角恢复七颗心.
+
+你想要做什么?
+
+吃一个
+什么也不做
 ]]
 }
 --------------------
@@ -2532,8 +2293,8 @@ dialog{
   id = "torch.need_lamp",
   skip = "all",
   text = [[
-There must be a way to
-light this torch...
+一定有方法点亮
+这个火炬...
 ]]
 }
 -----------------------
@@ -2543,21 +2304,14 @@ dialog{
   id = "intro0",
   skip = "current",
   text = [[
-$2Ancient legends tell
-of a magnificent
-kingdom called Hyrule
-that existed long ago.
-The kingdom prospered
-under the blessing of
-three goddesses
-represented in the form
-of the Triforce. Seven
-sages sealed the
-Triforce in the
-Golden Land, the
-Utopian reflection of
-the world. Centuries
-passed...
+$2
+古老的传说讲述很久以前
+有一个名为海拉尔的壮丽
+王国,在三位女神的三角
+的祝福下繁荣着.七个圣贤
+封印着三角在金土地
+世界的乌托邦影像.几个
+世纪过去.....
 ]]
 }
 -----------------------
@@ -2566,23 +2320,16 @@ dialog{
   id = "intro1",
   skip = "current",
   text = [[
-$2Many generations
-later, an evil spell
-seemed to threaten
-Hyrule. A mysterious
-sorceror named Agahnim
-fought back the
-darkness. Acclaimed by
-the people, the King
-entrusted him with a
-high-ranking status.
-However, the sorceror
-was in fact plotting
-against the royal
-family. He tried to
-bring back Ganondorf,
-King of thieves, from a
-forgotten time.
+$2
+许多代后,一个邪恶的咒语
+看起来威胁着海拉尔.一个
+叫Agahnim的神秘魔法师
+击退了黑暗,受到人们的
+表扬,国王委托他一个较高
+的职位.然而事实上魔法师
+密谋反对王室,试图带回
+Ganondorf,盗贼王,从
+一个被遗忘的岁月.
 ]]
 }
 -----------------------
@@ -2592,12 +2339,10 @@ dialog{
   id = "intro2",
   skip = "current",
   text = [[
-$2It is said that a young
-man dressed in green
-went on a quest,
-exploring lost temples,
-traveling through
-plains and valleys.
+$2
+据说一个身穿绿衣的年轻人
+进行着探索,调查遗失的
+庙宇,越过平原和山谷.
 ]]
 }
 -----------------------
@@ -2607,14 +2352,12 @@ dialog{
   id = "intro3",
   skip = "current",
   text = [[
-$2Eventually, he who was
-known as the Hero
-repelled the evil.
-Thanks to his courage,
-he defeated Ganondorf,
-who had built an
-impressive pyramid
-within the Golden Land.
+$2
+最终,他被称为击退恶魔的
+英雄.感谢他的勇气,他打败
+了Ganondorf,他在金土地上
+建立了一个令人影响深刻的
+金字塔
 ]]
 }
 -----------------------
@@ -2624,15 +2367,13 @@ dialog{
   id = "intro4",
   skip = "current",
   text = [[
-$2The young Hero then
-wished for Ganondorf
-to be imprisoned
-forever in the Golden
-Land. The King of
-Hyrule, a descendant
-of the Seven Sages,
-cast him away by using
-the seal's magic.
+$2
+年轻的英雄希望
+Ganondorf永远被囚禁在
+金土地上.
+海拉尔之王,七个圣贤的
+后裔,用封印的魔力抛弃
+了Ganondorf.
 ]]
 }
 -----------------------
@@ -2641,18 +2382,14 @@ dialog{
   id = "intro5",
   skip = "current",
   text = [[
-$2But a few years
-later, Hyrule's King
-became ill beyond
-any chance of curing.
-Doctors from across
-the kingdom tried to
-cure him but to no
-avail... The King
-vanished and so did
-his power. The seal
-of the Seven Sages
-weakened once again.
+$2
+但是数年后,海拉尔国王
+生病的没有治愈的可能,
+来自全国各地的医生
+无济于事...
+国王不在存在，
+他的力量也是.
+封印的力量再一次虚弱.
 ]]
 }
 -----------------------
@@ -2662,24 +2399,16 @@ dialog{
   id = "intro6",
   skip = "current",
   text = [[
-$2The Hero, under the
-guidance of his master
-Sahasrahla, trusted
-the heiress of the
-royal powers, Princess
-Zelda with the
-Triforce.
-Zelda teamed with eight
-mysterious children to
-shatter the Triforce
-into eight fragments
-and to conceal them
-across the kingdom.
-Peace was restored.
+$2
+英雄在Sahasrahla的
+引导下,信任皇室权势的
+女继承人,带着女神三角
+的塞尔达公主.塞尔达与
+八个神秘儿童将三角粉碎
+成八个碎片并在王国内
+隐藏它们,和平被修复.
 
-
-And so begins our
-journey...
+那么开始,我们的旅行...
 ]]
 }
 -----------------------
@@ -2688,8 +2417,9 @@ journey...
 dialog{
   id = "outside_world.village.welcome_sign",
   text = [[
-         Welcome
-       to Lyriann
+
+	欢迎来到Lyriann
+	
 ]]
 }
 -----------------------
@@ -2702,12 +2432,11 @@ dialog{
   id = "outside_world.village.monkey",
   next = "_unknown",
   text = [[
-Help! Everyone is
-afraid tonight!
+救命!今晚大家
+都很害怕!
 
-The village has been
-surrounded by
-monsters!
+村庄已经被怪物
+包围!
 ]]
 }
 -----------------------
@@ -2715,11 +2444,9 @@ monsters!
 dialog{
   id = "outside_world.village.monkey.without_shield",
   text = [[
-I don't know what is
-happening, but I
-wouldn't leave town
-without protection if
-I were you.
+我不知道发生了什么,
+但是如果我是你绝不会
+没有保护下离开小镇.
 ]]
 }
 -----------------------
@@ -2728,11 +2455,10 @@ I were you.
 dialog{
   id = "outside_world.village.monkey.with_shield",
   text = [[
-I don't know what is
-happening, but you are
-right to at least have
-a Shield with you...
-Be careful!
+我不知道发生了什么,
+但你至少带着一个
+护盾是正确的...
+小心点!
 ]]
 }
 -----------------------
@@ -2742,18 +2468,12 @@ dialog{
   id = "outside_world.village.grand_son_npc",
   skip = "current",
   text = [[
-If you do not know
-what to do at one
-point in your journey,
-you should go see
-Grandma Lyly. She
-loves giving advice
-and guiding
-adventurers.
-She lives next to
-the Rupee House.
-I don't know anything
-else, I'm just a kid!
+如果在旅途中感到迷惑
+，你应该去见Lyly奶奶
+，她热爱给建议和引导
+冒险者.她住在卢币屋
+旁边.其他的我不知道,
+我只是一个小孩!
 ]]
 }
 -----------------------
@@ -2763,20 +2483,14 @@ dialog{
   id = "outside_world.village.chignon_woman",
   skip = "all",
   text = [[
-When the blue icon
-appears, it tells what
-you can do by pressing
-the Action key (space).
-Depending on what you
-are examining, it will
-trigger several actions
-such as looking,
-talking, reading a sign,
-lifting a vase, etc.
-Keep an eye on the icon
-to know when you can 
-interact with your
-environment!
+当蓝色图标出现,他告诉你
+能做通过按动作键(空格)。
+取决于你正在检查什么，
+会引发几种动作如查找，
+对话，阅读路牌，举起
+瓶子...留意图标去知道
+什么时候你能与周围环境
+相互作用！
 ]]
 }
 -----------------------
@@ -2785,10 +2499,9 @@ dialog{
   id = "outside_world.village.chignon_woman_dungeons",
   skip = "all",
   text = [[
-It is said that every
-dungeon hides a Piece
-of Heart...
-Funny, isn't it ?
+据说每个地牢都隐藏着
+一个心之碎片...
+有趣,不是吗?
 ]]
 }
 -----------------------
@@ -2798,12 +2511,10 @@ dialog{
   id = "outside_world.village.cliff_man_npc",
   skip = "all",
   text = [[
-Did you know that
-you can jump off
-certain cliffs ?
-That might help you
-reach places that are
-difficult to access.
+你知道你能跳下确定
+的悬崖吗？这或许能
+让你到达难以接近的
+地点.
 ]]
 }
 -----------------------
@@ -2813,17 +2524,13 @@ dialog{
   id = "outside_world.village.hat_man_npc",
   skip = "all",
   text = [[
-If you are in need of
-Rupees, I recommend not
-going to the Rupee
-House, as you might
-just end up needing
-even more Rupees!
-Although, you do seem
-smarter than me.
+如果你需要卢币，我建议
+你不要去卢币屋，因为你
+或许以需要更多的卢币
+告终！虽然，你做的
+看起来比我聪明。
 
-Perhaps you'll do
-better than me!
+或许你做的比我更好!
 ]]
 }
 -----------------------
@@ -2834,12 +2541,9 @@ dialog{
   id = "outside_world.village.hat_man_npc_waterfall",
   skip = "all",
   text = [[
-There is supposed to be
-a treasure hidden by
-the waterfall behind
-the ancient castle.
-Do you believe it's
-true ?
+据说在古城堡瀑布后面
+有个被隐藏的宝藏，
+你认为这是真的吗？
 ]]
 }
 -----------------------
@@ -2848,9 +2552,9 @@ true ?
 dialog{
   id = "outside_world.village.rupee_house_sign",
   text = [[
-   - Rupee House -
-Earn some Rupees
-while having fun!
+     - 卢币屋 -
+	
+    快乐赢卢币！
 ]]
 }
 -----------------------
@@ -2862,11 +2566,11 @@ while having fun!
 dialog{
   id = "outside_world.village.waterfall_sign",
   text = [[
-Please feel free to
-take our fresh spring
-water home with you.
-        Lyriann
-     Tourist Center
+请随意将我们新鲜的
+春水带回家。
+
+      Lyriann
+      旅游中心
 ]]
 }
 -----------------------
@@ -2876,7 +2580,7 @@ dialog{
   id = "outside_world.village.cake_shop_sign",
   text = [[
 
-         Bakery
+		 面包店
 ]]
 }
 -----------------------
@@ -2886,7 +2590,7 @@ dialog{
   id = "outside_world.village.shop_sign",
   text = [[
 
-          Shop
+		  商店
 ]]
 }
 -----------------------
@@ -2896,8 +2600,8 @@ dialog{
   id = "outside_world.village.letter_box",
   skip = "all",
   text = [[
-Don't start looking
-into what's not yours!
+不要开始调查
+不是你的东西！
 ]]
 }
 -----------------------
@@ -2908,9 +2612,8 @@ dialog{
   skip = "all",
   next = "outside_world.village.tree_woman.long_text",
   text = [[
-You're lost with the
-HUD? Let me explain.
-The icons above to the
+你对状态显示感到疑惑？
+让我解释，
 ]]
 }
 -----------------------
@@ -2921,46 +2624,27 @@ dialog{
   next = "outside_world.village.tree_woman.thank_you",
   next2 = "outside_world.village.tree_woman.again",
   text = [[
-left are aligned like
-the keys on a keyboard
-The C key is the green
-icon, you use the sword
-by pressing it. But
-when the game is
-paused, the icon
-changes and tells you
-that the C key is used
-to save your game!
-And when you're talking
-to someone, it allows
-you to end a
-conversation. Just keep
-an eye on the green
-icon to know what the C
-key does.
-The other icons are
-the keys surrounding
-the C key: the orange
-icon (D key) pauses the
-game, the blue icon
-(spacebar) is the
-Action key, and the
-two grey icons are the
-objects assigned to the
-X and V keys. So always
-keep an eye on what the
-icons say. Don't forget
-that you can customize
-the controls in the
-options screen, and
-that you can even play
-with a gamepad!
-
-
-Did you get it all?
-Yes
-No, I did not
-]]
+左边的一行的图标如键盘
+上的按键,C键是绿色图标
+你能使用剑通过按它.但是
+当游戏暂停,图标改变告诉
+你是用来储存游戏!
+并且当你与某人谈话,它
+允许你结束一段对话,仅仅
+留意icon告诉你C键能做
+什么.
+其他图标围绕着C键,橙色
+(D键)暂停游戏,蓝色图标
+(空格键)是动作键,两个
+灰色按钮表示道具能分配
+到X键和V键.所以总是
+留意图标说什么.不要
+忘记你能在选择屏幕(D
+键)里自定义按键甚至用
+一个游戏手柄!
+你全记住了吗?
+是
+没有
 }
 -----------------------
 
@@ -2968,10 +2652,8 @@ dialog{
   id = "outside_world.village.tree_woman.again",
   next = "outside_world.village.tree_woman.long_text",
   text = [[
-Well, let me explain
-once again, but listen
-carefully this time.
-The icons above to the
+好吧,让我在此解释,但是
+这次仔细听.
 ]]
 }
 -----------------------
@@ -2979,12 +2661,9 @@ The icons above to the
 dialog{
   id = "outside_world.village.tree_woman.thank_you",
   text = [[
-Thank you for listening
-to the whole
-explanation!
-I am really thankful!
-Here, you deserve this
-little gift.
+感谢你对整个解释的聆听
+我真的感激，你应得这份
+小礼物。
 ]]
 }
 -----------------------
@@ -2993,7 +2672,7 @@ little gift.
 dialog{
   id = "outside_world.village.clay_key_required",
   text = [[
-It's locked!
+它是锁的!
 ]]
 }
 -----------------------
@@ -3002,7 +2681,7 @@ It's locked!
 dialog{
   id = "outside_world.warning_holes_sign",
   text = [[
-Beware of the holes!
+小心地洞！
 ]]
 }
 -----------------------
@@ -3012,11 +2691,9 @@ dialog{
   id = "outside_world.how_to_save_npc",
   skip = "all",
   text = [[
-To save your progress,
-press D to pause the
-game and then press C.
-Keep an eye on the
-green icon!
+为了保存你的进程,
+按D暂停游戏,然后按
+C键,注意绿色图标.
 ]]
 }
 -----------------------
@@ -3025,10 +2702,8 @@ green icon!
 dialog{
   id = "outside_world.flower_hole_sign",
   text = [[
-The hole close to the
-flower isn't as
-dangerous as it looks
-like...
+靠近花的洞不像它
+看起来的那样危险...
 ]]
 }
 -----------------------
@@ -3037,7 +2712,7 @@ like...
 dialog{
   id = "outside_world.telepathic_booth_sign",
   text = [[
-Telepathic Booth
+    电话亭
 ]]
 }
 -----------------------
@@ -3046,10 +2721,9 @@ Telepathic Booth
 dialog{
   id = "outside_world.surprise_wall_sign",
   text = [[
- - Wall of Surprises -
-Come in and try your
-luck to win the
-hidden treasure!
+    -惊喜之墙-
+进来试试你的运气获得
+隐藏的宝物!
 ]]
 }
 -----------------------
@@ -3058,9 +2732,9 @@ hidden treasure!
 dialog{
   id = "outside_world.billy_cavern_sign",
   text = [[
-Billy the Reckless's
-cavern.
-Entry Forbidden!
+Billy the Reckless的
+洞穴.
+    禁止进入!
 ]]
 }
 -----------------------
@@ -3069,10 +2743,9 @@ Entry Forbidden!
 dialog{
   id = "outside_world.beaumont_hill_sign",
   text = [[
-He who will plant an
-edelweiss at the top
-of the Beaumont Hill,
-will have a nice day.
+在Beaumont丘陵顶上种
+一朵雪绒花的人将会
+有美好的一天.
 ]]
 }
 -----------------------
@@ -3081,8 +2754,7 @@ will have a nice day.
 dialog{
   id = "outside_world.beaumont_hill_put_edelweiss",
   text = [[
-You're planting your
-edelweiss...
+你正在种你的雪绒花...
 ]]
 }
 -----------------------
@@ -3091,8 +2763,9 @@ edelweiss...
 dialog{
   id = "outside_world.stone_key_required",
   text = [[
-   - Stone Lock -
-It's locked!
+   - 石锁 -
+   
+它是锁的!
 ]]
 }
 -----------------------
@@ -3101,8 +2774,9 @@ It's locked!
 dialog{
   id = "outside_world.iron_key_required",
   text = [[
-    - Iron Lock -
-It's locked!
+    - 铁锁 -
+
+它是锁的!
 ]]
 }
 -----------------------
@@ -3111,8 +2785,9 @@ It's locked!
 dialog{
   id = "outside_world.wooden_key_required",
   text = [[
-    - Wooden Lock -
-It's locked!
+   - 木锁 -
+   
+它是锁的!
 ]]
 }
 -----------------------
@@ -3121,8 +2796,9 @@ It's locked!
 dialog{
   id = "outside_world.ice_key_required",
   text = [[
-   - Ice Lock -
-It's locked!
+   - 冰锁 -
+
+它是锁的!
 ]]
 }
 -----------------------
@@ -3132,9 +2808,8 @@ dialog{
   id = "outside_world.mountain_riverfall",
   skip = "all",
   text = [[
-There must be a way
-to go through this
-waterfall...
+一定有办法通过
+这个瀑布...
 ]]
 }
 -----------------------
@@ -3144,10 +2819,10 @@ dialog{
   id = "link_house.dream",
   text = [[
 ... $v...
-It's me...
+是我...
 ... Sahasrahla...
-I have... to speak...
-Come quickly, $v...
+我有...要说...
+快点来...$v...
 ]]
 }
 -----------------------
@@ -3157,15 +2832,12 @@ dialog{
   id = "rupee_house.game_1.intro",
   question = true,
   text = [[
-Welcome to the mystery
-chest game. Pay 20
-Rupees to open one
-of the three chests
-and stand a chance of
-earning more rupees!
-Do you want to play?
-Yes
-No
+欢迎来到奇异的箱子
+游戏,付20卢币打开
+其中一个,有机会赚
+更多的卢比!
+玩
+不玩
 ]]
 }
 -----------------------
@@ -3174,12 +2846,10 @@ No
 dialog{
   id = "rupee_house.game_1.choose_chest",
   text = [[
-Off you go now, choose
-a chest!
+快点选择一个箱子!
 
-Quit staring at me,
-I won't tell you
-which one to choose!
+别盯着我，我不会告诉
+你选择哪一个！
 ]]
 }
 -----------------------
@@ -3188,7 +2858,7 @@ which one to choose!
 dialog{
   id = "rupee_house.game_1.good_luck",
   text = [[
-Good luck!
+祝你好远!
 ]]
 }
 -----------------------
@@ -3197,9 +2867,8 @@ Good luck!
 dialog{
   id = "rupee_house.game_1.not_allowed_to_play",
   text = [[
-You've already won
-haven't you? We are
-ruined because of you!
+你不是已经赢了吗？
+我们因你而损失！
 ]]
 }
 -----------------------
@@ -3209,12 +2878,9 @@ dialog{
   id = "rupee_house.game_1.play_again_question",
   question = true,
   text = [[
-Do you want to play
-again?
-
-It's 20 Rupees!
-Yes
-No
+你想再玩一次吗?
+玩
+不玩
 ]]
 }
 -----------------------
@@ -3227,9 +2893,8 @@ No
 dialog{
   id = "rupee_house.game_1.not_playing",
   text = [[
-You have to have more
-passion!
-Live a little!
+你不得不有更多的激情!
+享受一下生活！
 ]]
 }
 -----------------------
@@ -3239,18 +2904,15 @@ dialog{
   id = "rupee_house.game_2.intro",
   question = true,
   text = [[
-Welcome to the
-brand-new slot machine!
-Put in 5 or 20 rupees
-and try your best to
-align three of the
-same same symbol to
-win several times
-what you put in!
+欢迎来到崭新的老虎机!
+放入5或20卢币，尽力使
+一行三个同样的标志去
+赢得几倍的钱！
 
-Do you want to play?
-Yes
-No
+
+你想玩吗?
+玩
+不玩
 ]]
 }
 -----------------------
@@ -3259,7 +2921,7 @@ No
 dialog{
   id = "rupee_house.game_2.not_playing",
   text = [[
-Next time then...
+下次来玩...
 ]]
 }
 -----------------------
@@ -3269,9 +2931,9 @@ dialog{
   id = "rupee_house.game_2.choose_bet",
   question = true,
   text = [[
-How much do you bet?
-5 Rupees
-20 Rupees
+你准备赌多少卢币?
+5
+20
 ]]
 }
 -----------------------
@@ -3282,7 +2944,7 @@ dialog{
   id = "rupee_house.game_2.just_paid",
   next = "rupee_house.game_2.playing",
   text = [[
-Thanks!
+谢谢!
 ]]
 }
 -----------------------
@@ -3291,11 +2953,9 @@ Thanks!
 dialog{
   id = "rupee_house.game_2.playing",
   text = [[
-Stand next to the
-roulettes and press the
-Action key to stop
-them.
-Good luck!
+站在轮盘旁按动作键
+使它们停止.
+祝你好运!
 ]]
 }
 -----------------------
@@ -3304,10 +2964,8 @@ Good luck!
 dialog{
   id = "rupee_house.game_2.reward.same_any",
   text = [[
-Three identical
-symbols, not bad!
-You win 4 times your
-bet.
+三个相同轮盘,不坏!
+你赢得4倍赌注.
 ]]
 }
 -----------------------
@@ -3316,9 +2974,8 @@ bet.
 dialog{
   id = "rupee_house.game_2.reward.green_rupees",
   text = [[
-Three green Rupees,
-nice! You get 5 times
-your bet.
+三个绿卢币,漂亮!
+你赢得5倍赌注.
 ]]
 }
 -----------------------
@@ -3327,10 +2984,8 @@ your bet.
 dialog{
   id = "rupee_house.game_2.reward.blue_rupees",
   text = [[
-Three blue Rupees!
-Congratulations, you
-are off with 7 times
-your initial bet!
+三个蓝卢币!恭喜!
+你赢得七倍赌注.
 ]]
 }
 -----------------------
@@ -3339,10 +2994,8 @@ your initial bet!
 dialog{
   id = "rupee_house.game_2.reward.red_rupees",
   text = [[
-Three red Rupees!!!
-That's astonishing!
-You earn no less than
-10 times your bet!
+三个红卢币!!!惊人的!
+你赢得至少十倍赌注!
 ]]
 }
 -----------------------
@@ -3351,12 +3004,10 @@ You earn no less than
 dialog{
   id = "rupee_house.game_2.reward.different_rupees",
   text = [[
-Wow!!! You got three
-Rupees of different
-color, it doesn't
-happen every day!
-The reward amounts to
-15 times your bet.
+Wow!!!你得到三个不同
+颜色的卢币,这不是每天
+都发生的!
+奖励15被赌注!!
 ]]
 }
 -----------------------
@@ -3365,12 +3016,11 @@ The reward amounts to
 dialog{
   id = "rupee_house.game_2.reward.yoshi",
   text = [[
-$1...$3Three Yoshi?!
-I-n-c-r-e-d-i-b-l-e!
-That's the best
-possible combination...
-Your initial bet is
-multiplied by 20.
+$1...
+三个Yoshi?!
+难-以-置-信!
+这是最好的组合..
+你原始的赌注乘以20.
 ]]
 }
 -----------------------
@@ -3380,12 +3030,12 @@ dialog{
   id = "rupee_house.game_2.reward.none",
   question = true,
   text = [[
-Tough luck, you didn't
-make any combination.
+坏运气,没得到任何组合
 
-Want to try again?
-Yes
-No
+想再来吗?
+
+是
+不
 ]]
 }
 -----------------------
@@ -3395,21 +3045,15 @@ dialog{
   id = "rupee_house.game_3.intro",
   question = true,
   text = [[
-Navigate through the
-maze before the time
-is out. You may have
-to push blocks along
-the way to open up a
-passage. You could win
-a Piece of Heart, and 
-I heard those are
-pretty rare...
-It's 10 Rupees only.
-
-
-Do you want to play?
-Yes
-No
+控制在时间用尽前通过
+迷宫,你或许不得不推开
+路旁的石块打开新道路,
+你能赢得心之碎片,并且
+我听说它十分稀少...
+仅需要10卢币.
+你想玩吗?
+是
+不
 ]]
 }
 -----------------------
@@ -3418,8 +3062,8 @@ No
 dialog{
   id = "rupee_house.game_3.go",
   text = [[
-Here we go!
-Good luck!
+我们走!
+祝你好运!
 ]]
 }
 -----------------------
@@ -3428,7 +3072,7 @@ Good luck!
 dialog{
   id = "rupee_house.game_3.not_playing",
   text = [[
-It's your choice...
+这是你的选择...
 ]]
 }
 -----------------------
@@ -3437,8 +3081,8 @@ It's your choice...
 dialog{
   id = "rupee_house.game_3.not_allowed_to_play",
   text = [[
-Sorry, you already beat
-this game!
+对不起,你已经赢得了这个
+游戏!
 ]]
 }
 -----------------------
@@ -3448,12 +3092,12 @@ dialog{
   id = "rupee_house.game_3.restart_question",
   question = true,
   text = [[
-You want to restart
-from the beginning?
+你想重新开始吗?
 
-That will be 10 rupees.
-Yes
-No
+这将会要10卢币.
+
+是
+不
 ]]
 }
 -----------------------
@@ -3462,8 +3106,7 @@ No
 dialog{
   id = "rupee_house.not_enough_money",
   text = [[
-You don't have enough
-money!
+你没有足够的钱!
 ]]
 }
 -----------------------
@@ -3472,8 +3115,8 @@ money!
 dialog{
   id = "rupee_house.pay_first",
   text = [[
-Hey! You have to pay if
-you want to play here!
+嘿!如果你想玩的话
+必须付钱!
 ]]
 }
 -----------------------
@@ -3482,11 +3125,11 @@ you want to play here!
 dialog{
   id = "rupee_house_broken.help_us_left",
   text = [[
-Help!
-Help!
+救命!
+救命!
 
-The house has been
-robbed!
+
+屋子被抢劫了!
 ]]
 }
 -----------------------
@@ -3495,9 +3138,8 @@ robbed!
 dialog{
   id = "rupee_house_broken.help_us_middle",
   text = [[
-The bandits stole
-the Rupees used to
-pay the gains!
+土匪偷走了用于
+支付收益的卢币!
 ]]
 }
 -----------------------
@@ -3506,9 +3148,8 @@ pay the gains!
 dialog{
   id = "rupee_house_broken.help_us_right",
   text = [[
-The culprits were
-headed towards the
-blacksmith's cave!
+犯人是朝blacksmith
+的洞穴走!
 ]]
 }
 -----------------------
@@ -3517,12 +3158,10 @@ blacksmith's cave!
 dialog{
   id = "rupee_house_broken.thanks",
   text = [[
-You found our Rupees!
-Thanks to you, we are
-going to get our
-business back up and
-running. I don't know
-how to repay you...
+你找到了我们的卢币!
+我们准备使生意恢复
+和继续,我不知道
+怎样报答你才好...
 ]]
 }
 -----------------------
@@ -3530,7 +3169,7 @@ how to repay you...
 dialog{
   id = "rupee_house_broken.thanks_again",
   text = [[
-Thanks again!
+再次感谢!
 ]]
 }
 -----------------------
@@ -3540,23 +3179,15 @@ dialog{
   id = "grandma_house.sword",
   skip = "all",
   text = [[
-Monsters are lurking
-in the field. That's
-not a good sign: I am
-certain that something
-terrible has happened.
-
-You are looking for a
-sword? With my age, I
-wouldn't know what to
-do with such things...
-You had better go see
-the blacksmith in the
-cave to the northwest
-of the village. He is
-a bit grumpy but he
-will be able to help
-you.
+怪物在潜伏在田野里,这
+不是好兆头:我确信不好
+的事情已经发生.
+你正在寻找剑吗?
+我这样的年龄,不想去
+做这样的事..你最好去
+看村庄最北的山洞里的
+blacksmith,他有点
+粗鲁但将能帮助你.
 ]]
 }
 -----------------------
@@ -3566,17 +3197,12 @@ dialog{
   id = "grandma_house.find_sahasrahla",
   skip = "all",
   text = [[
-With this sword, you
-can slash through the
-bushes protecting the
-village. You are
-looking for Sahasrahla
-the Ancient, are you
-not?
-His house is southwest
-of here, close to the
-bakery. You did not
-remember that?
+用这剑,你能砍着通过
+保护村庄的灌木.你正在
+寻找Sahasrahla
+不是吗?他的房子在这
+最南方的,靠近面包点,
+你不记得吗?
 ]]
 }
 -----------------------
@@ -3586,10 +3212,8 @@ dialog{
   id = "grandma_house.go_lyriann_cave",
   skip = "all",
   text = [[
-This key allows you to
-get inside the cavern
-located north of the
-village.
+这钥匙允许你进入村庄
+北面的洞穴.
 ]]
 }
 -----------------------
@@ -3600,13 +3224,9 @@ dialog{
   id = "grandma_house.go_dungeon_1",
   skip = "all",
   text = [[
-One of the four
-children who was
-kidnapped may be held
-in a gloomy dungeon in
-the forest down south
-to the village. What
-are YOU waiting for?
+四个孩子之一或许被关在
+村南边的森林里的暗黑
+土牢,你还在等什么?
 ]]
 }
 -----------------------
@@ -3616,10 +3236,9 @@ dialog{
   id = "grandma_house.go_back_sahasrahla",
   skip = "all",
   text = [[
-This time it goes
-beyond my knowledge.
-Sahasrahla would be
-of better help.
+这次超过了我的知识,
+Sahasrahla将会是
+更好的帮助.
 ]]
 }
 -----------------------
@@ -3629,13 +3248,10 @@ dialog{
   id = "grandma_house.go_twin_caves",
   skip = "all",
   text = [[
-So you found a Bow?
-I believe you could
-access the twin caves
-to the south, and
-unveil the secrets
-they withhold.
-Go for them!
+你找到了弓,我认为你
+能进入南方的两个洞穴
+并解开它们隐藏的秘密
+去吧!
 ]]
 }
 -----------------------
@@ -3645,11 +3261,9 @@ dialog{
   id = "grandma_house.go_dungeon_2",
   skip = "all",
   text = [[
-What a nice key you
-are holding! Isn't it
-time for you to look
-for the second lost
-child?
+你手上拿着多棒的钥匙!
+不正是去寻找第二个
+丢失的孩子的时候吗?
 ]]
 }
 -----------------------
@@ -3658,16 +3272,12 @@ dialog{
   id = "grandma_house.go_telepathic_booth",
   skip = "all",
   text = [[
-What is that you say?
-I can't hear you well!
-Come my age, my ears
-are not working as
-well as they used to...
-How about communicating
-through telepathy?
-Modern and more
-convenient for my
-elder body.
+你说什么?我听不清!
+上了年龄,耳朵不像
+过去一样好...
+用电话交流怎么样?
+时尚和方便对我的
+老身体.
 ]]
 }
 -----------------------
@@ -3676,18 +3286,13 @@ dialog{
   id = "grandma_house.dark_world_enabled",
   skip = "all",
   text = [[
-Agahnim seized control
-of the kingdom...
-Evil grows along his
-path. One of the
-castle's soldiers, Tom,
-is considered guilty of
-having taken Sahasrahla
-away, but that is not
-possible!
-Moreover some culprits
-ransacked the Rupee
-House!
+Agahnim控制了国家
+..邪恶伴随他一起生长.
+一位城堡的军人Tom被认为
+带走Sahasraha而有罪，
+这不可能!
+此外,一些犯人抢劫了
+卢币房!
 ]]
 }
 -----------------------
@@ -3696,8 +3301,8 @@ dialog{
   id = "telepathic_booth.not_working",
   skip = "all",
   text = [[
-Hello? ... Hello? ...
-Anybody there? ...
+喂?...喂？
+这里有人吗？
 ]]
 }
 -----------------------
@@ -3706,12 +3311,11 @@ dialog{
   id = "telepathic_booth.go_sahasrahla",
   skip = "all",
   text = [[
-$v, do you hear me?
-It's Grandma Lyly!
-Telepathy, it works!
-You should pay a visit
-to Sahasrahla, he has
-things for you.
+$v,听到我说话吗?
+我是Lyly奶奶,电话,
+有作用了!你应该拜访
+Sahasrahla,他有事
+对你说.
 ]]
 }
 -----------------------
@@ -3720,14 +3324,12 @@ dialog{
   id = "telepathic_booth.go_twin_caves",
   skip = "all",
   text = [[
-$v, do you hear me?
-It's Grandma Lyly!
-Telepathy, it works!
-Something tells me that
-the twin caves south to
-the forest dungeon,
-hide an important
-treasure...
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!
+有些事告诉我南方
+森林土牢旁的两个洞穴
+有重要的宝物...
 ]]
 }
 -----------------------
@@ -3736,12 +3338,11 @@ dialog{
   id = "telepathic_booth.dungeon_2_not_really_finished",
   skip = "all",
   text = [[
-$v, do you hear me?
-It's Grandma Lyly!
-Telepathy, it works!
-But are you sure that
-you found everything
-in Roc's Cavern?
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!但是
+你确定你找到岩之洞窟
+里的每件物品?
 ]]
 }
 -----------------------
@@ -3750,15 +3351,13 @@ dialog{
   id = "telepathic_booth.go_master_arbror",
   skip = "all",
   text = [[
-$v, do you hear me?
-It's Grandma Lyly!
-Telepathy, it works!
-It seems there is a
-path through the trees
-north of here.
-Master Arbror is said
-to haunt the land
-flooded by the river.
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!
+看起来有条路通过
+北方的森林
+Master Arbror经常在
+被水淹没的土地出没.
 ]]
 }
 -----------------------
@@ -3767,14 +3366,13 @@ dialog{
   id = "telepathic_booth.go_billy",
   skip = "all",
   text = [[
-$v, do you hear me?
-It's Grandma Lyly!
-Telepathy, it works!
-Do you know Billy the
-Reckless? It appears
-he came back safe and
-sound from his journey
-to Mount Terror!
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!
+你知道Billy the 
+Reckness吗？听说安全
+从恐怖山的旅行中
+回来!
 ]]
 }
 -----------------------
@@ -3783,20 +3381,16 @@ dialog{
   id = "telepathic_booth.shop",
   skip = "all",
   text = [[
-$v, do you hear me?
-It's Grandma Lyly!
-Telepathy, it works!
-But times are hard.
-Desolation has spread
-across the devastated
-kingdom... It is as if
-life itself had come
-to a halt.
-Except for the town's
-shop! Ever since they
-only sell weapons for
-survival and are making
-real Rupees!
+$v.听到我说话吗?
+是Lyly奶奶!
+电话有作用了!
+但是时间无情
+荒芜遍布混乱的王国..
+看起来生活它自己已经
+走向停止.
+除了镇中曾经只卖武器
+的小店为了生存正在
+制造真卢币!
 ]]
 }
 -----------------------
@@ -3806,18 +3400,12 @@ dialog{
   id = "smith_cave.without_sword",
   question = true,
   text = [[
-I forged this great
-bronze Sword with my
-bare hands.
-You can have it for
-only 75 Rupees!
-
-With your shield alone
-you won't get far.
-
-So, interested?
-Yes
-No
+我亲手锻造的青铜剑,
+你能75卢币拥有它!
+单单你的盾不会走更远.
+有兴趣吗?
+有
+没有
 ]]
 }
 -----------------------
@@ -3826,9 +3414,8 @@ No
 dialog{
   id = "smith_cave.with_sword",
   text = [[
-Don't go and break my
-Sword because I won't
-forge you another one!
+不要去弄断我的剑,因为
+我不会锻造另一个给你!
 ]]
 }
 -----------------------
@@ -3837,10 +3424,9 @@ forge you another one!
 dialog{
   id = "smith_cave.not_buying",
   text = [[
-Up to you, but don't
-come back here crying
-if you get in serious
-trouble.
+取决于你,但是如果你
+陷入严重的麻烦别回
+这里哭泣.
 ]]
 }
 -----------------------
@@ -3849,9 +3435,8 @@ trouble.
 dialog{
   id = "smith_cave.not_enough_money",
   text = [[
-Are you trying to rip
-me off? You don't have
-enough Rupees!
+你正在想从我这偷窃吗?
+你没有足够的卢币!
 ]]
 }
 -----------------------
@@ -3860,10 +3445,9 @@ enough Rupees!
 dialog{
   id = "smith_cave.thank_you",
   text = [[
-Thanks a lot. To swing
-your sword, press C. Or
-hold the C key to
-launch a spin attack!
+非常感谢.挥动你的剑,按
+C键,或者按住C键准备
+一个回旋击.
 ]]
 }
 -----------------------
@@ -3872,8 +3456,8 @@ launch a spin attack!
 dialog{
   id = "lyriann_shop.salesman",
   text = [[
-Welcome. Choose the
-item you wish to buy.
+欢迎,选择你想要买的
+物品.
 ]]
 }
 -----------------------
@@ -3883,11 +3467,9 @@ dialog{
   id = "lyriann_shop.apples",
   next = "_unknown",
   text = [[
-Three freshly picked
-apples from this
-morning!
-Each apple restores a
-Heart.
+三个新鲜今早刚摘的
+苹果,每个苹果恢复
+一颗心.
 ]]
 }
 -----------------------
@@ -3899,9 +3481,8 @@ dialog{
   id = "lyriann_shop.lamp",
   next = "_unknown",
   text = [[
-A Lamp.
-Travel through dark
-places!
+一盏油灯.
+通过黑暗的地方.
 ]]
 }
 -----------------------
@@ -3911,8 +3492,7 @@ dialog{
   id = "lyriann_shop.heart",
   next = "_unknown",
   text = [[
-A Heart to be used
-right now.
+现在一颗心将被用.
 ]]
 }
 -----------------------
@@ -3922,9 +3502,8 @@ dialog{
   id = "lyriann_shop.bomb_bag",
   next = "_unknown",
   text = [[
-A bigger Bomb Bag.
-Really fashionable
-nowadays!
+一个更大的炸弹包,
+现在真时尚.
 ]]
 }
 -----------------------
@@ -3934,8 +3513,8 @@ dialog{
   id = "lyriann_shop.quiver",
   next = "_unknown",
   text = [[
-A larger Quiver.
-Useful in these times.
+一个更大的大箭袋,
+这时候真有用.
 ]]
 }
 -----------------------
@@ -3945,8 +3524,8 @@ dialog{
   id = "lyriann_shop.rupee_bag",
   next = "_unknown",
   text = [[
-A new Wallet to carry
-more Rupees.
+一个新钱包能装更多
+的卢币.
 ]]
 }
 -----------------------
@@ -3955,8 +3534,7 @@ more Rupees.
 dialog{
   id = "cake_shop.seller.choose_item",
   text = [[
-Welcome. Choose the
-pastry you wish to buy.
+欢迎,选择你想买的点心.
 ]]
 }
 -----------------------
@@ -3966,9 +3544,8 @@ dialog{
   id = "cake_shop.pain_au_chocolat",
   next = "_unknown",
   text = [[
-A delicious Chocolate
-Croissant that will
-restore three Hearts.
+美味的巧克力面包
+恢复三颗心
 ]]
 }
 -----------------------
@@ -3978,9 +3555,8 @@ dialog{
   id = "cake_shop.croissant",
   next = "_unknown",
   text = [[
-This crispy croissant
-will restore seven
-Hearts.
+酥脆的羊角面包
+恢复七颗心.
 ]]
 }
 -----------------------
@@ -3990,8 +3566,8 @@ dialog{
   id = "cake_shop.apple_pie",
   next = "_unknown",
   text = [[
-An Apple Pie.
-Baked with your help!
+一个苹果派,
+在你的帮助下完成烘焙!
 ]]
 }
 -----------------------
@@ -4001,15 +3577,12 @@ dialog{
   id = "cake_shop.dont_leave",
   question = true,
   text = [[
-Hey, wait!
-I am looking for apples
-to bake an apple pie.
-Six apples should do
-it.
-
-Do you want to help?
-Yes
-No
+嘿,等下!
+我正在寻找苹果烘焙
+苹果派,需要6个苹果
+你想帮忙吗?
+是
+不
 ]]
 }
 -----------------------
@@ -4020,12 +3593,12 @@ dialog{
   skip = "all",
   question = true,
   text = [[
-I am still looking for
-six apples to bake a
-great apple pie.
-Do you want to help?
-Yes
-No
+我仍在寻找6个苹果
+烘焙超级苹果派.
+你想帮忙吗?
+
+是
+不
 ]]
 }
 -----------------------
@@ -4034,9 +3607,8 @@ No
 dialog{
   id = "cake_shop.not_enough_apples",
   text = [[
-Oh, you don't have
-eneough apples... Come
-back later then.
+哦,你没有足够的苹果...
+以后再来..
 ]]
 }
 -----------------------
@@ -4045,9 +3617,8 @@ back later then.
 dialog{
   id = "cake_shop.no_apples",
   text = [[
-Thank you... Come back
-to see me if you find
-some!
+谢谢你...如果你找到
+一些,回来看我!
 ]]
 }
 -----------------------
@@ -4056,15 +3627,12 @@ some!
 dialog{
   id = "cake_shop.thank_you",
   text = [[
-Oh, thank you, how nice
-of you!
+噢,谢谢你,人真好!
 
-I'm sorry I only have
-this empty Bottle...
+对不起我只有这个空瓶..
 
-It's a small reward but
-I'm sure you will make
-good use of it.
+这是小奖励但是我确定你
+将很好利用它.
 ]]
 }
 -----------------------
@@ -4074,39 +3642,25 @@ dialog{
   id = "sahasrahla_house.beginning",
   next = "sahasrahla_house.beginning.12",
   text = [[
-Oh, $v, you heard my
-call.
-I have important things
-to say. We are in
-critical times.
-Four of the eight
-Solarus' children have
-been kidnapped...
-I fear the Triforce is
-in great danger.
-Someone wants to
-benefit from the King's
-death and get ahold of
-the Triforce.
-Who could have done
-that?
-Surely Ganondorf and
-his minions...
-The Seal of the Seven
-Sages weakened after
-our poor King's death.
-Ganon would have
-managed to escape from
-the Dark World?
-We must not let him
-acquire such power!
-I can feel the courage
-in you, $v.
-Do you feel capable of
-traveling through the
-most dangerous places
-of this land to rescue
-the children and to
+oh,$v,你听到了我的呼唤.
+我有重要的事情要说,我们
+在紧急时机.八个太阳神
+战士的孩子中的四个的被
+抓走.我感觉三角有危险.
+有人想从国王的死中获益
+并且控制女神的三角..
+谁能做这个呢？
+肯定Ganondorf和他的
+奴才们...
+七圣贤的封印由于国王
+的死虚弱.Ganon从黑暗
+世界逃出来了吗?
+我们必须不让他获得这
+力量!我能感觉到你的
+勇气,$v.你能胜任通过
+这片大陆上最危险的
+地方拯救孩子保护三角
+吗?
 ]]
 }
 -----------------------
@@ -4118,9 +3672,9 @@ dialog{
   next = "sahasrahla_house.beginning.thanks",
   next2 = "sahasrahla_house.beginning.insisting",
   text = [[
-protect the Triforce?
-I am up to it!
-Never
+保护女神的三角?
+我能胜任!
+不能
 ]]
 }
 -----------------------
@@ -4131,12 +3685,12 @@ dialog{
   next = "sahasrahla_house.beginning.thanks",
   next2 = "sahasrahla_house.beginning.insisting",
   text = [[
-$v, I must insist,
-you are our only hope
-to protect the
-kingdom...
-Alright
-No way
+$v,我必须坚持,你是
+我们保护王国唯一的
+希望..
+
+好吧
+没门
 ]]
 }
 -----------------------
@@ -4146,8 +3700,8 @@ dialog{
   id = "sahasrahla_house.beginning.thanks",
   next = "sahasrahla_house.give_world_map",
   text = [[
-I knew I could count
-on your courage.
+我知道我能相信你的
+勇气.
 ]]
 }
 -----------------------
@@ -4155,9 +3709,8 @@ on your courage.
 dialog{
   id = "sahasrahla_house.give_world_map",
   text = [[
-Here's a little item
-that you will find
-useful on your tale...
+这是一个小物品对你
+将来的旅行有用...
 ]]
 }
 -----------------------
@@ -4166,13 +3719,10 @@ useful on your tale...
 dialog{
   id = "sahasrahla_house.quest_accepted",
   text = [[
-You should check out
-the cave, I store some
-objects that you could
-use. Nothing too fancy
-I guess, it's been a
-while since I went back
-there...
+你应该检查洞穴,我储存了
+一些你能用到的东西.
+不用幻想我猜,自我回到这
+有段时间了...
 ]]
 }
 -----------------------
@@ -4182,14 +3732,10 @@ dialog{
   id = "sahasrahla_house.dungeon_1_finished",
   next = "sahasrahla_house.go_grandma",
   text = [[
-Good job, you managed
-to overcome the
-challenges of the
-forest dungeon. Before
-resuming your journey,
-go back to my cave,
-perhaps new items found
-their way there.
+做得好,你完成了森林土牢
+的挑战.在你重踏旅途之前
+回到我的洞穴,或许有
+新物品发现.
 ]]
 }
 -----------------------
@@ -4200,12 +3746,9 @@ dialog{
   question = true,
   next = "sahasrahla_house.memories.read",
   text = [[
-Sahasrahla's memories.
-
-
-Read them?
-Yes
-No
+Sahasrahla的回忆,读吗?
+读
+不读
 ]]
 }
 -----------------------
@@ -4213,7 +3756,7 @@ No
 dialog{
   id = "sahasrahla_house.memories.read",
   text = [[
-That's way too long!
+这条路太长了!
 ]]
 }
 -----------------------
@@ -4223,9 +3766,8 @@ dialog{
   id = "sahasrahla_house.frozen_door_advice",
   skip = "all",
   text = [[
-The door is frozen?
-Try to melt the ice
-with some water.
+门冻住了?
+试图用水融化冰.
 ]]
 }
 -----------------------
@@ -4236,9 +3778,8 @@ dialog{
   skip = "all",
   next = "sahasrahla_house.go_grandma",
   text = [[
-I have faith in you.
-Courage and wisdom will
-guide you.
+我对你有信心,勇气和智慧
+会引导你.
 ]]
 }
 -----------------------
@@ -4246,13 +3787,10 @@ guide you.
 dialog{
   id = "sahasrahla_house.go_grandma",
   text = [[
-If you are lost during
-your adventure, go
-visit Grandma Lyly,
-east of the village.
-She's an old friend
-and knows everything
-about the area.
+如果你旅途中感到迷惑
+去拜访Lily奶奶,村庄的
+东面,她是一位老朋友
+知道这个地区的一切.
 ]]
 }
 -----------------------
@@ -4262,9 +3800,8 @@ dialog{
   id = "sahasrahla_house.frozen_door",
   skip = "all",
   text = [[
-This door is frozen.
-There must be a way to
-melt the ice!
+门冻住了,一定有方法
+融化冰!
 ]]
 }
 -----------------------
@@ -4275,36 +3812,24 @@ dialog{
   question = true,
   next2 = "lyriann_cave.tom.refuse_help",
   text = [[
-Hello, young
-adventurer. I am Tom,
-an ex-guard of our late
-King. I didn't think
-anyone would find me
-here. What are you doing
-in this gloomy cavern?
-What? The Triforce is
-danger? $0None of this
-would have happened if
-our King were still
-here to protect it...
-You're trying to solve
-the mysteries of this
-cavern?  This place is
-overflowing with
-riddles, treasure, and
-danger. You seem very
-courageous!
-Please, accept my
-help... I have failed,
-I wasn't able to
-protect our King.
-Give me a chance to
-make it up!
+你好,年轻的探索者,我是
+Tom,国王的前护卫,我不
+认为任何人能找到这里,
+你在这黑暗的洞穴里
+干吗?什么?三角有危险?
+$0如果国王仍在保护它的
+话一切就不会发生...
+你试图解决这个洞穴的迷
+吗?这个地方充满着谜语,
+宝物和危险,你看起来非常
+有勇气!请接收我的帮助..
+我失败了,我不能保护国王
+请给我一次弥补的机会!
 
+你接受我的帮助吗?
 
-Do you accept my help?
-Yes
-No
+接受
+不接受
 ]]
 }
 -----------------------
@@ -4316,15 +3841,12 @@ dialog{
   question = true,
   next2 = "lyriann_cave.tom.refuse_help",
   text = [[
-Young explorer, accept
-my help. I have failed,
-I wasn't able to
-protect our King.
-Give me a chance to
-make it up!  Will you
-accept my help?
-Yes
-No
+年轻的探索者,接受我的
+帮助,我失败了,我不能
+保护国王,给我一次弥补
+的机会!你愿意接受吗?
+接受
+不接受
 ]]
 }
 -----------------------
@@ -4335,15 +3857,10 @@ No
 dialog{
   id = "lyriann_cave.tom.accept_help",
   text = [[
-Thank you. I can lend
-you this, I hope it
-will be useful.
-Don't forget to return
-it to me once you have
-finished.
-If you manage to obtain
-the Heart Container, I
-will be very impressed!
+谢谢你!我能借你这个,
+希望它有用,不要忘记
+完成后归还我.如果你成功
+获得心容器我将非常惊讶!
 ]]
 }
 -----------------------
@@ -4352,7 +3869,7 @@ will be very impressed!
 dialog{
   id = "lyriann_cave.tom.refuse_help",
   text = [[
-Fine, as you wish.
+好,如你所愿.
 ]]
 }
 -----------------------
@@ -4362,21 +3879,15 @@ dialog{
   id = "lyriann_cave.tom.not_finished",
   question = true,
   text = [[
-Is everything all
-right? Use my Boomerang
-to overcome obstacles.
-You'll need to attain a
-level of mastery over
-it if you want to find
-all the secrets in this
-cavern...  Don't forget
-that the Boomerang
-always comes back to
-you, even if you move.
-
-What do you want to do?
-Continue
-Return the Boomerang
+一切还好吗?用我的回旋镖
+战胜障碍.你需要获得一个
+掌握它的等级如果你想
+发现洞穴所有秘密..不要
+忘记回旋镖总是会飞回你
+即使你在移动!
+你想要做什么?
+继续
+归还回旋镖
 ]]
 }
 -----------------------
@@ -4385,9 +3896,8 @@ Return the Boomerang
 dialog{
   id = "lyriann_cave.tom.gave_boomerang_back",
   text = [[
-Thank you. Come see me
-again if you would like
-my help.
+谢谢你,再来见我
+如果你想要我帮助.
 ]]
 }
 -----------------------
@@ -4396,7 +3906,7 @@ my help.
 dialog{
   id = "lyriann_cave.tom.leaving",
   text = [[
-Hey! Wait!
+嘿!等等!
 ]]
 }
 -----------------------
@@ -4406,17 +3916,12 @@ Hey! Wait!
 dialog{
   id = "lyriann_cave.tom.leaving.cavern_not_finished",
   text = [[
-You've already finished
-exploring? I don't
-think you have found
-everything... If you
-don't mind, I'll be
-taking my Boomerang
-back. You need a level
-of skill to be able to
-use it! Come see me
-again if you would like
-my help.
+你已经完成探险?我不认为
+你发现每个东西...假如你
+不介意的话,我将拿回我的
+回旋镖,你需要一个技能的
+等级去死用它!再来见我
+如果你想要我帮助.
 ]]
 }
 -----------------------
@@ -4428,15 +3933,13 @@ dialog{
   id = "lyriann_cave.tom.cavern_finished",
   next = "lyriann_cave.tom.see_you_later",
   text = [[
-You solved the
-mysteries of this
-cavern? Impressive!
-You are just as skilled
-as you are courageous.
+你解决了这个洞穴的迷?
+佩服!
+你像你的胆量一样
+有技巧.
 
-If you don't mind, I'll
-be taking my Boomerang
-back.
+如果你不介意,我将拿回
+我的回旋镖.
 ]]
 }
 -----------------------
@@ -4448,10 +3951,8 @@ back.
 dialog{
   id = "lyriann_cave.tom.see_you_later",
   text = [[
-If you like, I can come
-give you a hand during
-your adventures, if
-ever you are in need.
+如果你想,我能在你旅途中
+帮你,如果你需要的话.
 ]]
 }
 -----------------------
@@ -4461,7 +3962,7 @@ ever you are in need.
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.hey",
   text = [[
-Hey!
+嘿!
 ]]
 }
 -----------------------
@@ -4469,7 +3970,7 @@ Hey!
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.need_help",
   text = [[
-Do you need any help?
+需要帮忙吗?
 ]]
 }
 -----------------------
@@ -4477,9 +3978,8 @@ Do you need any help?
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.let_me_see",
   text = [[
-Hmmm, I bet there is a
-ladder hidden here.
-Let's see...
+嗯,我打赌这里藏着个
+阶梯,让我们看看...
 ]]
 }
 -----------------------
@@ -4488,8 +3988,8 @@ Let's see...
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.open",
   text = [[
-I think I can move it.
-$0Voila!
+我认为我能移动它.
+$0可不是!
 ]]
 }
 -----------------------
@@ -4497,8 +3997,8 @@ $0Voila!
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.finished",
   text = [[
-Be careful, it looks
-ominous in there.
+小心点,这里的这个东西
+看起来不吉利.
 ]]
 }
 -----------------------
@@ -4506,43 +4006,30 @@ ominous in there.
 dialog{
   id = "dungeon_1.solarus_child",
   text = [[
-$2$v... Thank you. You
-saved my life. I am one
-of the eight protectors
-called forth by
-Princess Zelda. We are
-devoted to watching
-over the remains of the
-holy relic, the
-Triforce, creed left by
-the three goddesses
-after the creation of
-your world. Throughout
-the millennia, the
-Triforce, although
-source of life and
-prosperity, was also
-the source of great
-greed and constant
-struggles between the
-forces of good and
-evil. Even today, the
-holy relic is in
-danger. However,
-history repeats itself.
-Wherever there is
-danger, there is a hero
-whose courage drives
-the Darkness away. Find
-my brothers and
-discover who is behind
-all of this, before the
-forces of Darkness
-plunge Hyrule into
-chaos...
-May the hero bring
-peace and prosperity
-to the Kingdom!
+$2$v... 
+谢谢你救了我,我是
+八个守护者之一被
+塞尔达公主叫做forth
+我们献身于看管
+神圣的太阳神战士的
+遗物的保护物,三角
+ ,三女神创世后
+留下的意志.
+经历了千年,虽然三角
+是生命的根源和繁荣,
+但也是贪婪和正义和
+邪恶间不停争斗的
+根源..
+即使今天,神圣的遗物
+任有危险.然而历史重复
+着它自己.无论哪里危险,
+总有一个英雄的勇气驱逐
+走黑暗.找到我的兄弟们,
+发现这背后的操纵者,
+在黑暗使海拉尔陷入
+混乱之前...
+或许英雄带来和平和
+繁荣给这个国度!
 ]]
 }
 -----------------------
@@ -4552,7 +4039,7 @@ to the Kingdom!
 dialog{
   id = "outside_world.rock_key_required",
   text = [[
-It's locked!
+锁的!
 ]]
 }
 -----------------------
@@ -4561,8 +4048,7 @@ dialog{
   id = "dungeon_2.eye_hint",
   skip = "all",
   text = [[
-Both eyes must be
-pierced.
+两眼必须被射穿.
 ]]
 }
 -----------------------
@@ -4571,9 +4057,7 @@ dialog{
   id = "dungeon_2.eye_2_hint",
   skip = "all",
   text = [[
-Both eyes must be
-pierced with
-perseverance.
+必须坚持射穿两眼.
 ]]
 }
 -----------------------
@@ -4592,18 +4076,13 @@ dialog{
 dialog{
   id = "fairy_cave.first_time",
   text = [[
-Welcome, young man,
-full of wisdom. I have
-been awaiting your
-arrival. I am the
-Enchanting Fairy. You,
-who watch over justice,
-allow me to present you
-with this gift...
-
-You have proven in the
-past that you deserve
-it.
+欢迎充满智慧的年轻人.
+我一直等你的到来.我是
+Enchanting Fairy.你
+守护正义,允许我给你
+这个礼物...
+你已经证明你应该
+拥有它.
 ]]
 }
 -----------------------
@@ -4611,12 +4090,10 @@ it.
 dialog{
   id = "fairy_cave.restore_health",
   text = [[
-Welcome, young man,
-full of wisdom.
+欢迎,充满智慧的年轻人.
 
-I am the Enchanting
-Fairy. Close your eyes
-and relax.
+我是Enchanting Fairy.
+闭上眼然后放松.
 ]]
 }
 -----------------------
@@ -4624,16 +4101,12 @@ and relax.
 dialog{
   id = "north_fairy_fountain.first_time",
   text = [[
-Welcome, young man,
-filled with courage.
-I have been awaiting
-your arrival. I am the
-Traveling Fairy. You,
-who travel the world to
-fight evil
-relentlessly, allow me
-to pass on to you an
-ancient technique...
+欢迎,充满勇气的年轻人.
+我一直等待你的到来.
+我是Traveling Fairy.你
+周游世界无情的与邪恶
+战斗,允许我传授你古老
+的技能...
 ]]
 }
 -----------------------
@@ -4641,12 +4114,10 @@ ancient technique...
 dialog{
   id = "north_fairy_fountain.restore_health",
   text = [[
-Welcome, young man,
-filled with courage.
+欢迎,充满勇气的年轻人.
 
-I am the Traveling
-Fairy. Close your eyes
-and relax.
+我是Traveling Fairy.
+闭上眼然后放松.
 ]]
 }
 -----------------------
@@ -4655,8 +4126,9 @@ dialog{
   id = "mountain_cave.mountain_sign",
   skip = "all",
   text = [[
-    Mount Terror
-        --->
+  
+	 恐怖山
+	  --->
 ]]
 }
 -----------------------
@@ -4665,9 +4137,8 @@ dialog{
   id = "mountain_cave.not_much_done",
   skip = "all",
   text = [[
-If you are reading this,
-then you haven't gotten
-very far.
+如果你正在读这个,你将
+不会走多远.
 ]]
 }
 -----------------------
@@ -4676,9 +4147,8 @@ dialog{
   id = "mountain_cave.patience",
   skip = "all",
   text = [[
-Patience is the virtue
-of a true hero.
- - Author unknown (?) -
+ 耐心是真英雄的优点.
+        ---佚名
 ]]
 }
 -----------------------
@@ -4687,8 +4157,7 @@ dialog{
   id = "mountain_cave.almost_done",
   skip = "all",
   text = [[
-The worst is not to
-come.
+最坏的还没来.
 ]]
 }
 -----------------------
@@ -4698,8 +4167,9 @@ dialog{
   skip = "all",
   text = [[
 
-     Ancient Castle
-         <---
+		古城堡
+		
+		 <---
 ]]
 }
 -----------------------
@@ -4708,37 +4178,27 @@ dialog{
   id = "billy_cave.hello",
   skip = "current",
   text = [[
-I hope you have come
-with something worth
-doing if you dare enter
-my cavern. I am Billy
-the Reckless, the
-greatest adventurer of
-all time.
+如果你敢进入我的巢穴，
+我希望你是为有意义的
+事来，我是(Billy the 
+Reckless,一直是最伟大
+的冒险者),
 
+在我去恐怖山探险的
+期间，我带回一个无价的
+宝物。即使塞尔达公主也
+不能找到它，它是一种
+极其稀少的植物.
 
-During my expedition to
-Mount Terror, I brought
-back a priceless
-treasure. Even Princess
-Zelda would not have
-been able to find it.
-It's an extremely rare
-plant.
+我是唯一活着的并拥有
+它的人.我清楚恐怖山
+所有的障碍,面对
+过每个危险,无伤的
+走出带.
 
-I am the only living
-soul to have one in his
-possession. I cleared
-all of the obstacles of
-Mount Terror, faced
-every danger, and
-walked away unscathed.
-
-
-It is heroically so
-that I found this
-flower of extreme
-value: an edelweiss!
+这是英雄般的以至于
+发现这极其有价值的花
+: 雪绒花！
 ]]
 }
 -----------------------
@@ -4748,14 +4208,12 @@ dialog{
   skip = "current",
   next = "_unknown",
   text = [[
-Don't expect me to give
-you my edelweiss for
-free. I confronted the
-dangers of Mount Terror
-to find it. If you
-don't have anything of
-value to give me, then
-run along.
+不要期待我免费给你我的
+雪绒花，我面对着恐怖山
+的危险找到它.
+如果你没有任何有价值
+的东西给我,那么走开.
+
 ]]
 }
 -----------------------
@@ -4764,9 +4222,9 @@ dialog{
   id = "billy_cave.without_golden_bars",
   question = true,
   text = [[
-What will you give me?
-A croissant
-An apple pie
+你将给我什么?
+羊角面包
+苹果派
 ]]
 }
 -----------------------
@@ -4775,9 +4233,9 @@ dialog{
   id = "billy_cave.with_golden_bars",
   question = true,
   text = [[
-What will you give me?
-Gold bars
-An apple pie
+你将给我什么?
+金条
+苹果派
 ]]
 }
 -----------------------
@@ -4785,8 +4243,8 @@ An apple pie
 dialog{
   id = "billy_cave.give_croissant_without",
   text = [[
-You don't even have a
-croissant! Thief!
+小贼!你羊角面包
+都没有!
 ]]
 }
 -----------------------
@@ -4794,8 +4252,8 @@ croissant! Thief!
 dialog{
   id = "billy_cave.give_croissant",
   text = [[
-A croissant?
-Are you kidding me?
+羊角面包?
+你是开我玩笑吗?
 ]]
 }
 -----------------------
@@ -4803,8 +4261,8 @@ Are you kidding me?
 dialog{
   id = "billy_cave.give_apple_pie_without",
   text = [[
-Pfft! You don't even
-have any apple pies!
+呸!你甚至没有
+苹果派!
 ]]
 }
 -----------------------
@@ -4812,8 +4270,7 @@ have any apple pies!
 dialog{
   id = "billy_cave.give_apple_pie",
   text = [[
-No thanks, that's far
-from fair...
+不谢,这不公平...
 ]]
 }
 -----------------------
@@ -4821,12 +4278,10 @@ from fair...
 dialog{
   id = "billy_cave.give_golden_bars",
   text = [[
-What? You have gold
-bars?$1...
-$0...$0....................
-$3Deal!
-Here, take your stupid
-flower...
+什么?你有金条?
+$1...$0..$0........
+$3成交!
+拿走你愚蠢的花..
 ]]
 }
 -----------------------
@@ -4834,10 +4289,9 @@ flower...
 dialog{
   id = "outside_world.surprise_wall_guy.closed",
   text = [[
-If you give me
-something to eat, I'll
-let you on the other
-side of this wall.
+如果你给我东西吃,
+我会让你在墙的
+另一边.
 ]]
 }
 -----------------------
@@ -4846,12 +4300,9 @@ dialog{
   id = "outside_world.surprise_wall_guy.give_me_apple_pie",
   question = true,
   text = [[
-Give me that apple pie!
-
-
-Well?
-OK
-No way
+给我苹果派好吗?
+好
+没门
 ]]
 }
 -----------------------
@@ -4859,10 +4310,8 @@ No way
 dialog{
   id = "outside_world.surprise_wall_guy.open",
   text = [[
-Some people believe
-there is treasure
-behind this wall, but
-I've never found any.
+有人认为墙后面有宝藏,
+但是我从来没有找到.
 ]]
 }
 -----------------------
@@ -4871,8 +4320,7 @@ dialog{
   id = "outside_world.surprise_wall_guy.thanks",
   next = "outside_world.surprise_wall_guy.open",
   text = [[
-Super! I'll eat the pie
-in appreciation.
+真好!感谢我能吃苹果派.
 ]]
 }
 -----------------------
@@ -4880,7 +4328,7 @@ in appreciation.
 dialog{
   id = "outside_world.surprise_wall_closed",
   text = [[
-It's closed!
+关的!
 ]]
 }
 -----------------------
@@ -4889,7 +4337,7 @@ dialog{
   id = "surprise_wall.direction_0",
   text = [[
 
-          Right
+         右
 ]]
 }
 -----------------------
@@ -4898,7 +4346,7 @@ dialog{
   id = "surprise_wall.direction_1",
   text = [[
 
-           Up
+         上
 ]]
 }
 -----------------------
@@ -4907,7 +4355,7 @@ dialog{
   id = "surprise_wall.direction_2",
   text = [[
 
-          Left
+         左
 ]]
 }
 -----------------------
@@ -4916,7 +4364,7 @@ dialog{
   id = "surprise_wall.direction_3",
   text = [[
 
-          Down
+         下
 ]]
 }
 -----------------------
@@ -4924,10 +4372,10 @@ dialog{
 dialog{
   id = "lake_shop.seller",
   text = [[
-Welcome to the Lake
-Shop! Our items are the
-cheapest in the area.
-What can I do for you?
+欢迎来到滨湖小店,
+我们的物品是这个地区
+最便宜的,我能为你
+做些什么?
 ]]
 }
 -----------------------
@@ -4936,8 +4384,7 @@ What can I do for you?
 dialog{
   id = "lake_shop.apples",
   text = [[
-Three apples at value
-price.
+标价的三个苹果.
 ]]
 }
 -----------------------
@@ -4946,9 +4393,8 @@ price.
 dialog{
   id = "lake_shop.bombs",
   text = [[
-Eight bombs. I'll give
-them to you at cost
-price!
+八个炸弹.我会以成本价
+给你!
 ]]
 }
 -----------------------
@@ -4957,9 +4403,8 @@ price!
 dialog{
   id = "lake_shop.arrows",
   text = [[
-Ten arrows, an
-excellent value for its
-price.
+十支箭,这个价格非常
+合适.
 ]]
 }
 -----------------------
@@ -4967,9 +4412,8 @@ price.
 dialog{
   id = "lake_shop.big_magic_flask",
   text = [[
-Special offer:
-a jar of magic
-energy.
+特别提供:
+魔力罐.
 ]]
 }
 -----------------------
@@ -4978,14 +4422,11 @@ dialog{
   id = "chests_game_cave.first_time",
   next = "chests_game_cave.play_question",
   text = [[
-How did you get here??
+你怎么来到这的? 
 
-
-... Now that you're
-here, how would you
-like to be the first to
-play my new game? One
-game costs 30 Rupees.
+...既然你来了,你想成为
+第一个玩我的新游戏的人
+吗?一次游戏30卢币...
 ]]
 }
 -----------------------
@@ -4995,8 +4436,7 @@ dialog{
   skip = "current",
   next = "chests_game_cave.play_question",
   text = [[
-Hi! One game costs 30
-Rupees.
+嘿!一次游戏30卢币!
 ]]
 }
 -----------------------
@@ -5005,9 +4445,9 @@ dialog{
   id = "chests_game_cave.play_question",
   question = true,
   text = [[
-Do you want to play?
-Yes
-No
+你想玩吗?
+玩
+不玩
 ]]
 }
 -----------------------
@@ -5016,8 +4456,7 @@ dialog{
   id = "chests_game_cave.not_enough_money",
   skip = "all",
   text = [[
-You don't have enough
-Rupees!
+你没有足够的卢币!
 ]]
 }
 -----------------------
@@ -5026,13 +4465,10 @@ dialog{
   id = "chests_game_cave.start_game_wooden_key",
   skip = "all",
   text = [[
-Thanks! To play the
-game, just open one of
-the chests. Its
-contents are yours to
-keep. The grand prize
-of the day is a
-magnificent wooden key.
+谢谢!玩游戏仅仅要打开
+箱子.里面有你想要的
+东西.今天的大奖是
+卓越的木钥匙.
 ]]
 }
 -----------------------
@@ -5041,13 +4477,10 @@ dialog{
   id = "chests_game_cave.start_game_piece_of_heart",
   skip = "all",
   text = [[
-Thanks! To play the
-game, just open one of
-the chests. Its
-contents are yours to
-keep. The grand prize
-of the day is a
-Piece of Heart.
+谢谢!玩游戏仅仅要打开
+箱子,里面有你想要的
+东西,今天的大奖是:
+心之碎片.
 ]]
 }
 -----------------------
@@ -5057,10 +4490,9 @@ dialog{
   id = "chests_game_cave.start_game",
   skip = "all",
   text = [[
-Thanks! You can open
-one of the chests.
-Its contents are yours
-to keep.
+谢谢!你能打开其中一个
+箱子,里面有你想要的
+东西.
 ]]
 }
 -----------------------
@@ -5069,7 +4501,7 @@ dialog{
   id = "chests_game_cave.already_playing",
   skip = "all",
   text = [[
-Pick a chest!
+挑选一个箱子!
 ]]
 }
 -----------------------
@@ -5079,10 +4511,10 @@ dialog{
   skip = "all",
   text = [[
 
-       Junk Shop
-
-The largest selection
-at exceptional prices!
+       旧货商店
+	   
+期待的价格,
+多量的选择.
 ]]
 }
 -----------------------
@@ -5091,10 +4523,9 @@ dialog{
   id = "junk_shop.seller",
   skip = "all",
   text = [[
-Welcome to the Junk
-Shop! Top of the line
-items at extraordinary
-prices! Help yourself!
+欢迎来到旧货商店!
+特别价格有着顶级的
+品种!请自便！
 ]]
 }
 -----------------------
@@ -5102,8 +4533,8 @@ prices! Help yourself!
 dialog{
   id = "junk_shop.croissant",
   text = [[
-One Croissant. To fill
-your Hearts.
+羊角面包.
+补充生命.
 ]]
 }
 -----------------------
@@ -5111,7 +4542,7 @@ your Hearts.
 dialog{
   id = "junk_shop.arrows",
   text = [[
-Standard Arrows.
+标准的箭.
 ]]
 }
 -----------------------
@@ -5119,9 +4550,8 @@ Standard Arrows.
 dialog{
   id = "junk_shop.red_rupee",
   text = [[
-A special offer Red
-Rupee, but it's the
-floor model.
+特别提供红卢比,但是
+这是基本模型.
 ]]
 }
 -----------------------
@@ -5129,9 +4559,8 @@ floor model.
 dialog{
   id = "junk_shop.mystic_mirror",
   text = [[
-The Mystic Mirror. They
-say it can reverse the
-flow of water!
+神秘的镜子.据说能
+使水倒流!
 ]]
 }
 -----------------------
@@ -5139,8 +4568,8 @@ flow of water!
 dialog{
   id = "junk_shop.heart",
   text = [[
-A Heart. Useful if you
-need energy.
+一颗心,如果你需要力量
+它是有用的.
 ]]
 }
 -----------------------
@@ -5148,8 +4577,7 @@ need energy.
 dialog{
   id = "junk_shop.bombs",
   text = [[
-Eight bombs at a
-reduced price.
+八个炸弹在减价.
 ]]
 }
 -----------------------
@@ -5157,8 +4585,7 @@ reduced price.
 dialog{
   id = "junk_shop.piece_of_heart",
   text = [[
-An authentic Piece of
-Heart.
+一个真正的心容器.
 ]]
 }
 -----------------------
@@ -5166,8 +4593,8 @@ Heart.
 dialog{
   id = "junk_shop.pain_au_chocolat",
   text = [[
-A Chocolate Croissant
-for recovering Hearts.
+恢复心的巧克力
+羊角面包.
 ]]
 }
 -----------------------
@@ -5177,12 +4604,9 @@ dialog{
   id = "castle.welcome",
   skip = "all",
   text = [[
-Welcome to the ancient
-royal castle, listed as
-a historical monument.
-Please refrain from
-disturbing the
-surroundings.
+欢迎来到被列为历史遗迹
+的古皇家城堡,
+请避免损坏周围.
 ]]
 }
 -----------------------
@@ -5191,11 +4615,8 @@ dialog{
   id = "castle.forbidden_stairs",
   skip = "all",
   text = [[
-This stairs lead to the
-upper level and to the
-balcony.
-Access is forbidden to
-the public though.
+楼梯通往上一层的阳台.
+公众禁止通行.
 ]]
 }
 -----------------------
@@ -5204,10 +4625,8 @@ dialog{
   id = "castle.forbidden_door",
   skip = "all",
   text = [[
-I am sorry sir, but you
-are not allowed to
-access to the dungeon
-cells.
+对不起先生,但是你不被
+允许进入牢房.
 ]]
 }
 -----------------------
@@ -5215,12 +4634,11 @@ cells.
 dialog{
   id = "castle.forbidden_door_wtf",
   text = [[
-........$0....?!$#!@&=!??
-.....$0..................
-
-How did you get here?
-You are walking on
-a forbidden area!
+.....$0...?!$#@=!??
+......$0....
+你怎么来到这的?
+你已进入禁止的
+区域.
 ]]
 }
 -----------------------
@@ -5229,13 +4647,10 @@ dialog{
   id = "castle.npc_1",
   skip = "all",
   text = [[
-This castle once
-belonged to the Royal
-family.
-Nowadays, tourists from
-all around Hyrule make
-the trip to witness the
-beauty of the place!
+城堡曾经属于王室.
+现在,海拉尔全国的游客
+到此旅游,目睹这地方
+的美丽.
 ]]
 }
 -----------------------
@@ -5244,16 +4659,12 @@ dialog{
   id = "castle.npc_2",
   skip = "all",
   text = [[
-Can you believe all the
-efforts that were put
-in the construction of
-this castle?
-I can only wonder how
-they managed to pull
-off such a wonderful
-piece of architecture
-with the means they had
-at that time...
+你认为所有的精力用来
+建造这个城堡吗?
+我只能想的是他们是
+怎样用那时的手段
+成功完成建筑这一
+如此美妙的部分.
 ]]
 }
 -----------------------
@@ -5262,12 +4673,9 @@ dialog{
   id = "castle.where_is_tom",
   skip = "all",
   text = [[
-Tom, one of our best
-soldiers, has
-mysteriously
-disappeared while he
-was gone exploring a
-cave.
+Tom,最好的战士之一,
+当他探索一个洞穴时
+奇怪的消失了.
 ]]
 }
 -----------------------
@@ -5276,8 +4684,8 @@ dialog{
   id = "castle.npc_3",
   skip = "all",
   text = [[
-What luxury! This
-place is magnificent!
+多奢侈!多么宏伟的
+地方!
 ]]
 }
 -----------------------
@@ -5286,10 +4694,8 @@ dialog{
   id = "castle.prison",
   skip = "all",
   text = [[
-Prisoners of the King
-were held captive
-inside these dark
-cells.
+国王的囚犯被关在
+这些黑狱室里.
 ]]
 }
 -----------------------
@@ -5298,10 +4704,8 @@ dialog{
   id = "castle.cannon",
   skip = "all",
   text = [[
-What a magnificent
-barrel!
-You had better not be
-an enemy of the King!
+多强大的炮!你最好
+不是国王的敌人
 ]]
 }
 -----------------------
@@ -5310,21 +4714,15 @@ dialog{
   id = "inferno.first_time",
   next = "inferno.find_fire_stones",
   text = [[
-Who dares walk on my
-lands? Child!
-Don't you know how
-foolish it is to
-disturb the great
-Inferno, Lord of
-Flames?!
-You will be punished
-for such behaviour!
-Shall you wish to
-redeem yourself, try
-and find the three
-Fire Stones I hid
-inside my gloomy
-mazes.
+谁敢在我地盘上走!
+孩子!你不知道这是
+多么愚蠢去打扰伟大的
+火焰之神，
+Infero(地狱).
+你将会由于你的
+行为被惩罚,试图找到
+被我藏在我那
+黑暗的迷宫的三个火石
 ]]
 }
 -----------------------
@@ -5333,18 +4731,12 @@ dialog{
   id = "inferno.find_fire_stones",
   skip = "current",
   text = [[
-You will endure three
-courage ordeals.
+你将会接受三个
+勇气的考验.
 
-River.
-$0Mountain.
-$0Beaumont.
-Overcome the challenges
-that await you, bring
-back the three Fire
-Stones, and only then
-shall Inferno's rage
-be calmed.
+战胜等待你的挑战,
+带回三个火石,然后可以
+平静Inferno的愤怒.
 ]]
 }
 -----------------------
@@ -5353,18 +4745,15 @@ dialog{
   id = "inferno.found_fire_stones",
   question = true,
   text = [[
-You made it through
-the three ordeals with
-success! Your bravery
-is truly unique, I must
-bow down before it.
-I will grant you
-anything you wish.
+你一定会成功通过三个
+考验,你的勇气十分
+独特,我必须屈服.我会
+授予你任何想要的东西.
 
 
-What do you want?
-The black stones...
-100 Rupees?
+你想要什么?
+黑色石头
+100卢币
 ]]
 }
 -----------------------
@@ -5372,7 +4761,7 @@ The black stones...
 dialog{
   id = "inferno.want_rupees",
   text = [[
-So be it.
+那就这样吧.
 ]]
 }
 -----------------------
@@ -5380,8 +4769,7 @@ So be it.
 dialog{
   id = "inferno.want_rupees_again",
   text = [[
-I already gave you
-this prize.
+我已经给了你奖励.
 ]]
 }
 -----------------------
@@ -5389,14 +4777,10 @@ this prize.
 dialog{
   id = "inferno.want_black_stones",
   text = [[
-Before you can lift
-these black stones,
-you will have to
-survive in an infernal
-land, and overcome
-many dangers.
-Let me bring you to
-the hell of flames...
+在你能举起黑石之前,
+你必须在地狱般的土地
+上生存,克服各种危险,
+让我带你去火的地狱.
 ]]
 }
 -----------------------
@@ -5404,12 +4788,10 @@ the hell of flames...
 dialog{
   id = "potion_shop.witch",
   text = [[
-Welcome to the Potion
-Shop!
-Hehehe...
-Red gives life, green
-gives magic, blue gives
-both life and magic!
+欢迎来到药店!
+嘻嘻嘻...
+红给你生命,绿给你魔力
+蓝给你生命和魔力!
 ]]
 }
 -----------------------
@@ -5417,15 +4799,12 @@ both life and magic!
 dialog{
   id = "potion_shop.witch_bottle_offered",
   text = [[
-Welcome to the Potion
-Shop!
-Hehehe...
-A Magic Bottle is
-given for free to every
-new client! Hehehe...
-Red gives life, green
-gives magic, blue gives
-both life and magic!
+欢迎来到药店!
+嘻嘻嘻...
+魔瓶免费给新顾客!
+嘻嘻嘻...
+红给你生命,绿给你魔力
+蓝给你生命和魔力!
 ]]
 }
 -----------------------
@@ -5433,9 +4812,8 @@ both life and magic!
 dialog{
   id = "potion_shop.no_empty_bottle",
   text = [[
-You can't buy this
-Potion without an empty
-Bottle! Hehehe...
+你不能买药没有一个
+空瓶!嘻嘻嘻..
 ]]
 }
 -----------------------
@@ -5443,9 +4821,9 @@ Bottle! Hehehe...
 dialog{
   id = "potion_shop.red_potion",
   text = [[
-Red Potion:
-restores life!
-Hehehe...
+红药水:
+恢复生命!
+嘻嘻嘻..
 ]]
 }
 -----------------------
@@ -5453,9 +4831,9 @@ Hehehe...
 dialog{
   id = "potion_shop.green_potion",
   text = [[
-Green Potion:
-restores your magic
-bar! Hehehe...
+绿药水:
+恢复魔力!
+嘻嘻嘻...
 ]]
 }
 -----------------------
@@ -5463,9 +4841,9 @@ bar! Hehehe...
 dialog{
   id = "potion_shop.blue_potion",
   text = [[
-Blue Potion:
-restores life and
-magic! Hehehe...
+蓝药水:
+恢复生命和魔力!
+嘻嘻嘻...
 ]]
 }
 -----------------------
@@ -5473,10 +4851,9 @@ magic! Hehehe...
 dialog{
   id = "potion_shop.give_bottle",
   text = [[
-As a new customer, you
-get to walk away with a
-Magic Bottle for free.
-Hehehe...
+做为新顾客,离开时可
+免费带走一个魔瓶.
+嘻嘻嘻...
 ]]
 }
 -----------------------
@@ -5485,10 +4862,9 @@ dialog{
   id = "outside_world.vine_start",
   skip = "all",
   text = [[
-The land seems very
-fertile around here,
-but it lacks
-humidity...
+周围的土地看起来
+非常富饶,但是缺乏
+湿度...
 ]]
 }
 -----------------------
@@ -5497,9 +4873,8 @@ dialog{
   id = "cave_to_dungeon_8.hint",
   skip = "all",
   text = [[
-Only an attentive
-observer will be able
-to follow the path.
+只有一个细心的观察者
+才能注意到道路.
 ]]
 }
 -----------------------
@@ -5508,9 +4883,8 @@ dialog{
   id = "bone_key_cave.hint",
   skip = "all",
   text = [[
-Only by repelling light
-will then shine light
-anew.
+只能靠抵抗光,
+然后耀眼的光重现.
 ]]
 }
 -----------------------
@@ -5519,7 +4893,7 @@ dialog{
   id = "hidden_palace.door_closed",
   skip = "all",
   text = [[
-This door won't open...
+这扇门不会打开...
 ]]
 }
 -----------------------
@@ -5528,8 +4902,7 @@ dialog{
   id = "hidden_palace.using_bone_key",
   icon = 20,
   text = [[
-$1You use the Bone
-Key...
+$1你用了石钥匙...
 ]]
 }
 --------------------
@@ -5537,31 +4910,21 @@ Key...
 dialog{
   id = "dungeon_2.solarus_child",
   text = [[
-$2$v... Thank you.
-You saved my life.
-I am one of the eight
-protectors called forth
-by Princess Zelda to
-watch over the Triforce.
-Using the power of the
-Solarus amulet, a relic
-worn by Princess Zelda,
-is the only way to
-restore the Triforce.
-We have shattered it
-into eight pieces
-hidden across the
-kingdom. We are here
-to guard the eight
-fragments, as Zelda
-watches over the
-Solarus Amulet.
-It must not fall into
-the wrong hands. We
-trust your courage.
-May the hero bring
-peace and prosperity
-to the Kingdom!
+$2$v...感谢你救了我,
+我是八个保护者之一
+被塞尔达公主称为forth
+看管众神三角,用太阳神
+遗物的力量,一个戴在
+塞尔达身上的遗物,这是
+唯一的方法去恢复三角.
+我们粉碎它成八个碎片
+藏在整个王国,我们在这
+里保护八个碎片,同样
+塞尔达公主看管太阳神
+遗物,它一定没有落入
+邪恶的手里.我们相信
+你的勇气.或许英雄带来
+和平和繁荣给这个国家!
 ]]
 }
 -----------------------
@@ -5570,7 +4933,7 @@ dialog{
   id = "dungeon_3.arbror_direction_hint",
   text = [[
 
-  North: Master Arbror
+   北: 恐怖山
 ]]
 }
 -----------------------
@@ -5578,7 +4941,7 @@ dialog{
 dialog{
   id = "dungeon_3.water_drained_somewhere",
   text = [[
-Far away... a noise...
+远处...有动静...
 ]]
 }
 -----------------------
@@ -5586,9 +4949,8 @@ Far away... a noise...
 dialog{
   id = "dungeon_3.arbror_hello",
   text = [[
-Haa!!! You'll never
-defeat me, Master
-Arbror!
+哈!!你永远打败不了
+我,Master Arbror!
 ]]
 }
 -----------------------
@@ -5596,11 +4958,9 @@ Arbror!
 dialog{
   id = "dungeon_3.arbror_killed",
   text = [[
-KARGHHH!!! I have been
-defeated, but you won't
-go far...
-You will
-never succeed...
+咳咳!!我被打败了,但是
+你不会走更远了,你决不
+会成功的!
 ]]
 }
 -----------------------
@@ -5608,26 +4968,18 @@ never succeed...
 dialog{
   id = "dungeon_3.solarus_child",
   text = [[
-$2$v... Thank you.
-You saved my life.
-Thanks to you, this
-horrible creature will
-not never trouble the
-Kingdom again.
-I am one of the eight
-protectors called forth
-by Princess Zelda.
-The Triforce is still
-in danger as long as
-one of my brothers is
-held captive.
-The end of your journey
-is near.
-Save him and return
-peace to these lands.
-May the hero bring
-peace and prosperity
-to the Kingdom!
+$2$v...感谢你救了我.
+感谢你,这些生物将永远
+不会骚扰这个王国.我是
+八个守护者之一,被塞尔
+达公主称为第四.只要
+我的兄弟任然被俘虏三角
+就在危险下..
+你的旅途将要结束了.
+救他、带回和平给这些
+土地，或许英雄能带来
+和平和繁荣给
+整个王国！
 ]]
 }
 -----------------------
@@ -5637,7 +4989,7 @@ dialog{
   skip = "current",
   text = [[
          Level 4
-    Beaumont's Palace
+	 Beaumont的宫殿
 ]]
 }
 -----------------------
@@ -5645,9 +4997,9 @@ dialog{
 dialog{
   id = "dungeon_4.hint_use_map",
   text = [[
-When the exits do not
-appear upon you, use
-the map.
+当出口不出现在你面前，
+查看地图。
+
 ]]
 }
 -----------------------
@@ -5655,9 +5007,8 @@ the map.
 dialog{
   id = "dungeon_4.hint_chests",
   text = [[
-The way is shown by
-the crossing of four
-chests.
+四个箱子的
+交叉显示出道路.
 ]]
 }
 -----------------------
@@ -5667,8 +5018,8 @@ chests.
 dialog{
   id = "dungeon_4.too_cold",
   text = [[
-It's too cold here...
-You need to leave!
+这里太冷了...
+你需要离开!
 ]]
 }
 -----------------------
@@ -5676,21 +5027,15 @@ You need to leave!
 dialog{
   id = "dungeon_4.solarus_child",
   text = [[
-$2$v... Thank you.
-You saved my life.
-I am one of the eight
-protectors called forth
-by Princess Zelda.
-You have demonstrated
-a remarkable courage.
-Thanks to you, we are
-now all together again,
-and the Triforce is
-safe.
+$2$v...感谢你救了我,
+我是八个守护者之一,被
+塞尔达公主称为forth.
+你展示了非凡的勇气.
+感谢你,我们能够再一次
+相聚,并且三角是安全的.
 
-May the hero bring
-peace and prosperity
-to the Kingdom!
+或许英雄带来和平和繁荣
+给这个国家.
 ]]
 }
 -----------------------
@@ -5698,11 +5043,10 @@ to the Kingdom!
 dialog{
   id = "dungeon_4.agahnim",
   text = [[
-$1A G A H N I M !
-$3Yes, himself!
+$1再次!
+$3是的，他自己!
 
-The sorcerer back from
-the land of the dead!!!
+魔术师从死亡大陆回来!!
 Ah ah ah ah ah ah!!!
 So you managed to
 gather the four kids?
@@ -5711,37 +5055,30 @@ a clue of what awaits
 him outside by saying
 that the Triforce is
 safe...
+所以你打算聚集4个孩子?
+这孩子没有说三角是安全
+在外面等他的迹象...
 Ah ah ah ah ah ah!!!
-Acknowledge, young man,
-that I did not come
-back to free the
-despicable Ganon, he
-who once dared call me
-his alter ego...
-I would rather leave
-that filthy culprit
-sealed away in his
-Dark World! Thus I can
-keep the Triforce for
-myself and rule as the
-only master...
+确认,年轻人,我回来不是
+释放卑鄙的Ganon,他曾经
+敢叫我他的更改的意识..
+我想离开那个肮脏的被
+封印在黑暗世界的囚犯!
+因此我能持有众神三角
+为我自己作为唯一的
+主人..
 Ah ah ah ah ah!
-Upon leaving this room,
-you will witness my
-control over this
-kingdom...
+离开这个房间,你将目睹
+我控制着整个王国...
 Ah ah ah ah ah ah ah!
-Now you, young and
-impetuous adventurer,
-and I shall meet again.
-For the time being, I
-am going back to the
-castle!
+现在你,年轻冲动的
+冒险者,等时间到了
+我会再见你,,我准备
+返回城堡!
 Ah ah ah ah ah! We will
-see each other again,
-and with my powers, I
-will put an end to your
-tale!
+我们将再次见面和
+我的力量,我会结束你的
+故事!
 Ah ah ah ah ah ah!!!
 ]]
 }
@@ -5752,7 +5089,8 @@ dialog{
   skip = "current",
   text = [[
          Level 5
-     Ancient Castle
+     
+	     古城堡
 ]]
 }
 -----------------------
@@ -5761,9 +5099,8 @@ dialog{
   id = "dungeon_5.pots_hint",
   skip = "all",
   text = [[
-The key to the puzzle
-is to circle the jars
-in the right direction.
+谜的关键是将旋转罐子
+至正确的方向.
 ]]
 }
 -----------------------
@@ -5771,8 +5108,8 @@ in the right direction.
 dialog{
   id = "dungeon_5.hero_seen_by_guard",
   text = [[
-HALT!
-Don't move!
+停下!
+别动!
 ]]
 }
 -----------------------
@@ -5781,8 +5118,9 @@ dialog{
   id = "dungeon_5.prison_1_locked",
   text = [[
      - Iron Lock -
-None of your keys seem
-to fit...
+     - 铁锁 -
+你的钥匙,
+看起来都不合适...
 ]]
 }
 -----------------------
@@ -5791,8 +5129,8 @@ dialog{
   id = "dungeon_5.prison_1_use_iron_key",
   icon = 28,
   text = [[
-$1You use the Iron
-Key...
+$1
+你用了铁钥匙...
 ]]
 }
 --------------------
@@ -5800,7 +5138,7 @@ Key...
 dialog{
   id = "dungeon_5.prison_2_locked_1",
   text = [[
-It's locked!
+锁的!
 ]]
 }
 -----------------------
@@ -5808,9 +5146,8 @@ It's locked!
 dialog{
   id = "dungeon_5.prison_2_locked_2",
   text = [[
-It's so rusty that even
-the Large Key won't
-work.
+它是如此的生锈以至于
+大钥匙不起作用.
 ]]
 }
 -----------------------
@@ -5819,9 +5156,8 @@ work.
 dialog{
   id = "dungeon_5.prison_2_locked_3",
   text = [[
-Perhaps there is a way
-to force open this old
-lock...
+或许有方法强行打开
+这个旧锁...
 ]]
 }
 -----------------------
@@ -5829,9 +5165,8 @@ lock...
 dialog{
   id = "dungeon_5.puzzle_solved",
   text = [[
-Somewhere deep within
-the castle, a trigger
-is activated...
+城堡的深处的某个地方
+一个触发器被激活...
 ]]
 }
 -----------------------
@@ -5839,13 +5174,10 @@ is activated...
 dialog{
   id = "dungeon_5.agahnim_beginning",
   text = [[
-You were able to pass
-through the security of
-my guards and avoid the
-traps laid in the
-castle.
-I don't care, your
-flight ends here!
+你能通过我的安全防守
+并且避免放在城堡里的
+陷阱.我不在意,你能
+一路打到这里!
 ]]
 }
 -----------------------
@@ -5853,23 +5185,18 @@ flight ends here!
 dialog{
   id = "dungeon_5.agahnim_end",
   text = [[
-...$0...........$0
-You defeated me this
-time...
-But we will meet
-again!
+....$0...........$0
+这次你打败了我...
+但是我们还会见面的..
 
-Your little journey
-won't change
-anything...
-Sahasrahla is under
-my control and he will
-tell me where the
-Princess and the eight
-children are...
 Ah ah ah ah ah!
-I must leave now. See
-you later!
+你的小旅行将不会改变
+任何事情...
+Sahasrahla在我的控制下
+会告诉我公主和八个孩子
+在哪...
+Ah ah ah ah ah!
+我现在必须离开,再见!
 ]]
 }
 -----------------------
@@ -5879,7 +5206,8 @@ dialog{
   skip = "current",
   text = [[
          Level 6
-     Inferno's Maze
+		 
+	  Infero的迷宫
 ]]
 }
 -----------------------
@@ -5888,8 +5216,7 @@ dialog{
 dialog{
   id = "dungeon_6.torches_hint",
   text = [[
-The three lights show
-the way to the fall.
+三个灯显示去下面的路.
 ]]
 }
 -----------------------
@@ -5897,7 +5224,7 @@ the way to the fall.
 dialog{
   id = "dungeon_6.dont_fall_hint",
   text = [[
-Do not fall, but jump.
+别落下,但要跳.
 ]]
 }
 -----------------------
@@ -5905,8 +5232,7 @@ Do not fall, but jump.
 dialog{
   id = "dungeon_6.close_way_hint",
   text = [[
-Then close the path
-behind you.
+然后你后方的路关闭.
 ]]
 }
 -----------------------
@@ -5914,12 +5240,10 @@ behind you.
 dialog{
   id = "dungeon_6.tom",
   text = [[
-$2$v... Thank you.
-You saved my life.
-You have gone through a
-lengthy journey and
-overcome many ordeals
-since we last met.
+$2$v...谢谢你救了我.
+你已经过漫长的旅途和
+克服许多考验自从我们
+上次见面.
 ]]
 }
 -----------------------
@@ -5927,39 +5251,29 @@ since we last met.
 dialog{
   id = "dungeon_6.tom_revelation",
   text = [[
-$2I need to confess
-some serious facts...
-Our king's death was
-not accidental.
-I poisoned him.
-I was under Agahnim's
-control...
-He cast a spell on me
-and I lost my free
-will... There is
-nothing I could do...
-When the spell broke I
-realised what had
-happened... Thus I
-decided to retire to
-the cave where we first
-met. Then I was thrown
-in jail while trying
-to resist when Agahnim
-seized control of the
-castle...
-$v... You must now
-travel to Mount Terror.
-Agahnim went there
-to look for Zelda.
-You must first free
-Sahasrahla before the
-sorcerer manages to
-get the information
-he needs...
-Please take this, my
-little contribution
-to your quest...
+我需要承认一些严肃的
+事实,国王的死不是
+意外的.
+我在Agahnim控制向他
+下毒...
+他下了咒语在我身上,
+我失去了我自由的意志..
+我不能做任何改变的事..
+当咒语失效我意识到
+发生了什么...因此我
+决定退休去洞穴当我们
+第一次见面.Agahnim已经
+控制城堡时,我试图抵抗,
+然后我被被扔进监狱...
+
+$v...你现在一定准备去
+恐怖山.Agahnim
+在哪儿搜索塞尔达.你
+首先必须在魔法师得到
+他需要的信息之前
+解救Sahasrahla...
+请带上这个,我对你
+探索的小贡献...
 ]]
 }
 -----------------------
@@ -5969,7 +5283,8 @@ dialog{
   skip = "current",
   text = [[
          Level 7
-     Crystal Temple
+    
+        水晶神庙
 ]]
 }
 -----------------------
@@ -5990,8 +5305,8 @@ dialog{
 dialog{
   id = "dungeon_7.2f_weak_floor_hint",
   text = [[
-In soil sleeps secrets,
-beneath your soles...
+你鞋底下的土地
+沉睡着秘密...
 ]]
 }
 -----------------------
@@ -5999,8 +5314,7 @@ beneath your soles...
 dialog{
   id = "dungeon_7.2f_dont_fall_alone_hint",
   text = [[
-The solution was to not
-fall alone.
+解决方法是不要落单.
 ]]
 }
 -----------------------
@@ -6008,56 +5322,37 @@ fall alone.
 dialog{
   id = "dungeon_7.sahasrahla",
   text = [[
-$2$v... Thank you.
-You saved my life.
-
-Had I only been able
-to resist a while
-more...
-Those culprits coaxed
-me into revealing the
-location of Zelda and
-the Solarus children.
-Protect them from all
-danger, before
-something dreadful
-happens...
-They are hiding in a
-palace sitting east
-of the mountains. The
-eight Solarus beings
-must escape from
-Agahnim, else the
-sorcerer could break
-the seal created by
-the Solarus Amulet, the
-relic worn by Zelda,
-necessary to the
-gathering of the
-Triforce shards.
-The mystery of Solarus
-is kept safe inside
-the relic.
-The relic's owner has
-the ability to summon
-the Solarus power to
-seal an object, a
-place or even a world,
-as the seven sages once
-did when they sealed
-away the Golden Land.
-Zelda is the heiress of
-that power. She used it
-to seal the Triforce
-shards, using the eight
-beings created by the
-Solarus.
-Thus, as long as she
-alone knows the secret
-of the relic, she alone
-masters the Triforce's
-seal. This is why you
-must protect the seal.
+$2$v... 
+感谢你救了我,
+我仅能存在更久点..
+那些犯人诱骗我透露
+塞尔达和八个孩子的
+位置.从危险中保护
+他们在可怕的事情
+发生之前.
+他们正藏在东方的山脉
+八个孩子必须从
+Agahnim处逃出,另外
+魔法师能打破被
+太阳神护身符创造的
+封印,遗物被塞尔达
+戴着,需要去聚集三角
+碎片.
+太阳神战士之谜是安全
+的保存在遗物中.
+遗物的拥有者有能力
+召唤太阳神战士的力量
+去封印一个物品,一个地方
+,甚至整个世界,因为七个
+圣贤曾经做过封印了整个
+金土地.
+塞尔达是力量的继承者,她
+用它封印三角碎片,用八个
+被太阳神创造出来的人.
+因此,只要她单独知道
+遗物的秘密,她就单独控制
+着三角的封印.这是为什么
+你必须保护封印.
 ]]
 }
 -----------------------
@@ -6067,7 +5362,8 @@ dialog{
   skip = "current",
   text = [[
          Level 8
-   Rock Peaks Dungeon
+		 
+        岩峰土牢
 ]]
 }
 -----------------------
@@ -6076,10 +5372,8 @@ dialog{
   id = "dungeon_8.hint_1F",
   skip = "current",
   text = [[
-Throw yourself into
-the depths of the
-dungeon and carry on
-your journey.
+将你自己抛向地牢深处,
+继续你的旅途.
 ]]
 }
 -----------------------
@@ -6088,8 +5382,8 @@ dialog{
   id = "dungeon_8.hint_B1",
   skip = "current",
   text = [[
-If you are stuck, fight
-the spades with spades.
+如果你卡住了,
+一锹一锹挖.
 ]]
 }
 -----------------------
@@ -6097,23 +5391,18 @@ the spades with spades.
 dialog{
   id = "dungeon_8.billy",
   text = [[
-You did not think you
-would find your old
-buddy Billy the
-Reckless, greatest
-hero of all times?!
-The princess and the
-eight childs are not
-here anymore.
-They did find shelter
-in my palace, but I
-took the responsability
-of handing them to
-Agahnim...
 
+你不认为你想发现
+你的老伙伴(Billy the 
+Reckness,greast hero 
+of all times)?
+公主和八个孩子再不会
+在这,他们在我的宫殿
+找到藏身处,但是我有
+责任把他们交给
+ Agahnim...
 
-Now, it is your turn
-to die!
+现在,临到你去死了!
 ]]
 }
 -----------------------
@@ -6121,20 +5410,16 @@ to die!
 dialog{
   id = "dungeon_8.agahnim",
   text = [[
-$1That Billy was really
-incapable of anything.
-Seeing as how he, along
-with all my other
-minions, could not end
-you, little parasite, I
-am making it a private
-matter. You will
-disappear once and for
-all. And then, finally,
-I will get my hands on
-the Triforce and extend
-my power to the whole
-world. Ah ah ah ah!
+$1
+那个Billy确实是个无能.
+看他的样子,随着我另
+一个奴隶,不能终结你,
+小寄生虫,我准备做一个
+私人的物品.你将会立即
+整个人消失.到那时,
+最终我将持有三角扩展
+我的力量至整个世界.
+Ah ah ah ah!
 ]]
 }
 -----------------------
@@ -6143,9 +5428,8 @@ dialog{
   id = "dungeon_8.agahnim_middle",
   text = [[
 $1$0...$0.............$0
-You are rather tough,
-that is no lie.
-But what about this?
+你很强，这不是谎言，
+但这是为什么？
 ]]
 }
 -----------------------
@@ -6154,18 +5438,15 @@ dialog{
   id = "dungeon_8.agahnim_end",
   text = [[
 $1$0...$0 .........$0
-I am defeated...$0
-This is the end...$0
-I was not up to it...
+我被击败了...$0
+结束了...    $0
+我不能接受...
 
 
-I bow down before your
-bravery.$0
+我屈服你的勇气.$0
 
-Since I was not able
-to defeat you, it is
-now time for me to free
-my Master...
+既然我不能战胜你,是
+时候释放我的主人...
 Ah ah ah ah ah ah!!!
 ]]
 }
@@ -6174,26 +5455,19 @@ Ah ah ah ah ah ah!!!
 dialog{
   id = "dungeon_8.ganon",
   text = [[
-$1Thus, you have
-managed to defeat my
-alter ego, the dark
-sorcerer Agahnim...
-That was pretty useless
-considering it made him
-free me, the dark times
-are not over! As a
-reward for your work,
-you, the Princess as
-well as the eight
-children, are invited
-to join me in my
-palace. I will take
-the Triforce back and
-you shall be the first
-to witness this amazing
-event.
-Let your spirit travel
-freely...
+$1
+因此,你成功打败了我
+自主的意识,黑暗魔法师
+Agahimn...
+这相当无助考虑的使他
+释放我,黑暗时代将
+永远不会结束!作为你
+工作的奖励,你,公主和
+八个孩子被邀请加入我的
+宫殿.我将拿回三角并且
+你将成为目击这惊人事件
+的人..
+让你的心灵自由旅行...
 ]]
 }
 -----------------------
@@ -6203,7 +5477,8 @@ dialog{
   skip = "current",
   text = [[
          Level 9
-   Shrine of Memories
+   
+        记忆神殿
 ]]
 }
 -----------------------
@@ -6212,7 +5487,7 @@ dialog{
   id = "dungeon_9.clockwise_switches_hint",
   skip = "all",
   text = [[
-Go clockwise.
+顺时针走.
 ]]
 }
 -----------------------
@@ -6221,7 +5496,7 @@ dialog{
   id = "dungeon_9.3f_door_b_hint_0",
   skip = "all",
   text = [[
-To the right.
+向右走.
 ]]
 }
 -----------------------
@@ -6230,7 +5505,7 @@ dialog{
   id = "dungeon_9.3f_door_b_hint_2",
   skip = "all",
   text = [[
-To the left.
+向左走.
 ]]
 }
 -----------------------
@@ -6239,7 +5514,7 @@ dialog{
   id = "dungeon_9.3f_door_b_hint_3",
   skip = "all",
   text = [[
-Down.
+向下.
 ]]
 }
 -----------------------
@@ -6248,9 +5523,8 @@ dialog{
   id = "dungeon_9.5f_childs_hint",
   skip = "all",
   text = [[
-$1To defeat Ganon,
-the torches must be
-lit clockwise.
+$1为了打败Ganon,
+火炬必须顺时针点燃.
 ]]
 }
 -----------------------
@@ -6258,15 +5532,12 @@ lit clockwise.
 dialog{
   id = "dungeon_9.boss",
   text = [[
-There you are, young
-weakling.
+你来了,年轻的弱者.
 
-I have been waiting
-for you for a long
-time now.
-The time for revenge
-has finally come!
-Prepare to die.
+我等你很久了.
+复仇的时间最终来临!
+准备死吧.
+
 ]]
 }
 -----------------------
@@ -6274,18 +5545,14 @@ Prepare to die.
 dialog{
   id = "dungeon_9.zelda",
   text = [[
-$1$v... Thank you.
-Your victory on evil
-shows once again that
-wisdom and justice
-always triumph over
-the forces of evil.
-Thanks to your
-accomplishments, our
-world has been restored
-to its original state.
-The Kingdom of Hyrule
-is whole once again.
+$1$v...感谢你..你对
+邪恶的胜利再一次展示
+智慧和正义总是
+战胜邪恶力量.
+
+感谢你的成就,我们世界
+已经恢复原状.
+海拉尔王国再次统一.
 ]]
 }
 -----------------------
@@ -6293,27 +5560,20 @@ is whole once again.
 dialog{
   id = "dungeon_9.zelda_children",
   text = [[
-$1I must destroy this
-relic. The power of
-Solarus is too
-dangerous. By
-destroying it, there
-will be no way to
-restore the Triforce
-from its fragments.
-Even if it is for a
-good purpose as you
-once used it, the evil
-will always try to
-reach for it, like
-Agahnim and Ganondorf.
-With the power of the
-eight beings created
-by the Solarus Essence,
-the relic could break
-the Seal.
-Now you understand why
-I must destroy it.
+$1
+我必须毁了这个遗物.
+太阳神战士的力量太危险
+,通过毁灭它,将不会有
+任何方法从碎片中
+恢复三角,即使你曾经
+为了一个好的目的
+使用它,但邪恶总是想得
+到它,像Agahnim和
+Ganondorf,通过用太阳
+神精华八个部分创造的
+人,纪念物能毁掉封印.
+现在你明白为什么我
+必须毁了它.
 ]]
 }
 -----------------------
@@ -6321,15 +5581,11 @@ I must destroy it.
 dialog{
   id = "dungeon_9.zelda_end",
   text = [[
-$1It is over.$0
+$1 结束了 $0
 
-
-The power of the
-Solarus has vanished
-forever.
-The Triforce will
-remain sealed until
-time ends.
+太阳神战士的力量永远
+消失而三角维持封印
+直到时间终结...
 ]]
 }
 -----------------------
@@ -6339,7 +5595,8 @@ dialog{
   skip = "current",
   text = [[
      Secret level
-     Skyward Tower
+    
+	 天空之塔
 ]]
 }
 -----------------------
@@ -6350,7 +5607,8 @@ dialog{
 $1        Credits$0
 
 
-      Programming:$0
+      程序:$0
+	  
 Christopho$0
 ]]
 }
@@ -6359,12 +5617,9 @@ Christopho$0
 dialog{
   id = "credits_2",
   text = [[
-$1   Maps and puzzles:$0
-
-
+$1 地图和谜题:$0
+     
 Christopho$0
-
-
 Metallizer$0
 Binbin$0
 Mymy$0
@@ -6375,13 +5630,12 @@ Mymy$0
 dialog{
   id = "credits_3",
   text = [[
-$1   Graphical assets:$0
+$1   图片资源:$0
 Newlink$0
-
 Neovyse$0
 @PyroNet$0
 Djipi$0
-$1        Music:$0
+$1      Music音乐:$0
 Marine$0
 Metallizer$0
 ]]
@@ -6391,7 +5645,7 @@ Metallizer$0
 dialog{
   id = "credits_4",
   text = [[
-$1        Story:$0
+$1        故事:$0
 Guillaume F.$0
 Christopho$0
 $1        English
@@ -6407,7 +5661,7 @@ Jeff$0
 dialog{
   id = "credits_6",
   text = [[
-$1        Tests:$0
+$1     测试:$0
 
 
 Thyb$0
