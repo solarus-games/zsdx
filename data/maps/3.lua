@@ -182,3 +182,10 @@ function dungeon_3_entrance_weak_block:on_opened()
   sol.audio.play_sound("secret") -- play the sound only once
 end
 
+function diagonal_jump_sensor:on_activated()
+
+  -- We don't use a jumper here because we don't want the delay.
+  sol.audio.play_sound("jump")
+  hero:start_jumping(5, 56, true)
+end
+
