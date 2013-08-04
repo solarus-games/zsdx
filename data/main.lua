@@ -98,7 +98,11 @@ function sol.main:debug_on_key_pressed(key, modifiers)
 	hero:set_position(x, y, layer + 1)
       end
     elseif key == "r" then
-      hero:set_walking_speed(300)
+      if hero:get_walking_speed() == 300 then
+        hero:set_walking_speed(88)
+      else
+        hero:set_walking_speed(300)
+      end
     else
       -- Not a known in-game debug key.
       handled = false
