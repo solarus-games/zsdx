@@ -34,11 +34,9 @@ function DS12:on_activated()
 end
 
 function STT5:on_moved()
-  local x, y = STT5:get_position()
+  local x, y = self:get_position()
   if x >= 1096 and x <= 1160
       and y >= 893 and y <= 925 then
-    STT5:set_enabled(false)
-    sol.audio.play_sound("jump")
     map:get_game():set_value("b725", true)
     sol.timer.start(500, function()
       sol.audio.play_sound("bomb")

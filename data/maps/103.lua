@@ -64,33 +64,7 @@ function nw_block:on_moved()
     hole_a:set_enabled(true)
     hole_a_teletransporter:set_enabled(true)
     game:set_value("b623", true)
-    sol.audio.play_sound("jump")
     sol.timer.start(500, function() sol.audio.play_sound("bomb") end)
-  end
-end
-
-function map:on_update()
-
-  if not game:get_value("b623") then
-    -- blocks could overlap holes or teletransporters with old versions of the engine,
-    -- so we disable the hole A and its teletransporter when necessary
-    -- TODO this is not necessary anymore
-
-    local disable_hole = false
-    local block_x, block_y = nw_block:get_position()
-    if block_y == 69 and block_x >= 520 and block_x < 544 then
-      -- the block is just before the hole
-      local hero_x = hero:get_position()
-      disable_hole = hero_x < block_x
-    end
-
-    if disable_hole and hole_a:is_enabled() then
-      hole_a:set_enabled(false)
-      hole_a_teletransporter:set_enabled(false)
-    elseif not disable_hole and not hole_a:is_enabled() then
-      hole_a:set_enabled(true)
-      hole_a_teletransporter:set_enabled(true)
-    end
   end
 end
 
