@@ -67,9 +67,8 @@ local function guard_sensor_activated(sensor)
   end
 end
 
-for _, guard in ipairs(map:get_entities("guard_")) do
-  local sensors = map:get_entities(guard:get_name() .. "_sensor_")
-  for _, sensor in ipairs(sensors) do
+for guard in map:get_entities("guard_") do
+  for sensor in map:get_entities(guard:get_name() .. "_sensor_") do
     sensor.on_activated = guard_sensor_activated
     sensor.on_activated_repeat = guard_sensor_activated
   end
