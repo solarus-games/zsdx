@@ -476,7 +476,7 @@ enemy{ id = "fire_bat", description = "Fire bat" }
 language{ id = "de", description = "Deutsch" }
 language{ id = "en", description = "English" }
 language{ id = "es", description = "Español" }
-language{ id = "fr", description = "French" }
+language{ id = "fr", description = "Français" }
 language{ id = "zh_CN", description = "Chinese (simplified)" }
 language{ id = "zh_TW", description = "Chinese (traditional)" }
 
