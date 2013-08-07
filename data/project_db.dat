@@ -473,8 +473,10 @@ enemy{ id = "billy", description = "Billy" }
 enemy{ id = "ganon", description = "Ganon" }
 enemy{ id = "fire_bat", description = "Fire bat" }
 
-language{ id = "fr", description = "French dialogs" }
-language{ id = "en", description = "English dialogs" }
-language{ id = "de", description = "Deutsch dialogs" }
-language{ id = "nl", description = "Nederlands dialogs" }
+language{ id = "de", description = "Deutsch" }
+language{ id = "en", description = "English" }
+language{ id = "es", description = "Español" }
+language{ id = "fr", description = "French" }
+language{ id = "zh_CN", description = "Chinese (simplified)" }
+language{ id = "zh_TW", description = "Chinese (traditional)" }
 
