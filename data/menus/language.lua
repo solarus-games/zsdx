@@ -19,7 +19,7 @@ function language_menu:on_started()
   else
 
     local ids = sol.language.get_languages()
-    local default_id = sol.language.get_default_language()
+    local default_id = "en"
     local index = 1
     local cursor_position = 1
     self.surface = sol.surface.create(320, 240)
