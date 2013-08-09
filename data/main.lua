@@ -115,15 +115,36 @@ function sol.main:debug_on_key_pressed(key, modifiers)
   return handled
 end
 
--- If debug is enabled, the shift key skips dialogs.
+-- If debug is enabled, the shift key skips dialogs
+-- and the control key traverses walls.
 if sol.main.is_debug_enabled() then
 
+  local ignore_obstacles = false
   function sol.main:on_update()
 
     local game = sol.main.game
-    if game ~= nil and game:is_dialog_enabled() then
-      if sol.input.is_key_pressed("left shift") or sol.input.is_key_pressed("right shift") then
-        game.dialog_box:show_all_now()
+    if game ~= nil then
+
+      if game:is_dialog_enabled() then
+        if sol.input.is_key_pressed("left shift") or sol.input.is_key_pressed("right shift") then
+          game.dialog_box:show_all_now()
+        end
+      end
+
+      local hero = game:get_hero()
+      if hero ~= nil then
+        local movement = hero:get_movement()
+        if movement ~= nil then
+          if not ignore_obstacles
+              and (sol.input.is_key_pressed("left control") or sol.input.is_key_pressed("right control")) then
+            ignore_obstacles = true
+            movement:set_ignore_obstacles(true)
+          elseif ignore_obstacles
+              and (not sol.input.is_key_pressed("left control") and not sol.input.is_key_pressed("right control")) then
+            ignore_obstacles = false
+            movement:set_ignore_obstacles(false)
+          end
+        end
       end
     end
   end
