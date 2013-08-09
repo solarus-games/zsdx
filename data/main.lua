@@ -125,11 +125,10 @@ end
 
 -- If debug is enabled, the shift key skips dialogs
 -- and the control key traverses walls.
-if sol.main.is_debug_enabled() then
+local ignore_obstacles = false
+function sol.main:on_update()
 
-  local ignore_obstacles = false
-  function sol.main:on_update()
-
+  if sol.main.is_debug_enabled() then
     local game = sol.main.game
     if game ~= nil then
 
