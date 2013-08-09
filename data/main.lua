@@ -2,11 +2,19 @@
 
 local console = sol.main.load_file("console")()
 
+local debug_enabled = false
+function sol.main.is_debug_enabled()
+  return debug_enabled
+end
+
 -- Event called when the program starts.
 function sol.main:on_started()
 
   -- Load built-in settings (audio volume, video mode, etc.).
   sol.main.load_settings()
+
+  -- If there is a file called "debug" in the write directory, enable debug mode.
+  debug_enabled = sol.main.load_file("debug") ~= nil
 
   -- Show the Solarus logo initially.
   local solarus_logo_menu = require("menus/solarus_logo")
