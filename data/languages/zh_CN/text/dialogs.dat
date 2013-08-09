@@ -2075,9 +2075,9 @@ dialog{
   id = "dungeon_1",
   skip = "current",
   text = [[
-	      Lv 1
-		  
-	  「森林土牢」
+          Lv 1
+          
+      「森林土牢」
 ]]
 }
 -----------------------
@@ -2088,8 +2088,8 @@ dialog{
   skip = "current",
   text = [[
          Lv 2
-		 
-	 「岩之洞窟」
+         
+     「岩之洞窟」
 ]]
 }
 -----------------------
@@ -2102,7 +2102,7 @@ dialog{
          Level 3
   Master Arbror's Den
           Lv 3
-		   
+           
      「木精巢穴」
 ]]
 }
@@ -2418,8 +2418,8 @@ dialog{
   id = "outside_world.village.welcome_sign",
   text = [[
 
-	欢迎来到Lyriann
-	
+    欢迎来到Lyriann
+    
 ]]
 }
 -----------------------
@@ -2553,7 +2553,7 @@ dialog{
   id = "outside_world.village.rupee_house_sign",
   text = [[
      - 卢币屋 -
-	
+    
     快乐赢卢币！
 ]]
 }
@@ -2580,7 +2580,7 @@ dialog{
   id = "outside_world.village.cake_shop_sign",
   text = [[
 
-		 面包店
+         面包店
 ]]
 }
 -----------------------
@@ -2590,7 +2590,7 @@ dialog{
   id = "outside_world.village.shop_sign",
   text = [[
 
-		  商店
+          商店
 ]]
 }
 -----------------------
@@ -4128,8 +4128,8 @@ dialog{
   skip = "all",
   text = [[
   
-	 恐怖山
-	  --->
+     恐怖山
+      --->
 ]]
 }
 -----------------------
@@ -4168,9 +4168,9 @@ dialog{
   skip = "all",
   text = [[
 
-		古城堡
-		
-		 <---
+        古城堡
+        
+         <---
 ]]
 }
 -----------------------
@@ -4513,7 +4513,7 @@ dialog{
   text = [[
 
        旧货商店
-	   
+       
 期待的价格,
 多量的选择.
 ]]
@@ -4990,7 +4990,7 @@ dialog{
   skip = "current",
   text = [[
          Level 4
-	 Beaumont的宫殿
+     Beaumont的宫殿
 ]]
 }
 -----------------------
@@ -5091,7 +5091,7 @@ dialog{
   text = [[
          Level 5
      
-	     古城堡
+         古城堡
 ]]
 }
 -----------------------
@@ -5207,8 +5207,8 @@ dialog{
   skip = "current",
   text = [[
          Level 6
-		 
-	  Infero的迷宫
+         
+      Infero的迷宫
 ]]
 }
 -----------------------
@@ -5363,7 +5363,7 @@ dialog{
   skip = "current",
   text = [[
          Level 8
-		 
+         
         岩峰土牢
 ]]
 }
@@ -5597,7 +5597,7 @@ dialog{
   text = [[
      Secret level
     
-	 天空之塔
+     天空之塔
 ]]
 }
 -----------------------
@@ -5609,7 +5609,7 @@ $1        Credits$0
 
 
       程序:$0
-	  
+      
 Christopho$0
 ]]
 }
