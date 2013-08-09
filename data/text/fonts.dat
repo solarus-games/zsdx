@@ -22,7 +22,7 @@ font{
 }
 
 font{
-  id = "traditional_chinese",
+  id = "chinese",
   file = "text/wqy-zenhei.ttc",
   size = 12,
 }

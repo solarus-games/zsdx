@@ -218,9 +218,9 @@ function sol.language.get_dialog_font()
 
   local language = sol.language.get_language()
   local font
-  if language == "zh_TW" then
-    -- Traditional Chinese font.
-    font = "traditional_chinese"
+  if language == "zh_TW" or language == "zh_CN" then
+    -- Chinese font.
+    font = "chinese"
   else
     font = "dialog"
   end
@@ -235,9 +235,9 @@ function sol.language.get_dialog_font(language)
 
   local language = sol.language.get_language()
   local font
-  if language == "zh_TW" then
-    -- Traditional Chinese font.
-    font = "traditional_chinese"
+  if language == "zh_TW" or language == "zh_CN" then
+    -- Chinese font.
+    font = "chinese"
   else
     font = "dialog"
   end
@@ -252,9 +252,9 @@ function sol.language.get_menu_font(language)
   language = language or sol.language.get_language()
 
   local font
-  if language == "zh_TW" then
-    -- Traditional Chinese font.
-    font = "traditional_chinese"
+  if language == "zh_TW" or language == "zh_CN" then
+    -- Chinese font.
+    font = "chinese"
   else
     font = "fixed"
   end
