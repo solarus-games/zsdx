@@ -481,7 +481,7 @@ dialog{
   icon = 17,
   skip = "all",
   text = [[
-吃一個巧克力面包恢復
+吃一個巧克力麵包恢復
 三顆心.
 ]]
 }
@@ -493,7 +493,7 @@ dialog{
   icon = 18,
   skip = "all",
   text = [[
-吃一個羊角面包恢復
+吃一個羊角麵包恢復
 七顆心.
 ]]
 }
@@ -1142,7 +1142,7 @@ dialog{
   icon = 17,
   text = [[
 你發現一個巧克力
-羊角面包!$0
+羊角麵包!$0
 
 吃了它恢復少許生命.
 ]]
@@ -1154,7 +1154,7 @@ dialog{
   id = "_treasure.croissant.1",
   icon = 18,
   text = [[
-你發現羊角面包!$0
+你發現羊角麵包!$0
 全是酥脆的,吃了它去
 恢復生命.
 ]]
@@ -2263,7 +2263,7 @@ dialog{
   icon = 17,
   question = true,
   text = [[
-一份巧克力羊角面包.
+一份巧克力羊角麵包.
 
 你想要做什麼?
 
@@ -2580,7 +2580,7 @@ dialog{
   id = "outside_world.village.cake_shop_sign",
   text = [[
 
-         面包店
+         麵包店
 ]]
 }
 -----------------------
@@ -3202,7 +3202,7 @@ dialog{
 保護村莊的灌木.你正在
 尋找Sahasrahla
 不是嗎?他的房子在這
-最南方的,靠近面包點,
+最南方的,靠近麵包點,
 你不記得嗎?
 ]]
 }
@@ -3545,7 +3545,7 @@ dialog{
   id = "cake_shop.pain_au_chocolat",
   next = "_unknown",
   text = [[
-美味的巧克力面包
+美味的巧克力麵包
 恢復三顆心
 ]]
 }
@@ -3556,7 +3556,7 @@ dialog{
   id = "cake_shop.croissant",
   next = "_unknown",
   text = [[
-酥脆的羊角面包
+酥脆的羊角麵包
 恢復七顆心.
 ]]
 }
@@ -4224,7 +4224,7 @@ dialog{
   question = true,
   text = [[
 你將給我什麼?
-羊角面包
+羊角麵包
 蘋果派
 ]]
 }
@@ -4244,7 +4244,7 @@ dialog{
 dialog{
   id = "billy_cave.give_croissant_without",
   text = [[
-小賊!你羊角面包
+小賊!你羊角麵包
 都沒有!
 ]]
 }
@@ -4253,7 +4253,7 @@ dialog{
 dialog{
   id = "billy_cave.give_croissant",
   text = [[
-羊角面包?
+羊角麵包?
 你是開我玩笑嗎?
 ]]
 }
@@ -4534,7 +4534,7 @@ dialog{
 dialog{
   id = "junk_shop.croissant",
   text = [[
-羊角面包.
+羊角麵包.
 補充生命.
 ]]
 }
@@ -4595,7 +4595,7 @@ dialog{
   id = "junk_shop.pain_au_chocolat",
   text = [[
 恢復心的巧克力
-羊角面包.
+羊角麵包.
 ]]
 }
 -----------------------
