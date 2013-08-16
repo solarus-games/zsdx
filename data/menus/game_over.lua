@@ -24,7 +24,7 @@ local state
 
 function game:on_game_over_started()
 
-  sol.menu.start(game:get_map(), game_over_menu)
+  sol.menu.start(game, game_over_menu)
 end
 
 function game_over_menu:on_started()
