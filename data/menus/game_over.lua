@@ -10,7 +10,7 @@ local hero_dead_x, hero_dead_y
 local fade_sprite
 local fairy_sprite
 local cursor_position
-local state 
+local state
 
 -- state can be one of:
 -- "waiting_start": The game-over scene will start soon.
