@@ -21,10 +21,13 @@ local state
 -- "waiting_end": The game will be resumed soon.
 -- "resume_game": The game can be resumed.
 -- "menu": The player can choose an option in the game-over menu.
+-- "finished": An action was validated in the menu.
 
 function game:on_game_over_started()
 
-  sol.menu.start(game, game_over_menu)
+  -- Attach the game-over menu to the map so that the map's fade-out
+  -- effect applies to it when restarting the game.
+  sol.menu.start(game:get_map(), game_over_menu)
 end
 
 function game_over_menu:on_started()
@@ -134,7 +137,7 @@ function game_over_menu:on_draw(dst_surface)
     dst_surface:fill_color(red)
   end
 
-  if state == "menu" then
+  if state == "menu" or state == "finished" then
     background_img:draw(dst_surface)
     fairy_sprite:draw(dst_surface)
   elseif state ~= "resume_game" then
@@ -165,6 +168,8 @@ function game_over_menu:on_command_pressed(command)
     fairy_y = 112 + cursor_position * 16
     fairy_sprite:set_xy(fairy_x, fairy_y)
   elseif command == "action" or command == "attack" then
+
+    state = "finished"
     sol.audio.play_sound("danger")
     game:set_hud_enabled(false)
     game:add_life(7 * 4)  -- Restore 7 hearts.
