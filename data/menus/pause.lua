@@ -22,7 +22,7 @@ function game:start_pause_menu()
   self:set_value("pause_last_submenu", submenu_index)
 
   sol.audio.play_sound("pause_open")
-  sol.menu.start(self:get_map(), self.pause_submenus[submenu_index], false)
+  sol.menu.start(self, self.pause_submenus[submenu_index], false)
 end
 
 function game:stop_pause_menu()
