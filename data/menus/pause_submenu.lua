@@ -62,11 +62,6 @@ function submenu:on_started()
 
   self.game:set_custom_command_effect("action", nil)
   self.game:set_custom_command_effect("attack", "save")
-
-  -- Show this menu below the HUD.
-  -- TODO make functions sol.menu.bring_to_front, sol.menu.bring_to_back
-  self.game:set_hud_enabled(false)
-  self.game:set_hud_enabled(true)
 end
 
 -- Sets the caption text.
@@ -114,7 +109,7 @@ function submenu:next_submenu()
   local submenu_index = self.game:get_value("pause_last_submenu")
   submenu_index = (submenu_index % #submenus) + 1
   self.game:set_value("pause_last_submenu", submenu_index)
-  sol.menu.start(self.game, submenus[submenu_index])
+  sol.menu.start(self.game, submenus[submenu_index], false)
 end
 
 function submenu:previous_submenu()
@@ -125,7 +120,7 @@ function submenu:previous_submenu()
   local submenu_index = self.game:get_value("pause_last_submenu")
   submenu_index = (submenu_index + 2) % #submenus + 1
   self.game:set_value("pause_last_submenu", submenu_index)
-  sol.menu.start(self.game, submenus[submenu_index])
+  sol.menu.start(self.game, submenus[submenu_index], false)
 end
 
 function submenu:on_command_pressed(command)
