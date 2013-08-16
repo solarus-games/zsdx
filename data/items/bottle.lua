@@ -1,7 +1,6 @@
 -- This script handles all bottles (each bottle script runs it).
 
 local item = ...
-item.bottle_to_make_empty = nil  -- Name of a bottle to make empty at the next cycle.
 
 function item:on_using()
 
@@ -97,42 +96,5 @@ function item:on_npc_interaction_item(npc, item_used)
   end
 
   return false
-end
-
-function item:on_variant_changed(variant)
-
-  -- The possession state of a bottle has changed:
-  -- see if the player has at least a fairy.
-  -- TODO remove this when the gameover screen is scripted.
-  if self:get_game():has_bottle_with(6) then
-    self:get_game():set_ability("get_back_from_death", 1)
-  else
-    self:get_game():set_ability("get_back_from_death", 0)
-  end
-end
-
-function item:on_ability_used(ability_name)
-
-  -- TODO remove this when the gameover screen is scripted.
-  -- If the hero was just saved by a fairy,
-  -- let's find a bottle with a fairy and make it empty.
-
-  -- Remember that all bottles are notified, but only
-  -- one should remove its fairy.
-
-  if ability_name == "get_back_from_death"
-    and self:get_game():has_ability("get_back_from_death") then
-
-    self.bottle_to_make_empty = self:get_game():get_first_bottle_with(6)
-  end
-end
-
-function item:on_update()
-
-  -- TODO remove this when the gameover screen is scripted.
-  if self.bottle_to_make_empty ~= nil then
-    self.bottle_to_make_empty:set_variant(1)
-    self.bottle_to_make_empty = nil
-  end
 end
 

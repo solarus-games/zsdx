@@ -14,7 +14,7 @@ function sol.main:on_started()
   sol.main.load_settings()
 
   -- If there is a file called "debug" in the write directory, enable debug mode.
-  debug_enabled = sol.main.load_file("debug") ~= nil
+  debug_enabled = sol.file.exists("debug")
 
   -- Show the Solarus logo initially.
   local solarus_logo_menu = require("menus/solarus_logo")

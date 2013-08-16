@@ -69,7 +69,7 @@ function hearts:check()
       if self.empty_heart_sprite:get_animation() ~= "danger" then
         self.empty_heart_sprite:set_animation("danger")
         if self.danger_sound_timer == nil then
-          self.danger_sound_timer = sol.timer.start(self.game, 250, function()
+          self.danger_sound_timer = sol.timer.start(self, 250, function()
             self:repeat_danger_sound()
           end)
           self.danger_sound_timer:set_suspended_with_map(true)
@@ -87,7 +87,7 @@ function hearts:check()
   end
 
   -- Schedule the next check.
-  sol.timer.start(self.game, 50, function()
+  sol.timer.start(self, 50, function()
     self:check()
   end)
 end
