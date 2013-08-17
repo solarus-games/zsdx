@@ -2,8 +2,11 @@ local map = ...
 local game = map:get_game()
 -- Hidden palace D1
 
+local light_manager = require("maps/lib/light_manager")
+
 function map:on_started(destination)
 
+  light_manager.enable_light_features(map)
   map:set_light(0)
 
   if game:get_value("b934") then

@@ -2,6 +2,8 @@ local map = ...
 local game = map:get_game()
 -- Dungeon 10 1F
 
+local light_manager = require("maps/lib/light_manager")
+
 local function are_all_torches_on()
 
   return torch1 ~= nil
@@ -21,6 +23,7 @@ end
 
 function map:on_started(destination)
 
+  light_manager.enable_light_features(map)
   map:set_light(1)
 
   if game:get_value("b201") then

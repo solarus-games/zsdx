@@ -13,10 +13,12 @@ local map = ...
 -- BB: Barrier Button
 -- DS: Door Sensor
 
+local light_manager = require("maps/lib/light_manager")
 local dont_close_LD06 = false
 
 function map:on_started()
 
+  light_manager.enable_light_features(map)
   map:set_light(0)
   if not map:get_game():get_value("b725") then
     STT5:set_enabled(false)
