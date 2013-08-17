@@ -575,7 +575,7 @@ dialog{
   icon = 25,
   skip = "all",
   text = [[
-這些虎皮捲軸會使你
+這些虎皮卷軸會使你
 掌握高級劍技.
 ]]
 }
@@ -1247,7 +1247,7 @@ Scrolls!$0 You now
 master the long
 forgotten Whirlwind
 Attack.
-你發現虎皮捲軸!$0
+你發現虎皮卷軸!$0
 你現在掌握早被遺忘的
 旋風劍擊.
 ]]
