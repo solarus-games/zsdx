@@ -126,6 +126,7 @@ end
 -- If debug is enabled, the shift key skips dialogs
 -- and the control key traverses walls.
 local hero_movement = nil
+local ctrl_pressed = false
 function sol.main:on_update()
 
   if sol.main.is_debug_enabled() then
@@ -140,14 +141,25 @@ function sol.main:on_update()
 
       local hero = game:get_hero()
       if hero ~= nil then
-        hero_movement = hero:get_movement()
+        if hero:get_movement() ~= hero_movement then
+          -- The movement has changed.
+          hero_movement = hero:get_movement()
+          if hero_movement ~= nil
+              and ctrl_pressed
+              and not hero_movement:get_ignore_obstacles() then
+            -- Also traverse obstacles in the new movement.
+            hero_movement:set_ignore_obstacles(true)
+          end
+        end
         if hero_movement ~= nil then
-          if not hero_movement:get_ignore_obstacles()
+          if not ctrl_pressed
               and (sol.input.is_key_pressed("left control") or sol.input.is_key_pressed("right control")) then
             hero_movement:set_ignore_obstacles(true)
-          elseif hero_movement:get_ignore_obstacles()
+            ctrl_pressed = true
+          elseif ctrl_pressed
               and (not sol.input.is_key_pressed("left control") and not sol.input.is_key_pressed("right control")) then
             hero_movement:set_ignore_obstacles(false)
+            ctrl_pressed = false
           end
         end
       end
