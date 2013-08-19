@@ -37,10 +37,10 @@ local dialog_box = {
 
 -- Constants.
 local nb_visible_lines = 3     -- Maximum number of lines in the dialog box.
-local char_delays = {
-  slow = 60,
-  medium = 40,
-  fast = 20  -- Default.
+local char_delays = {          -- Delay before displaying the next two characters.
+  slow = 120,                  -- They are drawn by groups of two to avoid
+  medium = 80,                 -- a too short delay for the timer.
+  fast = 40  -- Default.
 }
 local letter_sound_delay = 100
 local box_width = 220
@@ -412,6 +412,13 @@ function dialog_box:add_character()
   end
 
   if self.gradual then
+    if self.char_index % 2 == 0 then
+      -- Every other time, draw the next character immediately.
+      -- (char_delay is the delay between groups of two characters,
+      -- to avoid too short timers).
+      additional_delay = -self.char_delay
+    end
+
     sol.timer.start(self, self.char_delay + additional_delay, repeat_show_character)
   end
 end
