@@ -197,11 +197,14 @@ function inventory_submenu:on_draw(dst_surface)
   self:draw_caption(dst_surface)
 
   -- Draw each inventory item.
-  local y = 82
+  local quest_width, quest_height = dst_surface:get_size()
+  local initial_x = quest_width / 2 - 96
+  local initial_y = quest_height / 2 - 38
+  local y = initial_y
   local k = 0
 
   for i = 0, 3 do
-    local x = 64
+    local x = initial_x
 
     for j = 0, 6 do
       k = k + 1
@@ -221,7 +224,7 @@ function inventory_submenu:on_draw(dst_surface)
   end
 
   -- Draw the cursor.
-  self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 77 + 32 * self.cursor_row)
+  self.cursor_sprite:draw(dst_surface, initial_x + 32 * self.cursor_column, initial_y - 5 + 32 * self.cursor_row)
 
   -- Draw the item being assigned if any.
   if self:is_assigning_item() then
