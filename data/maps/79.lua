@@ -13,8 +13,6 @@ local function chest_empty(chest)
     sol.audio.play_sound("secret")
     hero:unfreeze()
   end
-
-  return true
 end
 
 function map:on_started(destination)
