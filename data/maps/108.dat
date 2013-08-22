@@ -1574,7 +1574,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1585,7 +1584,6 @@ enemy{
   direction = 3,
   breed = "red_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1596,7 +1594,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1607,7 +1604,6 @@ enemy{
   direction = 3,
   breed = "red_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1618,7 +1614,6 @@ enemy{
   direction = 3,
   breed = "blue_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1629,7 +1624,6 @@ enemy{
   direction = 3,
   breed = "red_hardhat_beetle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1640,7 +1634,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1651,7 +1644,6 @@ enemy{
   direction = 3,
   breed = "bubble",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1662,7 +1654,6 @@ enemy{
   direction = 3,
   breed = "pike_detect",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1673,7 +1664,6 @@ enemy{
   direction = 3,
   breed = "pike_detect",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1684,7 +1674,6 @@ enemy{
   direction = 3,
   breed = "pike_detect",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1695,7 +1684,6 @@ enemy{
   direction = 3,
   breed = "pike_detect",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1706,7 +1694,6 @@ enemy{
   direction = 3,
   breed = "pike_detect",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1717,7 +1704,6 @@ enemy{
   direction = 3,
   breed = "pike_detect",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1728,7 +1714,6 @@ enemy{
   direction = 3,
   breed = "pike_detect",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -1739,7 +1724,6 @@ enemy{
   direction = 3,
   breed = "pike_detect",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -1809,7 +1793,6 @@ destructible{
   y = 1093,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -1827,7 +1810,6 @@ destructible{
   y = 1093,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -1836,7 +1818,6 @@ destructible{
   y = 1077,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -1845,7 +1826,6 @@ destructible{
   y = 1093,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -1854,7 +1834,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "bomb",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -1863,7 +1842,6 @@ destructible{
   y = 941,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -1881,7 +1859,6 @@ destructible{
   y = 941,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -1890,7 +1867,6 @@ destructible{
   y = 925,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -1899,7 +1875,6 @@ destructible{
   y = 941,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 tile{
@@ -8699,15 +8674,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1416,
-  y = 584,
-  width = 16,
-  height = 24,
-  pattern = 363,
-}
-
-tile{
-  layer = 1,
   x = 1472,
   y = 528,
   width = 16,
@@ -8749,6 +8715,33 @@ tile{
   width = 32,
   height = 16,
   pattern = 70,
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 600,
+  width = 16,
+  height = 40,
+  pattern = 326,
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 640,
+  width = 16,
+  height = 24,
+  pattern = 363,
+}
+
+tile{
+  layer = 1,
+  x = 1416,
+  y = 584,
+  width = 16,
+  height = 16,
+  pattern = 325,
 }
 
 crystal_block{
@@ -9447,7 +9440,7 @@ crystal_block{
 crystal_block{
   layer = 1,
   x = 1432,
-  y = 608,
+  y = 552,
   width = 32,
   height = 32,
   subtype = "0",
@@ -9772,7 +9765,6 @@ chest{
   y = 1661,
   name = "chest_b",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b873",
   sprite = "entities/chest",
 }
@@ -9938,7 +9930,6 @@ destructible{
   x = 1128,
   y = 685,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 chest{
@@ -9947,7 +9938,6 @@ chest{
   y = 509,
   name = "chest_a",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b872",
   sprite = "entities/chest",
 }
@@ -9967,7 +9957,6 @@ destructible{
   x = 1400,
   y = 317,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 crystal{
@@ -9983,7 +9972,6 @@ destructible{
   y = 333,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -9992,7 +9980,6 @@ destructible{
   y = 349,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10001,7 +9988,6 @@ destructible{
   y = 365,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 door{
@@ -10038,7 +10024,6 @@ destructible{
   y = 2189,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10047,7 +10032,6 @@ destructible{
   y = 2189,
   subtype = "pot",
   treasure_name = "bomb",
-  treasure_variant = 1,
 }
 
 chest{
@@ -10056,7 +10040,6 @@ chest{
   y = 2189,
   name = "chest",
   treasure_name = "magic_cape",
-  treasure_variant = 1,
   treasure_savegame_variable = "b875",
   sprite = "entities/big_chest",
   opening_method = "interaction_if_savegame_variable",
@@ -10072,7 +10055,6 @@ enemy{
   direction = 3,
   breed = "blue_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10083,7 +10065,6 @@ enemy{
   direction = 3,
   breed = "red_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10094,7 +10075,6 @@ enemy{
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10105,7 +10085,6 @@ enemy{
   direction = 3,
   breed = "tentacle",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10116,7 +10095,6 @@ enemy{
   direction = 3,
   breed = "red_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10127,7 +10105,6 @@ enemy{
   direction = 3,
   breed = "red_pig_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 wall{
@@ -10188,7 +10165,6 @@ chest{
   y = 709,
   name = "chest_c",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b876",
   sprite = "entities/chest",
 }
@@ -10201,7 +10177,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10212,7 +10187,6 @@ enemy{
   direction = 3,
   breed = "gibdo",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 door{
