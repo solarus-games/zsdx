@@ -10481,7 +10481,6 @@ chest{
   y = 629,
   name = "Chest",
   treasure_name = "piece_of_heart",
-  treasure_variant = 1,
   treasure_savegame_variable = "b20",
   sprite = "entities/chest",
 }
@@ -10503,7 +10502,6 @@ chest{
   y = 861,
   name = "Chest_3",
   treasure_name = "piece_of_heart",
-  treasure_variant = 1,
   treasure_savegame_variable = "b935",
   sprite = "entities/chest",
 }
@@ -10549,7 +10547,6 @@ destructible{
   y = 645,
   subtype = "white_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10558,7 +10555,6 @@ destructible{
   y = 285,
   subtype = "white_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10567,7 +10563,6 @@ destructible{
   y = 397,
   subtype = "white_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10576,7 +10571,6 @@ destructible{
   y = 109,
   subtype = "white_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10585,7 +10579,6 @@ destructible{
   y = 125,
   subtype = "white_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10594,7 +10587,6 @@ destructible{
   y = 109,
   subtype = "white_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10603,7 +10595,6 @@ destructible{
   y = 645,
   subtype = "white_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 npc{
@@ -10622,7 +10613,6 @@ pickable{
   x = 392,
   y = 61,
   treasure_name = "piece_of_heart",
-  treasure_variant = 1,
   treasure_savegame_variable = "b21",
 }
 
@@ -10806,23 +10796,10 @@ teletransporter{
   destination = "from_outside_c",
 }
 
-wall{
-  layer = 0,
-  x = 48,
-  y = 344,
-  width = 16,
-  height = 8,
-  name = "custom_obstacle_4",
-  stops_hero = true,
-  stops_enemies = true,
-  stops_npcs = true,
-  stops_blocks = true,
-}
-
 destination{
   layer = 0,
   x = 56,
-  y = 365,
+  y = 373,
   name = "from_cave_under_waterfall_s",
   direction = 3,
 }
@@ -10855,7 +10832,6 @@ enemy{
   direction = 3,
   breed = "blue_knight_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10866,7 +10842,6 @@ enemy{
   direction = 3,
   breed = "green_knight_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -10877,7 +10852,6 @@ enemy{
   direction = 3,
   breed = "red_knight_soldier",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -10886,7 +10860,6 @@ destructible{
   y = 397,
   subtype = "white_stone",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 jumper{
@@ -10898,6 +10871,18 @@ jumper{
   name = "jumper",
   direction = 2,
   jump_length = 32,
+}
+
+teletransporter{
+  layer = 0,
+  x = 48,
+  y = 344,
+  width = 16,
+  height = 16,
+  name = "teletransporter_6",
+  transition = 1,
+  destination_map = "82",
+  destination = "from_outside_s",
 }
 
 tile{
