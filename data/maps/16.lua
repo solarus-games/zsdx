@@ -38,3 +38,9 @@ function smith:on_interaction()
   end
 end
 
+function chest:on_empty()
+  sol.audio.play_sound("wrong")
+  game:start_dialog("_empty_chest")
+  hero:unfreeze()
+end
+

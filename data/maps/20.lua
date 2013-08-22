@@ -148,3 +148,9 @@ function leave_cavern_sensor:on_activated()
   end
 end
 
+function chest:on_empty()
+  sol.audio.play_sound("wrong")
+  game:start_dialog("_empty_chest")
+  hero:unfreeze()
+end
+
