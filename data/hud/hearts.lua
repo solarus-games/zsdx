@@ -97,7 +97,7 @@ function hearts:repeat_danger_sound()
   if self.game:get_life() <= self.game:get_max_life() / 4 then
 
     sol.audio.play_sound("danger")
-    self.danger_sound_timer = sol.timer.start(self.game, 750, function()
+    self.danger_sound_timer = sol.timer.start(self, 750, function()
       self:repeat_danger_sound()
     end)
     self.danger_sound_timer:set_suspended_with_map(true)
