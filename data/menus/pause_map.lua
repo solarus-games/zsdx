@@ -48,6 +48,7 @@ function map_submenu:on_started()
       self.world_minimap_visible_xy.y = math.min(outside_world_minimap_size.height - 133, math.max(0, hero_minimap_y - 65))
     else
       self.world_minimap_img = sol.surface.create("menus/outside_world_clouds.png")
+      self.world_minimap_img:set_xy(center_x - 112, center_y - 61)
       self.world_minimap_visible_xy.y = 0
     end
 
