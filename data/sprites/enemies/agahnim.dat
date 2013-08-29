@@ -1,36 +1,74 @@
-stopped enemies/agahnim.png 4 0 -1
-0	0	48	48	24	45	1	1
-0	48	48	48	24	45	1	1
-0	96	48	48	24	45	1	1
-0	144	48	48	24	45	1	1
+animation{
+  name = "stopped",
+  src_image = "enemies/agahnim.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+  },
+}
 
-walking enemies/agahnim.png 4 400 1
-0	0	48	48	24	45	3	3
-0	48	48	48	24	45	3	3
-0	96	48	48	24	45	3	3
-0	144	48	48	24	45	3	3
+animation{
+  name = "walking",
+  src_image = "enemies/agahnim.png",
+  frame_delay = 400,
+  frame_to_loop_on = 1,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+  },
+}
 
-hurt enemies/agahnim.png 4 50 0
-336	0	48	48	24	45	3	3
-336	48	48	48	24	45	3	3
-336	96	48	48	24	45	3	3
-336	144	48	48	24	45	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/agahnim.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 336, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 336, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 336, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 336, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+  },
+}
 
-arms_up enemies/agahnim.png 4 0 -1
-144	0	48	48	24	45	1	1
-144	48	48	48	24	45	1	1
-144	96	48	48	24	45	1	1
-144	144	48	48	24	45	1	1
+animation{
+  name = "arms_up",
+  src_image = "enemies/agahnim.png",
+  directions = {
+    { x = 144, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 144, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 144, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+    { x = 144, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45 },
+  },
+}
 
-preparing_red_fireball enemies/agahnim.png 4 300 2
-192	0	48	48	24	45	3	3
-192	48	48	48	24	45	3	3
-192	96	48	48	24	45	3	3
-192	144	48	48	24	45	3	3
+animation{
+  name = "preparing_red_fireball",
+  src_image = "enemies/agahnim.png",
+  frame_delay = 300,
+  frame_to_loop_on = 2,
+  directions = {
+    { x = 192, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 192, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 192, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 192, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+  },
+}
 
-preparing_blue_fireball enemies/agahnim.png 4 300 2
-0	192	48	48	24	45	3	3
-0	240	48	48	24	45	3	3
-0	288	48	48	24	45	3	3
-0	336	48	48	24	45	3	3
+animation{
+  name = "preparing_blue_fireball",
+  src_image = "enemies/agahnim.png",
+  frame_delay = 300,
+  frame_to_loop_on = 2,
+  directions = {
+    { x = 0, y = 192, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 240, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 288, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+    { x = 0, y = 336, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 45, num_frames = 3 },
+  },
+}
 

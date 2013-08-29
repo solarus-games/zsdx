@@ -1,24 +1,50 @@
-walking enemies/mowatulla.png 4 200 0
-0	0	96	112	48	64	4	4
-0	0	96	112	48	64	4	4
-0	0	96	112	48	64	4	4
-0	0	96	112	48	64	4	4
+animation{
+  name = "walking",
+  src_image = "enemies/mowatulla.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 4 },
+  },
+}
 
-hurt enemies/mowatulla.png 4 50 0
-0	224	96	112	48	64	2	2
-0	224	96	112	48	64	2	2
-0	224	96	112	48	64	2	2
-0	224	96	112	48	64	2	2
+animation{
+  name = "hurt",
+  src_image = "enemies/mowatulla.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 224, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 224, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 224, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 224, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 2 },
+  },
+}
 
-preparing_son enemies/mowatulla.png 4 400 3
-0	112	96	112	48	64	4	4
-0	112	96	112	48	64	4	4
-0	112	96	112	48	64	4	4
-0	112	96	112	48	64	4	4
+animation{
+  name = "preparing_son",
+  src_image = "enemies/mowatulla.png",
+  frame_delay = 400,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 112, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 112, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 112, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 112, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64, num_frames = 4 },
+  },
+}
 
-jumping enemies/mowatulla.png 4 0 -1
-192	224	96	112	48	64	1	1
-192	224	96	112	48	64	1	1
-192	224	96	112	48	64	1	1
-192	224	96	112	48	64	1	1
+animation{
+  name = "jumping",
+  src_image = "enemies/mowatulla.png",
+  directions = {
+    { x = 192, y = 224, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64 },
+    { x = 192, y = 224, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64 },
+    { x = 192, y = 224, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64 },
+    { x = 192, y = 224, frame_width = 96, frame_height = 112, origin_x = 48, origin_y = 64 },
+  },
+}
 

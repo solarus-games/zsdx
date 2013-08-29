@@ -1,3 +1,10 @@
-yellow entities/teletransporter.png 1 300 0
-16	0	16	16	0	0	3	3
+animation{
+  name = "yellow",
+  src_image = "entities/teletransporter.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, num_frames = 3 },
+  },
+}
 

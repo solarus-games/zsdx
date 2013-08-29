@@ -1,30 +1,61 @@
-stopped enemies/khorneth.png 4 0 -1
-0	0	96	80	48	69	1	1
-0	0	96	80	48	69	1	1
-0	0	96	80	48	69	1	1
-0	0	96	80	48	69	1	1
+animation{
+  name = "stopped",
+  src_image = "enemies/khorneth.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69 },
+  },
+}
 
-walking enemies/khorneth.png 4 250 0
-0	0	96	80	48	69	4	4
-0	0	96	80	48	69	4	4
-0	0	96	80	48	69	4	4
-0	0	96	80	48	69	4	4
+animation{
+  name = "walking",
+  src_image = "enemies/khorneth.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 4 },
+  },
+}
 
-hurt enemies/khorneth.png 4 50 0
-0	80	96	80	48	69	3	3
-0	80	96	80	48	69	3	3
-0	80	96	80	48	69	3	3
-0	80	96	80	48	69	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/khorneth.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 80, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 3 },
+    { x = 0, y = 80, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 3 },
+    { x = 0, y = 80, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 3 },
+    { x = 0, y = 80, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 3 },
+  },
+}
 
-left_blade_attack enemies/khorneth.png 4 100 -1
-0	320	96	80	48	69	11	11
-0	320	96	80	48	69	11	11
-0	320	96	80	48	69	11	11
-0	320	96	80	48	69	11	11
+animation{
+  name = "left_blade_attack",
+  src_image = "enemies/khorneth.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 320, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 11 },
+    { x = 0, y = 320, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 11 },
+    { x = 0, y = 320, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 11 },
+    { x = 0, y = 320, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 11 },
+  },
+}
 
-right_blade_attack enemies/khorneth.png 4 100 -1
-0	560	96	80	48	69	11	11
-0	560	96	80	48	69	11	11
-0	560	96	80	48	69	11	11
-0	560	96	80	48	69	11	11
+animation{
+  name = "right_blade_attack",
+  src_image = "enemies/khorneth.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 560, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 11 },
+    { x = 0, y = 560, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 11 },
+    { x = 0, y = 560, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 11 },
+    { x = 0, y = 560, frame_width = 96, frame_height = 80, origin_x = 48, origin_y = 69, num_frames = 11 },
+  },
+}
 

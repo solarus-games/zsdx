@@ -1,17 +1,37 @@
-walking enemies/flora_gohma.png 4 500 0
-0	0	80	80	40	64	2	2
-0	0	80	80	40	64	2	2
-0	0	80	80	40	64	2	2
-0	0	80	80	40	64	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 500,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 64, num_frames = 2 },
+  },
+}
 
-hurt enemies/flora_gohma.png 4 50 0
-80	0	80	80	40	64	3	3
-80	0	80	80	40	64	3	3
-80	0	80	80	40	64	3	3
-80	0	80	80	40	64	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 80, y = 0, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 64, num_frames = 3 },
+    { x = 80, y = 0, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 64, num_frames = 3 },
+    { x = 80, y = 0, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 64, num_frames = 3 },
+    { x = 80, y = 0, frame_width = 80, frame_height = 80, origin_x = 40, origin_y = 64, num_frames = 3 },
+  },
+}
 
-ball enemies/flora_gohma.png 4 0 -1
-0	80	16	16	8	8	1	1
-0	80	16	16	8	8	1	1
-0	80	16	16	8	8	1	1
-0	80	16	16	8	8	1	1
+animation{
+  name = "ball",
+  src_image = "enemies/flora_gohma.png",
+  directions = {
+    { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
+

@@ -1,12 +1,40 @@
-orange_lowered entities/miscellaneous.png 1 50 3
-0	48	16	16	0	0	4	4
+animation{
+  name = "orange_lowered",
+  src_image = "entities/miscellaneous.png",
+  frame_delay = 50,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 48, frame_width = 16, frame_height = 16, num_frames = 4 },
+  },
+}
 
-orange_raised entities/miscellaneous.png 1 50 3
-0	32	16	16	0	0	4	4
+animation{
+  name = "orange_raised",
+  src_image = "entities/miscellaneous.png",
+  frame_delay = 50,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, num_frames = 4 },
+  },
+}
 
-blue_lowered entities/miscellaneous.png 1 50 3
-0	80	16	16	0	0	4	4
+animation{
+  name = "blue_lowered",
+  src_image = "entities/miscellaneous.png",
+  frame_delay = 50,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 80, frame_width = 16, frame_height = 16, num_frames = 4 },
+  },
+}
 
-blue_raised entities/miscellaneous.png 1 50 3
-0	64	16	16	0	0	4	4
+animation{
+  name = "blue_raised",
+  src_image = "entities/miscellaneous.png",
+  frame_delay = 50,
+  frame_to_loop_on = 3,
+  directions = {
+    { x = 0, y = 64, frame_width = 16, frame_height = 16, num_frames = 4 },
+  },
+}
 

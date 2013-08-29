@@ -1,2 +1,8 @@
-block entities/quest_entities.png 1 0 -1
-112	32	16	16	8	13	1	1
+animation{
+  name = "block",
+  src_image = "entities/quest_entities.png",
+  directions = {
+    { x = 112, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+

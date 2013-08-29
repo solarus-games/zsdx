@@ -1,5 +1,18 @@
-close hud/gameover_fade.png 1 100 -1
-0	0	640	480	320	245	6	6
+animation{
+  name = "close",
+  src_image = "hud/gameover_fade.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 0, frame_width = 640, frame_height = 480, origin_x = 320, origin_y = 245, num_frames = 6 },
+  },
+}
 
-open hud/gameover_fade.png 1 100 -1
-0	480	640	480	320	245	6	6
+animation{
+  name = "open",
+  src_image = "hud/gameover_fade.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 480, frame_width = 640, frame_height = 480, origin_x = 320, origin_y = 245, num_frames = 6 },
+  },
+}
+

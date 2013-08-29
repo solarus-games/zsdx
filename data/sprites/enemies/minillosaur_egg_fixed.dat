@@ -1,36 +1,73 @@
-egg enemies/minillosaur_egg.png 4 0 -1
-0   0   32  32  16  20  4   4
-0   0   32  32  16  20  4   4
-0   0   32  32  16  20  4   4
-0   0   32  32  16  20  4   4
+animation{
+  name = "egg",
+  src_image = "enemies/minillosaur_egg.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 20, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 20, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 20, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 20, num_frames = 4 },
+  },
+}
 
-egg_breaking enemies/minillosaur_egg.png 4 200 -1
-0   32  24  32  12  20  2   2
-0   32  24  32  12  20  2   2
-0   32  24  32  12  20  2   2
-0   32  24  32  12  20  2   2
+animation{
+  name = "egg_breaking",
+  src_image = "enemies/minillosaur_egg.png",
+  frame_delay = 200,
+  directions = {
+    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 20, num_frames = 2 },
+    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 20, num_frames = 2 },
+    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 20, num_frames = 2 },
+    { x = 0, y = 32, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 20, num_frames = 2 },
+  },
+}
 
-walking enemies/minillosaur_egg.png 4 200 0
-0	64	32	24	16	12	2	2
-0	64	32	24	16	12	2	2
-0	64	32	24	16	12	2	2
-0	64	32	24	16	12	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/minillosaur_egg.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 2 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 2 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 2 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 2 },
+  },
+}
 
-immobilized enemies/minillosaur_egg.png 4 0 -1
-32	64	32	24	16	12	1	1
-32	64	32	24	16	12	1	1
-32	64	32	24	16	12	1	1
-32	64	32	24	16	12	1	1
+animation{
+  name = "immobilized",
+  src_image = "enemies/minillosaur_egg.png",
+  directions = {
+    { x = 32, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12 },
+    { x = 32, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12 },
+    { x = 32, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12 },
+    { x = 32, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12 },
+  },
+}
 
-shaking enemies/minillosaur_egg.png 4 50 0
-32	64	32	24	16	12	2	2
-32	64	32	24	16	12	2	2
-32	64	32	24	16	12	2	2
-32	64	32	24	16	12	2	2
+animation{
+  name = "shaking",
+  src_image = "enemies/minillosaur_egg.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 32, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 2 },
+    { x = 32, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 2 },
+    { x = 32, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 2 },
+    { x = 32, y = 64, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 2 },
+  },
+}
 
-hurt enemies/minillosaur_egg.png 4 50 0
-0	88	32	24	16	12	3	3
-0	88	32	24	16	12	3	3
-0	88	32	24	16	12	3	3
-0	88	32	24	16	12	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/minillosaur_egg.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 88, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 3 },
+    { x = 0, y = 88, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 3 },
+    { x = 0, y = 88, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 3 },
+    { x = 0, y = 88, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 12, num_frames = 3 },
+  },
+}
 

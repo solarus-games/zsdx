@@ -1,2 +1,9 @@
-flip hud/icons_flip.png 1 20 -1
-0	48	24	24	0	0	11	11
+animation{
+  name = "flip",
+  src_image = "hud/icons_flip.png",
+  frame_delay = 20,
+  directions = {
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, num_frames = 11 },
+  },
+}
+

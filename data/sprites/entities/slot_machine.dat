@@ -1,11 +1,24 @@
-stopped entities/slot_machine.png 4 0 -1
-0	0	24	32	12	37	21	21
-0	0	24	32	12	37	21	21
-0	0	24	32	12	37	21	21
-0	0	24	32	12	37	21	21
+animation{
+  name = "stopped",
+  src_image = "entities/slot_machine.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
+  },
+}
 
-started entities/slot_machine.png 4 100 0
-0	0	24	32	12	37	21	21
-0	0	24	32	12	37	21	21
-0	0	24	32	12	37	21	21
-0	0	24	32	12	37	21	21
+animation{
+  name = "started",
+  src_image = "entities/slot_machine.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
+  },
+}
+

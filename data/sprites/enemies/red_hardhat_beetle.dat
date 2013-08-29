@@ -1,24 +1,50 @@
-walking enemies/hardhat_beetle.png 4 200 0
-0	24	16	24	8	21	2	2
-0	24	16	24	8	21	2	2
-0	24	16	24	8	21	2	2
-0	24	16	24	8	21	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/hardhat_beetle.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+  },
+}
 
-immobilized enemies/hardhat_beetle.png 4 0 -1
-64	24	16	24	8	21	1	1
-64	24	16	24	8	21	1	1
-64	24	16	24	8	21	1	1
-64	24	16	24	8	21	1	1
+animation{
+  name = "immobilized",
+  src_image = "enemies/hardhat_beetle.png",
+  directions = {
+    { x = 64, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 64, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 64, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+    { x = 64, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21 },
+  },
+}
 
-shaking enemies/hardhat_beetle.png 4 50 0
-64	24	16	24	8	21	2	2
-64	24	16	24	8	21	2	2
-64	24	16	24	8	21	2	2
-64	24	16	24	8	21	2	2
+animation{
+  name = "shaking",
+  src_image = "enemies/hardhat_beetle.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 64, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 64, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 64, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+    { x = 64, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 2 },
+  },
+}
 
-hurt enemies/hardhat_beetle.png 4 50 0
-32	24	16	24	8	21	3	3
-32	24	16	24	8	21	3	3
-32	24	16	24	8	21	3	3
-32	24	16	24	8	21	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/hardhat_beetle.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 32, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 32, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 32, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+    { x = 32, y = 24, frame_width = 16, frame_height = 24, origin_x = 8, origin_y = 21, num_frames = 3 },
+  },
+}
 

@@ -1,5 +1,13 @@
-stopped entities/vine.png 4 100 25
-0	0	16	400	8	397	26	26
-0	0	16	400	8	397	26	26
-0	0	16	400	8	397	26	26
-0	0	16	400	8	397	26	26
+animation{
+  name = "stopped",
+  src_image = "entities/vine.png",
+  frame_delay = 100,
+  frame_to_loop_on = 25,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 400, origin_x = 8, origin_y = 397, num_frames = 26 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 400, origin_x = 8, origin_y = 397, num_frames = 26 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 400, origin_x = 8, origin_y = 397, num_frames = 26 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 400, origin_x = 8, origin_y = 397, num_frames = 26 },
+  },
+}
+

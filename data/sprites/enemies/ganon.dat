@@ -1,30 +1,60 @@
-walking enemies/ganon.png 4 0 -1
-0	64	64	64	32	53	1	1
-0	0	64	64	32	53	1	1
-0	64	64	64	32	53	1	1
-0	64	64	64	32	53	1	1
+animation{
+  name = "walking",
+  src_image = "enemies/ganon.png",
+  directions = {
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+    { x = 0, y = 64, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+  },
+}
 
-immobilized enemies/ganon.png 4 0 -1
-192	128	64	64	32	53	1	1
-192	128	64	64	32	53	1	1
-192	128	64	64	32	53	1	1
-192	128	64	64	32	53	1	1
+animation{
+  name = "immobilized",
+  src_image = "enemies/ganon.png",
+  directions = {
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53 },
+  },
+}
 
-shaking enemies/ganon.png 4 50 0
-192	128	64	64	32	53	2	2
-192	128	64	64	32	53	2	2
-192	128	64	64	32	53	2	2
-192	128	64	64	32	53	2	2
+animation{
+  name = "shaking",
+  src_image = "enemies/ganon.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 2 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 2 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 2 },
+    { x = 192, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 2 },
+  },
+}
 
-hurt enemies/ganon.png 4 50 0
-64	128	64	64	32	53	3	3
-64	128	64	64	32	53	3	3
-64	128	64	64	32	53	3	3
-64	128	64	64	32	53	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/ganon.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 3 },
+    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 3 },
+    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 3 },
+    { x = 64, y = 128, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 53, num_frames = 3 },
+  },
+}
 
-jumping enemies/ganon.png 4 75 -1
-0	192	64	64	32	61	10	5
-0	192	64	64	32	61	10	5
-0	192	64	64	32	61	10	5
-0	192	64	64	32	61	10	5
+animation{
+  name = "jumping",
+  src_image = "enemies/ganon.png",
+  frame_delay = 75,
+  directions = {
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 10, num_columns = 5 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 10, num_columns = 5 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 10, num_columns = 5 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 61, num_frames = 10, num_columns = 5 },
+  },
+}
 

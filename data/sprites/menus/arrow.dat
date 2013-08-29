@@ -1,12 +1,24 @@
-static menus/arrow.png 4 0 -1
-0	16	8	16	0	0	1	1
-0	0	16	8	0	0	1	1
-16	16	8	16	0	0	1	1
-0	8	16	8	0	0	1	1
+animation{
+  name = "static",
+  src_image = "menus/arrow.png",
+  directions = {
+    { x = 0, y = 16, frame_width = 8, frame_height = 16 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 8 },
+    { x = 16, y = 16, frame_width = 8, frame_height = 16 },
+    { x = 0, y = 8, frame_width = 16, frame_height = 8 },
+  },
+}
 
-blink menus/arrow.png 4 300 0
-0	16	8	16	0	0	2	2
-0	0	16	8	0	0	2	2
-16	16	8	16	0	0	2	2
-0	8	16	8	0	0	2	2
+animation{
+  name = "blink",
+  src_image = "menus/arrow.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 16, frame_width = 8, frame_height = 16, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 8, num_frames = 2 },
+    { x = 16, y = 16, frame_width = 8, frame_height = 16, num_frames = 2 },
+    { x = 0, y = 8, frame_width = 16, frame_height = 8, num_frames = 2 },
+  },
+}
 

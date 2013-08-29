@@ -1,24 +1,50 @@
-walking enemies/red_dogman.png 4 200 0
-0	0	32	32	16	29	2	2
-0	32	32	32	16	29	2	2
-0	64	32	32	16	29	2	2
-0	96	32	32	16	29	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/red_dogman.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2 },
+  },
+}
 
-immobilized enemies/red_dogman.png 4 0 -1
-192	0	32	32	16	29	1	1
-192	32	32	32	16	29	1	1
-192	64	32	32	16	29	1	1
-192	96	32	32	16	29	1	1
+animation{
+  name = "immobilized",
+  src_image = "enemies/red_dogman.png",
+  directions = {
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 192, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 192, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 192, y = 96, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+  },
+}
 
-shaking enemies/red_dogman.png 4 50 0
-192	0	32	32	16	29	2	2
-192	32	32	32	16	29	2	2
-192	64	32	32	16	29	2	2
-192	96	32	32	16	29	2	2
+animation{
+  name = "shaking",
+  src_image = "enemies/red_dogman.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2 },
+    { x = 192, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2 },
+    { x = 192, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2 },
+    { x = 192, y = 96, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 2 },
+  },
+}
 
-hurt enemies/red_dogman.png 4 50 0
-128	0	32	32	16	29	3	3
-128	32	32	32	16	29	3	3
-128	64	32	32	16	29	3	3
-128	96	32	32	16	29	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/red_dogman.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 128, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 3 },
+    { x = 128, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 3 },
+    { x = 128, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 3 },
+    { x = 128, y = 96, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 3 },
+  },
+}
 

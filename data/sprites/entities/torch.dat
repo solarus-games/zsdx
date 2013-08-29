@@ -1,11 +1,24 @@
-unlit entities/quest_entities.png 4 0 -1
-32	32	16	16	8	13	1	1
-32	32	16	16	8	13	1	1
-32	32	16	16	8	13	1	1
-32	32	16	16	8	13	1	1
+animation{
+  name = "unlit",
+  src_image = "entities/quest_entities.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
 
-lit entities/quest_entities.png 4 250 0
-48	32	16	16	8	13	3	3
-48	32	16	16	8	13	3	3
-48	32	16	16	8	13	3	3
-48	32	16	16	8	13	3	3
+animation{
+  name = "lit",
+  src_image = "entities/quest_entities.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 48, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+  },
+}
+

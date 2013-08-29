@@ -1,6 +1,13 @@
-walking enemies/red_flame.png 4 200 0
-0	0	16	16	8	13	2	2
-0	0	16	16	8	13	2	2
-0	0	16	16	8	13	2	2
-0	0	16	16	8	13	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/red_flame.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+  },
+}
 

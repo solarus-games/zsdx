@@ -1,10 +1,15 @@
-normal entities/conveyor_belt.png 8 0 -1
-0	0	16	16	8	13	1	1
-16	0	16	16	8	13	1	1
-32	0	16	16	8	13	1	1
-48	0	16	16	8	13	1	1
-64	0	16	16	8	13	1	1
-80	0	16	16	8	13	1	1
-96	0	16	16	8	13	1	1
-112	0	16	16	8	13	1	1
+animation{
+  name = "normal",
+  src_image = "entities/conveyor_belt.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 80, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 96, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 112, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
 

@@ -1,6 +1,11 @@
-closed tileset 4 0 -1
-32	0	16	16	0	0	1	1
-32	0	16	16	0	0	1	1
-32	0	16	16	0	0	1	1
-32	0	16	16	0	0	1	1
+animation{
+  name = "closed",
+  src_image = "tileset",
+  directions = {
+    { x = 32, y = 0, frame_width = 16, frame_height = 16 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16 },
+  },
+}
 

@@ -1,3 +1,9 @@
-normal entities/miscellaneous.png 1 150 -1
-0	24	8	8	4	4	4	4
+animation{
+  name = "normal",
+  src_image = "entities/miscellaneous.png",
+  frame_delay = 150,
+  directions = {
+    { x = 0, y = 24, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4, num_frames = 4 },
+  },
+}
 

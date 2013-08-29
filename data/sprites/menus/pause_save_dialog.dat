@@ -1,5 +1,16 @@
-left menus/pause_save_dialog.png 1 0 -1
-0	0	220	67	0	0	1	1
+animation{
+  name = "left",
+  src_image = "menus/pause_save_dialog.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 220, frame_height = 67 },
+  },
+}
 
-right menus/pause_save_dialog.png 1 0 -1
-0	67	220	67	0	0	1	1
+animation{
+  name = "right",
+  src_image = "menus/pause_save_dialog.png",
+  directions = {
+    { x = 0, y = 67, frame_width = 220, frame_height = 67 },
+  },
+}
+

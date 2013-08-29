@@ -1,17 +1,39 @@
-walking enemies/papillosaur_king.png 4 300 0
-0	0	192	96	96	64	2	2
-0	0	192	96	96	64	2	2
-0	0	192	96	96	64	2	2
-0	0	192	96	96	64	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/papillosaur_king.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+  },
+}
 
-hurt enemies/papillosaur_king.png 4 50 0
-0	96	192	96	96	64	2	2
-0	96	192	96	96	64	2	2
-0	96	192	96	96	64	2	2
-0	96	192	96	96	64	2	2
+animation{
+  name = "hurt",
+  src_image = "enemies/papillosaur_king.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 96, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+  },
+}
 
-preparing_egg enemies/papillosaur_king.png 4 150 0
-0	192	192	96	96	64	2	2
-0	192	192	96	96	64	2	2
-0	192	192	96	96	64	2	2
-0	192	192	96	96	64	2	2
+animation{
+  name = "preparing_egg",
+  src_image = "enemies/papillosaur_king.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 192, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 192, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 192, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+    { x = 0, y = 192, frame_width = 192, frame_height = 96, origin_x = 96, origin_y = 64, num_frames = 2 },
+  },
+}
+

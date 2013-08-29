@@ -1,6 +1,20 @@
-next hud/dialog_box.png 1 100 0
-0	60	16	8	0	0	3	3
+animation{
+  name = "next",
+  src_image = "hud/dialog_box.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 60, frame_width = 16, frame_height = 8, num_frames = 3 },
+  },
+}
 
-last hud/dialog_box.png 1 100 0
-48	60	16	16	0	3	3	3
+animation{
+  name = "last",
+  src_image = "hud/dialog_box.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 60, frame_width = 16, frame_height = 16, origin_y = 3, num_frames = 3 },
+  },
+}
 

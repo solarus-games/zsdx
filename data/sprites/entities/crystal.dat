@@ -1,5 +1,16 @@
-orange_lowered entities/miscellaneous.png 1 0 -1
-48	0	16	16	8	13	1	1
+animation{
+  name = "orange_lowered",
+  src_image = "entities/miscellaneous.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
 
-blue_lowered entities/miscellaneous.png 1 0 -1
-64	0	16	16	8	13	1	1
+animation{
+  name = "blue_lowered",
+  src_image = "entities/miscellaneous.png",
+  directions = {
+    { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+

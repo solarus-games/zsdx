@@ -1,8 +1,30 @@
-blue menus/selection_menu_cursor.png 1 300 0
-0	0	21	21	0	0	2	2
+animation{
+  name = "blue",
+  src_image = "menus/selection_menu_cursor.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 21, frame_height = 21, num_frames = 2 },
+  },
+}
 
-red menus/selection_menu_cursor.png 1 300 0
-0	21	21	21	0	0	2	2
+animation{
+  name = "red",
+  src_image = "menus/selection_menu_cursor.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 21, frame_width = 21, frame_height = 21, num_frames = 2 },
+  },
+}
 
-letters menus/selection_menu_cursor.png 1 300 0
-0	42	21	21	0	0	2	2
+animation{
+  name = "letters",
+  src_image = "menus/selection_menu_cursor.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 42, frame_width = 21, frame_height = 21, num_frames = 2 },
+  },
+}
+

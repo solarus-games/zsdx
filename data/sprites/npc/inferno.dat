@@ -1,18 +1,39 @@
-stopped npc/inferno.png 4 150 0
-0	0	32	80	16	61	4	4
-0	0	32	80	16	61	4	4
-0	0	32	80	16	61	4	4
-0	0	32	80	16	61	4	4
+animation{
+  name = "stopped",
+  src_image = "npc/inferno.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 4 },
+  },
+}
 
-opening npc/inferno.png 4 150 6
-0	80	32	80	16	61	7	7
-0	80	32	80	16	61	7	7
-0	80	32	80	16	61	7	7
-0	80	32	80	16	61	7	7
+animation{
+  name = "opening",
+  src_image = "npc/inferno.png",
+  frame_delay = 150,
+  frame_to_loop_on = 6,
+  directions = {
+    { x = 0, y = 80, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 7 },
+    { x = 0, y = 80, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 7 },
+    { x = 0, y = 80, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 7 },
+    { x = 0, y = 80, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 7 },
+  },
+}
 
-open npc/inferno.png 4 150 0
-0	160	32	80	16	61	4	4
-0	160	32	80	16	61	4	4
-0	160	32	80	16	61	4	4
-0	160	32	80	16	61	4	4
+animation{
+  name = "open",
+  src_image = "npc/inferno.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 160, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 160, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 160, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 4 },
+    { x = 0, y = 160, frame_width = 32, frame_height = 80, origin_x = 16, origin_y = 61, num_frames = 4 },
+  },
+}
 

@@ -1,23 +1,50 @@
-walking enemies/red_helmasaur.png 4 200 0
-0	0	24	24	12	21	2	2
-0	24	24	24	12	21	2	2
-0	48	24	24	12	21	2	2
-0	72	24	24	12	21	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/red_helmasaur.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+  },
+}
 
-immobilized enemies/red_helmasaur.png 4 0 -1
-96	0	24	24	12	21	1	1
-96	24	24	24	12	21	1	1
-96	48	24	24	12	21	1	1
-96	72	24	24	12	21	1	1
+animation{
+  name = "immobilized",
+  src_image = "enemies/red_helmasaur.png",
+  directions = {
+    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 96, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 96, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 96, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+  },
+}
 
-shaking enemies/red_helmasaur.png 4 50 0
-96	0	24	24	12	21	2	2
-96	24	24	24	12	21	2	2
-96	48	24	24	12	21	2	2
-96	72	24	24	12	21	2	2
+animation{
+  name = "shaking",
+  src_image = "enemies/red_helmasaur.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+  },
+}
 
-hurt enemies/red_helmasaur.png 4 50 0
-48	0	24	24	12	21	3	3
-48	24	24	24	12	21	3	3
-48	48	24	24	12	21	3	3
-48	72	24	24	12	21	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/red_helmasaur.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
+    { x = 48, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
+    { x = 48, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
+    { x = 48, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
+  },
+}
+

@@ -1,6 +1,13 @@
-stopped npc/solarus_child1.png 4 300 9
-0	0	64	64	32	40	12	3
-0	0	64	64	32	40	12	3
-0	0	64	64	32	40	12	3
-0	0	64	64	32	40	12	3
+animation{
+  name = "stopped",
+  src_image = "npc/solarus_child1.png",
+  frame_delay = 300,
+  frame_to_loop_on = 9,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 12, num_columns = 3 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 12, num_columns = 3 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 12, num_columns = 3 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 40, num_frames = 12, num_columns = 3 },
+  },
+}
 

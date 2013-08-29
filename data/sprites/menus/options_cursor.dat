@@ -1,8 +1,26 @@
-big menus/options_cursor.png 1 0 -1
-0	0	168	15	0	0	1	1
+animation{
+  name = "big",
+  src_image = "menus/options_cursor.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 168, frame_height = 15 },
+  },
+}
 
-small menus/options_cursor.png 1 0 -1
-62	15	62	15	0	0	1	1
+animation{
+  name = "small",
+  src_image = "menus/options_cursor.png",
+  directions = {
+    { x = 62, y = 15, frame_width = 62, frame_height = 15 },
+  },
+}
 
-small_blink menus/options_cursor.png 1 300 0
-0	15	62	15	0	0	2	2
+animation{
+  name = "small_blink",
+  src_image = "menus/options_cursor.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 15, frame_width = 62, frame_height = 15, num_frames = 2 },
+  },
+}
+

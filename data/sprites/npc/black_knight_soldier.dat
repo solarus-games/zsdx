@@ -1,11 +1,24 @@
-stopped npc/black_knight_soldier.png 4 0 -1
-0	0	48	48	24	29	1	1
-0	48	48	48	24	29	1	1
-0	96	48	48	24	29	1	1
-0	144	48	48	24	29	1	1
+animation{
+  name = "stopped",
+  src_image = "npc/black_knight_soldier.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+  },
+}
 
-walking npc/black_knight_soldier.png 4 200 0
-0	0	48	48	24	29	2	2
-0	48	48	48	24	29	2	2
-0	96	48	48	24	29	2	2
-0	144	48	48	24	29	2	2
+animation{
+  name = "walking",
+  src_image = "npc/black_knight_soldier.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 144, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+  },
+}
+

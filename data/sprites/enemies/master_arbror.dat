@@ -1,30 +1,59 @@
-walking enemies/master_arbror.png 4 0 -1
-0	0	264	312	132	269	1	1
-0	0	264	312	132	269	1	1
-0	0	264	312	132	269	1	1
-0	0	264	312	132	269	1	1
+animation{
+  name = "walking",
+  src_image = "enemies/master_arbror.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269 },
+    { x = 0, y = 0, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269 },
+    { x = 0, y = 0, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269 },
+    { x = 0, y = 0, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269 },
+  },
+}
 
-preparing_son enemies/master_arbror.png 4 500 -1
-264	0	264	312	132	269	3	3
-264	0	264	312	132	269	3	3
-264	0	264	312	132	269	3	3
-264	0	264	312	132	269	3	3
+animation{
+  name = "preparing_son",
+  src_image = "enemies/master_arbror.png",
+  frame_delay = 500,
+  directions = {
+    { x = 264, y = 0, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 264, y = 0, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 264, y = 0, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 264, y = 0, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+  },
+}
 
-hurt enemies/master_arbror.png 4 50 0
-0	312	264	312	132	269	3	3
-0	312	264	312	132	269	3	3
-0	312	264	312	132	269	3	3
-0	312	264	312	132	269	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/master_arbror.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 0, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 0, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 0, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+  },
+}
 
-son_immobilized enemies/master_arbror.png 4 50 -1
-0	312	264	312	132	269	3	3
-0	312	264	312	132	269	3	3
-0	312	264	312	132	269	3	3
-0	312	264	312	132	269	3	3
+animation{
+  name = "son_immobilized",
+  src_image = "enemies/master_arbror.png",
+  frame_delay = 50,
+  directions = {
+    { x = 0, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 0, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 0, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+    { x = 0, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269, num_frames = 3 },
+  },
+}
 
-vulnerable enemies/master_arbror.png 4 0 -1
-792	312	264	312	132	269	1	1
-792	312	264	312	132	269	1	1
-792	312	264	312	132	269	1	1
-792	312	264	312	132	269	1	1
+animation{
+  name = "vulnerable",
+  src_image = "enemies/master_arbror.png",
+  directions = {
+    { x = 792, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269 },
+    { x = 792, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269 },
+    { x = 792, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269 },
+    { x = 792, y = 312, frame_width = 264, frame_height = 312, origin_x = 132, origin_y = 269 },
+  },
+}
 

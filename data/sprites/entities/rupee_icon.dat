@@ -1,2 +1,8 @@
-green entities/miscellaneous.png 1 0 -1
-0	16	8	8	0	0	1	1
+animation{
+  name = "green",
+  src_image = "entities/miscellaneous.png",
+  directions = {
+    { x = 0, y = 16, frame_width = 8, frame_height = 8 },
+  },
+}
+

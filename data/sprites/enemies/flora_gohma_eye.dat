@@ -1,83 +1,168 @@
-walking enemies/flora_gohma.png 4 300 0
-0	80	104	64	52	64	4	4
-0	80	104	64	52	64	4	4
-0	80	104	64	52	64	4	4
-0	80	104	64	52	64	4	4
+animation{
+  name = "walking",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 80, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 80, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 80, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64, num_frames = 4 },
+    { x = 0, y = 80, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64, num_frames = 4 },
+  },
+}
 
-eye enemies/flora_gohma.png 4 0 -1
-0	208	104	64	52	64	1	1
-0	208	104	64	52	64	1	1
-0	208	104	64	52	64	1	1
-0	208	104	64	52	64	1	1
+animation{
+  name = "eye",
+  src_image = "enemies/flora_gohma.png",
+  directions = {
+    { x = 0, y = 208, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64 },
+    { x = 0, y = 208, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64 },
+    { x = 0, y = 208, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64 },
+    { x = 0, y = 208, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64 },
+  },
+}
 
-hurt enemies/flora_gohma.png 4 50 0
-0	144	104	64	52	64	3	3
-0	144	104	64	52	64	3	3
-0	144	104	64	52	64	3	3
-0	144	104	64	52	64	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 144, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64, num_frames = 3 },
+    { x = 0, y = 144, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64, num_frames = 3 },
+    { x = 0, y = 144, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64, num_frames = 3 },
+    { x = 0, y = 144, frame_width = 104, frame_height = 64, origin_x = 52, origin_y = 64, num_frames = 3 },
+  },
+}
 
-petal_1 enemies/flora_gohma.png 4 0 -1
-312	240	32	24	16	54	1	1
-312	240	32	24	16	54	1	1
-312	240	32	24	16	54	1	1
-312	240	32	24	16	54	1	1
+animation{
+  name = "petal_1",
+  src_image = "enemies/flora_gohma.png",
+  directions = {
+    { x = 312, y = 240, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 54 },
+    { x = 312, y = 240, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 54 },
+    { x = 312, y = 240, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 54 },
+    { x = 312, y = 240, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 54 },
+  },
+}
 
-petal_hurt_1 enemies/flora_gohma.png 4 50 0
-312	240	32	24	16	54	3	3
-312	240	32	24	16	54	3	3
-312	240	32	24	16	54	3	3
-312	240	32	24	16	54	3	3
+animation{
+  name = "petal_hurt_1",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 312, y = 240, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 54, num_frames = 3 },
+    { x = 312, y = 240, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 54, num_frames = 3 },
+    { x = 312, y = 240, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 54, num_frames = 3 },
+    { x = 312, y = 240, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 54, num_frames = 3 },
+  },
+}
 
-petal_2 enemies/flora_gohma.png 4 0 -1
-312	168	32	24	31	44	1	1
-312	168	32	24	31	44	1	1
-312	168	32	24	31	44	1	1
-312	168	32	24	31	44	1	1
+animation{
+  name = "petal_2",
+  src_image = "enemies/flora_gohma.png",
+  directions = {
+    { x = 312, y = 168, frame_width = 32, frame_height = 24, origin_x = 31, origin_y = 44 },
+    { x = 312, y = 168, frame_width = 32, frame_height = 24, origin_x = 31, origin_y = 44 },
+    { x = 312, y = 168, frame_width = 32, frame_height = 24, origin_x = 31, origin_y = 44 },
+    { x = 312, y = 168, frame_width = 32, frame_height = 24, origin_x = 31, origin_y = 44 },
+  },
+}
 
-petal_hurt_2 enemies/flora_gohma.png 4 50 0
-312	168	32	24	31	44	3	3
-312	168	32	24	31	44	3	3
-312	168	32	24	31	44	3	3
-312	168	32	24	31	44	3	3
+animation{
+  name = "petal_hurt_2",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 312, y = 168, frame_width = 32, frame_height = 24, origin_x = 31, origin_y = 44, num_frames = 3 },
+    { x = 312, y = 168, frame_width = 32, frame_height = 24, origin_x = 31, origin_y = 44, num_frames = 3 },
+    { x = 312, y = 168, frame_width = 32, frame_height = 24, origin_x = 31, origin_y = 44, num_frames = 3 },
+    { x = 312, y = 168, frame_width = 32, frame_height = 24, origin_x = 31, origin_y = 44, num_frames = 3 },
+  },
+}
 
-petal_3 enemies/flora_gohma.png 4 0 -1
-312	192	32	24	19	23	1	1
-312	192	32	24	19	23	1	1
-312	192	32	24	19	23	1	1
-312	192	32	24	19	23	1	1
+animation{
+  name = "petal_3",
+  src_image = "enemies/flora_gohma.png",
+  directions = {
+    { x = 312, y = 192, frame_width = 32, frame_height = 24, origin_x = 19, origin_y = 23 },
+    { x = 312, y = 192, frame_width = 32, frame_height = 24, origin_x = 19, origin_y = 23 },
+    { x = 312, y = 192, frame_width = 32, frame_height = 24, origin_x = 19, origin_y = 23 },
+    { x = 312, y = 192, frame_width = 32, frame_height = 24, origin_x = 19, origin_y = 23 },
+  },
+}
 
-petal_hurt_3 enemies/flora_gohma.png 4 50 0
-312	192	32	24	19	23	3	3
-312	192	32	24	19	23	3	3
-312	192	32	24	19	23	3	3
-312	192	32	24	19	23	3	3
+animation{
+  name = "petal_hurt_3",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 312, y = 192, frame_width = 32, frame_height = 24, origin_x = 19, origin_y = 23, num_frames = 3 },
+    { x = 312, y = 192, frame_width = 32, frame_height = 24, origin_x = 19, origin_y = 23, num_frames = 3 },
+    { x = 312, y = 192, frame_width = 32, frame_height = 24, origin_x = 19, origin_y = 23, num_frames = 3 },
+    { x = 312, y = 192, frame_width = 32, frame_height = 24, origin_x = 19, origin_y = 23, num_frames = 3 },
+  },
+}
 
-petal_4 enemies/flora_gohma.png 4 0 -1
-312	216	32	24	13	23	1	1
-312	216	32	24	13	23	1	1
-312	216	32	24	13	23	1	1
-312	216	32	24	13	23	1	1
+animation{
+  name = "petal_4",
+  src_image = "enemies/flora_gohma.png",
+  directions = {
+    { x = 312, y = 216, frame_width = 32, frame_height = 24, origin_x = 13, origin_y = 23 },
+    { x = 312, y = 216, frame_width = 32, frame_height = 24, origin_x = 13, origin_y = 23 },
+    { x = 312, y = 216, frame_width = 32, frame_height = 24, origin_x = 13, origin_y = 23 },
+    { x = 312, y = 216, frame_width = 32, frame_height = 24, origin_x = 13, origin_y = 23 },
+  },
+}
 
-petal_hurt_4 enemies/flora_gohma.png 4 50 0
-312	216	32	24	13	23	3	3
-312	216	32	24	13	23	3	3
-312	216	32	24	13	23	3	3
-312	216	32	24	13	23	3	3
+animation{
+  name = "petal_hurt_4",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 312, y = 216, frame_width = 32, frame_height = 24, origin_x = 13, origin_y = 23, num_frames = 3 },
+    { x = 312, y = 216, frame_width = 32, frame_height = 24, origin_x = 13, origin_y = 23, num_frames = 3 },
+    { x = 312, y = 216, frame_width = 32, frame_height = 24, origin_x = 13, origin_y = 23, num_frames = 3 },
+    { x = 312, y = 216, frame_width = 32, frame_height = 24, origin_x = 13, origin_y = 23, num_frames = 3 },
+  },
+}
 
-petal_5 enemies/flora_gohma.png 4 0 -1
-312	144	32	24	0	44	1	1
-312	144	32	24	0	44	1	1
-312	144	32	24	0	44	1	1
-312	144	32	24	0	44	1	1
+animation{
+  name = "petal_5",
+  src_image = "enemies/flora_gohma.png",
+  directions = {
+    { x = 312, y = 144, frame_width = 32, frame_height = 24, origin_y = 44 },
+    { x = 312, y = 144, frame_width = 32, frame_height = 24, origin_y = 44 },
+    { x = 312, y = 144, frame_width = 32, frame_height = 24, origin_y = 44 },
+    { x = 312, y = 144, frame_width = 32, frame_height = 24, origin_y = 44 },
+  },
+}
 
-petal_hurt_5 enemies/flora_gohma.png 4 50 0
-312	144	32	24	0	44	3	3
-312	144	32	24	0	44	3	3
-312	144	32	24	0	44	3	3
-312	144	32	24	0	44	3	3
+animation{
+  name = "petal_hurt_5",
+  src_image = "enemies/flora_gohma.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 312, y = 144, frame_width = 32, frame_height = 24, origin_y = 44, num_frames = 3 },
+    { x = 312, y = 144, frame_width = 32, frame_height = 24, origin_y = 44, num_frames = 3 },
+    { x = 312, y = 144, frame_width = 32, frame_height = 24, origin_y = 44, num_frames = 3 },
+    { x = 312, y = 144, frame_width = 32, frame_height = 24, origin_y = 44, num_frames = 3 },
+  },
+}
 
-ball enemies/flora_gohma.png 4 0 -1
-320	0	16	16	8	8	1	1
-320	0	16	16	8	8	1	1
-320	0	16	16	8	8	1	1
-320	0	16	16	8	8	1	1
+animation{
+  name = "ball",
+  src_image = "enemies/flora_gohma.png",
+  directions = {
+    { x = 320, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 320, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 320, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 320, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
+

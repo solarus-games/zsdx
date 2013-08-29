@@ -1,12 +1,26 @@
-walking enemies/fire_bat.png 4 200 2
-0	0	32	32	16	16	6	6
-0	0	32	32	16	16	6	6
-0	0	32	32	16	16	6	6
-0	0	32	32	16	16	6	6
+animation{
+  name = "walking",
+  src_image = "enemies/fire_bat.png",
+  frame_delay = 200,
+  frame_to_loop_on = 2,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 6 },
+  },
+}
 
-hurt enemies/fire_bat.png 4 50 0
-192	0	32	32	16	16	2	2
-192	0	32	32	16	16	2	2
-192	0	32	32	16	16	2	2
-192	0	32	32	16	16	2	2
+animation{
+  name = "hurt",
+  src_image = "enemies/fire_bat.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 2 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 2 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 2 },
+    { x = 192, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 16, num_frames = 2 },
+  },
+}
 

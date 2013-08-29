@@ -1,6 +1,11 @@
-normal entities/quest_entities.png 4 0 -1
-112	48	16	32	8	21	1	1
-112	48	16	32	8	21	1	1
-112	48	16	32	8	21	1	1
-112	48	16	32	8	21	1	1
+animation{
+  name = "normal",
+  src_image = "entities/quest_entities.png",
+  directions = {
+    { x = 112, y = 48, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 21 },
+    { x = 112, y = 48, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 21 },
+    { x = 112, y = 48, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 21 },
+    { x = 112, y = 48, frame_width = 16, frame_height = 32, origin_x = 8, origin_y = 21 },
+  },
+}
 

@@ -1,11 +1,23 @@
-normal entities/quest_entities.png 4 0 -1
-0	0	16	16	8	13	1	1
-0	0	16	16	8	13	1	1
-0	16	16	16	8	13	1	1
-0	16	16	16	8	13	1	1
+animation{
+  name = "normal",
+  src_image = "entities/quest_entities.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
 
-disappearing entities/quest_entities.png 4 100 -1
-0	0	16	16	8	13	8	8
-0	0	16	16	8	13	8	8
-0	16	16	16	8	13	8	8
-0	16	16	16	8	13	8	8
+animation{
+  name = "disappearing",
+  src_image = "entities/quest_entities.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 8 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 8 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 8 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 8 },
+  },
+}
+

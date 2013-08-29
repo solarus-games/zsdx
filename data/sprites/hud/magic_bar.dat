@@ -1,7 +1,20 @@
-normal hud/magic_bar.png 2 0 -1
-0	8	46	8	0	0	1	1
-46	8	88	8	0	0	1	1
+animation{
+  name = "normal",
+  src_image = "hud/magic_bar.png",
+  directions = {
+    { x = 0, y = 8, frame_width = 46, frame_height = 8 },
+    { x = 46, y = 8, frame_width = 88, frame_height = 8 },
+  },
+}
 
-decreasing hud/magic_bar.png 2 200 0
-0	0	46	8	0	0	3	1
-46	0	88	8	0	0	3	1
+animation{
+  name = "decreasing",
+  src_image = "hud/magic_bar.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 46, frame_height = 8, num_frames = 3, num_columns = 1 },
+    { x = 46, y = 0, frame_width = 88, frame_height = 8, num_frames = 3, num_columns = 1 },
+  },
+}
+

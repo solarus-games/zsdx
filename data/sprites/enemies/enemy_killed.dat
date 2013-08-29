@@ -1,6 +1,12 @@
-killed enemies/enemy_killed.png 4 100 -1
-0	0	32	32	16	21	6	6
-0	0	32	32	16	21	6	6
-0	0	32	32	16	21	6	6
-0	0	32	32	16	21	6	6
+animation{
+  name = "killed",
+  src_image = "enemies/enemy_killed.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 6 },
+  },
+}
 

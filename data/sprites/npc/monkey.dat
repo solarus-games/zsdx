@@ -1,17 +1,37 @@
-stopped npc/alttp.png 4 0 -1
-192	96	24	32	12	29	1	1
-192	128	24	32	12	29	1	1
-240	96	24	32	12	29	1	1
-192	160	24	32	12	29	1	1
+animation{
+  name = "stopped",
+  src_image = "npc/alttp.png",
+  directions = {
+    { x = 192, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 192, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 240, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 192, y = 160, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
 
-walking npc/alttp.png 4 125 0
-192	96	24	32	12	29	2	2
-192	128	24	32	12	29	2	2
-240	96	24	32	12	29	2	2
-192	160	24	32	12	29	4	4
+animation{
+  name = "walking",
+  src_image = "npc/alttp.png",
+  frame_delay = 125,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 192, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 240, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 192, y = 160, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}
 
-jumping npc/alttp.png 4 125 1
-192	192	24	32	12	29	2	2
-192	192	24	32	12	29	2	2
-240	192	24	32	12	29	2	2
-240	192	24	32	12	29	2	2
+animation{
+  name = "jumping",
+  src_image = "npc/alttp.png",
+  frame_delay = 125,
+  frame_to_loop_on = 1,
+  directions = {
+    { x = 192, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 192, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 240, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 240, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+  },
+}
+

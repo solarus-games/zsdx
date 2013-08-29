@@ -1,9 +1,30 @@
-tunic1 menus/hero_head.png 1 300 0
-0	0	16	13	0	0	2	2
+animation{
+  name = "tunic1",
+  src_image = "menus/hero_head.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 13, num_frames = 2 },
+  },
+}
 
-tunic2 menus/hero_head.png 1 300 0
-0	13	16	13	0	0	2	2
+animation{
+  name = "tunic2",
+  src_image = "menus/hero_head.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 13, frame_width = 16, frame_height = 13, num_frames = 2 },
+  },
+}
 
-tunic3 menus/hero_head.png 1 300 0
-0	26	16	13	0	0	2	2
+animation{
+  name = "tunic3",
+  src_image = "menus/hero_head.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 26, frame_width = 16, frame_height = 13, num_frames = 2 },
+  },
+}
 

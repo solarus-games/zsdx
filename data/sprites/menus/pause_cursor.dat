@@ -1,2 +1,10 @@
-normal menus/pause_cursor.png 1 100 0
-0	0	30	30	15	15	6	6
+animation{
+  name = "normal",
+  src_image = "menus/pause_cursor.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 30, frame_height = 30, origin_x = 15, origin_y = 15, num_frames = 6 },
+  },
+}
+

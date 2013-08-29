@@ -1,36 +1,66 @@
-1 entities/fresco.png 4 0 -1
-0	0	302	153	8	13	1	1
-0	0	302	153	8	13	1	1
-0	0	302	153	8	13	1	1
-0	0	302	153	8	13	1	1
+animation{
+  name = "1",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+  },
+}
 
-2 entities/fresco.png 4 0 -1
-0	153	302	153	8	13	1	1
-0	153	302	153	8	13	1	1
-0	153	302	153	8	13	1	1
-0	153	302	153	8	13	1	1
+animation{
+  name = "2",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 153, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 153, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 153, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 153, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+  },
+}
 
-3 entities/fresco.png 4 0 -1
-0	306	302	153	8	13	1	1
-0	306	302	153	8	13	1	1
-0	306	302	153	8	13	1	1
-0	306	302	153	8	13	1	1
+animation{
+  name = "3",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 306, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 306, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 306, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 306, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+  },
+}
 
-4 entities/fresco.png 4 0 -1
-0	459	302	153	8	13	1	1
-0	459	302	153	8	13	1	1
-0	459	302	153	8	13	1	1
-0	459	302	153	8	13	1	1
+animation{
+  name = "4",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 459, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 459, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 459, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 459, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+  },
+}
 
-5 entities/fresco.png 4 0 -1
-0	612	302	153	8	13	1	1
-0	612	302	153	8	13	1	1
-0	612	302	153	8	13	1	1
-0	612	302	153	8	13	1	1
+animation{
+  name = "5",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 612, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 612, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 612, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 612, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+  },
+}
 
-6 entities/fresco.png 4 0 -1
-0	765	302	153	8	13	1	1
-0	765	302	153	8	13	1	1
-0	765	302	153	8	13	1	1
-0	765	302	153	8	13	1	1
+animation{
+  name = "6",
+  src_image = "entities/fresco.png",
+  directions = {
+    { x = 0, y = 765, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 765, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 765, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 765, frame_width = 302, frame_height = 153, origin_x = 8, origin_y = 13 },
+  },
+}
 

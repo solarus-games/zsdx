@@ -1,24 +1,46 @@
-stopped entities/bed.png 4 0 -1
-0	0	32	40	16	13	1	1
-0	0	32	40	16	13	1	1
-0	0	32	40	16	13	1	1
-0	0	32	40	16	13	1	1
+animation{
+  name = "stopped",
+  src_image = "entities/bed.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+  },
+}
 
-empty_open entities/bed.png 4 0 -1
-32	0	32	40	16	13	1	1
-32	0	32	40	16	13	1	1
-32	0	32	40	16	13	1	1
-32	0	32	40	16	13	1	1
+animation{
+  name = "empty_open",
+  src_image = "entities/bed.png",
+  directions = {
+    { x = 32, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+  },
+}
 
-hero_sleeping entities/bed.png 4 0 -1
-64	0	32	40	16	13	1	1
-64	0	32	40	16	13	1	1
-64	0	32	40	16	13	1	1
-64	0	32	40	16	13	1	1
+animation{
+  name = "hero_sleeping",
+  src_image = "entities/bed.png",
+  directions = {
+    { x = 64, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 64, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 64, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+    { x = 64, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13 },
+  },
+}
 
-hero_waking entities/bed.png 4 200 1
-96	0	32	40	16	13	2	2
-96	0	32	40	16	13	2	2
-96	0	32	40	16	13	2	2
-96	0	32	40	16	13	2	2
+animation{
+  name = "hero_waking",
+  src_image = "entities/bed.png",
+  frame_delay = 200,
+  frame_to_loop_on = 1,
+  directions = {
+    { x = 96, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
+    { x = 96, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
+    { x = 96, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
+    { x = 96, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 13, num_frames = 2 },
+  },
+}
 

@@ -1,18 +1,33 @@
-walking enemies/fireball_triple.png 4 0 -1
-0	16	16	16	8	8	1	1
-0	16	16	16	8	8	1	1
-0	16	16	16	8	8	1	1
-0	16	16	16	8	8	1	1
+animation{
+  name = "walking",
+  src_image = "enemies/fireball_triple.png",
+  directions = {
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
 
-small enemies/fireball_triple.png 4 0 -1
-16	16	16	16	8	8	1	1
-16	16	16	16	8	8	1	1
-16	16	16	16	8	8	1	1
-16	16	16	16	8	8	1	1
+animation{
+  name = "small",
+  src_image = "enemies/fireball_triple.png",
+  directions = {
+    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 16, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
 
-tiny enemies/fireball_triple.png 4 0 -1
-32	16	16	16	8	8	1	1
-32	16	16	16	8	8	1	1
-32	16	16	16	8	8	1	1
-32	16	16	16	8	8	1	1
+animation{
+  name = "tiny",
+  src_image = "enemies/fireball_triple.png",
+  directions = {
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
 

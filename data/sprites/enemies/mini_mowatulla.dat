@@ -1,37 +1,73 @@
-walking enemies/mini_mowatulla.png 4 200 0
-0	0	16	16	8	13	4	4
-0	0	16	16	8	13	4	4
-0	0	16	16	8	13	4	4
-0	0	16	16	8	13	4	4
+animation{
+  name = "walking",
+  src_image = "enemies/mini_mowatulla.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 4 },
+  },
+}
 
-immobilized enemies/mini_mowatulla.png 4 0 -1
-32	16	16	16	8	13	1	1
-32	16	16	16	8	13	1	1
-32	16	16	16	8	13	1	1
-32	16	16	16	8	13	1	1
+animation{
+  name = "immobilized",
+  src_image = "enemies/mini_mowatulla.png",
+  directions = {
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
 
-shaking enemies/mini_mowatulla.png 4 50 0
-32	16	16	16	8	13	2	2
-32	16	16	16	8	13	2	2
-32	16	16	16	8	13	2	2
-32	16	16	16	8	13	2	2
+animation{
+  name = "shaking",
+  src_image = "enemies/mini_mowatulla.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2 },
+  },
+}
 
-hurt enemies/mini_mowatulla.png 4 50 0
-0	16	16	16	8	13	3	3
-0	16	16	16	8	13	3	3
-0	16	16	16	8	13	3	3
-0	16	16	16	8	13	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/mini_mowatulla.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+  },
+}
 
-shell enemies/mini_mowatulla.png 4 0 -1
-0	32	16	16	8	13	1	1
-0	32	16	16	8	13	1	1
-0	32	16	16	8	13	1	1
-0	32	16	16	8	13	1	1
+animation{
+  name = "shell",
+  src_image = "enemies/mini_mowatulla.png",
+  directions = {
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
 
-
-shell_breaking enemies/mini_mowatulla.png 4 200 -1
-0	32	16	16	8	13	3	3
-0	32	16	16	8	13	3	3
-0	32	16	16	8	13	3	3
-0	32	16	16	8	13	3	3
+animation{
+  name = "shell_breaking",
+  src_image = "enemies/mini_mowatulla.png",
+  frame_delay = 200,
+  directions = {
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },
+  },
+}
 

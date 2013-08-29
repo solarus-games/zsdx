@@ -1,18 +1,35 @@
-closed tileset 4 0 -1
-160	16	16	32	0	8	1	1
-96	48	32	16	8	0	1	1
-48	16	16	32	0	8	1	1
-96	64	32	16	8	0	1	1
+animation{
+  name = "closed",
+  src_image = "tileset",
+  directions = {
+    { x = 160, y = 16, frame_width = 16, frame_height = 32, origin_y = 8 },
+    { x = 96, y = 48, frame_width = 32, frame_height = 16, origin_x = 8 },
+    { x = 48, y = 16, frame_width = 16, frame_height = 32, origin_y = 8 },
+    { x = 96, y = 64, frame_width = 32, frame_height = 16, origin_x = 8 },
+  },
+}
 
-opening tileset 4 100 -1
-192	16	16	32	0	8	1	1
-160	48	32	16	8	0	1	1
-80	16	16	32	0	8	1	1
-160	64	32	16	8	0	1	1
+animation{
+  name = "opening",
+  src_image = "tileset",
+  frame_delay = 100,
+  directions = {
+    { x = 192, y = 16, frame_width = 16, frame_height = 32, origin_y = 8 },
+    { x = 160, y = 48, frame_width = 32, frame_height = 16, origin_x = 8 },
+    { x = 80, y = 16, frame_width = 16, frame_height = 32, origin_y = 8 },
+    { x = 160, y = 64, frame_width = 32, frame_height = 16, origin_x = 8 },
+  },
+}
 
-closing tileset 4 100 -1
-192	16	16	32	0	8	1	1
-160	48	32	16	8	0	1	1
-80	16	16	32	0	8	1	1
-160	64	32	16	8	0	1	1
+animation{
+  name = "closing",
+  src_image = "tileset",
+  frame_delay = 100,
+  directions = {
+    { x = 192, y = 16, frame_width = 16, frame_height = 32, origin_y = 8 },
+    { x = 160, y = 48, frame_width = 32, frame_height = 16, origin_x = 8 },
+    { x = 80, y = 16, frame_width = 16, frame_height = 32, origin_y = 8 },
+    { x = 160, y = 64, frame_width = 32, frame_height = 16, origin_x = 8 },
+  },
+}
 

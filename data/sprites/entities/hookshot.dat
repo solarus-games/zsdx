@@ -1,8 +1,19 @@
-hook entities/hookshot.png 4 0 -1
-0	0	16	16	8	13	1	1
-16	0	16	16	8	13	1	1
-32	0	16	16	8	13	1	1
-48	0	16	16	8	13	1	1
+animation{
+  name = "hook",
+  src_image = "entities/hookshot.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
 
-link entities/hookshot.png 1 0 -1
-64	0	8	8	4	4	1	1
+animation{
+  name = "link",
+  src_image = "entities/hookshot.png",
+  directions = {
+    { x = 64, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
+  },
+}
+

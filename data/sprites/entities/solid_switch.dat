@@ -1,5 +1,16 @@
-inactivated entities/miscellaneous.png 1 0 -1
-48	16	16	16	0	0	1	1
+animation{
+  name = "inactivated",
+  src_image = "entities/miscellaneous.png",
+  directions = {
+    { x = 48, y = 16, frame_width = 16, frame_height = 16 },
+  },
+}
 
-activated entities/miscellaneous.png 1 0 -1
-64	16	16	16	0	0	1	1
+animation{
+  name = "activated",
+  src_image = "entities/miscellaneous.png",
+  directions = {
+    { x = 64, y = 16, frame_width = 16, frame_height = 16 },
+  },
+}
+

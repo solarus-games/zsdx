@@ -1,24 +1,50 @@
-walking enemies/firebird.png 4 300 0
-0	0	128	96	64	77	4	4
-0	0	128	96	64	77	4	4
-0	0	128	96	64	77	4	4
-0	0	128	96	64	77	4	4
+animation{
+  name = "walking",
+  src_image = "enemies/firebird.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 4 },
+  },
+}
 
-fast enemies/firebird.png 4 100 0
-0	0	128	96	64	77	4	4
-0	0	128	96	64	77	4	4
-0	0	128	96	64	77	4	4
-0	0	128	96	64	77	4	4
+animation{
+  name = "fast",
+  src_image = "enemies/firebird.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 4 },
+  },
+}
 
-hurt enemies/firebird.png 4 50 0
-384	0	128	96	64	77	3	3
-384	0	128	96	64	77	3	3
-384	0	128	96	64	77	3	3
-384	0	128	96	64	77	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/firebird.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 384, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 3 },
+    { x = 384, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 3 },
+    { x = 384, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 3 },
+    { x = 384, y = 0, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77, num_frames = 3 },
+  },
+}
 
-claw enemies/firebird.png 4 0 -1
-0	96	128	96	64	77	1	1
-0	96	128	96	64	77	1	1
-0	96	128	96	64	77	1	1
-0	96	128	96	64	77	1	1
+animation{
+  name = "claw",
+  src_image = "enemies/firebird.png",
+  directions = {
+    { x = 0, y = 96, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77 },
+    { x = 0, y = 96, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77 },
+    { x = 0, y = 96, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77 },
+    { x = 0, y = 96, frame_width = 128, frame_height = 96, origin_x = 64, origin_y = 77 },
+  },
+}
 

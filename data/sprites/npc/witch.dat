@@ -1,5 +1,13 @@
-stopped npc/witch.png 4 200 0
-0	0	32	40	16	29	8	8
-0	0	32	40	16	29	8	8
-0	0	32	40	16	29	8	8
-0	0	32	40	16	29	8	8
+animation{
+  name = "stopped",
+  src_image = "npc/witch.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 29, num_frames = 8 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 40, origin_x = 16, origin_y = 29, num_frames = 8 },
+  },
+}
+

@@ -1,5 +1,13 @@
-stopped npc/alttp.png 4 500 0
-144	192	24	32	12	29	2	2
-144	192	24	32	12	29	2	2
-144	192	24	32	12	29	2	2
-144	192	24	32	12	29	2	2
+animation{
+  name = "stopped",
+  src_image = "npc/alttp.png",
+  frame_delay = 500,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 144, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 144, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 144, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 144, y = 192, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+  },
+}
+

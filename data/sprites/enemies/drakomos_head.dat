@@ -1,17 +1,35 @@
-walking enemies/drakomos.png 4 0 -1
-0	80	56	56	28	40	1	1
-0	80	56	56	28	40	1	1
-0	80	56	56	28	40	1	1
-0	80	56	56	28	40	1	1
+animation{
+  name = "walking",
+  src_image = "enemies/drakomos.png",
+  directions = {
+    { x = 0, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40 },
+    { x = 0, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40 },
+    { x = 0, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40 },
+    { x = 0, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40 },
+  },
+}
 
-hurt enemies/drakomos.png 4 50 0
-0	80	56	56	28	40	3	3
-0	80	56	56	28	40	3	3
-0	80	56	56	28	40	3	3
-0	80	56	56	28	40	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/drakomos.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40, num_frames = 3 },
+    { x = 0, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40, num_frames = 3 },
+    { x = 0, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40, num_frames = 3 },
+    { x = 0, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40, num_frames = 3 },
+  },
+}
 
-preparing_fire enemies/drakomos.png 4 0 -1
-168	80	56	56	28	40	1	1
-168	80	56	56	28	40	1	1
-168	80	56	56	28	40	1	1
-168	80	56	56	28	40	1	1
+animation{
+  name = "preparing_fire",
+  src_image = "enemies/drakomos.png",
+  directions = {
+    { x = 168, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40 },
+    { x = 168, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40 },
+    { x = 168, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40 },
+    { x = 168, y = 80, frame_width = 56, frame_height = 56, origin_x = 28, origin_y = 40 },
+  },
+}
+

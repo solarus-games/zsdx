@@ -1,29 +1,61 @@
-walking enemies/gelidrak.png 4 300 0
-0	0	240	112	120	88	4	4
-0	112	240	112	120	88	4	4
-0	0	240	112	120	88	4	4
-0	0	240	112	120	88	4	4
+animation{
+  name = "walking",
+  src_image = "enemies/gelidrak.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 4 },
+    { x = 0, y = 112, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 4 },
+  },
+}
 
-fast enemies/gelidrak.png 4 100 0
-0	0	240	112	120	88	4	4
-0	112	240	112	120	88	4	4
-0	0	240	112	120	88	4	4
-0	0	240	112	120	88	4	4
+animation{
+  name = "fast",
+  src_image = "enemies/gelidrak.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 4 },
+    { x = 0, y = 112, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 4 },
+  },
+}
 
-hurt enemies/gelidrak.png 4 50 0
-720	0	240	112	120	88	3	3
-720	112	240	112	120	88	3	3
-720	0	240	112	120	88	3	3
-720	0	240	112	120	88	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/gelidrak.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 720, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 3 },
+    { x = 720, y = 112, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 3 },
+    { x = 720, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 3 },
+    { x = 720, y = 0, frame_width = 240, frame_height = 112, origin_x = 120, origin_y = 88, num_frames = 3 },
+  },
+}
 
-head_ball enemies/gelidrak.png 4 0 -1
-0	304	16	16	8	8	1	1
-0	304	16	16	8	8	1	1
-0	304	16	16	8	8	1	1
-0	304	16	16	8	8	1	1
+animation{
+  name = "head_ball",
+  src_image = "enemies/gelidrak.png",
+  directions = {
+    { x = 0, y = 304, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 304, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 304, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 304, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
 
-tail_ball enemies/gelidrak.png 4 0 -1
-16	304	16	16	8	8	1	1
-16	304	16	16	8	8	1	1
-16	304	16	16	8	8	1	1
-16	304	16	16	8	8	1	1
+animation{
+  name = "tail_ball",
+  src_image = "enemies/gelidrak.png",
+  directions = {
+    { x = 16, y = 304, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 16, y = 304, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 16, y = 304, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+    { x = 16, y = 304, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
+

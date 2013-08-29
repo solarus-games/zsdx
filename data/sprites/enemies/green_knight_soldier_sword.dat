@@ -1,24 +1,50 @@
-walking enemies/green_knight_soldier.png 4 200 0
-0	192	48	48	24	29	2	2
-0	240	48	48	24	29	2	2
-0	288	48	48	24	29	2	2
-0	336	48	48	24	29	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/green_knight_soldier.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 192, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 240, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 288, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 0, y = 336, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+  },
+}
 
-immobilized enemies/green_knight_soldier.png 4 0 -1
-288	192	48	48	24	29	1	1
-288	240	48	48	24	29	1	1
-288	288	48	48	24	29	1	1
-288	336	48	48	24	29	1	1
+animation{
+  name = "immobilized",
+  src_image = "enemies/green_knight_soldier.png",
+  directions = {
+    { x = 288, y = 192, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 288, y = 240, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 288, y = 288, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+    { x = 288, y = 336, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29 },
+  },
+}
 
-shaking enemies/green_knight_soldier.png 4 50 0
-288	192	48	48	24	29	2	2
-288	240	48	48	24	29	2	2
-288	288	48	48	24	29	2	2
-288	336	48	48	24	29	2	2
+animation{
+  name = "shaking",
+  src_image = "enemies/green_knight_soldier.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 288, y = 192, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 240, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 288, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+    { x = 288, y = 336, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 2 },
+  },
+}
 
-hurt enemies/green_knight_soldier.png 4 50 0
-192	192	48	48	24	29	3	3
-192	240	48	48	24	29	3	3
-192	288	48	48	24	29	3	3
-192	336	48	48	24	29	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/green_knight_soldier.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 192, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 3 },
+    { x = 192, y = 240, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 3 },
+    { x = 192, y = 288, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 3 },
+    { x = 192, y = 336, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 3 },
+  },
+}
 

@@ -1,36 +1,75 @@
-walking enemies/arbror_root.png 4 200 5
-0	0	64	96	29	86	6	6
-0	0	64	96	29	86	6	6
-0	0	64	96	29	86	6	6
-0	0	64	96	29	86	6	6
+animation{
+  name = "walking",
+  src_image = "enemies/arbror_root.png",
+  frame_delay = 200,
+  frame_to_loop_on = 5,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 6 },
+  },
+}
 
-disappearing enemies/arbror_root.png 4 200 -1
-0	96	64	96	29	86	6	6
-0	96	64	96	29	86	6	6
-0	96	64	96	29	86	6	6
-0	96	64	96	29	86	6	6
+animation{
+  name = "disappearing",
+  src_image = "enemies/arbror_root.png",
+  frame_delay = 200,
+  directions = {
+    { x = 0, y = 96, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 6 },
+    { x = 0, y = 96, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 6 },
+    { x = 0, y = 96, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 6 },
+    { x = 0, y = 96, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 6 },
+  },
+}
 
-immobilized enemies/arbror_root.png 4 0 -1
-192	192	64	96	29	86	1	1
-192	192	64	96	29	86	1	1
-192	192	64	96	29	86	1	1
-192	192	64	96	29	86	1	1
+animation{
+  name = "immobilized",
+  src_image = "enemies/arbror_root.png",
+  directions = {
+    { x = 192, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86 },
+    { x = 192, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86 },
+    { x = 192, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86 },
+    { x = 192, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86 },
+  },
+}
 
-shaking enemies/arbror_root.png 4 50 0
-192	192	64	96	29	86	2	2
-192	192	64	96	29	86	2	2
-192	192	64	96	29	86	2	2
-192	192	64	96	29	86	2	2
+animation{
+  name = "shaking",
+  src_image = "enemies/arbror_root.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 192, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 2 },
+    { x = 192, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 2 },
+    { x = 192, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 2 },
+    { x = 192, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 2 },
+  },
+}
 
-hurt enemies/arbror_root.png 4 50 0
-0	192	64	96	29	86	3	3
-0	192	64	96	29	86	3	3
-0	192	64	96	29	86	3	3
-0	192	64	96	29	86	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/arbror_root.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 3 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 3 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 3 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 3 },
+  },
+}
 
-hurt_long enemies/arbror_root.png 4 100 0
-0	192	64	96	29	86	3	3
-0	192	64	96	29	86	3	3
-0	192	64	96	29	86	3	3
-0	192	64	96	29	86	3	3
+animation{
+  name = "hurt_long",
+  src_image = "enemies/arbror_root.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 3 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 3 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 3 },
+    { x = 0, y = 192, frame_width = 64, frame_height = 96, origin_x = 29, origin_y = 86, num_frames = 3 },
+  },
+}
 

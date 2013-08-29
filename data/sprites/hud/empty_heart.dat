@@ -1,5 +1,18 @@
-normal hud/hearts.png 1 0 -1
-0	9	9	9	0	0	1	1
+animation{
+  name = "normal",
+  src_image = "hud/hearts.png",
+  directions = {
+    { x = 0, y = 9, frame_width = 9, frame_height = 9 },
+  },
+}
 
-danger hud/hearts.png 1 200 0
-0	9	9	9	0	0	4	4
+animation{
+  name = "danger",
+  src_image = "hud/hearts.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 9, frame_width = 9, frame_height = 9, num_frames = 4 },
+  },
+}
+

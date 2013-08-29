@@ -1,11 +1,24 @@
-stopped npc/newlink.png 4 0 -1
-96	96	24	32	12	29	1	1
-96	128	24	32	12	29	1	1
-144	96	24	32	12	29	1	1
-96	160	24	32	12	29	1	1
+animation{
+  name = "stopped",
+  src_image = "npc/newlink.png",
+  directions = {
+    { x = 96, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 96, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 144, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 96, y = 160, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
 
-walking npc/newlink.png 4 200 0
-96	96	24	32	12	29	2	2
-96	128	24	32	12	29	4	4
-144	96	24	32	12	29	2	2
-96	160	24	32	12	29	4	4
+animation{
+  name = "walking",
+  src_image = "npc/newlink.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 96, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 96, y = 128, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+    { x = 144, y = 96, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 2 },
+    { x = 96, y = 160, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29, num_frames = 4 },
+  },
+}
+

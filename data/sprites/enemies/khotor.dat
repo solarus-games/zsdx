@@ -1,24 +1,52 @@
-walking_no_chain enemies/khotor.png 4 250 0
-0	0	48	48	24	29	4	4
-0	0	48	48	24	29	4	4
-0	0	48	48	24	29	4	4
-0	0	48	48	24	29	4	4
+animation{
+  name = "walking_no_chain",
+  src_image = "enemies/khotor.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 4 },
+  },
+}
 
-stopped enemies/khotor.png 4 100	0
-0	48	48	64	24	45	2	2
-0	48	48	64	24	45	2	2
-0	48	48	64	24	45	2	2
-0	48	48	64	24	45	2	2
+animation{
+  name = "stopped",
+  src_image = "enemies/khotor.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 48, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 45, num_frames = 2 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 45, num_frames = 2 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 45, num_frames = 2 },
+    { x = 0, y = 48, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 45, num_frames = 2 },
+  },
+}
 
-walking enemies/khotor.png 4 250 0
-96	48	48	64	24	45	2	2
-96	48	48	64	24	45	2	2
-96	48	48	64	24	45	2	2
-96	48	48	64	24	45	2	2
+animation{
+  name = "walking",
+  src_image = "enemies/khotor.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 96, y = 48, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 45, num_frames = 2 },
+    { x = 96, y = 48, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 45, num_frames = 2 },
+    { x = 96, y = 48, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 45, num_frames = 2 },
+    { x = 96, y = 48, frame_width = 48, frame_height = 64, origin_x = 24, origin_y = 45, num_frames = 2 },
+  },
+}
 
-hurt enemies/khotor.png 4 50 0
-0	112	48	48	24	29	3	3
-0	112	48	48	24	29	3	3
-0	112	48	48	24	29	3	3
-0	112	48	48	24	29	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/khotor.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 112, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 112, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 112, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 3 },
+    { x = 0, y = 112, frame_width = 48, frame_height = 48, origin_x = 24, origin_y = 29, num_frames = 3 },
+  },
+}
 

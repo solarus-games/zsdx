@@ -1,18 +1,35 @@
-walking enemies/poutroxor.png 4 0 -1
-168	336	168	112	84	96	1	1
-168	336	168	112	84	96	1	1
-168	336	168	112	84	96	1	1
-168	336	168	112	84	96	1	1
+animation{
+  name = "walking",
+  src_image = "enemies/poutroxor.png",
+  directions = {
+    { x = 168, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96 },
+    { x = 168, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96 },
+    { x = 168, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96 },
+    { x = 168, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96 },
+  },
+}
 
-attack enemies/poutroxor.png 4 0 -1
-0	336	168	112	84	96	1	1
-0	336	168	112	84	96	1	1
-0	336	168	112	84	96	1	1
-0	336	168	112	84	96	1	1
+animation{
+  name = "attack",
+  src_image = "enemies/poutroxor.png",
+  directions = {
+    { x = 0, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96 },
+    { x = 0, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96 },
+    { x = 0, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96 },
+    { x = 0, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96 },
+  },
+}
 
-hurt enemies/poutroxor.png 4 50 0
-168	336	168	112	84	96	3	3
-168	336	168	112	84	96	3	3
-168	336	168	112	84	96	3	3
-168	336	168	112	84	96	3	3
+animation{
+  name = "hurt",
+  src_image = "enemies/poutroxor.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 168, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96, num_frames = 3 },
+    { x = 168, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96, num_frames = 3 },
+    { x = 168, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96, num_frames = 3 },
+    { x = 168, y = 336, frame_width = 168, frame_height = 112, origin_x = 84, origin_y = 96, num_frames = 3 },
+  },
+}
 
