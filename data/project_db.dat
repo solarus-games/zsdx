@@ -270,6 +270,36 @@ sprite{ id = "npc/solarus_child1", description = "Solarus Child 1" }
 sprite{ id = "npc/solarus_child2", description = "Solarus Child 2" }
 sprite{ id = "npc/solarus_child3", description = "Solarus Child 3" }
 sprite{ id = "npc/solarus_child4", description = "Solarus Child 4" }
+sprite{ id = "entities/conveyor_belt", description = "Conveyor belt" }
+sprite{ id = "entities/crystal", description = "Crystal" }
+sprite{ id = "entities/bomb", description = "Bomb" }
+sprite{ id = "entities/explosion", description = "Explosion" }
+sprite{ id = "entities/grass", description = "Grass" }
+sprite{ id = "entities/bush", description = "Bush" }
+sprite{ id = "entities/pot", description = "Pot" }
+sprite{ id = "entities/bomb_flower", description = "Bomb flower" }
+sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/shadow", description = "Shadow" }
+sprite{ id = "entities/star", description = "Star" }
+sprite{ id = "entities/stone_small_black", description = "Small black stone" }
+sprite{ id = "entities/stone_small_white", description = "Small white stone" }
+sprite{ id = "entities/switch", description = "Switch" }
+sprite{ id = "hero/tunic1", description = "Hero tunic 1" }
+sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
+sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
+sprite{ id = "hero/sword1", description = "Hero sword 1" }
+sprite{ id = "hero/sword2", description = "Hero sword 2" }
+sprite{ id = "hero/sword3", description = "Hero sword 3" }
+sprite{ id = "hero/sword4", description = "Hero sword 4" }
+sprite{ id = "hero/sword_stars1", description = "Hero sword stars 1" }
+sprite{ id = "hero/sword_stars2", description = "Hero sword stars 2" }
+sprite{ id = "hero/shield1", description = "Hero shield 1" }
+sprite{ id = "hero/shield2", description = "Hero shield 2" }
+sprite{ id = "hero/shield3", description = "Hero shield 3" }
+sprite{ id = "hero/ground1", description = "Grass under hero" }
+sprite{ id = "hero/ground2", description = "Shallow water under hero" }
+sprite{ id = "hero/trail", description = "Hero trail" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/black_knight_soldier_sword", description = "Enemy: Black knight soldier sword" }
 sprite{ id = "enemies/khorneth_left_blade", description = "Enemy: Khorneth left blade" }
