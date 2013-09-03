@@ -623,7 +623,7 @@ npc{
   subtype = "0",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 80,
   y = 128,
@@ -634,7 +634,7 @@ shop_item{
   dialog = "cake_shop.pain_au_chocolat",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 208,
   y = 128,
@@ -654,7 +654,7 @@ sensor{
   name = "leaving_shop_sensor",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 144,
   y = 128,
