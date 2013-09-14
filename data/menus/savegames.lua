@@ -1,14 +1,7 @@
--- Savegame selection screen, displayed after the title screen.
+-- Savegame selection screen.
 
 local savegame_menu = {}
 local cloud_width, cloud_height = 111, 88
-
-function savegame_menu:new()
-  local object = {}
-  setmetatable(object, self)
-  self.__index = self
-  return object
-end
 
 function savegame_menu:on_started()
 
@@ -376,6 +369,7 @@ function savegame_menu:key_pressed_phase_select_file(key)
         self.finished = true
         self.surface:fade_out()
         sol.timer.start(self, 700, function()
+          sol.menu.stop(self)
 	  sol.main:start_savegame(slot.savegame)
         end)
       else

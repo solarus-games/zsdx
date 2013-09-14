@@ -1,67 +1,204 @@
--- This menu is displayed when the program starts, before the language screen.
--- It shows the Solarus engine logo.
+-- Animated Solarus logo by Maxs.
 
+-- Usage:
+-- local logo = require("menus/solarus_logo")
+-- sol.menu.start(logo)
 local solarus_logo_menu = {}
-local finished = false
-local surface
 
-local function start_next_menu()
+-- Main surface of the menu.
+local surface = sol.surface.create(201, 48)
+surface:set_transparency_color{0, 0, 0}
 
-  if sol.main.menu == solarus_logo_menu then
-    local language_menu = require("menus/language")
-    sol.main:start_menu(language_menu:new())
+-- Solarus title sprite.
+local title = sol.sprite.create("menus/solarus_logo")
+title:set_animation("title")
+
+-- Solarus subtitle sprite.
+local subtitle = sol.sprite.create("menus/solarus_logo")
+subtitle:set_animation("subtitle")
+
+-- Sun sprite.
+local sun = sol.sprite.create("menus/solarus_logo")
+sun:set_animation("sun")
+
+-- Sword sprite.
+local sword = sol.sprite.create("menus/solarus_logo")
+sword:set_animation("sword")
+
+-- Black square below the sun.
+local black_square = sol.surface.create(48, 15)
+black_square:fill_color{0, 0, 0}
+
+-- Step of the animation.
+local animation_step = 0
+
+-- Time handling.
+local timer = nil
+
+-------------------------------------------------------------------------------
+
+-- Rebuilds the whole surface of the menu.
+local function rebuild_surface ()
+
+  -- Clean the surface by filling it with the transparency color.
+  surface:fill_color{0, 0, 0}
+
+  -- Draw the title (after step 1).
+  if animation_step >= 1 then
+    title:draw(surface)
+  end
+
+  -- Draw the sun.
+  sun:draw(surface, 0, 33)
+
+  -- Draw the black square to partially hide the sun.
+  black_square:draw(surface, 24, 33)
+
+  -- Draw the sword.
+  sword:draw(surface, 48, -48)
+
+  -- Draw the subtitle (after step 2).
+  if animation_step >= 2 then
+    subtitle:draw(surface)
   end
 end
 
+-------------------------------------------------------------------------------
+
+-- Starting the menu.
 function solarus_logo_menu:on_started()
 
-  finished = false
-  surface = sol.surface.create("menus/solarus_logo.png")
-  surface:fade_in(function()
+  -- Initialize or reinitialize the animation.
+  animation_step = 0
+  timer = nil
+  surface:set_opacity(255)
+  sun:set_direction(0)
+  sun:set_xy(0, 0)
+  sword:set_xy(0, 0)
+  -- Start the animation.
+  self:start_animation()
+  -- Update the surface.
+  rebuild_surface()
+end
 
-    sol.timer.start(solarus_logo_menu, 1000, function()
-      if not finished then
-        finished = true
-        surface:fade_out()
-        sol.timer.start(self, 700, start_next_menu)
+-- Animation step 1.
+function solarus_logo_menu:step1()
+
+  animation_step = 1
+  -- Change the sun color.
+  sun:set_direction(1)
+  -- Stop movements and replace elements.
+  sun:stop_movement()
+  sun:set_xy(0, -33)
+  sword:stop_movement()
+  sword:set_xy(-48, 48)
+  -- Play the sword sound.
+  sol.audio.play_sound("solarus_logo")
+  -- Update the surface.
+  rebuild_surface()
+end
+
+-- Animation step 2.
+function solarus_logo_menu:step2()
+
+  animation_step = 2
+  -- Update the surface.
+  rebuild_surface()
+  -- Start the final timer.
+  sol.timer.start(self, 500, function()
+    surface:fade_out()
+    sol.timer.start(self, 700, function()
+      sol.menu.stop(self)
+    end)
+  end)
+end
+
+-- Run the logo animation.
+function solarus_logo_menu:start_animation()
+
+  -- Move the sun.
+  local sun_movement = sol.movement.create("target")
+  sun_movement:set_speed(64)
+  sun_movement:set_target(0, -33)
+  -- Update the surface whenever the sun moves.
+  function sun_movement:on_position_changed()
+    rebuild_surface()
+  end
+
+  -- Move the sword.
+  local sword_movement = sol.movement.create("target")
+  sword_movement:set_speed(96)
+  sword_movement:set_target(-48, 48)
+
+  -- Update the surface whenever the sword moves.
+  function sword_movement:on_position_changed()
+    rebuild_surface()
+  end
+
+  -- Start the movements.
+  sun_movement:start(sun, function()
+    sword_movement:start(sword, function()
+          -- If the animation step is not greater than 0
+      -- (if no key was pressed).
+      if animation_step <= 0 then
+        -- Start step 1.
+        self:step1()
+        -- Create the timer for step 2.
+        timer = sol.timer.start(self, 250, function()
+          -- If the animation step is not greater than 1
+          -- (if no key was pressed).
+          if animation_step <= 1 then
+            -- Start step 2.
+            self:step2()
+          end
+        end)
       end
     end)
   end)
 end
 
-function solarus_logo_menu:on_draw(dst_surface)
+-- Draws this menu on the quest screen.
+function solarus_logo_menu:on_draw(screen)
 
-  -- The logo makes 320*240 pixels, but dst_surface may be larger.
-  local width, height = dst_surface:get_size()
-  surface:draw(dst_surface, width / 2 - 160, height / 2 - 120)
+  -- Get the screen size.
+  local width, height = screen:get_size()
+
+  -- Center the surface in the screen.
+  surface:draw(screen, width / 2 - 100, height / 2 - 24)
 end
 
+-- Called when a keyboard key is pressed.
 function solarus_logo_menu:on_key_pressed(key)
 
-  local handled = false
-
   if key == "escape" then
-    -- Stop the program.
-    handled = true
+    -- Escape: quit Solarus.
     sol.main.exit()
-
   else
+    -- If the timer exists (after step 1).
+    if timer ~= nil then
+      -- Stop the timer.
+      timer:stop()
+      timer = nil
+      -- If the animation step is not greater than 1
+      -- (if the timer has not expired in the meantime).
+      if animation_step <= 1 then
+        -- Start step 2.
+        self:step2()
+      end
 
-    if not finished then
-      handled = true
-      finished = true
-      surface:fade_out()
-      sol.timer.start(self, 700, start_next_menu)
+    -- If the animation step is not greater than 0.
+    elseif animation_step <= 0 then
+      -- Start step 1.
+      self:step1()
+      -- Start step 2.
+      self:step2()
     end
 
-    return handled
+    -- Return true to indicate that the keyboard event was handled.
+    return true
   end
 end
 
-function solarus_logo_menu:on_joypad_button_pressed(button)
-
-  return solarus_logo_menu:on_key_pressed("space")
-end
-
+-- Return the menu to the caller.
 return solarus_logo_menu
 

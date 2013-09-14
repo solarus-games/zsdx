@@ -1,21 +1,13 @@
--- This menu is displayed when the program starts, after the solarus logo and
--- before the title screen. The user can select his language.
--- If a language is already set, we go directly to the title screen.
+-- Language selection menu.
+-- If a language is already set, we skip this menu.
 
 local language_menu = {}
-
-function language_menu:new()
-  local object = {}
-  setmetatable(object, self)
-  self.__index = self
-  return object
-end
 
 function language_menu:on_started()
 
   if sol.language.get_language() ~= nil then
     -- A language is already set: skip this screen.
-    self:start_title_screen()
+    sol.menu.stop(self)
   else
 
     local ids = sol.language.get_languages()
@@ -50,7 +42,7 @@ function language_menu:on_started()
       if #self.languages == 1 then
         sol.language.set_language(self.languages[1].id)
       end
-      self:start_title_screen()
+      sol.menu.stop(self)
     else
       self:set_cursor_position(cursor_position)
     end
@@ -93,7 +85,7 @@ function language_menu:on_key_pressed(key)
       self.finished = true
       self.surface:fade_out()
       sol.timer.start(self, 700, function()
-        self:start_title_screen()
+        sol.menu.stop(self)
       end)
     end
 
@@ -177,12 +169,6 @@ function language_menu:set_cursor_position(cursor_position)
   end
 
   self.cursor_position = cursor_position
-end
-
-function language_menu:start_title_screen()
-
-  local title_screen = require("menus/title")
-  sol.main:start_menu(title_screen:new())
 end
 
 return language_menu

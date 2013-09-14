@@ -374,6 +374,21 @@ sprite{ id = "enemies/poutroxor", description = "Enemy: Poutroxor" }
 sprite{ id = "enemies/billy", description = "Enemy: Billy" }
 sprite{ id = "enemies/ganon", description = "Enemy: Ganon" }
 sprite{ id = "enemies/fire_bat", description = "Enemy: Fire bat" }
+sprite{ id = "hud/dialog_box_message_end", description = "Dialog end" }
+sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
+sprite{ id = "hud/action_icon_flip", description = "HUD: Action icon" }
+sprite{ id = "hud/pause_icon_flip", description = "HUD: Pause icon" }
+sprite{ id = "hud/sword_icon_flip", description = "HUD: Sword icon" }
+sprite{ id = "hud/empty_heart", description = "HUD: Empty heart" }
+sprite{ id = "hud/magic_bar", description = "HUD: Magic bar" }
+sprite{ id = "menus/arrow", description = "Menu: Arrow" }
+sprite{ id = "menus/selection_menu_cursor", description = "Menu: Savegame cursor" }
+sprite{ id = "menus/pause_cursor", description = "Menu: Pause cursor" }
+sprite{ id = "menus/pause_save_dialog", description = "Menu: Pause save dialog" }
+sprite{ id = "menus/options_cursor", description = "Menu: Options cursor" }
+sprite{ id = "menus/hero_head", description = "Menu: Hero head" }
+sprite{ id = "menus/hero_point", description = "Menu: Hero point" }
+sprite{ id = "menus/solarus_logo", description = "Menu: Solarus logo" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
 sound{ id = "bomb", description = "bomb" }
@@ -434,6 +449,7 @@ sound{ id = "rupee_counter_end", description = "rupee_counter_end" }
 sound{ id = "rupee_counter", description = "rupee_counter" }
 sound{ id = "secret", description = "secret" }
 sound{ id = "shield", description = "shield" }
+sound{ id = "solarus_logo", description = "Solarus logo" }
 sound{ id = "splash", description = "splash" }
 sound{ id = "stairs_down_end", description = "stairs_down_end" }
 sound{ id = "stairs_down_start", description = "stairs_down_start" }

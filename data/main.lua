@@ -16,11 +16,37 @@ function sol.main:on_started()
   -- If there is a file called "debug" in the write directory, enable debug mode.
   debug_enabled = sol.file.exists("debug")
 
-  -- Show the Solarus logo initially.
-  local solarus_logo_menu = require("menus/solarus_logo")
-  sol.main:start_menu(solarus_logo_menu)
+  local solarus_logo = require("menus/solarus_logo")
+  local language_menu = require("menus/language")
+  local title_screen = require("menus/title")
+  local savegame_menu = require("menus/savegames")
+
+  -- Show the Solarus logo first.
+  sol.menu.start(self, solarus_logo)
+
+  -- Then the language selection menu, unless a game was started by a debug key.
+  solarus_logo.on_finished = function()
+    if self.game == nil then
+      sol.menu.start(self, language_menu)
+    end
+  end
+
+  -- Then the title screen.
+  language_menu.on_finished = function()
+    if self.game == nil then
+      sol.menu.start(self, title_screen)
+    end
+  end
+
+  -- Then the savegame menu.
+  title_screen.on_finished = function()
+    if self.game == nil then
+      sol.menu.start(self, savegame_menu)
+    end
+  end
 end
 
+-- Event called when the program stops.
 function sol.main:on_finished()
 
   sol.main.save_settings()
@@ -31,15 +57,21 @@ function sol.main:debug_on_key_pressed(key, modifiers)
   local handled = true
   if key == "f1" then
     if sol.game.exists("save1.dat") then
-      self:start_savegame(sol.game.load("save1.dat"))
+      self.game = sol.game.load("save1.dat")
+      sol.menu.stop_all(self)
+      self:start_savegame(self.game)
     end
   elseif key == "f2" then
     if sol.game.exists("save2.dat") then
-      self:start_savegame(sol.game.load("save2.dat"))
+      self.game = sol.game.load("save2.dat")
+      sol.menu.stop_all(self)
+      self:start_savegame(self.game)
     end
   elseif key == "f3" then
     if sol.game.exists("save3.dat") then
-      self:start_savegame(sol.game.load("save3.dat"))
+      self.game = sol.game.load("save3.dat")
+      sol.menu.stop_all(self)
+      self:start_savegame(self.game)
     end
   elseif key == "f12" and not console.enabled then
     console:start()
@@ -195,28 +227,8 @@ function sol.main:on_key_pressed(key, modifiers)
   return handled
 end
 
--- Stops the current menu and start another one.
-function sol.main:start_menu(menu)
-
-  if sol.main.menu ~= nil then
-    sol.menu.stop(sol.main.menu)
-  end
-
-  sol.main.menu = menu
-
-  if menu ~= nil then
-    sol.menu.start(sol.main, menu)
-  end
-end
-
--- Stops the current menu if any and starts a game.
+-- Starts a game.
 function sol.main:start_savegame(game)
-
-  if sol.main.menu ~= nil then
-    sol.menu.stop(sol.main.menu)
-  end
-
-  sol.main.menu = nil
 
   local play_game = sol.main.load_file("play_game")
   play_game(game)

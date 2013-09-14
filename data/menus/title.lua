@@ -1,18 +1,6 @@
--- This screen is displayed when the program starts, after the language
--- selection screen (if any).
-
--- This menu is scripted in an object-oriented style:
--- we create a class title_screen and return it.
--- All data are stored in the self instance.
+-- Title screen of the game.
 
 local title_screen = {}
-
-function title_screen:new()
-  local object = {}
-  setmetatable(object, self)
-  self.__index = self
-  return object
-end
 
 function title_screen:on_started()
 
@@ -229,9 +217,8 @@ end
 
 function title_screen:finish_title()
 
-  local savegame_menu = require("menus/savegames")
   sol.audio.stop_music()
-  sol.main:start_menu(savegame_menu:new())
+  sol.menu.stop(self)
 end
 
 return title_screen
