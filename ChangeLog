@@ -3,6 +3,7 @@ zsdx-1.7.0 (under development)
 * Use solarus 1.1.
 * Add simplified Chinese and traditional Chinese translations (beta).
 * Replace .spc musics by .it ones (much faster) (#17).
+* Add an animated Solarus logo from Maxs (#57).
 * Fix savegames freshly created with Solarus 0.9 and never run yet.
 * Fix a slight alignment issue with the hurt animation of the hero.
 * Fix a small breach in dungeon 9 4F in the timed chest room (#4).
