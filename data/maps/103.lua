@@ -181,7 +181,8 @@ end
 -- boss door
 function close_boss_door_sensor:on_activated()
 
-  if boss_door:is_open() then
+  if boss_door:is_open() and not game:get_value("b625") then
+    -- The boss is alive.
     map:close_doors("boss_door")
     sol.audio.stop_music()
   end

@@ -10,6 +10,7 @@ zsdx-1.7.0 (under development)
 * Fix easy infinite rupees in the waterfall cave (#13).
 * Fix low health beeping playing at final screen (#56).
 * Add a teletransporter from south lake to the cave under the waterfall (#10).
+* Dungeon 7 boss: the player could get stuck in the boss room (#6).
 
 zsdx-1.6.2 (2013-06-25)
 
