@@ -25,7 +25,7 @@ function solarus_child:on_interaction()
           game:set_pause_allowed(true)
         end)
       end)
-    end)
+    end, 1000, 86400000)
   end
 end
 
