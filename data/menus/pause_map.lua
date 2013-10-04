@@ -284,6 +284,8 @@ end
 
 function map_submenu:draw_dungeon_floors(dst_surface)
 
+  local width, height = sol.video.get_quest_size()
+
   -- Draw some floors.
   local src_x = 96
   local src_y = (15 - self.highest_floor_displayed) * 12
@@ -321,7 +323,7 @@ function map_submenu:draw_dungeon_floors(dst_surface)
       and self.dungeon.boss.floor <= self.highest_floor_displayed then
 
     dst_y = old_dst_y + (self.highest_floor_displayed - self.dungeon.boss.floor) * 12 + 3
-    self.dungeon_map_icons_img:draw_region(78, 0, 8, 8, dst_surface, 113, dst_y)
+    self.dungeon_map_icons_img:draw_region(78, 0, 8, 8, dst_surface, width / 2 - 47, height / 2 - 120 + dst_y)
   end
 
   -- Draw the arrows.
