@@ -69,7 +69,7 @@ function map:on_started(destination)
 
   if game:get_value("b127") then
     -- the barrier of the compass chest is removed
-    barrier:set_enabled(false)
+    barrier_tile:set_enabled(false)
     barrier_switch:set_activated(true)
   end
 
@@ -126,10 +126,10 @@ end
 
 function barrier_switch:on_activated()
 
-  if barrier:is_enabled() then
+  if barrier_tile:is_enabled() then
     map:move_camera(120, 240, 250, function()
       sol.audio.play_sound("secret")
-      barrier:set_enabled(false)
+      barrier_tile:set_enabled(false)
       game:set_value("b127", true)
     end)
   end
@@ -167,14 +167,14 @@ end
 
 function shortcut_a_switch:on_activated()
 
-  map:set_entities_enabled("shortcut_a", false)
+  map:set_entities_enabled("shortcut_a_tile", false)
   game:set_value("b908", true)
   sol.audio.play_sound("secret")
 end
 
 function shortcut_b_switch:on_activated()
 
-  map:set_entities_enabled("shortcut_b", false)
+  map:set_entities_enabled("shortcut_b_tile", false)
   game:set_value("b909", true)
   sol.audio.play_sound("secret")
 end

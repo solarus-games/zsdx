@@ -13,6 +13,7 @@ zsdx-1.7.0 (under development)
 * Dungeon 7 boss: the player could get stuck in the boss room (#6).
 * Dungeon 7 boss: change the misleading hurt sound of the tail (#7).
 * Dungeon 7: help the player be aligned correctly to obtain the boss key (#8).
+* Dungeon 3 2F: fix two switches that disappeared when activating them.
 
 zsdx-1.6.2 (2013-06-25)
 

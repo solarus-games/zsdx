@@ -485,7 +485,6 @@ chest{
   y = 893,
   name = "chest_2",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b119",
   sprite = "entities/chest",
 }
@@ -7823,7 +7822,6 @@ chest{
   y = 61,
   name = "chest",
   treasure_name = "big_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b129",
   sprite = "entities/chest",
 }
@@ -7834,7 +7832,6 @@ chest{
   y = 189,
   name = "chest_3",
   treasure_name = "compass",
-  treasure_variant = 1,
   treasure_savegame_variable = "b126",
   sprite = "entities/chest",
 }
@@ -8225,7 +8222,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8236,7 +8232,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8247,7 +8242,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8258,7 +8252,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8269,7 +8262,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8280,7 +8272,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 switch{
@@ -8298,7 +8289,6 @@ destructible{
   x = 168,
   y = 165,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8307,7 +8297,6 @@ destructible{
   y = 189,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 dynamic_tile{
@@ -8316,7 +8305,7 @@ dynamic_tile{
   y = 240,
   width = 16,
   height = 8,
-  name = "barrier",
+  name = "barrier_tile",
   pattern = 70,
   enabled_at_start = true,
 }
@@ -8627,7 +8616,6 @@ destructible{
   y = 557,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8636,7 +8624,6 @@ destructible{
   y = 557,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8645,7 +8632,6 @@ destructible{
   y = 557,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8654,7 +8640,6 @@ destructible{
   y = 557,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8672,7 +8657,6 @@ destructible{
   y = 557,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8681,7 +8665,6 @@ destructible{
   y = 445,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8690,7 +8673,6 @@ destructible{
   y = 445,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8699,7 +8681,6 @@ destructible{
   y = 445,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8708,7 +8689,6 @@ destructible{
   y = 445,
   subtype = "pot",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8719,7 +8699,6 @@ enemy{
   direction = 3,
   breed = "bubble",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8730,7 +8709,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8741,7 +8719,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8752,7 +8729,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8763,7 +8739,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8774,7 +8749,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8785,7 +8759,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8796,7 +8769,6 @@ enemy{
   direction = 3,
   breed = "bubble",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 switch{
@@ -8814,7 +8786,6 @@ destructible{
   x = 568,
   y = 165,
   subtype = "pot",
-  treasure_variant = 1,
 }
 
 destructible{
@@ -8823,7 +8794,6 @@ destructible{
   y = 189,
   subtype = "pot",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 dynamic_tile{
