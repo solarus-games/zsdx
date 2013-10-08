@@ -194,8 +194,8 @@ function boss_floor_sensor_1:on_activated()
   if fighting_boss
       and boss_floor_1:is_enabled() then
 
-    map:set_entities_enabled("boss_floor_sensor", false)
     boss_restore_floor(true)
+    map:set_entities_enabled("boss_floor_sensor", false)
     boss_change_floor(1, 92, 1, false)
     sol.timer.start(map, 10000, function()
       map:set_entities_enabled("boss_floor_sensor", true)
@@ -209,8 +209,8 @@ function boss_floor_sensor_2:on_activated()
   if fighting_boss
       and boss_floor_92:is_enabled() then
 
-    map:set_entities_enabled("boss_floor_sensor", false)
     boss_restore_floor(true)
+    map:set_entities_enabled("boss_floor_sensor", false)
     boss_change_floor(92, 1, -1, false)
     sol.timer.start(map, 10000, function()
       map:set_entities_enabled("boss_floor_sensor", true)
