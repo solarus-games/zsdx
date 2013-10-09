@@ -318,6 +318,7 @@ function map_submenu:draw_dungeon_floors(dst_surface)
 
   -- Draw the boss icon if any.
   if self.game:has_dungeon_compass()
+      and self.dungeon.boss ~= nil
       and self.dungeon.boss.floor ~= nil
       and self.dungeon.boss.floor >= lowest_floor_displayed
       and self.dungeon.boss.floor <= self.highest_floor_displayed then
