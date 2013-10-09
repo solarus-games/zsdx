@@ -54,7 +54,9 @@ function map:on_started(destination)
   if game:get_value("b515") then
     weak_floor:set_enabled(false)
     weak_floor_sensor:set_enabled(false)
-    weak_floor_block:set_enabled(false)
+    if weak_floor_block ~= nil then
+      weak_floor_block:set_enabled(false)
+    end
   end
 
   -- blocks necessary to go back when found the feather
