@@ -34,5 +34,6 @@ end
 function enemy:on_obstacle_reached()
 
   self:set_position(initial_position.x, initial_position.y, initial_position.layer)
+  self:restart()
 end
 
