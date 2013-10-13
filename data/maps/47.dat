@@ -10831,6 +10831,126 @@ jumper{
   jump_length = 16,
 }
 
+wall{
+  layer = 1,
+  x = 1080,
+  y = 40,
+  width = 8,
+  height = 32,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1168,
+  y = 40,
+  width = 8,
+  height = 32,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1080,
+  y = 200,
+  width = 8,
+  height = 32,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1168,
+  y = 200,
+  width = 8,
+  height = 32,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1224,
+  y = 80,
+  width = 8,
+  height = 112,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1024,
+  y = 80,
+  width = 8,
+  height = 112,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1032,
+  y = 72,
+  width = 56,
+  height = 8,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1168,
+  y = 72,
+  width = 56,
+  height = 8,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1032,
+  y = 192,
+  width = 56,
+  height = 8,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
+wall{
+  layer = 1,
+  x = 1168,
+  y = 192,
+  width = 56,
+  height = 8,
+  stops_hero = false,
+  stops_enemies = true,
+  stops_npcs = true,
+  stops_blocks = false,
+}
+
 tile{
   layer = 2,
   x = 1720,
