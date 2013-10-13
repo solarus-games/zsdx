@@ -20,6 +20,24 @@ tile{
 
 tile{
   layer = 1,
+  x = 1216,
+  y = 848,
+  width = 16,
+  height = 272,
+  pattern = 261,
+}
+
+tile{
+  layer = 1,
+  x = 1024,
+  y = 848,
+  width = 16,
+  height = 272,
+  pattern = 260,
+}
+
+tile{
+  layer = 1,
   x = 1088,
   y = 864,
   width = 16,
@@ -241,24 +259,6 @@ tile{
   width = 256,
   height = 8,
   pattern = 249,
-}
-
-tile{
-  layer = 1,
-  x = 1216,
-  y = 848,
-  width = 16,
-  height = 272,
-  pattern = 261,
-}
-
-tile{
-  layer = 1,
-  x = 1024,
-  y = 848,
-  width = 16,
-  height = 272,
-  pattern = 260,
 }
 
 tile{

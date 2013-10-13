@@ -15,6 +15,7 @@ zsdx-1.7.0 (under development)
 * Dungeon 7: help the player be aligned correctly to obtain the boss key (#8).
 * Dungeon 3 2F: fix two switches that disappeared when activating them.
 * Dungeon 2 boss: fix tile disappearing issue (#14).
+* Dungeon 9 2F: fix a minor graphical issue.
 
 zsdx-1.6.2 (2013-06-25)
 
