@@ -984,7 +984,7 @@ npc{
   behavior = "dialog#junk_shop.seller",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 80,
   y = 224,
@@ -995,7 +995,7 @@ shop_item{
   dialog = "junk_shop.croissant",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 96,
   y = 136,
@@ -1006,7 +1006,7 @@ shop_item{
   dialog = "junk_shop.arrows",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 144,
   y = 88,
@@ -1018,7 +1018,7 @@ shop_item{
   dialog = "junk_shop.red_rupee",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 192,
   y = 88,
@@ -1030,7 +1030,7 @@ shop_item{
   dialog = "junk_shop.mystic_mirror",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 240,
   y = 136,
@@ -1041,7 +1041,7 @@ shop_item{
   dialog = "junk_shop.heart",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 256,
   y = 224,
@@ -1052,7 +1052,7 @@ shop_item{
   dialog = "junk_shop.bombs",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 208,
   y = 312,
@@ -1064,7 +1064,7 @@ shop_item{
   dialog = "junk_shop.piece_of_heart",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 128,
   y = 312,

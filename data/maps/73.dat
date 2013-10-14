@@ -882,7 +882,7 @@ npc{
   behavior = "dialog#lake_shop.seller",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 112,
   y = 216,
@@ -893,7 +893,7 @@ shop_item{
   dialog = "lake_shop.apples",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 176,
   y = 216,
@@ -904,7 +904,7 @@ shop_item{
   dialog = "lake_shop.bombs",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 240,
   y = 216,
@@ -915,7 +915,7 @@ shop_item{
   dialog = "lake_shop.arrows",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 240,
   y = 168,

@@ -588,7 +588,7 @@ npc{
   behavior = "dialog#lyriann_shop.salesman",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 80,
   y = 104,
@@ -599,7 +599,7 @@ shop_item{
   dialog = "lyriann_shop.apples",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 144,
   y = 104,
@@ -611,7 +611,7 @@ shop_item{
   dialog = "lyriann_shop.lamp",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 208,
   y = 104,
@@ -622,7 +622,7 @@ shop_item{
   dialog = "lyriann_shop.heart",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 80,
   y = 104,
@@ -634,7 +634,7 @@ shop_item{
   dialog = "lyriann_shop.bomb_bag",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 80,
   y = 104,
@@ -646,7 +646,7 @@ shop_item{
   dialog = "lyriann_shop.bomb_bag",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 144,
   y = 104,
@@ -658,7 +658,7 @@ shop_item{
   dialog = "lyriann_shop.quiver",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 144,
   y = 104,
@@ -670,7 +670,7 @@ shop_item{
   dialog = "lyriann_shop.quiver",
 }
 
-shop_item{
+shop_treasure{
   layer = 0,
   x = 208,
   y = 104,

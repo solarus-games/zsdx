@@ -998,7 +998,7 @@ tile{
   pattern = 70,
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 88,
   y = 104,
@@ -1019,7 +1019,7 @@ npc{
   sprite = "npc/witch",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 144,
   y = 104,
@@ -1030,7 +1030,7 @@ shop_item{
   dialog = "potion_shop.green_potion",
 }
 
-shop_item{
+shop_treasure{
   layer = 1,
   x = 200,
   y = 104,
