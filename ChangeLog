@@ -3,9 +3,14 @@ zsdx 1.8.0 (under development)
 * Use solarus 1.2.0.
 * Replace fixed8.fon by a TTF font due to an SDL2 regression (#59).
 
+zsdx-1.7.1 (under development)
+
+* Use solarus 1.1.1.
+* Fix wrong teletransportation in Billy's cave after falling in a hole (#66).
+
 zsdx-1.7.0 (2013-10-13)
 
-* Use solarus 1.1.
+* Use solarus 1.1.0.
 * Add simplified Chinese and traditional Chinese translations (beta).
 * Replace .spc musics by .it ones (much faster) (#17).
 * Add an animated Solarus logo from Maxs (#57).
