@@ -1,6 +1,6 @@
 -- Main script of the quest.
 
-local console = sol.main.load_file("console")()
+local console = require("console")
 
 local debug_enabled = false
 function sol.main.is_debug_enabled()
@@ -74,7 +74,7 @@ function sol.main:debug_on_key_pressed(key, modifiers)
       self:start_savegame(self.game)
     end
   elseif key == "f12" and not console.enabled then
-    console:start()
+    sol.menu.start(self, console)
   elseif sol.main.game ~= nil and not console.enabled then
     local game = sol.main.game
     local hero = nil

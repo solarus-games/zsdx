@@ -16,15 +16,13 @@ local console = {
   },
 }
 
-function console:start()
+function console:on_started()
   self.enabled = true
   self:build_input_text()
-  sol.menu.start(sol.main, self)
 end
 
-function console:stop()
+function console:on_finished()
   self.enabled = false
-  sol.menu.stop(self)
 end
 
 function console:get_input_text()
@@ -73,7 +71,7 @@ end
 function console:on_key_pressed(key, modifiers)
 
   if key == "f12" or key == "escape" then
-    self:stop()
+    sol.menu.stop(self)
   elseif key == "backspace" then
     if self:get_output_text() ~= "" then
       self:clear()

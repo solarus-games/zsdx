@@ -7,6 +7,7 @@ zsdx-1.7.1 (under development)
 
 * Use solarus 1.1.1.
 * Fix wrong teletransportation in Billy's cave after falling in a hole (#66).
+* Fix the debugging console no longer working after using F1, F2 or F3.
 
 zsdx-1.7.0 (2013-10-13)
 
