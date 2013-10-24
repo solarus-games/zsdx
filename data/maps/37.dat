@@ -602,7 +602,6 @@ destructible{
   y = 173,
   subtype = "pot",
   treasure_name = "rupee",
-  treasure_variant = 1,
 }
 
 destination{
@@ -653,30 +652,6 @@ teletransporter{
   transition = 2,
   destination_map = "121",
   destination = "_side",
-}
-
-teletransporter{
-  layer = 0,
-  x = 120,
-  y = 176,
-  width = 16,
-  height = 16,
-  name = "teletransporter_2",
-  transition = 0,
-  destination_map = "136",
-  destination = "from_d2",
-}
-
-teletransporter{
-  layer = 0,
-  x = 88,
-  y = 176,
-  width = 16,
-  height = 16,
-  name = "teletransporter_3",
-  transition = 0,
-  destination_map = "126",
-  destination = "tmp",
 }
 
 tile{
