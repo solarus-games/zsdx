@@ -158,7 +158,7 @@ selection_menu.empty                     Vacío
 selection_menu.options                   Opciones
 selection_menu.back                      Volver
 selection_menu.options.language          Idioma
-selection_menu.options.video_mode        Modo de Vídeo
+selection_menu.options.video_mode        Vídeo
 selection_menu.options.music_volume      Volumen Música
 selection_menu.options.sound_volume      Volumen Sonidos
 
