@@ -7,7 +7,6 @@ local solarus_logo_menu = {}
 
 -- Main surface of the menu.
 local surface = sol.surface.create(201, 48)
-surface:set_transparency_color{0, 0, 0}
 
 -- Solarus title sprite.
 local title = sol.sprite.create("menus/solarus_logo")
@@ -35,33 +34,6 @@ local animation_step = 0
 -- Time handling.
 local timer = nil
 
--------------------------------------------------------------------------------
-
--- Rebuilds the whole surface of the menu.
-local function rebuild_surface ()
-
-  -- Clean the surface by filling it with the transparency color.
-  surface:fill_color{0, 0, 0}
-
-  -- Draw the title (after step 1).
-  if animation_step >= 1 then
-    title:draw(surface)
-  end
-
-  -- Draw the sun.
-  sun:draw(surface, 0, 33)
-
-  -- Draw the black square to partially hide the sun.
-  black_square:draw(surface, 24, 33)
-
-  -- Draw the sword.
-  sword:draw(surface, 48, -48)
-
-  -- Draw the subtitle (after step 2).
-  if animation_step >= 2 then
-    subtitle:draw(surface)
-  end
-end
 
 -------------------------------------------------------------------------------
 
@@ -71,14 +43,11 @@ function solarus_logo_menu:on_started()
   -- Initialize or reinitialize the animation.
   animation_step = 0
   timer = nil
-  surface:set_opacity(255)
   sun:set_direction(0)
   sun:set_xy(0, 0)
   sword:set_xy(0, 0)
   -- Start the animation.
   self:start_animation()
-  -- Update the surface.
-  rebuild_surface()
 end
 
 -- Animation step 1.
@@ -94,16 +63,12 @@ function solarus_logo_menu:step1()
   sword:set_xy(-48, 48)
   -- Play the sword sound.
   sol.audio.play_sound("solarus_logo")
-  -- Update the surface.
-  rebuild_surface()
 end
 
 -- Animation step 2.
 function solarus_logo_menu:step2()
 
   animation_step = 2
-  -- Update the surface.
-  rebuild_surface()
   -- Start the final timer.
   sol.timer.start(self, 500, function()
     surface:fade_out()
@@ -120,20 +85,11 @@ function solarus_logo_menu:start_animation()
   local sun_movement = sol.movement.create("target")
   sun_movement:set_speed(64)
   sun_movement:set_target(0, -33)
-  -- Update the surface whenever the sun moves.
-  function sun_movement:on_position_changed()
-    rebuild_surface()
-  end
 
   -- Move the sword.
   local sword_movement = sol.movement.create("target")
   sword_movement:set_speed(96)
   sword_movement:set_target(-48, 48)
-
-  -- Update the surface whenever the sword moves.
-  function sword_movement:on_position_changed()
-    rebuild_surface()
-  end
 
   -- Start the movements.
   sun_movement:start(sun, function()
@@ -160,6 +116,25 @@ end
 -- Draws this menu on the quest screen.
 function solarus_logo_menu:on_draw(screen)
 
+  -- Draw the title (after step 1).
+  if animation_step >= 1 then
+    title:draw(surface)
+  end
+
+  -- Draw the sun.
+  sun:draw(surface, 0, 33)
+
+  -- Draw the black square to partially hide the sun.
+  black_square:draw(surface, 24, 33)
+
+  -- Draw the sword.
+  sword:draw(surface, 48, -48)
+
+  -- Draw the subtitle (after step 2).
+  if animation_step >= 2 then
+    subtitle:draw(surface)
+  end
+  
   -- Get the screen size.
   local width, height = screen:get_size()
 
