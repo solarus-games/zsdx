@@ -124,7 +124,7 @@ function title_screen:on_draw(dst_surface)
   if self.phase == "title" then
     self:draw_phase_title(dst_surface)
   elseif self.phase == "zs_presents" then
-    self:draw_phase_present(dst_surface)
+    self:draw_phase_present()
   end
 
   -- final blit (dst_surface may be larger)
