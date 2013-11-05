@@ -1,5 +1,6 @@
 zsdx-1.7.1 (under development)
 
+* Use Solarus 1.1.1.
 * Fix the heart meter not updated until the first save/reload (#67).
 * Fix wrong teletransportation in Billy's cave after falling in a hole (#66).
 * Fix the debugging console no longer working after using F1, F2 or F3.
