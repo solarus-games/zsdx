@@ -100,7 +100,6 @@ function map_submenu:on_started()
 
     -- Minimap.
     self.dungeon_map_img = sol.surface.create(123, 119)
-    self.dungeon_map_img:set_transparency_color{0, 0, 0}
     self.dungeon_map_img:set_xy(center_x - 17, center_y - 54)
     self:load_dungeon_map_image()
   end
@@ -364,7 +363,7 @@ end
 -- Rebuilds the minimap of the current floor of the dungeon.
 function map_submenu:load_dungeon_map_image()
 
-  self.dungeon_map_img:fill_color{0, 0, 0}
+  self.dungeon_map_img:fill_color{0, 0, 0, 0}
   if self.game:has_dungeon_map() then
     -- Load the image of this floor.
     local floor_map_img = sol.surface.create(

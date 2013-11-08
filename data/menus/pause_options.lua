@@ -42,7 +42,6 @@ function options_submenu:on_started()
   self.joypad_column_text:set_xy(center_x + 69, center_y - 37)
 
   self.commands_surface = sol.surface.create(215, 160)
-  self.commands_surface:set_transparency_color{0, 0, 0}
   self.commands_surface:set_xy(center_x - 107, center_y - 18)
   self.commands_highest_visible = 1
   self.commands_visible_y = 0
@@ -92,7 +91,7 @@ end
 -- keyboard and the joypad.
 function options_submenu:load_command_texts()
 
-  self.commands_surface:fill_color{0, 0, 0}
+  self.commands_surface:fill_color{0, 0, 0, 0}
   for i = 1, #self.command_names do
     local keyboard_binding = self.game:get_command_keyboard_binding(self.command_names[i])
     local joypad_binding = self.game:get_command_joypad_binding(self.command_names[i])

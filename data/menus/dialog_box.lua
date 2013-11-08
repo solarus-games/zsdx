@@ -60,7 +60,6 @@ function game:initialize_dialog_box()
     }
   end
   dialog_box.dialog_surface = sol.surface.create(sol.video.get_quest_size())
-  dialog_box.dialog_surface:set_transparency_color{0, 0, 0}
   dialog_box.box_img = sol.surface.create("hud/dialog_box.png")
   dialog_box.icons_img = sol.surface.create("hud/dialog_icons.png")
   dialog_box.end_lines_sprite = sol.sprite.create("hud/dialog_box_message_end")
@@ -494,7 +493,7 @@ function dialog_box:on_draw(dst_surface)
 
   local x, y = self.box_dst_position.x, self.box_dst_position.y
 
-  self.dialog_surface:fill_color{0, 0, 0}
+  self.dialog_surface:fill_color{0, 0, 0, 0}
 
   if self.style == "empty" then
     -- Draw a dark rectangle.
