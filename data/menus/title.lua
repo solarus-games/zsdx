@@ -21,12 +21,11 @@ function title_screen:phase_zs_presents()
   -- "Zelda Solarus presents" displayed for two seconds
   self.phase = "zs_presents"
 
-  local zs_presents_img =
+  self.zs_presents_img =
       sol.surface.create("title_screen_initialization.png", true)
 
-  local width, height = zs_presents_img:get_size()
-  local x, y = 160 - width / 2, 120 - height / 2
-  zs_presents_img:draw(self.surface, x, y)
+  local width, height = self.zs_presents_img:get_size()
+  self.zs_presents_pos = { 160 - width / 2, 120 - height / 2 }
   sol.audio.play_sound("intro")
 
   sol.timer.start(self, 2000, function()
@@ -124,11 +123,18 @@ function title_screen:on_draw(dst_surface)
 
   if self.phase == "title" then
     self:draw_phase_title(dst_surface)
+  elseif self.phase == "zs_presents" then
+    self:draw_phase_present()
   end
 
   -- final blit (dst_surface may be larger)
   local width, height = dst_surface:get_size()
   self.surface:draw(dst_surface, width / 2 - 160, height / 2 - 120)
+end
+
+function title_screen:draw_phase_present()
+
+  self.zs_presents_img:draw(self.surface, self.zs_presents_pos[1], self.zs_presents_pos[2])
 end
 
 function title_screen:draw_phase_title()
