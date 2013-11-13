@@ -17,6 +17,7 @@ function hearts:initialize(game)
 
   self.game = game
   self.surface = sol.surface.create(90, 18)
+  self.surface:set_transparency_color{0, 0, 0}
   self.dst_x = 0
   self.dst_y = 0
   self.empty_heart_sprite = sol.sprite.create("hud/empty_heart")
@@ -107,6 +108,9 @@ end
 
 function hearts:rebuild_surface()
 
+  -- Transparency color.
+  self.surface:fill_color{0, 0, 0}
+
   -- Display the hearts.
   for i = 0, self.nb_max_hearts_displayed - 1 do
     local x, y = (i % 10) * 9, math.floor(i / 10) * 9
@@ -133,7 +137,6 @@ end
 
 function hearts:on_draw(dst_surface)
 
-  self:rebuild_surface() --TODO only use the rebuild function to get positions and remove this call
   local x, y = self.dst_x, self.dst_y
   local width, height = dst_surface:get_size()
   if x < 0 then
