@@ -209,7 +209,7 @@ function map_submenu:draw_world_map(dst_surface)
 
   -- Draw the minimap.
   self.world_minimap_img:draw_region(
-      self.world_minimap_visible_xy.x, self.world_minimap_visible_xy.y, 255, 133,
+      self.world_minimap_visible_xy.x, self.world_minimap_visible_xy.y, 225, 133,
       dst_surface)
 
   if self.game:has_item("world_map") then

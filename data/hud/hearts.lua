@@ -140,7 +140,6 @@ end
 
 function hearts:on_draw(dst_surface)
 
-  self:rebuild_surface() --TODO only use the rebuild function to get positions and remove this call
   local x, y = self.dst_x, self.dst_y
   local width, height = dst_surface:get_size()
   if x < 0 then
