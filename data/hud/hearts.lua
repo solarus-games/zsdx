@@ -22,10 +22,17 @@ function hearts:initialize(game)
   self.empty_heart_sprite = sol.sprite.create("hud/empty_heart")
   self.nb_max_hearts_displayed = game:get_max_life() / 4
   self.nb_current_hearts_displayed = game:get_life()
-  self.danger_sound_timer = nil
-
   self.all_hearts_img = sol.surface.create("hud/hearts.png")
+end
 
+function hearts:on_started()
+
+  -- This function is called when the HUD starts or
+  -- was disabled and gets enabled again.
+  -- Unlike other HUD elements, the timers were canceled because they
+  -- are attached to the menu and not to the game
+  -- (this is because the hearts are also used in the savegame menu).
+  self.danger_sound_timer = nil
   self:check()
   self:rebuild_surface()
 end
@@ -67,12 +74,12 @@ function hearts:check()
       need_rebuild = true
       if self.empty_heart_sprite:get_animation() ~= "danger" then
         self.empty_heart_sprite:set_animation("danger")
-        if self.danger_sound_timer == nil then
-          self.danger_sound_timer = sol.timer.start(self, 250, function()
-            self:repeat_danger_sound()
-          end)
-          self.danger_sound_timer:set_suspended_with_map(true)
-        end
+      end
+      if self.danger_sound_timer == nil then
+        self.danger_sound_timer = sol.timer.start(self, 250, function()
+          self:repeat_danger_sound()
+        end)
+        self.danger_sound_timer:set_suspended_with_map(true)
       end
     elseif self.empty_heart_sprite:get_animation() ~= "normal" then
       need_rebuild = true
