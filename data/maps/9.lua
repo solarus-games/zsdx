@@ -6,7 +6,7 @@ local fighting_boss = false -- Agahnim
 
 function map:on_started(destination)
 
-  local new_music = nil
+  local new_music
 
   if game:get_value("b905") then
     -- enable dark world
@@ -28,7 +28,7 @@ function map:on_started(destination)
         and game:get_value("b507")
         and not game:get_value("b520") then
 
-      new_music = "none"
+      new_music = nil
       cannon:remove()
       map:set_entities_enabled("enemy", false) -- disable all simple enemies
     end
