@@ -23,6 +23,12 @@ function savegame_menu:on_started()
   self.allow_cursor_move = true
   self.finished = false
   self.phase = nil
+  
+  -- Transition surface, used to get a colored fade effects
+  -- TODO be able to directly set the color when create the fade transition to avoid this foreground surface
+  self.transition_surface = sol.surface.create(self.surface:get_size())
+  self.transition_surface:fill_color{0, 0, 0}
+  self.transition_surface:set_opacity(0)
 
   -- Start the clouds.
   self.cloud_positions = {
@@ -51,7 +57,7 @@ function savegame_menu:on_started()
   self:init_phase_select_file()
 
   -- Show an opening transition.
-  self.surface:fade_in()
+  self.transition_surface:fade_out()
 end
 
 function savegame_menu:on_key_pressed(key)
@@ -173,6 +179,8 @@ function savegame_menu:on_draw(dst_surface)
   -- Phase-specific draw method.
   local method_name = "draw_phase_" .. self.phase
   self[method_name](self)
+
+  self.transition_surface:draw(self.surface)
 
   -- The menu makes 320*240 pixels, but dst_surface may be larger.
   local width, height = dst_surface:get_size()
@@ -367,7 +375,7 @@ function savegame_menu:key_pressed_phase_select_file(key)
       if sol.game.exists(slot.file_name) then
         -- The file exists: run it after a fade-out effect.
         self.finished = true
-        self.surface:fade_out()
+        self.transition_surface:fade_in()
         sol.timer.start(self, 700, function()
           sol.menu.stop(self)
 	  sol.main:start_savegame(slot.savegame)

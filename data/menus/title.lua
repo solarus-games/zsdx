@@ -11,6 +11,12 @@ function title_screen:on_started()
   sol.timer.start(self, 300, function()
     self:phase_zs_presents()
   end)
+  
+  -- Transition surface, used to get a colored fade effects
+  -- TODO be able to directly set the color when create the fade transition to avoid this foreground surface
+  self.transition_surface = sol.surface.create(self.surface:get_size())
+  self.transition_surface:fill_color{0, 0, 0}
+  self.transition_surface:set_opacity(0)
 
   -- use these 0.3 seconds to preload all sound effects
   sol.audio.preload_sounds()
@@ -29,7 +35,7 @@ function title_screen:phase_zs_presents()
   sol.audio.play_sound("intro")
 
   sol.timer.start(self, 2000, function()
-    self.surface:fade_out(10)
+    self.transition_surface:fade_in(10)
     sol.timer.start(self, 700, function()
       self:phase_title()
     end)
@@ -111,7 +117,7 @@ function title_screen:phase_title()
   sol.timer.start(self, 50, move_clouds)
 
   -- show an opening transition
-  self.surface:fade_in(30)
+  self.transition_surface:fade_out(30)
 
   self.allow_skip = false
   sol.timer.start(self, 2000, function()
@@ -126,6 +132,8 @@ function title_screen:on_draw(dst_surface)
   elseif self.phase == "zs_presents" then
     self:draw_phase_present()
   end
+
+  self.transition_surface:draw(self.surface)
 
   -- final blit (dst_surface may be larger)
   local width, height = dst_surface:get_size()
@@ -210,7 +218,7 @@ function title_screen:try_finish_title()
       and not self.finished then
     self.finished = true
 
-    self.surface:fade_out(30)
+    self.transition_surface:fade_in(30)
     sol.timer.start(self, 700, function()
       self:finish_title()
     end)
