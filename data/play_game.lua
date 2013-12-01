@@ -64,7 +64,28 @@ function game:is_in_dungeon()
   return self:get_dungeon() ~= nil
 end
 
+-- Checks the initial position and fixes it if necessary.
+local function fix_starting_location(game)
+
+  -- Check if the savegame was broken by the bug of the teletransportation
+  -- in Billy's cave. If yes, fix it.
+  local initial_map_id = game:get_starting_location()
+  if initial_map_id == "121"  -- Billy's cave North.
+      or initial_map_id == "53" then  -- Dungeon 8 hidden room.
+
+    -- It is supposed to be impossible to start a game here before dungeon 8.
+    if not game:get_value("b703") then  -- Locked door in dungeon 8 1F.
+      -- The locked door is not open yet: the savegame has the bug.
+      -- Fix the starting location and close Billy's door again.
+      game:set_starting_location("5", "from_billy_cave")
+      game:set_value("b928", false)  -- Close the door.
+    end
+
+  end
+end
+
 -- Run the game.
 sol.main.game = game
+fix_starting_location(game)
 game:start()
 
