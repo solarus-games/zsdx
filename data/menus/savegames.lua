@@ -254,6 +254,7 @@ function savegame_menu:read_savegames()
       -- Hearts.
       local hearts_class = require("hud/hearts")
       slot.hearts_view = hearts_class:new(slot.savegame)
+      slot.hearts_view:on_started()
     else
       -- New file.
       local name = "- " .. sol.language.get_string("selection_menu.empty") .. " -"
