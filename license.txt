@@ -5,8 +5,8 @@ in version 3.
 Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).
 http://creativecommons.org/licenses/by-sa/3.0/
 
-- Some graphics, sounds and names in Zelda Mystery of Solarus DX include
-content that belong to Nintendo. We don't own this content.
+- Some graphics, sounds and names include content that belong to Nintendo.
+We don't own this content.
 
 Scripts under GNU GPL v3:
 -------------------------
@@ -71,6 +71,7 @@ sprites/npc/inferno.png
 sprites/npc/newlink.png
 sprites/npc/solarus_child*.png
 
+
 TODO: Check the status of these fonts:
 --------------------------------------
 text/fixed8.fon
@@ -80,7 +81,7 @@ Files that include content from Nintendo:
 -----------------------------------------
 languages/*/images/*.png
 musics/*
-sounds/*.ogg
+sounds/*
 text/*.png
 text/la.ttf
 tilesets/*.png
