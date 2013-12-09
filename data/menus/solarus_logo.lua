@@ -34,87 +34,13 @@ local animation_step = 0
 -- Time handling.
 local timer = nil
 
-
 -------------------------------------------------------------------------------
 
--- Starting the menu.
-function solarus_logo_menu:on_started()
+-- Rebuilds the whole surface of the menu.
+local function rebuild_surface()
 
-  -- Initialize or reinitialize the animation.
-  animation_step = 0
-  timer = nil
-  sun:set_direction(0)
-  sun:set_xy(0, 0)
-  sword:set_xy(0, 0)
-  -- Start the animation.
-  self:start_animation()
-end
-
--- Animation step 1.
-function solarus_logo_menu:step1()
-
-  animation_step = 1
-  -- Change the sun color.
-  sun:set_direction(1)
-  -- Stop movements and replace elements.
-  sun:stop_movement()
-  sun:set_xy(0, -33)
-  sword:stop_movement()
-  sword:set_xy(-48, 48)
-  -- Play the sword sound.
-  sol.audio.play_sound("solarus_logo")
-end
-
--- Animation step 2.
-function solarus_logo_menu:step2()
-
-  animation_step = 2
-  -- Start the final timer.
-  sol.timer.start(self, 500, function()
-    surface:fade_out()
-    sol.timer.start(self, 700, function()
-      sol.menu.stop(self)
-    end)
-  end)
-end
-
--- Run the logo animation.
-function solarus_logo_menu:start_animation()
-
-  -- Move the sun.
-  local sun_movement = sol.movement.create("target")
-  sun_movement:set_speed(64)
-  sun_movement:set_target(0, -33)
-
-  -- Move the sword.
-  local sword_movement = sol.movement.create("target")
-  sword_movement:set_speed(96)
-  sword_movement:set_target(-48, 48)
-
-  -- Start the movements.
-  sun_movement:start(sun, function()
-    sword_movement:start(sword, function()
-          -- If the animation step is not greater than 0
-      -- (if no key was pressed).
-      if animation_step <= 0 then
-        -- Start step 1.
-        self:step1()
-        -- Create the timer for step 2.
-        timer = sol.timer.start(self, 250, function()
-          -- If the animation step is not greater than 1
-          -- (if no key was pressed).
-          if animation_step <= 1 then
-            -- Start step 2.
-            self:step2()
-          end
-        end)
-      end
-    end)
-  end)
-end
-
--- Draws this menu on the quest screen.
-function solarus_logo_menu:on_draw(screen)
+  -- Clean the surface by filling it with transparency.
+  surface:fill_color{0, 0, 0, 0}
 
   -- Draw the title (after step 1).
   if animation_step >= 1 then
@@ -134,7 +60,111 @@ function solarus_logo_menu:on_draw(screen)
   if animation_step >= 2 then
     subtitle:draw(surface)
   end
-  
+end
+
+-------------------------------------------------------------------------------
+
+-- Starting the menu.
+function solarus_logo_menu:on_started()
+
+  -- Initialize or reinitialize the animation.
+  animation_step = 0
+  timer = nil
+  surface:set_opacity(255)
+  sun:set_direction(0)
+  sun:set_xy(0, 0)
+  sword:set_xy(0, 0)
+  -- Start the animation.
+  solarus_logo_menu:start_animation()
+  -- Update the surface.
+  rebuild_surface()
+end
+
+-- Animation step 1.
+function solarus_logo_menu:step1()
+
+  animation_step = 1
+  -- Change the sun color.
+  sun:set_direction(1)
+  -- Stop movements and replace elements.
+  sun:stop_movement()
+  sun:set_xy(0, -33)
+  sword:stop_movement()
+  sword:set_xy(-48, 48)
+  -- Play the sword sound.
+  sol.audio.play_sound("solarus_logo")
+  -- Update the surface.
+  rebuild_surface()
+end
+
+-- Animation step 2.
+function solarus_logo_menu:step2()
+
+  animation_step = 2
+  -- Update the surface.
+  rebuild_surface()
+  -- Start the final timer.
+  sol.timer.start(solarus_logo_menu, 500, function()
+    surface:fade_out()
+    sol.timer.start(solarus_logo_menu, 700, function()
+      sol.menu.stop(solarus_logo_menu)
+    end)
+  end)
+end
+
+-- Run the logo animation.
+function solarus_logo_menu:start_animation()
+
+  -- Move the sun.
+  local sun_movement = sol.movement.create("target")
+  sun_movement:set_speed(64)
+  sun_movement:set_target(0, -33)
+  -- Update the surface whenever the sun moves.
+  function sun_movement:on_position_changed()
+    rebuild_surface()
+  end
+
+  -- Move the sword.
+  local sword_movement = sol.movement.create("target")
+  sword_movement:set_speed(96)
+  sword_movement:set_target(-48, 48)
+
+  -- Update the surface whenever the sword moves.
+  function sword_movement:on_position_changed()
+    rebuild_surface()
+  end
+
+  -- Start the movements.
+  sun_movement:start(sun, function()
+    sword_movement:start(sword, function()
+
+      if not sol.menu.is_started(solarus_logo_menu) then
+        -- The menu may have been stopped, but the movement continued.
+        return
+      end
+
+      -- If the animation step is not greater than 0
+      -- (if no key was pressed).
+      if animation_step <= 0 then
+        -- Start step 1.
+        solarus_logo_menu:step1()
+        -- Create the timer for step 2.
+        timer = sol.timer.start(solarus_logo_menu, 250, function()
+          -- If the animation step is not greater than 1
+          -- (if no key was pressed).
+          if animation_step <= 1 then
+            -- Start step 2.
+            solarus_logo_menu:step2()
+          end
+        end)
+      end
+    end)
+  end)
+end
+
+-- Draws this menu on the quest screen.
+function solarus_logo_menu:on_draw(screen)
+
   -- Get the screen size.
   local width, height = screen:get_size()
 
@@ -158,15 +188,15 @@ function solarus_logo_menu:on_key_pressed(key)
       -- (if the timer has not expired in the meantime).
       if animation_step <= 1 then
         -- Start step 2.
-        self:step2()
+        solarus_logo_menu:step2()
       end
 
     -- If the animation step is not greater than 0.
     elseif animation_step <= 0 then
       -- Start step 1.
-      self:step1()
+      solarus_logo_menu:step1()
       -- Start step 2.
-      self:step2()
+      solarus_logo_menu:step2()
     end
 
     -- Return true to indicate that the keyboard event was handled.
