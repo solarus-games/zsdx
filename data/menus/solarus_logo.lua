@@ -28,12 +28,6 @@ sword:set_animation("sword")
 local black_square = sol.surface.create(48, 15)
 black_square:fill_color{0, 0, 0}
 
--- Transition surface, used to get a colored fade effects
--- TODO be able to directly set the color when create the fade transition to avoid this foreground surface
-local transition_surface = sol.surface.create(surface:get_size())
-transition_surface:fill_color{0, 0, 0}
-transition_surface:set_opacity(0)
-
 -- Step of the animation.
 local animation_step = 0
 
@@ -77,7 +71,7 @@ function solarus_logo_menu:step2()
   animation_step = 2
   -- Start the final timer.
   sol.timer.start(self, 500, function()
-    transition_surface:fade_in() -- This is a foreground surface, so we have to fade in to see a fade out visual display.
+    surface:fade_out()
     sol.timer.start(self, 700, function()
       sol.menu.stop(self)
     end)
@@ -141,9 +135,6 @@ function solarus_logo_menu:on_draw(screen)
     subtitle:draw(surface)
   end
   
-  
-  transition_surface:draw(surface)
-  	
   -- Get the screen size.
   local width, height = screen:get_size()
 
