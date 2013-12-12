@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Zelda Mystery of Solarus DX"
-#define MyAppVersion "1.7.0"
+#define MyAppVersion "1.7.1"
 #define MyAppPublisher "Solarus"
 #define MyAppURL "http://www.solarus-games.org"
 #define MyAppExeName "solarus.exe"
