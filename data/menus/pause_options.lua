@@ -13,7 +13,7 @@ function options_submenu:on_started()
     horizontal_alignment = "right",
     vertical_alignment = "top",
     font = font,
-    text_key = "options.video_mode." .. sol.video.get_mode(),
+    text = sol.video.get_mode(),
   }
   self.video_mode_text:set_xy(center_x + 104, center_y - 58)
 
@@ -196,7 +196,7 @@ function options_submenu:on_command_pressed(command)
       if self.cursor_position == 1 then
         -- Change the video mode.
         sol.video.switch_mode()
-        self.video_mode_text:set_text_key("options.video_mode." .. sol.video.get_mode())
+        self.video_mode_text:set_text(sol.video.get_mode())
       else
         -- Customize a game command.
         self:set_caption("options.caption.press_key")

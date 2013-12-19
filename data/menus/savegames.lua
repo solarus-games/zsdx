@@ -790,7 +790,7 @@ function savegame_menu:set_option_value(option, index)
       end
 
     elseif option.name == "video_mode" then
-      option.value_text:set_text_key("options.video_mode." .. value)
+      option.value_text:set_text(value)
       sol.video.set_mode(value)
 
     elseif option.name == "music_volume" then

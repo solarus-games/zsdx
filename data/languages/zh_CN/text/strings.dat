@@ -111,13 +111,8 @@ options.caption.press_action_change_mode     按动作键去$切换视频模式
 options.caption.press_action_customize_key   按动作键去$设置这个按键
 options.caption.press_key                    按任意键$键盘或手柄
 # name of video modes (maximum 26 characters)
-options.video_mode.windowed_stretched        窗口 640x480
-options.video_mode.windowed_scale2x          窗口 640x480 流畅
-options.video_mode.windowed_normal           窗口 320x240
-options.video_mode.fullscreen_normal         全屏拉伸
-options.video_mode.fullscreen_wide           全屏拉伸 (大)
-options.video_mode.fullscreen_scale2x        全屏流畅
-options.video_mode.fullscreen_scale2x_wide   全屏流畅 (大)
+options.video.windowed                       窗口
+options.video.fullscreen                     全屏
 # column headers of the keyboard/joypad customization table (maximum 10 characters)
 options.commands_column             控制
 options.keyboard_column             键盘

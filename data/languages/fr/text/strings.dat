@@ -111,13 +111,8 @@ options.caption.press_action_change_mode	Appuyez sur Action$pour changer de mode
 options.caption.press_action_customize_key	Appuyez sur Action pour$configurer cette touche
 options.caption.press_key			Appuyez sur une touche$du clavier ou du joypad
 # names of video modes (maximum 26 characters)
-options.video_mode.windowed_normal		Fenêtre 320x240
-options.video_mode.windowed_stretched		Fenêtre 640x480
-options.video_mode.windowed_scale2x		Fenêtre 640x480 lisse 2x
-options.video_mode.windowed_hq4x        	Fenêtre 1280x960 lisse 4x
-options.video_mode.fullscreen_normal		Plein écran
-options.video_mode.fullscreen_scale2x		Plein écran lisse 2x
-options.video_mode.fullscreen_hq4x        	Plein écran lisse 4x
+options.video.windowed                          Fenêtré
+options.video.fullscreen                        Plein écran
 # column headers of the keyboard/joypad customization table (maximum 10 characters)
 options.commands_column				Commandes
 options.keyboard_column				Clavier
