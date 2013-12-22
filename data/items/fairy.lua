@@ -24,23 +24,23 @@ function item:on_pickable_created(pickable)
   local x, y = pickable:get_position()
   pickable:set_position(x, y, 2)
   pickable:set_layer_independent_collisions(true)  -- But detect collisions with lower layers anyway
-end
 
--- The direction of the movement may have changed:
--- update the direction of the fairy's sprite
-function item:on_pickable_movement_changed(pickable)
+  -- When the direction of the movement changes,
+  -- update the direction of the fairy's sprite
+  function pickable:on_movement_changed(movement)
 
-  if pickable:get_followed_entity() == nil then
+    if pickable:get_followed_entity() == nil then
 
-    local movement = pickable:get_movement()
-    local sprite = pickable:get_sprite()
-    local angle = pickable:get_movement():get_angle()  -- Retrieve the current movement's direction.
-    if angle >= math.pi / 2 and angle < 3 * math.pi / 2 then
-      sprite:set_direction(1)  -- Look to the left.
-    else
-      sprite:set_direction(0)  -- Look to the right.
+      local sprite = pickable:get_sprite()
+      local angle = movement:get_angle()  -- Retrieve the current movement's direction.
+      if angle >= math.pi / 2 and angle < 3 * math.pi / 2 then
+        sprite:set_direction(1)  -- Look to the left.
+      else
+        sprite:set_direction(0)  -- Look to the right.
+      end
     end
   end
+
 end
 
 -- Obtaining a fairy.
