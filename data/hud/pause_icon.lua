@@ -55,7 +55,7 @@ end
 
 function pause_icon:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0, 0}
+  self.surface:clear()
 
   if self.icon_region_y ~= nil then
     -- Draw the static image of the icon: "Pause" or "Back".

@@ -78,7 +78,7 @@ end
 
 function magic_bar:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0, 0}
+  self.surface:clear()
 
   -- Max magic.
   self.container_sprite:draw(self.surface)

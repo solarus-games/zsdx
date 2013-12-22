@@ -62,7 +62,7 @@ end
 
 function small_keys:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0, 0}
+  self.surface:clear()
   self.icon_img:draw(self.surface)
   self.digits_text:draw(self.surface, 10, 0)
 end

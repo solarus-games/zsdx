@@ -49,7 +49,7 @@ end
 
 function floor_view:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0, 0}
+  self.surface:clear()
 
   local highest_floor_displayed
   local dungeon = self.game:get_dungeon()

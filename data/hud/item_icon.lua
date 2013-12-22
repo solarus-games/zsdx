@@ -91,7 +91,7 @@ end
 
 function item_icon:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0, 0}
+  self.surface:clear()
 
   -- Background image.
   self.background_img:draw(self.surface)

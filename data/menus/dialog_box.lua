@@ -493,7 +493,7 @@ function dialog_box:on_draw(dst_surface)
 
   local x, y = self.box_dst_position.x, self.box_dst_position.y
 
-  self.dialog_surface:fill_color{0, 0, 0, 0}
+  self.dialog_surface:clear()
 
   if self.style == "empty" then
     -- Draw a dark rectangle.

@@ -363,7 +363,7 @@ end
 -- Rebuilds the minimap of the current floor of the dungeon.
 function map_submenu:load_dungeon_map_image()
 
-  self.dungeon_map_img:fill_color{0, 0, 0, 0}
+  self.dungeon_map_img:clear()
   if self.game:has_dungeon_map() then
     -- Load the image of this floor.
     local floor_map_img = sol.surface.create(

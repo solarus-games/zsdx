@@ -91,7 +91,7 @@ end
 -- keyboard and the joypad.
 function options_submenu:load_command_texts()
 
-  self.commands_surface:fill_color{0, 0, 0, 0}
+  self.commands_surface:clear()
   for i = 1, #self.command_names do
     local keyboard_binding = self.game:get_command_keyboard_binding(self.command_names[i])
     local joypad_binding = self.game:get_command_joypad_binding(self.command_names[i])

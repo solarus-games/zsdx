@@ -51,7 +51,7 @@ end
 
 function language_menu:on_draw(dst_surface)
 
-  self.surface:fill_color{0, 0, 0}
+  self.surface:clear()
 
   local y = 120 - 8 * self.nb_visible_languages
   local first = self.first_visible_language
