@@ -819,7 +819,7 @@ function savegame_menu:reload_options_strings()
     -- And the value of the video mode.
     if option.name == "video_mode" and option.current_index ~= nil then
       local mode = option.values[option.current_index]
-      option.value_text:set_text_key("options.video_mode." .. mode)
+      option.value_text:set_text(mode)
     end
   end
 
