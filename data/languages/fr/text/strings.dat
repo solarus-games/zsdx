@@ -122,7 +122,7 @@ text{ key = "selection_menu.empty", value = "Vide" }
 text{ key = "selection_menu.options", value = "Options" }
 text{ key = "selection_menu.back", value = "Retour" }
 text{ key = "selection_menu.options.language", value = "Langue" }
-text{ key = "selection_menu.options.video_mode", value = "Mode" }
+text{ key = "selection_menu.options.video_mode", value = "Mode vidéo" }
 text{ key = "selection_menu.options.music_volume", value = "Volume de la musique" }
 text{ key = "selection_menu.options.sound_volume", value = "Volume des sons" }
 text{ key = "title_screen.website", value = "www.zelda-solarus.com" }

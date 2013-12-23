@@ -122,7 +122,7 @@ text{ key = "selection_menu.empty", value = "Vacío" }
 text{ key = "selection_menu.options", value = "Opciones" }
 text{ key = "selection_menu.back", value = "Volver" }
 text{ key = "selection_menu.options.language", value = "Idioma" }
-text{ key = "selection_menu.options.video_mode", value = "Vídeo" }
+text{ key = "selection_menu.options.video_mode", value = "Modo de vídeo" }
 text{ key = "selection_menu.options.music_volume", value = "Volumen Música" }
 text{ key = "selection_menu.options.sound_volume", value = "Volumen Sonidos" }
 text{ key = "title_screen.website", value = "www.solarus-games.org" }
