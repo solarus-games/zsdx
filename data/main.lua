@@ -8,8 +8,6 @@ function sol.main.is_debug_enabled()
   return debug_enabled
 end
 
-local initialize_quest
-
 -- Event called when the program starts.
 function sol.main:on_started()
 
