@@ -11,7 +11,7 @@ end
 -- Event called when the program starts.
 function sol.main:on_started()
 
-  -- Make quest-level initializations.
+  -- Make quest-specific initializations.
   quest_manager:initialize_quest()
 
   -- Load built-in settings (audio volume, video mode, etc.).
