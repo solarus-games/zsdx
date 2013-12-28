@@ -600,7 +600,9 @@ destructible{
   layer = 0,
   x = 72,
   y = 173,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
 }
 

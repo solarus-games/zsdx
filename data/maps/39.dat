@@ -5026,7 +5026,10 @@ destructible{
   layer = 0,
   x = 168,
   y = 725,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -5035,7 +5038,10 @@ destructible{
   layer = 0,
   x = 168,
   y = 741,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }

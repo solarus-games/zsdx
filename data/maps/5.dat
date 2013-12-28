@@ -10545,7 +10545,10 @@ destructible{
   layer = 0,
   x = 848,
   y = 645,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10553,7 +10556,10 @@ destructible{
   layer = 0,
   x = 904,
   y = 285,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10561,7 +10567,10 @@ destructible{
   layer = 0,
   x = 624,
   y = 397,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10569,7 +10578,10 @@ destructible{
   layer = 0,
   x = 832,
   y = 109,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10577,7 +10589,10 @@ destructible{
   layer = 0,
   x = 848,
   y = 125,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10585,7 +10600,10 @@ destructible{
   layer = 0,
   x = 864,
   y = 109,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10593,7 +10611,10 @@ destructible{
   layer = 0,
   x = 896,
   y = 645,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10858,7 +10879,10 @@ destructible{
   layer = 0,
   x = 640,
   y = 397,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 

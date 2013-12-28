@@ -8288,14 +8288,18 @@ destructible{
   layer = 1,
   x = 168,
   y = 165,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 168,
   y = 189,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 
@@ -8614,7 +8618,9 @@ destructible{
   layer = 1,
   x = 552,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8622,7 +8628,9 @@ destructible{
   layer = 1,
   x = 568,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 
@@ -8630,7 +8638,9 @@ destructible{
   layer = 1,
   x = 632,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8638,7 +8648,9 @@ destructible{
   layer = 1,
   x = 648,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8646,7 +8658,9 @@ destructible{
   layer = 1,
   x = 664,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 2,
 }
@@ -8655,7 +8669,9 @@ destructible{
   layer = 1,
   x = 680,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8663,7 +8679,9 @@ destructible{
   layer = 1,
   x = 552,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8671,7 +8689,9 @@ destructible{
   layer = 1,
   x = 568,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8679,7 +8699,9 @@ destructible{
   layer = 1,
   x = 632,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8687,7 +8709,9 @@ destructible{
   layer = 1,
   x = 648,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8785,14 +8809,18 @@ destructible{
   layer = 1,
   x = 568,
   y = 165,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 568,
   y = 189,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 

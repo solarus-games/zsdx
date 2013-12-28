@@ -2817,7 +2817,9 @@ destructible{
   layer = 0,
   x = 608,
   y = 965,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 1,
 }
@@ -2826,7 +2828,9 @@ destructible{
   layer = 0,
   x = 584,
   y = 965,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 1,
 }
