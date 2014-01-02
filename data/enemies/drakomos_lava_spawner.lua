@@ -47,10 +47,13 @@ function enemy:on_restarted()
     else
       local x, y, layer = self:get_position()
       self:get_map():create_destructible{
-	subtype = "black_stone",
 	x = x,
 	y = y,
-	layer = layer
+	layer = layer,
+        sprite = "entities/stone_small_black",
+        destruction_sound = "stone",
+        weight = 2,
+        damage_on_enemies = 4,
       }
     end
   end)

@@ -88,13 +88,15 @@ function map:on_started(destination)
     variant = 3
   end
   map:create_destructible{
-    subtype = "pot",
     x = 320,
     y = 245,
     layer = 1,
     treasure_name = "bomb_bag",
     treasure_variant = variant,
-    treasure_savegame_variable = "b510"
+    treasure_savegame_variable = "b510",
+    sprite = "entities/pot",
+    destruction_sound = "stone",
+    damage_on_enemies = 2,
   }
 
   -- initialize doors
