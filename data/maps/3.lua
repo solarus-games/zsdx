@@ -12,7 +12,6 @@ local function random_walk(npc)
   local m = sol.movement.create("random_path")
   m:set_speed(32)
   m:start(npc)
-  npc:get_sprite():set_animation("walking")
 end
 
 local function remove_dungeon_2_door()

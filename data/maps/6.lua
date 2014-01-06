@@ -61,7 +61,6 @@ function tom_appears_sensor:on_activated()
       m:set_speed(48)
       m:set_ignore_obstacles(true)
       m:start(tom)
-      tom_sprite:set_animation("walking")
     end)
   end
 end

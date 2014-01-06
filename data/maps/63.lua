@@ -14,7 +14,6 @@ local function init_guard(guard, path)
   m:set_loop(true)
   m:set_ignore_obstacles(true)
   m:start(guard)
-  guard:get_sprite():set_animation("walking")
 end
 
 -- Returns whether all torches are on
