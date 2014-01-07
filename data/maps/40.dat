@@ -8581,7 +8581,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "3",
   destination = "from_dungeon_3",
 }
@@ -9043,7 +9043,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "from_1F_nw",
 }
@@ -9055,7 +9055,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "from_1F_n",
 }
@@ -9067,7 +9067,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "from_1F_ne",
 }
@@ -9079,7 +9079,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "from_1F_ce",
 }
@@ -9091,7 +9091,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "from_1F_cw",
 }
@@ -9254,7 +9254,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = 0,
+  transition = "immediate",
   destination_map = "43",
   destination = "tmp",
 }
@@ -10456,7 +10456,7 @@ teletransporter{
   y = 984,
   width = 16,
   height = 16,
-  transition = 0,
+  transition = "immediate",
   destination_map = "43",
   destination = "miniboss_shortcut",
 }

@@ -1410,7 +1410,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B4_B",
-  transition = 1,
+  transition = "fade",
   destination_map = "51",
   destination = "from_B4_B",
 }
@@ -1497,7 +1497,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B2_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "49",
   destination = "from_B3_A",
 }
@@ -6147,7 +6147,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B4_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "51",
   destination = "from_B3_A",
 }
@@ -6159,7 +6159,7 @@ teletransporter{
   width = 32,
   height = 48,
   name = "hole_to_B4",
-  transition = 1,
+  transition = "fade",
   destination_map = "51",
   destination = "from_hole_a",
 }
@@ -6188,7 +6188,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B2_C",
-  transition = 1,
+  transition = "fade",
   destination_map = "49",
   destination = "from_B3_C",
 }
@@ -6315,7 +6315,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL1",
 }
@@ -6327,7 +6327,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL2",
 }
@@ -6339,7 +6339,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL3",
 }
@@ -6351,7 +6351,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL4",
 }
@@ -6363,7 +6363,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL5",
 }
@@ -6375,7 +6375,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL6",
 }
@@ -6387,7 +6387,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL7",
 }
@@ -6399,7 +6399,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_8",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL8",
 }
@@ -6411,7 +6411,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_9",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL9",
 }
@@ -6423,7 +6423,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_10",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL10",
 }
@@ -6435,7 +6435,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_11",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL11",
 }
@@ -6447,7 +6447,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_12",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL12",
 }
@@ -6459,7 +6459,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_13",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL13",
 }
@@ -6471,7 +6471,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_14",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL14",
 }
@@ -6483,7 +6483,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_15",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL15",
 }
@@ -6495,7 +6495,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_16",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL16",
 }
@@ -6507,7 +6507,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_17",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL17",
 }
@@ -6519,7 +6519,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_18",
-  transition = 0,
+  transition = "immediate",
   destination_map = "50",
   destination = "AL18",
 }
@@ -6974,7 +6974,7 @@ teletransporter{
   width = 48,
   height = 48,
   name = "hole_to_B4_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "51",
   destination = "from_hole_b",
 }

@@ -3929,7 +3929,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = 1,
+  transition = "fade",
   destination_map = "65",
   destination = "from_1f_se",
 }
@@ -7558,7 +7558,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "9",
   destination = "from_dungeon_5_1F",
 }
@@ -7602,7 +7602,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "63",
   destination = "from_1f_w",
 }
@@ -7614,7 +7614,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "63",
   destination = "from_1f_c",
 }
@@ -7626,7 +7626,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "63",
   destination = "from_1f_e",
 }
@@ -7687,7 +7687,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "65",
   destination = "from_1f_ne",
 }
@@ -7708,7 +7708,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 0,
+  transition = "immediate",
   destination_map = "63",
   destination = "tmp",
 }

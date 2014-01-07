@@ -1155,7 +1155,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F",
-  transition = 1,
+  transition = "fade",
   destination_map = "12",
   destination = "from_B1",
 }
@@ -1167,7 +1167,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B2",
-  transition = 1,
+  transition = "fade",
   destination_map = "14",
   destination = "from_B1",
 }

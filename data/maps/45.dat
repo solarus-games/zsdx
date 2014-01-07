@@ -5073,7 +5073,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "5",
   destination = "from_surprise_wall",
 }

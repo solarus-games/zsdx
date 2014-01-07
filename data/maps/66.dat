@@ -825,7 +825,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "67",
   destination = "_side",
 }
@@ -2420,7 +2420,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "6",
   destination = "from_beaumont_cave",
 }
@@ -2660,7 +2660,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "60",
   destination = "from_outside",
 }
@@ -2672,7 +2672,7 @@ teletransporter{
   width = 32,
   height = 16,
   name = "teletransporter_4",
-  transition = 0,
+  transition = "immediate",
   destination_map = "87",
   destination = "from_boss_room",
 }

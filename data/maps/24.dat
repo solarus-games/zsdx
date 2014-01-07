@@ -240,7 +240,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F_west",
-  transition = 1,
+  transition = "fade",
   destination_map = "23",
   destination = "from_B1_west",
 }
@@ -4502,7 +4502,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F_east",
-  transition = 1,
+  transition = "fade",
   destination_map = "23",
   destination = "from_B1_east",
 }
@@ -4522,7 +4522,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F_south",
-  transition = 1,
+  transition = "fade",
   destination_map = "23",
   destination = "from_B1_south",
 }
@@ -4832,7 +4832,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "27",
   destination = "_side",
 }

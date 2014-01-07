@@ -3237,7 +3237,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F_first_stairs",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "from_B1_first_stairs",
 }
@@ -3249,7 +3249,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B1_final_stairs",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "from_B1_final_stairs",
 }
@@ -3327,7 +3327,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B1_final_stairs_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "from_B1_stairs_2",
 }
@@ -3433,7 +3433,7 @@ teletransporter{
   name = "teletransporter",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "destination_point",
 }
@@ -3518,7 +3518,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F_north_stairs",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "from_B1_north_stairs",
 }
@@ -3618,7 +3618,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F_middle_stairs",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "from_B1_middle_stairs",
 }

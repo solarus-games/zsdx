@@ -1292,7 +1292,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "96",
   destination = "entrance_F_1",
 }
@@ -2562,7 +2562,7 @@ teletransporter{
   y = 992,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "100",
   destination = "Entrance_G_2",
 }

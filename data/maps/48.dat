@@ -2475,7 +2475,7 @@ teletransporter{
   name = "to_teleporter_A",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "48",
   destination = "from_teleporter_A",
 }
@@ -10020,7 +10020,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "47",
   destination = "from_B1_A",
 }
@@ -10071,7 +10071,7 @@ teletransporter{
   width = 176,
   height = 80,
   name = "hole_to_B2_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "49",
   destination = "_same",
 }
@@ -12365,7 +12365,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B2_C",
-  transition = 1,
+  transition = "fade",
   destination_map = "49",
   destination = "from_B1_C",
 }

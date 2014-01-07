@@ -484,7 +484,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B2",
-  transition = 1,
+  transition = "fade",
   destination_map = "14",
   destination = "from_icy_room",
 }

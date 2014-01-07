@@ -681,7 +681,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "4",
   destination = "from_fairy_cave",
 }
@@ -779,7 +779,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "77",
   destination = "_side",
 }

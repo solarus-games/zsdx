@@ -987,7 +987,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "43",
   destination = "from_5f_c",
 }

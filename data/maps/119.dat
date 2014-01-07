@@ -6333,7 +6333,7 @@ teletransporter{
   width = 16,
   height = 752,
   name = "to_B3",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "4",
   destination = "_side",
 }
@@ -6345,7 +6345,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_binbin_dungeon_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "17",
   destination = "main_entrance",
 }
@@ -10059,7 +10059,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "roof_teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "100",
   destination = "Entrance_H_1",
 }

@@ -1175,7 +1175,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_17",
-  transition = 1,
+  transition = "fade",
   destination_map = "9",
   destination = "from_dungeon_5_2F_ne",
 }
@@ -1187,7 +1187,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "89",
   destination = "from_2f_e",
 }

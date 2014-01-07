@@ -653,7 +653,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "4",
   destination = "out_grandma_house",
 }

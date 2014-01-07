@@ -5092,7 +5092,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "106",
   destination = "from_3f_e",
 }
@@ -5113,7 +5113,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "108",
   destination = "from_3f_nw",
 }
@@ -5125,7 +5125,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "108",
   destination = "from_3f_ne",
 }
@@ -5155,7 +5155,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "108",
   destination = "from_3f_cw",
 }
@@ -5167,7 +5167,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "108",
   destination = "from_3f_ce",
 }
@@ -5197,7 +5197,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "108",
   destination = "from_3f_sw",
 }
@@ -5209,7 +5209,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = 1,
+  transition = "fade",
   destination_map = "108",
   destination = "from_3f_se",
 }
@@ -5257,7 +5257,7 @@ teletransporter{
   name = "teletransporter_8",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "109",
   destination = "from_3f",
 }
@@ -5288,7 +5288,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_9",
-  transition = 1,
+  transition = "fade",
   destination_map = "106",
   destination = "from_3f_w",
 }
@@ -5814,7 +5814,7 @@ teletransporter{
   name = "teletransporter_10",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "107",
   destination = "se_destination_point",
 }
@@ -6222,7 +6222,7 @@ teletransporter{
   name = "teletransporter_11",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "107",
   destination = "s_destination_point",
 }
@@ -6236,7 +6236,7 @@ teletransporter{
   name = "teletransporter_12",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "107",
   destination = "s_destination_point",
 }
@@ -6250,7 +6250,7 @@ teletransporter{
   name = "teletransporter_13",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "107",
   destination = "s_destination_point",
 }
@@ -6264,7 +6264,7 @@ teletransporter{
   name = "teletransporter_14",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "107",
   destination = "s_destination_point",
 }
@@ -6278,7 +6278,7 @@ teletransporter{
   name = "teletransporter_15",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "107",
   destination = "s_destination_point",
 }
@@ -6292,7 +6292,7 @@ teletransporter{
   name = "teletransporter_16",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "107",
   destination = "s_destination_point",
 }

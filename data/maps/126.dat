@@ -1404,7 +1404,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "123",
   destination = "_side",
 }
@@ -1424,7 +1424,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "127",
   destination = "_side",
 }
@@ -1446,7 +1446,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 0,
+  transition = "immediate",
   destination_map = "37",
   destination = "from_outside",
 }

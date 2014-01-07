@@ -15090,7 +15090,7 @@ teletransporter{
   name = "teletransporter",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "105",
   destination = "from_6f",
 }
@@ -15311,7 +15311,7 @@ teletransporter{
   width = 32,
   height = 32,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "130",
   destination = "from_6f",
 }
@@ -15323,7 +15323,7 @@ teletransporter{
   width = 32,
   height = 32,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "130",
   destination = "from_6f",
 }
@@ -15335,7 +15335,7 @@ teletransporter{
   width = 208,
   height = 32,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "130",
   destination = "from_6f",
 }

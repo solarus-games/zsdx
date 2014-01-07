@@ -17190,7 +17190,7 @@ teletransporter{
   width = 16,
   height = 1008,
   name = "to_C2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "4",
   destination = "_side",
 }
@@ -17202,7 +17202,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_link_house",
-  transition = 1,
+  transition = "fade",
   destination_map = "28",
   destination = "from_outside",
 }
@@ -18016,7 +18016,7 @@ teletransporter{
   width = 1120,
   height = 16,
   name = "to_D1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "6",
   destination = "_side",
 }
@@ -18241,7 +18241,7 @@ teletransporter{
   width = 1120,
   height = 16,
   name = "to_B1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "9",
   destination = "_side",
 }
@@ -18350,7 +18350,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_sahasrahla_house",
-  transition = 1,
+  transition = "fade",
   destination_map = "12",
   destination = "main_entrance",
 }
@@ -18413,7 +18413,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_smith_cave",
-  transition = 1,
+  transition = "fade",
   destination_map = "16",
   destination = "main_entrance",
 }
@@ -18443,7 +18443,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_shop",
-  transition = 1,
+  transition = "fade",
   destination_map = "18",
   destination = "main_entrance",
 }
@@ -18463,7 +18463,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_cake_shop",
-  transition = 1,
+  transition = "fade",
   destination_map = "19",
   destination = "main_entrance",
 }
@@ -18508,7 +18508,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_dungeon2",
-  transition = 1,
+  transition = "fade",
   destination_map = "30",
   destination = "from_outside",
 }
@@ -18699,7 +18699,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_telepathic_house",
-  transition = 1,
+  transition = "fade",
   destination_map = "32",
   destination = "from_outside",
 }
@@ -18722,7 +18722,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "33",
   destination = "from_hole",
 }
@@ -18734,7 +18734,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "33",
   destination = "main_entrance",
 }
@@ -18799,7 +18799,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_bomb_cave",
-  transition = 1,
+  transition = "fade",
   destination_map = "34",
   destination = "from_outside",
 }
@@ -18819,7 +18819,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_dungeon_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_outside",
 }
@@ -18888,7 +18888,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_smith_cave_thiefs",
-  transition = 1,
+  transition = "fade",
   destination_map = "72",
   destination = "main_entrance",
 }
@@ -19103,7 +19103,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "from_outside",
 }
@@ -19124,7 +19124,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 0,
+  transition = "immediate",
   destination_map = "43",
   destination = "tmp",
 }
@@ -19754,7 +19754,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "54",
   destination = "from_above_tree_hole",
 }
@@ -19774,7 +19774,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "54",
   destination = "from_above_tree",
 }

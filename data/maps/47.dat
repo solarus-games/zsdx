@@ -8867,7 +8867,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_boss",
-  transition = 1,
+  transition = "fade",
   destination_map = "52",
   destination = "from_1F",
 }
@@ -9463,7 +9463,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "48",
   destination = "from_1F_A",
 }
@@ -9475,7 +9475,7 @@ teletransporter{
   width = 144,
   height = 64,
   name = "hole_to_B1_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "48",
   destination = "_same",
 }
@@ -9832,7 +9832,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "10",
   destination = "from_dungeon_8",
 }
@@ -10667,7 +10667,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 0,
+  transition = "immediate",
   destination_map = "52",
   destination = "from_1F",
 }
@@ -10708,7 +10708,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "53",
   destination = "from_1f",
 }
@@ -10886,7 +10886,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 0,
+  transition = "immediate",
   destination_map = "49",
   destination = "tmp_2",
 }

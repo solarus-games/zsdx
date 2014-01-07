@@ -624,7 +624,7 @@ teletransporter{
   y = 448,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "119",
   destination = "from_dungeon_10_5f",
 }
@@ -714,7 +714,7 @@ teletransporter{
   y = 992,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "99",
   destination = "Entrance_G_1",
 }

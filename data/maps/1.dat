@@ -446,7 +446,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_main_room",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "28",
   destination = "_side",
 }

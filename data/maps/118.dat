@@ -348,7 +348,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "116",
   destination = "from_b1",
 }

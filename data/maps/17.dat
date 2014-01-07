@@ -6582,7 +6582,7 @@ teletransporter{
   y = 1016,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "119",
   destination = "from_dungeon_10",
 }
@@ -8110,7 +8110,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "97",
   destination = "entrance_B_1",
 }
@@ -8130,7 +8130,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "98",
   destination = "entrance_E_1",
 }
@@ -8150,7 +8150,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "97",
   destination = "entrance_C_1",
 }
@@ -8196,7 +8196,7 @@ teletransporter{
   y = 784,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "97",
   destination = "Entrance_A_1",
 }
@@ -8254,7 +8254,7 @@ teletransporter{
   y = 992,
   width = 16,
   height = 16,
-  transition = 0,
+  transition = "immediate",
   destination_map = "119",
   destination = "from_dungeon_10_5f",
 }

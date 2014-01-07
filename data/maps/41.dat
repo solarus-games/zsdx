@@ -457,7 +457,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_ne",
 }
@@ -7760,7 +7760,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_8",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_ce",
 }
@@ -7772,7 +7772,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_9",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_cw",
 }
@@ -7784,7 +7784,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_10",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_sw",
 }
@@ -7891,7 +7891,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_nw",
 }
@@ -7903,7 +7903,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_nw",
 }
@@ -7915,7 +7915,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_n",
 }
@@ -7927,7 +7927,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_n",
 }
@@ -7939,7 +7939,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_c",
 }
@@ -7951,7 +7951,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_ne",
 }
@@ -8054,7 +8054,7 @@ teletransporter{
   width = 32,
   height = 32,
   name = "teletransporter_11",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "_same",
 }
@@ -8323,7 +8323,7 @@ teletransporter{
   name = "teletransporter_12",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_g",
 }
@@ -8337,7 +8337,7 @@ teletransporter{
   name = "teletransporter_13",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_a",
 }
@@ -8351,7 +8351,7 @@ teletransporter{
   name = "teletransporter_14",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_e",
 }
@@ -8365,7 +8365,7 @@ teletransporter{
   name = "teletransporter_15",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_c",
 }
@@ -8379,7 +8379,7 @@ teletransporter{
   name = "teletransporter_16",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_b",
 }
@@ -8393,7 +8393,7 @@ teletransporter{
   name = "teletransporter_17",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_d",
 }
@@ -8407,7 +8407,7 @@ teletransporter{
   name = "teletransporter_18",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_f",
 }
@@ -8980,7 +8980,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_19",
-  transition = 1,
+  transition = "fade",
   destination_map = "3",
   destination = "from_dungeon_3_2F",
 }

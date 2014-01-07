@@ -1080,7 +1080,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "4",
   destination = "from_bone_key_cave",
 }

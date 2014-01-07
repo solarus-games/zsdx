@@ -4538,7 +4538,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "7",
   destination = "from_inferno_river_maze",
 }
@@ -4801,7 +4801,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "69",
   destination = "from_1f",
 }

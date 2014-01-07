@@ -671,7 +671,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "10",
   destination = "from_fairy_fountain",
 }
