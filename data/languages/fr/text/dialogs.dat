@@ -760,7 +760,6 @@ apporte-les
 dialog{
   id = "_treasure.feather.1",
   icon = 0,
-  skip = "all",
   text = [[
 Tu as trouvé la
 Plume !$0 Utilise-la
