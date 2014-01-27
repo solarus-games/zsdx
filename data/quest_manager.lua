@@ -2,10 +2,10 @@
 -- that is, things not related to a particular savegame.
 local quest_manager = {}
 
--- Initializes map entity related behaviors.
-local function initialize_entities()
+-- Initializes the behavior of destructible entities.
+local function initialize_destructibles()
 
-  -- Destructibles: show a dialog when the player cannot lift them.
+  -- Show a dialog when the player cannot lift them.
   local destructible_meta = sol.main.get_metatable("destructible")
   -- destructible_meta represents the shared behavior of all destructible objects.
 
@@ -26,6 +26,36 @@ local function initialize_entities()
       game:start_dialog("_cannot_lift_still_too_heavy");
     end
   end
+end
+
+-- Initializes the behavior of enemies.
+local function initialize_enemies()
+
+  -- Enemies: redefine the damage of the hero's sword.
+  -- (The default damages are less important.)
+  local enemy_meta = sol.main.get_metatable("enemy")
+
+  function enemy_meta:on_hurt_by_sword(hero, enemy_sprite)
+
+    -- Here, self is the enemy.
+    local game = self:get_game()
+    local sword = game:get_ability("sword")
+    local damage_factors = { 1, 2, 4, 8 }  -- Damage factor of each sword.
+    local damage_factor = damage_factors[sword]
+    if hero:get_state() == "sword spin attack" then
+      damage_factor = damage_factor * 2  -- The spin attack is twice more powerful.
+    end
+
+    local reaction = self:get_attack_consequence_sprite(enemy_sprite, "sword")
+    self:remove_life(reaction * damage_factor)
+  end
+end
+
+-- Initializes map entity related behaviors.
+local function initialize_entities()
+
+  initialize_destructibles()
+  initialize_enemies()
 end
 
 -- Performs global initializations specific to this quest.
