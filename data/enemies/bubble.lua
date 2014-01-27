@@ -10,8 +10,6 @@ local last_direction8 = 0
 function enemy:on_created()
 
   self:set_life(1)
-  self:set_damage(2)
-  self:set_magic_damage(4)
   self:create_sprite("enemies/bubble")
   self:set_size(8, 8)
   self:set_origin(4, 4)
@@ -64,6 +62,27 @@ function enemy:go(direction8)
   m:set_angle(direction8 * math.pi / 4)
   m:start(self)
   last_direction8 = direction8
+end
+
+-- Bubbles have a specific attack which drain magic.
+function enemy:on_attacking_hero(hero)
+  local game = enemy:get_game()
+  local enemy_x, enemy_y = enemy:get_position()
+  
+  -- In any case, we do the hurt animation as usual
+  hero:start_hurt(enemy_x, enemy_y, 2)
+  
+  -- If hero has magic, it is drained.
+  if game:has_item("magic_bar") and game:get_magic() > 0 then
+    -- TODO : when the crash of solarus is fixed with invalid magic, these verifications may be simplified.
+    if game:get_magic() > 4 then
+      game:remove_magic(4)
+      sol.audio.play_sound("magic_bar")
+    else
+      game:remove_magic(game:get_magic())
+      sol.audio.play_sound("magic_bar")
+    end
+  end
 end
 
 
