@@ -40,6 +40,10 @@ end
 
 function map:on_started(destination)
 
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
+
   map:set_doors_open("ne_door", true)
   map:set_doors_open("boss_door", true)
 end

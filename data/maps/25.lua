@@ -6,6 +6,10 @@ local fighting_miniboss = false
 
 function map:on_started(destination)
 
+  if khorneth ~= nil then
+    khorneth:set_enabled(false)
+  end
+
   if not boss_key_chest:is_open() then
     boss_key_chest:set_enabled(false)
   end

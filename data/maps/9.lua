@@ -8,6 +8,10 @@ function map:on_started(destination)
 
   local new_music
 
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
+
   if game:get_value("b905") then
     -- enable dark world
     new_music = "dark_world"

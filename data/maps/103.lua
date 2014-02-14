@@ -35,6 +35,9 @@ function map:on_started(destination)
   end
 
   -- boss
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
   map:set_doors_open("boss_door", true)
   if game:get_value("b625")
     and not game:get_value("b626") then

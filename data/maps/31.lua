@@ -132,6 +132,10 @@ end
 
 function map:on_started(destination)
 
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
+
   if not boss_key_chest:is_open() then
     boss_key_chest:set_enabled(false)
   end

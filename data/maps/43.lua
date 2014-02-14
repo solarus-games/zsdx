@@ -7,6 +7,13 @@ local fighting_boss = false
 
 function map:on_started(destination)
 
+  if miniboss ~= nil then
+    miniboss:set_enabled(false)
+  end
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
+
   map:set_doors_open("miniboss_door", true)
   map:set_doors_open("boss_door", true)
   if destination == from_5f_c

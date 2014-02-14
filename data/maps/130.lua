@@ -49,7 +49,6 @@ function map:on_started(destination)
 
   if not game:get_value("b881") then
     sol.audio.play_music("ganon_appears")
-    boss:set_enabled(true)
     zelda:set_enabled(false)
     map:set_entities_enabled("child", false)
     hero:save_solid_ground()
