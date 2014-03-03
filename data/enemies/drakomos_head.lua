@@ -17,6 +17,7 @@ function enemy:on_created()
   self:set_hurt_style("boss")
   self:set_obstacle_behavior("flying")
   self:set_treasure(nil)
+  self:set_optimization_distance(0)
 
   self:set_invincible()
   self:set_attack_consequence("sword", "protected")
@@ -43,6 +44,14 @@ function enemy:on_restarted()
     sol.audio.play_sound("lamp")
     sol.timer.start(self, 500, function() self:repeat_fire() end)
   end)
+end
+
+function enemy:on_obstacle_reached()
+
+  local m = sol.movement.create("random")
+  m:set_speed(48)
+  m:set_max_distance(24)
+  m:start(self)
 end
 
 function enemy:on_movement_finished(movement)

@@ -13,6 +13,7 @@ function enemy:on_created()
   self:set_size(128, 80)
   self:set_origin(64, 64)
   self:set_invincible()
+  self:set_optimization_distance(0)
 
   ball_sprite = sol.sprite.create("enemies/drakomos")
   ball_sprite:set_animation("ball")

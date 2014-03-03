@@ -23,7 +23,7 @@ local spawner_xy = {
 
 local function repeat_lava_spawner()
 
-  if not game:get_value("b321") then
+  if not game:get_value("b321") then  -- Boss not killed.
     nb_spawners_created = nb_spawners_created + 1
     local index = math.random(#spawner_xy)
     map:create_enemy{

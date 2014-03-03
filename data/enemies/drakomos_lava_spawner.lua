@@ -6,6 +6,7 @@ function enemy:on_created()
 
   self:set_size(32, 24)
   self:set_origin(16, 21)
+  self:set_optimization_distance(0)
 
   if self:test_obstacles(0, 0) then
     -- Don't appear on stones previously created.
