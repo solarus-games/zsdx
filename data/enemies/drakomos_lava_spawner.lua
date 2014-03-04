@@ -20,7 +20,7 @@ function enemy:on_created()
   local sprite = self:create_sprite("enemies/drakomos_lava_spawner")
   function sprite:on_animation_finished(animation)
     if animation == "disappearing" then
-      enemy:set_enabled(false)
+      enemy:remove()
     end
   end
 end
