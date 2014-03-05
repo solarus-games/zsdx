@@ -646,7 +646,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_13",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_s_hole",
 }
@@ -655,31 +654,31 @@ destructible{
   layer = 0,
   x = 456,
   y = 573,
+  treasure_name = "random",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 0,
   x = 472,
   y = 573,
+  treasure_name = "random",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 0,
   x = 488,
   y = 573,
+  treasure_name = "bomb",
+  treasure_variant = 3,
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "bomb",
-  treasure_variant = 3,
 }
 
 tile{
@@ -9002,83 +9001,83 @@ destructible{
   layer = 1,
   x = 1016,
   y = 125,
+  treasure_name = "arrow",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "arrow",
 }
 
 destructible{
   layer = 1,
   x = 1032,
   y = 141,
+  treasure_name = "arrow",
+  treasure_variant = 2,
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "arrow",
-  treasure_variant = 2,
 }
 
 destructible{
   layer = 1,
   x = 1016,
   y = 237,
+  treasure_name = "arrow",
+  treasure_variant = 2,
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "arrow",
-  treasure_variant = 2,
 }
 
 destructible{
   layer = 1,
   x = 1032,
   y = 253,
+  treasure_name = "arrow",
+  treasure_variant = 2,
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "arrow",
-  treasure_variant = 2,
 }
 
 destructible{
   layer = 1,
   x = 1016,
   y = 141,
+  treasure_name = "magic_flask",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "magic_flask",
 }
 
 destructible{
   layer = 1,
   x = 1032,
   y = 237,
+  treasure_name = "magic_flask",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "magic_flask",
 }
 
 destructible{
   layer = 1,
   x = 1032,
   y = 125,
+  treasure_name = "heart",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "heart",
 }
 
 destructible{
   layer = 1,
   x = 1016,
   y = 253,
+  treasure_name = "heart",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "heart",
 }
 
 dynamic_tile{
@@ -9107,11 +9106,11 @@ destructible{
   layer = 1,
   x = 696,
   y = 477,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 crystal_block{
@@ -9389,22 +9388,22 @@ destructible{
   layer = 1,
   x = 632,
   y = 493,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 680,
   y = 557,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 block{
@@ -9648,15 +9647,6 @@ crystal_block{
   width = 16,
   height = 128,
   subtype = "1",
-}
-
-crystal_block{
-  layer = 1,
-  x = 240,
-  y = 320,
-  width = 16,
-  height = 48,
-  subtype = "0",
 }
 
 crystal_block{
@@ -10229,7 +10219,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_sw",
 }
@@ -10241,7 +10230,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_se_1",
 }
@@ -10253,7 +10241,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_se_2",
 }
@@ -10265,7 +10252,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_se_3",
 }
@@ -10277,7 +10263,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = "fade",
   destination_map = "57",
   destination = "from_3f_c",
 }
@@ -10297,7 +10282,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = "fade",
   destination_map = "57",
   destination = "from_3f_nc_1",
 }
@@ -10309,7 +10293,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = "fade",
   destination_map = "57",
   destination = "from_3f_nc_2",
 }
@@ -10321,7 +10304,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_8",
-  transition = "fade",
   destination_map = "57",
   destination = "from_3f_ne",
 }
@@ -10405,7 +10387,6 @@ teletransporter{
   width = 48,
   height = 16,
   name = "teletransporter_9",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_sw_hole",
 }
@@ -10417,7 +10398,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_10",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_w_hole",
 }
@@ -10429,7 +10409,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_11",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_c_hole",
 }
@@ -10441,7 +10420,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_12",
-  transition = "fade",
   destination_map = "55",
   destination = "_same",
 }
@@ -10453,7 +10431,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_14",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_hole_se_1",
 }
@@ -10465,7 +10442,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_15",
-  transition = "fade",
   destination_map = "55",
   destination = "from_3f_hole_se_2",
 }
@@ -10477,7 +10453,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_16",
-  transition = "fade",
   destination_map = "55",
   destination = "_same",
 }
@@ -10598,60 +10573,60 @@ destructible{
   layer = 1,
   x = 736,
   y = 189,
+  treasure_name = "heart",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "heart",
 }
 
 destructible{
   layer = 1,
   x = 736,
   y = 205,
+  treasure_name = "heart",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "heart",
 }
 
 destructible{
   layer = 1,
   x = 784,
   y = 205,
+  treasure_name = "heart",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "heart",
 }
 
 destructible{
   layer = 1,
   x = 784,
   y = 221,
+  treasure_name = "heart",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "heart",
 }
 
 destructible{
   layer = 1,
   x = 736,
   y = 221,
-  sprite = "entities/pot",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
   treasure_name = "random",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 784,
   y = 189,
+  treasure_name = "random",
   sprite = "entities/pot",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-  treasure_name = "random",
 }
 
 enemy{
@@ -10770,110 +10745,110 @@ destructible{
   layer = 1,
   x = 728,
   y = 309,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 728,
   y = 325,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 408,
   y = 405,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 424,
   y = 405,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 448,
   y = 725,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 464,
   y = 725,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 408,
   y = 421,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 424,
   y = 421,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 448,
   y = 709,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 464,
   y = 709,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 crystal_block{
@@ -10923,22 +10898,22 @@ destructible{
   layer = 1,
   x = 336,
   y = 541,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 destructible{
   layer = 1,
   x = 336,
   y = 557,
+  treasure_name = "random",
   sprite = "entities/stone_small_black",
   destruction_sound = "stone",
   weight = 2,
   damage_on_enemies = 4,
-  treasure_name = "random",
 }
 
 crystal{
