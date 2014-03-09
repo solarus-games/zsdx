@@ -8565,56 +8565,88 @@ sensor{
   name = "close_door_b_sensor_2",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 2200,
   y = 861,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 2200,
   y = 877,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1976,
   y = 941,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1976,
   y = 957,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 2200,
   y = 1117,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 2200,
   y = 1133,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1976,
   y = 1197,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1976,
   y = 1213,

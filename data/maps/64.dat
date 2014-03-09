@@ -3672,133 +3672,209 @@ stairs{
   subtype = "4",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1016,
   y = 381,
   direction = 0,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1048,
   y = 381,
   direction = 0,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1032,
   y = 381,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1064,
   y = 381,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1080,
   y = 381,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1080,
   y = 397,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1080,
   y = 413,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1080,
   y = 429,
   direction = 4,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1064,
   y = 429,
   direction = 4,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1064,
   y = 413,
   direction = 4,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1064,
   y = 397,
   direction = 0,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1048,
   y = 397,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1048,
   y = 413,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1032,
   y = 429,
   direction = 4,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1016,
   y = 413,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1016,
   y = 429,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1016,
   y = 397,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1032,
   y = 397,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 1032,
   y = 413,

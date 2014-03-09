@@ -4881,21 +4881,33 @@ enemy{
   treasure_name = "random",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 656,
   y = 477,
   direction = 0,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 656,
   y = 501,
   direction = 4,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 656,
   y = 525,

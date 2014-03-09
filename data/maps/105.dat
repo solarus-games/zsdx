@@ -20225,56 +20225,88 @@ destructible{
   treasure_name = "magic_flask",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1416,
   y = 1253,
   direction = 0,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1432,
   y = 1253,
   direction = 0,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1448,
   y = 1077,
   direction = 4,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1464,
   y = 1077,
   direction = 4,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1568,
   y = 1181,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1568,
   y = 1197,
   direction = 2,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1328,
   y = 1149,
   direction = 6,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1328,
   y = 1165,
@@ -20679,21 +20711,33 @@ destructible{
   treasure_name = "random",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1144,
   y = 397,
   direction = 0,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1160,
   y = 397,
   direction = 0,
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 1,
   x = 1176,
   y = 397,

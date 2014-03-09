@@ -2313,7 +2313,11 @@ npc{
   behavior = "item#lamp",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 424,
   y = 501,

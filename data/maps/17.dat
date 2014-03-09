@@ -2730,7 +2730,11 @@ door{
   cannot_open_dialog = "_small_key_required",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 600,
   y = 613,
@@ -3026,7 +3030,11 @@ stairs{
   subtype = "4",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 152,
   y = 565,
