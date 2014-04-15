@@ -71,11 +71,15 @@ sprites/npc/inferno.png
 sprites/npc/newlink.png
 sprites/npc/solarus_child*.png
 
-
 TODO: Check the status of these fonts:
 --------------------------------------
 text/fixed8.fon
 text/wqy-microhei.ttc
+
+Files with original content (CC BY-SA 3.0) but with a Nintendo filename:
+------------------------------------------------------------------------
+sprites/enemies/agahnim.png
+sprites/enemies/agahnim_fake.png
 
 Files that include content from Nintendo:
 -----------------------------------------
@@ -85,8 +89,6 @@ sounds/*
 text/*.png
 text/la.ttf
 tilesets/*.png
-sprites/enemies/agahnim.png
-sprites/enemies/agahnim_fake.png
 sprites/enemies/blue_flame.png
 sprites/enemies/*_knight_soldier.png
 sprites/enemies/bubble.png
