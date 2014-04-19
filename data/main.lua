@@ -219,8 +219,9 @@ function sol.main:on_key_pressed(key, modifiers)
     if key == "f5" then
       -- F5: change the video mode.
       sol.video.switch_mode()
-    elseif key == "return" and (modifiers.alt or modifiers.control) then
-      -- Alt + Return or Ctrl + Return: switch fullscreen.
+    elseif key == "return" and (modifiers.alt or modifiers.control)
+        or key == "f11" then
+      -- Alt + Return or Ctrl + Return or F11: switch fullscreen.
       sol.video.set_fullscreen(not sol.video.is_fullscreen())
     elseif key == "f4" and modifiers.alt then
       -- Alt + F4: stop the program.

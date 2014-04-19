@@ -2,6 +2,7 @@ zsdx 1.8.0 (under development)
 
 * Use solarus 1.2.0.
 * Replace fixed8.fon by a TTF font due to an SDL2 regression (#59).
+* Switch fullscreen also with F11.
 
 zsdx-1.7.1 (2013-12-01)
 
