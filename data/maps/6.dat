@@ -13940,9 +13940,9 @@ jumper{
 jumper{
   layer = 0,
   x = 944,
-  y = 336,
-  width = 32,
-  height = 32,
+  y = 344,
+  width = 24,
+  height = 24,
   name = "Jump_sensor_2",
   direction = 1,
   jump_length = 32,
