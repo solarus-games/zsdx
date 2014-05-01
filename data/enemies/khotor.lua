@@ -40,6 +40,10 @@ function enemy:on_restarted()
   local m = sol.movement.create("random_path")
   m:set_speed(40)
   m:start(self)
+
+  if chain ~= nil then
+    chain:set_enabled(true)
+  end
 end
 
 function enemy:on_hurt(attack)
