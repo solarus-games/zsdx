@@ -33,7 +33,7 @@ function enemy:on_restarted()
 
   claw_sprite:set_animation("claw")
   local m = sol.movement.create("random")
-  m:set_speed(64)
+  m:set_speed(32)
   m:start(self)
   sol.timer.start(self, math.random(2000, 6000), function()
     self:prepare_flames()

@@ -9,7 +9,7 @@ local eye_sprite = nil
 local arms_sprite = nil
 local initial_xy = {}
 local nb_sons_created = 0
-local speed = 24
+local speed = 32
 
 function enemy:on_created()
 

@@ -42,7 +42,7 @@ end
 
 function enemy:on_restarted()
   local m = sol.movement.create("random")
-  m:set_speed(16)
+  m:set_speed(32)
   m:set_max_distance(24)
   m:start(self)
   current_xy.x, current_xy.y = self:get_position()

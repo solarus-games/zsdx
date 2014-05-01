@@ -41,7 +41,7 @@ function enemy:on_restarted()
     end)
   else
     local m = sol.movement.create("random")
-    m:set_speed(80)
+    m:set_speed(64)
     m:start(self)
     sol.timer.start(self, math.random(3000, 5000), function()
       self:big_attack()

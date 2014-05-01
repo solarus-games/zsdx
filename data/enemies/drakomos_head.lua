@@ -49,7 +49,7 @@ end
 function enemy:on_obstacle_reached()
 
   local m = sol.movement.create("random")
-  m:set_speed(48)
+  m:set_speed(32)
   m:set_max_distance(24)
   m:start(self)
 end
@@ -57,7 +57,7 @@ end
 function enemy:on_movement_finished(movement)
 
   local m = sol.movement.create("random")
-  m:set_speed(48)
+  m:set_speed(32)
   m:set_max_distance(24)
   m:start(self)
 end
