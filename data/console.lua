@@ -16,6 +16,13 @@ local console = {
   },
 }
 
+-- Global function tp to mean hero:teleport()
+function tp(...)
+
+  local hero = sol.main.game and sol.main.game:get_hero() or nil
+  hero:teleport(...)
+end
+
 function console:on_started()
   self.enabled = true
   self:build_input_text()
