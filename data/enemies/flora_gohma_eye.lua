@@ -120,7 +120,7 @@ function enemy:on_movement_finished(movement)
   m:start(self)
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack )
 
   if self:get_life() <= 0 then
     -- Stop the movement of the body.

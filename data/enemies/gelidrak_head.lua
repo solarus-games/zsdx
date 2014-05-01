@@ -101,7 +101,7 @@ function enemy:set_vulnerable()
   end
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   if self:get_life() <= 0 then
     body:head_dying()

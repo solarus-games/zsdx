@@ -43,7 +43,7 @@ function enemy:go()
   end)
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   local life = self:get_life()
   if life <= 0 then

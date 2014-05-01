@@ -69,7 +69,7 @@ function enemy:prepare_flames()
   end)
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   if self:get_life() <= 0 then
     self:get_map():remove_entities(self:get_name() .. "_son_")

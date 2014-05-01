@@ -73,7 +73,7 @@ function enemy:skeleton_attack()
   end)
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   if phase == 1 and self:get_life() <= 7 then
     self:stop_movement()

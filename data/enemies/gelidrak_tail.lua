@@ -66,7 +66,7 @@ function enemy:on_movement_finished()
   end
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   -- Notify the body so that it stops moving and becomes vulnerable.
   body:tail_hurt()
