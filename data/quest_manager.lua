@@ -43,7 +43,11 @@ local function initialize_enemies()
     local damage_factors = { 1, 2, 4, 8 }  -- Damage factor of each sword.
     local damage_factor = damage_factors[sword]
     if hero:get_state() == "sword spin attack" then
-      damage_factor = damage_factor * 2  -- The spin attack is twice more powerful.
+      -- The spin attack is twice more powerful.
+      damage_factor = damage_factor * 2
+    elseif hero:get_state() == "running" then
+      -- Hitting an enemy while running is twice more powerful.
+      damage_factor = damage_factor * 2
     end
 
     local reaction = self:get_attack_consequence_sprite(enemy_sprite, "sword")
