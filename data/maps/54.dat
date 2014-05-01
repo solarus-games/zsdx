@@ -162,6 +162,25 @@ tile{
   pattern = 226,
 }
 
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = 152,
+  width = 16,
+  height = 16,
+  name = "teletransporter_2",
+  destination_map = "43",
+  destination = "from_5F_hole",
+}
+
+destination{
+  layer = 0,
+  x = 88,
+  y = 165,
+  name = "from_above_tree_hole",
+  direction = -1,
+}
+
 tile{
   layer = 1,
   x = 72,
@@ -464,7 +483,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = "fade",
   destination_map = "43",
   destination = "from_5F",
 }
@@ -480,32 +498,11 @@ stairs{
 
 teletransporter{
   layer = 1,
-  x = 80,
-  y = 152,
-  width = 16,
-  height = 16,
-  name = "teletransporter_2",
-  transition = "fade",
-  destination_map = "43",
-  destination = "from_5F_hole",
-}
-
-destination{
-  layer = 1,
-  x = 88,
-  y = 165,
-  name = "from_above_tree_hole",
-  direction = -1,
-}
-
-teletransporter{
-  layer = 1,
   x = 200,
   y = 24,
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = "fade",
   destination_map = "3",
   destination = "from_dungeon_3_5F",
 }
