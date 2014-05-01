@@ -13,6 +13,7 @@ function map:on_started(destination)
 
       if not map:get_game():get_value("b63") then
         -- the boss is not dead yet
+        boss:set_enabled(true)
         sol.audio.play_music("boss")
       end
     elseif destination == from_1F_east then
