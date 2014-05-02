@@ -53,6 +53,10 @@ function map:on_started(destination)
     end
   end
 
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
+
   sol.audio.play_music(new_music)
 end
 
