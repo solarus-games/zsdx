@@ -134,7 +134,6 @@ end
 
 local function unlight_torches()
 
-  print("unlight torches")
   for i = 1, 4 do
     map:get_entity("torch_" .. i):get_sprite():set_animation("unlit")
   end
@@ -216,7 +215,7 @@ local function create_stone()
     weight = 2,
     damage_on_enemies = 4,
   }
-  stone.on_lifted = function()
+  stone.on_lifting = function()
     allow_stone_creation = true
   end
   allow_stone_creation = false
