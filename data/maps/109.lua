@@ -8,6 +8,10 @@ function map:on_started(destination)
   map:set_doors_open("door_c", true)
   map:set_doors_open("door_d", true)
   map:set_entities_enabled("child_", false)
+
+  if door_d_enemy ~= nil then
+    door_d_enemy:set_enabled(false)
+  end
 end
 
 -- door A
