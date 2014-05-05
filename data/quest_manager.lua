@@ -16,7 +16,7 @@ local function initialize_destructibles()
     if self:get_can_be_cut()
         and not self:get_can_explode()
         and not self:get_game():has_ability("sword") then
-      -- The destructible can be cut, but the player no cut ability.
+      -- The destructible can be cut, but the player has no cut ability.
       game:start_dialog("_cannot_lift_should_cut");
     elseif not game:has_ability("lift") then
       -- No lift ability at all.
