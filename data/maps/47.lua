@@ -60,6 +60,10 @@ function map:on_started(destination)
   if game:get_value("b730") then
     boss_key_door_laser:remove()
   end
+
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
 end
 
 function map:on_opening_transition_finished(destination)
