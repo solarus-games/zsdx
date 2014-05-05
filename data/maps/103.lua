@@ -61,7 +61,7 @@ end
 function nw_block:on_moved()
 
   local x, y = self:get_position()
-  if x == 544 and y == 69 then
+  if x == 536 and y == 69 then
     -- make the block fall
     self:set_enabled(false)
     hole_a:set_enabled(true)
