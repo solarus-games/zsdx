@@ -112,9 +112,9 @@ function language_menu:on_joypad_axis_moved(axis, state)
     end
   else  -- Vertical axis.
     if state > 0 then
-      self:direction_pressed(2)
-    else
       self:direction_pressed(6)
+    elseif state < 0 then
+      self:direction_pressed(2)
     end
   end
 end
