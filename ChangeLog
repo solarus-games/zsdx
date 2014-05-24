@@ -1,3 +1,8 @@
+zsdx 1.8.1 (under development)
+
+* Make cmake paths more modifiable. By hasufell.
+* Fix direction of vertical movement on joypad in menus (#85). By xethm55.
+
 zsdx 1.8.0 (2014-05-06)
 
 * Use solarus 1.2.0.
