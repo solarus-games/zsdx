@@ -2475,7 +2475,7 @@ teletransporter{
   name = "to_teleporter_A",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "48",
   destination = "from_teleporter_A",
 }
@@ -10020,7 +10020,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "47",
   destination = "from_B1_A",
 }
@@ -10071,7 +10071,7 @@ teletransporter{
   width = 176,
   height = 80,
   name = "hole_to_B2_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "49",
   destination = "_same",
 }
@@ -10872,7 +10872,9 @@ destructible{
   layer = 1,
   x = 1400,
   y = 1453,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10880,7 +10882,9 @@ destructible{
   layer = 1,
   x = 1400,
   y = 1485,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10888,7 +10892,9 @@ destructible{
   layer = 1,
   x = 1496,
   y = 1485,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10896,7 +10902,9 @@ destructible{
   layer = 1,
   x = 1496,
   y = 1453,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -10922,49 +10930,63 @@ destructible{
   layer = 1,
   x = 488,
   y = 1597,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 568,
   y = 1597,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 584,
   y = 1597,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 600,
   y = 1597,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 552,
   y = 1597,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 536,
   y = 1597,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 504,
   y = 1597,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "bomb",
 }
 
@@ -10972,7 +10994,9 @@ destructible{
   layer = 1,
   x = 520,
   y = 1597,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "bomb",
 }
 
@@ -11252,7 +11276,9 @@ destructible{
   layer = 1,
   x = 688,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11260,7 +11286,9 @@ destructible{
   layer = 1,
   x = 704,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11268,7 +11296,9 @@ destructible{
   layer = 1,
   x = 720,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11276,7 +11306,9 @@ destructible{
   layer = 1,
   x = 736,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11284,7 +11316,9 @@ destructible{
   layer = 1,
   x = 752,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11292,14 +11326,18 @@ destructible{
   layer = 1,
   x = 752,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 864,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11307,7 +11345,9 @@ destructible{
   layer = 1,
   x = 880,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11315,7 +11355,9 @@ destructible{
   layer = 1,
   x = 896,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11323,7 +11365,9 @@ destructible{
   layer = 1,
   x = 928,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11648,7 +11692,9 @@ destructible{
   layer = 1,
   x = 1064,
   y = 1501,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 wall{
@@ -11777,7 +11823,9 @@ destructible{
   layer = 1,
   x = 1880,
   y = 1437,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 
@@ -11785,7 +11833,9 @@ destructible{
   layer = 1,
   x = 1880,
   y = 1469,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 
@@ -11793,7 +11843,9 @@ destructible{
   layer = 1,
   x = 1880,
   y = 1501,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 
@@ -11801,7 +11853,9 @@ destructible{
   layer = 1,
   x = 1880,
   y = 1453,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 2,
 }
@@ -11810,7 +11864,9 @@ destructible{
   layer = 1,
   x = 1880,
   y = 1485,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 2,
 }
@@ -11982,7 +12038,9 @@ destructible{
   layer = 1,
   x = 472,
   y = 573,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -11990,7 +12048,9 @@ destructible{
   layer = 1,
   x = 488,
   y = 573,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 2,
 }
@@ -11999,7 +12059,9 @@ destructible{
   layer = 1,
   x = 504,
   y = 573,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12007,7 +12069,9 @@ destructible{
   layer = 1,
   x = 472,
   y = 733,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12015,7 +12079,9 @@ destructible{
   layer = 1,
   x = 488,
   y = 733,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 2,
 }
@@ -12024,7 +12090,9 @@ destructible{
   layer = 1,
   x = 504,
   y = 733,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12118,7 +12186,9 @@ destructible{
   layer = 1,
   x = 912,
   y = 565,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12159,7 +12229,9 @@ destructible{
   layer = 1,
   x = 688,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12167,7 +12239,9 @@ destructible{
   layer = 1,
   x = 704,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12175,7 +12249,9 @@ destructible{
   layer = 1,
   x = 720,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12183,7 +12259,9 @@ destructible{
   layer = 1,
   x = 736,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12191,7 +12269,9 @@ destructible{
   layer = 1,
   x = 928,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12199,7 +12279,9 @@ destructible{
   layer = 1,
   x = 864,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12207,7 +12289,9 @@ destructible{
   layer = 1,
   x = 880,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12215,7 +12299,9 @@ destructible{
   layer = 1,
   x = 896,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12223,7 +12309,9 @@ destructible{
   layer = 1,
   x = 912,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -12277,7 +12365,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B2_C",
-  transition = 1,
+  transition = "fade",
   destination_map = "49",
   destination = "from_B1_C",
 }

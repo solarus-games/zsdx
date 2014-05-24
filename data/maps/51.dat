@@ -1183,7 +1183,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B3_A",
-  transition = 1,
+  transition = "fade",
   destination_map = "50",
   destination = "from_B4_A",
 }
@@ -1212,7 +1212,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B3_B",
-  transition = 1,
+  transition = "fade",
   destination_map = "50",
   destination = "from_B4_B",
 }

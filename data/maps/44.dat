@@ -52717,7 +52717,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "8",
   destination = "from_west_mountain_cave_1f_w",
 }

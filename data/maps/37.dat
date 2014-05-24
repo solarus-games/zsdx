@@ -600,9 +600,10 @@ destructible{
   layer = 0,
   x = 72,
   y = 173,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
-  treasure_variant = 1,
 }
 
 destination{
@@ -620,7 +621,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "5",
   destination = "from_billy_cave",
 }
@@ -650,33 +651,9 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "121",
   destination = "_side",
-}
-
-teletransporter{
-  layer = 0,
-  x = 120,
-  y = 176,
-  width = 16,
-  height = 16,
-  name = "teletransporter_2",
-  transition = 0,
-  destination_map = "136",
-  destination = "from_d2",
-}
-
-teletransporter{
-  layer = 0,
-  x = 88,
-  y = 176,
-  width = 16,
-  height = 16,
-  name = "teletransporter_3",
-  transition = 0,
-  destination_map = "126",
-  destination = "tmp",
 }
 
 tile{

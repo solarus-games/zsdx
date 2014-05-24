@@ -3,6 +3,10 @@ local map = ...
 
 function map:on_started(destination)
 
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
+
   if destination ~= nil then
     if destination == from_1F_hole then
       -- we are in the boss room

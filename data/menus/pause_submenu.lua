@@ -75,7 +75,7 @@ function submenu:set_caption(text_key)
     self.caption_text_2:set_text(nil)
   else
     local text = sol.language.get_string(text_key)
-    local line1, line2 = text:match("([^$]+)\$(.*)")
+    local line1, line2 = text:match("([^$]+)%$(.*)")
     if line1 == nil then
       -- Only one line.
       self.caption_text_1:set_text(text)

@@ -63,7 +63,6 @@ function map_submenu:on_started()
     self.dungeon_map_background_img = sol.surface.create("menus/dungeon_map_background.png")
     self.dungeon_map_background_img:set_xy(center_x - 112, center_y - 61)
     self.dungeon_map_icons_img = sol.surface.create("menus/dungeon_map_icons.png")
-    self.dungeon_map_icons_img:set_xy(center_x - 110, center_y + 48)
     self.small_keys_text = sol.text_surface.create{
       font = "white_digits",
       horizontal_alignment = "right",
@@ -101,7 +100,6 @@ function map_submenu:on_started()
 
     -- Minimap.
     self.dungeon_map_img = sol.surface.create(123, 119)
-    self.dungeon_map_img:set_transparency_color{0, 0, 0}
     self.dungeon_map_img:set_xy(center_x - 17, center_y - 54)
     self:load_dungeon_map_image()
   end
@@ -211,7 +209,7 @@ function map_submenu:draw_world_map(dst_surface)
 
   -- Draw the minimap.
   self.world_minimap_img:draw_region(
-      self.world_minimap_visible_xy.x, self.world_minimap_visible_xy.y, 255, 133,
+      self.world_minimap_visible_xy.x, self.world_minimap_visible_xy.y, 225, 133,
       dst_surface)
 
   if self.game:has_item("world_map") then
@@ -255,32 +253,37 @@ end
 
 function map_submenu:draw_dungeon_items(dst_surface)
 
+  local width, height = sol.video.get_quest_size()
+  local x, y = width / 2 - 110, height / 2 + 48
+
   -- Map.
   if self.game:has_dungeon_map() then
-    self.dungeon_map_icons_img:draw_region(0, 0, 17, 17, dst_surface, 0, 0)
+    self.dungeon_map_icons_img:draw_region(0, 0, 17, 17, dst_surface, x, y)
   end
 
   -- Compass.
   if self.game:has_dungeon_compass() then
-    self.dungeon_map_icons_img:draw_region(17, 0, 17, 17, dst_surface, 19, 0)
+    self.dungeon_map_icons_img:draw_region(17, 0, 17, 17, dst_surface, x + 19, y)
   end
 
   -- Big key.
   if self.game:has_dungeon_big_key() then
-    self.dungeon_map_icons_img:draw_region(34, 0, 17, 17, dst_surface, 38, 0)
+    self.dungeon_map_icons_img:draw_region(34, 0, 17, 17, dst_surface, x + 38, y)
   end
 
   -- Boss key.
   if self.game:has_dungeon_boss_key() then
-    self.dungeon_map_icons_img:draw_region(51, 0, 17, 17, dst_surface, 57, 0)
+    self.dungeon_map_icons_img:draw_region(51, 0, 17, 17, dst_surface, x + 57, y)
   end
 
   -- Small keys.
-  self.dungeon_map_icons_img:draw_region(68, 0, 9, 17, dst_surface, 76, 0)
+  self.dungeon_map_icons_img:draw_region(68, 0, 9, 17, dst_surface, x + 76, y)
   self.small_keys_text:draw(dst_surface)
 end
 
 function map_submenu:draw_dungeon_floors(dst_surface)
+
+  local width, height = sol.video.get_quest_size()
 
   -- Draw some floors.
   local src_x = 96
@@ -314,12 +317,14 @@ function map_submenu:draw_dungeon_floors(dst_surface)
 
   -- Draw the boss icon if any.
   if self.game:has_dungeon_compass()
-      and self.boss_floor ~= nil
-      and self.boss_floor >= lowest_floor_displayed
-      and self.boss_floor <= highest_floor_displayed then
+      and self.dungeon.boss ~= nil
+      and not self.game:get_value(self.dungeon.boss.savegame_variable)
+      and self.dungeon.boss.floor ~= nil
+      and self.dungeon.boss.floor >= lowest_floor_displayed
+      and self.dungeon.boss.floor <= self.highest_floor_displayed then
 
-    dst_y = old_dst_y + (self.highest_floor_displayed - self.boss_floor) * 12 + 3
-    self.dungeon_map_icons_img:draw_region(78, 0, 8, 8, dst_surface, 113, dst_y)
+    dst_y = old_dst_y + (self.highest_floor_displayed - self.dungeon.boss.floor) * 12 + 3
+    self.dungeon_map_icons_img:draw_region(78, 0, 8, 8, dst_surface, width / 2 - 47, height / 2 - 120 + dst_y)
   end
 
   -- Draw the arrows.
@@ -358,7 +363,7 @@ end
 -- Rebuilds the minimap of the current floor of the dungeon.
 function map_submenu:load_dungeon_map_image()
 
-  self.dungeon_map_img:fill_color{0, 0, 0}
+  self.dungeon_map_img:clear()
   if self.game:has_dungeon_map() then
     -- Load the image of this floor.
     local floor_map_img = sol.surface.create(
@@ -410,11 +415,11 @@ function map_submenu:load_dungeon_map_image()
         if chest.big then
           dst_x = dst_x - 3
           self.dungeon_map_icons_img:draw_region(78, 12, 6, 4,
-          self.dungeon_map_img, dst_x, dst_y)
+              self.dungeon_map_img, dst_x, dst_y)
         else
           dst_x = dst_x - 2
           self.dungeon_map_icons_img:draw_region(78, 8, 4, 4,
-          self.dungeon_map_img, dst_x, dst_y)
+              self.dungeon_map_img, dst_x, dst_y)
         end
       end
     end

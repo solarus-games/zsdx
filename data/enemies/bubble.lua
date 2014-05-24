@@ -10,11 +10,9 @@ local last_direction8 = 0
 function enemy:on_created()
 
   self:set_life(1)
-  self:set_damage(2)
-  self:set_magic_damage(4)
   self:create_sprite("enemies/bubble")
-  self:set_size(12, 12)
-  self:set_origin(6, 6)
+  self:set_size(8, 8)
+  self:set_origin(4, 4)
   self:set_can_hurt_hero_running(true)
   self:set_invincible()
 end
@@ -66,4 +64,16 @@ function enemy:go(direction8)
   last_direction8 = direction8
 end
 
-
+-- Bubbles have a specific attack which drain magic.
+function enemy:on_attacking_hero(hero)
+  local game = enemy:get_game()
+  
+  -- In any case, we do the hurt animation as usual
+  hero:start_hurt(enemy, 2)
+  
+  -- If hero has magic, it is drained.
+  if game:get_magic() > 0 then
+    game:remove_magic(4)
+    sol.audio.play_sound("magic_bar")
+  end
+end

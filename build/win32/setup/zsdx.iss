@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Zelda Mystery of Solarus DX"
-#define MyAppVersion "1.5.2"
+#define MyAppVersion "1.8.0"
 #define MyAppPublisher "Solarus"
 #define MyAppURL "http://www.solarus-games.org"
 #define MyAppExeName "solarus.exe"
@@ -39,18 +39,17 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Source: "files_to_install\solarus.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\data.solarus"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\quest_icon.ico"; DestDir: "{app}"
-Source: "files_to_install\jpeg.dll"; DestDir: "{sys}"
 Source: "files_to_install\libfreetype-6.dll"; DestDir: "{sys}"
-Source: "files_to_install\libphysfs.dll"; DestDir: "{sys}"
-Source: "files_to_install\libpng13.dll"; DestDir: "{sys}"
-Source: "files_to_install\libvorbisfile.dll"; DestDir: "{sys}"
-Source: "files_to_install\libvorbis.dll"; DestDir: "{sys}"
 Source: "files_to_install\libogg.dll"; DestDir: "{sys}"
-Source: "files_to_install\modplug.dll"; DestDir: "{sys}"
+Source: "files_to_install\libphysfs.dll"; DestDir: "{sys}"
+Source: "files_to_install\libpng16-16.dll"; DestDir: "{sys}"
+Source: "files_to_install\libvorbis.dll"; DestDir: "{sys}"
+Source: "files_to_install\libvorbisfile.dll"; DestDir: "{sys}"
+Source: "files_to_install\lua51.dll"; DestDir: "{sys}"
 Source: "files_to_install\OpenAL32.dll"; DestDir: "{sys}"
-Source: "files_to_install\SDL.dll"; DestDir: "{sys}"
-Source: "files_to_install\SDL_image.dll"; DestDir: "{sys}"
-Source: "files_to_install\SDL_ttf.dll"; DestDir: "{sys}"
+Source: "files_to_install\SDL2.dll"; DestDir: "{sys}"
+Source: "files_to_install\SDL2_image.dll"; DestDir: "{sys}"
+Source: "files_to_install\SDL2_ttf.dll"; DestDir: "{sys}"
 Source: "files_to_install\wrap_oal.dll"; DestDir: "{sys}"
 Source: "files_to_install\zlib1.dll"; DestDir: "{sys}"
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files

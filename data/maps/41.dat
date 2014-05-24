@@ -457,7 +457,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_ne",
 }
@@ -485,7 +485,6 @@ chest{
   y = 893,
   name = "chest_2",
   treasure_name = "small_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b119",
   sprite = "entities/chest",
 }
@@ -7761,7 +7760,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_8",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_ce",
 }
@@ -7773,7 +7772,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_9",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_cw",
 }
@@ -7785,7 +7784,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_10",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_sw",
 }
@@ -7823,7 +7822,6 @@ chest{
   y = 61,
   name = "chest",
   treasure_name = "big_key",
-  treasure_variant = 1,
   treasure_savegame_variable = "b129",
   sprite = "entities/chest",
 }
@@ -7834,7 +7832,6 @@ chest{
   y = 189,
   name = "chest_3",
   treasure_name = "compass",
-  treasure_variant = 1,
   treasure_savegame_variable = "b126",
   sprite = "entities/chest",
 }
@@ -7894,7 +7891,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_nw",
 }
@@ -7906,7 +7903,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_nw",
 }
@@ -7918,7 +7915,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_n",
 }
@@ -7930,7 +7927,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_n",
 }
@@ -7942,7 +7939,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "42",
   destination = "from_2F_c",
 }
@@ -7954,7 +7951,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_2F_ne",
 }
@@ -8057,7 +8054,7 @@ teletransporter{
   width = 32,
   height = 32,
   name = "teletransporter_11",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "_same",
 }
@@ -8225,7 +8222,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8236,7 +8232,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8247,7 +8242,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8258,7 +8252,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8269,7 +8262,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8280,7 +8272,6 @@ enemy{
   direction = 3,
   breed = "blue_bullblin",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 switch{
@@ -8297,17 +8288,19 @@ destructible{
   layer = 1,
   x = 168,
   y = 165,
-  subtype = "pot",
-  treasure_variant = 1,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 168,
   y = 189,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 dynamic_tile{
@@ -8316,7 +8309,7 @@ dynamic_tile{
   y = 240,
   width = 16,
   height = 8,
-  name = "barrier",
+  name = "barrier_tile",
   pattern = 70,
   enabled_at_start = true,
 }
@@ -8330,7 +8323,7 @@ teletransporter{
   name = "teletransporter_12",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_g",
 }
@@ -8344,7 +8337,7 @@ teletransporter{
   name = "teletransporter_13",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_a",
 }
@@ -8358,7 +8351,7 @@ teletransporter{
   name = "teletransporter_14",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_e",
 }
@@ -8372,7 +8365,7 @@ teletransporter{
   name = "teletransporter_15",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_c",
 }
@@ -8386,7 +8379,7 @@ teletransporter{
   name = "teletransporter_16",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_b",
 }
@@ -8400,7 +8393,7 @@ teletransporter{
   name = "teletransporter_17",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_d",
 }
@@ -8414,7 +8407,7 @@ teletransporter{
   name = "teletransporter_18",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "destination_point_f",
 }
@@ -8625,43 +8618,49 @@ destructible{
   layer = 1,
   x = 552,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
   layer = 1,
   x = 568,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 destructible{
   layer = 1,
   x = 632,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
   layer = 1,
   x = 648,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
   layer = 1,
   x = 664,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 2,
 }
@@ -8670,45 +8669,50 @@ destructible{
   layer = 1,
   x = 680,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
   layer = 1,
   x = 552,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
   layer = 1,
   x = 568,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
   layer = 1,
   x = 632,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 destructible{
   layer = 1,
   x = 648,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8719,7 +8723,6 @@ enemy{
   direction = 3,
   breed = "bubble",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8730,7 +8733,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8741,7 +8743,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8752,7 +8753,6 @@ enemy{
   direction = 3,
   breed = "bee_guard",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8763,7 +8763,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8774,7 +8773,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8785,7 +8783,6 @@ enemy{
   direction = 3,
   breed = "mandible",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -8796,7 +8793,6 @@ enemy{
   direction = 3,
   breed = "bubble",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 switch{
@@ -8813,17 +8809,19 @@ destructible{
   layer = 1,
   x = 568,
   y = 165,
-  subtype = "pot",
-  treasure_variant = 1,
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
   layer = 1,
   x = 568,
   y = 189,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
-  treasure_variant = 1,
 }
 
 dynamic_tile{
@@ -8982,7 +8980,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_19",
-  transition = 1,
+  transition = "fade",
   destination_map = "3",
   destination = "from_dungeon_3_2F",
 }

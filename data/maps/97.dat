@@ -2292,7 +2292,9 @@ destructible{
   layer = 0,
   x = 920,
   y = 221,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "small_key",
   treasure_variant = 1,
   treasure_savegame_variable = "b204",
@@ -2302,7 +2304,9 @@ destructible{
   layer = 0,
   x = 920,
   y = 293,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -2527,7 +2531,7 @@ teletransporter{
   y = 776,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "17",
   destination = "Entrance_A_1",
 }
@@ -2546,7 +2550,7 @@ teletransporter{
   y = 480,
   width = 32,
   height = 32,
-  transition = 1,
+  transition = "fade",
   destination_map = "17",
   destination = "destination_hole1",
 }
@@ -5419,7 +5423,7 @@ teletransporter{
   y = 344,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "96",
   destination = "entrance_D_1",
 }
@@ -5721,7 +5725,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "17",
   destination = "entrance_C_1",
 }
@@ -5741,7 +5745,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "17",
   destination = "entrance_B_1",
 }

@@ -10887,7 +10887,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "tmp",
-  transition = 1,
+  transition = "fade",
   destination_map = "58",
   destination = "from_outside",
 }
@@ -10919,7 +10919,7 @@ teletransporter{
   width = 960,
   height = 16,
   name = "to_C2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "4",
   destination = "_side",
 }
@@ -10931,7 +10931,7 @@ teletransporter{
   width = 16,
   height = 976,
   name = "to_B1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "9",
   destination = "_side",
 }
@@ -11017,7 +11017,10 @@ destructible{
   layer = 0,
   x = 888,
   y = 797,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11029,7 +11032,7 @@ teletransporter{
   width = 960,
   height = 16,
   name = "to_A2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "10",
   destination = "_side",
 }
@@ -11049,7 +11052,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_dungeon_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "58",
   destination = "from_outside",
 }
@@ -11069,7 +11072,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "68",
   destination = "from_outside",
 }
@@ -11106,7 +11109,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "74",
   destination = "from_oustide_w",
 }
@@ -11118,7 +11121,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "74",
   destination = "from_oustide_e",
 }
@@ -11145,7 +11148,10 @@ destructible{
   layer = 0,
   x = 424,
   y = 781,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11165,7 +11171,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "78",
   destination = "from_outside_w",
 }
@@ -11289,7 +11295,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "78",
   destination = "from_outside_e",
 }
@@ -11382,7 +11388,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = 1,
+  transition = "fade",
   destination_map = "79",
   destination = "from_outside",
 }
@@ -11402,7 +11408,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_8",
-  transition = 1,
+  transition = "fade",
   destination_map = "84",
   destination = "from_outside",
 }
@@ -11445,7 +11451,10 @@ destructible{
   layer = 0,
   x = 384,
   y = 533,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11454,7 +11463,10 @@ destructible{
   layer = 0,
   x = 400,
   y = 533,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11463,7 +11475,10 @@ destructible{
   layer = 0,
   x = 904,
   y = 453,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11472,7 +11487,10 @@ destructible{
   layer = 0,
   x = 240,
   y = 613,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11481,7 +11499,10 @@ destructible{
   layer = 0,
   x = 216,
   y = 757,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11490,7 +11511,10 @@ destructible{
   layer = 0,
   x = 536,
   y = 757,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11554,7 +11578,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_9",
-  transition = 1,
+  transition = "fade",
   destination_map = "95",
   destination = "from_outside",
 }
@@ -11574,7 +11598,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "111",
   destination = "from_outside",
 }
@@ -11610,7 +11634,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_10",
-  transition = 1,
+  transition = "fade",
   destination_map = "112",
   destination = "from_outside_w",
 }
@@ -11622,7 +11646,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_11",
-  transition = 1,
+  transition = "fade",
   destination_map = "112",
   destination = "from_outside_e",
 }
@@ -11634,7 +11658,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_12",
-  transition = 1,
+  transition = "fade",
   destination_map = "113",
   destination = "from_outside",
 }

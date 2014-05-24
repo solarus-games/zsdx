@@ -48,7 +48,7 @@ function item:print_pieces_of_heart()
     {savegame_variable = "b105", description = "true hero maze"},
     {savegame_variable = "b191", description = "fairy cave 2F"},
     {savegame_variable = "b900", description = "junk shop"},
-    {savegame_variable = "b917", description = "west mountains cave 1F: rechable with the cane of somaria"},
+    {savegame_variable = "b917", description = "west mountains cave 1F: reachable with the cane of somaria"},
     {savegame_variable = "b918", description = "west mountains cave 3F: come from the waterfall using the mysic mirror"},
     {savegame_variable = "b181", description = "chests game"},
     {savegame_variable = "b197", description = "waterfall cave 1F: open all chests"},

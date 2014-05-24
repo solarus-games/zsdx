@@ -16,6 +16,14 @@ destination{
   direction = 3,
 }
 
+destination{
+  layer = 0,
+  x = 8,
+  y = 13,
+  name = "from_ending",
+  direction = -1,
+}
+
 npc{
   layer = 1,
   x = 8,
@@ -24,13 +32,5 @@ npc{
   direction = 3,
   subtype = "0",
   sprite = "entities/the_end",
-}
-
-destination{
-  layer = 1,
-  x = 8,
-  y = 13,
-  name = "from_ending",
-  direction = -1,
 }
 

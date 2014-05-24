@@ -9,7 +9,7 @@ local eye_sprite = nil
 local arms_sprite = nil
 local initial_xy = {}
 local nb_sons_created = 0
-local speed = 24
+local speed = 32
 
 function enemy:on_created()
 
@@ -120,7 +120,7 @@ function enemy:on_movement_finished(movement)
   m:start(self)
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack )
 
   if self:get_life() <= 0 then
     -- Stop the movement of the body.

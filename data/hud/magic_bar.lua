@@ -17,7 +17,6 @@ function magic_bar:initialize(game)
 
   self.game = game
   self.surface = sol.surface.create(88, 8)
-  self.surface:set_transparency_color{0, 0, 0}
   self.magic_bar_img = sol.surface.create("hud/magic_bar.png")
   self.container_sprite = sol.sprite.create("hud/magic_bar")
   self.magic_displayed = game:get_magic()
@@ -79,7 +78,7 @@ end
 
 function magic_bar:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0}
+  self.surface:clear()
 
   -- Max magic.
   self.container_sprite:draw(self.surface)

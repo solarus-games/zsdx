@@ -3075,7 +3075,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "8",
   destination = "from_west_mountain_cave_1f_w",
 }
@@ -3095,7 +3095,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "8",
   destination = "from_west_mountain_cave_1f_e",
 }
@@ -3141,7 +3141,9 @@ destructible{
   layer = 0,
   x = 408,
   y = 157,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -3150,7 +3152,9 @@ destructible{
   layer = 0,
   x = 568,
   y = 157,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -3159,7 +3163,9 @@ destructible{
   layer = 0,
   x = 568,
   y = 205,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -3168,7 +3174,9 @@ destructible{
   layer = 0,
   x = 408,
   y = 205,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_variant = 1,
 }
 
@@ -3187,7 +3195,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "92",
   destination = "from_1f",
 }

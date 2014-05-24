@@ -6,6 +6,7 @@ function enemy:on_created()
 
   self:set_size(32, 24)
   self:set_origin(16, 21)
+  self:set_optimization_distance(0)
 
   if self:test_obstacles(0, 0) then
     -- Don't appear on stones previously created.
@@ -19,7 +20,7 @@ function enemy:on_created()
   local sprite = self:create_sprite("enemies/drakomos_lava_spawner")
   function sprite:on_animation_finished(animation)
     if animation == "disappearing" then
-      enemy:set_enabled(false)
+      enemy:remove()
     end
   end
 end
@@ -47,10 +48,13 @@ function enemy:on_restarted()
     else
       local x, y, layer = self:get_position()
       self:get_map():create_destructible{
-	subtype = "black_stone",
 	x = x,
 	y = y,
-	layer = layer
+	layer = layer,
+        sprite = "entities/stone_small_black",
+        destruction_sound = "stone",
+        weight = 2,
+        damage_on_enemies = 4,
       }
     end
   end)

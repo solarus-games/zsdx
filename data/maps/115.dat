@@ -258,7 +258,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "10",
   destination = "from_east_mountains_cave_5f",
 }
@@ -586,7 +586,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "114",
   destination = "from_5f",
 }

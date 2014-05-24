@@ -448,7 +448,7 @@ teletransporter{
   width = 32,
   height = 32,
   name = "weak_floor_teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "34",
   destination = "_same",
 }
@@ -485,7 +485,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F",
-  transition = 1,
+  transition = "fade",
   destination_map = "34",
   destination = "from_2F",
 }
@@ -506,7 +506,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_3F",
-  transition = 1,
+  transition = "fade",
   destination_map = "36",
   destination = "from_2F",
 }

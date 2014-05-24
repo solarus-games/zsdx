@@ -2329,7 +2329,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B1_stairs_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "from_1F_stairs_2",
 }
@@ -2341,7 +2341,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "4",
   destination = "out_lyriann_cave",
 }
@@ -2388,7 +2388,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B1_first_stairs",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "from_1F_first_stairs",
 }
@@ -2400,7 +2400,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "_same",
 }
@@ -2412,7 +2412,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "_same",
 }
@@ -2424,7 +2424,7 @@ teletransporter{
   width = 32,
   height = 48,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "_same",
 }
@@ -2473,7 +2473,7 @@ teletransporter{
   name = "teletransporter_5",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "destination_point_3",
 }
@@ -2487,7 +2487,7 @@ teletransporter{
   name = "teletransporter_6",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "destination_point",
 }
@@ -2501,7 +2501,7 @@ teletransporter{
   name = "teletransporter_7",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "destination_point_4",
 }
@@ -2515,7 +2515,7 @@ teletransporter{
   name = "teletransporter_8",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "destination_point_2",
 }
@@ -2534,7 +2534,9 @@ destructible{
   layer = 0,
   x = 96,
   y = 341,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_variant = 1,
 }
 
@@ -2658,7 +2660,7 @@ teletransporter{
   name = "teletransporter_9",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "destination_point_5",
 }
@@ -2672,7 +2674,7 @@ teletransporter{
   name = "teletransporter_10",
   sprite = "entities/teletransporter",
   sound = "warp",
-  transition = 1,
+  transition = "fade",
   destination_map = "20",
   destination = "destination_point_6",
 }
@@ -2701,7 +2703,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B1_middle_stairs",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "from_1F_middle_stairs",
 }
@@ -2758,7 +2760,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_11",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "from_1F_hole_2_west",
 }
@@ -2770,7 +2772,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_12",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "from_1F_hole_2_east",
 }
@@ -2959,7 +2961,9 @@ destructible{
   layer = 0,
   x = 408,
   y = 77,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -2968,7 +2972,9 @@ destructible{
   layer = 0,
   x = 392,
   y = 573,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -2977,7 +2983,9 @@ destructible{
   layer = 0,
   x = 408,
   y = 573,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -2986,7 +2994,9 @@ destructible{
   layer = 0,
   x = 408,
   y = 557,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -3610,7 +3620,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_B1_north_stairs",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "from_1F_north_stairs",
 }
@@ -3641,7 +3651,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "21",
   destination = "from_1F_final_stairs",
 }

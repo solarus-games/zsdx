@@ -1,14 +1,7 @@
--- Savegame selection screen, displayed after the title screen.
+-- Savegame selection screen.
 
 local savegame_menu = {}
 local cloud_width, cloud_height = 111, 88
-
-function savegame_menu:new()
-  local object = {}
-  setmetatable(object, self)
-  self.__index = self
-  return object
-end
 
 function savegame_menu:on_started()
 
@@ -110,9 +103,9 @@ function savegame_menu:on_joypad_axis_moved(axis, state)
     end
   else  -- Vertical axis.
     if state > 0 then
-      self:direction_pressed(2)
-    else
       self:direction_pressed(6)
+    elseif state < 0 then
+      self:direction_pressed(2)
     end
   end
 end
@@ -261,6 +254,7 @@ function savegame_menu:read_savegames()
       -- Hearts.
       local hearts_class = require("hud/hearts")
       slot.hearts_view = hearts_class:new(slot.savegame)
+      slot.hearts_view:on_started()
     else
       -- New file.
       local name = "- " .. sol.language.get_string("selection_menu.empty") .. " -"
@@ -376,6 +370,7 @@ function savegame_menu:key_pressed_phase_select_file(key)
         self.finished = true
         self.surface:fade_out()
         sol.timer.start(self, 700, function()
+          sol.menu.stop(self)
 	  sol.main:start_savegame(slot.savegame)
         end)
       else
@@ -795,7 +790,7 @@ function savegame_menu:set_option_value(option, index)
       end
 
     elseif option.name == "video_mode" then
-      option.value_text:set_text_key("options.video_mode." .. value)
+      option.value_text:set_text(value)
       sol.video.set_mode(value)
 
     elseif option.name == "music_volume" then
@@ -824,7 +819,7 @@ function savegame_menu:reload_options_strings()
     -- And the value of the video mode.
     if option.name == "video_mode" and option.current_index ~= nil then
       local mode = option.values[option.current_index]
-      option.value_text:set_text_key("options.video_mode." .. mode)
+      option.value_text:set_text(mode)
     end
   end
 

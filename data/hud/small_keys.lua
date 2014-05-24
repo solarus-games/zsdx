@@ -18,7 +18,6 @@ function small_keys:initialize(game)
   self.game = game
   self.visible = false
   self.surface = sol.surface.create(40, 8)
-  self.surface:set_transparency_color{0, 0, 0}
   self.icon_img = sol.surface.create("hud/small_key_icon.png")
   self.digits_text = sol.text_surface.create{
     font = "white_digits",
@@ -63,7 +62,7 @@ end
 
 function small_keys:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0}
+  self.surface:clear()
   self.icon_img:draw(self.surface)
   self.digits_text:draw(self.surface, 10, 0)
 end

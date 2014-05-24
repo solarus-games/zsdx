@@ -2392,7 +2392,9 @@ destructible{
   layer = 1,
   x = 392,
   y = 285,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -2401,7 +2403,9 @@ destructible{
   layer = 1,
   x = 376,
   y = 285,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -2410,7 +2414,9 @@ destructible{
   layer = 1,
   x = 392,
   y = 69,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -2419,7 +2425,9 @@ destructible{
   layer = 1,
   x = 376,
   y = 69,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -2430,7 +2438,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "17",
   destination = "entrance_E_1",
 }

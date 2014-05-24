@@ -35,7 +35,7 @@ end
 function enemy:go()
 
   local m = sol.movement.create("random")
-  m:set_speed(16)
+  m:set_speed(32)
   m:set_max_distance(16)
   m:start(self)
   sol.timer.start(self, math.random(2000, 3000), function()
@@ -43,7 +43,7 @@ function enemy:go()
   end)
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   local life = self:get_life()
   if life <= 0 then

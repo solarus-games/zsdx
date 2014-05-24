@@ -1,18 +1,40 @@
-zsdx-1.8.0 (under development)
+zsdx 1.8.1 (under development)
 
-* Use solarus 1.2.
+* Make cmake paths more modifiable. By hasufell.
+* Fix direction of vertical movement on joypad in menus (#85). By xethm55.
 
-zsdx-1.7.0 (under development)
+zsdx 1.8.0 (2014-05-06)
 
-* Use solarus 1.1.
+* Use solarus 1.2.0.
+* Replace fixed8.fon by a TTF font due to an SDL2 regression (#59).
+* Switch fullscreen also with F11.
+* Dungeon 3 5F: fix falling too early in the hole due to incorrect layers.
+
+zsdx-1.7.1 (2013-12-01)
+
+* Use Solarus 1.1.1.
+* Fix the heart meter not updated until the first save/reload (#67).
+* Fix wrong teletransportation in Billy's cave after falling in a hole (#66).
+* Fix the debugging console no longer working after using F1, F2 or F3.
+
+zsdx-1.7.0 (2013-10-13)
+
+* Use solarus 1.1.0.
 * Add simplified Chinese and traditional Chinese translations (beta).
 * Replace .spc musics by .it ones (much faster) (#17).
+* Add an animated Solarus logo from Maxs (#57).
 * Fix savegames freshly created with Solarus 0.9 and never run yet.
 * Fix a slight alignment issue with the hurt animation of the hero.
 * Fix a small breach in dungeon 9 4F in the timed chest room (#4).
 * Fix easy infinite rupees in the waterfall cave (#13).
 * Fix low health beeping playing at final screen (#56).
 * Add a teletransporter from south lake to the cave under the waterfall (#10).
+* Dungeon 7 boss: the player could get stuck in the boss room (#6).
+* Dungeon 7 boss: change the misleading hurt sound of the tail (#7).
+* Dungeon 7: help the player be aligned correctly to obtain the boss key (#8).
+* Dungeon 3 2F: fix two switches that disappeared when activating them.
+* Dungeon 2 boss: fix tile disappearing issue (#14).
+* Dungeon 9 2F: fix a minor graphical issue.
 
 zsdx-1.6.2 (2013-06-25)
 
@@ -32,7 +54,7 @@ zsdx-1.6 (2013-06-22)
 * Fix a door bug that could get the hero stuck in empty rooms.
 * Fix saving the state of Billy's door.
 * Dungeon 1: keep the final door open when coming back in the boss room.
-* Dungeon 7 2F: save the nort-west torches.
+* Dungeon 7 2F: save the north-west torches.
 * Savegames menu: the joypad was not working to delete a savegame.
 * Dungeon 10 B1: fix a cauldron the hero could walk on (#20).
 * Rupee house: don't let the player to get the piece of heart with the sword.

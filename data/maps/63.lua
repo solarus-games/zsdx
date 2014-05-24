@@ -14,7 +14,6 @@ local function init_guard(guard, path)
   m:set_loop(true)
   m:set_ignore_obstacles(true)
   m:start(guard)
-  guard:get_sprite():set_animation("walking")
 end
 
 -- Returns whether all torches are on
@@ -52,9 +51,10 @@ function map:on_started(destination)
   init_guard(guard_3, {6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,4,4,4,4,4,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0})
 
   if game:get_value("b515") then
+    -- Disable the block first so that it does not fall into the hole and play a sound.
+    weak_floor_block:set_enabled(false)
     weak_floor:set_enabled(false)
     weak_floor_sensor:set_enabled(false)
-    weak_floor_block:set_enabled(false)
   end
 
   -- blocks necessary to go back when found the feather

@@ -23,7 +23,7 @@ local spawner_xy = {
 
 local function repeat_lava_spawner()
 
-  if not game:get_value("b321") then
+  if not game:get_value("b321") then  -- Boss not killed.
     nb_spawners_created = nb_spawners_created + 1
     local index = math.random(#spawner_xy)
     map:create_enemy{
@@ -39,6 +39,10 @@ local function repeat_lava_spawner()
 end
 
 function map:on_started(destination)
+
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
 
   map:set_doors_open("ne_door", true)
   map:set_doors_open("boss_door", true)
@@ -100,7 +104,7 @@ function map:on_obtained_treasure(item, variant, savegame_variable)
 	    end)
 	  end)
         end)
-      end)
+      end, 1000, 86400000)
     end)
   end
 end

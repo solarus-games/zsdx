@@ -17,7 +17,6 @@ function rupees:initialize(game)
 
   self.game = game
   self.surface = sol.surface.create(48, 12)
-  self.surface:set_transparency_color{0, 0, 0}
   self.digits_text = sol.text_surface.create{
     font = "white_digits",
     horizontal_alignment = "left",
@@ -77,7 +76,7 @@ end
 
 function rupees:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0}
+  self.surface:clear()
 
   -- Max money (icon).
   self.rupee_icons_img:draw_region((self.rupee_bag_displayed - 1) * 12, 0, 12, 12, self.surface)

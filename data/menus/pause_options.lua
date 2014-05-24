@@ -9,11 +9,19 @@ function options_submenu:on_started()
   local width, height = sol.video.get_quest_size()
   local center_x, center_y = width / 2, height / 2
 
+  self.video_mode_label_text = sol.text_surface.create{
+    horizontal_alignment = "left",
+    vertical_alignment = "top",
+    font = font,
+    text_key = "selection_menu.options.video_mode",
+  }
+  self.video_mode_label_text:set_xy(center_x - 50, center_y - 58)
+
   self.video_mode_text = sol.text_surface.create{
     horizontal_alignment = "right",
     vertical_alignment = "top",
     font = font,
-    text_key = "options.video_mode." .. sol.video.get_mode(),
+    text = sol.video.get_mode(),
   }
   self.video_mode_text:set_xy(center_x + 104, center_y - 58)
 
@@ -42,7 +50,6 @@ function options_submenu:on_started()
   self.joypad_column_text:set_xy(center_x + 69, center_y - 37)
 
   self.commands_surface = sol.surface.create(215, 160)
-  self.commands_surface:set_transparency_color{0, 0, 0}
   self.commands_surface:set_xy(center_x - 107, center_y - 18)
   self.commands_highest_visible = 1
   self.commands_visible_y = 0
@@ -92,7 +99,7 @@ end
 -- keyboard and the joypad.
 function options_submenu:load_command_texts()
 
-  self.commands_surface:fill_color{0, 0, 0}
+  self.commands_surface:clear()
   for i = 1, #self.command_names do
     local keyboard_binding = self.game:get_command_keyboard_binding(self.command_names[i])
     local joypad_binding = self.game:get_command_joypad_binding(self.command_names[i])
@@ -148,6 +155,7 @@ function options_submenu:on_draw(dst_surface)
   self.cursor_sprite:draw(dst_surface, self.cursor_sprite.x, self.cursor_sprite.y)
 
   -- Text.
+  self.video_mode_label_text:draw(dst_surface)
   self.video_mode_text:draw(dst_surface)
   self.command_column_text:draw(dst_surface)
   self.keyboard_column_text:draw(dst_surface)
@@ -197,7 +205,7 @@ function options_submenu:on_command_pressed(command)
       if self.cursor_position == 1 then
         -- Change the video mode.
         sol.video.switch_mode()
-        self.video_mode_text:set_text_key("options.video_mode." .. sol.video.get_mode())
+        self.video_mode_text:set_text(sol.video.get_mode())
       else
         -- Customize a game command.
         self:set_caption("options.caption.press_key")

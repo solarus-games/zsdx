@@ -4,6 +4,10 @@ local game = map:get_game()
 
 function map:on_started(destination)
 
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
+
   ganon_npc:set_enabled(false)
   if destination == from_1F then
     if game:get_value("b728") then

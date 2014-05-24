@@ -20,25 +20,29 @@ function enemy:on_created()
   self:set_attack_consequence("arrow", "protected")
   self:set_attack_consequence("hookshot", "protected")
 
-  -- Create the eye.
-  local my_name = self:get_name()
-  eye = self:create_enemy{
-    name = my_name .. "_eye",
-    breed = "flora_gohma_eye",
-    x = 0,
-    y = -112
-  }
-  eye.body = self
-
   -- Create the balls of the neck.
   ball_sprite = sol.sprite.create("enemies/flora_gohma_eye")
   ball_sprite:set_animation("ball")
 end
 
-function enemy:on_restarted()
+function enemy:on_enabled()
 
+  if eye == nil then
+    -- Create the eye.
+    local my_name = self:get_name()
+    eye = self:create_enemy{
+      name = my_name .. "_eye",
+      breed = "flora_gohma_eye",
+      x = 0,
+      y = -112
+    }
+    eye.body = self
+  end
+end
+
+function enemy:on_restarted()
   local m = sol.movement.create("random")
-  m:set_speed(16)
+  m:set_speed(32)
   m:set_max_distance(24)
   m:start(self)
   current_xy.x, current_xy.y = self:get_position()

@@ -3538,7 +3538,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "6",
   destination = "from_dungeon_9",
 }

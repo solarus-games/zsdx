@@ -14,8 +14,7 @@ function quest_status_submenu:on_started()
   local item_sprite = sol.sprite.create("entities/items")
 
   -- Draw the items on a surface.
-  self.quest_items_surface:set_transparency_color{0, 0, 0}
-  self.quest_items_surface:fill_color{0, 0, 0}
+  self.quest_items_surface:clear()
 
   -- Tunic.
   local tunic = self.game:get_item("tunic"):get_variant()

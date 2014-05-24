@@ -104,10 +104,11 @@ function item:on_npc_collision_fire(npc)
       end)
       table.insert(self.temporary_lit_torches, npc)
 
-      if self:get_map():get_light() == 0 then
+      local map = self:get_map()
+      if map.get_light ~= nil and map:get_light() == 0 then
         -- Light the room.
         self.was_dark_room = true
-        self:get_map():set_light(1)
+        map:set_light(1)
       end
     end
   end

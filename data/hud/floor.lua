@@ -18,7 +18,6 @@ function floor_view:initialize(game)
   self.game = game
   self.visible = false
   self.surface = sol.surface.create(32, 85)
-  self.surface:set_transparency_color{0, 0, 0}
   self.floors_img = sol.surface.create("floors.png", true)  -- Language-specific image
   self.floor = nil
 end
@@ -50,7 +49,7 @@ end
 
 function floor_view:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0}
+  self.surface:clear()
 
   local highest_floor_displayed
   local dungeon = self.game:get_dungeon()

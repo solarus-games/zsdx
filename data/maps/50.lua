@@ -35,7 +35,7 @@ end
 
 function STT5:on_moved()
   local x, y = self:get_position()
-  if x >= 1096 and x <= 1160
+  if x >= 1088 and x < 1168
       and y >= 893 and y <= 925 then
     map:get_game():set_value("b725", true)
     sol.timer.start(500, function()

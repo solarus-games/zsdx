@@ -17,7 +17,6 @@ function attack_icon:initialize(game)
 
   self.game = game
   self.surface = sol.surface.create(72, 24)
-  self.surface:set_transparency_color{0, 0, 0}
   self.icons_img = sol.surface.create("sword_icon.png", true)
   self.icon_region_y = nil
   self.icon_flip_sprite = sol.sprite.create("hud/sword_icon_flip")
@@ -109,7 +108,7 @@ end
 
 function attack_icon:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0}
+  self.surface:clear()
 
   if self.icon_region_y ~= nil then
     -- Draw the static image of the icon.

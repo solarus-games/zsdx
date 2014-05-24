@@ -16,7 +16,7 @@ function item:on_using()
 
     local x, y, layer = self:get_block_position_from_hero()
 
-    if self.somaria_block == nil then
+    if self.somaria_block == nil or not self.somaria_block:exists() then
 
       sol.audio.play_sound("cane")
       sol.audio.play_sound("magic_bar")

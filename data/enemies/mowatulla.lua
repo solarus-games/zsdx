@@ -43,7 +43,7 @@ function enemy:on_update()
   end
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   if self:get_life() <= 0 then
     -- I am dying: remove the sons.

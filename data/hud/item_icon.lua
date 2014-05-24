@@ -18,7 +18,6 @@ function item_icon:initialize(game, slot)
   self.game = game
   self.slot = slot
   self.surface = sol.surface.create(32, 28)
-  self.surface:set_transparency_color{0, 0, 0}
   self.background_img = sol.surface.create("hud/item_icon_" .. slot .. ".png")
   self.item_sprite = sol.sprite.create("entities/items")
   self.item_displayed = nil
@@ -92,7 +91,7 @@ end
 
 function item_icon:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0}
+  self.surface:clear()
 
   -- Background image.
   self.background_img:draw(self.surface)

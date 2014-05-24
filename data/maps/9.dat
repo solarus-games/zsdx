@@ -11769,7 +11769,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_lw",
-  transition = 1,
+  transition = "fade",
   destination_map = "88",
   destination = "from_outside_hole",
 }
@@ -11792,7 +11792,7 @@ teletransporter{
   width = 1120,
   height = 16,
   name = "to_C1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "3",
   destination = "_side",
 }
@@ -11804,7 +11804,7 @@ teletransporter{
   width = 16,
   height = 976,
   name = "to_B2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "7",
   destination = "_side",
 }
@@ -11838,7 +11838,7 @@ teletransporter{
   width = 1120,
   height = 16,
   name = "to_A1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "8",
   destination = "_side",
 }
@@ -11880,7 +11880,10 @@ destructible{
   layer = 0,
   x = 1000,
   y = 877,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -11908,7 +11911,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_mountain_cave_2F",
-  transition = 1,
+  transition = "fade",
   destination_map = "39",
   destination = "from_outside",
 }
@@ -11920,7 +11923,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_mountain_cave_2F_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "38",
   destination = "from_outside",
 }
@@ -11992,7 +11995,11 @@ destructible{
   layer = 0,
   x = 488,
   y = 261,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -12001,7 +12008,11 @@ destructible{
   layer = 0,
   x = 488,
   y = 245,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -12010,7 +12021,11 @@ destructible{
   layer = 0,
   x = 488,
   y = 229,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -12039,7 +12054,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_dw_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "64",
   destination = "from_outside",
 }
@@ -12067,7 +12082,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_dw_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "63",
   destination = "from_outside_w",
 }
@@ -12079,7 +12094,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_dw_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "63",
   destination = "from_outside_e",
 }
@@ -12099,7 +12114,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_dw",
-  transition = 1,
+  transition = "fade",
   destination_map = "65",
   destination = "from_outside_hole",
 }
@@ -12108,7 +12123,11 @@ destructible{
   layer = 0,
   x = 488,
   y = 213,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_variant = 1,
 }
 
@@ -12559,7 +12578,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_lw_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "89",
   destination = "from_outside",
 }
@@ -12653,7 +12672,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_lw_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "90",
   destination = "from_roof",
 }
@@ -12665,7 +12684,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_dw_roof",
-  transition = 1,
+  transition = "fade",
   destination_map = "63",
   destination = "from_roof",
 }
@@ -12759,7 +12778,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "133",
   destination = "from_outside",
 }
@@ -12779,7 +12798,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "tmp",
-  transition = 0,
+  transition = "immediate",
   destination_map = "63",
   destination = "from_outside_w",
 }
@@ -12791,7 +12810,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "tmp_2",
-  transition = 0,
+  transition = "immediate",
   destination_map = "63",
   destination = "from_outside_e",
 }

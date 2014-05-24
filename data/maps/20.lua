@@ -42,7 +42,6 @@ local function tom_go_back()
     m:set_path{2,2,2,2,2,2,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2}
     m:set_speed(48)
     m:start(tom)
-    tom:get_sprite():set_animation("walking")
   end
 end
 
@@ -52,7 +51,6 @@ local function start_moving_tom()
   m:set_speed(48)
   tom:set_position(88, 509)
   m:start(tom)
-  tom:get_sprite():set_animation("walking")
 end
 
 function map:on_started(destination)

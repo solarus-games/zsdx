@@ -1407,7 +1407,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "7",
   destination = "from_east_mountains_cave_3f",
 }
@@ -1419,7 +1419,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "112",
   destination = "from_3f_w",
 }
@@ -1431,7 +1431,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "112",
   destination = "from_3f_e",
 }
@@ -1458,7 +1458,9 @@ destructible{
   layer = 0,
   x = 80,
   y = 117,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -1467,7 +1469,9 @@ destructible{
   layer = 0,
   x = 80,
   y = 101,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -1476,7 +1480,9 @@ destructible{
   layer = 0,
   x = 80,
   y = 85,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -1485,7 +1491,9 @@ destructible{
   layer = 0,
   x = 80,
   y = 405,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -1494,7 +1502,9 @@ destructible{
   layer = 0,
   x = 80,
   y = 389,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -1503,7 +1513,9 @@ destructible{
   layer = 0,
   x = 80,
   y = 373,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -1669,7 +1681,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "114",
   destination = "from_3f",
 }

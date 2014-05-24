@@ -2730,7 +2730,11 @@ door{
   cannot_open_dialog = "_small_key_required",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 600,
   y = 613,
@@ -2817,7 +2821,9 @@ destructible{
   layer = 0,
   x = 608,
   y = 965,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 1,
 }
@@ -2826,7 +2832,9 @@ destructible{
   layer = 0,
   x = 584,
   y = 965,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 1,
 }
@@ -3022,7 +3030,11 @@ stairs{
   subtype = "4",
 }
 
-conveyor_belt{
+stream{
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
   layer = 0,
   x = 152,
   y = 565,
@@ -6578,7 +6590,7 @@ teletransporter{
   y = 1016,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "119",
   destination = "from_dungeon_10",
 }
@@ -8106,7 +8118,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "97",
   destination = "entrance_B_1",
 }
@@ -8126,7 +8138,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "98",
   destination = "entrance_E_1",
 }
@@ -8146,7 +8158,7 @@ teletransporter{
   y = 88,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "97",
   destination = "entrance_C_1",
 }
@@ -8192,7 +8204,7 @@ teletransporter{
   y = 784,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "97",
   destination = "Entrance_A_1",
 }
@@ -8250,7 +8262,7 @@ teletransporter{
   y = 992,
   width = 16,
   height = 16,
-  transition = 0,
+  transition = "immediate",
   destination_map = "119",
   destination = "from_dungeon_10_5f",
 }

@@ -789,7 +789,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "102",
   destination = "from_1f_c",
 }
@@ -7806,7 +7806,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "8",
   destination = "from_dungeon_7",
 }
@@ -8136,7 +8136,9 @@ destructible{
   layer = 1,
   x = 704,
   y = 309,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8144,7 +8146,9 @@ destructible{
   layer = 1,
   x = 720,
   y = 325,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8152,7 +8156,9 @@ destructible{
   layer = 1,
   x = 720,
   y = 309,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "magic_flask",
 }
 
@@ -8483,7 +8489,9 @@ destructible{
   layer = 1,
   x = 424,
   y = 1005,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8491,7 +8499,9 @@ destructible{
   layer = 1,
   x = 440,
   y = 1005,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 
@@ -8499,7 +8509,9 @@ destructible{
   layer = 1,
   x = 616,
   y = 1005,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 
@@ -8507,7 +8519,9 @@ destructible{
   layer = 1,
   x = 648,
   y = 1005,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
 }
 
@@ -8515,7 +8529,9 @@ destructible{
   layer = 1,
   x = 456,
   y = 1005,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8523,7 +8539,9 @@ destructible{
   layer = 1,
   x = 632,
   y = 1005,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8974,7 +8992,9 @@ destructible{
   layer = 1,
   x = 800,
   y = 85,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8982,7 +9002,9 @@ destructible{
   layer = 1,
   x = 816,
   y = 85,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8990,7 +9012,9 @@ destructible{
   layer = 1,
   x = 816,
   y = 69,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -8998,7 +9022,9 @@ destructible{
   layer = 1,
   x = 1024,
   y = 69,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -9006,7 +9032,9 @@ destructible{
   layer = 1,
   x = 1040,
   y = 69,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -9014,7 +9042,9 @@ destructible{
   layer = 1,
   x = 1040,
   y = 85,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -9022,7 +9052,9 @@ destructible{
   layer = 1,
   x = 1024,
   y = 85,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -9030,7 +9062,9 @@ destructible{
   layer = 1,
   x = 800,
   y = 69,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 enemy{
@@ -9090,7 +9124,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 0,
+  transition = "immediate",
   destination_map = "103",
   destination = "tmp",
 }
@@ -9240,7 +9274,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "102",
   destination = "from_1f_nc_1",
 }
@@ -9261,7 +9295,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "102",
   destination = "from_1f_nc_2",
 }
@@ -9282,7 +9316,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "102",
   destination = "from_1f_ne",
 }
@@ -9879,7 +9913,9 @@ destructible{
   layer = 1,
   x = 816,
   y = 725,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "magic_flask",
   treasure_variant = 2,
 }
@@ -9888,7 +9924,9 @@ destructible{
   layer = 1,
   x = 816,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -9896,7 +9934,9 @@ destructible{
   layer = 1,
   x = 800,
   y = 741,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -9928,7 +9968,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_7",
-  transition = 0,
+  transition = "immediate",
   destination_map = "103",
   destination = "tmp_2",
 }

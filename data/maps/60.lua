@@ -7,6 +7,10 @@ local fighting_boss = false
 
 function map:on_started(destination)
 
+  if boss ~= nil then
+    boss:set_enabled(false)
+  end
+
   if game:get_value("b412") then
     weak_floor:set_enabled(false)
     weak_floor_sensor:set_enabled(false)

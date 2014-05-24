@@ -65,7 +65,7 @@ end
 function enemy:on_movement_finished(movement)
 
   local m = sol.movement.create("random")
-  m:set_speed(16)
+  m:set_speed(32)
   m:set_max_distance(16)
   m:set_ignore_obstacles(true)
   m:start(self)
@@ -101,7 +101,7 @@ function enemy:set_vulnerable()
   end
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   if self:get_life() <= 0 then
     body:head_dying()

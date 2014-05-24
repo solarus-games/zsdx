@@ -1363,7 +1363,9 @@ destructible{
   layer = 1,
   x = 368,
   y = 405,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "magic_flask",
   treasure_variant = 1,
 }
@@ -1372,7 +1374,9 @@ destructible{
   layer = 1,
   x = 400,
   y = 405,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -1381,7 +1385,9 @@ destructible{
   layer = 1,
   x = 384,
   y = 405,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_variant = 1,
 }
 
@@ -1392,7 +1398,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "6",
   destination = "from_lake_west_cave_s",
 }
@@ -1404,7 +1410,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "6",
   destination = "from_lake_west_cave_n",
 }

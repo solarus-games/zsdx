@@ -134,7 +134,6 @@ end
 
 local function unlight_torches()
 
-  print("unlight torches")
   for i = 1, 4 do
     map:get_entity("torch_" .. i):get_sprite():set_animation("unlit")
   end
@@ -207,15 +206,18 @@ local function create_stone()
     y = 205
   end
 
-  map:create_destructible{
-    subtype = "black_stone",
+  local stone = map:create_destructible{
     x = x,
     y = y,
     layer = 0,
-    on_destroyed = function()
-      allow_stone_creation = true
-    end
+    sprite = "entities/stone_small_black",
+    destruction_sound = "stone",
+    weight = 2,
+    damage_on_enemies = 4,
   }
+  stone.on_lifting = function()
+    allow_stone_creation = true
+  end
   allow_stone_creation = false
 end
 

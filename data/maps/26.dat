@@ -681,7 +681,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "4",
   destination = "from_fairy_cave",
 }
@@ -690,7 +690,10 @@ destructible{
   layer = 1,
   x = 272,
   y = 109,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_variant = 1,
 }
 
@@ -698,7 +701,10 @@ destructible{
   layer = 1,
   x = 256,
   y = 125,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_variant = 1,
 }
 
@@ -706,7 +712,10 @@ destructible{
   layer = 1,
   x = 272,
   y = 141,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_variant = 1,
 }
 
@@ -770,7 +779,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "77",
   destination = "_side",
 }

@@ -13,23 +13,30 @@ function enemy:on_created()
   self:set_size(128, 80)
   self:set_origin(64, 64)
   self:set_invincible()
+  self:set_optimization_distance(0)
 
-  -- Create the heads.
-  local my_name = self:get_name()
-  head_1 = self:create_enemy{
-    name = my_name .. "head_1",
-    breed = "drakomos_head",
-    x = -76,
-    y = 40,
-  }
-  head_2 = self:create_enemy{
-    name = my_name .. "head_2",
-    breed = "drakomos_head",
-    x = 76,
-    y = 40,
-  }
   ball_sprite = sol.sprite.create("enemies/drakomos")
   ball_sprite:set_animation("ball")
+end
+
+function enemy:on_enabled()
+
+  if head_1 == nil then
+    -- Create the heads.
+    local my_name = self:get_name()
+    head_1 = self:create_enemy{
+      name = my_name .. "head_1",
+      breed = "drakomos_head",
+      x = -76,
+      y = 40,
+    }
+    head_2 = self:create_enemy{
+      name = my_name .. "head_2",
+      breed = "drakomos_head",
+      x = 76,
+      y = 40,
+    }
+  end
 end
 
 function enemy:on_update()

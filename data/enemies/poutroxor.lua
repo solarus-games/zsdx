@@ -41,7 +41,7 @@ function enemy:on_restarted()
     end)
   else
     local m = sol.movement.create("random")
-    m:set_speed(80)
+    m:set_speed(64)
     m:start(self)
     sol.timer.start(self, math.random(3000, 5000), function()
       self:big_attack()
@@ -73,7 +73,7 @@ function enemy:skeleton_attack()
   end)
 end
 
-function enemy:on_hurt(attack, life_lost)
+function enemy:on_hurt(attack)
 
   if phase == 1 and self:get_life() <= 7 then
     self:stop_movement()

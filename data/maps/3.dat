@@ -17055,7 +17055,11 @@ destructible{
   layer = 0,
   x = 544,
   y = 277,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17063,7 +17067,11 @@ destructible{
   layer = 0,
   x = 544,
   y = 293,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17071,7 +17079,11 @@ destructible{
   layer = 0,
   x = 560,
   y = 293,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17079,7 +17091,11 @@ destructible{
   layer = 0,
   x = 560,
   y = 309,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17087,7 +17103,11 @@ destructible{
   layer = 0,
   x = 528,
   y = 341,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17095,7 +17115,11 @@ destructible{
   layer = 0,
   x = 528,
   y = 325,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17103,7 +17127,11 @@ destructible{
   layer = 0,
   x = 544,
   y = 341,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17111,7 +17139,11 @@ destructible{
   layer = 0,
   x = 544,
   y = 325,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17119,7 +17151,11 @@ destructible{
   layer = 0,
   x = 544,
   y = 309,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17127,7 +17163,11 @@ destructible{
   layer = 0,
   x = 560,
   y = 325,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17135,7 +17175,11 @@ destructible{
   layer = 0,
   x = 576,
   y = 325,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17146,7 +17190,7 @@ teletransporter{
   width = 16,
   height = 1008,
   name = "to_C2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "4",
   destination = "_side",
 }
@@ -17158,7 +17202,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_link_house",
-  transition = 1,
+  transition = "fade",
   destination_map = "28",
   destination = "from_outside",
 }
@@ -17167,7 +17211,11 @@ destructible{
   layer = 0,
   x = 904,
   y = 293,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17175,7 +17223,11 @@ destructible{
   layer = 0,
   x = 920,
   y = 309,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17183,7 +17235,11 @@ destructible{
   layer = 0,
   x = 936,
   y = 309,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17191,7 +17247,11 @@ destructible{
   layer = 0,
   x = 952,
   y = 309,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17199,7 +17259,11 @@ destructible{
   layer = 0,
   x = 968,
   y = 293,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17207,7 +17271,11 @@ destructible{
   layer = 0,
   x = 1008,
   y = 269,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17215,7 +17283,11 @@ destructible{
   layer = 0,
   x = 1024,
   y = 269,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17223,7 +17295,11 @@ destructible{
   layer = 0,
   x = 784,
   y = 453,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17231,7 +17307,11 @@ destructible{
   layer = 0,
   x = 768,
   y = 453,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17239,7 +17319,10 @@ destructible{
   layer = 0,
   x = 816,
   y = 237,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -17247,7 +17330,10 @@ destructible{
   layer = 0,
   x = 904,
   y = 221,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "rupee",
 }
 
@@ -17255,7 +17341,10 @@ destructible{
   layer = 0,
   x = 968,
   y = 221,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 2,
 }
@@ -17264,7 +17353,11 @@ destructible{
   layer = 0,
   x = 120,
   y = 877,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17272,7 +17365,11 @@ destructible{
   layer = 0,
   x = 104,
   y = 877,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17280,7 +17377,11 @@ destructible{
   layer = 0,
   x = 88,
   y = 893,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17288,7 +17389,11 @@ destructible{
   layer = 0,
   x = 104,
   y = 893,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17296,7 +17401,11 @@ destructible{
   layer = 0,
   x = 120,
   y = 893,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17304,7 +17413,11 @@ destructible{
   layer = 0,
   x = 136,
   y = 893,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17312,7 +17425,11 @@ destructible{
   layer = 0,
   x = 72,
   y = 893,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17320,7 +17437,11 @@ destructible{
   layer = 0,
   x = 72,
   y = 877,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17328,7 +17449,11 @@ destructible{
   layer = 0,
   x = 72,
   y = 861,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17336,7 +17461,11 @@ destructible{
   layer = 0,
   x = 88,
   y = 861,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17344,7 +17473,11 @@ destructible{
   layer = 0,
   x = 104,
   y = 861,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17352,7 +17485,11 @@ destructible{
   layer = 0,
   x = 120,
   y = 861,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17360,7 +17497,11 @@ destructible{
   layer = 0,
   x = 136,
   y = 861,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17368,7 +17509,11 @@ destructible{
   layer = 0,
   x = 152,
   y = 861,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17376,7 +17521,11 @@ destructible{
   layer = 0,
   x = 152,
   y = 877,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17384,7 +17533,11 @@ destructible{
   layer = 0,
   x = 152,
   y = 893,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17392,7 +17545,11 @@ destructible{
   layer = 0,
   x = 136,
   y = 877,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17400,7 +17557,11 @@ destructible{
   layer = 0,
   x = 88,
   y = 877,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17408,7 +17569,11 @@ destructible{
   layer = 0,
   x = 976,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17416,7 +17581,11 @@ destructible{
   layer = 0,
   x = 960,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17424,7 +17593,11 @@ destructible{
   layer = 0,
   x = 944,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17432,7 +17605,11 @@ destructible{
   layer = 0,
   x = 928,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17440,7 +17617,11 @@ destructible{
   layer = 0,
   x = 912,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17448,7 +17629,11 @@ destructible{
   layer = 0,
   x = 896,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17456,7 +17641,11 @@ destructible{
   layer = 0,
   x = 880,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17464,7 +17653,11 @@ destructible{
   layer = 0,
   x = 864,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17472,7 +17665,11 @@ destructible{
   layer = 0,
   x = 848,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17480,7 +17677,11 @@ destructible{
   layer = 0,
   x = 832,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17488,7 +17689,11 @@ destructible{
   layer = 0,
   x = 640,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17496,7 +17701,11 @@ destructible{
   layer = 0,
   x = 640,
   y = 693,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17504,7 +17713,11 @@ destructible{
   layer = 0,
   x = 640,
   y = 709,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17512,7 +17725,11 @@ destructible{
   layer = 0,
   x = 640,
   y = 725,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17520,7 +17737,11 @@ destructible{
   layer = 0,
   x = 640,
   y = 741,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17528,7 +17749,11 @@ destructible{
   layer = 0,
   x = 640,
   y = 757,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17536,7 +17761,11 @@ destructible{
   layer = 0,
   x = 800,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17544,7 +17773,11 @@ destructible{
   layer = 0,
   x = 800,
   y = 693,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17552,7 +17785,11 @@ destructible{
   layer = 0,
   x = 800,
   y = 709,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17560,7 +17797,11 @@ destructible{
   layer = 0,
   x = 800,
   y = 725,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17568,7 +17809,11 @@ destructible{
   layer = 0,
   x = 800,
   y = 741,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17576,7 +17821,11 @@ destructible{
   layer = 0,
   x = 800,
   y = 757,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17584,7 +17833,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 773,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17592,7 +17845,11 @@ destructible{
   layer = 0,
   x = 688,
   y = 773,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17600,7 +17857,11 @@ destructible{
   layer = 0,
   x = 736,
   y = 773,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17608,7 +17869,11 @@ destructible{
   layer = 0,
   x = 728,
   y = 789,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17616,7 +17881,11 @@ destructible{
   layer = 0,
   x = 728,
   y = 805,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17624,7 +17893,11 @@ destructible{
   layer = 0,
   x = 744,
   y = 789,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17632,7 +17905,11 @@ destructible{
   layer = 0,
   x = 744,
   y = 805,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17640,7 +17917,11 @@ destructible{
   layer = 0,
   x = 760,
   y = 805,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17648,7 +17929,11 @@ destructible{
   layer = 0,
   x = 760,
   y = 789,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17656,7 +17941,11 @@ destructible{
   layer = 0,
   x = 712,
   y = 789,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17664,7 +17953,11 @@ destructible{
   layer = 0,
   x = 712,
   y = 805,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17672,7 +17965,11 @@ destructible{
   layer = 0,
   x = 680,
   y = 805,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17680,7 +17977,11 @@ destructible{
   layer = 0,
   x = 696,
   y = 789,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17688,7 +17989,11 @@ destructible{
   layer = 0,
   x = 776,
   y = 789,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17696,7 +18001,11 @@ destructible{
   layer = 0,
   x = 664,
   y = 789,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -17707,7 +18016,7 @@ teletransporter{
   width = 1120,
   height = 16,
   name = "to_D1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "6",
   destination = "_side",
 }
@@ -17738,7 +18047,11 @@ destructible{
   layer = 0,
   x = 824,
   y = 269,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17746,7 +18059,11 @@ destructible{
   layer = 0,
   x = 840,
   y = 269,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17765,7 +18082,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17773,7 +18094,11 @@ destructible{
   layer = 0,
   x = 672,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17781,7 +18106,11 @@ destructible{
   layer = 0,
   x = 688,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17789,7 +18118,11 @@ destructible{
   layer = 0,
   x = 704,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17797,7 +18130,11 @@ destructible{
   layer = 0,
   x = 720,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17805,7 +18142,11 @@ destructible{
   layer = 0,
   x = 736,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "fairy",
 }
 
@@ -17813,7 +18154,11 @@ destructible{
   layer = 0,
   x = 752,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17821,7 +18166,11 @@ destructible{
   layer = 0,
   x = 784,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17829,7 +18178,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 693,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17837,7 +18190,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 709,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17845,7 +18202,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 725,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17853,7 +18214,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 741,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17861,7 +18226,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 757,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17872,7 +18241,7 @@ teletransporter{
   width = 1120,
   height = 16,
   name = "to_B1",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "9",
   destination = "_side",
 }
@@ -17881,7 +18250,11 @@ destructible{
   layer = 0,
   x = 672,
   y = 773,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17889,7 +18262,11 @@ destructible{
   layer = 0,
   x = 784,
   y = 773,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -17973,7 +18350,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_sahasrahla_house",
-  transition = 1,
+  transition = "fade",
   destination_map = "12",
   destination = "main_entrance",
 }
@@ -18036,7 +18413,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_smith_cave",
-  transition = 1,
+  transition = "fade",
   destination_map = "16",
   destination = "main_entrance",
 }
@@ -18066,7 +18443,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_shop",
-  transition = 1,
+  transition = "fade",
   destination_map = "18",
   destination = "main_entrance",
 }
@@ -18086,7 +18463,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_cake_shop",
-  transition = 1,
+  transition = "fade",
   destination_map = "19",
   destination = "main_entrance",
 }
@@ -18106,7 +18483,10 @@ destructible{
   layer = 0,
   x = 656,
   y = 877,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -18128,7 +18508,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_dungeon2",
-  transition = 1,
+  transition = "fade",
   destination_map = "30",
   destination = "from_outside",
 }
@@ -18168,7 +18548,11 @@ destructible{
   layer = 0,
   x = 784,
   y = 693,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18176,7 +18560,11 @@ destructible{
   layer = 0,
   x = 784,
   y = 709,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18184,7 +18572,11 @@ destructible{
   layer = 0,
   x = 784,
   y = 725,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18192,7 +18584,11 @@ destructible{
   layer = 0,
   x = 784,
   y = 741,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18200,7 +18596,11 @@ destructible{
   layer = 0,
   x = 784,
   y = 757,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18208,7 +18608,11 @@ destructible{
   layer = 0,
   x = 768,
   y = 677,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18216,7 +18620,11 @@ destructible{
   layer = 0,
   x = 752,
   y = 773,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18224,7 +18632,11 @@ destructible{
   layer = 0,
   x = 696,
   y = 805,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18232,7 +18644,11 @@ destructible{
   layer = 0,
   x = 680,
   y = 789,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18260,7 +18676,11 @@ destructible{
   layer = 0,
   x = 768,
   y = 773,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18279,7 +18699,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_telepathic_house",
-  transition = 1,
+  transition = "fade",
   destination_map = "32",
   destination = "from_outside",
 }
@@ -18302,7 +18722,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "33",
   destination = "from_hole",
 }
@@ -18314,7 +18734,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "33",
   destination = "main_entrance",
 }
@@ -18379,7 +18799,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_bomb_cave",
-  transition = 1,
+  transition = "fade",
   destination_map = "34",
   destination = "from_outside",
 }
@@ -18399,7 +18819,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_dungeon_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "40",
   destination = "from_outside",
 }
@@ -18441,7 +18861,11 @@ destructible{
   layer = 0,
   x = 992,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18449,7 +18873,11 @@ destructible{
   layer = 0,
   x = 1008,
   y = 765,
-  subtype = "bush",
+  sprite = "entities/bush",
+  destruction_sound = "bush",
+  weight = 1,
+  can_be_cut = true,
+  damage_on_enemies = 1,
   treasure_name = "random",
 }
 
@@ -18460,7 +18888,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_smith_cave_thiefs",
-  transition = 1,
+  transition = "fade",
   destination_map = "72",
   destination = "main_entrance",
 }
@@ -18509,7 +18937,10 @@ destructible{
   layer = 0,
   x = 792,
   y = 141,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_name = "random",
 }
 
@@ -18517,7 +18948,10 @@ destructible{
   layer = 0,
   x = 672,
   y = 245,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
 }
 
@@ -18536,7 +18970,10 @@ destructible{
   layer = 0,
   x = 688,
   y = 261,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
 }
 
@@ -18544,7 +18981,10 @@ destructible{
   layer = 0,
   x = 704,
   y = 245,
-  subtype = "black_stone",
+  sprite = "entities/stone_small_black",
+  destruction_sound = "stone",
+  weight = 2,
+  damage_on_enemies = 4,
   treasure_name = "random",
 }
 
@@ -18552,7 +18992,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 245,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18560,7 +19004,11 @@ destructible{
   layer = 0,
   x = 672,
   y = 261,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18568,7 +19016,11 @@ destructible{
   layer = 0,
   x = 688,
   y = 277,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18576,7 +19028,11 @@ destructible{
   layer = 0,
   x = 704,
   y = 261,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18584,7 +19040,11 @@ destructible{
   layer = 0,
   x = 720,
   y = 245,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18592,7 +19052,11 @@ destructible{
   layer = 0,
   x = 720,
   y = 261,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18600,7 +19064,11 @@ destructible{
   layer = 0,
   x = 704,
   y = 277,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18608,7 +19076,11 @@ destructible{
   layer = 0,
   x = 672,
   y = 277,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18616,7 +19088,11 @@ destructible{
   layer = 0,
   x = 656,
   y = 261,
-  subtype = "grass",
+  sprite = "entities/grass",
+  destruction_sound = "bush",
+  weight = -1,
+  can_be_cut = true,
+  ground = "grass",
   treasure_name = "random",
 }
 
@@ -18627,7 +19103,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "41",
   destination = "from_outside",
 }
@@ -18648,7 +19124,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 0,
+  transition = "immediate",
   destination_map = "43",
   destination = "tmp",
 }
@@ -19278,7 +19754,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "54",
   destination = "from_above_tree_hole",
 }
@@ -19298,7 +19774,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "54",
   destination = "from_above_tree",
 }

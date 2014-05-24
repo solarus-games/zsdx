@@ -18,7 +18,6 @@ function pause_icon:initialize(game)
   self.game = game
   self.is_game_paused = false
   self.surface = sol.surface.create(72, 24)
-  self.surface:set_transparency_color{0, 0, 0}
   self.icons_img = sol.surface.create("pause_icon.png", true)
   self.icon_region_y = 24
 
@@ -56,7 +55,7 @@ end
 
 function pause_icon:rebuild_surface()
 
-  self.surface:fill_color{0, 0, 0}
+  self.surface:clear()
 
   if self.icon_region_y ~= nil then
     -- Draw the static image of the icon: "Pause" or "Back".

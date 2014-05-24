@@ -391,7 +391,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_1F",
-  transition = 1,
+  transition = "fade",
   destination_map = "47",
   destination = "from_boss",
 }

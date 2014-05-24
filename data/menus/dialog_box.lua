@@ -37,10 +37,10 @@ local dialog_box = {
 
 -- Constants.
 local nb_visible_lines = 3     -- Maximum number of lines in the dialog box.
-local char_delays = {          -- Delay before displaying the next two characters.
-  slow = 120,                  -- They are drawn by groups of two to avoid
-  medium = 80,                 -- a too short delay for the timer.
-  fast = 40  -- Default.
+local char_delays = {
+  slow = 60,
+  medium = 40,
+  fast = 20  -- Default.
 }
 local letter_sound_delay = 100
 local box_width = 220
@@ -60,7 +60,6 @@ function game:initialize_dialog_box()
     }
   end
   dialog_box.dialog_surface = sol.surface.create(sol.video.get_quest_size())
-  dialog_box.dialog_surface:set_transparency_color{0, 0, 0}
   dialog_box.box_img = sol.surface.create("hud/dialog_box.png")
   dialog_box.icons_img = sol.surface.create("hud/dialog_icons.png")
   dialog_box.end_lines_sprite = sol.sprite.create("hud/dialog_box_message_end")
@@ -412,13 +411,6 @@ function dialog_box:add_character()
   end
 
   if self.gradual then
-    if self.char_index % 2 == 0 then
-      -- Every other time, draw the next character immediately.
-      -- (char_delay is the delay between groups of two characters,
-      -- to avoid too short timers).
-      additional_delay = -self.char_delay
-    end
-
     sol.timer.start(self, self.char_delay + additional_delay, repeat_show_character)
   end
 end
@@ -494,7 +486,7 @@ function dialog_box:on_draw(dst_surface)
 
   local x, y = self.box_dst_position.x, self.box_dst_position.y
 
-  self.dialog_surface:fill_color{0, 0, 0}
+  self.dialog_surface:clear()
 
   if self.style == "empty" then
     -- Draw a dark rectangle.

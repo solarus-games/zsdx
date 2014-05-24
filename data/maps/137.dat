@@ -743,7 +743,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "129",
   destination = "_side",
 }
@@ -1911,7 +1911,9 @@ destructible{
   layer = 1,
   x = 280,
   y = 61,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 2,
 }
@@ -1920,7 +1922,9 @@ destructible{
   layer = 1,
   x = 584,
   y = 61,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -1929,7 +1933,9 @@ destructible{
   layer = 1,
   x = 584,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "bomb",
   treasure_variant = 1,
 }
@@ -1938,7 +1944,9 @@ destructible{
   layer = 1,
   x = 280,
   y = 445,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 2,
 }
@@ -2132,7 +2140,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "138",
   destination = "_side",
 }

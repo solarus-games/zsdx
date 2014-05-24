@@ -267,7 +267,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "3",
   destination = "out_telepathic_house",
 }
@@ -276,7 +276,9 @@ destructible{
   layer = 0,
   x = 120,
   y = 117,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -285,7 +287,9 @@ destructible{
   layer = 0,
   x = 120,
   y = 133,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -294,7 +298,9 @@ destructible{
   layer = 0,
   x = 200,
   y = 133,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }
@@ -303,7 +309,9 @@ destructible{
   layer = 0,
   x = 200,
   y = 117,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "random",
   treasure_variant = 1,
 }

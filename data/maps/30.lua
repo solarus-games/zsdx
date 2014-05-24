@@ -58,9 +58,12 @@ function map:on_started(destination)
     open_hidden_door()
   end
 
-  -- miniboss doors
+  -- miniboss
   map:set_doors_open("stairs_door", true)
   map:set_doors_open("miniboss_door", true)
+  if miniboss ~= nil then
+    miniboss:set_enabled(false)
+  end
 end
 
 function map:on_opening_transition_finished(destination)

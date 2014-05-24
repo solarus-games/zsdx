@@ -1609,7 +1609,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = 1,
+  transition = "fade",
   destination_map = "8",
   destination = "from_west_mountain_cave_2f_w",
 }
@@ -1621,7 +1621,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = 1,
+  transition = "fade",
   destination_map = "8",
   destination = "from_west_mountain_cave_2f_e",
 }
@@ -1649,7 +1649,7 @@ teletransporter{
   width = 48,
   height = 16,
   name = "teletransporter",
-  transition = 1,
+  transition = "fade",
   destination_map = "91",
   destination = "from_2f_hole",
 }
@@ -1661,7 +1661,7 @@ teletransporter{
   width = 64,
   height = 32,
   name = "teletransporter_4",
-  transition = 1,
+  transition = "fade",
   destination_map = "91",
   destination = "from_2f_hole",
 }
@@ -1681,7 +1681,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = 1,
+  transition = "fade",
   destination_map = "91",
   destination = "from_2f",
 }
@@ -1710,7 +1710,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_6",
-  transition = 1,
+  transition = "fade",
   destination_map = "94",
   destination = "from_2f",
 }

@@ -624,7 +624,7 @@ teletransporter{
   y = 448,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "119",
   destination = "from_dungeon_10_5f",
 }
@@ -690,7 +690,9 @@ destructible{
   layer = 1,
   x = 128,
   y = 509,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "fairy",
   treasure_variant = 1,
 }
@@ -699,7 +701,9 @@ destructible{
   layer = 1,
   x = 208,
   y = 509,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "arrow",
   treasure_variant = 3,
 }
@@ -710,7 +714,7 @@ teletransporter{
   y = 992,
   width = 16,
   height = 16,
-  transition = 1,
+  transition = "fade",
   destination_map = "99",
   destination = "Entrance_G_1",
 }

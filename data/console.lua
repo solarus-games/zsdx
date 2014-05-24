@@ -16,15 +16,20 @@ local console = {
   },
 }
 
-function console:start()
-  self.enabled = true
-  self:build_input_text()
-  sol.menu.start(sol.main, self)
+-- Global function tp to mean hero:teleport()
+function tp(...)
+
+  local hero = sol.main.game and sol.main.game:get_hero() or nil
+  hero:teleport(...)
 end
 
-function console:stop()
+function console:on_started()
+  self.enabled = true
+  self:build_input_text()
+end
+
+function console:on_finished()
   self.enabled = false
-  sol.menu.stop(self)
 end
 
 function console:get_input_text()
@@ -72,9 +77,8 @@ end
 
 function console:on_key_pressed(key, modifiers)
 
-  local handled = true
   if key == "f12" or key == "escape" then
-    self:stop()
+    sol.menu.stop(self)
   elseif key == "backspace" then
     if self:get_output_text() ~= "" then
       self:clear()
@@ -92,13 +96,10 @@ function console:on_key_pressed(key, modifiers)
     self:history_up()
   elseif key == "down" then
     self:history_down()
-  elseif key == "left shift" or key == "right shift" then
-    -- Stop propagation.
-  else
-    handled = false
   end
 
-  return handled
+  -- The debugging console has exclusive focus.
+  return true
 end
 
 function console:on_character_pressed(character)

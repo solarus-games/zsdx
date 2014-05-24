@@ -944,7 +944,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_outside",
-  transition = 1,
+  transition = "fade",
   destination_map = "3",
   destination = "out_link_house",
 }
@@ -953,7 +953,9 @@ destructible{
   layer = 0,
   x = 192,
   y = 181,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 1,
 }
@@ -962,7 +964,9 @@ destructible{
   layer = 0,
   x = 208,
   y = 181,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 1,
 }
@@ -971,7 +975,9 @@ destructible{
   layer = 0,
   x = 208,
   y = 165,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 1,
 }
@@ -980,7 +986,9 @@ destructible{
   layer = 0,
   x = 208,
   y = 197,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "heart",
   treasure_variant = 1,
 }
@@ -989,7 +997,9 @@ destructible{
   layer = 0,
   x = 192,
   y = 197,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 1,
 }
@@ -998,7 +1008,9 @@ destructible{
   layer = 0,
   x = 176,
   y = 197,
-  subtype = "pot",
+  sprite = "entities/pot",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
   treasure_name = "rupee",
   treasure_variant = 1,
 }
@@ -1029,7 +1041,10 @@ destructible{
   layer = 0,
   x = 296,
   y = 173,
-  subtype = "white_stone",
+  sprite = "entities/stone_small_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
   treasure_variant = 1,
 }
 
@@ -1085,7 +1100,7 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter",
-  transition = 2,
+  transition = "scrolling",
   destination_map = "1",
   destination = "_side",
 }
