@@ -72,9 +72,9 @@ sprites/npc/newlink.png
 sprites/npc/solarus_child*.png
 text/minecraftia.png                                Andrew Tyler: http://www.andrewtyler.net
 
-TODO: Check the status of this font:
---------------------------------------
-text/wqy-zenhei.ttc
+Data files under GNU GPL v2:
+-------------------------
+text/wqy-zenhei.ttc                                 WenQuanYi project: http://wenq.org/en
 
 Files with original content (CC BY-SA 3.0) but with a Nintendo filename:
 ------------------------------------------------------------------------
