@@ -12,8 +12,8 @@ Scripts under GNU GPL v3:
 -------------------------
 **.lua
 
-Data files under CC BY-SA 3.0:
-------------------------------
+Data files under CC BY-SA 3.0:                      Author (if not us)
+------------------------------                      ------------------
 **.dat
 sprites/enemies/arbror_root.png
 sprites/enemies/bee_guard.png
@@ -70,11 +70,11 @@ sprites/menus/title_sunset_*.png
 sprites/npc/inferno.png
 sprites/npc/newlink.png
 sprites/npc/solarus_child*.png
+text/minecraftia.png                                Andrew Tyler: http://www.andrewtyler.net
 
-TODO: Check the status of these fonts:
+TODO: Check the status of this font:
 --------------------------------------
-text/fixed8.fon
-text/wqy-microhei.ttc
+text/wqy-zenhei.ttc
 
 Files with original content (CC BY-SA 3.0) but with a Nintendo filename:
 ------------------------------------------------------------------------
