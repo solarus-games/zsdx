@@ -8529,7 +8529,9 @@ switch{
   x = 840,
   y = 576,
   name = "water_switch",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

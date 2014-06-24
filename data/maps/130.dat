@@ -3199,7 +3199,9 @@ switch{
   x = 72,
   y = 232,
   name = "distant_switch_3",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -3286,7 +3288,9 @@ switch{
   x = 232,
   y = 72,
   name = "distant_switch_4",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -3373,7 +3377,9 @@ switch{
   x = 392,
   y = 232,
   name = "distant_switch_1",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -3460,7 +3466,9 @@ switch{
   x = 232,
   y = 392,
   name = "distant_switch_2",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

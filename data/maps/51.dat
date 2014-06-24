@@ -1245,7 +1245,9 @@ switch{
   x = 1080,
   y = 872,
   name = "DB04",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = true,
 }
@@ -1262,7 +1264,9 @@ switch{
   x = 1176,
   y = 872,
   name = "DB03",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = true,
 }

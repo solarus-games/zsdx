@@ -9976,7 +9976,9 @@ switch{
   x = 1120,
   y = 672,
   name = "door_ab_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -10005,7 +10007,9 @@ switch{
   x = 1392,
   y = 304,
   name = "chest_a_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

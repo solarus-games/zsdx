@@ -3132,7 +3132,9 @@ switch{
   x = 400,
   y = 192,
   name = "door_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

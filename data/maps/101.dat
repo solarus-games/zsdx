@@ -8127,7 +8127,9 @@ switch{
   x = 40,
   y = 952,
   name = "door_a_switch",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8834,7 +8836,9 @@ switch{
   x = 736,
   y = 912,
   name = "door_b_switch",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8963,7 +8967,9 @@ switch{
   x = 792,
   y = 56,
   name = "ne_door_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = true,
 }

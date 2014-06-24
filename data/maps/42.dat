@@ -10603,7 +10603,9 @@ switch{
   x = 768,
   y = 960,
   name = "se_door_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -10652,7 +10654,9 @@ switch{
   x = 288,
   y = 160,
   name = "nc_door_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -10862,7 +10866,9 @@ switch{
   x = 48,
   y = 864,
   name = "barrier_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

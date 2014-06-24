@@ -601,3 +601,4 @@ language{ id = "zh_CN", description = "中文（中国）" }
 language{ id = "zh_TW", description = "中文（台灣）" }
 
 sound{ id = "running_obstacle", description = "running_obstacle" }
+sprite{ id = "entities/solid_switch", description = "Solid switch" }

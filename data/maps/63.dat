@@ -11916,7 +11916,8 @@ switch{
   x = 192,
   y = 504,
   name = "statue_switch",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

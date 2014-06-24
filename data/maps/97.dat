@@ -2235,7 +2235,9 @@ switch{
   x = 408,
   y = 112,
   name = "switch1_1",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -2245,7 +2247,9 @@ switch{
   x = 112,
   y = 544,
   name = "switch1_4",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -2255,7 +2259,9 @@ switch{
   x = 304,
   y = 904,
   name = "switch1_2",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -2265,7 +2271,9 @@ switch{
   x = 904,
   y = 552,
   name = "switch1_3",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

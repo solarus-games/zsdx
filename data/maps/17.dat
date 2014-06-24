@@ -6718,7 +6718,8 @@ switch{
   x = 504,
   y = 832,
   name = "eye_switch",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

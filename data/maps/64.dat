@@ -3934,7 +3934,9 @@ switch{
   x = 600,
   y = 344,
   name = "e_door_switch",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -4627,7 +4629,9 @@ switch{
   x = 584,
   y = 656,
   name = "c_door_switch",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

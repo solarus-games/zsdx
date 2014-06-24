@@ -2356,7 +2356,9 @@ switch{
   x = 920,
   y = 528,
   name = "switch1_1",
-  subtype = "3",
+  subtype = "solid",
+  sprite = "entities/solid_switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

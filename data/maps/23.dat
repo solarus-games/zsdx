@@ -1813,7 +1813,9 @@ switch{
   x = 64,
   y = 544,
   name = "sw_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -1888,7 +1890,9 @@ switch{
   x = 272,
   y = 320,
   name = "map_room_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -1924,7 +1928,9 @@ switch{
   x = 128,
   y = 64,
   name = "nw_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

@@ -2525,7 +2525,9 @@ switch{
   x = 88,
   y = 328,
   name = "open_barrier_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

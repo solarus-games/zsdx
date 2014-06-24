@@ -2099,7 +2099,9 @@ switch{
   x = 208,
   y = 104,
   name = "switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

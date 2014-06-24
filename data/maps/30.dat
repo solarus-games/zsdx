@@ -4517,7 +4517,9 @@ switch{
   x = 176,
   y = 528,
   name = "barrier_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -4675,7 +4677,9 @@ switch{
   x = 832,
   y = 352,
   name = "pegasus_run_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -4848,7 +4852,8 @@ switch{
   x = 480,
   y = 256,
   name = "right_eye_switch",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -4858,7 +4863,8 @@ switch{
   x = 416,
   y = 256,
   name = "left_eye_switch",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -4957,7 +4963,9 @@ switch{
   x = 928,
   y = 112,
   name = "pegasus_run_switch_2",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }

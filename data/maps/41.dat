@@ -8064,7 +8064,8 @@ switch{
   x = 432,
   y = 504,
   name = "n_1f_water_switch",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8092,7 +8093,8 @@ switch{
   x = 792,
   y = 520,
   name = "e_1f_water_switch_1",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8102,7 +8104,8 @@ switch{
   x = 904,
   y = 520,
   name = "e_1f_water_switch_2",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8279,7 +8282,9 @@ switch{
   x = 160,
   y = 152,
   name = "barrier_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8544,7 +8549,8 @@ switch{
   x = 936,
   y = 688,
   name = "se_water_switch",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8800,7 +8806,9 @@ switch{
   x = 560,
   y = 152,
   name = "shortcut_a_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8884,7 +8892,8 @@ switch{
   x = 776,
   y = 688,
   name = "shortcut_b_switch",
-  subtype = "2",
+  subtype = "arrow_target",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -8960,7 +8969,9 @@ switch{
   x = 480,
   y = 72,
   name = "n_switch",
-  subtype = "1",
+  subtype = "walkable",
+  sprite = "entities/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
