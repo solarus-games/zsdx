@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Zelda Mystery of Solarus DX"
-#define MyAppVersion "1.8.0"
+#define MyAppVersion "1.9.0"
 #define MyAppPublisher "Solarus"
 #define MyAppURL "http://www.solarus-games.org"
 #define MyAppExeName "solarus.exe"
@@ -45,7 +45,6 @@ Source: "files_to_install\libphysfs.dll"; DestDir: "{sys}"
 Source: "files_to_install\libpng16-16.dll"; DestDir: "{sys}"
 Source: "files_to_install\libvorbis.dll"; DestDir: "{sys}"
 Source: "files_to_install\libvorbisfile.dll"; DestDir: "{sys}"
-Source: "files_to_install\lua51.dll"; DestDir: "{sys}"
 Source: "files_to_install\OpenAL32.dll"; DestDir: "{sys}"
 Source: "files_to_install\SDL2.dll"; DestDir: "{sys}"
 Source: "files_to_install\SDL2_image.dll"; DestDir: "{sys}"
