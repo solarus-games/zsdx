@@ -1,10 +1,7 @@
-zsdx 1.9.0 (under development)
+zsdx 1.9.0 (2014-08-21)
 
 * Use Solarus 1.3.0.
 * New world minimap. By Neovyse.
-
-zsdx 1.8.1 (under development)
-
 * Make cmake paths more modifiable. By hasufell.
 * Fix direction of vertical movement on joypad in menus (#85). By xethm55.
 * Clarify license of some files.
