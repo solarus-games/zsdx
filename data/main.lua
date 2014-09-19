@@ -239,7 +239,7 @@ function sol.main:start_savegame(game)
   play_game(game)
 end
 
--- Returns the font to be used for dialogs
+-- Returns the font and size to be used for dialogs
 -- depending on the specified language (the current one by default).
 function sol.language.get_dialog_font(language)
 
@@ -248,28 +248,32 @@ function sol.language.get_dialog_font(language)
   local font
   if language == "zh_TW" or language == "zh_CN" then
     -- Chinese font.
-    font = "chinese"
+    font = "wqy-zenhei"
+    size = 12
   else
-    font = "dialog"
+    font = "la"
+    size = 11
   end
 
-  return font
+  return font, size
 end
 
--- Returns the font to be used to display text in menus
+-- Returns the font and font size to be used to display text in menus
 -- depending on the specified language (the current one by default).
 function sol.language.get_menu_font(language)
 
   language = language or sol.language.get_language()
 
-  local font
+  local font, size
   if language == "zh_TW" or language == "zh_CN" then
     -- Chinese font.
-    font = "chinese"
+    font = "wqy-zenhei"
+    size = 12
   else
-    font = "fixed"
+    font = "minecraftia"
+    size = 8
   end
 
-  return font
+  return font, size
 end
 
