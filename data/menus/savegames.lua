@@ -12,13 +12,20 @@ function savegame_menu:on_started()
   self.cloud_img = sol.surface.create("menus/selection_menu_cloud.png")
   self.save_container_img = sol.surface.create("menus/selection_menu_save_container.png")
   self.option_container_img = sol.surface.create("menus/selection_menu_option_container.png")
-  self.option1_text = sol.text_surface.create()
-  self.option2_text = sol.text_surface.create()
-  local font, font_size = sol.language.get_menu_font()
+  local dialog_font, dialog_font_size = sol.language.get_dialog_font()
+  local menu_font, menu_font_size = sol.language.get_menu_font()
+  self.option1_text = sol.text_surface.create{
+    font = dialog_font,
+    font_size = dialog_font_size,
+  }
+  self.option2_text = sol.text_surface.create{
+    font = dialog_font,
+    font_size = dialog_font_size,
+  }
   self.title_text = sol.text_surface.create{
     horizontal_alignment = "center",
-    font = font,
-    font_size = font_size,
+    font = menu_font,
+    font_size = menu_font_size,
   }
   self.cursor_position = 1
   self.cursor_sprite = sol.sprite.create("menus/selection_menu_cursor")
