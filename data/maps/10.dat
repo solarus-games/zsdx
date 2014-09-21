@@ -14,7 +14,7 @@ tile{
   y = 384,
   width = 32,
   height = 128,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -23,7 +23,7 @@ tile{
   y = 320,
   width = 288,
   height = 80,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -32,7 +32,7 @@ tile{
   y = 392,
   width = 32,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -41,7 +41,7 @@ tile{
   y = 384,
   width = 32,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -50,7 +50,7 @@ tile{
   y = 520,
   width = 16,
   height = 16,
-  pattern = 767,
+  pattern = "767",
 }
 
 tile{
@@ -59,7 +59,7 @@ tile{
   y = 520,
   width = 16,
   height = 16,
-  pattern = 768,
+  pattern = "768",
 }
 
 tile{
@@ -68,7 +68,7 @@ tile{
   y = 512,
   width = 32,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -77,7 +77,7 @@ tile{
   y = 128,
   width = 32,
   height = 192,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -86,7 +86,7 @@ tile{
   y = 384,
   width = 32,
   height = 128,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -95,7 +95,7 @@ tile{
   y = 536,
   width = 16,
   height = 16,
-  pattern = 770,
+  pattern = "770",
 }
 
 tile{
@@ -104,7 +104,7 @@ tile{
   y = 536,
   width = 16,
   height = 16,
-  pattern = 769,
+  pattern = "769",
 }
 
 tile{
@@ -113,7 +113,7 @@ tile{
   y = 400,
   width = 160,
   height = 96,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -122,7 +122,7 @@ tile{
   y = 456,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -131,7 +131,7 @@ tile{
   y = 424,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -140,7 +140,7 @@ tile{
   y = 256,
   width = 16,
   height = 48,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -149,7 +149,7 @@ tile{
   y = 280,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -158,7 +158,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 451,
+  pattern = "451",
 }
 
 tile{
@@ -167,7 +167,7 @@ tile{
   y = 296,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -176,7 +176,7 @@ tile{
   y = 304,
   width = 96,
   height = 96,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -185,7 +185,7 @@ tile{
   y = 240,
   width = 320,
   height = 64,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -194,7 +194,7 @@ tile{
   y = 208,
   width = 144,
   height = 48,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -203,7 +203,7 @@ tile{
   y = 216,
   width = 16,
   height = 16,
-  pattern = 608,
+  pattern = "608",
 }
 
 tile{
@@ -212,7 +212,7 @@ tile{
   y = 208,
   width = 16,
   height = 16,
-  pattern = 608,
+  pattern = "608",
 }
 
 tile{
@@ -221,7 +221,7 @@ tile{
   y = 232,
   width = 16,
   height = 16,
-  pattern = 608,
+  pattern = "608",
 }
 
 tile{
@@ -230,7 +230,7 @@ tile{
   y = 240,
   width = 224,
   height = 8,
-  pattern = 615,
+  pattern = "615",
 }
 
 tile{
@@ -239,7 +239,7 @@ tile{
   y = 296,
   width = 144,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -248,7 +248,7 @@ tile{
   y = 336,
   width = 144,
   height = 16,
-  pattern = 387,
+  pattern = "387",
 }
 
 tile{
@@ -257,7 +257,7 @@ tile{
   y = 376,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -266,7 +266,7 @@ tile{
   y = 376,
   width = 80,
   height = 8,
-  pattern = 614,
+  pattern = "614",
 }
 
 tile{
@@ -275,7 +275,7 @@ tile{
   y = 360,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -284,7 +284,7 @@ tile{
   y = 280,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -293,7 +293,7 @@ tile{
   y = 280,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -302,7 +302,7 @@ tile{
   y = 232,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -311,7 +311,7 @@ tile{
   y = 416,
   width = 32,
   height = 96,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -320,7 +320,7 @@ tile{
   y = 304,
   width = 32,
   height = 64,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -329,7 +329,7 @@ tile{
   y = 216,
   width = 16,
   height = 16,
-  pattern = 90,
+  pattern = "90",
 }
 
 tile{
@@ -338,7 +338,7 @@ tile{
   y = 576,
   width = 64,
   height = 64,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -347,7 +347,7 @@ tile{
   y = 552,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -356,7 +356,7 @@ tile{
   y = 528,
   width = 16,
   height = 16,
-  pattern = 90,
+  pattern = "90",
 }
 
 tile{
@@ -365,7 +365,7 @@ tile{
   y = 536,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -374,7 +374,7 @@ tile{
   y = 104,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -383,7 +383,7 @@ tile{
   y = 88,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -392,7 +392,7 @@ tile{
   y = 72,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -401,7 +401,7 @@ tile{
   y = 128,
   width = 512,
   height = 80,
-  pattern = 275,
+  pattern = "275",
 }
 
 tile{
@@ -410,7 +410,7 @@ tile{
   y = 232,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -419,7 +419,7 @@ tile{
   y = 72,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -428,7 +428,7 @@ tile{
   y = 72,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -437,7 +437,7 @@ tile{
   y = 256,
   width = 32,
   height = 96,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -446,7 +446,7 @@ tile{
   y = 304,
   width = 32,
   height = 64,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -455,7 +455,7 @@ tile{
   y = 288,
   width = 112,
   height = 64,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -464,7 +464,7 @@ tile{
   y = 408,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -473,7 +473,7 @@ tile{
   y = 480,
   width = 272,
   height = 32,
-  pattern = 275,
+  pattern = "275",
 }
 
 tile{
@@ -482,7 +482,7 @@ tile{
   y = 504,
   width = 16,
   height = 16,
-  pattern = 280,
+  pattern = "280",
 }
 
 tile{
@@ -491,7 +491,7 @@ tile{
   y = 504,
   width = 16,
   height = 16,
-  pattern = 29,
+  pattern = "29",
 }
 
 tile{
@@ -500,7 +500,7 @@ tile{
   y = 536,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -509,7 +509,7 @@ tile{
   y = 568,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -518,7 +518,7 @@ tile{
   y = 584,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -527,7 +527,7 @@ tile{
   y = 568,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -536,7 +536,7 @@ tile{
   y = 592,
   width = 32,
   height = 32,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -545,7 +545,7 @@ tile{
   y = 552,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -554,7 +554,7 @@ tile{
   y = 176,
   width = 32,
   height = 448,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -563,7 +563,7 @@ tile{
   y = 576,
   width = 32,
   height = 64,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -572,7 +572,7 @@ tile{
   y = 384,
   width = 48,
   height = 128,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -581,7 +581,7 @@ tile{
   y = 416,
   width = 32,
   height = 128,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -590,7 +590,7 @@ tile{
   y = 400,
   width = 208,
   height = 128,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -599,7 +599,7 @@ tile{
   y = 248,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -608,7 +608,7 @@ tile{
   y = 304,
   width = 144,
   height = 32,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -617,7 +617,7 @@ tile{
   y = 232,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -626,7 +626,7 @@ tile{
   y = 128,
   width = 32,
   height = 160,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -635,7 +635,7 @@ tile{
   y = 160,
   width = 144,
   height = 224,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -644,7 +644,7 @@ tile{
   y = 272,
   width = 64,
   height = 16,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -653,7 +653,7 @@ tile{
   y = 256,
   width = 96,
   height = 16,
-  pattern = 387,
+  pattern = "387",
 }
 
 tile{
@@ -662,7 +662,7 @@ tile{
   y = 496,
   width = 32,
   height = 128,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -671,7 +671,7 @@ tile{
   y = 464,
   width = 32,
   height = 160,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -680,7 +680,7 @@ tile{
   y = 496,
   width = 32,
   height = 128,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -689,7 +689,7 @@ tile{
   y = 192,
   width = 32,
   height = 448,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -698,7 +698,7 @@ tile{
   y = 160,
   width = 32,
   height = 160,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -707,7 +707,7 @@ tile{
   y = 176,
   width = 32,
   height = 448,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -716,7 +716,7 @@ tile{
   y = 88,
   width = 8,
   height = 16,
-  pattern = 742,
+  pattern = "742",
 }
 
 tile{
@@ -725,7 +725,7 @@ tile{
   y = 120,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -734,7 +734,7 @@ tile{
   y = 152,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -743,7 +743,7 @@ tile{
   y = 152,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -752,7 +752,7 @@ tile{
   y = 152,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -761,7 +761,7 @@ tile{
   y = 160,
   width = 144,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -770,7 +770,7 @@ tile{
   y = 160,
   width = 32,
   height = 224,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -779,7 +779,7 @@ tile{
   y = -16,
   width = 64,
   height = 96,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -788,7 +788,7 @@ tile{
   y = 16,
   width = 128,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -797,7 +797,7 @@ tile{
   y = 0,
   width = 128,
   height = 16,
-  pattern = 192,
+  pattern = "192",
 }
 
 tile{
@@ -806,7 +806,7 @@ tile{
   y = 32,
   width = 48,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -815,7 +815,7 @@ tile{
   y = 48,
   width = 64,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -824,7 +824,7 @@ tile{
   y = 64,
   width = 128,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -833,7 +833,7 @@ tile{
   y = 32,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -842,7 +842,7 @@ tile{
   y = 48,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -851,7 +851,7 @@ tile{
   y = 64,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -860,7 +860,7 @@ tile{
   y = 16,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -869,7 +869,7 @@ tile{
   y = 32,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -878,7 +878,7 @@ tile{
   y = 48,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -887,7 +887,7 @@ tile{
   y = 0,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -896,7 +896,7 @@ tile{
   y = 16,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -905,7 +905,7 @@ tile{
   y = 0,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -914,7 +914,7 @@ tile{
   y = 16,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -923,7 +923,7 @@ tile{
   y = 0,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -932,7 +932,7 @@ tile{
   y = 32,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -941,7 +941,7 @@ tile{
   y = 64,
   width = 16,
   height = 16,
-  pattern = 77,
+  pattern = "77",
 }
 
 tile{
@@ -950,7 +950,7 @@ tile{
   y = 48,
   width = 16,
   height = 16,
-  pattern = 77,
+  pattern = "77",
 }
 
 tile{
@@ -959,7 +959,7 @@ tile{
   y = 32,
   width = 16,
   height = 16,
-  pattern = 77,
+  pattern = "77",
 }
 
 tile{
@@ -968,7 +968,7 @@ tile{
   y = 48,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -977,7 +977,7 @@ tile{
   y = 16,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -986,7 +986,7 @@ tile{
   y = 0,
   width = 16,
   height = 16,
-  pattern = 79,
+  pattern = "79",
 }
 
 tile{
@@ -995,7 +995,7 @@ tile{
   y = 0,
   width = 32,
   height = 32,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -1004,7 +1004,7 @@ tile{
   y = 32,
   width = 16,
   height = 16,
-  pattern = 79,
+  pattern = "79",
 }
 
 tile{
@@ -1013,7 +1013,7 @@ tile{
   y = 32,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -1022,7 +1022,7 @@ tile{
   y = 0,
   width = 48,
   height = 32,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -1031,7 +1031,7 @@ tile{
   y = -16,
   width = 64,
   height = 64,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -1040,7 +1040,7 @@ tile{
   y = 0,
   width = 128,
   height = 64,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -1049,7 +1049,7 @@ tile{
   y = 32,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -1058,7 +1058,7 @@ tile{
   y = 48,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -1067,7 +1067,7 @@ tile{
   y = 48,
   width = 304,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -1076,7 +1076,7 @@ tile{
   y = -16,
   width = 304,
   height = 64,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -1085,7 +1085,7 @@ tile{
   y = -16,
   width = 32,
   height = 32,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -1094,7 +1094,7 @@ tile{
   y = 16,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -1103,7 +1103,7 @@ tile{
   y = 32,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -1112,7 +1112,7 @@ tile{
   y = 16,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -1121,7 +1121,7 @@ tile{
   y = 64,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -1130,7 +1130,7 @@ tile{
   y = 80,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -1139,7 +1139,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -1148,7 +1148,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 224,
+  pattern = "224",
 }
 
 tile{
@@ -1157,7 +1157,7 @@ tile{
   y = 64,
   width = 32,
   height = 32,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -1166,7 +1166,7 @@ tile{
   y = -16,
   width = 32,
   height = 640,
-  pattern = 447,
+  pattern = "447",
 }
 
 tile{
@@ -1175,7 +1175,7 @@ tile{
   y = 80,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -1184,7 +1184,7 @@ tile{
   y = 64,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -1193,7 +1193,7 @@ tile{
   y = 64,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -1202,7 +1202,7 @@ tile{
   y = 152,
   width = 48,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -1211,7 +1211,7 @@ tile{
   y = 168,
   width = 144,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -1220,7 +1220,7 @@ tile{
   y = -16,
   width = 16,
   height = 640,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -1229,7 +1229,7 @@ tile{
   y = 160,
   width = 8,
   height = 8,
-  pattern = 284,
+  pattern = "284",
 }
 
 tile{
@@ -1238,7 +1238,7 @@ tile{
   y = 160,
   width = 32,
   height = 8,
-  pattern = 60,
+  pattern = "60",
 }
 
 tile{
@@ -1247,7 +1247,7 @@ tile{
   y = 160,
   width = 8,
   height = 8,
-  pattern = 283,
+  pattern = "283",
 }
 
 tile{
@@ -1256,7 +1256,7 @@ tile{
   y = 152,
   width = 48,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -1265,7 +1265,7 @@ tile{
   y = 160,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -1274,7 +1274,7 @@ tile{
   y = 168,
   width = 32,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -1283,7 +1283,7 @@ tile{
   y = 160,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1292,7 +1292,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1301,7 +1301,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1310,7 +1310,7 @@ tile{
   y = 136,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1319,7 +1319,7 @@ tile{
   y = 152,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1328,7 +1328,7 @@ tile{
   y = 120,
   width = 32,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -1337,7 +1337,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1346,7 +1346,7 @@ tile{
   y = 88,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1355,7 +1355,7 @@ tile{
   y = 72,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1364,7 +1364,7 @@ tile{
   y = 80,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1373,7 +1373,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1382,7 +1382,7 @@ tile{
   y = 72,
   width = 8,
   height = 8,
-  pattern = 743,
+  pattern = "743",
 }
 
 tile{
@@ -1391,7 +1391,7 @@ tile{
   y = 80,
   width = 8,
   height = 16,
-  pattern = 742,
+  pattern = "742",
 }
 
 tile{
@@ -1400,7 +1400,7 @@ tile{
   y = 104,
   width = 8,
   height = 8,
-  pattern = 741,
+  pattern = "741",
 }
 
 tile{
@@ -1409,7 +1409,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1418,7 +1418,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1427,7 +1427,7 @@ tile{
   y = 160,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1436,7 +1436,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1445,7 +1445,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1454,7 +1454,7 @@ tile{
   y = 104,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1463,7 +1463,7 @@ tile{
   y = 176,
   width = 32,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -1472,7 +1472,7 @@ tile{
   y = 184,
   width = 32,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -1481,7 +1481,7 @@ tile{
   y = 176,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1490,7 +1490,7 @@ tile{
   y = 176,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1499,7 +1499,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 457,
+  pattern = "457",
 }
 
 tile{
@@ -1508,7 +1508,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 453,
+  pattern = "453",
 }
 
 tile{
@@ -1517,7 +1517,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 223,
+  pattern = "223",
 }
 
 tile{
@@ -1526,7 +1526,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 278,
+  pattern = "278",
 }
 
 tile{
@@ -1535,7 +1535,7 @@ tile{
   y = 112,
   width = 16,
   height = 32,
-  pattern = 27,
+  pattern = "27",
 }
 
 tile{
@@ -1544,7 +1544,7 @@ tile{
   y = 464,
   width = 16,
   height = 16,
-  pattern = 276,
+  pattern = "276",
 }
 
 tile{
@@ -1553,7 +1553,7 @@ tile{
   y = 400,
   width = 16,
   height = 16,
-  pattern = 224,
+  pattern = "224",
 }
 
 tile{
@@ -1562,7 +1562,7 @@ tile{
   y = 496,
   width = 64,
   height = 128,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -1571,7 +1571,7 @@ tile{
   y = 496,
   width = 64,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -1580,7 +1580,7 @@ tile{
   y = 464,
   width = 16,
   height = 160,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -1589,7 +1589,7 @@ tile{
   y = 464,
   width = 16,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -1598,7 +1598,7 @@ tile{
   y = 496,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1607,7 +1607,7 @@ tile{
   y = 496,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1616,7 +1616,7 @@ tile{
   y = 464,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1625,7 +1625,7 @@ tile{
   y = 448,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1634,7 +1634,7 @@ tile{
   y = 480,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1643,7 +1643,7 @@ tile{
   y = 504,
   width = 64,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -1652,7 +1652,7 @@ tile{
   y = 472,
   width = 16,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -1661,7 +1661,7 @@ tile{
   y = 368,
   width = 32,
   height = 8,
-  pattern = 489,
+  pattern = "489",
 }
 
 tile{
@@ -1670,7 +1670,7 @@ tile{
   y = 240,
   width = 32,
   height = 8,
-  pattern = 489,
+  pattern = "489",
 }
 
 tile{
@@ -1679,7 +1679,7 @@ tile{
   y = 248,
   width = 16,
   height = 24,
-  pattern = 398,
+  pattern = "398",
 }
 
 tile{
@@ -1688,7 +1688,7 @@ tile{
   y = 248,
   width = 8,
   height = 24,
-  pattern = 396,
+  pattern = "396",
 }
 
 tile{
@@ -1697,7 +1697,7 @@ tile{
   y = 248,
   width = 8,
   height = 24,
-  pattern = 397,
+  pattern = "397",
 }
 
 tile{
@@ -1706,7 +1706,7 @@ tile{
   y = 168,
   width = 16,
   height = 104,
-  pattern = 812,
+  pattern = "812",
 }
 
 tile{
@@ -1715,7 +1715,7 @@ tile{
   y = 168,
   width = 8,
   height = 104,
-  pattern = 810,
+  pattern = "810",
 }
 
 tile{
@@ -1724,7 +1724,7 @@ tile{
   y = 168,
   width = 8,
   height = 104,
-  pattern = 811,
+  pattern = "811",
 }
 
 tile{
@@ -1733,7 +1733,7 @@ tile{
   y = 272,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -1742,7 +1742,7 @@ tile{
   y = 272,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -1751,7 +1751,7 @@ tile{
   y = 280,
   width = 64,
   height = 8,
-  pattern = 614,
+  pattern = "614",
 }
 
 tile{
@@ -1760,7 +1760,7 @@ tile{
   y = 296,
   width = 64,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -1769,7 +1769,7 @@ tile{
   y = 288,
   width = 64,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -1778,7 +1778,7 @@ tile{
   y = 312,
   width = 64,
   height = 16,
-  pattern = 567,
+  pattern = "567",
 }
 
 tile{
@@ -1787,7 +1787,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1796,7 +1796,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1805,7 +1805,7 @@ tile{
   y = 296,
   width = 16,
   height = 24,
-  pattern = 568,
+  pattern = "568",
 }
 
 tile{
@@ -1814,7 +1814,7 @@ tile{
   y = 296,
   width = 16,
   height = 24,
-  pattern = 566,
+  pattern = "566",
 }
 
 tile{
@@ -1823,7 +1823,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 224,
+  pattern = "224",
 }
 
 tile{
@@ -1832,7 +1832,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -1841,7 +1841,7 @@ tile{
   y = 144,
   width = 16,
   height = 96,
-  pattern = 128,
+  pattern = "128",
 }
 
 tile{
@@ -1850,7 +1850,7 @@ tile{
   y = 104,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -1859,7 +1859,7 @@ tile{
   y = 256,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -1868,7 +1868,7 @@ tile{
   y = 272,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -1877,7 +1877,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -1886,7 +1886,7 @@ tile{
   y = 280,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -1895,7 +1895,7 @@ tile{
   y = 264,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -1904,7 +1904,7 @@ tile{
   y = 240,
   width = 16,
   height = 16,
-  pattern = 278,
+  pattern = "278",
 }
 
 tile{
@@ -1913,7 +1913,7 @@ tile{
   y = 304,
   width = 144,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -1922,7 +1922,7 @@ tile{
   y = 312,
   width = 144,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -1931,7 +1931,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1940,7 +1940,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1949,7 +1949,7 @@ tile{
   y = 272,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -1958,7 +1958,7 @@ tile{
   y = 320,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -1967,7 +1967,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -1976,7 +1976,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -1985,7 +1985,7 @@ tile{
   y = 320,
   width = 32,
   height = 8,
-  pattern = 489,
+  pattern = "489",
 }
 
 tile{
@@ -1994,7 +1994,7 @@ tile{
   y = 352,
   width = 16,
   height = 16,
-  pattern = 278,
+  pattern = "278",
 }
 
 tile{
@@ -2003,7 +2003,7 @@ tile{
   y = 336,
   width = 16,
   height = 16,
-  pattern = 224,
+  pattern = "224",
 }
 
 tile{
@@ -2012,7 +2012,7 @@ tile{
   y = 392,
   width = 48,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -2021,7 +2021,7 @@ tile{
   y = 384,
   width = 48,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -2030,7 +2030,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -2039,7 +2039,7 @@ tile{
   y = 400,
   width = 192,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -2048,7 +2048,7 @@ tile{
   y = 408,
   width = 192,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -2057,7 +2057,7 @@ tile{
   y = 400,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -2066,7 +2066,7 @@ tile{
   y = 528,
   width = 208,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -2075,7 +2075,7 @@ tile{
   y = 528,
   width = 16,
   height = 16,
-  pattern = 77,
+  pattern = "77",
 }
 
 tile{
@@ -2084,7 +2084,7 @@ tile{
   y = 512,
   width = 48,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -2093,7 +2093,7 @@ tile{
   y = 512,
   width = 16,
   height = 16,
-  pattern = 77,
+  pattern = "77",
 }
 
 tile{
@@ -2102,7 +2102,7 @@ tile{
   y = 496,
   width = 16,
   height = 16,
-  pattern = 224,
+  pattern = "224",
 }
 
 tile{
@@ -2111,7 +2111,7 @@ tile{
   y = 544,
   width = 16,
   height = 16,
-  pattern = 278,
+  pattern = "278",
 }
 
 tile{
@@ -2120,7 +2120,7 @@ tile{
   y = 512,
   width = 16,
   height = 32,
-  pattern = 128,
+  pattern = "128",
 }
 
 tile{
@@ -2129,7 +2129,7 @@ tile{
   y = 552,
   width = 208,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -2138,7 +2138,7 @@ tile{
   y = 560,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -2147,7 +2147,7 @@ tile{
   y = 560,
   width = 208,
   height = 64,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -2156,7 +2156,7 @@ tile{
   y = 568,
   width = 208,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -2165,7 +2165,7 @@ tile{
   y = 560,
   width = 208,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -2174,7 +2174,7 @@ tile{
   y = 560,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -2183,7 +2183,7 @@ tile{
   y = 576,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -2192,7 +2192,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -2201,7 +2201,7 @@ tile{
   y = 584,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -2210,7 +2210,7 @@ tile{
   y = 568,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -2219,7 +2219,7 @@ tile{
   y = 600,
   width = 96,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -2228,7 +2228,7 @@ tile{
   y = 608,
   width = 96,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -2237,7 +2237,7 @@ tile{
   y = 616,
   width = 96,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -2246,7 +2246,7 @@ tile{
   y = 592,
   width = 32,
   height = 32,
-  pattern = 448,
+  pattern = "448",
 }
 
 tile{
@@ -2255,7 +2255,7 @@ tile{
   y = 608,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -2264,7 +2264,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -2273,7 +2273,7 @@ tile{
   y = 576,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -2282,7 +2282,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2291,7 +2291,7 @@ tile{
   y = 576,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2300,7 +2300,7 @@ tile{
   y = 560,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2309,7 +2309,7 @@ tile{
   y = 568,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2318,7 +2318,7 @@ tile{
   y = 584,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2327,7 +2327,7 @@ tile{
   y = 608,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -2336,7 +2336,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -2345,7 +2345,7 @@ tile{
   y = 576,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -2354,7 +2354,7 @@ tile{
   y = 544,
   width = 16,
   height = 8,
-  pattern = 260,
+  pattern = "260",
 }
 
 tile{
@@ -2363,7 +2363,7 @@ tile{
   y = 528,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -2372,7 +2372,7 @@ tile{
   y = 512,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -2381,7 +2381,7 @@ tile{
   y = 528,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -2390,7 +2390,7 @@ tile{
   y = 512,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -2399,7 +2399,7 @@ tile{
   y = 536,
   width = 16,
   height = 8,
-  pattern = 266,
+  pattern = "266",
 }
 
 tile{
@@ -2408,7 +2408,7 @@ tile{
   y = 528,
   width = 16,
   height = 8,
-  pattern = 119,
+  pattern = "119",
 }
 
 tile{
@@ -2417,7 +2417,7 @@ tile{
   y = 512,
   width = 16,
   height = 16,
-  pattern = 90,
+  pattern = "90",
 }
 
 tile{
@@ -2426,7 +2426,7 @@ tile{
   y = 512,
   width = 16,
   height = 16,
-  pattern = 280,
+  pattern = "280",
 }
 
 tile{
@@ -2435,7 +2435,7 @@ tile{
   y = 464,
   width = 8,
   height = 48,
-  pattern = 130,
+  pattern = "130",
 }
 
 tile{
@@ -2444,7 +2444,7 @@ tile{
   y = 480,
   width = 16,
   height = 32,
-  pattern = 27,
+  pattern = "27",
 }
 
 tile{
@@ -2453,7 +2453,7 @@ tile{
   y = 464,
   width = 16,
   height = 16,
-  pattern = 224,
+  pattern = "224",
 }
 
 tile{
@@ -2462,7 +2462,7 @@ tile{
   y = 480,
   width = 16,
   height = 32,
-  pattern = 20,
+  pattern = "20",
 }
 
 tile{
@@ -2471,7 +2471,7 @@ tile{
   y = 464,
   width = 16,
   height = 16,
-  pattern = 21,
+  pattern = "21",
 }
 
 tile{
@@ -2480,7 +2480,7 @@ tile{
   y = 496,
   width = 16,
   height = 16,
-  pattern = 278,
+  pattern = "278",
 }
 
 tile{
@@ -2489,7 +2489,7 @@ tile{
   y = 464,
   width = 16,
   height = 32,
-  pattern = 27,
+  pattern = "27",
 }
 
 tile{
@@ -2498,7 +2498,7 @@ tile{
   y = 432,
   width = 16,
   height = 32,
-  pattern = 128,
+  pattern = "128",
 }
 
 tile{
@@ -2507,7 +2507,7 @@ tile{
   y = 416,
   width = 16,
   height = 16,
-  pattern = 224,
+  pattern = "224",
 }
 
 tile{
@@ -2516,7 +2516,7 @@ tile{
   y = 464,
   width = 288,
   height = 16,
-  pattern = 17,
+  pattern = "17",
 }
 
 tile{
@@ -2525,7 +2525,7 @@ tile{
   y = 512,
   width = 16,
   height = 16,
-  pattern = 83,
+  pattern = "83",
 }
 
 tile{
@@ -2534,7 +2534,7 @@ tile{
   y = 528,
   width = 8,
   height = 48,
-  pattern = 273,
+  pattern = "273",
 }
 
 tile{
@@ -2543,7 +2543,7 @@ tile{
   y = 528,
   width = 8,
   height = 48,
-  pattern = 125,
+  pattern = "125",
 }
 
 tile{
@@ -2552,7 +2552,7 @@ tile{
   y = 576,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -2561,7 +2561,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -2570,7 +2570,7 @@ tile{
   y = 584,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -2579,7 +2579,7 @@ tile{
   y = 576,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -2588,7 +2588,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -2597,7 +2597,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -2606,7 +2606,7 @@ tile{
   y = 600,
   width = 48,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -2615,7 +2615,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2624,7 +2624,7 @@ tile{
   y = 584,
   width = 16,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -2633,7 +2633,7 @@ tile{
   y = 568,
   width = 64,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -2642,7 +2642,7 @@ tile{
   y = 576,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2651,7 +2651,7 @@ tile{
   y = 576,
   width = 64,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -2660,7 +2660,7 @@ tile{
   y = 592,
   width = 16,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -2669,7 +2669,7 @@ tile{
   y = 592,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -2678,7 +2678,7 @@ tile{
   y = 584,
   width = 64,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -2687,7 +2687,7 @@ tile{
   y = 600,
   width = 16,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -2696,7 +2696,7 @@ tile{
   y = 544,
   width = 64,
   height = 8,
-  pattern = 260,
+  pattern = "260",
 }
 
 tile{
@@ -2705,7 +2705,7 @@ tile{
   y = 528,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -2714,7 +2714,7 @@ tile{
   y = 528,
   width = 112,
   height = 8,
-  pattern = 260,
+  pattern = "260",
 }
 
 tile{
@@ -2723,7 +2723,7 @@ tile{
   y = 520,
   width = 112,
   height = 8,
-  pattern = 266,
+  pattern = "266",
 }
 
 tile{
@@ -2732,7 +2732,7 @@ tile{
   y = 536,
   width = 64,
   height = 8,
-  pattern = 266,
+  pattern = "266",
 }
 
 tile{
@@ -2741,7 +2741,7 @@ tile{
   y = 512,
   width = 112,
   height = 8,
-  pattern = 119,
+  pattern = "119",
 }
 
 tile{
@@ -2750,7 +2750,7 @@ tile{
   y = 512,
   width = 16,
   height = 16,
-  pattern = 90,
+  pattern = "90",
 }
 
 tile{
@@ -2759,7 +2759,7 @@ tile{
   y = 488,
   width = 128,
   height = 16,
-  pattern = 18,
+  pattern = "18",
 }
 
 tile{
@@ -2768,7 +2768,7 @@ tile{
   y = 504,
   width = 64,
   height = 16,
-  pattern = 18,
+  pattern = "18",
 }
 
 tile{
@@ -2777,7 +2777,7 @@ tile{
   y = 504,
   width = 128,
   height = 8,
-  pattern = 277,
+  pattern = "277",
 }
 
 tile{
@@ -2786,7 +2786,7 @@ tile{
   y = 488,
   width = 16,
   height = 16,
-  pattern = 28,
+  pattern = "28",
 }
 
 tile{
@@ -2795,7 +2795,7 @@ tile{
   y = 520,
   width = 64,
   height = 8,
-  pattern = 277,
+  pattern = "277",
 }
 
 tile{
@@ -2804,7 +2804,7 @@ tile{
   y = 488,
   width = 16,
   height = 16,
-  pattern = 30,
+  pattern = "30",
 }
 
 tile{
@@ -2813,7 +2813,7 @@ tile{
   y = 520,
   width = 16,
   height = 16,
-  pattern = 90,
+  pattern = "90",
 }
 
 tile{
@@ -2822,7 +2822,7 @@ tile{
   y = 528,
   width = 64,
   height = 8,
-  pattern = 119,
+  pattern = "119",
 }
 
 tile{
@@ -2831,7 +2831,7 @@ tile{
   y = 448,
   width = 288,
   height = 16,
-  pattern = 26,
+  pattern = "26",
 }
 
 tile{
@@ -2840,7 +2840,7 @@ tile{
   y = 448,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -2849,7 +2849,7 @@ tile{
   y = 432,
   width = 272,
   height = 16,
-  pattern = 192,
+  pattern = "192",
 }
 
 tile{
@@ -2858,7 +2858,7 @@ tile{
   y = 424,
   width = 272,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -2867,7 +2867,7 @@ tile{
   y = 416,
   width = 272,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -2876,7 +2876,7 @@ tile{
   y = 408,
   width = 288,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -2885,7 +2885,7 @@ tile{
   y = 416,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2894,7 +2894,7 @@ tile{
   y = 432,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2903,7 +2903,7 @@ tile{
   y = 448,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2912,7 +2912,7 @@ tile{
   y = 440,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2921,7 +2921,7 @@ tile{
   y = 424,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -2930,7 +2930,7 @@ tile{
   y = 432,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -2939,7 +2939,7 @@ tile{
   y = 448,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -2948,7 +2948,7 @@ tile{
   y = 416,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -2957,7 +2957,7 @@ tile{
   y = 400,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -2966,7 +2966,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -2975,7 +2975,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 77,
+  pattern = "77",
 }
 
 tile{
@@ -2984,7 +2984,7 @@ tile{
   y = 352,
   width = 112,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -2993,7 +2993,7 @@ tile{
   y = 352,
   width = 32,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -3002,7 +3002,7 @@ tile{
   y = 400,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3011,7 +3011,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3020,7 +3020,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3029,7 +3029,7 @@ tile{
   y = 352,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3038,7 +3038,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3047,7 +3047,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3056,7 +3056,7 @@ tile{
   y = 288,
   width = 112,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -3065,7 +3065,7 @@ tile{
   y = 296,
   width = 112,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -3074,7 +3074,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -3083,7 +3083,7 @@ tile{
   y = 256,
   width = 32,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -3092,7 +3092,7 @@ tile{
   y = 264,
   width = 32,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -3101,7 +3101,7 @@ tile{
   y = 344,
   width = 16,
   height = 24,
-  pattern = 67,
+  pattern = "67",
 }
 
 tile{
@@ -3110,7 +3110,7 @@ tile{
   y = 344,
   width = 8,
   height = 24,
-  pattern = 487,
+  pattern = "487",
 }
 
 tile{
@@ -3119,7 +3119,7 @@ tile{
   y = 344,
   width = 8,
   height = 24,
-  pattern = 488,
+  pattern = "488",
 }
 
 tile{
@@ -3128,7 +3128,7 @@ tile{
   y = 336,
   width = 32,
   height = 8,
-  pattern = 489,
+  pattern = "489",
 }
 
 tile{
@@ -3137,7 +3137,7 @@ tile{
   y = 520,
   width = 8,
   height = 24,
-  pattern = 487,
+  pattern = "487",
 }
 
 tile{
@@ -3146,7 +3146,7 @@ tile{
   y = 520,
   width = 16,
   height = 24,
-  pattern = 67,
+  pattern = "67",
 }
 
 tile{
@@ -3155,7 +3155,7 @@ tile{
   y = 512,
   width = 32,
   height = 8,
-  pattern = 489,
+  pattern = "489",
 }
 
 tile{
@@ -3164,7 +3164,7 @@ tile{
   y = 520,
   width = 8,
   height = 24,
-  pattern = 488,
+  pattern = "488",
 }
 
 tile{
@@ -3173,7 +3173,7 @@ tile{
   y = 80,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -3182,7 +3182,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -3191,7 +3191,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -3200,7 +3200,7 @@ tile{
   y = 104,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -3209,7 +3209,7 @@ tile{
   y = 88,
   width = 16,
   height = 16,
-  pattern = 271,
+  pattern = "271",
 }
 
 tile{
@@ -3218,7 +3218,7 @@ tile{
   y = 80,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -3227,7 +3227,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -3236,7 +3236,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -3245,7 +3245,7 @@ tile{
   y = 104,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -3254,7 +3254,7 @@ tile{
   y = 88,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -3263,7 +3263,7 @@ tile{
   y = 120,
   width = 240,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -3272,7 +3272,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3281,7 +3281,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3290,7 +3290,7 @@ tile{
   y = 128,
   width = 8,
   height = 64,
-  pattern = 274,
+  pattern = "274",
 }
 
 tile{
@@ -3299,7 +3299,7 @@ tile{
   y = 128,
   width = 8,
   height = 64,
-  pattern = 130,
+  pattern = "130",
 }
 
 tile{
@@ -3308,7 +3308,7 @@ tile{
   y = 192,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -3317,7 +3317,7 @@ tile{
   y = 208,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -3326,7 +3326,7 @@ tile{
   y = 224,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -3335,7 +3335,7 @@ tile{
   y = 216,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -3344,7 +3344,7 @@ tile{
   y = 200,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -3353,7 +3353,7 @@ tile{
   y = 144,
   width = 16,
   height = 48,
-  pattern = 27,
+  pattern = "27",
 }
 
 tile{
@@ -3362,7 +3362,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 224,
+  pattern = "224",
 }
 
 tile{
@@ -3371,7 +3371,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 21,
+  pattern = "21",
 }
 
 tile{
@@ -3380,7 +3380,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -3389,7 +3389,7 @@ tile{
   y = 192,
   width = 16,
   height = 16,
-  pattern = 90,
+  pattern = "90",
 }
 
 tile{
@@ -3398,7 +3398,7 @@ tile{
   y = 208,
   width = 16,
   height = 16,
-  pattern = 90,
+  pattern = "90",
 }
 
 tile{
@@ -3407,7 +3407,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 23,
+  pattern = "23",
 }
 
 tile{
@@ -3416,7 +3416,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 23,
+  pattern = "23",
 }
 
 tile{
@@ -3425,7 +3425,7 @@ tile{
   y = 160,
   width = 16,
   height = 16,
-  pattern = 23,
+  pattern = "23",
 }
 
 tile{
@@ -3434,7 +3434,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -3443,7 +3443,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -3452,7 +3452,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -3461,7 +3461,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -3470,7 +3470,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -3479,7 +3479,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -3488,7 +3488,7 @@ tile{
   y = 136,
   width = 240,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -3497,7 +3497,7 @@ tile{
   y = 128,
   width = 240,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -3506,7 +3506,7 @@ tile{
   y = 144,
   width = 240,
   height = 16,
-  pattern = 192,
+  pattern = "192",
 }
 
 tile{
@@ -3515,7 +3515,7 @@ tile{
   y = 160,
   width = 240,
   height = 16,
-  pattern = 26,
+  pattern = "26",
 }
 
 tile{
@@ -3524,7 +3524,7 @@ tile{
   y = 176,
   width = 240,
   height = 16,
-  pattern = 17,
+  pattern = "17",
 }
 
 tile{
@@ -3533,7 +3533,7 @@ tile{
   y = 176,
   width = 16,
   height = 16,
-  pattern = 24,
+  pattern = "24",
 }
 
 tile{
@@ -3542,7 +3542,7 @@ tile{
   y = 160,
   width = 16,
   height = 16,
-  pattern = 24,
+  pattern = "24",
 }
 
 tile{
@@ -3551,7 +3551,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 24,
+  pattern = "24",
 }
 
 tile{
@@ -3560,7 +3560,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 24,
+  pattern = "24",
 }
 
 tile{
@@ -3569,7 +3569,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 22,
+  pattern = "22",
 }
 
 tile{
@@ -3578,7 +3578,7 @@ tile{
   y = 160,
   width = 16,
   height = 16,
-  pattern = 21,
+  pattern = "21",
 }
 
 tile{
@@ -3587,7 +3587,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 21,
+  pattern = "21",
 }
 
 tile{
@@ -3596,7 +3596,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 21,
+  pattern = "21",
 }
 
 tile{
@@ -3605,7 +3605,7 @@ tile{
   y = 144,
   width = 32,
   height = 16,
-  pattern = 26,
+  pattern = "26",
 }
 
 tile{
@@ -3614,7 +3614,7 @@ tile{
   y = 160,
   width = 32,
   height = 16,
-  pattern = 17,
+  pattern = "17",
 }
 
 tile{
@@ -3623,7 +3623,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 17,
+  pattern = "17",
 }
 
 tile{
@@ -3632,7 +3632,7 @@ tile{
   y = 128,
   width = 80,
   height = 16,
-  pattern = 17,
+  pattern = "17",
 }
 
 tile{
@@ -3641,7 +3641,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 26,
+  pattern = "26",
 }
 
 tile{
@@ -3650,7 +3650,7 @@ tile{
   y = 112,
   width = 80,
   height = 16,
-  pattern = 26,
+  pattern = "26",
 }
 
 tile{
@@ -3659,7 +3659,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -3668,7 +3668,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -3677,7 +3677,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -3686,7 +3686,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3695,7 +3695,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3704,7 +3704,7 @@ tile{
   y = 128,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -3713,7 +3713,7 @@ tile{
   y = 168,
   width = 96,
   height = 16,
-  pattern = 18,
+  pattern = "18",
 }
 
 tile{
@@ -3722,7 +3722,7 @@ tile{
   y = 184,
   width = 96,
   height = 8,
-  pattern = 277,
+  pattern = "277",
 }
 
 tile{
@@ -3731,7 +3731,7 @@ tile{
   y = 192,
   width = 80,
   height = 8,
-  pattern = 119,
+  pattern = "119",
 }
 
 tile{
@@ -3740,7 +3740,7 @@ tile{
   y = 192,
   width = 16,
   height = 16,
-  pattern = 83,
+  pattern = "83",
 }
 
 tile{
@@ -3749,7 +3749,7 @@ tile{
   y = 200,
   width = 80,
   height = 8,
-  pattern = 266,
+  pattern = "266",
 }
 
 tile{
@@ -3758,7 +3758,7 @@ tile{
   y = 216,
   width = 32,
   height = 8,
-  pattern = 266,
+  pattern = "266",
 }
 
 tile{
@@ -3767,7 +3767,7 @@ tile{
   y = 200,
   width = 32,
   height = 8,
-  pattern = 277,
+  pattern = "277",
 }
 
 tile{
@@ -3776,7 +3776,7 @@ tile{
   y = 232,
   width = 368,
   height = 8,
-  pattern = 266,
+  pattern = "266",
 }
 
 tile{
@@ -3785,7 +3785,7 @@ tile{
   y = 208,
   width = 16,
   height = 16,
-  pattern = 83,
+  pattern = "83",
 }
 
 tile{
@@ -3794,7 +3794,7 @@ tile{
   y = 184,
   width = 16,
   height = 16,
-  pattern = 29,
+  pattern = "29",
 }
 
 tile{
@@ -3803,7 +3803,7 @@ tile{
   y = 200,
   width = 16,
   height = 16,
-  pattern = 29,
+  pattern = "29",
 }
 
 tile{
@@ -3812,7 +3812,7 @@ tile{
   y = 184,
   width = 32,
   height = 16,
-  pattern = 18,
+  pattern = "18",
 }
 
 tile{
@@ -3821,7 +3821,7 @@ tile{
   y = 200,
   width = 352,
   height = 16,
-  pattern = 18,
+  pattern = "18",
 }
 
 tile{
@@ -3830,7 +3830,7 @@ tile{
   y = 168,
   width = 16,
   height = 16,
-  pattern = 28,
+  pattern = "28",
 }
 
 tile{
@@ -3839,7 +3839,7 @@ tile{
   y = 184,
   width = 16,
   height = 16,
-  pattern = 28,
+  pattern = "28",
 }
 
 tile{
@@ -3848,7 +3848,7 @@ tile{
   y = 200,
   width = 16,
   height = 16,
-  pattern = 83,
+  pattern = "83",
 }
 
 tile{
@@ -3857,7 +3857,7 @@ tile{
   y = 216,
   width = 16,
   height = 16,
-  pattern = 83,
+  pattern = "83",
 }
 
 tile{
@@ -3866,7 +3866,7 @@ tile{
   y = 216,
   width = 352,
   height = 8,
-  pattern = 277,
+  pattern = "277",
 }
 
 tile{
@@ -3875,7 +3875,7 @@ tile{
   y = 144,
   width = 16,
   height = 16,
-  pattern = 22,
+  pattern = "22",
 }
 
 tile{
@@ -3884,7 +3884,7 @@ tile{
   y = 160,
   width = 16,
   height = 16,
-  pattern = 22,
+  pattern = "22",
 }
 
 tile{
@@ -3893,7 +3893,7 @@ tile{
   y = 176,
   width = 16,
   height = 16,
-  pattern = 22,
+  pattern = "22",
 }
 
 tile{
@@ -3902,7 +3902,7 @@ tile{
   y = 128,
   width = 32,
   height = 16,
-  pattern = 192,
+  pattern = "192",
 }
 
 tile{
@@ -3911,7 +3911,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 192,
+  pattern = "192",
 }
 
 tile{
@@ -3920,7 +3920,7 @@ tile{
   y = 96,
   width = 80,
   height = 16,
-  pattern = 192,
+  pattern = "192",
 }
 
 tile{
@@ -3929,7 +3929,7 @@ tile{
   y = 120,
   width = 32,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -3938,7 +3938,7 @@ tile{
   y = 104,
   width = 16,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -3947,7 +3947,7 @@ tile{
   y = 88,
   width = 80,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -3956,7 +3956,7 @@ tile{
   y = 112,
   width = 32,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -3965,7 +3965,7 @@ tile{
   y = 96,
   width = 16,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -3974,7 +3974,7 @@ tile{
   y = 80,
   width = 80,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -3983,7 +3983,7 @@ tile{
   y = 72,
   width = 80,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -3992,7 +3992,7 @@ tile{
   y = 88,
   width = 16,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -4001,7 +4001,7 @@ tile{
   y = 104,
   width = 32,
   height = 8,
-  pattern = 259,
+  pattern = "259",
 }
 
 tile{
@@ -4010,7 +4010,7 @@ tile{
   y = 80,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -4019,7 +4019,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -4028,7 +4028,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -4037,7 +4037,7 @@ tile{
   y = 208,
   width = 32,
   height = 8,
-  pattern = 119,
+  pattern = "119",
 }
 
 tile{
@@ -4046,7 +4046,7 @@ tile{
   y = 224,
   width = 368,
   height = 8,
-  pattern = 119,
+  pattern = "119",
 }
 
 tile{
@@ -4055,7 +4055,7 @@ tile{
   y = 288,
   width = 32,
   height = 8,
-  pattern = 523,
+  pattern = "523",
 }
 
 tile{
@@ -4064,7 +4064,7 @@ tile{
   y = 288,
   width = 32,
   height = 8,
-  pattern = 523,
+  pattern = "523",
 }
 
 tile{
@@ -4073,7 +4073,7 @@ tile{
   y = 264,
   width = 8,
   height = 16,
-  pattern = 504,
+  pattern = "504",
 }
 
 tile{
@@ -4082,7 +4082,7 @@ tile{
   y = 264,
   width = 8,
   height = 16,
-  pattern = 503,
+  pattern = "503",
 }
 
 tile{
@@ -4091,7 +4091,7 @@ tile{
   y = 344,
   width = 48,
   height = 16,
-  pattern = 505,
+  pattern = "505",
 }
 
 tile{
@@ -4100,7 +4100,7 @@ tile{
   y = 336,
   width = 8,
   height = 16,
-  pattern = 504,
+  pattern = "504",
 }
 
 tile{
@@ -4109,7 +4109,7 @@ tile{
   y = 336,
   width = 8,
   height = 16,
-  pattern = 503,
+  pattern = "503",
 }
 
 tile{
@@ -4118,7 +4118,7 @@ tile{
   y = 360,
   width = 32,
   height = 8,
-  pattern = 523,
+  pattern = "523",
 }
 
 tile{
@@ -4127,7 +4127,7 @@ tile{
   y = 96,
   width = 32,
   height = 8,
-  pattern = 523,
+  pattern = "523",
 }
 
 tile{
@@ -4136,7 +4136,7 @@ tile{
   y = 80,
   width = 144,
   height = 16,
-  pattern = 505,
+  pattern = "505",
 }
 
 tile{
@@ -4145,7 +4145,7 @@ tile{
   y = 40,
   width = 144,
   height = 40,
-  pattern = 502,
+  pattern = "502",
 }
 
 tile{
@@ -4154,7 +4154,7 @@ tile{
   y = 96,
   width = 32,
   height = 8,
-  pattern = 523,
+  pattern = "523",
 }
 
 tile{
@@ -4163,7 +4163,7 @@ tile{
   y = 96,
   width = 32,
   height = 8,
-  pattern = 523,
+  pattern = "523",
 }
 
 tile{
@@ -4172,7 +4172,7 @@ tile{
   y = 72,
   width = 8,
   height = 16,
-  pattern = 503,
+  pattern = "503",
 }
 
 tile{
@@ -4181,7 +4181,7 @@ tile{
   y = 72,
   width = 8,
   height = 16,
-  pattern = 504,
+  pattern = "504",
 }
 
 tile{
@@ -4190,7 +4190,7 @@ tile{
   y = 528,
   width = 8,
   height = 16,
-  pattern = 46,
+  pattern = "46",
 }
 
 tile{
@@ -4199,7 +4199,7 @@ tile{
   y = 544,
   width = 8,
   height = 16,
-  pattern = 44,
+  pattern = "44",
 }
 
 tile{
@@ -4208,7 +4208,7 @@ tile{
   y = 512,
   width = 64,
   height = 112,
-  pattern = 778,
+  pattern = "778",
 }
 
 tile{
@@ -4217,7 +4217,7 @@ tile{
   y = 496,
   width = 64,
   height = 16,
-  pattern = 777,
+  pattern = "777",
 }
 
 tile{
@@ -4226,7 +4226,7 @@ tile{
   y = 520,
   width = 16,
   height = 16,
-  pattern = 269,
+  pattern = "269",
 }
 
 tile{
@@ -4235,7 +4235,7 @@ tile{
   y = 128,
   width = 48,
   height = 16,
-  pattern = 779,
+  pattern = "779",
 }
 
 tile{
@@ -4244,7 +4244,7 @@ tile{
   y = 616,
   width = 48,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -4253,7 +4253,7 @@ tile{
   y = 608,
   width = 48,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -4262,7 +4262,7 @@ tile{
   y = 608,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -4271,7 +4271,7 @@ tile{
   y = 608,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -4280,7 +4280,7 @@ tile{
   y = 608,
   width = 16,
   height = 16,
-  pattern = 188,
+  pattern = "188",
 }
 
 tile{
@@ -4289,7 +4289,7 @@ tile{
   y = 608,
   width = 16,
   height = 16,
-  pattern = 79,
+  pattern = "79",
 }
 
 tile{
@@ -4298,7 +4298,7 @@ tile{
   y = 608,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4307,7 +4307,7 @@ tile{
   y = 608,
   width = 16,
   height = 16,
-  pattern = 192,
+  pattern = "192",
 }
 
 tile{
@@ -4316,7 +4316,7 @@ tile{
   y = 192,
   width = 16,
   height = 16,
-  pattern = 280,
+  pattern = "280",
 }
 
 tile{
@@ -4325,7 +4325,7 @@ tile{
   y = 200,
   width = 16,
   height = 16,
-  pattern = 280,
+  pattern = "280",
 }
 
 tile{
@@ -4334,7 +4334,7 @@ tile{
   y = 184,
   width = 16,
   height = 16,
-  pattern = 30,
+  pattern = "30",
 }
 
 tile{
@@ -4343,7 +4343,7 @@ tile{
   y = 144,
   width = 16,
   height = 48,
-  pattern = 20,
+  pattern = "20",
 }
 
 tile{
@@ -4352,7 +4352,7 @@ tile{
   y = 256,
   width = 16,
   height = 16,
-  pattern = 187,
+  pattern = "187",
 }
 
 tile{
@@ -4361,7 +4361,7 @@ tile{
   y = 304,
   width = 80,
   height = 64,
-  pattern = 444,
+  pattern = "444",
 }
 
 tile{
@@ -4370,7 +4370,7 @@ tile{
   y = 304,
   width = 80,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -4379,7 +4379,7 @@ tile{
   y = 312,
   width = 80,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -4388,7 +4388,7 @@ tile{
   y = 368,
   width = 80,
   height = 16,
-  pattern = 177,
+  pattern = "177",
 }
 
 tile{
@@ -4397,7 +4397,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -4406,7 +4406,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -4415,7 +4415,7 @@ tile{
   y = 336,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -4424,7 +4424,7 @@ tile{
   y = 320,
   width = 16,
   height = 16,
-  pattern = 185,
+  pattern = "185",
 }
 
 tile{
@@ -4433,7 +4433,7 @@ tile{
   y = 464,
   width = 8,
   height = 48,
-  pattern = 617,
+  pattern = "617",
 }
 
 tile{
@@ -4442,7 +4442,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -4451,7 +4451,7 @@ tile{
   y = 352,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4460,7 +4460,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4469,7 +4469,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4478,7 +4478,7 @@ tile{
   y = 400,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4487,7 +4487,7 @@ tile{
   y = 336,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -4496,7 +4496,7 @@ tile{
   y = 352,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -4505,7 +4505,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -4514,7 +4514,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -4523,7 +4523,7 @@ tile{
   y = 400,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -4532,7 +4532,7 @@ tile{
   y = 320,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4541,7 +4541,7 @@ tile{
   y = 336,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4550,7 +4550,7 @@ tile{
   y = 352,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4559,7 +4559,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4568,7 +4568,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4577,7 +4577,7 @@ tile{
   y = 400,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4586,7 +4586,7 @@ tile{
   y = 512,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4595,7 +4595,7 @@ tile{
   y = 264,
   width = 8,
   height = 8,
-  pattern = 758,
+  pattern = "758",
 }
 
 tile{
@@ -4604,7 +4604,7 @@ tile{
   y = 248,
   width = 8,
   height = 16,
-  pattern = 757,
+  pattern = "757",
 }
 
 tile{
@@ -4613,7 +4613,7 @@ tile{
   y = 240,
   width = 8,
   height = 16,
-  pattern = 757,
+  pattern = "757",
 }
 
 tile{
@@ -4622,7 +4622,7 @@ tile{
   y = 232,
   width = 8,
   height = 8,
-  pattern = 756,
+  pattern = "756",
 }
 
 tile{
@@ -4631,7 +4631,7 @@ tile{
   y = 248,
   width = 32,
   height = 8,
-  pattern = 614,
+  pattern = "614",
 }
 
 tile{
@@ -4640,7 +4640,7 @@ tile{
   y = 240,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -4649,7 +4649,7 @@ tile{
   y = 272,
   width = 16,
   height = 16,
-  pattern = 621,
+  pattern = "621",
 }
 
 tile{
@@ -4658,7 +4658,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4667,7 +4667,7 @@ tile{
   y = 296,
   width = 80,
   height = 8,
-  pattern = 614,
+  pattern = "614",
 }
 
 tile{
@@ -4676,7 +4676,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -4685,7 +4685,7 @@ tile{
   y = 280,
   width = 112,
   height = 8,
-  pattern = 614,
+  pattern = "614",
 }
 
 tile{
@@ -4694,7 +4694,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4703,7 +4703,7 @@ tile{
   y = 296,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4712,7 +4712,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4721,7 +4721,7 @@ tile{
   y = 312,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4730,7 +4730,7 @@ tile{
   y = 320,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4739,7 +4739,7 @@ tile{
   y = 328,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4748,7 +4748,7 @@ tile{
   y = 336,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4757,7 +4757,7 @@ tile{
   y = 344,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4766,7 +4766,7 @@ tile{
   y = 352,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4775,7 +4775,7 @@ tile{
   y = 360,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4784,7 +4784,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4793,7 +4793,7 @@ tile{
   y = 376,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4802,7 +4802,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -4811,7 +4811,7 @@ tile{
   y = 392,
   width = 192,
   height = 8,
-  pattern = 614,
+  pattern = "614",
 }
 
 tile{
@@ -4820,7 +4820,7 @@ tile{
   y = 368,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -4829,7 +4829,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -4838,7 +4838,7 @@ tile{
   y = 336,
   width = 16,
   height = 16,
-  pattern = 386,
+  pattern = "386",
 }
 
 tile{
@@ -4847,7 +4847,7 @@ tile{
   y = 320,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4856,7 +4856,7 @@ tile{
   y = 320,
   width = 16,
   height = 16,
-  pattern = 386,
+  pattern = "386",
 }
 
 tile{
@@ -4865,7 +4865,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 386,
+  pattern = "386",
 }
 
 tile{
@@ -4874,7 +4874,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4883,7 +4883,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -4892,7 +4892,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 73,
+  pattern = "73",
 }
 
 tile{
@@ -4901,7 +4901,7 @@ tile{
   y = 304,
   width = 16,
   height = 16,
-  pattern = 388,
+  pattern = "388",
 }
 
 tile{
@@ -4910,7 +4910,7 @@ tile{
   y = 320,
   width = 16,
   height = 16,
-  pattern = 388,
+  pattern = "388",
 }
 
 tile{
@@ -4919,7 +4919,7 @@ tile{
   y = 336,
   width = 16,
   height = 16,
-  pattern = 388,
+  pattern = "388",
 }
 
 tile{
@@ -4928,7 +4928,7 @@ tile{
   y = 304,
   width = 48,
   height = 40,
-  pattern = 502,
+  pattern = "502",
 }
 
 tile{
@@ -4937,7 +4937,7 @@ tile{
   y = 336,
   width = 16,
   height = 16,
-  pattern = 622,
+  pattern = "622",
 }
 
 tile{
@@ -4946,7 +4946,7 @@ tile{
   y = 320,
   width = 16,
   height = 16,
-  pattern = 620,
+  pattern = "620",
 }
 
 tile{
@@ -4955,7 +4955,7 @@ tile{
   y = 312,
   width = 8,
   height = 8,
-  pattern = 755,
+  pattern = "755",
 }
 
 tile{
@@ -4964,7 +4964,7 @@ tile{
   y = 296,
   width = 8,
   height = 16,
-  pattern = 754,
+  pattern = "754",
 }
 
 tile{
@@ -4973,7 +4973,7 @@ tile{
   y = 288,
   width = 8,
   height = 16,
-  pattern = 754,
+  pattern = "754",
 }
 
 tile{
@@ -4982,7 +4982,7 @@ tile{
   y = 280,
   width = 8,
   height = 8,
-  pattern = 753,
+  pattern = "753",
 }
 
 tile{
@@ -4991,7 +4991,7 @@ tile{
   y = 208,
   width = 80,
   height = 8,
-  pattern = 615,
+  pattern = "615",
 }
 
 tile{
@@ -5000,7 +5000,7 @@ tile{
   y = 224,
   width = 32,
   height = 8,
-  pattern = 615,
+  pattern = "615",
 }
 
 tile{
@@ -5009,7 +5009,7 @@ tile{
   y = 224,
   width = 16,
   height = 16,
-  pattern = 608,
+  pattern = "608",
 }
 
 tile{
@@ -5018,7 +5018,7 @@ tile{
   y = 272,
   width = 144,
   height = 16,
-  pattern = 505,
+  pattern = "505",
 }
 
 tile{
@@ -5027,7 +5027,7 @@ tile{
   y = 288,
   width = 32,
   height = 8,
-  pattern = 523,
+  pattern = "523",
 }
 
 tile{
@@ -5036,7 +5036,7 @@ tile{
   y = 328,
   width = 16,
   height = 24,
-  pattern = 398,
+  pattern = "398",
 }
 
 tile{
@@ -5045,7 +5045,7 @@ tile{
   y = 328,
   width = 8,
   height = 24,
-  pattern = 397,
+  pattern = "397",
 }
 
 tile{
@@ -5054,7 +5054,7 @@ tile{
   y = 328,
   width = 8,
   height = 24,
-  pattern = 396,
+  pattern = "396",
 }
 
 tile{
@@ -5063,7 +5063,7 @@ tile{
   y = 288,
   width = 16,
   height = 16,
-  pattern = 272,
+  pattern = "272",
 }
 
 tile{
@@ -5072,7 +5072,7 @@ tile{
   y = 264,
   width = 8,
   height = 24,
-  pattern = 57,
+  pattern = "57",
 }
 
 tile{
@@ -5081,7 +5081,7 @@ tile{
   y = 256,
   width = 8,
   height = 8,
-  pattern = 59,
+  pattern = "59",
 }
 
 tile{
@@ -5090,7 +5090,7 @@ tile{
   y = 248,
   width = 8,
   height = 8,
-  pattern = 59,
+  pattern = "59",
 }
 
 tile{
@@ -5099,7 +5099,7 @@ tile{
   y = 248,
   width = 8,
   height = 8,
-  pattern = 52,
+  pattern = "52",
 }
 
 tile{
@@ -5108,7 +5108,7 @@ tile{
   y = 256,
   width = 8,
   height = 8,
-  pattern = 52,
+  pattern = "52",
 }
 
 tile{
@@ -5117,7 +5117,7 @@ tile{
   y = 240,
   width = 144,
   height = 8,
-  pattern = 260,
+  pattern = "260",
 }
 
 tile{
@@ -5126,7 +5126,7 @@ tile{
   y = 232,
   width = 144,
   height = 40,
-  pattern = 502,
+  pattern = "502",
 }
 
 tile{
@@ -5135,7 +5135,7 @@ tile{
   y = 400,
   width = 16,
   height = 64,
-  pattern = 392,
+  pattern = "392",
 }
 
 tile{
@@ -5144,7 +5144,7 @@ tile{
   y = 384,
   width = 144,
   height = 16,
-  pattern = 387,
+  pattern = "387",
 }
 
 tile{
@@ -5153,7 +5153,7 @@ tile{
   y = 376,
   width = 16,
   height = 24,
-  pattern = 398,
+  pattern = "398",
 }
 
 tile{
@@ -5162,7 +5162,7 @@ tile{
   y = 376,
   width = 8,
   height = 24,
-  pattern = 397,
+  pattern = "397",
 }
 
 tile{
@@ -5171,7 +5171,7 @@ tile{
   y = 376,
   width = 8,
   height = 24,
-  pattern = 396,
+  pattern = "396",
 }
 
 tile{
@@ -5180,7 +5180,7 @@ tile{
   y = 416,
   width = 16,
   height = 16,
-  pattern = 389,
+  pattern = "389",
 }
 
 tile{
@@ -5189,7 +5189,7 @@ tile{
   y = 400,
   width = 16,
   height = 16,
-  pattern = 386,
+  pattern = "386",
 }
 
 tile{
@@ -5198,7 +5198,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 186,
+  pattern = "186",
 }
 
 tile{
@@ -5207,7 +5207,7 @@ tile{
   y = 472,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -5216,7 +5216,7 @@ tile{
   y = 480,
   width = 16,
   height = 16,
-  pattern = 610,
+  pattern = "610",
 }
 
 tile{
@@ -5225,7 +5225,7 @@ tile{
   y = 480,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -5234,7 +5234,7 @@ tile{
   y = 472,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -5243,7 +5243,7 @@ tile{
   y = 464,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -5252,7 +5252,7 @@ tile{
   y = 448,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -5261,7 +5261,7 @@ tile{
   y = 440,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -5270,7 +5270,7 @@ tile{
   y = 432,
   width = 16,
   height = 16,
-  pattern = 609,
+  pattern = "609",
 }
 
 tile{
@@ -5279,7 +5279,7 @@ tile{
   y = 456,
   width = 16,
   height = 8,
-  pattern = 614,
+  pattern = "614",
 }
 
 tile{
@@ -5288,7 +5288,7 @@ tile{
   y = 488,
   width = 64,
   height = 8,
-  pattern = 614,
+  pattern = "614",
 }
 
 tile{
@@ -5297,7 +5297,7 @@ tile{
   y = 40,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5306,7 +5306,7 @@ tile{
   y = 96,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5315,7 +5315,7 @@ tile{
   y = 88,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5324,7 +5324,7 @@ tile{
   y = 48,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5333,7 +5333,7 @@ tile{
   y = 96,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5342,7 +5342,7 @@ tile{
   y = 64,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5351,7 +5351,7 @@ tile{
   y = 72,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5360,7 +5360,7 @@ tile{
   y = 120,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5369,7 +5369,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5378,7 +5378,7 @@ tile{
   y = 176,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5387,7 +5387,7 @@ tile{
   y = 72,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5396,7 +5396,7 @@ tile{
   y = 224,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5405,7 +5405,7 @@ tile{
   y = 104,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5414,7 +5414,7 @@ tile{
   y = 128,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5423,7 +5423,7 @@ tile{
   y = 152,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5432,7 +5432,7 @@ tile{
   y = 72,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5441,7 +5441,7 @@ tile{
   y = 144,
   width = 32,
   height = 8,
-  pattern = 523,
+  pattern = "523",
 }
 
 tile{
@@ -5450,7 +5450,7 @@ tile{
   y = 128,
   width = 48,
   height = 16,
-  pattern = 505,
+  pattern = "505",
 }
 
 tile{
@@ -5459,7 +5459,7 @@ tile{
   y = 120,
   width = 8,
   height = 16,
-  pattern = 504,
+  pattern = "504",
 }
 
 tile{
@@ -5468,7 +5468,7 @@ tile{
   y = 120,
   width = 8,
   height = 16,
-  pattern = 503,
+  pattern = "503",
 }
 
 tile{
@@ -5477,7 +5477,7 @@ tile{
   y = 88,
   width = 48,
   height = 40,
-  pattern = 502,
+  pattern = "502",
 }
 
 tile{
@@ -5486,7 +5486,7 @@ tile{
   y = 528,
   width = 16,
   height = 8,
-  pattern = 771,
+  pattern = "771",
 }
 
 tile{
@@ -5495,7 +5495,7 @@ tile{
   y = 536,
   width = 16,
   height = 8,
-  pattern = 772,
+  pattern = "772",
 }
 
 tile{
@@ -5504,7 +5504,7 @@ tile{
   y = 544,
   width = 16,
   height = 8,
-  pattern = 7,
+  pattern = "7",
 }
 
 tile{
@@ -5513,7 +5513,7 @@ tile{
   y = 384,
   width = 16,
   height = 144,
-  pattern = 1080,
+  pattern = "1080",
 }
 
 tile{
@@ -5522,7 +5522,7 @@ tile{
   y = 320,
   width = 32,
   height = 16,
-  pattern = 387,
+  pattern = "387",
 }
 
 tile{
@@ -5531,7 +5531,7 @@ tile{
   y = 128,
   width = 32,
   height = 8,
-  pattern = 265,
+  pattern = "265",
 }
 
 tile{
@@ -5540,7 +5540,7 @@ tile{
   y = 136,
   width = 32,
   height = 8,
-  pattern = 194,
+  pattern = "194",
 }
 
 tile{
@@ -5549,7 +5549,7 @@ tile{
   y = 128,
   width = 16,
   height = 208,
-  pattern = 1080,
+  pattern = "1080",
 }
 
 tile{
@@ -5558,7 +5558,7 @@ tile{
   y = 144,
   width = 16,
   height = 8,
-  pattern = 11,
+  pattern = "11",
 }
 
 tile{
@@ -5567,7 +5567,7 @@ tile{
   y = 168,
   width = 16,
   height = 8,
-  pattern = 11,
+  pattern = "11",
 }
 
 tile{
@@ -5576,7 +5576,7 @@ tile{
   y = 168,
   width = 16,
   height = 8,
-  pattern = 11,
+  pattern = "11",
 }
 
 tile{
@@ -5585,7 +5585,7 @@ tile{
   y = 184,
   width = 8,
   height = 8,
-  pattern = 12,
+  pattern = "12",
 }
 
 tile{
@@ -5594,7 +5594,7 @@ tile{
   y = 144,
   width = 8,
   height = 8,
-  pattern = 12,
+  pattern = "12",
 }
 
 tile{
@@ -5603,7 +5603,7 @@ tile{
   y = 152,
   width = 8,
   height = 8,
-  pattern = 12,
+  pattern = "12",
 }
 
 tile{
@@ -5612,7 +5612,7 @@ tile{
   y = 0,
   width = 48,
   height = 128,
-  pattern = 778,
+  pattern = "778",
 }
 
 tile{
@@ -5621,7 +5621,7 @@ tile{
   y = 400,
   width = 16,
   height = 8,
-  pattern = 1214,
+  pattern = "1214",
 }
 
 tile{
@@ -5630,7 +5630,7 @@ tile{
   y = 344,
   width = 8,
   height = 8,
-  pattern = 1217,
+  pattern = "1217",
 }
 
 tile{
@@ -5639,7 +5639,7 @@ tile{
   y = 344,
   width = 8,
   height = 8,
-  pattern = 1218,
+  pattern = "1218",
 }
 
 tile{
@@ -5648,7 +5648,7 @@ tile{
   y = 352,
   width = 8,
   height = 40,
-  pattern = 1220,
+  pattern = "1220",
 }
 
 tile{
@@ -5657,7 +5657,7 @@ tile{
   y = 384,
   width = 8,
   height = 24,
-  pattern = 1225,
+  pattern = "1225",
 }
 
 tile{
@@ -5666,7 +5666,7 @@ tile{
   y = 392,
   width = 8,
   height = 8,
-  pattern = 1215,
+  pattern = "1215",
 }
 
 tile{
@@ -5675,7 +5675,7 @@ tile{
   y = 352,
   width = 8,
   height = 40,
-  pattern = 1219,
+  pattern = "1219",
 }
 
 tile{
@@ -5684,7 +5684,7 @@ tile{
   y = 384,
   width = 8,
   height = 24,
-  pattern = 1226,
+  pattern = "1226",
 }
 
 tile{
@@ -5693,7 +5693,7 @@ tile{
   y = 392,
   width = 8,
   height = 8,
-  pattern = 1216,
+  pattern = "1216",
 }
 
 tile{
@@ -5702,7 +5702,7 @@ tile{
   y = 400,
   width = 8,
   height = 8,
-  pattern = 1221,
+  pattern = "1221",
 }
 
 tile{
@@ -5711,7 +5711,7 @@ tile{
   y = 400,
   width = 8,
   height = 8,
-  pattern = 1222,
+  pattern = "1222",
 }
 
 tile{
@@ -5720,7 +5720,7 @@ tile{
   y = 360,
   width = 8,
   height = 16,
-  pattern = 1210,
+  pattern = "1210",
 }
 
 tile{
@@ -5729,7 +5729,7 @@ tile{
   y = 360,
   width = 8,
   height = 16,
-  pattern = 1211,
+  pattern = "1211",
 }
 
 tile{
@@ -5738,7 +5738,7 @@ tile{
   y = 360,
   width = 16,
   height = 16,
-  pattern = 1212,
+  pattern = "1212",
 }
 
 tile{
@@ -5747,16 +5747,7 @@ tile{
   y = 376,
   width = 8,
   height = 24,
-  pattern = 1223,
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 376,
-  width = 8,
-  height = 24,
-  pattern = 1223,
+  pattern = "1223",
 }
 
 tile{
@@ -5765,7 +5756,7 @@ tile{
   y = 360,
   width = 8,
   height = 24,
-  pattern = 1206,
+  pattern = "1206",
 }
 
 tile{
@@ -5774,7 +5765,7 @@ tile{
   y = 360,
   width = 8,
   height = 24,
-  pattern = 1206,
+  pattern = "1206",
 }
 
 tile{
@@ -5783,7 +5774,7 @@ tile{
   y = 376,
   width = 16,
   height = 8,
-  pattern = 1213,
+  pattern = "1213",
 }
 
 tile{
@@ -5792,7 +5783,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 1214,
+  pattern = "1214",
 }
 
 tile{
@@ -5801,7 +5792,7 @@ tile{
   y = 544,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5810,7 +5801,7 @@ tile{
   y = 584,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5819,7 +5810,7 @@ tile{
   y = 576,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5828,7 +5819,7 @@ tile{
   y = 544,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5837,7 +5828,7 @@ tile{
   y = 568,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5846,7 +5837,7 @@ tile{
   y = 560,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5855,7 +5846,7 @@ tile{
   y = 576,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5864,7 +5855,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5873,7 +5864,7 @@ tile{
   y = 384,
   width = 16,
   height = 16,
-  pattern = 37,
+  pattern = "37",
 }
 
 tile{
@@ -5882,7 +5873,7 @@ tile{
   y = 384,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5891,7 +5882,7 @@ tile{
   y = 400,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
 }
 
 tile{
@@ -5900,7 +5891,16 @@ tile{
   y = 376,
   width = 16,
   height = 8,
-  pattern = 36,
+  pattern = "36",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 376,
+  width = 8,
+  height = 24,
+  pattern = "1224",
 }
 
 dynamic_tile{
@@ -5910,7 +5910,7 @@ dynamic_tile{
   width = 32,
   height = 192,
   name = "vine_off_1",
-  pattern = 444,
+  pattern = "444",
   enabled_at_start = true,
 }
 
@@ -5921,7 +5921,7 @@ dynamic_tile{
   width = 32,
   height = 8,
   name = "vine_off_3",
-  pattern = 194,
+  pattern = "194",
   enabled_at_start = true,
 }
 
@@ -5932,7 +5932,7 @@ dynamic_tile{
   width = 32,
   height = 8,
   name = "vine_off_4",
-  pattern = 265,
+  pattern = "265",
   enabled_at_start = true,
 }
 
@@ -5943,7 +5943,7 @@ dynamic_tile{
   width = 32,
   height = 16,
   name = "vine_off_8",
-  pattern = 177,
+  pattern = "177",
   enabled_at_start = true,
 }
 
@@ -5954,7 +5954,7 @@ dynamic_tile{
   width = 32,
   height = 128,
   name = "vine_off_5",
-  pattern = 444,
+  pattern = "444",
   enabled_at_start = true,
 }
 
@@ -5965,7 +5965,7 @@ dynamic_tile{
   width = 32,
   height = 8,
   name = "vine_off_6",
-  pattern = 265,
+  pattern = "265",
   enabled_at_start = true,
 }
 
@@ -5976,7 +5976,7 @@ dynamic_tile{
   width = 32,
   height = 8,
   name = "vine_off_7",
-  pattern = 194,
+  pattern = "194",
   enabled_at_start = true,
 }
 
@@ -5987,7 +5987,7 @@ dynamic_tile{
   width = 32,
   height = 16,
   name = "vine_off_2",
-  pattern = 387,
+  pattern = "387",
   enabled_at_start = true,
 }
 
@@ -6022,7 +6022,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "to_dungeon_8",
-  transition = "fade",
   destination_map = "47",
   destination = "from_outside",
 }
@@ -6131,7 +6130,6 @@ enemy{
   direction = 3,
   breed = "blue_dogman",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -6142,7 +6140,6 @@ enemy{
   direction = 3,
   breed = "red_dogman",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -6153,7 +6150,6 @@ enemy{
   direction = 3,
   breed = "red_dogman",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 enemy{
@@ -6164,7 +6160,6 @@ enemy{
   direction = 3,
   breed = "blue_dogman",
   treasure_name = "random",
-  treasure_variant = 1,
 }
 
 pickable{
@@ -6172,7 +6167,6 @@ pickable{
   x = 664,
   y = 533,
   treasure_name = "piece_of_heart",
-  treasure_variant = 1,
   treasure_savegame_variable = "b920",
 }
 
@@ -6202,10 +6196,7 @@ wall{
   width = 16,
   height = 16,
   name = "custom_obstacle_7",
-  stops_hero = false,
   stops_enemies = true,
-  stops_npcs = false,
-  stops_blocks = false,
 }
 
 wall{
@@ -6215,10 +6206,7 @@ wall{
   width = 16,
   height = 48,
   name = "custom_obstacle_8",
-  stops_hero = false,
   stops_enemies = true,
-  stops_npcs = false,
-  stops_blocks = false,
 }
 
 wall{
@@ -6269,7 +6257,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_2",
-  transition = "fade",
   destination_map = "114",
   destination = "from_outside",
 }
@@ -6289,7 +6276,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_3",
-  transition = "fade",
   destination_map = "115",
   destination = "from_outside",
 }
@@ -6317,7 +6303,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_4",
-  transition = "fade",
   destination_map = "117",
   destination = "from_outside",
 }
@@ -6329,7 +6314,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_5",
-  transition = "fade",
   destination_map = "116",
   destination = "from_outside",
 }
@@ -6349,7 +6333,6 @@ teletransporter{
   width = 16,
   height = 16,
   name = "teletransporter_11",
-  transition = "fade",
   destination_map = "93",
   destination = "from_outside",
 }
@@ -6373,7 +6356,7 @@ dynamic_tile{
   width = 48,
   height = 16,
   name = "riverfall_tile_7",
-  pattern = 1081,
+  pattern = "1081",
   enabled_at_start = false,
 }
 
@@ -6384,7 +6367,7 @@ dynamic_tile{
   width = 48,
   height = 16,
   name = "riverfall_tile_6",
-  pattern = 1081,
+  pattern = "1081",
   enabled_at_start = false,
 }
 
@@ -6395,7 +6378,7 @@ dynamic_tile{
   width = 48,
   height = 16,
   name = "riverfall_tile_5",
-  pattern = 1081,
+  pattern = "1081",
   enabled_at_start = false,
 }
 
@@ -6406,7 +6389,7 @@ dynamic_tile{
   width = 48,
   height = 16,
   name = "riverfall_tile_4",
-  pattern = 1081,
+  pattern = "1081",
   enabled_at_start = false,
 }
 
@@ -6417,7 +6400,7 @@ dynamic_tile{
   width = 48,
   height = 16,
   name = "riverfall_tile_3",
-  pattern = 1081,
+  pattern = "1081",
   enabled_at_start = false,
 }
 
@@ -6428,7 +6411,7 @@ dynamic_tile{
   width = 48,
   height = 16,
   name = "riverfall_tile_2",
-  pattern = 1081,
+  pattern = "1081",
   enabled_at_start = false,
 }
 
@@ -6439,7 +6422,7 @@ dynamic_tile{
   width = 48,
   height = 16,
   name = "riverfall_tile_1",
-  pattern = 1081,
+  pattern = "1081",
   enabled_at_start = false,
 }
 
@@ -6450,7 +6433,7 @@ dynamic_tile{
   width = 48,
   height = 16,
   name = "riverfall_tile_8",
-  pattern = 1081,
+  pattern = "1081",
   enabled_at_start = false,
 }
 
@@ -6460,7 +6443,7 @@ tile{
   y = 232,
   width = 144,
   height = 40,
-  pattern = 511,
+  pattern = "511",
 }
 
 tile{
@@ -6469,7 +6452,7 @@ tile{
   y = 216,
   width = 144,
   height = 16,
-  pattern = 512,
+  pattern = "512",
 }
 
 tile{
@@ -6478,7 +6461,7 @@ tile{
   y = 224,
   width = 8,
   height = 40,
-  pattern = 513,
+  pattern = "513",
 }
 
 tile{
@@ -6487,7 +6470,7 @@ tile{
   y = 224,
   width = 8,
   height = 40,
-  pattern = 514,
+  pattern = "514",
 }
 
 tile{
@@ -6496,7 +6479,7 @@ tile{
   y = 288,
   width = 48,
   height = 16,
-  pattern = 512,
+  pattern = "512",
 }
 
 tile{
@@ -6505,7 +6488,7 @@ tile{
   y = 304,
   width = 48,
   height = 40,
-  pattern = 511,
+  pattern = "511",
 }
 
 tile{
@@ -6514,7 +6497,7 @@ tile{
   y = 296,
   width = 8,
   height = 40,
-  pattern = 514,
+  pattern = "514",
 }
 
 tile{
@@ -6523,7 +6506,7 @@ tile{
   y = 296,
   width = 8,
   height = 40,
-  pattern = 513,
+  pattern = "513",
 }
 
 tile{
@@ -6532,7 +6515,7 @@ tile{
   y = 24,
   width = 144,
   height = 16,
-  pattern = 512,
+  pattern = "512",
 }
 
 tile{
@@ -6541,7 +6524,7 @@ tile{
   y = 32,
   width = 8,
   height = 40,
-  pattern = 513,
+  pattern = "513",
 }
 
 tile{
@@ -6550,7 +6533,7 @@ tile{
   y = 32,
   width = 8,
   height = 40,
-  pattern = 514,
+  pattern = "514",
 }
 
 tile{
@@ -6559,7 +6542,7 @@ tile{
   y = 40,
   width = 144,
   height = 40,
-  pattern = 511,
+  pattern = "511",
 }
 
 tile{
@@ -6568,7 +6551,7 @@ tile{
   y = 88,
   width = 48,
   height = 40,
-  pattern = 511,
+  pattern = "511",
 }
 
 tile{
@@ -6577,7 +6560,7 @@ tile{
   y = 72,
   width = 48,
   height = 16,
-  pattern = 512,
+  pattern = "512",
 }
 
 tile{
@@ -6586,7 +6569,7 @@ tile{
   y = 80,
   width = 8,
   height = 40,
-  pattern = 514,
+  pattern = "514",
 }
 
 tile{
@@ -6595,7 +6578,7 @@ tile{
   y = 80,
   width = 8,
   height = 40,
-  pattern = 513,
+  pattern = "513",
 }
 
 tile{
@@ -6604,7 +6587,7 @@ tile{
   y = 344,
   width = 16,
   height = 16,
-  pattern = 1203,
+  pattern = "1203",
 }
 
 tile{
@@ -6613,7 +6596,7 @@ tile{
   y = 344,
   width = 16,
   height = 16,
-  pattern = 1203,
+  pattern = "1203",
 }
 
 tile{
@@ -6622,6 +6605,6 @@ tile{
   y = 344,
   width = 16,
   height = 16,
-  pattern = 1204,
+  pattern = "1204",
 }
 
