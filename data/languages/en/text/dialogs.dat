@@ -784,7 +784,6 @@ them to Inferno.
 dialog{
   id = "_treasure.feather.1",
   icon = 0,
-  skip = "all",
   text = [[
 You found the
 Feather!$0 Use it to

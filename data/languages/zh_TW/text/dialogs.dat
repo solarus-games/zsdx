@@ -702,7 +702,6 @@ dialog{
 dialog{
   id = "_treasure.feather.1",
   icon = 0,
-  skip = "all",
   text = [[
 你發現羽毛!$0 去
 在適當的地方跳躍和

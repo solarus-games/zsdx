@@ -2,6 +2,7 @@ zsdx 1.10.0 (under development)
 
 * Use Solarus 1.4.0.
 * Fix a minor tile issue in dungeon 8 entrance.
+* Fix the feather dialog that could be skipped in some languages.
 
 zsdx 1.9.0 (2014-08-21)
 
