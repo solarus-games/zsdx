@@ -18,13 +18,6 @@ local console = {
   },
 }
 
--- Global function tp to mean hero:teleport()
-function tp(...)
-
-  local hero = sol.main.game and sol.main.game:get_hero() or nil
-  hero:teleport(...)
-end
-
 function console:on_started()
   self.enabled = true
   self:build_input_text()
@@ -193,6 +186,8 @@ function console.print(...)
     local arg = select(i, ...)
     if type(arg) == "string" or type(arg) == "number" then
       text = text .. arg
+    elseif type(arg) == "boolean" then
+      text = text .. (arg and "true" or "false")
     else
       text = text .. type(arg)
     end
