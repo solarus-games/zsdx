@@ -6,6 +6,7 @@ zsdx 1.10.0 (under development)
 * Fix empty line in English dialog describing a bottle with water.
 * Fix empty buttons in savegame menu when changing language (#90).
 * Fix translation errors of two items in German (#98).
+* Dungeon 5: fix a missing door on the minimap (#99).
 * Dungeon 9: don't allow to skip the boss hint dialog (#93).
 
 zsdx 1.9.0 (2014-08-21)
