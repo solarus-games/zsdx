@@ -1,5 +1,59 @@
-text{ key = "map.caption.world_map", value = "Weltkarte" }
+text{ key = "inventory.caption.item.apples_counter.1", value = "Äpfel" }
+text{ key = "inventory.caption.item.bombs_counter.1", value = "Bomben" }
+text{ key = "inventory.caption.item.bone_key.1", value = "Roter Schlüssel" }
+text{ key = "inventory.caption.item.boomerang.1", value = "Bumerang" }
+text{ key = "inventory.caption.item.boomerang.2", value = "Bumerang" }
+text{ key = "inventory.caption.item.bottle_1.1", value = "Leere Flasche" }
+text{ key = "inventory.caption.item.bottle_1.2", value = "Gefüllte Flasche$(Wasser)" }
+text{ key = "inventory.caption.item.bottle_1.3", value = "Gefüllte Flasche$(roter Trank)" }
+text{ key = "inventory.caption.item.bottle_1.4", value = "Gefüllte Flasche$(grüner Trank)" }
+text{ key = "inventory.caption.item.bottle_1.5", value = "Gefüllte Flasche$(blauer Trank)" }
+text{ key = "inventory.caption.item.bottle_1.6", value = "Flasche$(enthält eine Fee)" }
+text{ key = "inventory.caption.item.bottle_2.1", value = "Leere Flasche" }
+text{ key = "inventory.caption.item.bottle_2.2", value = "Gefüllte Flasche$(Wasser)" }
+text{ key = "inventory.caption.item.bottle_2.3", value = "Gefüllte Flasche$(roter Trank)" }
+text{ key = "inventory.caption.item.bottle_2.4", value = "Gefüllte Flasche$(grüner Trank)" }
+text{ key = "inventory.caption.item.bottle_2.5", value = "Gefüllte Flasche$(blauer Trank)" }
+text{ key = "inventory.caption.item.bottle_2.6", value = "Flasche$(enthält eine Fee)" }
+text{ key = "inventory.caption.item.bottle_3.1", value = "Leere Flasche" }
+text{ key = "inventory.caption.item.bottle_3.2", value = "Gefüllte Flasche$(Wasser)" }
+text{ key = "inventory.caption.item.bottle_3.3", value = "Gefüllte Flasche$(roter Trank)" }
+text{ key = "inventory.caption.item.bottle_3.4", value = "Gefüllte Flasche$(grüner Trank)" }
+text{ key = "inventory.caption.item.bottle_3.5", value = "Gefüllte Flasche$(blauer Trank)" }
+text{ key = "inventory.caption.item.bottle_3.6", value = "Flasche$(enthält eine Fee)" }
+text{ key = "inventory.caption.item.bottle_4.1", value = "Leere Flasche" }
+text{ key = "inventory.caption.item.bottle_4.2", value = "Gefüllte Flasche$(Wasser)" }
+text{ key = "inventory.caption.item.bottle_4.3", value = "Gefüllte Flasche$(roter Trank)" }
+text{ key = "inventory.caption.item.bottle_4.4", value = "Gefüllte Flasche$(grüner Trank)" }
+text{ key = "inventory.caption.item.bottle_4.5", value = "Gefüllte Flasche$(blauer Trank)" }
+text{ key = "inventory.caption.item.bottle_4.6", value = "Flasche$(enthält eine Fee)" }
+text{ key = "inventory.caption.item.bow.1", value = "Bogen" }
+text{ key = "inventory.caption.item.bow.2", value = "Bogen & Pfeile" }
+text{ key = "inventory.caption.item.cane_of_somaria.1", value = "Somaria-Stab" }
+text{ key = "inventory.caption.item.clay_key.1", value = "Erdschlüssel" }
+text{ key = "inventory.caption.item.croissants_counter.1", value = "Hörnchen" }
+text{ key = "inventory.caption.item.feather.1", value = "Feder" }
+text{ key = "inventory.caption.item.fire_stones_counter.1", value = "Feuersteine" }
+text{ key = "inventory.caption.item.flippers.1", value = "Flossen" }
+text{ key = "inventory.caption.item.glove.1", value = "Krafthandschuh" }
+text{ key = "inventory.caption.item.glove.2", value = "Titanenhandschuh" }
+text{ key = "inventory.caption.item.hookshot.1", value = "Enterhaken" }
+text{ key = "inventory.caption.item.ice_key.1", value = "Eisschlüssel" }
+text{ key = "inventory.caption.item.iron_key.1", value = "Eisenschlüssel" }
+text{ key = "inventory.caption.item.lamp.1", value = "Lampe" }
+text{ key = "inventory.caption.item.level_4_way.1", value = "Apfelkuchen" }
+text{ key = "inventory.caption.item.level_4_way.2", value = "Goldbarren" }
+text{ key = "inventory.caption.item.level_4_way.3", value = "Edelweiß" }
+text{ key = "inventory.caption.item.level_4_way.4", value = "Knochenschlüssel" }
+text{ key = "inventory.caption.item.magic_cape.1", value = "Magischer Umhang" }
+text{ key = "inventory.caption.item.mystic_mirror.1", value = "Zauberspiegel" }
+text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Schokobrötchen" }
+text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Pegasus-Schuhe" }
+text{ key = "inventory.caption.item.rock_key.1", value = "Felsschlüssel" }
+text{ key = "inventory.caption.item.stone_key.1", value = "Steinschlüssel" }
+text{ key = "inventory.caption.item.wooden_key.1", value = "Holzschlüssel" }
 text{ key = "map.caption.dungeon_name_1", value = "Waldgrotte" }
+text{ key = "map.caption.dungeon_name_10", value = "Himmelsturm" }
 text{ key = "map.caption.dungeon_name_2", value = "Felshöhle" }
 text{ key = "map.caption.dungeon_name_3", value = "Höhle von$Meister Arbror" }
 text{ key = "map.caption.dungeon_name_4", value = "Schloss Schönberg" }
@@ -8,123 +62,68 @@ text{ key = "map.caption.dungeon_name_6", value = "Höhle des Inferno" }
 text{ key = "map.caption.dungeon_name_7", value = "Eistempel" }
 text{ key = "map.caption.dungeon_name_8", value = "Dungeon der$Felsnadeln" }
 text{ key = "map.caption.dungeon_name_9", value = "Tempel der$Erinnerung" }
-text{ key = "map.caption.dungeon_name_10", value = "Himmelsturm" }
-text{ key = "quest_status.caption.rupee_bag_1", value = "Geldbeutel" }
-text{ key = "quest_status.caption.rupee_bag_2", value = "Großer$Geldbeutel" }
-text{ key = "quest_status.caption.rupee_bag_3", value = "Riesiger$Geldbeutel" }
+text{ key = "map.caption.world_map", value = "Weltkarte" }
+text{ key = "options.caption.press_action_change_mode", value = "Auf Aktion drücken, um$den Modus zu wechseln" }
+text{ key = "options.caption.press_action_customize_key", value = "Auf Aktion drücken, um$die Taste zu ändern" }
+text{ key = "options.caption.press_key", value = "Taste der Tatstatur$oder des joypads drücken" }
+text{ key = "options.command.action", value = "Aktion" }
+text{ key = "options.command.attack", value = "Schwert" }
+text{ key = "options.command.down", value = "Unten" }
+text{ key = "options.command.item_1", value = "Ggstd l." }
+text{ key = "options.command.item_2", value = "Ggstd r." }
+text{ key = "options.command.left", value = "Links" }
+text{ key = "options.command.pause", value = "Pause" }
+text{ key = "options.command.right", value = "Rechts" }
+text{ key = "options.command.up", value = "Oben" }
+text{ key = "options.commands_column", value = "Steuerung" }
+text{ key = "options.joypad_column", value = "Joypad" }
+text{ key = "options.keyboard_column", value = "Tastatur" }
+text{ key = "options.video.fullscreen", value = "Vollbild" }
+text{ key = "options.video.windowed", value = "Fenster" }
 text{ key = "quest_status.caption.bomb_bag_1", value = "Bombentasche" }
 text{ key = "quest_status.caption.bomb_bag_2", value = "Große$Bombentasche" }
 text{ key = "quest_status.caption.bomb_bag_3", value = "Riesige$Bombentasche" }
+text{ key = "quest_status.caption.pieces_of_heart", value = "Herzteile" }
 text{ key = "quest_status.caption.quiver_1", value = "Köcher" }
 text{ key = "quest_status.caption.quiver_2", value = "Großer Köcher" }
 text{ key = "quest_status.caption.quiver_3", value = "Riesiger Köcher" }
-text{ key = "quest_status.caption.world_map", value = "Weltkarte" }
-text{ key = "quest_status.caption.pieces_of_heart", value = "Herzteile" }
-text{ key = "quest_status.caption.tunic_1", value = "Grüne Rüstung" }
-text{ key = "quest_status.caption.tunic_2", value = "Blaue Rüstung" }
-text{ key = "quest_status.caption.tunic_3", value = "Rote Rüstung" }
+text{ key = "quest_status.caption.rupee_bag_1", value = "Geldbeutel" }
+text{ key = "quest_status.caption.rupee_bag_2", value = "Großer$Geldbeutel" }
+text{ key = "quest_status.caption.rupee_bag_3", value = "Riesiger$Geldbeutel" }
+text{ key = "quest_status.caption.shield_1", value = "Schild" }
+text{ key = "quest_status.caption.shield_2", value = "Feuerschild" }
+text{ key = "quest_status.caption.shield_3", value = "Spiegelschild" }
 text{ key = "quest_status.caption.sword_1", value = "Schwert des Mutes" }
 text{ key = "quest_status.caption.sword_2", value = "Hyrulisches Schwert" }
 text{ key = "quest_status.caption.sword_3", value = "Heroen-Säbel" }
 text{ key = "quest_status.caption.sword_4", value = "Kinge des reinen Lichts" }
-text{ key = "quest_status.caption.shield_1", value = "Schild" }
-text{ key = "quest_status.caption.shield_2", value = "Feuerschild" }
-text{ key = "quest_status.caption.shield_3", value = "Spiegelschild" }
-text{ key = "inventory.caption.item.feather.1", value = "Feder" }
-text{ key = "inventory.caption.item.bombs_counter.1", value = "Bomben" }
-text{ key = "inventory.caption.item.bow.1", value = "Bogen" }
-text{ key = "inventory.caption.item.bow.2", value = "Bogen & Pfeile" }
-text{ key = "inventory.caption.item.boomerang.1", value = "Bumerang" }
-text{ key = "inventory.caption.item.boomerang.2", value = "Bumerang" }
-text{ key = "inventory.caption.item.lamp.1", value = "Lampe" }
-text{ key = "inventory.caption.item.hookshot.1", value = "Enterhaken" }
-text{ key = "inventory.caption.item.bottle_1.1", value = "Leere Flasche" }
-text{ key = "inventory.caption.item.bottle_1.2", value = "Gefüllte Flasche$(Wasser)" }
-text{ key = "inventory.caption.item.bottle_1.3", value = "Gefüllte Flasche$(roter Trank)" }
-text{ key = "inventory.caption.item.bottle_1.4", value = "Gefüllte Flasche$(grüner Trank)" }
-text{ key = "inventory.caption.item.bottle_1.5", value = "Gefüllte Flasche$(blauer Trank)" }
-text{ key = "inventory.caption.item.bottle_1.6", value = "Flasche$(enthält eine Fee)" }
-text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Pegasus-Schuhe" }
-text{ key = "inventory.caption.item.mystic_mirror.1", value = "Zauberspiegel" }
-text{ key = "inventory.caption.item.cane_of_somaria.1", value = "Somaria-Stab" }
-text{ key = "inventory.caption.item.apples_counter.1", value = "Äpfel" }
-text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Schokobrötchen" }
-text{ key = "inventory.caption.item.croissants_counter.1", value = "Hörnchen" }
-text{ key = "inventory.caption.item.bottle_2.1", value = "Leere Flasche" }
-text{ key = "inventory.caption.item.bottle_2.2", value = "Gefüllte Flasche$(Wasser)" }
-text{ key = "inventory.caption.item.bottle_2.3", value = "Gefüllte Flasche$(roter Trank)" }
-text{ key = "inventory.caption.item.bottle_2.4", value = "Gefüllte Flasche$(grüner Trank)" }
-text{ key = "inventory.caption.item.bottle_2.5", value = "Gefüllte Flasche$(blauer Trank)" }
-text{ key = "inventory.caption.item.bottle_2.6", value = "Flasche$(enthält eine Fee)" }
-text{ key = "inventory.caption.item.rock_key.1", value = "Felsschlüssel" }
-text{ key = "inventory.caption.item.bone_key.1", value = "Roter Schlüssel" }
-text{ key = "inventory.caption.item.clay_key.1", value = "Erdschlüssel" }
-text{ key = "inventory.caption.item.level_4_way.1", value = "Apfelkuchen" }
-text{ key = "inventory.caption.item.level_4_way.2", value = "Goldbarren" }
-text{ key = "inventory.caption.item.level_4_way.3", value = "Edelweiß" }
-text{ key = "inventory.caption.item.level_4_way.4", value = "Knochenschlüssel" }
-text{ key = "inventory.caption.item.flippers.1", value = "Flossen" }
-text{ key = "inventory.caption.item.magic_cape.1", value = "Magischer Umhang" }
-text{ key = "inventory.caption.item.bottle_3.1", value = "Leere Flasche" }
-text{ key = "inventory.caption.item.bottle_3.2", value = "Gefüllte Flasche$(Wasser)" }
-text{ key = "inventory.caption.item.bottle_3.3", value = "Gefüllte Flasche$(roter Trank)" }
-text{ key = "inventory.caption.item.bottle_3.4", value = "Gefüllte Flasche$(grüner Trank)" }
-text{ key = "inventory.caption.item.bottle_3.5", value = "Gefüllte Flasche$(blauer Trank)" }
-text{ key = "inventory.caption.item.bottle_3.6", value = "Flasche$(enthält eine Fee)" }
-text{ key = "inventory.caption.item.iron_key.1", value = "Eisenschlüssel" }
-text{ key = "inventory.caption.item.stone_key.1", value = "Steinschlüssel" }
-text{ key = "inventory.caption.item.wooden_key.1", value = "Holzschlüssel" }
-text{ key = "inventory.caption.item.ice_key.1", value = "Eisschlüssel" }
-text{ key = "inventory.caption.item.glove.1", value = "Krafthandschuh" }
-text{ key = "inventory.caption.item.glove.2", value = "Titanenhandschuh" }
-text{ key = "inventory.caption.item.fire_stones_counter.1", value = "Feuersteine" }
-text{ key = "inventory.caption.item.bottle_4.1", value = "Leere Flasche" }
-text{ key = "inventory.caption.item.bottle_4.2", value = "Gefüllte Flasche$(Wasser)" }
-text{ key = "inventory.caption.item.bottle_4.3", value = "Gefüllte Flasche$(roter Trank)" }
-text{ key = "inventory.caption.item.bottle_4.4", value = "Gefüllte Flasche$(grüner Trank)" }
-text{ key = "inventory.caption.item.bottle_4.5", value = "Gefüllte Flasche$(blauer Trank)" }
-text{ key = "inventory.caption.item.bottle_4.6", value = "Flasche$(enthält eine Fee)" }
-text{ key = "options.caption.press_action_change_mode", value = "Auf Aktion drücken, um$den Modus zu wechseln" }
-text{ key = "options.caption.press_action_customize_key", value = "Auf Aktion drücken, um$die Taste zu ändern" }
-text{ key = "options.caption.press_key", value = "Taste der Tatstatur$oder des joypads drücken" }
-text{ key = "options.video.windowed", value = "Fenster" }
-text{ key = "options.video.fullscreen", value = "Vollbild" }
-text{ key = "options.commands_column", value = "Steuerung" }
-text{ key = "options.keyboard_column", value = "Tastatur" }
-text{ key = "options.joypad_column", value = "Joypad" }
-text{ key = "options.command.action", value = "Aktion" }
-text{ key = "options.command.attack", value = "Schwert" }
-text{ key = "options.command.item_1", value = "Ggstd l." }
-text{ key = "options.command.item_2", value = "Ggstd r." }
-text{ key = "options.command.pause", value = "Pause" }
-text{ key = "options.command.right", value = "Rechts" }
-text{ key = "options.command.up", value = "Oben" }
-text{ key = "options.command.left", value = "Links" }
-text{ key = "options.command.down", value = "Unten" }
-text{ key = "save_dialog.yes", value = "Ja" }
+text{ key = "quest_status.caption.tunic_1", value = "Grüne Rüstung" }
+text{ key = "quest_status.caption.tunic_2", value = "Blaue Rüstung" }
+text{ key = "quest_status.caption.tunic_3", value = "Rote Rüstung" }
+text{ key = "quest_status.caption.world_map", value = "Weltkarte" }
+text{ key = "save_dialog.continue_question_0", value = "Spiel" }
+text{ key = "save_dialog.continue_question_1", value = "fortsetzen ?" }
 text{ key = "save_dialog.no", value = "Nein" }
 text{ key = "save_dialog.save_question_0", value = "Fortschritt" }
 text{ key = "save_dialog.save_question_1", value = "speichern ?" }
-text{ key = "save_dialog.continue_question_0", value = "Spiel" }
-text{ key = "save_dialog.continue_question_1", value = "fortsetzen ?" }
-text{ key = "selection_menu.phase.select_file", value = "Wahl des Spielstands" }
+text{ key = "save_dialog.yes", value = "Ja" }
+text{ key = "selection_menu.back", value = "Zurück" }
+text{ key = "selection_menu.big_no", value = "NEIN" }
+text{ key = "selection_menu.big_yes", value = "JA" }
+text{ key = "selection_menu.cancel", value = "Abbruch" }
+text{ key = "selection_menu.empty", value = "Leer" }
+text{ key = "selection_menu.erase", value = "Löschen" }
+text{ key = "selection_menu.options", value = "Optionen" }
+text{ key = "selection_menu.options.language", value = "Sprache" }
+text{ key = "selection_menu.options.music_volume", value = "Musiklautstärke" }
+text{ key = "selection_menu.options.sound_volume", value = "Tonlautstärke" }
+text{ key = "selection_menu.options.video_mode", value = "Modus" }
 text{ key = "selection_menu.phase.choose_mode", value = "Wahl des Spielemodus" }
 text{ key = "selection_menu.phase.choose_name", value = "Wie lautet Ihr Name ?" }
 text{ key = "selection_menu.phase.confirm_erase", value = "Ganz sicher ?" }
 text{ key = "selection_menu.phase.erase_file", value = "Welcher Spielstand soll gelöscht werden?" }
 text{ key = "selection_menu.phase.options", value = "Einstellungen" }
 text{ key = "selection_menu.phase.options.changing", value = "<  > : auswählen, Leertaste : bestätigen" }
-text{ key = "selection_menu.erase", value = "Löschen" }
-text{ key = "selection_menu.cancel", value = "Abbruch" }
-text{ key = "selection_menu.big_yes", value = "JA" }
-text{ key = "selection_menu.big_no", value = "NEIN" }
-text{ key = "selection_menu.empty", value = "Leer" }
-text{ key = "selection_menu.options", value = "Optionen" }
-text{ key = "selection_menu.back", value = "Zurück" }
-text{ key = "selection_menu.options.language", value = "Sprache" }
-text{ key = "selection_menu.options.video_mode", value = "Modus" }
-text{ key = "selection_menu.options.music_volume", value = "Musiklautstärke" }
-text{ key = "selection_menu.options.sound_volume", value = "Tonlautstärke" }
-text{ key = "title_screen.website", value = "www.solarus-games.org" }
+text{ key = "selection_menu.phase.select_file", value = "Wahl des Spielstands" }
 text{ key = "title_screen.press_space", value = "Bitte Leertaste drücken" }
-
+text{ key = "title_screen.website", value = "www.solarus-games.org" }
