@@ -1,6 +1,6 @@
 text{ key = "inventory.caption.item.apples_counter.1", value = "Äpfel" }
 text{ key = "inventory.caption.item.bombs_counter.1", value = "Bomben" }
-text{ key = "inventory.caption.item.bone_key.1", value = "Roter Schlüssel" }
+text{ key = "inventory.caption.item.bone_key.1", value = "Knochenschlüssel" }
 text{ key = "inventory.caption.item.boomerang.1", value = "Bumerang" }
 text{ key = "inventory.caption.item.boomerang.2", value = "Bumerang" }
 text{ key = "inventory.caption.item.bottle_1.1", value = "Leere Flasche" }
@@ -44,7 +44,7 @@ text{ key = "inventory.caption.item.lamp.1", value = "Lampe" }
 text{ key = "inventory.caption.item.level_4_way.1", value = "Apfelkuchen" }
 text{ key = "inventory.caption.item.level_4_way.2", value = "Goldbarren" }
 text{ key = "inventory.caption.item.level_4_way.3", value = "Edelweiß" }
-text{ key = "inventory.caption.item.level_4_way.4", value = "Knochenschlüssel" }
+text{ key = "inventory.caption.item.level_4_way.4", value = "Schriftrolle$der Schwertkunst" }
 text{ key = "inventory.caption.item.magic_cape.1", value = "Magischer Umhang" }
 text{ key = "inventory.caption.item.mystic_mirror.1", value = "Zauberspiegel" }
 text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Schokobrötchen" }
