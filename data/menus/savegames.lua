@@ -822,14 +822,15 @@ end
 -- This function is called when the language has just been changed.
 function savegame_menu:reload_options_strings()
 
-  local font, font_size = sol.language.get_menu_font()
+  local menu_font, menu_font_size = sol.language.get_menu_font()
+  local dialog_font, dialog_font_size = sol.language.get_dialog_font()
   -- Update the label of each option.
   for _, option in ipairs(self.options) do
 
-    option.label_text:set_font(font)
-    option.label_text:set_font_size(font_size)
-    option.value_text:set_font(font)
-    option.value_text:set_font_size(font_size)
+    option.label_text:set_font(menu_font)
+    option.label_text:set_font_size(menu_font_size)
+    option.value_text:set_font(menu_font)
+    option.value_text:set_font_size(menu_font_size)
     option.label_text:set_text_key("selection_menu.options." .. option.name)
 
     -- And the value of the video mode.
@@ -841,8 +842,12 @@ function savegame_menu:reload_options_strings()
 
   -- Other menu elements
   self.title_text:set_text_key("selection_menu.phase.options")
-  self.title_text:set_font(font)
-  self.title_text:set_font_size(font_size)
+  self.title_text:set_font(menu_font)
+  self.title_text:set_font_size(menu_font_size)
+  self.option1_text:set_font(dialog_font)
+  self.option1_text:set_font_size(dialog_font_size)
+  self.option2_text:set_font(dialog_font)
+  self.option2_text:set_font_size(dialog_font_size)
   self:set_bottom_buttons("selection_menu.back", nil)
   self:read_savegames()  -- To update "- Empty -" mentions.
 end
