@@ -999,6 +999,7 @@ tile{
 }
 
 shop_treasure{
+  font = "la",
   layer = 1,
   x = 88,
   y = 104,
@@ -1020,6 +1021,7 @@ npc{
 }
 
 shop_treasure{
+  font = "la",
   layer = 1,
   x = 144,
   y = 104,
@@ -1031,6 +1033,7 @@ shop_treasure{
 }
 
 shop_treasure{
+  font = "la",
   layer = 1,
   x = 200,
   y = 104,

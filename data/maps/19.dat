@@ -640,6 +640,7 @@ npc{
 }
 
 shop_treasure{
+  font = "la",
   layer = 0,
   x = 80,
   y = 128,
@@ -651,6 +652,7 @@ shop_treasure{
 }
 
 shop_treasure{
+  font = "la",
   layer = 0,
   x = 208,
   y = 128,
@@ -671,6 +673,7 @@ sensor{
 }
 
 shop_treasure{
+  font = "la",
   layer = 0,
   x = 144,
   y = 128,

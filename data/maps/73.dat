@@ -883,6 +883,7 @@ npc{
 }
 
 shop_treasure{
+  font = "la",
   layer = 1,
   x = 112,
   y = 216,
@@ -894,6 +895,7 @@ shop_treasure{
 }
 
 shop_treasure{
+  font = "la",
   layer = 1,
   x = 176,
   y = 216,
@@ -905,6 +907,7 @@ shop_treasure{
 }
 
 shop_treasure{
+  font = "la",
   layer = 1,
   x = 240,
   y = 216,
@@ -916,6 +919,7 @@ shop_treasure{
 }
 
 shop_treasure{
+  font = "la",
   layer = 1,
   x = 240,
   y = 168,
