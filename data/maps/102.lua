@@ -81,7 +81,7 @@ function map:on_started(destination)
   end
 
   -- shortcut to the boss
-  local shortcut = map:get_game():get_value("b628")
+  local shortcut = map:get_game():get_value("b628") == true
   shortcut_switch:set_activated(shortcut)
   map:set_entities_enabled("shortcut_on", shortcut)
   map:set_entities_enabled("shortcut_off", not shortcut)
