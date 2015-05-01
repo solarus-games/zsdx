@@ -61,7 +61,7 @@ function item:print_pieces_of_heart()
     {savegame_variable = "b309", description = "dungeon 6 4F: under a platform"},
     {savegame_variable = "b601", description = "dungeon 7 1F: in a pipe"},
     {savegame_variable = "b724", description = "dungeon 8 1F: weak wall"},
-    {savegame_variable =  "b22", description = "dungeon 9 2F: get out to outside world A4"},
+    {savegame_variable =  "b15", description = "dungeon 9 2F: get out to outside world A4"},
     {savegame_variable = "b241", description = "secret dungeon 4F: use the hookshot"},
   }
 
