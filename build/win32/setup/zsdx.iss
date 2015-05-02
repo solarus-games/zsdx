@@ -5,7 +5,7 @@
 #define MyAppVersion "1.10.0"
 #define MyAppPublisher "Solarus"
 #define MyAppURL "http://www.solarus-games.org"
-#define MyAppExeName "solarus.exe"
+#define MyAppExeName "solarus_run.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -36,7 +36,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"; InfoBeforeFile: "info_pre
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "files_to_install\solarus.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\solarus_run.exe"; DestDir: "{app}"; Flags: ignoreversion    
+Source: "files_to_install\libsolarus.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\data.solarus"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\quest_icon.ico"; DestDir: "{app}"
 Source: "files_to_install\libfreetype-6.dll"; DestDir: "{sys}"
