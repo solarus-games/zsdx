@@ -20,9 +20,9 @@ function language_menu:on_started()
     self.max_visible_languages = 10
     self.nb_visible_languages = math.min(#ids, self.max_visible_languages)
     self.languages = {}
-    local font, font_size = sol.language.get_menu_font()
     for _, id in ipairs(ids) do
       local language = {}
+      local font, font_size = sol.language.get_menu_font(id)
       language.id = id
       language.text = sol.text_surface.create{
         font = font,
