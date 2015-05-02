@@ -1,6 +1,6 @@
-zsdx 1.10.0 (under development)
+zsdx 1.10.0 (2015-05-02)
 
-* Use Solarus 1.4.0.
+* Upgrade to Solarus 1.4.0.
 * Fix a minor tile issue in dungeon 8 entrance.
 * Fix the feather dialog that could be skipped in some languages.
 * Fix empty line in English dialog describing a bottle with water.
