@@ -39,11 +39,11 @@ function item:on_using()
       local old_x, old_y, old_layer = self.somaria_block:get_position()
       if x ~= old_x or y ~= old_y or layer ~= old_layer then
 
-	sol.audio.play_sound("cane")
-	sol.audio.play_sound("magic_bar")
-	game:remove_magic(magic_needed)
+        sol.audio.play_sound("cane")
+        sol.audio.play_sound("magic_bar")
+        game:remove_magic(magic_needed)
 
-	self.somaria_block:set_position(x, y, layer)
+        self.somaria_block:set_position(x, y, layer)
       end
     end
   else
