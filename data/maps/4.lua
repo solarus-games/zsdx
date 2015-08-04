@@ -71,9 +71,9 @@ function map:on_started(destination)
 
     sensor.on_activated_repeat = function()
       if hero:get_direction() == 1
-	  and tile:is_enabled() then
-	tile:set_enabled(false)
-	sol.audio.play_sound("door_open")
+	       and tile:is_enabled() then
+        tile:set_enabled(false)
+        sol.audio.play_sound("door_open")
       end
     end
   end
@@ -84,7 +84,7 @@ function map:on_opening_transition_finished(destination)
   if destination == from_ending then
     game:start_dialog("credits_2", function()
       sol.timer.start(2000, function()
-	hero:teleport(56, "from_ending")
+        hero:teleport(56, "from_ending")
       end)
     end)
     map:move_camera(184, 80, 25, function() end, 1e6)
