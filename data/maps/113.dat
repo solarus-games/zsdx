@@ -5,6 +5,7 @@ properties{
   height = 480,
   world = "inside_world",
   floor = 2,
+  num_layers = 3,
   tileset = "3",
   music = "cave",
 }
