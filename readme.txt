@@ -22,22 +22,22 @@ Contents
 1  Play directly
 ----------------
 
-You need to specify to the solarus binary the path of the quest data files to
-use.
-solarus accepts two forms of quest paths:
+You need to specify to the solarus_run binary the path of the quest data files
+to use.
+solarus_run accepts two forms of quest paths:
 - a directory having a subdirectory named "data" with all data inside,
 - a directory having a zip archive "data.solarus" with all data inside.
 
 Thus, to run zsdx, if the current directory is the one that
 contains the "data" subdirectory (and this readme), you can type
 
-$ solarus .
+$ solarus_run .
 
 or without arguments:
 
-$ solarus
+$ solarus_run
 
-if solarus was compiled with the default quest set to ".".
+if Solarus was compiled with the default quest set to ".".
 
 
 --------------------
@@ -64,7 +64,7 @@ is /usr/local):
 - the quest data archive ("data.solarus") in /usr/local/share/solarus/zsdx/
 - a script called "zsdx" in /usr/local/bin/
 
-The zsdx script launches solarus with the appropriate command-line argument
+The zsdx script launches solarus_run with the appropriate command-line argument
 to specify the quest path.
 This means that you can launch the zsdx quest with the command:
 
@@ -72,7 +72,7 @@ $ zsdx
 
 which is equivalent to:
 
-$ solarus /usr/local/share/solarus/zsdx
+$ solarus_run /usr/local/share/solarus/zsdx
 
 
 3.2  Change the install directory
@@ -88,5 +88,5 @@ $ make install
 
 This installs the files described above, with the
 /usr/local prefix replaced by the one you specified.
-The script generated runs solarus with the appropriate quest path.
+The script generated runs solarus_run with the appropriate quest path.
 
