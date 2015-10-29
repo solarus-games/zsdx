@@ -1,4 +1,5 @@
 local item = ...
+local game = item:get_game()
 
 -- This script defines the behavior of pickable fairies present on the map.
 
@@ -48,28 +49,35 @@ function item:on_obtaining(variant, savegame_variable)
 
   if not self:get_game():has_bottle() then
     -- The player has no bottle: just restore 7 hearts.
-    self:get_game():add_life(7 * 4)
+    game:add_life(7 * 4)
   else
     -- The player has a bottle: start the dialog.
-    self:get_game():start_dialog("found_fairy", function(answer)
+    game:start_dialog("found_fairy", function(answer)
 
       if answer == "skipped" or answer == 1 then
-	-- Restore 7 hearts.
-	self:get_game():add_life(7 * 4)
+        -- Restore 7 hearts.
+        if game:get_life() == game:get_max_life() then
+          -- Life is already full: we still play a sound to indicate
+          -- that the fairy was picked.
+          -- Otherwise it looks like if nothing happened.
+          sol.audio.play_sound("picked_item")
+        else
+          game:add_life(7 * 4)
+        end
       else
-	-- Keep the fairy in a bottle.
-	local first_empty_bottle = self:get_game():get_first_empty_bottle()
-	if first_empty_bottle == nil then
-	  -- No empty bottle.
-	  self:get_game():start_dialog("found_fairy.no_empty_bottle", function()
-	    self:get_game():add_life(7 * 4)
-	  end)
-	  sol.audio.play_sound("wrong")
-	else
-	  -- Okay, empty bottle.
-	  first_empty_bottle:set_variant(6)
-	  sol.audio.play_sound("danger")
-	end
+        -- Keep the fairy in a bottle.
+        local first_empty_bottle = self:get_game():get_first_empty_bottle()
+        if first_empty_bottle == nil then
+          -- No empty bottle.
+          game:start_dialog("found_fairy.no_empty_bottle", function()
+            game:add_life(7 * 4)
+          end)
+          sol.audio.play_sound("wrong")
+        else
+          -- Okay, empty bottle.
+          first_empty_bottle:set_variant(6)
+          sol.audio.play_sound("danger")
+        end
       end
     end)
   end
