@@ -3,7 +3,6 @@ properties{
   y = 0,
   width = 2576,
   height = 2320,
-  num_layers = 3,
   world = "dungeon_9",
   floor = 0,
   tileset = "15",
