@@ -7,7 +7,7 @@ local map = ...
 function map:start_evil_tiles()
 
   local total = map:get_entities_count("evil_tile_enemy")
-  local next = 1  -- Index of the next evil tile to spawn.
+  local next_index = 1  -- Index of the next evil tile to spawn.
   local spawn_delay = 1500  -- Delay between two evil tiles.
 
   map:set_entities_enabled("evil_tile_enemy", false)
@@ -16,10 +16,10 @@ function map:start_evil_tiles()
   -- Spawns a tile and schedules the next one.
   local function repeat_spawn()
 
-    map:get_entity("evil_tile_enemy_" .. next):set_enabled(true)
-    map:get_entity("evil_tile_after_" .. next):set_enabled(true)
-    next = next + 1
-    if next <= total then
+    map:get_entity("evil_tile_enemy_" .. next_index):set_enabled(true)
+    map:get_entity("evil_tile_after_" .. next_index):set_enabled(true)
+    next_index = next_index + 1
+    if next_index <= total then
       sol.timer.start(spawn_delay, repeat_spawn)
     end
   end
@@ -35,8 +35,13 @@ function map:start_evil_tiles()
     if remaining > 1 then
       again = true
     elseif remaining == 1 then
-      local sprite = map:get_entity("evil_tile_enemy_" .. total):get_sprite()
-      again = sprite:get_animation() ~= "destroy"
+      for enemy in map:get_entities("evil_tile_enemy_") do
+        local sprite = enemy:get_sprite()
+        if sprite and sprite:get_animation() ~= "destroy" then
+          again = true
+          break
+        end
+      end
     end
 
     if again then

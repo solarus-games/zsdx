@@ -3,6 +3,7 @@ zsdx 1.10.2 (in progress)
 * Upgrade to Solarus 1.4.5.
 * Make fairies play a sound when restoring life even when already full (#101).
 * Dungeon 1: fix unintentional extra difficulty with block alignment (#102).
+* Dungeon 10: fix evil tiles door not opening sometimes (#94).
 
 zsdx 1.10.1 (2015-05-09)
 
