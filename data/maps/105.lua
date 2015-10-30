@@ -26,7 +26,6 @@ function map:on_started(destination)
     -- not solved yet
     puzzle_a_chest:set_enabled(false)
   end
-  map:set_entities_enabled("puzzle_a_green", false)
 
   -- puzzle B
   if destination == from_b1_w
@@ -219,7 +218,7 @@ local function puzzle_b_switch_activated(switch)
       -- error
       sol.audio.play_sound("wrong")
       for i = 1, 4 do
-	map:get_entity("puzzle_b_switch_" .. i):set_activated(false)
+        map:get_entity("puzzle_b_switch_" .. i):set_activated(false)
       end
       puzzle_b_nb_activated = 0
       switch:set_locked(true)
@@ -245,7 +244,6 @@ end
 -- puzzle A: each switch changes its neighboors in the 4 main directions
 local function puzzle_a_switch_activated(switch)
 
-  sol.audio.play_sound("switch")
   local to_change = { {2,4}, {1,3,5}, {2,6}, {1,5}, {2,4,6}, {3,5} }
   local index = tonumber(switch:get_name():match("^puzzle_a_switch_([1-6])$"))
   if index then
@@ -254,17 +252,17 @@ local function puzzle_a_switch_activated(switch)
     for i, v in ipairs(to_change[index]) do
       local red_tile = map:get_entity("puzzle_a_red_" .. v)
       local green_tile = map:get_entity("puzzle_a_green_" .. v)
-      local on = red_tile:is_enabled()
-      green_tile:set_enabled(on)
-      red_tile:set_enabled(not on)
+      local on = red_tile:is_visible()
+      green_tile:set_visible(on)
+      red_tile:set_visible(not on)
     end
 
     -- check the success
     local success = true
     for i = 1, 6 do
-      if map:get_entity("puzzle_a_red_" .. i):is_enabled() then
-	success = false
-	break
+      if map:get_entity("puzzle_a_red_" .. i):is_visible() then
+        success = false
+        break
       end
     end
     if success then
@@ -272,9 +270,9 @@ local function puzzle_a_switch_activated(switch)
       map:set_entities_enabled("puzzle_a_green", false)
       map:set_entities_enabled("puzzle_a_red", false)
       map:move_camera(896, 1896, 250, function()
-	sol.audio.play_sound("chest_appears")
-	puzzle_a_chest:set_enabled(true)
-	game:set_value("b802", true)
+        sol.audio.play_sound("chest_appears")
+        puzzle_a_chest:set_enabled(true)
+        game:set_value("b802", true)
       end)
     end
   end
