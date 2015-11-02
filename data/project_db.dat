@@ -612,6 +612,7 @@ language{ id = "de", description = "Deutsch" }
 language{ id = "en", description = "English" }
 language{ id = "es", description = "Español" }
 language{ id = "fr", description = "Français" }
+language{ id = "it", description = "Italiano" }
 language{ id = "zh_CN", description = "中文（中国）" }
 language{ id = "zh_TW", description = "中文（台灣）" }
 

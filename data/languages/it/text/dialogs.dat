@@ -1,0 +1,5605 @@
+dialog{
+  id = "_big_key_required",
+  icon = "73",
+  skip = "all",
+  text = [[
+Huh? È chiuso!
+Forse con la Chiave
+Grande potresti riuscire
+ad aprirlo!
+]]
+}
+
+dialog{
+  id = "_boss_key_required",
+  icon = "74",
+  skip = "all",
+  text = [[
+Questa porta conduce
+alla Tana del Mostro!
+Serve la Chiave del
+Mostro per aprirla.
+]]
+}
+
+dialog{
+  id = "_cannot_lift_should_cut",
+  skip = "all",
+  text = [[
+Ti serve qualcosa di
+affilato per tagliare
+queste erbacce.
+]]
+}
+
+dialog{
+  id = "_cannot_lift_still_too_heavy",
+  skip = "all",
+  text = [[
+È ancora troppo pesante
+per riuscire a sollevarlo!
+]]
+}
+
+dialog{
+  id = "_cannot_lift_too_heavy",
+  skip = "all",
+  text = [[
+Diamine, è davvero
+troppo pesante!
+
+Non ce la potrai mai
+fare a mani nude!
+]]
+}
+
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+È un interruttore di 
+cristallo. Prova a 
+colpirlo con qualcosa...
+]]
+}
+
+dialog{
+  id = "_empty_chest",
+  text = [[
+Il forziere è vuoto!
+Che sfortuna!
+]]
+}
+
+dialog{
+  id = "_item_description.apples_counter.1",
+  icon = "16",
+  skip = "all",
+  text = [[
+Mangia delle Mele per
+recuperare la tua Salute.
+]]
+}
+
+dialog{
+  id = "_item_description.bombs_counter.1",
+  icon = "1",
+  skip = "all",
+  text = [[
+Usa le Bombe contro
+i nemici e per
+distruggere gli ostacoli.
+]]
+}
+
+dialog{
+  id = "_item_description.bone_key.1",
+  icon = "20",
+  skip = "all",
+  text = [[
+A che cosa servirà
+questa Chiave d'Osso?
+]]
+}
+
+dialog{
+  id = "_item_description.boomerang.1",
+  icon = "4",
+  skip = "all",
+  text = [[
+Usa il Boomerang per
+immobilizzare i nemici
+e raccogliere oggetti fuori
+dalla tua portata.
+]]
+}
+
+dialog{
+  id = "_item_description.boomerang.2",
+  icon = "35",
+  skip = "all",
+  text = [[
+Usa il Boomerang
+Migliorato per 
+immobilizzare i nemici
+e raccogliere oggetti
+fuori dalla tua portata.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+L'Ampolla Magica può
+contenere varie
+pozioni.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+La tua Ampolla Magica
+è riempita con
+acqua.
+Usala nel 
+luogo appropriato...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bevi la Pozione Rossa
+per riempire tutta
+la Barra della Salute.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bevi la Pozione Verde
+per riempire tutta
+la Barra del Mana.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bevi la Pozione Blu
+per riempire sia
+la Barra della Salute
+che quella del Mana!
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Questa Fatina ti aiuterà
+quando sarai in difficoltà.
+Inoltre puoi utilizzarla
+quando vuoi recuperare
+la tua Salute!
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Ampolle Magiche possono
+contenere varie
+pozioni.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+La tua Ampolla Magica
+è riempita con
+acqua.
+Usala nel
+luogo appropriato...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bevi la Pozione Rossa
+per riempire la
+Barra della Salute.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bevi la Pozione Verde
+Per riempire la Barra
+del Mana.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bevi la Pozione Blu
+per riempire sia
+la Barra della Salute
+che quella del Mana!
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Questa Fatina ti aiuterà
+quando ne avrai bisogno.
+Inoltre puoi utilizzarla
+quando vuoi recuperare
+la tua Salute!
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Ampolle Magiche possono
+contenere varie
+pozioni.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+La tua Ampolla Magica
+è riempita con
+acqua.
+Usala nel
+luogo appropriato...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bevi la Pozione Rossa
+per riempire tutta
+la Barra della Salute.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bevi la Pozione Verde
+per riempire tutta
+la Barra del Mana.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bevi la Pozione Blu
+per riempire sia
+la Barra della Salute
+che quella del Mana!
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Questa Fatina ti aiuterà
+quando sarai nei guai.
+Inoltre puoi utilizzarla
+quando vuoi recuperare
+la tua Salute!
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Ampolle Magiche possono
+contenere varie
+pozioni.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+La tua Ampolla Magica
+è riempita con
+acqua.
+Usala nel
+luogo appropriato...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bevi la Pozione Rossa
+per riempire tutta
+la Barra della Salute.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bevi la Pozione Verde
+per riempire tutta
+la Barra del Mana.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bevi la Pozione Blu
+per riempire sia
+la Barra della Salute
+che quella del Mana!
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Questa Fatina ti aiuterà
+quando sei in difficoltà.
+Inoltre puoi utilizzarla
+quando vuoi recuperare
+la tua Salute!
+]]
+}
+
+dialog{
+  id = "_item_description.bow.1",
+  icon = "2",
+  skip = "all",
+  text = [[
+Hai finito
+le Frecce!
+]]
+}
+
+dialog{
+  id = "_item_description.bow.2",
+  icon = "3",
+  skip = "all",
+  text = [[
+Scocca le Frecce
+per sconfiggere i nemici
+più forti.
+]]
+}
+
+dialog{
+  id = "_item_description.cane_of_somaria.1",
+  icon = "15",
+  next = "_warning_magic",
+  skip = "all",
+  text = [[
+Crea un blocco e ti
+aggancia ad esso
+utilizzando l'Arpione.
+]]
+}
+
+dialog{
+  id = "_item_description.clay_key.1",
+  icon = "21",
+  skip = "all",
+  text = [[
+La Chiave di Terra. Ti
+consente di accedere
+alle grotte del villaggio.
+]]
+}
+
+dialog{
+  id = "_item_description.croissants_counter.1",
+  icon = "18",
+  skip = "all",
+  text = [[
+Mangia un Cornetto per
+recuperare sette
+Cuori.
+]]
+}
+
+dialog{
+  id = "_item_description.feather.1",
+  icon = "0",
+  skip = "all",
+  text = [[
+Usa la Piuma per
+saltare sopra gli ostacoli.
+]]
+}
+
+dialog{
+  id = "_item_description.fire_stones_counter.1",
+  icon = "34",
+  skip = "all",
+  text = [[
+Trova tutte e tre le
+Pietre del Fuoco e portale
+nell'Inferno.
+]]
+}
+
+dialog{
+  id = "_item_description.flippers.1",
+  icon = "26",
+  skip = "all",
+  text = [[
+Nuota in acque profonde
+con queste Pinne.
+]]
+}
+
+dialog{
+  id = "_item_description.glove.1",
+  icon = "32",
+  skip = "all",
+  text = [[
+Questi Guanti di Ferro
+ti consentono di sollevare
+i massi.
+]]
+}
+
+dialog{
+  id = "_item_description.glove.2",
+  icon = "33",
+  skip = "all",
+  text = [[
+Solleva i massi neri
+con questi Guanti
+d'Oro.
+]]
+}
+
+dialog{
+  id = "_item_description.hookshot.1",
+  icon = "6",
+  skip = "all",
+  text = [[
+Raggiungi luoghi 
+inaccessibili con
+l'aiuto dell'Arpione.
+]]
+}
+
+dialog{
+  id = "_item_description.ice_key.1",
+  icon = "31",
+  skip = "all",
+  text = [[
+La Chiave di Ghiaccio. 
+Devi trovare
+un posto ghiacciato per
+poterla utilizzare!
+]]
+}
+
+dialog{
+  id = "_item_description.iron_key.1",
+  icon = "28",
+  skip = "all",
+  text = [[
+La Chiave di Ferro.
+Assicurati di usarla
+col giusto lucchetto!
+]]
+}
+
+dialog{
+  id = "_item_description.lamp.1",
+  icon = "5",
+  skip = "all",
+  text = [[
+Illumina luoghi bui
+e accendi le torce
+con la Lanterna, ma
+tieni d'occhio la Barra
+del Mana!
+]]
+}
+
+dialog{
+  id = "_item_description.level_4_way.1",
+  icon = "22",
+  skip = "all",
+  text = [[
+Questa Torta di Mele 
+sembra strana...
+]]
+}
+
+dialog{
+  id = "_item_description.level_4_way.2",
+  icon = "23",
+  skip = "all",
+  text = [[
+Tre veri 
+Lingotti d'Oro!
+]]
+}
+
+dialog{
+  id = "_item_description.level_4_way.3",
+  icon = "24",
+  skip = "all",
+  text = [[
+L'Edelwell è un
+fiore molto raro
+nel Regno di
+Hyrule.
+]]
+}
+
+dialog{
+  id = "_item_description.level_4_way.4",
+  icon = "25",
+  skip = "all",
+  text = [[
+Queste Pergamene della
+Tigre ti consentono di
+padroneggiare avanzate
+tecniche di spada.
+]]
+}
+
+dialog{
+  id = "_item_description.magic_cape.1",
+  icon = "27",
+  skip = "all",
+  text = [[
+Il Mantello Magico ti avvisa
+quando sei vicino a 
+un muro fragile.
+]]
+}
+
+dialog{
+  id = "_item_description.mystic_mirror.1",
+  icon = "14",
+  skip = "all",
+  text = [[
+Lo Specchio Mistico
+ha strani
+poteri...
+]]
+}
+
+dialog{
+  id = "_item_description.pains_au_chocolat_counter.1",
+  icon = "17",
+  skip = "all",
+  text = [[
+Mangia una Cornetto al
+Cioccolato per recuperare
+tre Cuori.
+]]
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.1",
+  icon = "13",
+  skip = "all",
+  text = [[
+Corri veloce come il
+fulmine utilizzando
+le Scarpe del Pegaso.
+Premi e tieni premuto il
+tasto Azione per correre.
+]]
+}
+
+dialog{
+  id = "_item_description.rock_key.1",
+  icon = "19",
+  skip = "all",
+  text = [[
+La Chiave del Roc! Ma
+dov'è la serratura
+giusta?
+]]
+}
+
+dialog{
+  id = "_item_description.stone_key.1",
+  icon = "29",
+  skip = "all",
+  text = [[
+La Chiave di Pietra!
+Ora devo trovare la sua
+serratura!
+]]
+}
+
+dialog{
+  id = "_item_description.wooden_key.1",
+  icon = "30",
+  skip = "all",
+  text = [[
+La Chiave di Legno.
+C'è solo un lucchetto
+per questa chiave!
+]]
+}
+
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+Non puoi trasportare
+nient'altro!
+]]
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  skip = "all",
+  text = [[
+Mi spiace, non hai 
+abbastanza Monete!
+]]
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  text = [[
+Prezzo: $v Monete.
+Compra
+Non Comprare
+]]
+}
+
+dialog{
+  id = "_small_key_required",
+  icon = "72",
+  skip = "all",
+  text = [[
+È chiuso!
+]]
+}
+
+dialog{
+  id = "_treasure.apple.1",
+  icon = "16",
+  text = [[
+Hai trovato 3 Mele!$0
+Mangiale quando vuoi
+recuperare Salute!
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Hai trovato una Freccia!$0
+Usa l'Arco e le
+Frecce per sconfiggere
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  text = [[
+i nemici più forti da
+lontano.
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Hai trovato 5 Frecce!$0
+Usa l'Arco e
+le Frecce per sconfiggere
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Hai trovato 10 Frecce!$0
+Usa l'Arco e
+le Frecce per sconfiggere
+]]
+}
+
+dialog{
+  id = "_treasure.big_key.1",
+  icon = "73",
+  text = [[
+Hai trovato la Chiave
+Grande!
+
+Ora puoi aprire
+le porte speciali e
+trovare nuovi tesori!
+]]
+}
+
+dialog{
+  id = "_treasure.blue_potion.1",
+  icon = "98",
+  text = [[
+Hai trovato una
+Pozione Blu!$0
+
+Bevila per recuperare
+sia la tua Salute che
+il tuo Mana.
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Hai trovato una Bomba!$0
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  text = [[
+Usa una Bomba per far
+esplodere un ostacolo o
+un nemico.
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Hai trovato tre
+Bombe!$0
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Hai trovato otto
+Bombe!$0
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = "54",
+  text = [[
+Hai trovato una Borsa per le
+Bombe!$0 Essa contiene 10
+Bombe.
+Assegnale a un tasto e
+sgancia le bombe!
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = "55",
+  text = [[
+Hai trovato una Borsa per le
+Bombe Grande!$0
+
+Può contenere fino a 30
+Bombe invece di 10!
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = "56",
+  text = [[
+Hai trovato una Borsa per le
+Bombe Gigante!$0
+
+Può contenere fino a 99
+Bombe invece di 30!
+]]
+}
+
+dialog{
+  id = "_treasure.bone_key.1",
+  icon = "20",
+  text = [[
+Hai trovato la Chiave
+d'Osso!$0
+
+Ma per che cosa servirà?
+]]
+}
+
+dialog{
+  id = "_treasure.boomerang.1",
+  icon = "4",
+  text = [[
+Hai trovato un
+Boomerang!$0 Ti consentirà
+di immobilizzare i nemici
+e raccogliere gli oggetti
+inaccessibili.
+Ci sono diversi modi
+per utilizzarlo,
+sta a te scoprirli
+tutti!
+]]
+}
+
+dialog{
+  id = "_treasure.boomerang.2",
+  icon = "35",
+  text = [[
+Hai trovato un
+Boomerang Migliorato!$0
+
+È più veloce e più
+potente di quello
+normale!
+]]
+}
+
+dialog{
+  id = "_treasure.boss_key.1",
+  icon = "74",
+  text = [[
+Hai trovato la Chiave
+del Mostro!
+
+Ora puoi entrare
+nella Tana del Mostro!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.1",
+  icon = "7",
+  text = [[
+Hai trovato 
+un'Ampolla Magica!$0
+
+Riempila con
+varie pozioni.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.2",
+  icon = "8",
+  text = [[
+Hai riempito
+l'Ampolla Magica con
+acqua!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.3",
+  icon = "9",
+  text = [[
+Hai trovato una
+Pozione Rossa!$0
+
+Bevila per recuperare
+la tua Salute.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.4",
+  icon = "10",
+  text = [[
+Hai trovato una
+Pozione Verde!$0
+
+Bevila per recuperare
+il tuo Mana.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.5",
+  icon = "11",
+  text = [[
+Hai trovato una
+Pozione Blu!$0
+
+Bevila per recuperare
+completamente sia
+la Salute che il Mana!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Hai catturato una
+Fatina! Ti aiuterà
+quando ne avrai
+bisogno. Puoi anche
+usarla per recuperare
+la tua Salute!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.1",
+  icon = "7",
+  text = [[
+Hai trovato 
+un'Ampolla Magica!$0
+
+Riempila con varie
+pozioni.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.2",
+  icon = "8",
+  text = [[
+Hai riempito
+l'Ampolla Magica con
+acqua!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.3",
+  icon = "9",
+  text = [[
+Hai trovato una
+Pozione Rossa!$0
+
+Bevila per recuperare
+la tua Salute.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.4",
+  icon = "10",
+  text = [[
+Hai trovato una
+Pozione Verde!$0
+
+Bevila per recuperare
+il tuo Mana.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.5",
+  icon = "11",
+  text = [[
+Hai trovato una
+Pozione Blu!$0
+
+Bevila per recuperare
+sia tutta la tua Salute
+che tutto il Mana!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Hai catturato una
+Fatina! Ti aiuterà quando 
+ne avrai bisogno. Puoi
+anche usarla quando vuoi
+recuperare dei Cuori!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.1",
+  icon = "7",
+  text = [[
+Hai trovato 
+un'Ampolla Magica!$0
+
+Riempila con varie
+pozioni.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.2",
+  icon = "8",
+  text = [[
+Hai riempito la tua
+Ampolla Magica con
+acqua!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.3",
+  icon = "9",
+  text = [[
+Hai trovato una
+Pozione Rossa!$0
+
+Bevila per recuperare
+la tua salute.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.4",
+  icon = "10",
+  text = [[
+Hai trovato una
+Pozione Verde!$0
+
+Bevila per recuperare
+il tuo Mana.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.5",
+  icon = "11",
+  text = [[
+Hai trovato una
+Pozione Blu!$0
+
+Bevila per recuperare
+tutta la tua Salute
+ed il tuo Mana!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Hai catturato
+una Fatina! Ti aiuterà
+quando ne avrai
+bisogno. Puoi anche 
+utilizzarla quando 
+vuoi recuperare 
+della Salute!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.1",
+  icon = "7",
+  text = [[
+Hai trovato
+un'Ampolla Magica!$0
+
+Riempila con varie
+pozioni.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.2",
+  icon = "8",
+  text = [[
+Hai riempito la tua
+Ampolla Magica con
+acqua!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.3",
+  icon = "9",
+  text = [[
+Hai trovato una
+Pozione Rossa!$0
+
+Bevila per recuperare
+la tua salute.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.4",
+  icon = "10",
+  text = [[
+Hai trovato una
+Pozione Verde!$0
+
+Bevila per recuperare
+il tuo Mana.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.5",
+  icon = "11",
+  text = [[
+Hai trovato una
+Pozione Blu!$0
+
+Bevila per recuperare
+completamente la tua
+Salute ed il tuo
+Mana!
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Hai catturato una
+Fatina! Ti aiuterà quando
+ne avrai bisogno.
+Puoi anche utilizzarla
+quando vuoi recuperare
+della Salute!
+]]
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  icon = "2",
+  text = [[
+Hai trovato un Arco!$0
+Trova delle Frecce e
+potrai sconfiggere i
+nemici più forti dalla
+lunga distanza!
+]]
+}
+
+dialog{
+  id = "_treasure.bow.2",
+  icon = "3",
+  text = [[
+Hai trovato un Arco!$0
+Puoi combattere i nemici
+più forti da lontano!
+]]
+}
+
+dialog{
+  id = "_treasure.cane_of_somaria.1",
+  icon = "15",
+  next = "_warning_magic",
+  text = [[
+Hai trovato un
+Bastone di Somaria!$0
+Puoi creare un
+blocco e aggrapparti
+ad esso con l'Arpione.
+]]
+}
+
+dialog{
+  id = "_treasure.clay_key.1",
+  icon = "21",
+  text = [[
+Hai trovato la Chiave di
+Terra!$0
+
+Ora puoi accedere
+alla grotta del villagio!
+]]
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  icon = "71",
+  text = [[
+Hai trovato una
+Bussola! Ora puoi
+vedere la tua posizione
+nella Mappa, l'ubicazione
+dei forzieri, e anche
+la Tana del Mostro! 
+Ora possiamo andare
+nella giusta direzione!
+]]
+}
+
+dialog{
+  id = "_treasure.croissant.1",
+  icon = "18",
+  text = [[
+Hai trovato un
+Cornetto!$0
+È croccante! Mangia un
+Cornetto per recuperare
+dei Cuori.
+]]
+}
+
+dialog{
+  id = "_treasure.feather.1",
+  icon = "0",
+  text = [[
+Hai trovato una
+Piuma!$0 Usala per 
+saltare da fermo e 
+sopra gli ostacoli!
+]]
+}
+
+dialog{
+  id = "_treasure.fire_stone.1",
+  icon = "34",
+  text = [[
+Hai trovato una
+Pietra del Fuoco!
+]]
+}
+
+dialog{
+  id = "_treasure.flippers.1",
+  icon = "26",
+  text = [[
+Hai trovato una
+Pinna!$0
+
+Ora puoi nuotare
+in acque profonde!
+]]
+}
+
+dialog{
+  id = "_treasure.glove.1",
+  icon = "32",
+  text = [[
+Hai trovato dei Guanti di
+Ferro!$0
+
+Con questi puoi
+sollevare le rocce.
+]]
+}
+
+dialog{
+  id = "_treasure.glove.2",
+  icon = "33",
+  text = [[
+Hai trovato dei Guanti
+d'Oro!$0
+
+Ora puoi sollevare
+le rocce nere!
+]]
+}
+
+dialog{
+  id = "_treasure.green_potion.1",
+  icon = "97",
+  text = [[
+Hai trovato una
+Pozione Verde!$0
+
+Bevila per 
+recuperare completamente
+il tuo Mana.
+]]
+}
+
+dialog{
+  id = "_treasure.heart.1",
+  icon = "84",
+  text = [[
+Hai trovato un Cuore!
+]]
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  icon = "80",
+  text = [[
+Hai trovato un Portagioie
+del Cuore!
+
+La tua Barra della
+Salute è aumentata di uno!
+]]
+}
+
+dialog{
+  id = "_treasure.hookshot.1",
+  icon = "6",
+  text = [[
+Hai trovato una
+Fionda!$0
+
+Immobilizza i tuoi
+nemici e scaglia
+te stesso in
+luoghi inaccessibili!
+]]
+}
+
+dialog{
+  id = "_treasure.ice_key.1",
+  icon = "31",
+  text = [[
+Hai trovato la Chiave
+di Ghiaccio!$0
+
+Sicuramente servirà per
+aprirti la strada verso
+un luogo gelido...
+]]
+}
+
+dialog{
+  id = "_treasure.iron_key.1",
+  icon = "28",
+  text = [[
+Hai trovato la Chiave
+di Ferro!$0
+
+Sicuramente aprirà 
+una qualche porta!
+]]
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  icon = "5",
+  next = "_warning_magic",
+  text = [[
+Hai trovato una Lanterna!$0
+Usala per illuminare
+posti bui e per accendere
+le torce.
+]]
+}
+
+dialog{
+  id = "_treasure.level_4_way.1",
+  icon = "22",
+  text = [[
+Hai trovato una Torta
+di Mele!$0
+$1...$3 Hmmm, io
+non la mangerei se fossi
+in te, ha un aspetto
+strano...
+]]
+}
+
+dialog{
+  id = "_treasure.level_4_way.2",
+  icon = "23",
+  text = [[
+Hai trovato alcuni
+Lingotti d'Oro!!!$0
+
+Sono luccicanti e 
+molto preziosi!
+]]
+}
+
+dialog{
+  id = "_treasure.level_4_way.3",
+  icon = "24",
+  text = [[
+Hai trovato un
+Edelwell!$0
+
+Questo magnifico fiore
+delle montagne di Hyrule
+è estremamente raro!
+]]
+}
+
+dialog{
+  id = "_treasure.level_4_way.4",
+  icon = "25",
+  text = [[
+Hai trovato le Pergamene
+della Tigre!$0 Ora hai 
+compreso pienamente 
+come effettuare
+l'Attacco Turbinante,
+una tecnica segreta da
+tempo dimenticata.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_bar.2",
+  icon = "99",
+  text = [[
+Hai trovato una Barra
+della Magia!$0
+
+Il tuo Indicatore del
+Mana è raddoppiato!
+]]
+}
+
+dialog{
+  id = "_treasure.magic_cape.1",
+  icon = "27",
+  text = [[
+Hai trovato un Mantello
+Magico!$0
+
+Ti avviserà quando
+sarai vicino a un
+muro fragile.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.1",
+  icon = "85",
+  text = [[
+Hai trovato una Piccola
+Anfora Magica! Il tuo
+Indicatore del Mana si
+è leggermente ricaricato.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.2",
+  icon = "86",
+  text = [[
+Hai trovato una Grande
+Anfora Magica! Il tuo
+Indicatore del Mana si
+è ricaricato tanto.
+]]
+}
+
+dialog{
+  id = "_treasure.map.1",
+  icon = "70",
+  text = [[
+Hai trovato una Mappa!
+Usala per vedere i
+percorsi nei labirinti.
+]]
+}
+
+dialog{
+  id = "_treasure.mystic_mirror.1",
+  icon = "14",
+  text = [[
+Hai trovato uno
+Specchio Mistico!$0
+
+I suoi strani poteri
+ti saranno sicuramente
+d'aiuto nella 
+tua avventura.
+]]
+}
+
+dialog{
+  id = "_treasure.pain_au_chocolat.1",
+  icon = "17",
+  text = [[
+Hai trovato un Cornetto
+al Cioccolato!$0
+
+Mangia un Cornetto al 
+Cioccolato per recuperare
+alcuni Cuori.
+]]
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.1",
+  icon = "13",
+  text = [[
+Hai trovato delle
+Scarpe del Pegaso!$0
+
+Corri e carica
+i nemici più robusti!
+Premi e tieni premuto
+il tasto Azione per 
+utilizzarle.
+]]
+}
+
+dialog{
+  id = "_treasure.piece_of_heart.1",
+  icon = "79",
+  text = [[
+Hai trovato un
+Frammento di Cuore!
+]]
+}
+
+dialog{
+  id = "_treasure.quiver.2",
+  icon = "58",
+  text = [[
+Hai trovato una
+Faretra Grande!$0
+
+Può contenere fino
+a 30 Frecce invece
+di 10!
+]]
+}
+
+dialog{
+  id = "_treasure.quiver.3",
+  icon = "59",
+  text = [[
+Hai trovato una
+Faretra Gigante!$0
+
+Può contenere fino a 
+99 Frecce invece di
+30!
+]]
+}
+
+dialog{
+  id = "_treasure.red_potion.1",
+  icon = "96",
+  text = [[
+Hai trovato una
+Pozione Rossa!$0
+
+Bevila per riempire
+completamente la
+tua Salute.
+]]
+}
+
+dialog{
+  id = "_treasure.rock_key.1",
+  icon = "19",
+  text = [[
+Hai trovato la Chiave
+del Roc!$0
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.1",
+  icon = "90",
+  text = [[
+Hai trovato una
+Moneta Verde!
+Vale per una moneta!
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.2",
+  icon = "91",
+  text = [[
+Hai trovato una
+Moneta Blu!
+Vale 5 monete!
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.3",
+  icon = "92",
+  text = [[
+Hai trovato una
+Moneta Rossa!
+Vale 20 monete!
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.4",
+  icon = "90",
+  text = [[
+Hai trovato 50 Monete!
+Meraviglioso!
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.5",
+  icon = "90",
+  text = [[
+Hai trovato 100
+Monete! Fantastico!
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.6",
+  icon = "90",
+  text = [[
+Hai trovato 300 Monete!
+Che meraviglia!
+]]
+}
+
+dialog{
+  id = "_treasure.rupee_bag.2",
+  icon = "52",
+  text = [[
+Hai trovato un
+Portamonete Grande!$0
+
+Può contenere fino a
+300 Monete!
+]]
+}
+
+dialog{
+  id = "_treasure.rupee_bag.3",
+  icon = "53",
+  text = [[
+Hai trovato un
+Portamonete Gigante!$0
+
+Può contenere fino a
+999 Monete!
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  icon = "63",
+  text = [[
+Hai trovato uno
+Scudo!$0
+
+Ti puoi difendere
+dagli attacchi
+dei nemici!
+]]
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  icon = "64",
+  text = [[
+Hai trovato uno
+Scudo di Fuoco!$0
+
+Ora ti puoi
+proteggere dagli
+attacchi del fuoco!
+]]
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  icon = "65",
+  text = [[
+Hai trovato uno
+Scudo Riflettente!$0
+
+Ora puoi riflettere
+i dardi luminosi!
+]]
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  icon = "72",
+  text = [[
+Hai trovato una Chiave
+Piccola!
+
+Questa chiave aprirà una
+porta chiusa a chiave in
+questi sotterranei.
+]]
+}
+
+dialog{
+  id = "_treasure.stone_key.1",
+  icon = "29",
+  text = [[
+Hai trovato la Chiave
+di Pietra!$0
+
+Ma dov'è la serratura
+che apre?
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  icon = "66",
+  text = [[
+Hai trovata una
+Spada del Coraggio!$0
+
+Usala per annientare
+i tuoi nemici!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  icon = "67",
+  next = "_treasure.sword.2.1",
+  text = [[
+$1Hai trovato la
+Spada di Hylian!$0$0$0
+Questa nuova spada
+]]
+}
+
+dialog{
+  id = "_treasure.sword.2.1",
+  text = [[
+è il doppio
+più potente di
+quella vecchia!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  icon = "68",
+  next = "_treasure.sword.2.1",
+  text = [[
+$1Hai trovato la
+Spada dell'Eroe!$0$0$0
+Questa nuova spada
+]]
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  icon = "69",
+  text = [[
+Hai trovato la
+Spada del Maestro!$0
+Il potere di questa
+spada definitiva è al
+di là di qualsiasi cosa
+tu abbia mai visto!
+]]
+}
+
+dialog{
+  id = "_treasure.tunic.2",
+  icon = "61",
+  text = [[
+Hai trovato la
+Corazza Blu!$0
+Riduce il danno
+degli attacchi nemici
+e ti protegge 
+dalle temperature
+artiche...
+]]
+}
+
+dialog{
+  id = "_treasure.tunic.3",
+  icon = "62",
+  text = [[
+Hai trovato la 
+Corazza Rossa!$0
+
+Ti fornisce una 
+protezione ancora migliore
+della Corazza Blu!
+]]
+}
+
+dialog{
+  id = "_treasure.wooden_key.1",
+  icon = "30",
+  text = [[
+Hai trovato la Chiave di
+Legno!$0
+
+Devi scoprire dove
+poterla utilizzare!
+]]
+}
+
+dialog{
+  id = "_treasure.world_map.1",
+  icon = "50",
+  text = [[
+Hai trovato una
+Mappa del Mondo!$0
+
+Visualizzala nella 
+schermata Mappa.
+]]
+}
+
+dialog{
+  id = "_warning_magic",
+  text = [[
+Tieni d'occhio la
+tua Barra del Mana!
+]]
+}
+
+dialog{
+  id = "billy_cave.give_apple_pie",
+  text = [[
+No grazie, è ben lontano
+dall'essere uno scambio 
+equo...
+]]
+}
+
+dialog{
+  id = "billy_cave.give_apple_pie_without",
+  text = [[
+Pfft! Non hai nemmeno
+una Torta di Mele!
+]]
+}
+
+dialog{
+  id = "billy_cave.give_croissant",
+  text = [[
+Un Cornetto?
+Mi stai prendendo in giro?
+]]
+}
+
+dialog{
+  id = "billy_cave.give_croissant_without",
+  text = [[
+Non hai nemmeno un 
+cornetto! Ladro!
+]]
+}
+
+dialog{
+  id = "billy_cave.give_golden_bars",
+  text = [[
+Cosa? Hai dei Lingotti
+d'Oro?$1...
+$0...$0....................
+$3Accetto!
+Tieni, prendi il tuo
+stupido fiore...
+]]
+}
+
+dialog{
+  id = "billy_cave.hello",
+  skip = "current",
+  text = [[
+Spero che tu abbia
+portato con te qualcosa
+di valore per aver osato 
+entrare nella mia caverna.
+Sono Billy lo Spericolato,
+il più grande avventuriero 
+di tutti i tempi.
+
+
+Durante la mia spedizione
+nel Monte del Terrore,
+ho recuperato un 
+tesoro di inestimabile
+valore. Nemmeno la 
+Principessa Zelda è stata
+capace di trovarlo.
+È una pianta estremamente
+rara.
+
+Sono l'unico essere
+vivente a possederne
+uno. Ho superato
+tutti gli ostacoli
+del Monte del Terrore, 
+affrontato ogni pericolo
+e sono tornato indietro
+illeso.
+
+
+È una grande
+dimostrazione del mio
+eroismo il fatto che
+abbia trovato questo
+fiore di grande valore :
+un Edelwell!
+]]
+}
+
+dialog{
+  id = "billy_cave.what_do_you_have",
+  next = "_unknown",
+  skip = "current",
+  text = [[
+Non aspettarti che ti dia
+il mio Edelwell per niente.
+Ho affrontato i pericoli
+del Monte del Terrore per
+trovarlo. Se non hai niente
+di valore da darmi, allora
+vai per la tua strada.
+]]
+}
+
+dialog{
+  id = "billy_cave.with_golden_bars",
+  question = "1",
+  text = [[
+Che cosa vuoi darmi?
+I Lingotti d'Oro
+La Torta di Mele
+]]
+}
+
+dialog{
+  id = "billy_cave.without_golden_bars",
+  question = "1",
+  text = [[
+Che cosa vuoi darmi?
+Un Cornetto
+La Torta di Mele
+]]
+}
+
+dialog{
+  id = "bone_key_cave.hint",
+  skip = "all",
+  text = [[
+Solo respingendo la luce,
+essa nuovamente risplenderà.
+]]
+}
+
+dialog{
+  id = "cake_shop.apple_pie",
+  next = "_unknown",
+  text = [[
+Una Torta di Mele.
+Cucinata col tuo aiuto!
+]]
+}
+
+dialog{
+  id = "cake_shop.croissant",
+  next = "_unknown",
+  text = [[
+Questo Cornetto fragrante
+ti farà recuperare
+sette Cuori.
+]]
+}
+
+dialog{
+  id = "cake_shop.dont_leave",
+  question = "1",
+  text = [[
+Hey, aspetta!
+Sto cercando delle mele
+per cucinare una 
+Torta di Mele.
+Sei mele dovrebbero
+bastare.
+
+Vuoi aiutarmi?
+Si
+No
+]]
+}
+
+dialog{
+  id = "cake_shop.no_apples",
+  text = [[
+Grazie... Torna a
+trovarmi se ne trovi
+qualcuna!
+]]
+}
+
+dialog{
+  id = "cake_shop.not_enough_apples",
+  text = [[
+Oh, non hai 
+abbastanza mele... Torna
+più tardi allora.
+]]
+}
+
+dialog{
+  id = "cake_shop.pain_au_chocolat",
+  next = "_unknown",
+  text = [[
+Un delizioso Cornetto al
+Cioccolato ti farà
+recuperare tre Cuori.
+]]
+}
+
+dialog{
+  id = "cake_shop.seller.ask_apples_again",
+  question = "1",
+  skip = "all",
+  text = [[
+Sto ancora cercando
+sei Mele per cucinare
+una gran bella
+Torta di Mele.
+Vuoi aiutarmi?
+Si
+No
+]]
+}
+
+dialog{
+  id = "cake_shop.seller.choose_item",
+  text = [[
+Benvenuto. Scegli i
+pasticcini che vuoi comprare.
+]]
+}
+
+dialog{
+  id = "cake_shop.thank_you",
+  text = [[
+Oh, grazie, che
+gentile che sei!
+
+Mi spiace, ho rimasto
+solo questa Ampolla Vuota...
+
+È una ricompensa piccola
+ma sono sicuro che 
+saprai farne buon uso.
+]]
+}
+
+dialog{
+  id = "castle.cannon",
+  skip = "all",
+  text = [[
+Che cannone
+magnifico!
+È meglio non essere
+un nemico del Re!
+]]
+}
+
+dialog{
+  id = "castle.forbidden_door",
+  skip = "all",
+  text = [[
+Sono spiacente signore, 
+ma non le è consentito 
+accedere alle prigioni
+del sotterraneo.
+]]
+}
+
+dialog{
+  id = "castle.forbidden_door_wtf",
+  text = [[
+........$0....?!$#!@&=!??
+.....$0..................
+
+Come sei arrivato fino
+qui?
+È proibito camminare
+in questa zona!
+]]
+}
+
+dialog{
+  id = "castle.forbidden_stairs",
+  skip = "all",
+  text = [[
+Queste scale conducono al
+piano superiore e al
+balcone.
+Sfortunatamente l'accesso 
+non è consentito a tutti.
+]]
+}
+
+dialog{
+  id = "castle.npc_1",
+  skip = "all",
+  text = [[
+Questo castello un
+tempo apparteneva alla
+famiglia Reale.
+Attualmente, i turisti
+delle terre di Hyrule
+viaggiano fin qui
+per godere delle bellezze
+di questo luogo!
+]]
+}
+
+dialog{
+  id = "castle.npc_2",
+  skip = "all",
+  text = [[
+Riesci a immaginare quanti
+sforzi che sono stati
+fatti per costruire
+questo castello?
+Riesco a malapena a 
+immaginare come siano 
+riusciti a costruire
+qualcosa di così maestoso
+con i mezzi che avevano
+a quel tempo...
+]]
+}
+
+dialog{
+  id = "castle.npc_3",
+  skip = "all",
+  text = [[
+Che lusso! Questo
+luogo è magnifico!
+]]
+}
+
+dialog{
+  id = "castle.prison",
+  skip = "all",
+  text = [[
+I prigionieri del Re
+venivano segregati
+all'interno di queste
+prigioni oscure.
+]]
+}
+
+dialog{
+  id = "castle.welcome",
+  skip = "all",
+  text = [[
+Benvenuto nell'Antico
+Castello reale, elencato
+tra i monumenti storici.
+Per favore evita
+di arrecare disturbo.
+]]
+}
+
+dialog{
+  id = "castle.where_is_tom",
+  skip = "all",
+  text = [[
+Tom, uno dei nostri
+migliori soldati, scomparve
+misteriosamente mentre stava
+esplorando la grotta.
+]]
+}
+
+dialog{
+  id = "cave_to_dungeon_8.hint",
+  skip = "all",
+  text = [[
+Solo uno osservatore
+attento sarà capace
+di seguire il percorso.
+]]
+}
+
+dialog{
+  id = "chests_game_cave.already_playing",
+  skip = "all",
+  text = [[
+Scegli un forziere!
+]]
+}
+
+dialog{
+  id = "chests_game_cave.first_time",
+  next = "chests_game_cave.play_question",
+  text = [[
+Come sei arrivato fin
+qui??
+
+
+... Ora che sei qui,
+che ne dici di essere 
+il primo a giocare al 
+mio gioco? Una partita 
+costa 30 Monete.
+]]
+}
+
+dialog{
+  id = "chests_game_cave.not_enough_money",
+  skip = "all",
+  text = [[
+Non hai abbastanza
+Monete!
+]]
+}
+
+dialog{
+  id = "chests_game_cave.not_first_time",
+  next = "chests_game_cave.play_question",
+  skip = "current",
+  text = [[
+Ciao! Una partita costa 30
+Monete.
+]]
+}
+
+dialog{
+  id = "chests_game_cave.play_question",
+  question = "1",
+  text = [[
+Vuoi fare una partita?
+Si
+No
+]]
+}
+
+dialog{
+  id = "chests_game_cave.start_game",
+  skip = "all",
+  text = [[
+Grazie! Puoi aprire uno
+dei forzieri.
+Vinci il contenuto
+del forziere.
+]]
+}
+
+dialog{
+  id = "chests_game_cave.start_game_piece_of_heart",
+  skip = "all",
+  text = [[
+Grazie! Per giocare a 
+questo gioco, semplicemente
+apri uno dei forzieri.
+Puoi tenerti il suo 
+contenuto. Il Premio
+Speciale di oggi è un
+Frammento di Cuore!
+]]
+}
+
+dialog{
+  id = "chests_game_cave.start_game_wooden_key",
+  skip = "all",
+  text = [[
+Grazie! Per giocare a questo
+gioco, apri semplicemente 
+uno dei forzieri. 
+Puoi tenere quello che 
+trovi nel forziere.
+Oggi il Premio Speciale
+in palio è una magnifica
+Chiave di Legno!
+]]
+}
+
+dialog{
+  id = "credits_1",
+  text = [[
+$1     Riconoscimenti$0
+
+
+      Programmazione:$0
+Christopho$0
+]]
+}
+
+dialog{
+  id = "credits_2",
+  text = [[
+$1   Mappe ed enigmi:$0
+
+
+Christopho$0
+
+
+Metallizer$0
+Binbin$0
+Mymy$0
+]]
+}
+
+dialog{
+  id = "credits_3",
+  text = [[
+$1   Elementi grafici:$0
+Newlink$0
+
+Neovyse$0
+@PyroNet$0
+Djipi$0
+$1        Musiche:$0
+Marine$0
+Metallizer$0
+]]
+}
+
+dialog{
+  id = "credits_4",
+  text = [[
+$1        Storia:$0
+Guillaume F.$0
+Christopho$0
+$1   Traduzione in
+     Inglese :$0
+
+Alex_XelA$0          Jeff$0
+Rypervenche$0
+bcallah@openbsd.org$0
+
+$1   Traduzione in
+     Italiano :$0
+
+MBCRAFT di
+Marco Bagnaresi$0
+]]
+}
+
+dialog{
+  id = "credits_6",
+  text = [[
+$1        Testing:$0
+
+
+Thyb$0
+Morwenn$0
+BenObiWan$0
+$1  Un grazie speciale a:$0
+
+
+19oj19$0           Yohann$0
+MultiSync_XV17$0   Krytzz$0
+HelpTheWretched$0
+
+        Nintendo$0
+
+
+Grazie per aver giocato!$0
+
+
+
+ www.solarus-games.org$0
+]]
+}
+
+dialog{
+  id = "dungeon_1",
+  skip = "current",
+  text = [[
+         Livello 1
+      La Foresta Intricata
+]]
+}
+
+dialog{
+  id = "dungeon_1.solarus_child",
+  text = [[
+$2$v... Grazie. Mi hai
+salvato la vita. Sono uno
+degli otto guardiani 
+invocati tempo fa dalla
+Principessa Zelda. Il nostro
+sacro compito è quello di 
+custodire i resti di
+un artefatto sacro, il
+Treforte, donatoci 
+dalle tre divinità
+dopo la creazione del 
+mondo. Nel corso dei
+millenni, il
+Treforte, anche se
+fonte di vita e 
+prosperità, è stato
+anche la fonte di 
+avidità e continui
+tormenti tra le forze del 
+bene e del male. Anche oggi,
+l'artefatto sacro è in
+pericolo. In ogni caso,
+la storia si ripete.
+Ogni volta che c'è un
+pericolo, appare un eroe il
+cui coraggio spazza via
+le Tenebre. Trova mio
+fratello e scopri chi
+c'è dietro tutto questo, 
+prima che le forze delle
+Tenebre facciano cadere
+Hyrule nel'oscurità...
+Possa tu eroe portare
+pace e prosperità al Regno!
+]]
+}
+
+dialog{
+  id = "dungeon_10.welcome",
+  skip = "current",
+  text = [[
+       Livello Segreto
+     La Torre Celestiale
+]]
+}
+
+dialog{
+  id = "dungeon_2",
+  skip = "current",
+  text = [[
+         Livello 2
+      La Caverna del Roc
+]]
+}
+
+dialog{
+  id = "dungeon_2.code_hint",
+  skip = "all",
+  text = [[
+       F | B | E
+      ---|---|---
+       C | D | A
+]]
+}
+
+dialog{
+  id = "dungeon_2.eye_2_hint",
+  skip = "all",
+  text = [[
+Entrambi gli occhi
+devono essere forati
+con perseveranza.
+]]
+}
+
+dialog{
+  id = "dungeon_2.eye_hint",
+  skip = "all",
+  text = [[
+Entrambi gli occhi
+devono essere forati.
+]]
+}
+
+dialog{
+  id = "dungeon_2.solarus_child",
+  text = [[
+$2$v... Ti ringrazio.
+Hai salvato la mia vita.
+Sono uno degli otto
+guardiani invocati dalla
+Principessa Zelda per
+custodire il Treforte.
+L'unico modo per risanarlo è
+utilizzare il potere 
+dell'amuleto di Solarus,
+un artefatto indossato 
+dalla Principessa Zelda.
+Il Treforte è stato spezzato
+in otto parti nascoste
+in vari luoghi del mondo. 
+Noi siamo qui a custodire
+gli otto frammenti, così 
+come Zelda costudisce
+l'Amuleto di Solarus.
+Non deve cadere nelle
+mani sbagliate. Noi abbiamo
+fiducia nel tuo coraggio.
+Possa tu eroe portare
+pace e prosperità al Regno!
+]]
+}
+
+dialog{
+  id = "dungeon_3",
+  skip = "current",
+  text = [[
+         Livello 3
+  Il Rifugio del Potente Arbror
+]]
+}
+
+dialog{
+  id = "dungeon_3.arbror_direction_hint",
+  text = [[
+
+  Nord: Potente Arbror
+]]
+}
+
+dialog{
+  id = "dungeon_3.arbror_hello",
+  text = [[
+Haa!!! Non mi sconfiggerai
+mai, io sono il Potente
+Arbror!
+]]
+}
+
+dialog{
+  id = "dungeon_3.arbror_killed",
+  text = [[
+KARGHHH!!! Mi hai sconfitto,
+ma non farai molta strada...
+Non ce la
+farai mai...
+]]
+}
+
+dialog{
+  id = "dungeon_3.solarus_child",
+  text = [[
+$2$v... Grazie.
+Mi hai salvato la vita.
+Grazie a te, quella
+orribile creatura non
+tormenterà mai più
+il Regno.
+Sono uno degli otto
+guardiani invocati
+dalla Principessa Zelda.
+Il Treforte è ancora in
+pericolo fino a quanto uno 
+dei miei fratelli è tenuto
+prigioniero.
+La fine del tuo viaggio
+è vicina.
+Salvalo e riporta la
+pace in queste terre.
+Possa tu eroe portare
+pace e prosperita
+nel Regno!
+]]
+}
+
+dialog{
+  id = "dungeon_3.water_drained_somewhere",
+  text = [[
+Molto distante...
+un rumore...
+]]
+}
+
+dialog{
+  id = "dungeon_4.agahnim",
+  text = [[
+$1A G A H N I M !
+$3È lui!
+
+Lo stregone tornato
+dalla terra dei morti!!!
+Ah ah ah ah ah ah!!!
+Così sei riuscito a
+radunare i quattro bambini?
+I bambini non hanno
+la minima idea di quello
+che ti attende la fuori 
+dicendo che il Treforte 
+è salvo...
+Ah ah ah ah ah ah!!!
+Cerca di capire, ragazzo,
+che non sono tornato 
+indietro per liberare
+lo spregevole Ganon,
+colui che una volta ha
+usato chiamarmi il suo
+alter ego...
+Preferisco lasciare
+quello sporco ladro
+sigillato nel
+Mondo dell'Oscurità! 
+Così potrò tenere il 
+Treforte per me 
+e regnare come
+un unico tiranno ...
+Ah ah ah ah ah!
+Nel momento in cui lascerò
+questa stanza, sarai
+testimone del mio potere
+sul Regno...
+Ah ah ah ah ah ah ah!
+Ora tu, giovane e 
+impetuoso avventuriero e
+Io, ci incontreremo ancora.
+Prima di allora, 
+tornerò al castello!
+Ah ah ah ah ah! Ci rivedremo
+ancora, e con i miei poteri, 
+porrò FINE alla 
+tua avventura!
+Ah ah ah ah ah ah!!!
+]]
+}
+
+dialog{
+  id = "dungeon_4.hint_chests",
+  text = [[
+La via è indicata dove
+i quattro forzieri si
+incontrano.
+]]
+}
+
+dialog{
+  id = "dungeon_4.hint_use_map",
+  text = [[
+Se non vedi le uscite,
+usa la mappa.
+]]
+}
+
+dialog{
+  id = "dungeon_4.solarus_child",
+  text = [[
+$2$v... Grazie.
+Mi hai salvato la vita.
+Sono uno degli otto 
+guardiani invocati dalla 
+Principessa Zelda.
+Hai dimostrato
+un notevole coraggio.
+Grazie a te, ora noi siamo
+di nuovo insieme e
+il Treforte è al
+sicuro.
+
+Possa tu eroe portare
+pace e prosperità
+al Regno!
+]]
+}
+
+dialog{
+  id = "dungeon_4.too_cold",
+  text = [[
+È troppo freddo qui...
+Devi andartene!
+]]
+}
+
+dialog{
+  id = "dungeon_4.welcome",
+  skip = "current",
+  text = [[
+         Livello 4
+    Il Palazzo di Beaumont
+]]
+}
+
+dialog{
+  id = "dungeon_5.agahnim_beginning",
+  text = [[
+Sei stato capace di evitare
+le mie guardie e schivare
+le trappole disseminate
+nel castello.
+Complimenti!
+Sfortunatamente per te,
+il tuo viaggio finisce qui!
+]]
+}
+
+dialog{
+  id = "dungeon_5.agahnim_end",
+  text = [[
+...$0...........$0
+Mi hai sconfitto
+questa volta...
+Ma ci rivedremo!
+
+Il tuo pellegrinaggio
+non cambierà nulla...
+Sahasrahla è sotto
+il mio controllo e lui
+mi dirà dove sono la
+Principessa e gli
+otto figli di Solarus...
+Ah ah ah ah ah!
+Ora me ne devo andare. 
+Ma ci rivedremo!
+]]
+}
+
+dialog{
+  id = "dungeon_5.hero_seen_by_guard",
+  text = [[
+FERMO!
+Non ti muovere!
+]]
+}
+
+dialog{
+  id = "dungeon_5.pots_hint",
+  skip = "all",
+  text = [[
+La chiave dell'enigma è
+far girare le anfore
+nella giusta direzione.
+]]
+}
+
+dialog{
+  id = "dungeon_5.prison_1_locked",
+  text = [[
+   - Serratura di Ferro -
+Nessuna delle tue chiavi 
+sembra essere adatta...
+]]
+}
+
+dialog{
+  id = "dungeon_5.prison_1_use_iron_key",
+  icon = "28",
+  text = [[
+$1Hai usato la Chiave di
+Ferro...
+]]
+}
+
+dialog{
+  id = "dungeon_5.prison_2_locked_1",
+  text = [[
+È chiuso a chiave!
+]]
+}
+
+dialog{
+  id = "dungeon_5.prison_2_locked_2",
+  text = [[
+È così arrugginito che
+nemmeno la Chiave Grande
+funzionerà.
+]]
+}
+
+dialog{
+  id = "dungeon_5.prison_2_locked_3",
+  text = [[
+Forse c'è un modo per
+scassinare questo vecchio
+lucchetto...
+]]
+}
+
+dialog{
+  id = "dungeon_5.puzzle_solved",
+  text = [[
+Da qualche parte nelle 
+profondità del castello, 
+un meccanismo si attiva...
+]]
+}
+
+dialog{
+  id = "dungeon_5.welcome",
+  skip = "current",
+  text = [[
+        Livello 5
+    L'Antico Castello
+]]
+}
+
+dialog{
+  id = "dungeon_6.close_way_hint",
+  text = [[
+Allora chiudi la strada
+alle tue spalle.
+]]
+}
+
+dialog{
+  id = "dungeon_6.dont_fall_hint",
+  text = [[
+Non devi cadere, ma saltare.
+]]
+}
+
+dialog{
+  id = "dungeon_6.tom",
+  text = [[
+$2$v... Grazie.
+Mi hai salvato la vita.
+Hai attraversato un lungo
+viaggio e superato molte
+prove da quanto ci siamo 
+visti tempo fa.
+]]
+}
+
+dialog{
+  id = "dungeon_6.tom_revelation",
+  text = [[
+$2Devo farti una 
+confessione...
+La morte del nostro Re non
+è stata accidentale.
+Io l'ho avvelenato.
+Ero sotto il controllo 
+di Agahnim...
+Lui mi ha lanciato 
+una maledizione
+e io ho perso la 
+mia volontà...
+Non c'era niente che
+potessi fare...
+Quando l'incantesimo si è 
+spezzato ho capito 
+cos'era successo...
+In quel momento ho deciso
+di ritornare nella grotta
+dove ci siamo incontrati la
+prima volta.
+Poi fui gettato in cella
+mentre cercavo di resistere
+quando Agahnim prese
+il controllo del castello...
+
+$v... Ora devi andare fino
+al Monte del Terrore.
+Agahnim è andato là
+a cercare Zelda.
+Tu devi liberare
+Sahasrahla prima che lo
+stregone trovi il modo
+di ottenere da lui le 
+informazioni di cui 
+ha bisogno...
+Per favore prendi questo, è 
+il mio piccolo contributo 
+per aiutarti nella 
+tua impresa...
+]]
+}
+
+dialog{
+  id = "dungeon_6.torches_hint",
+  text = [[
+Le tre torce indicano
+la strada della caduta.
+]]
+}
+
+dialog{
+  id = "dungeon_6.welcome",
+  skip = "current",
+  text = [[
+        Livello 6
+ Il Labirinto dell'Inferno
+]]
+}
+
+dialog{
+  id = "dungeon_7.2f_dont_fall_alone_hint",
+  text = [[
+La soluzione è di non
+cadere da soli.
+]]
+}
+
+dialog{
+  id = "dungeon_7.2f_weak_floor_hint",
+  text = [[
+Nel terreno dormono segreti,
+proprio sotto i piedi...
+]]
+}
+
+dialog{
+  id = "dungeon_7.code",
+  skip = "all",
+  text = [[
+        4  7  2        
+        6  1  8        
+           3  5        
+]]
+}
+
+dialog{
+  id = "dungeon_7.sahasrahla",
+  text = [[
+$2$v... Grazie.
+Mi hai salvato la vita.
+
+Se solo fossi stato
+capace di resistere un
+po' più a lungo...
+Mi hanno costretto a
+rivelare la posizione
+di Zelda e dei figli
+di Solarus.
+Ti prego, proteggili
+dal pericolo, prima
+che accada qualcosa
+di terribile... 
+Loro sono nascosti
+in un palazzo collocato
+a est delle montagne.
+Gli otto figli di Solarus
+devono fuggire da Agahnim,
+altrimenti lo stregone
+potrebbe distruggere
+il sigillo creato con
+l'amuleto di Solarus, 
+l'artefatto indossato
+da Zelda, necessario 
+per raccogliere i
+frammenti del Treforte.
+I misteri del Solarus
+sono tenuto al sicuro
+all'interno di
+quell'artefatto.
+Chi possiete quell'artefatto
+sa come usare il potere
+del Solarus per
+sigillare un oggetto, un
+luogo o addirittura un piano
+dimensionale, come fecero 
+i sette saggi quando 
+impedirono l'accesso
+alle Terre Dorate.
+Zelda è l'erede 
+di quel potere.
+Lei lo utilizzò per
+sigillare i frammenti
+del Treforte, utilizzando 
+gli otto esseri 
+creati dal Solarus.
+Così, fino a quando
+solo lei conosce il 
+segreto dell'artefatto, 
+solo lei controlla
+il sigillo del Treforte.
+Ecco perchè devi proteggere
+il sigillo.
+]]
+}
+
+dialog{
+  id = "dungeon_7.welcome",
+  skip = "current",
+  text = [[
+        Livello 7
+   Il Tempio di Cristallo
+]]
+}
+
+dialog{
+  id = "dungeon_8.agahnim",
+  text = [[
+$1Quel Billy si è dimostrato
+veramente un incapace.
+Vedendo come lui insieme
+a tutti i miei scagnozzi
+non sia stato capaci
+di sbarazzarsi di te,
+piccolo parassita, mi
+vedo costretto ad occuparmi
+del problema in 
+prima di persona.
+Mi sbarazzerò di te 
+una volta per tutte.
+E poi, finalmente,
+mi impossesserò del
+ Treforte e
+conquisterò il mondo
+intero. Ah ah ah ah!
+]]
+}
+
+dialog{
+  id = "dungeon_8.agahnim_end",
+  text = [[
+$1$0...$0 .........$0
+Sono sconfitto...$0
+Questa è la fine...$0
+Non ero all'altezza...
+
+
+Mi inchino
+al tuo coraggio.$0
+
+Siccome non sono stato 
+capace di sconfiggerti, 
+è arrivato il momento di 
+invocare il mio Maestro...
+Ah ah ah ah ah ah!!!
+]]
+}
+
+dialog{
+  id = "dungeon_8.agahnim_middle",
+  text = [[
+$1$0...$0.............$0
+Sei piuttosto fastidioso,
+devo ammetterlo.
+Ma cosa ne pensi di questo?
+]]
+}
+
+dialog{
+  id = "dungeon_8.billy",
+  text = [[
+Non pensavi che avresti
+trovato il tuo vecchio
+amico Billy lo
+Spericolato, il più
+grande eroe di 
+tutti i tempi?!
+La Princessa e gli otti
+figli di Solarus non sono 
+più qui.
+Loro hanno trovato rifugio
+nel mio palazzo, ma mi sono
+preso la briga di
+consegnarli ad
+Agahnim...
+
+
+Ora, preparati a morire!
+]]
+}
+
+dialog{
+  id = "dungeon_8.ganon",
+  text = [[
+$1Alla fine, hai trovato
+il modo di sconfiggere il
+mio alter ego, l'oscuro
+stregone Agahnim...
+È stato piuttosto inutile
+considerando che poi
+mi ha liberato, i 
+momenti di terrore non 
+sono ancora finiti! 
+Come premio per la tua 
+impresa, tu, la Principessa,
+e gli otti figli di
+Solarus siete invitati 
+nel mio palazzo. 
+Ricostruirò il Treforte
+e voi sarete i primi ad
+assistere a questo
+magnifico evento. 
+Siete spacciati, 
+rilassati...
+]]
+}
+
+dialog{
+  id = "dungeon_8.hint_1F",
+  skip = "current",
+  text = [[
+Gettati nelle profondità
+delle caverne e continua
+il tuo viaggio.
+]]
+}
+
+dialog{
+  id = "dungeon_8.hint_B1",
+  skip = "current",
+  text = [[
+Se sei bloccato, combatti
+le picche con le picche.
+]]
+}
+
+dialog{
+  id = "dungeon_8.welcome",
+  skip = "current",
+  text = [[
+        Livello 8
+     Le Caverne delle 
+       Cime Rocciose
+]]
+}
+
+dialog{
+  id = "dungeon_9.3f_door_b_hint_0",
+  skip = "all",
+  text = [[
+A destra.
+]]
+}
+
+dialog{
+  id = "dungeon_9.3f_door_b_hint_2",
+  skip = "all",
+  text = [[
+A sinistra.
+]]
+}
+
+dialog{
+  id = "dungeon_9.3f_door_b_hint_3",
+  skip = "all",
+  text = [[
+Giù.
+]]
+}
+
+dialog{
+  id = "dungeon_9.5f_childs_hint",
+  text = [[
+$1Per sconfiggere Ganon,
+le torce devono essere
+accese in senso orario.
+]]
+}
+
+dialog{
+  id = "dungeon_9.boss",
+  text = [[
+Eccoti qui, piccolo
+bamboccio.
+
+È da molto che ti
+stavo aspettando.
+Il momento della vendetta
+finalmente è arrivato!
+Preparati a morire.
+]]
+}
+
+dialog{
+  id = "dungeon_9.clockwise_switches_hint",
+  skip = "all",
+  text = [[
+Vai in senso orario.
+]]
+}
+
+dialog{
+  id = "dungeon_9.welcome",
+  skip = "current",
+  text = [[
+         Livello 9
+   Il Tempio dei Ricordi
+]]
+}
+
+dialog{
+  id = "dungeon_9.zelda",
+  text = [[
+$1$v... Grazie.
+La tua vittoria contro
+i malvagi mostra ancora
+una volta come la 
+saggezza e la giustizia
+trionfino sempre sulle
+forze del male.
+Grazie alle tue
+prodezze, il
+nostro mondo è stato
+riportato al suo aspetto
+originario.
+Il Regno di Hyrule
+è salvo ancora una volta.
+]]
+}
+
+dialog{
+  id = "dungeon_9.zelda_children",
+  text = [[
+$1Io devo distruggere
+questo artefatto. Il potere
+del Solarus è troppo 
+pericoloso. Distruggendolo,
+non ci sarà più un modo per
+ricostruire il Treforte
+dai suoi frammenti.
+Anche se è per un buon
+motivo che tu lo hai
+utilizzato, i malvagi
+come Agahnim and Ganondorf
+cercheranno sempre di
+impossessarsene.
+Col potere degli otto
+esseri creati dall'essenza
+del Solarus, l'artefatto
+può rompere il sigillo.
+Tu ora capisci perchè
+lo devo distruggere.
+]]
+}
+
+dialog{
+  id = "dungeon_9.zelda_end",
+  text = [[
+$1È tutto finito.$0
+
+
+Il potere del
+Solarus è svanito
+per sempre.
+Il Treforte rimarrà
+sigillato fino alla
+fine del mondo.
+]]
+}
+
+dialog{
+  id = "fairy_cave.first_time",
+  text = [[
+Benvenuto, ragazzo
+pieno di saggezza. Ti stavo
+aspettando. Io sono la
+Fatina Incantatrice. Tu,
+che sei in cerca di
+giustizia,
+mi hai permesso di 
+omaggiarti con
+questo regalo...
+
+Tu hai dimostrato
+di esserne degno.
+]]
+}
+
+dialog{
+  id = "fairy_cave.restore_health",
+  text = [[
+Benvenuto, ragazzo
+pieno di saggezza.
+
+Sono la Fatina
+Incantatrice. Chiudi 
+gli occhi
+e rilassati.
+]]
+}
+
+dialog{
+  id = "found_fairy",
+  icon = "81",
+  next = "found_fairy.1",
+  skip = "current",
+  text = [[
+Hai trovato una Fatina,
+è stupenda!
+]]
+}
+
+dialog{
+  id = "found_fairy.1",
+  icon = "-1",
+  question = "1",
+  text = [[
+Cosa vuoi fare?
+Recuperare la salute
+Portarla con te
+]]
+}
+
+dialog{
+  id = "found_fairy.no_empty_bottle",
+  skip = "current",
+  text = [[
+Non hai una 
+Ampolla Magica vuota!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.first",
+  icon = "75",
+  text = [[
+Trova quattro Frammenti
+di Cuore per avere 
+un Cuore aggiuntivo.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  icon = "78",
+  text = [[
+Hai trovato quattro 
+Frammenti del Cuore.
+Ora ottieni un Cuore extra!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.second",
+  icon = "76",
+  text = [[
+Ancora due e avrai
+un Cuore aggiuntivo.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.third",
+  icon = "77",
+  text = [[
+Trovane ancora uno e 
+avrai un altro Cuore.
+]]
+}
+
+dialog{
+  id = "found_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Vuoi mettere un po'
+d'acqua nella tua
+
+Ampolla Magica?
+Si
+No
+]]
+}
+
+dialog{
+  id = "found_water.no_bottle",
+  skip = "all",
+  text = [[
+C'è un po' d'acqua 
+qui, ma non hai un
+contenitore...
+]]
+}
+
+dialog{
+  id = "found_water.no_empty_bottle",
+  icon = "8",
+  skip = "all",
+  text = [[
+C'è un po' d'acqua qui, 
+ma hai bisogno di
+un'Ampolla Magica Vuota
+per portarne un po' 
+con te...
+]]
+}
+
+dialog{
+  id = "grandma_house.dark_world_enabled",
+  skip = "all",
+  text = [[
+Agahnim ha preso il
+controllo del regno...
+Il Male si diffonde lungo
+il suo passaggio. Uno dei
+soldati del castello, Tom,
+si presume abbia rapito 
+Sahasrahla,
+ma non è possibile!
+Inoltre, alcuni banditi
+hanno saccheggiato la Casa
+delle Monete!
+]]
+}
+
+dialog{
+  id = "grandma_house.find_sahasrahla",
+  skip = "all",
+  text = [[
+Con questa spada, puoi
+farti strada falciando i
+cespugli che proteggono
+il villaggio. Non stai
+cercando l'Antico 
+Sahasrahla?
+La sua casa è a sud-ovest
+da qui, vicino alla 
+pasticceria.
+Non ti ricordi?
+]]
+}
+
+dialog{
+  id = "grandma_house.go_back_sahasrahla",
+  skip = "all",
+  text = [[
+Mi dispiace, non ne ho
+idea.
+Sahasrahla dovrebbe
+essere in grado
+di aiutarti.
+]]
+}
+
+dialog{
+  id = "grandma_house.go_dungeon_1",
+  skip = "all",
+  text = [[
+Uno dei quattro
+figli che è stato rapito
+dovrebbe essere tenuto
+prigioniero in
+un cupo sotterraneo
+nella foresta a sud
+del villaggio. Che
+cosa stai aspettando?
+]]
+}
+
+dialog{
+  id = "grandma_house.go_dungeon_2",
+  skip = "all",
+  text = [[
+Che bella chiave che
+hai trovato! Non è
+ora che cominci a cercare
+il secondo figlio 
+perduto?
+]]
+}
+
+dialog{
+  id = "grandma_house.go_lyriann_cave",
+  skip = "all",
+  text = [[
+Questa chiave ti consente
+di entrare nella caverna
+situata a nord 
+del villaggio.
+]]
+}
+
+dialog{
+  id = "grandma_house.go_telepathic_booth",
+  skip = "all",
+  text = [[
+Che cosa stai dicendo?
+Non riesco a sentirti bene!
+Alla mia età, le mie 
+orecchie non funzionano bene
+come un tempo ...
+Cosa ne dici di comunicare
+con la telepatia?
+È moderna e più adatta
+a questo vecchio
+corpo.
+]]
+}
+
+dialog{
+  id = "grandma_house.go_twin_caves",
+  skip = "all",
+  text = [[
+E così hai trovato un Arco?
+Sono sicuro che puoi
+accedere alle caverne
+gemelle a sud, e 
+scoprire i segreti 
+che nascondono.
+Fatti forza!
+]]
+}
+
+dialog{
+  id = "grandma_house.sword",
+  skip = "all",
+  text = [[
+I mostri sono in agguato
+nel campo. Non è un
+buon segno; Sono sicuro
+che sia successo
+qualcosa di terribile. 
+
+Stavi cercando una
+spada? Alla mia età, 
+io non avevo idea di cosa
+fare con quelle cose ... 
+Forse è meglio che vai
+a cercare il fabbro nella
+caverna a nord-est del
+villaggio. È un po'
+scontroso ma dovrebbe
+essere in grado di 
+aiutarti.
+]]
+}
+
+dialog{
+  id = "hidden_palace.door_closed",
+  skip = "all",
+  text = [[
+La porta non si apre...
+]]
+}
+
+dialog{
+  id = "hidden_palace.using_bone_key",
+  icon = "20",
+  text = [[
+$1Hai usato la Chiave
+d'Osso...
+]]
+}
+
+dialog{
+  id = "inferno.find_fire_stones",
+  skip = "current",
+  text = [[
+Dovrai affrontare le
+tre prove del coraggio.
+
+Il Fiume.
+$0La Montagna.
+$0Beaumont.
+Supera queste sfide che
+ti attendono, riporta
+indietro le tre Pietre
+del Fuoco, e solo allora
+la rabbia dell'Inferno
+si calmerà.
+]]
+}
+
+dialog{
+  id = "inferno.first_time",
+  next = "inferno.find_fire_stones",
+  text = [[
+Chi osa camminare nei
+miei possedimenti?
+Bamboccio!
+
+Non sai quanto è 
+folle disturbare
+il grande Inferno, 
+Il Signore delle
+Fiamme?!
+Sarai punito per questo
+tuo comportamento!
+Se vuoi essere perdonato,
+fatti avanti e cerca
+le tre Pietre del Fuoco
+che ho nascosto nel mio
+oscuro labirinto.
+]]
+}
+
+dialog{
+  id = "inferno.found_fire_stones",
+  question = "1",
+  text = [[
+Sei riuscito a superare
+le tre prove con
+successo! Il tuo
+coraggio è davvero
+stupefacente!
+Mi inchino ad esso ...
+Farò in modo di darti
+ciò che desideri.
+Che cosa preferisci?
+I massi neri...
+100 Monete?
+]]
+}
+
+dialog{
+  id = "inferno.want_black_stones",
+  text = [[
+Prima di poter 
+sollevare i massi
+neri, devi sopravvivere
+in una terra infernale, 
+e superare molti
+pericoli.
+Ti manderò tra le
+fiamme dell'inferno...
+]]
+}
+
+dialog{
+  id = "inferno.want_rupees",
+  text = [[
+Così sia.
+]]
+}
+
+dialog{
+  id = "inferno.want_rupees_again",
+  text = [[
+Ti ho già dato
+questo premio.
+]]
+}
+
+dialog{
+  id = "intro0",
+  skip = "current",
+  text = [[
+$2Antiche leggende
+raccontano di un regno
+magnifico chiamato Hyrule
+esistito molti anni fa.
+Il regno è prosperato
+sotto la benedizione
+di tre divinità, 
+rappresentate nella
+forma del Treforte.
+Sette saggi hanno sigillato
+il Treforte nelle
+Terre Dorate, il riflesso
+Utopico di questo mondo.
+Centinaia di anni
+sono trascorsi...
+]]
+}
+
+dialog{
+  id = "intro1",
+  skip = "current",
+  text = [[
+$2Molte generazioni
+dopo, un malefico
+incantesimo ha
+messo in pericolo Hyrule.
+Un misterioso stregone
+chiamato Agahnim
+sconfisse il malvagio
+pericolo. Acclamato
+dalla gente, il Re
+affidò a lui il compito
+di proteggere Hyrule.
+Purtroppo però, lo
+stregone stava
+complottando contro la
+famiglia reale. Tentò
+di far tornare Ganondorf,
+Re dei Ladri, da
+tempo dimenticato.
+]]
+}
+
+dialog{
+  id = "intro2",
+  skip = "current",
+  text = [[
+$2Si racconta che un giovane
+uomo vestito di verde partì
+all'avventura,
+esplorando templi perduti,
+viaggiando nelle valli e
+nelle pianure.
+]]
+}
+
+dialog{
+  id = "intro3",
+  skip = "current",
+  text = [[
+$2Inoltre, egli fu colui
+conosciuto come l'Eroe
+che sconfisse il male.
+Grazie al suo coraggio
+riuscì a sconfiggere
+Ganondorf, che aveva
+costruito una 
+spaventosa piramide
+nelle Terre Dorate.
+]]
+}
+
+dialog{
+  id = "intro4",
+  skip = "current",
+  text = [[
+$2Il giovane Eroe allora
+decise di impriginare
+Ganondorf per sempre
+nelle Terre Dorate. 
+Il Re di Hyrule, un
+discendente dei Sette
+Saggi, lo scacciò
+utilizzando la magia
+del sigillo.
+]]
+}
+
+dialog{
+  id = "intro5",
+  skip = "current",
+  text = [[
+$2Ma alcuni anni dopo,
+il Re si ammalò
+gravemente.
+I Dottori da ogni
+parte del regno
+provarono a curarlo
+ma senza successo...
+Il Re spirò e i suoi
+poteri svanirono.
+Il sigillo dei Sette
+Saggi si indebolì
+nuovamente.
+]]
+}
+
+dialog{
+  id = "intro6",
+  skip = "current",
+  text = [[
+$2L'Eroe, sotto la 
+guida del suo maestro
+Sahasrahla, si fidò
+di colei che aveva
+ereditato i poteri reali,
+la Principessa Zelda, 
+con il Treforte.
+Zelda si unì a otto
+misteriosi bambini per
+sbriciolare il Treforte
+in otto frammenti
+e disseminarli lungo
+tutto il regno facendo
+tornare nuovamente la pace.
+
+
+E così la nostra avventura
+comincia...
+]]
+}
+
+dialog{
+  id = "junk_shop.arrows",
+  text = [[
+Frecce Normali.
+]]
+}
+
+dialog{
+  id = "junk_shop.bombs",
+  text = [[
+Otto bombe ad un
+prezzo ridotto.
+]]
+}
+
+dialog{
+  id = "junk_shop.croissant",
+  text = [[
+Un Cornetto. Per recuperare
+i tuoi Cuori.
+]]
+}
+
+dialog{
+  id = "junk_shop.heart",
+  text = [[
+Un Cuore. Utile se hai
+bisogno di salute.
+]]
+}
+
+dialog{
+  id = "junk_shop.mystic_mirror",
+  text = [[
+Lo Specchio Mistico. Si
+narra che possa invertire
+il flusso dell'acqua!
+]]
+}
+
+dialog{
+  id = "junk_shop.pain_au_chocolat",
+  text = [[
+Un Cornetto al Cioccolato
+per recuperare i Cuori.
+]]
+}
+
+dialog{
+  id = "junk_shop.piece_of_heart",
+  text = [[
+Un autentico Frammento di
+Cuore.
+]]
+}
+
+dialog{
+  id = "junk_shop.red_rupee",
+  text = [[
+Un'offerta speciale su
+una Moneta Rossa, ma è il
+modello del pavimento.
+]]
+}
+
+dialog{
+  id = "junk_shop.seller",
+  skip = "all",
+  text = [[
+Benvenuto nel Negozio
+dei Rottami! 
+I migliori oggetti
+della gamma a un prezzo
+straordinario! Affrettati!
+]]
+}
+
+dialog{
+  id = "lake_shop.apples",
+  text = [[
+Tre mele ad un
+prezzo vantaggioso.
+]]
+}
+
+dialog{
+  id = "lake_shop.arrows",
+  text = [[
+Dieci frecce, un
+affare a questo prezzo!
+]]
+}
+
+dialog{
+  id = "lake_shop.big_magic_flask",
+  text = [[
+Offerta speciale:
+un'anfora di energia magica.
+]]
+}
+
+dialog{
+  id = "lake_shop.bombs",
+  text = [[
+Otto bombe. Te le vendo
+a prezzo di costo!
+]]
+}
+
+dialog{
+  id = "lake_shop.seller",
+  text = [[
+Benvenuto nel Negozio del
+Lago! I nostri oggetti
+sono i più economici
+della zona.
+Come posso aiutarti?
+]]
+}
+
+dialog{
+  id = "link_house.dream",
+  text = [[
+... $v...
+Sono io...
+... Sahasrahla...
+Io devo... parlarti...
+Fai presto, $v...
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.accept_help",
+  text = [[
+Grazie. Io posso prestarti
+questo, spero che possa
+esserti utile.
+Non dimenticarti di
+riportarmelo una volta
+che avrai finito di
+utilizzarlo.
+Mi stupirai davvero molto
+se riuscirai a trovare
+un Contenitore di Cuori!
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.cavern_finished",
+  next = "lyriann_cave.tom.see_you_later",
+  text = [[
+Hai risolto i misteri
+di questa caverna?
+Impressionante!
+Sei tanto abile quanto
+coraggioso.
+
+Se a te non importa, 
+rivorrei indietro 
+il mio Boomerang
+adesso.
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.first_time",
+  next2 = "lyriann_cave.tom.refuse_help",
+  question = "1",
+  text = [[
+Ciao, giovane
+avventuriero. Io sono Tom,
+una guardia ufficiale del
+nostro caro Re.
+Non pensavo che avrei
+mai trovato qualcuno qui.
+Cosa stai facendo in
+questa caverna oscura?
+Cosa? Il Treforte è
+in pericolo? $0Niente
+di tutto questo sarebbe
+mai successo se il nostro
+Re fosse ancora qua
+a proteggerlo...
+Stai cercando di risolvere
+i misteri di questa
+caverna? Questo luogo
+pullula di indovinelli
+, tesori, e
+pericoli. Sembri
+molto coraggioso!
+Per favore, lascia che
+ti aiuti... Io sono
+un fallito, non
+sono stato capace di
+proteggere il nostro Re.
+Dammi la possibilità
+di riscattarmi!
+Accetti il mio aiuto?
+Si
+No
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.gave_boomerang_back",
+  text = [[
+Grazie. Vieni a trovarmi
+di nuovo se hai ancora
+bisogno del mio aiuto.
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.leaving",
+  text = [[
+Hey! Aspetta!
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.leaving.cavern_not_finished",
+  text = [[
+Hai già finito la
+tua esplorazione? Non credo 
+che tu abbia trovato
+tutto quanto... Se per te
+non è un problema, rivorrei
+indietro il mio Boomerang. 
+Ti serve un po' di pratica
+per riuscire ad utilizzarlo!
+Torna pure a 
+trovarmi se hai
+bisogno di me.
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.not_finished",
+  question = "1",
+  text = [[
+È tutto a posto? 
+Usa il mio Boomerang
+per superare gli ostacoli.
+Hai bisogno di imparare
+a padroneggiarlo se vuoi
+trovare tutti i segreti
+in questa caverna...
+Non dimenticarti che
+il Boomerang torna
+sempre da te, anche se
+ti muovi.
+
+Che cosa vuoi fare?
+Continuare
+Restituire il Boomerang
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.not_first_time",
+  next2 = "lyriann_cave.tom.refuse_help",
+  question = "1",
+  text = [[
+Giovane esploratore, lascia
+che ti aiuti. Io sono 
+un fallito,
+Non sono stato capace di
+proteggere il nostro Re.
+Dammi una possibilità di
+riscatto! 
+Accetti il mio aiuto?
+Si
+No
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.refuse_help",
+  text = [[
+Va bene, come preferisci.
+]]
+}
+
+dialog{
+  id = "lyriann_cave.tom.see_you_later",
+  text = [[
+Se vuoi, posso scortarti
+durante le tue avventure, 
+se mai dovessi aver
+bisogno.
+]]
+}
+
+dialog{
+  id = "lyriann_shop.apples",
+  next = "_unknown",
+  text = [[
+Tre mele appena
+raccolte di questa
+mattina!
+Ogni mela fa recuperare
+un Cuore.
+]]
+}
+
+dialog{
+  id = "lyriann_shop.bomb_bag",
+  next = "_unknown",
+  text = [[
+Una Borsa per le Bombe 
+più grande.
+Davvero molto alla moda in
+questi giorni!
+]]
+}
+
+dialog{
+  id = "lyriann_shop.heart",
+  next = "_unknown",
+  text = [[
+Riempie un Cuore, usato
+subito dopo l'acquisto.
+]]
+}
+
+dialog{
+  id = "lyriann_shop.lamp",
+  next = "_unknown",
+  text = [[
+Una Lanterna.
+Viaggia attraverso
+luoghi bui!
+]]
+}
+
+dialog{
+  id = "lyriann_shop.quiver",
+  next = "_unknown",
+  text = [[
+Una Faretra più grande.
+Ora puoi trasportare
+più frecce!
+]]
+}
+
+dialog{
+  id = "lyriann_shop.rupee_bag",
+  next = "_unknown",
+  text = [[
+Un nuovo Portamonete per
+trasportare più Monete.
+]]
+}
+
+dialog{
+  id = "lyriann_shop.salesman",
+  text = [[
+Benvenuto. Scegli che 
+cosa vuoi comprare.
+]]
+}
+
+dialog{
+  id = "mountain_cave.almost_done",
+  skip = "all",
+  text = [[
+Il peggio è già passato.
+]]
+}
+
+dialog{
+  id = "mountain_cave.mountain_sign",
+  skip = "all",
+  text = [[
+    Monte del Terrore
+        --->
+]]
+}
+
+dialog{
+  id = "mountain_cave.not_much_done",
+  skip = "all",
+  text = [[
+Se stai leggendo questo,
+allora non hai fatto
+molta strada.
+]]
+}
+
+dialog{
+  id = "mountain_cave.patience",
+  skip = "all",
+  text = [[
+La Pazienza è la virtù
+del vero eroe.
+      - Anonimo -
+]]
+}
+
+dialog{
+  id = "north_fairy_fountain.first_time",
+  text = [[
+Benvenuto, giovane amico
+coraggioso.
+Ti stavo aspettando. Sono la
+Fatina Viaggiatrice. Tu,
+che viaggi per il mondo
+per combattere il male
+senza sosta, permettimi
+di insegnarti un'antica
+tecnica ...
+]]
+}
+
+dialog{
+  id = "north_fairy_fountain.restore_health",
+  text = [[
+Benvenuto, giovane amico
+coraggioso.
+
+Sono la Fatina
+Viaggiatrice. Chiudi gli
+occhi e rilassati.
+]]
+}
+
+dialog{
+  id = "outside_world.beaumont_hill_put_edelweiss",
+  text = [[
+Stai piantando il tuo
+Edelwell...
+]]
+}
+
+dialog{
+  id = "outside_world.beaumont_hill_sign",
+  text = [[
+Colui che pianta un
+Edelwell in cima al
+Monte Beamount, avrà
+una giornata radiosa.
+]]
+}
+
+dialog{
+  id = "outside_world.billy_cavern_sign",
+  text = [[
+La caverna di Billy 
+lo Spericolato.
+Vietato entrare!
+]]
+}
+
+dialog{
+  id = "outside_world.flower_hole_sign",
+  text = [[
+Il buco vicino al fiore
+non è così pericoloso
+come sembra...
+]]
+}
+
+dialog{
+  id = "outside_world.how_to_save_npc",
+  skip = "all",
+  text = [[
+Per salvare i tuoi progressi
+premi D per mettere in pausa
+il gioco e poi premi C.
+Tieni d'occhio l'icona
+verde!
+]]
+}
+
+dialog{
+  id = "outside_world.ice_key_required",
+  text = [[
+  - Serratura di Ghiaccio -
+È chiusa!
+]]
+}
+
+dialog{
+  id = "outside_world.iron_key_required",
+  text = [[
+   - Serratura di Ferro -
+È chiusa!
+]]
+}
+
+dialog{
+  id = "outside_world.junk_shop_sign",
+  skip = "all",
+  text = [[
+
+    Negozio dei Rottami
+
+La miglior selezione
+a prezzi eccezionali!
+]]
+}
+
+dialog{
+  id = "outside_world.mountain_riverfall",
+  skip = "all",
+  text = [[
+Deve esserci un modo
+per attraversare questa
+cascata...
+]]
+}
+
+dialog{
+  id = "outside_world.old_castle_sign",
+  skip = "all",
+  text = [[
+
+     Castello Antico
+         <---
+]]
+}
+
+dialog{
+  id = "outside_world.rock_key_required",
+  text = [[
+È chiuso!
+]]
+}
+
+dialog{
+  id = "outside_world.stone_key_required",
+  text = [[
+   - Serratura di Pietra -
+È chiusa!
+]]
+}
+
+dialog{
+  id = "outside_world.surprise_wall_closed",
+  text = [[
+È chiusa!
+]]
+}
+
+dialog{
+  id = "outside_world.surprise_wall_guy.closed",
+  text = [[
+Se mi dai qualcosa
+da mangiare,
+ti farò accedere
+all'altro lato di
+questo muro.
+]]
+}
+
+dialog{
+  id = "outside_world.surprise_wall_guy.give_me_apple_pie",
+  question = "1",
+  text = [[
+Dammi una torta di mele!
+
+
+Accetti?
+OK
+Non ci pensare
+]]
+}
+
+dialog{
+  id = "outside_world.surprise_wall_guy.open",
+  text = [[
+Alcune persone credono
+che ci sia un tesoro
+dietro questo muro, ma
+non ne ho mai trovato 
+nessuno.
+]]
+}
+
+dialog{
+  id = "outside_world.surprise_wall_guy.thanks",
+  next = "outside_world.surprise_wall_guy.open",
+  text = [[
+Super! Mangerò la torta
+in segno di apprezzamento.
+]]
+}
+
+dialog{
+  id = "outside_world.surprise_wall_sign",
+  text = [[
+  - Muro delle Sorprese -
+Entra e tenta la
+fortuna per vincere
+il tesoro nascosto!
+]]
+}
+
+dialog{
+  id = "outside_world.telepathic_booth_sign",
+  text = [[
+Cabina Telepatica
+]]
+}
+
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.finished",
+  text = [[
+Fa attenzione, sembra
+pericoloso lì dentro.
+]]
+}
+
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.hey",
+  text = [[
+Hey!
+]]
+}
+
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.let_me_see",
+  text = [[
+Hmmm, Suppongo che ci
+sia una scala nascosta qui.
+Diamo un'occhiata...
+]]
+}
+
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.need_help",
+  text = [[
+Ti serve una mano?
+]]
+}
+
+dialog{
+  id = "outside_world.tom_dungeon_1_entrance.open",
+  text = [[
+Credo di poterlo spostare.
+$0Voila!
+]]
+}
+
+dialog{
+  id = "outside_world.village.cake_shop_sign",
+  text = [[
+
+        Pasticceria
+]]
+}
+
+dialog{
+  id = "outside_world.village.chignon_woman",
+  skip = "all",
+  text = [[
+Quando l'icona blu
+appare, ti dice quale
+azione premendo
+il tasto Azione (spazio)
+viene effettuata.
+In base a quello che
+stai esaminando, effettuerà
+diverse azioni come guardare
+, parlare, leggere 
+un'insegna, sollevare
+un vaso, ecc.
+Tieni un occhio sull'icona
+per sapere quando puoi
+interagire con ciò che
+ti circonda!
+]]
+}
+
+dialog{
+  id = "outside_world.village.chignon_woman_dungeons",
+  skip = "all",
+  text = [[
+Si dice che ogni sotterraneo
+nasconde un Frammento
+di Cuore...
+Buffo, non è vero?
+]]
+}
+
+dialog{
+  id = "outside_world.village.clay_key_required",
+  text = [[
+È chiuso!
+]]
+}
+
+dialog{
+  id = "outside_world.village.cliff_man_npc",
+  skip = "all",
+  text = [[
+Lo sapevi che puoi
+saltar giù da alcuni
+dirupi?
+Questo potrebbe aiutarti
+a raggiungere luoghi
+di difficile accesso.
+]]
+}
+
+dialog{
+  id = "outside_world.village.grand_son_npc",
+  skip = "current",
+  text = [[
+Se non sai cosa fare
+ad un certo punto
+della tua avventura,
+ti conviene andare a
+trovare Nonna Lyly. Lei
+ama dare consigli e
+aiutare gli avventurieri.
+Lei vive nella casa a fianco
+alla Casa delle Monete.
+Non so nient'altro, sono
+solo un bambino!
+]]
+}
+
+dialog{
+  id = "outside_world.village.hat_man_npc",
+  skip = "all",
+  text = [[
+Se hai bisogno di 
+Monete, ti raccomando
+di non andare nella
+Casa delle Monete, 
+perchè potresti perdere
+anche quelle che hai!
+Ad ogni modo, sembri
+più in gamba di me.
+
+Magari ti andrà meglio
+rispetto a me!
+]]
+}
+
+dialog{
+  id = "outside_world.village.hat_man_npc_waterfall",
+  skip = "all",
+  text = [[
+Si presume che ci sia
+un tesoro nascosto dalla
+cascata dietro
+l'antico castello.
+Pensi che possa essere
+vero?
+]]
+}
+
+dialog{
+  id = "outside_world.village.letter_box",
+  skip = "all",
+  text = [[
+Non leggere lettere che
+non sono indirizzate a te!
+]]
+}
+
+dialog{
+  id = "outside_world.village.monkey",
+  next = "_unknown",
+  text = [[
+Aiuto!
+
+
+Il villaggio è stato
+circondato da
+mostri!
+]]
+}
+
+dialog{
+  id = "outside_world.village.monkey.with_shield",
+  text = [[
+Non ho idea di quello
+che sta succedendo, 
+ma hai ragione a volere
+almeno uno Scudo con te...
+Fa attenzione!
+]]
+}
+
+dialog{
+  id = "outside_world.village.monkey.without_shield",
+  text = [[
+Non so cosa stia
+succedendo, ma non
+lascierei il paese
+senza una protezione
+se fossi in te.
+]]
+}
+
+dialog{
+  id = "outside_world.village.rupee_house_sign",
+  text = [[
+   - Casa delle Monete -
+Guadagna alcune Monete
+divertendoti!
+]]
+}
+
+dialog{
+  id = "outside_world.village.shop_sign",
+  text = [[
+
+          Negozio
+]]
+}
+
+dialog{
+  id = "outside_world.village.tree_woman",
+  next = "outside_world.village.tree_woman.long_text",
+  skip = "all",
+  text = [[
+
+Sei in difficoltà
+con l'interfaccia? Lascia
+che ti spieghi
+come funziona.
+Le icone in alto
+]]
+}
+
+dialog{
+  id = "outside_world.village.tree_woman.again",
+  next = "outside_world.village.tree_woman.long_text",
+  text = [[
+Bene, lascia che ti spieghi
+di nuovo, ma ascoltami
+attentamente questa volta.
+Le icone in alto
+]]
+}
+
+dialog{
+  id = "outside_world.village.tree_woman.long_text",
+  next = "outside_world.village.tree_woman.thank_you",
+  next2 = "outside_world.village.tree_woman.again",
+  question = "1",
+  text = [[
+a sinistra sono allineate
+come i tasti della tastiera
+Il tasto C è l'icona verde,
+premendolo utilizzi
+la spada. Ma quando il
+gioco è in pausa, l'icona 
+cambia e ti dice che il 
+tasto C è utilizzato 
+per salvare la partita!
+E quando stai parlando
+con qualcuno, ti consente
+di terminare la 
+conversazione.
+Basta tener d'occhio
+l'icona verde per sapere
+che cosa fa il tasto C.
+Le altre icone sono
+i tasti intorno al
+tasto C: l'icona
+arancione (tasto D)
+mette il gioco in pausa,
+l'icona blu (barra
+spaziatrice) è il tasto
+Azione, e le due icone
+grige corrispondono
+agli oggetti assegnati
+ai tasti X e V. Quindi
+tieni sempre d'occhio
+quello che dicono
+le icone. Non dimenticarti
+di personalizzare
+i controlli nella
+schermata delle opzioni,
+e ricordati che puoi
+anche giocare con
+un gamepad.
+
+
+Hai capito tutto?
+Si
+No, non del tutto
+]]
+}
+
+dialog{
+  id = "outside_world.village.tree_woman.thank_you",
+  text = [[
+Grazie per aver ascoltato
+tutta la mia
+spiegazione!
+Te ne sono davvero grato!
+Ecco, ti meriti questo
+piccolo regalo.
+]]
+}
+
+dialog{
+  id = "outside_world.village.waterfall_sign",
+  text = [[
+
+
+Prego sentitevi liberi
+di portare le nostre
+fresche acque ristoratrici
+con voi.
+        Lyriann
+    Centro Turistico
+]]
+}
+
+dialog{
+  id = "outside_world.village.welcome_sign",
+  text = [[
+        Benvenuti
+        a Lyriann
+]]
+}
+
+dialog{
+  id = "outside_world.vine_start",
+  skip = "all",
+  text = [[
+La terra sembra molto
+fertile qui intorno,
+ma sembra anche
+piuttosto arida...
+]]
+}
+
+dialog{
+  id = "outside_world.warning_holes_sign",
+  text = [[
+Attenzione alle buche!
+]]
+}
+
+dialog{
+  id = "outside_world.wooden_key_required",
+  text = [[
+   - Serratura di Legno -
+È chiusa!
+]]
+}
+
+dialog{
+  id = "potion_shop.blue_potion",
+  text = [[
+Pozione Blu:
+restituisce la salute
+e il mana! Hehehe...
+]]
+}
+
+dialog{
+  id = "potion_shop.give_bottle",
+  text = [[
+Come ad ogni nuovo cliente,
+anche tu vieni omaggiato 
+di una Ampolla Magica.
+Hehehe...
+]]
+}
+
+dialog{
+  id = "potion_shop.green_potion",
+  text = [[
+Pozione Verde:
+rigenera la tua barra
+del mana! Hehehe...
+]]
+}
+
+dialog{
+  id = "potion_shop.no_empty_bottle",
+  text = [[
+Non puoi acquistare
+questa Pozione senza
+un'Ampolla Magica
+vuota! Hehehe...
+]]
+}
+
+dialog{
+  id = "potion_shop.red_potion",
+  text = [[
+Pozione Rossa:
+restituisce la salute!
+Hehehe...
+]]
+}
+
+dialog{
+  id = "potion_shop.witch",
+  text = [[
+Benvenuto al Negozio
+delle Pozioni!
+Hehehe...
+Rossa restituisce salute,
+verde restituisce mana,
+blu li restituisce entrambi.
+]]
+}
+
+dialog{
+  id = "potion_shop.witch_bottle_offered",
+  text = [[
+Benvenuto al Negozio delle
+Pozioni!
+Hehehe...
+Una Ampolla Magica è
+regalata ad ogni nuovo
+cliente! Hehehe...
+Rossa restituisce salute,
+verde restituisce mana, 
+blu restituisce
+sia salute che mana!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_1.choose_chest",
+  text = [[
+Ora si comincia, scegli
+un forziere!
+
+Smetti di fissarmi,
+non ti dirò quale
+scegliere!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_1.good_luck",
+  text = [[
+Buona fortuna!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_1.intro",
+  question = "1",
+  text = [[
+Benvenuto al gioco del
+forziere misterioso.
+Paga 20 Monete per
+aprire uno dei tre
+forzieri e avere la
+possibilità di 
+guadagnare più monete!
+Vuoi fare una partita?
+Si
+No
+]]
+}
+
+dialog{
+  id = "rupee_house.game_1.not_allowed_to_play",
+  text = [[
+Hai già vinto
+non è così? Ci
+siamo rovinati per
+causa tua!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_1.not_playing",
+  text = [[
+Dovresti avere più passione!
+Vivi a cuor leggero!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_1.play_again_question",
+  question = "1",
+  text = [[
+Vuoi giocare
+ancora?
+
+Sono 20 Monete!
+Si
+No
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.choose_bet",
+  question = "1",
+  text = [[
+Quanto vuoi puntare?
+5 Monete
+20 Monete
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.intro",
+  question = "1",
+  text = [[
+Benvenuti alla
+nuovissima slot
+machine!
+Inserisci 5 o 20 monete
+e fai del tuo meglio
+per allineare tre
+simboli uguali per
+vincere la tua puntata
+moltiplicata!
+
+Vuoi fare una partita?
+Si
+No
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.just_paid",
+  next = "rupee_house.game_2.playing",
+  text = [[
+Grazie!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.not_playing",
+  text = [[
+La prossima volta allora...
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.playing",
+  text = [[
+Posizionati a fianco
+delle roulette e premi
+il tasto Azione
+per fermarle.
+Buona fortuna!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.reward.blue_rupees",
+  text = [[
+Tre monete blu!
+Complimenti, vinci
+7 volte la tua
+puntata!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.reward.different_rupees",
+  text = [[
+Wow!!! Hai ottenuto
+tre Monete di colori
+differenti, non capita
+tutti i giorni!
+La vincita corrispondente 
+è pari a 15 volte 
+la tua puntata.
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.reward.green_rupees",
+  text = [[
+Tre Monete Verdi,
+bravo! Hai vinto 5 volte
+la tua puntata.
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.reward.none",
+  question = "1",
+  text = [[
+Sei sfortunato, non hai
+ottenuto una 
+combinazione vincente.
+Vuoi provare di nuovo?
+Si
+No
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.reward.red_rupees",
+  text = [[
+Tre Monete Rosse!!!
+Stupefacente!
+Hai vinto 10 volte
+la tua puntata!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.reward.same_any",
+  text = [[
+Tre simboli identici
+, non male!
+Hai vinto 4 volte la
+tua puntata.
+]]
+}
+
+dialog{
+  id = "rupee_house.game_2.reward.yoshi",
+  text = [[
+$1...$3Tre Yoshi?!
+I-n-c-r-e-d-i-b-i-l-e!
+Questa è la miglior
+combinazione possibile...
+Vinci 20 volte la tua
+puntata!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_3.go",
+  text = [[
+Si comincia!
+Buona fortuna!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_3.intro",
+  question = "1",
+  text = [[
+
+Percorri il labirinto
+prima che scada il tempo.
+Potresti dover spingere
+dei blocchi lungo il tuo
+percorso per aprire il 
+passaggio. Puoi vincere
+un Frammento di Cuore, e 
+ho sentito che sono
+piuttosto rari...
+Sono solo 10 Monete.
+
+
+Vuoi fare una partita?
+Si
+No
+]]
+}
+
+dialog{
+  id = "rupee_house.game_3.not_allowed_to_play",
+  text = [[
+Sono spiacente, hai già 
+vinto a questo gioco!
+]]
+}
+
+dialog{
+  id = "rupee_house.game_3.not_playing",
+  text = [[
+La scelta è tua...
+]]
+}
+
+dialog{
+  id = "rupee_house.game_3.restart_question",
+  question = "1",
+  text = [[
+Vuoi provare
+ancora?
+
+Sono solo 10 Monete.
+Si
+No
+]]
+}
+
+dialog{
+  id = "rupee_house.not_enough_money",
+  text = [[
+Non hai abbastanza
+monete!
+]]
+}
+
+dialog{
+  id = "rupee_house.pay_first",
+  text = [[
+Hey! Devi pagare se vuoi
+fare una partita!
+]]
+}
+
+dialog{
+  id = "rupee_house_broken.help_us_left",
+  text = [[
+Aiuto!
+Aiuto!
+
+La Casa è stata
+derubata!
+]]
+}
+
+dialog{
+  id = "rupee_house_broken.help_us_middle",
+  text = [[
+I banditi hanno rubato
+le Monete usate per pagare
+le vincite!
+]]
+}
+
+dialog{
+  id = "rupee_house_broken.help_us_right",
+  text = [[
+I banditi si sono diretti
+verso la grotta del fabbro!
+]]
+}
+
+dialog{
+  id = "rupee_house_broken.thanks",
+  text = [[
+Hai ritrovato le 
+nostre Monete!
+Grazie a te ora possiamo
+riprendere a fare il nostro
+lavoro come abbiamo sempre
+fatto. Non so come
+sdebitarmi...
+]]
+}
+
+dialog{
+  id = "rupee_house_broken.thanks_again",
+  text = [[
+Grazie ancora!
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.beginning",
+  next = "sahasrahla_house.beginning.12",
+  text = [[
+Oh, $v, hai sentito la
+mia chiamata.
+Ho delle cose importanti
+da dirti. È un periodo
+molto difficile.
+Quattro degli otto
+figli di Solarus sono
+stati rapiti...
+Ho paura che il Treforte
+sia in grave pericolo.
+Qualcuno vuole approfittarsi
+della morte del Re e
+impossessarsi del
+Treforte.
+Chi può aver fatto
+questo?
+Sicuramente Ganondorf e 
+i suoi tirapiedi...
+Il Sigillo dei Sette
+Saggi si è indebolito
+molto dopo la morte 
+del nostro povero Re.
+Ganon è riuscito a fuggire
+dal Mondo dell'Oscurità?
+Non dobbiamo permettergli
+di impossessarsi di un
+tale potere!
+Posso sentire il coraggio
+pulsare in te, $v.
+Devi salvare i figli e
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.beginning.12",
+  next = "sahasrahla_house.beginning.thanks",
+  next2 = "sahasrahla_house.beginning.insisting",
+  question = "1",
+  skip = "none",
+  text = [[
+proteggere il Treforte!
+Puoi contare su di me!
+No grazie...
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.beginning.insisting",
+  next = "sahasrahla_house.beginning.thanks",
+  next2 = "sahasrahla_house.beginning.insisting",
+  question = "1",
+  text = [[
+$v, devo insistere.
+Tu sei la nostra 
+unica speranza
+per salvare il regno...
+
+D'accordo
+Non ci pensare
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.beginning.thanks",
+  next = "sahasrahla_house.give_world_map",
+  text = [[
+Grazie ragazzo
+coraggioso. Noi riponiamo
+la nostra fiducia in te!
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.default",
+  next = "sahasrahla_house.go_grandma",
+  skip = "all",
+  text = [[
+Ho fiducia in te.
+Il tuo coraggio e la tua
+saggezza ti guideranno.
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.dungeon_1_finished",
+  next = "sahasrahla_house.go_grandma",
+  text = [[
+Ottimo lavoro, sei riuscito
+a superare le sfide
+della Foresta Intricata. 
+Prima di riprendere il tuo
+viaggio, torna nella mia 
+grotta, forse potrei avere 
+dei nuovi oggetti da darti.
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.frozen_door",
+  skip = "all",
+  text = [[
+La porta è congelata.
+Ci dev'essere un modo
+per sciogliere il ghiaccio!
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.frozen_door_advice",
+  skip = "all",
+  text = [[
+La porta è congelata?
+Prova a sciogliere il
+ghiaccio con un po' d'acqua.
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.give_world_map",
+  text = [[
+Ecco un piccolo oggetto
+che potrebbe esserti
+d'aiuto lungo il tuo
+cammino.
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.go_grandma",
+  text = [[
+Se non sai come proseguire
+nella tua avventura, fai
+visita a Nonna Lyly,
+a est nel villaggio.
+Lei è una vecchia amica
+e conosce tutto di 
+questa zona.
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.memories",
+  next = "sahasrahla_house.memories.read",
+  question = "1",
+  text = [[
+Memorie di Sahasrahla.
+
+
+Le vuoi leggere?
+Si
+No
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.memories.read",
+  text = [[
+Sono davvero troppo lunghe!
+]]
+}
+
+dialog{
+  id = "sahasrahla_house.quest_accepted",
+  text = [[
+Dovresti dare un'occhiata
+alla grotta, ho conservato
+alcune cose che potrebbero
+esserti utili. Niente
+di speciale suppongo,
+è un po' che non
+torno là...
+]]
+}
+
+dialog{
+  id = "smith_cave.not_buying",
+  text = [[
+Come preferisci, ma non
+tornare qui frignando
+se ti trovi
+in grossi guai.
+]]
+}
+
+dialog{
+  id = "smith_cave.not_enough_money",
+  text = [[
+Stai cercando di sbarazzarti
+di me? Non hai abbastanza
+Monete!
+]]
+}
+
+dialog{
+  id = "smith_cave.thank_you",
+  text = [[
+Grazie mille. Per colpire
+con la spada, premi C.
+Oppure tieni premuto 
+il tasto C per sferrare 
+un attacco rotante!
+]]
+}
+
+dialog{
+  id = "smith_cave.with_sword",
+  text = [[
+Non permetterti di rompere
+la mia Spada perchè non
+te ne forgerò un'altra!
+]]
+}
+
+dialog{
+  id = "smith_cave.without_sword",
+  question = "1",
+  text = [[
+Ho forgiato questa
+grande Spada di bronzo
+con le mie stesse mani.
+Puoi averla per 
+sole 75 Monete!
+
+Non farai molta strada
+solo con quello scudo.
+
+Allora, ti interessa?
+Si
+No
+]]
+}
+
+dialog{
+  id = "surprise_wall.direction_0",
+  text = [[
+
+          Destra
+]]
+}
+
+dialog{
+  id = "surprise_wall.direction_1",
+  text = [[
+
+           Su
+]]
+}
+
+dialog{
+  id = "surprise_wall.direction_2",
+  text = [[
+
+          Sinistra
+]]
+}
+
+dialog{
+  id = "surprise_wall.direction_3",
+  text = [[
+
+          Giù
+]]
+}
+
+dialog{
+  id = "telepathic_booth.dungeon_2_not_really_finished",
+  skip = "all",
+  text = [[
+$v, mi stai ascoltando?
+Sono Nonna Lyly!
+È telepatia, funziona!
+Ma sei sicuro di aver
+trovato tutto quanto
+nella Caverna del Roc?
+]]
+}
+
+dialog{
+  id = "telepathic_booth.go_billy",
+  skip = "all",
+  text = [[
+$v, puoi sentirmi?
+Sono Nonna Lyly!
+È telepatia, funziona!
+Tu conosci Billy lo
+Spericolato? Sembra che
+sia tornato sano e salvo
+dal suo viaggio fino al
+Monte del Terrore!
+]]
+}
+
+dialog{
+  id = "telepathic_booth.go_master_arbror",
+  skip = "all",
+  text = [[
+$v, puoi sentirmi?
+Sono Nonna Lyly!
+È telepatia, funziona!
+Sembra che ci sia un 
+percorso attraverso 
+gli alberi a nord da qui.
+Si dice che il 
+Potente Arbror abbia 
+infestato le zone
+allagate dal fiume.
+]]
+}
+
+dialog{
+  id = "telepathic_booth.go_sahasrahla",
+  skip = "all",
+  text = [[
+$v, riesci a sentirmi?
+Sono Nonna Lyly!
+È telepatia, funziona!
+Dovresti far visita a 
+Sahasrahla, dovrebbe
+avere qualcosa per te.
+]]
+}
+
+dialog{
+  id = "telepathic_booth.go_twin_caves",
+  skip = "all",
+  text = [[
+$v, riesci a sentirmi?
+Sono Nonna Lyly!
+È telepatia, funziona!
+Qualcuno mi ha detto che
+le caverne gemelle a sud
+della foresta intricata
+nascondono un 
+tesoro importante...
+]]
+}
+
+dialog{
+  id = "telepathic_booth.not_working",
+  skip = "all",
+  text = [[
+Pronto? ... Pronto? ...
+Qualcuno mi sente? ...
+]]
+}
+
+dialog{
+  id = "telepathic_booth.shop",
+  skip = "all",
+  text = [[
+$v, riesci a sentirmi?
+Sono Nonna Lyly!
+È telepatia, funziona!
+Ma è un periodo bruttissimo.
+Il regno è completamente
+devastato...
+È come se la vita stessa
+si fosse fermata.
+Tranne che per il negozio
+in città! Da allora hanno
+cominciato a vendere
+solo armi per la 
+sopravvivenza, stanno 
+facendo un sacco di soldi!
+]]
+}
+
+dialog{
+  id = "torch.need_lamp",
+  skip = "all",
+  text = [[
+Deve esserci un modo
+per accendere 
+questa torcia...
+]]
+}
+
+dialog{
+  id = "use_apples",
+  icon = "16",
+  question = "1",
+  text = [[
+Mangiare una mela ti
+farà recuperare un Cuore.
+Che cosa vuoi fare?
+Mangia una mela
+Niente
+]]
+}
+
+dialog{
+  id = "use_bottle_with_water",
+  icon = "8",
+  question = "1",
+  text = [[
+La tua Ampolla Magica è
+riempita con acqua.
+Vuoi rovesciarla?
+Rovescia l'acqua
+No
+]]
+}
+
+dialog{
+  id = "use_croissants",
+  icon = "18",
+  question = "1",
+  text = [[
+Un Cornetto fa recuperare
+sette cuori. Che cosa
+vuoi fare?
+Mangiane uno
+Niente
+]]
+}
+
+dialog{
+  id = "use_pains_au_chocolat",
+  icon = "17",
+  question = "1",
+  text = [[
+Un Cornetto al
+Cioccolato fa recuperare
+tre cuori. Che
+cosa vuoi fare?
+Mangiane uno
+Niente
+]]
+}
+
