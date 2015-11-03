@@ -3,6 +3,7 @@ zsdx 1.10.2 (in progress)
 * Upgrade to Solarus 1.4.5.
 * Add Italian translation (thanks Marco).
 * Make fairies play a sound when restoring life even when already full (#101).
+* Fix dialog cursor drawn at wrong position after successive questions (#105).
 * Dungeon 1: fix unintentional extra difficulty with block alignment (#102).
 * Dungeon 3: fix enemy entering mini-boss room (#107).
 * Dungeon 10: fix evil tiles door not opening sometimes (#94).
