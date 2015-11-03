@@ -475,8 +475,6 @@ function dialog_box:on_command_pressed(command)
         and self:is_full() then
       sol.audio.play_sound("cursor")
       self.selected_answer = 3 - self.selected_answer  -- Switch between 1 and 2.
-      self.question_dst_position.y = self.box_dst_position.y +
-          (self.selected_answer == 1 and 27 or 40)
     end
   end
 
@@ -527,6 +525,8 @@ function dialog_box:on_draw(dst_surface)
   if self.selected_answer ~= nil
       and self:is_full()
       and not self:has_more_lines() then
+    self.question_dst_position.y = self.box_dst_position.y +
+        (self.selected_answer == 1 and 27 or 40)
     self.box_img:draw_region(96, 60, 8, 8, self.dialog_surface,
         self.question_dst_position.x, self.question_dst_position.y)
   end
