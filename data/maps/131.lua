@@ -5,7 +5,6 @@ local game = map:get_game()
 function map:on_started(destination)
 
   if destination == from_ending then
-    hero:freeze()
     hero:set_visible(false)
     game:set_hud_enabled(false)
     game:set_pause_allowed(false)
@@ -15,3 +14,9 @@ function map:on_started(destination)
   end
 end
 
+function map:on_opening_transition_finished(destination)
+
+  if destination == from_ending then
+    hero:freeze()
+  end
+end
