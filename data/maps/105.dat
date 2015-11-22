@@ -2470,6 +2470,15 @@ destructible{
   damage_on_enemies = 2,
 }
 
+sensor{
+  name = "reset_solid_ground_sensor_11",
+  layer = 0,
+  x = 1880,
+  y = 909,
+  width = 16,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 1008,
@@ -20968,6 +20977,105 @@ jumper{
   height = 16,
   direction = 4,
   jump_length = 40,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_1",
+  layer = 1,
+  x = 1952,
+  y = 1677,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_4",
+  layer = 1,
+  x = 2224,
+  y = 1677,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_5",
+  layer = 1,
+  x = 1952,
+  y = 1421,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_6",
+  layer = 1,
+  x = 2224,
+  y = 1405,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_7",
+  layer = 1,
+  x = 2088,
+  y = 1317,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_8",
+  layer = 1,
+  x = 2088,
+  y = 1269,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_9",
+  layer = 1,
+  x = 1952,
+  y = 1165,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_10",
+  layer = 1,
+  x = 2088,
+  y = 1061,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_12",
+  layer = 1,
+  x = 1608,
+  y = 805,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_13",
+  layer = 1,
+  x = 944,
+  y = 1421,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "reset_solid_ground_sensor_14",
+  layer = 1,
+  x = 808,
+  y = 1525,
+  width = 16,
+  height = 16,
 }
 
 tile{
