@@ -6,6 +6,7 @@ zsdx 1.10.2 (in progress)
 * Fix dialog cursor drawn at wrong position after successive questions (#105).
 * Dungeon 1: fix unintentional extra difficulty with block alignment (#102).
 * Dungeon 3: fix enemy entering mini-boss room (#107).
+* Dungeon 9: fix spikes sending back to wrong room (#108).
 * Dungeon 10: fix evil tiles door not opening sometimes (#94).
 
 zsdx 1.10.1 (2015-05-09)
