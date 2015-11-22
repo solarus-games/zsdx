@@ -8,6 +8,7 @@ zsdx 1.10.2 (in progress)
 * Dungeon 3: fix enemy entering mini-boss room (#107).
 * Dungeon 9: fix spikes sending back to wrong room (#108).
 * Dungeon 10: fix evil tiles door not opening sometimes (#94).
+* End screen: fix freezing the hero (#109).
 
 zsdx 1.10.1 (2015-05-09)
 
