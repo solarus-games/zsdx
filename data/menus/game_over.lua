@@ -43,21 +43,21 @@ function game_over_menu:on_started()
   hero_dead_sprite:set_direction(hero:get_direction())
   hero_dead_sprite:set_paused(true)
   fade_sprite = sol.sprite.create("hud/gameover_fade")
+  fade_sprite:set_animation("close")
+  fade_sprite:set_paused(true)
   fairy_sprite = sol.sprite.create("entities/items")
   fairy_sprite:set_animation("fairy")
   state = "waiting_start"
-
   local map = game:get_map()
   local camera_x, camera_y = map:get_camera_position()
   local hero_x, hero_y = hero:get_position()
   hero_dead_x = hero_x - camera_x
   hero_dead_y = hero_y - camera_y
-
   sol.timer.start(self, 500, function()
     state = "closing_game"
     sol.audio.stop_music()
-    fade_sprite:set_animation("close")
-    fade_sprite.on_animation_finished = function()
+    fade_sprite:set_paused(false)
+    sol.timer.start(self, 500, function()
       if state == "closing_game" then
         state = "red_screen"
         sol.audio.play_sound("hero_dying")
@@ -67,40 +67,38 @@ function game_over_menu:on_started()
         sol.timer.start(self, 2000, function()
           state = "opening_menu"
           fade_sprite:set_animation("open")
-        end)
-      elseif state == "opening_menu" then
-        local bottle_with_fairy = game:get_first_bottle_with(6)
-        if bottle_with_fairy ~= nil then
-          -- Has a fairy.
-          state = "saved_by_fairy"
-
-          -- Make the bottle empty.
-          bottle_with_fairy:set_variant(1)
-          fairy_sprite:set_xy(hero_dead_x + 12, hero_dead_y + 21)
-          local movement = sol.movement.create("target")
-          movement:set_target(240, 22)
-          movement:set_speed(96)
-
-          movement:start(fairy_sprite, function()
-            state = "waiting_end"
-            game:add_life(7 * 4)  -- Restore 7 hearts.
-            sol.timer.start(self, 1000, function()
-              state = "resume_game"
-              sol.audio.play_music(music)
-              game:stop_game_over()
-              sol.menu.stop(self)
-            end)
+          sol.timer.start(self, 500, function()
+            local bottle_with_fairy = game:get_first_bottle_with(6)
+            if bottle_with_fairy ~= nil then
+              -- Has a fairy.
+              state = "saved_by_fairy"
+              -- Make the bottle empty.
+              bottle_with_fairy:set_variant(1)
+              fairy_sprite:set_xy(hero_dead_x + 12, hero_dead_y + 21)
+              local movement = sol.movement.create("target")
+              movement:set_target(240, 22)
+              movement:set_speed(96)
+              movement:start(fairy_sprite, function()
+                state = "waiting_end"
+                game:add_life(7 * 4)  -- Restore 7 hearts.
+                sol.timer.start(self, 1000, function()
+                  state = "resume_game"
+                  sol.audio.play_music(music)
+                  game:stop_game_over()
+                  sol.menu.stop(self)
+                end)
+              end)
+            else
+              -- No fairy: game over.
+              sol.audio.play_music("game_over")
+              fairy_sprite:set_xy(76, 112)  -- Cursor.
+              cursor_position = 0
+              state = "menu"
+            end
           end)
-        else
-          -- No fairy: game over.
-          state = "menu"
-          sol.audio.play_music("game_over")
-          fairy_sprite:set_xy(76, 112)  -- Cursor.
-          cursor_position = 0
-        end
-
+        end)
       end
-    end
+    end)
   end)
 end
 
