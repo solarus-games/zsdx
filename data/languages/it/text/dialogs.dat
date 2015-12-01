@@ -5,8 +5,8 @@ dialog{
   text = [[
 Huh? È chiuso!
 Forse con la Chiave
-Grande potresti riuscire
-ad aprirlo!
+Grande potresti
+riuscire ad aprirlo!
 ]]
 }
 
@@ -37,7 +37,8 @@ dialog{
   skip = "all",
   text = [[
 È ancora troppo pesante
-per riuscire a sollevarlo!
+per riuscire a 
+sollevarlo!
 ]]
 }
 
@@ -59,7 +60,8 @@ dialog{
   text = [[
 È un interruttore di 
 cristallo. Prova a 
-colpirlo con qualcosa...
+colpirlo con 
+qualcosa...
 ]]
 }
 
@@ -77,7 +79,8 @@ dialog{
   skip = "all",
   text = [[
 Mangia delle Mele per
-recuperare la tua Salute.
+recuperare la 
+tua Salute.
 ]]
 }
 
@@ -88,7 +91,8 @@ dialog{
   text = [[
 Usa le Bombe contro
 i nemici e per
-distruggere gli ostacoli.
+distruggere gli 
+ostacoli.
 ]]
 }
 
@@ -109,8 +113,8 @@ dialog{
   text = [[
 Usa il Boomerang per
 immobilizzare i nemici
-e raccogliere oggetti fuori
-dalla tua portata.
+e raccogliere oggetti 
+fuori dalla tua portata.
 ]]
 }
 
@@ -144,8 +148,7 @@ dialog{
   skip = "all",
   text = [[
 La tua Ampolla Magica
-è riempita con
-acqua.
+è riempita con acqua.
 Usala nel 
 luogo appropriato...
 ]]
@@ -190,8 +193,9 @@ dialog{
   icon = "12",
   skip = "all",
   text = [[
-Questa Fatina ti aiuterà
-quando sarai in difficoltà.
+Questa Fatina ti 
+aiuterà quando sarai 
+in difficoltà.
 Inoltre puoi utilizzarla
 quando vuoi recuperare
 la tua Salute!
@@ -203,8 +207,8 @@ dialog{
   icon = "7",
   skip = "all",
   text = [[
-Le Ampolle Magiche possono
-contenere varie
+Le Ampolle Magiche 
+possono contenere varie
 pozioni.
 ]]
 }
@@ -215,8 +219,7 @@ dialog{
   skip = "all",
   text = [[
 La tua Ampolla Magica
-è riempita con
-acqua.
+è riempita con acqua.
 Usala nel
 luogo appropriato...
 ]]
@@ -228,8 +231,9 @@ dialog{
   skip = "all",
   text = [[
 Bevi la Pozione Rossa
-per riempire la
-Barra della Salute.
+per riempire
+l'indicatore dei Cuori.
+
 ]]
 }
 
@@ -251,7 +255,7 @@ dialog{
   text = [[
 Bevi la Pozione Blu
 per riempire sia
-la Barra della Salute
+la Barra dei Cuori
 che quella del Mana!
 ]]
 }
@@ -274,8 +278,8 @@ dialog{
   icon = "7",
   skip = "all",
   text = [[
-Le Ampolle Magiche possono
-contenere varie
+Le Ampolle Magiche 
+possono contenere varie
 pozioni.
 ]]
 }
@@ -286,8 +290,7 @@ dialog{
   skip = "all",
   text = [[
 La tua Ampolla Magica
-è riempita con
-acqua.
+è riempita con acqua.
 Usala nel
 luogo appropriato...
 ]]
@@ -300,7 +303,7 @@ dialog{
   text = [[
 Bevi la Pozione Rossa
 per riempire tutta
-la Barra della Salute.
+la Barra dei Cuori.
 ]]
 }
 
@@ -345,9 +348,9 @@ dialog{
   icon = "7",
   skip = "all",
   text = [[
-Le Ampolle Magiche possono
-contenere varie
-pozioni.
+Le Ampolle Magiche 
+possono contenere 
+varie pozioni.
 ]]
 }
 
@@ -427,8 +430,8 @@ dialog{
   skip = "all",
   text = [[
 Scocca le Frecce
-per sconfiggere i nemici
-più forti.
+per sconfiggere i 
+nemici più forti.
 ]]
 }
 
@@ -451,7 +454,8 @@ dialog{
   text = [[
 La Chiave di Terra. Ti
 consente di accedere
-alle grotte del villaggio.
+alle grotte del 
+villaggio.
 ]]
 }
 
@@ -472,7 +476,8 @@ dialog{
   skip = "all",
   text = [[
 Usa la Piuma per
-saltare sopra gli ostacoli.
+saltare sopra gli 
+ostacoli.
 ]]
 }
 
@@ -482,8 +487,8 @@ dialog{
   skip = "all",
   text = [[
 Trova tutte e tre le
-Pietre del Fuoco e portale
-nell'Inferno.
+Pietre del Fuoco e 
+portale nell'Inferno.
 ]]
 }
 
@@ -503,8 +508,8 @@ dialog{
   skip = "all",
   text = [[
 Questi Guanti di Ferro
-ti consentono di sollevare
-i massi.
+ti consentono di 
+sollevare i massi.
 ]]
 }
 
@@ -561,8 +566,8 @@ dialog{
 Illumina luoghi bui
 e accendi le torce
 con la Lanterna, ma
-tieni d'occhio la Barra
-del Mana!
+tieni d'occhio la 
+Barra del Mana!
 ]]
 }
 
@@ -615,9 +620,10 @@ dialog{
   icon = "27",
   skip = "all",
   text = [[
-Il Mantello Magico ti avvisa
-quando sei vicino a 
-un muro fragile.
+Il Mantello Magico ti 
+avvisa quando sei 
+vicino a un muro 
+fragile.
 ]]
 }
 
@@ -627,8 +633,7 @@ dialog{
   skip = "all",
   text = [[
 Lo Specchio Mistico
-ha strani
-poteri...
+ha strani poteri...
 ]]
 }
 
@@ -638,8 +643,8 @@ dialog{
   skip = "all",
   text = [[
 Mangia una Cornetto al
-Cioccolato per recuperare
-tre Cuori.
+Cioccolato per 
+recuperare tre Cuori.
 ]]
 }
 
@@ -651,8 +656,9 @@ dialog{
 Corri veloce come il
 fulmine utilizzando
 le Scarpe del Pegaso.
-Premi e tieni premuto il
-tasto Azione per correre.
+Premi e tieni premuto 
+il tasto Azione 
+per correre.
 ]]
 }
 
@@ -731,7 +737,7 @@ dialog{
   text = [[
 Hai trovato 3 Mele!$0
 Mangiale quando vuoi
-recuperare Salute!
+recuperare Cuori!
 ]]
 }
 
@@ -740,7 +746,8 @@ dialog{
   icon = "83",
   next = "_treasure.arrow.1.1",
   text = [[
-Hai trovato una Freccia!$0
+Hai trovato una 
+Freccia!$0
 Usa l'Arco e le
 Frecce per sconfiggere
 ]]
@@ -760,8 +767,8 @@ dialog{
   next = "_treasure.arrow.1.1",
   text = [[
 Hai trovato 5 Frecce!$0
-Usa l'Arco e
-le Frecce per sconfiggere
+Usa l'Arco e le Frecce
+per sconfiggere
 ]]
 }
 
@@ -771,8 +778,8 @@ dialog{
   next = "_treasure.arrow.1.1",
   text = [[
 Hai trovato 10 Frecce!$0
-Usa l'Arco e
-le Frecce per sconfiggere
+Usa l'Arco e le Frecce 
+per sconfiggere
 ]]
 }
 
@@ -844,8 +851,9 @@ dialog{
   id = "_treasure.bomb_bag.1",
   icon = "54",
   text = [[
-Hai trovato una Borsa per le
-Bombe!$0 Essa contiene 10
+Hai trovato una Borsa 
+per le Bombe!$0
+Essa contiene 10
 Bombe.
 Assegnale a un tasto e
 sgancia le bombe!
@@ -856,8 +864,8 @@ dialog{
   id = "_treasure.bomb_bag.2",
   icon = "55",
   text = [[
-Hai trovato una Borsa per le
-Bombe Grande!$0
+Hai trovato una Borsa 
+per le Bombe Grande!$0
 
 Può contenere fino a 30
 Bombe invece di 10!
@@ -868,8 +876,8 @@ dialog{
   id = "_treasure.bomb_bag.3",
   icon = "56",
   text = [[
-Hai trovato una Borsa per le
-Bombe Gigante!$0
+Hai trovato una Borsa 
+per le Bombe Gigante!$0
 
 Può contenere fino a 99
 Bombe invece di 30!
@@ -892,10 +900,11 @@ dialog{
   icon = "4",
   text = [[
 Hai trovato un
-Boomerang!$0 Ti consentirà
-di immobilizzare i nemici
-e raccogliere gli oggetti
-inaccessibili.
+Boomerang!$0 Ti 
+consentirà di 
+immobilizzare i nemici
+e raccogliere gli 
+oggetti inaccessibili.
 Ci sono diversi modi
 per utilizzarlo,
 sta a te scoprirli
@@ -1066,9 +1075,10 @@ dialog{
   skip = "all",
   text = [[
 Hai catturato una
-Fatina! Ti aiuterà quando 
-ne avrai bisogno. Puoi
-anche usarla quando vuoi
+Fatina! Ti aiuterà 
+quando ne avrai bisogno.
+Puoi anche usarla 
+quando vuoi
 recuperare dei Cuori!
 ]]
 }
@@ -1213,8 +1223,9 @@ dialog{
   skip = "all",
   text = [[
 Hai catturato una
-Fatina! Ti aiuterà quando
-ne avrai bisogno.
+Fatina! Ti aiuterà
+quando ne avrai 
+bisogno.
 Puoi anche utilizzarla
 quando vuoi recuperare
 della Salute!
@@ -1260,11 +1271,12 @@ dialog{
   id = "_treasure.clay_key.1",
   icon = "21",
   text = [[
-Hai trovato la Chiave di
-Terra!$0
+Hai trovato la Chiave
+di Terra!$0
 
 Ora puoi accedere
-alla grotta del villagio!
+alla grotta del 
+villagio!
 ]]
 }
 
@@ -1275,8 +1287,9 @@ dialog{
 Hai trovato una
 Bussola! Ora puoi
 vedere la tua posizione
-nella Mappa, l'ubicazione
-dei forzieri, e anche
+nella Mappa, 
+l'ubicazione dei 
+forzieri, e anche
 la Tana del Mostro! 
 Ora possiamo andare
 nella giusta direzione!
@@ -1331,8 +1344,8 @@ dialog{
   id = "_treasure.glove.1",
   icon = "32",
   text = [[
-Hai trovato dei Guanti di
-Ferro!$0
+Hai trovato dei Guanti
+di Ferro!$0
 
 Con questi puoi
 sollevare le rocce.
@@ -1376,11 +1389,12 @@ dialog{
   id = "_treasure.heart_container.1",
   icon = "80",
   text = [[
-Hai trovato un Portagioie
-del Cuore!
+Hai trovato un 
+Portagioie del Cuore!
 
 La tua Barra della
-Salute è aumentata di uno!
+Salute è aumentata
+di uno!
 ]]
 }
 
@@ -1428,10 +1442,11 @@ dialog{
   icon = "5",
   next = "_warning_magic",
   text = [[
-Hai trovato una Lanterna!$0
+Hai trovato una 
+Lanterna!$0
 Usala per illuminare
-posti bui e per accendere
-le torce.
+posti bui e per
+accendere le torce.
 ]]
 }
 
@@ -1519,7 +1534,8 @@ dialog{
 Hai trovato una Piccola
 Anfora Magica! Il tuo
 Indicatore del Mana si
-è leggermente ricaricato.
+è leggermente 
+ricaricato.
 ]]
 }
 
@@ -1566,8 +1582,8 @@ Hai trovato un Cornetto
 al Cioccolato!$0
 
 Mangia un Cornetto al 
-Cioccolato per recuperare
-alcuni Cuori.
+Cioccolato per 
+recuperare alcuni Cuori.
 ]]
 }
 
@@ -1865,8 +1881,9 @@ Hai trovato la
 Corazza Rossa!$0
 
 Ti fornisce una 
-protezione ancora migliore
-della Corazza Blu!
+protezione ancora 
+migliore della 
+Corazza Blu!
 ]]
 }
 
@@ -1874,8 +1891,8 @@ dialog{
   id = "_treasure.wooden_key.1",
   icon = "30",
   text = [[
-Hai trovato la Chiave di
-Legno!$0
+Hai trovato la Chiave
+di Legno!$0
 
 Devi scoprire dove
 poterla utilizzare!
@@ -1923,7 +1940,8 @@ dialog{
   id = "billy_cave.give_croissant",
   text = [[
 Un Cornetto?
-Mi stai prendendo in giro?
+Mi stai prendendo 
+in giro?
 ]]
 }
 
@@ -1940,7 +1958,7 @@ dialog{
   text = [[
 Cosa? Hai dei Lingotti
 d'Oro?$1...
-$0...$0....................
+$0...$0.................
 $3Accetto!
 Tieni, prendi il tuo
 stupido fiore...
@@ -1954,9 +1972,10 @@ dialog{
 Spero che tu abbia
 portato con te qualcosa
 di valore per aver osato 
-entrare nella mia caverna.
-Sono Billy lo Spericolato,
-il più grande avventuriero 
+entrare nella mia 
+caverna. Sono Billy 
+lo Spericolato, il più 
+grande avventuriero 
 di tutti i tempi.
 
 
@@ -1994,12 +2013,13 @@ dialog{
   next = "_unknown",
   skip = "current",
   text = [[
-Non aspettarti che ti dia
-il mio Edelwell per niente.
-Ho affrontato i pericoli
-del Monte del Terrore per
-trovarlo. Se non hai niente
-di valore da darmi, allora
+Non aspettarti che ti 
+dia il mio Edelwell per 
+niente. Ho affrontato 
+i pericoli del Monte del 
+Terrore per trovarlo. 
+Se non hai niente di 
+valore da darmi, allora
 vai per la tua strada.
 ]]
 }
@@ -2029,7 +2049,8 @@ dialog{
   skip = "all",
   text = [[
 Solo respingendo la luce,
-essa nuovamente risplenderà.
+essa nuovamente 
+risplenderà.
 ]]
 }
 
@@ -2062,7 +2083,6 @@ per cucinare una
 Torta di Mele.
 Sei mele dovrebbero
 bastare.
-
 Vuoi aiutarmi?
 Si
 No
@@ -2102,10 +2122,9 @@ dialog{
   question = "1",
   skip = "all",
   text = [[
-Sto ancora cercando
-sei Mele per cucinare
-una gran bella
-Torta di Mele.
+Sto ancora cercando sei
+Mele per cucinare una 
+gran bella Torta di Mele.
 Vuoi aiutarmi?
 Si
 No
@@ -2116,7 +2135,8 @@ dialog{
   id = "cake_shop.seller.choose_item",
   text = [[
 Benvenuto. Scegli i
-pasticcini che vuoi comprare.
+pasticcini che vuoi 
+comprare.
 ]]
 }
 
@@ -2127,7 +2147,8 @@ Oh, grazie, che
 gentile che sei!
 
 Mi spiace, ho rimasto
-solo questa Ampolla Vuota...
+solo questa Ampolla 
+Vuota...
 
 È una ricompensa piccola
 ma sono sicuro che 
@@ -2201,9 +2222,9 @@ dialog{
   id = "castle.npc_2",
   skip = "all",
   text = [[
-Riesci a immaginare quanti
-sforzi che sono stati
-fatti per costruire
+Riesci a immaginare 
+quanti sforzi che sono 
+stati fatti per costruire
 questo castello?
 Riesco a malapena a 
 immaginare come siano 
@@ -2251,9 +2272,10 @@ dialog{
   skip = "all",
   text = [[
 Tom, uno dei nostri
-migliori soldati, scomparve
-misteriosamente mentre stava
-esplorando la grotta.
+migliori soldati, 
+scomparve misteriosamente
+mentre stava esplorando
+la grotta.
 ]]
 }
 
@@ -2305,8 +2327,8 @@ dialog{
   next = "chests_game_cave.play_question",
   skip = "current",
   text = [[
-Ciao! Una partita costa 30
-Monete.
+Ciao! Una partita costa
+30 Monete.
 ]]
 }
 
@@ -2336,8 +2358,9 @@ dialog{
   skip = "all",
   text = [[
 Grazie! Per giocare a 
-questo gioco, semplicemente
-apri uno dei forzieri.
+questo gioco, 
+semplicemente apri uno
+dei forzieri.
 Puoi tenerti il suo 
 contenuto. Il Premio
 Speciale di oggi è un
@@ -2349,8 +2372,9 @@ dialog{
   id = "chests_game_cave.start_game_wooden_key",
   skip = "all",
   text = [[
-Grazie! Per giocare a questo
-gioco, apri semplicemente 
+Grazie! Per giocare a 
+questo gioco,
+apri semplicemente 
 uno dei forzieri. 
 Puoi tenere quello che 
 trovi nel forziere.
@@ -2417,7 +2441,6 @@ bcallah@openbsd.org$0
 $1   Traduzione in
      Italiano :$0
 
-MBCRAFT di
 Marco Bagnaresi$0
 ]]
 }
@@ -2453,8 +2476,8 @@ dialog{
   id = "dungeon_1",
   skip = "current",
   text = [[
-         Livello 1
-      La Foresta Intricata
+     Livello 1
+ La Foresta Intricata
 ]]
 }
 
@@ -2465,13 +2488,14 @@ $2$v... Grazie. Mi hai
 salvato la vita. Sono uno
 degli otto guardiani 
 invocati tempo fa dalla
-Principessa Zelda. Il nostro
-sacro compito è quello di 
-custodire i resti di
-un artefatto sacro, il
-Treforte, donatoci 
-dalle tre divinità
-dopo la creazione del 
+Principessa Zelda. Il 
+nostro sacro compito è 
+quello di custodire i 
+resti di un artefatto 
+sacro, il Treforte, 
+donatoci dalle tre 
+divinità dopo la 
+creazione del 
 mondo. Nel corso dei
 millenni, il
 Treforte, anche se
@@ -2480,21 +2504,23 @@ prosperità, è stato
 anche la fonte di 
 avidità e continui
 tormenti tra le forze del 
-bene e del male. Anche oggi,
-l'artefatto sacro è in
-pericolo. In ogni caso,
-la storia si ripete.
-Ogni volta che c'è un
-pericolo, appare un eroe il
-cui coraggio spazza via
-le Tenebre. Trova mio
-fratello e scopri chi
-c'è dietro tutto questo, 
+bene e del male. Anche 
+oggi, l'artefatto sacro 
+è in pericolo. In ogni 
+caso, la storia si 
+ripete. Ogni volta che 
+c'è un pericolo, appare 
+un eroe il cui coraggio 
+spazza via le Tenebre. 
+Trova mio fratello e 
+scopri chi c'è dietro 
+tutto questo, 
 prima che le forze delle
 Tenebre facciano cadere
 Hyrule nel'oscurità...
 Possa tu eroe portare
-pace e prosperità al Regno!
+pace e prosperità al 
+Regno!
 ]]
 }
 
@@ -2502,8 +2528,8 @@ dialog{
   id = "dungeon_10.welcome",
   skip = "current",
   text = [[
-       Livello Segreto
-     La Torre Celestiale
+    Livello Segreto
+  La Torre Celestiale
 ]]
 }
 
@@ -2511,8 +2537,8 @@ dialog{
   id = "dungeon_2",
   skip = "current",
   text = [[
-         Livello 2
-      La Caverna del Roc
+       Livello 2
+   La Caverna del Roc
 ]]
 }
 
@@ -2554,23 +2580,27 @@ Sono uno degli otto
 guardiani invocati dalla
 Principessa Zelda per
 custodire il Treforte.
-L'unico modo per risanarlo è
-utilizzare il potere 
-dell'amuleto di Solarus,
-un artefatto indossato 
-dalla Principessa Zelda.
-Il Treforte è stato spezzato
-in otto parti nascoste
-in vari luoghi del mondo. 
-Noi siamo qui a custodire
-gli otto frammenti, così 
-come Zelda costudisce
+L'unico modo per 
+risanarlo è utilizzare 
+il potere dell'amuleto 
+di Solarus, un artefatto 
+indossato dalla 
+Principessa Zelda.
+Il Treforte è stato 
+spezzato in otto parti 
+nascoste in vari luoghi 
+del mondo. Noi siamo qui 
+a custodire gli otto 
+frammenti, così come 
+Zelda costudisce
 l'Amuleto di Solarus.
 Non deve cadere nelle
-mani sbagliate. Noi abbiamo
-fiducia nel tuo coraggio.
+mani sbagliate. 
+Noi abbiamo fiducia 
+nel tuo coraggio.
 Possa tu eroe portare
-pace e prosperità al Regno!
+pace e prosperità al 
+Regno!
 ]]
 }
 
@@ -2578,8 +2608,9 @@ dialog{
   id = "dungeon_3",
   skip = "current",
   text = [[
-         Livello 3
-  Il Rifugio del Potente Arbror
+       Livello 3
+     Il Rifugio del 
+     Potente Arbror
 ]]
 }
 
@@ -2594,8 +2625,9 @@ dialog{
 dialog{
   id = "dungeon_3.arbror_hello",
   text = [[
-Haa!!! Non mi sconfiggerai
-mai, io sono il Potente
+Haa!!! Non mi 
+sconfiggerai mai, 
+io sono il Potente
 Arbror!
 ]]
 }
@@ -2603,8 +2635,9 @@ Arbror!
 dialog{
   id = "dungeon_3.arbror_killed",
   text = [[
-KARGHHH!!! Mi hai sconfitto,
-ma non farai molta strada...
+KARGHHH!!! Mi hai 
+sconfitto, ma non farai 
+molta strada...
 Non ce la
 farai mai...
 ]]
@@ -2623,9 +2656,9 @@ Sono uno degli otto
 guardiani invocati
 dalla Principessa Zelda.
 Il Treforte è ancora in
-pericolo fino a quanto uno 
-dei miei fratelli è tenuto
-prigioniero.
+pericolo fino a quanto 
+uno dei miei fratelli 
+è tenuto prigioniero.
 La fine del tuo viaggio
 è vicina.
 Salvalo e riporta la
@@ -2654,7 +2687,8 @@ Lo stregone tornato
 dalla terra dei morti!!!
 Ah ah ah ah ah ah!!!
 Così sei riuscito a
-radunare i quattro bambini?
+radunare i quattro 
+bambini?
 I bambini non hanno
 la minima idea di quello
 che ti attende la fuori 
@@ -2677,20 +2711,21 @@ Treforte per me
 e regnare come
 un unico tiranno ...
 Ah ah ah ah ah!
-Nel momento in cui lascerò
-questa stanza, sarai
-testimone del mio potere
-sul Regno...
+Nel momento in cui 
+lascerò questa stanza, 
+sarai testimone del mio 
+potere sul Regno...
 Ah ah ah ah ah ah ah!
 Ora tu, giovane e 
 impetuoso avventuriero e
-Io, ci incontreremo ancora.
+Io, ci incontreremo 
+ancora.
 Prima di allora, 
 tornerò al castello!
-Ah ah ah ah ah! Ci rivedremo
-ancora, e con i miei poteri, 
-porrò FINE alla 
-tua avventura!
+Ah ah ah ah ah! Ci 
+rivedremo ancora, e con 
+i miei poteri, porrò 
+FINE alla tua avventura!
 Ah ah ah ah ah ah!!!
 ]]
 }
@@ -2722,9 +2757,9 @@ guardiani invocati dalla
 Principessa Zelda.
 Hai dimostrato
 un notevole coraggio.
-Grazie a te, ora noi siamo
-di nuovo insieme e
-il Treforte è al
+Grazie a te, ora noi 
+siamo di nuovo insieme 
+e il Treforte è al
 sicuro.
 
 Possa tu eroe portare
@@ -2745,21 +2780,22 @@ dialog{
   id = "dungeon_4.welcome",
   skip = "current",
   text = [[
-         Livello 4
-    Il Palazzo di Beaumont
+       Livello 4
+ Il Palazzo di Beaumont
 ]]
 }
 
 dialog{
   id = "dungeon_5.agahnim_beginning",
   text = [[
-Sei stato capace di evitare
-le mie guardie e schivare
-le trappole disseminate
-nel castello.
+Sei stato capace di 
+evitare le mie guardie 
+e schivare le trappole 
+disseminate nel castello.
 Complimenti!
 Sfortunatamente per te,
-il tuo viaggio finisce qui!
+il tuo viaggio 
+finisce qui!
 ]]
 }
 
@@ -2805,7 +2841,7 @@ nella giusta direzione.
 dialog{
   id = "dungeon_5.prison_1_locked",
   text = [[
-   - Serratura di Ferro -
+  - Serratura di Ferro -
 Nessuna delle tue chiavi 
 sembra essere adatta...
 ]]
@@ -2840,8 +2876,8 @@ dialog{
   id = "dungeon_5.prison_2_locked_3",
   text = [[
 Forse c'è un modo per
-scassinare questo vecchio
-lucchetto...
+scassinare questo 
+vecchio lucchetto...
 ]]
 }
 
@@ -2850,7 +2886,8 @@ dialog{
   text = [[
 Da qualche parte nelle 
 profondità del castello, 
-un meccanismo si attiva...
+un meccanismo si 
+attiva...
 ]]
 }
 
@@ -2874,7 +2911,8 @@ alle tue spalle.
 dialog{
   id = "dungeon_6.dont_fall_hint",
   text = [[
-Non devi cadere, ma saltare.
+Non devi cadere, ma 
+saltare.
 ]]
 }
 
@@ -2883,10 +2921,10 @@ dialog{
   text = [[
 $2$v... Grazie.
 Mi hai salvato la vita.
-Hai attraversato un lungo
-viaggio e superato molte
-prove da quanto ci siamo 
-visti tempo fa.
+Hai attraversato un 
+lungo viaggio e superato
+molte prove da quanto ci 
+siamo visti tempo fa.
 ]]
 }
 
@@ -2895,8 +2933,8 @@ dialog{
   text = [[
 $2Devo farti una 
 confessione...
-La morte del nostro Re non
-è stata accidentale.
+La morte del nostro Re
+non è stata accidentale.
 Io l'ho avvelenato.
 Ero sotto il controllo 
 di Agahnim...
@@ -2906,20 +2944,22 @@ e io ho perso la
 mia volontà...
 Non c'era niente che
 potessi fare...
-Quando l'incantesimo si è 
-spezzato ho capito 
+Quando l'incantesimo si 
+è spezzato ho capito 
 cos'era successo...
 In quel momento ho deciso
 di ritornare nella grotta
-dove ci siamo incontrati la
-prima volta.
+dove ci siamo incontrati
+la prima volta.
 Poi fui gettato in cella
-mentre cercavo di resistere
-quando Agahnim prese
-il controllo del castello...
+mentre cercavo di 
+resistere quando Agahnim 
+prese il controllo del 
+castello...
 
-$v... Ora devi andare fino
-al Monte del Terrore.
+$v... Ora devi andare 
+fino al Monte del 
+Terrore.
 Agahnim è andato là
 a cercare Zelda.
 Tu devi liberare
@@ -2928,10 +2968,10 @@ stregone trovi il modo
 di ottenere da lui le 
 informazioni di cui 
 ha bisogno...
-Per favore prendi questo, è 
-il mio piccolo contributo 
-per aiutarti nella 
-tua impresa...
+Per favore prendi questo,
+è il mio piccolo 
+contributo per aiutarti 
+nella tua impresa...
 ]]
 }
 
@@ -2948,7 +2988,8 @@ dialog{
   skip = "current",
   text = [[
         Livello 6
- Il Labirinto dell'Inferno
+      Il Labirinto
+      dell'Inferno
 ]]
 }
 
@@ -2963,8 +3004,9 @@ cadere da soli.
 dialog{
   id = "dungeon_7.2f_weak_floor_hint",
   text = [[
-Nel terreno dormono segreti,
-proprio sotto i piedi...
+Nel terreno dormono 
+segreti, proprio sotto 
+i piedi...
 ]]
 }
 
@@ -2998,8 +3040,9 @@ di terribile...
 Loro sono nascosti
 in un palazzo collocato
 a est delle montagne.
-Gli otto figli di Solarus
-devono fuggire da Agahnim,
+Gli otto figli di 
+Solarus devono fuggire 
+da Agahnim,
 altrimenti lo stregone
 potrebbe distruggere
 il sigillo creato con
@@ -3012,12 +3055,13 @@ I misteri del Solarus
 sono tenuto al sicuro
 all'interno di
 quell'artefatto.
-Chi possiete quell'artefatto
-sa come usare il potere
-del Solarus per
+Chi possiete quell'
+artefatto sa come usare 
+il potere del Solarus per
 sigillare un oggetto, un
-luogo o addirittura un piano
-dimensionale, come fecero 
+luogo o addirittura un
+piano dimensionale, 
+come fecero 
 i sette saggi quando 
 impedirono l'accesso
 alle Terre Dorate.
@@ -3033,8 +3077,8 @@ solo lei conosce il
 segreto dell'artefatto, 
 solo lei controlla
 il sigillo del Treforte.
-Ecco perchè devi proteggere
-il sigillo.
+Ecco perchè devi 
+proteggere il sigillo.
 ]]
 }
 
@@ -3043,23 +3087,25 @@ dialog{
   skip = "current",
   text = [[
         Livello 7
-   Il Tempio di Cristallo
+      Il Tempio di 
+       Cristallo
 ]]
 }
 
 dialog{
   id = "dungeon_8.agahnim",
   text = [[
-$1Quel Billy si è dimostrato
-veramente un incapace.
+$1Quel Billy si è 
+dimostrato veramente 
+un incapace.
 Vedendo come lui insieme
 a tutti i miei scagnozzi
 non sia stato capaci
 di sbarazzarsi di te,
 piccolo parassita, mi
-vedo costretto ad occuparmi
-del problema in 
-prima di persona.
+vedo costretto ad
+occuparmi del problema
+in prima di persona.
 Mi sbarazzerò di te 
 una volta per tutte.
 E poi, finalmente,
@@ -3085,7 +3131,8 @@ al tuo coraggio.$0
 Siccome non sono stato 
 capace di sconfiggerti, 
 è arrivato il momento di 
-invocare il mio Maestro...
+invocare il mio 
+Maestro...
 Ah ah ah ah ah ah!!!
 ]]
 }
@@ -3096,7 +3143,8 @@ dialog{
 $1$0...$0.............$0
 Sei piuttosto fastidioso,
 devo ammetterlo.
-Ma cosa ne pensi di questo?
+Ma cosa ne pensi di 
+questo?
 ]]
 }
 
@@ -3112,10 +3160,10 @@ tutti i tempi?!
 La Princessa e gli otti
 figli di Solarus non sono 
 più qui.
-Loro hanno trovato rifugio
-nel mio palazzo, ma mi sono
-preso la briga di
-consegnarli ad
+Loro hanno trovato 
+rifugio nel mio palazzo,
+ma mi sono preso la 
+briga di consegnarli ad
 Agahnim...
 
 
@@ -3136,10 +3184,10 @@ mi ha liberato, i
 momenti di terrore non 
 sono ancora finiti! 
 Come premio per la tua 
-impresa, tu, la Principessa,
-e gli otti figli di
-Solarus siete invitati 
-nel mio palazzo. 
+impresa, tu, la 
+Principessa, e gli otti 
+figli di Solarus siete 
+invitati nel mio palazzo. 
 Ricostruirò il Treforte
 e voi sarete i primi ad
 assistere a questo
@@ -3258,7 +3306,8 @@ nostro mondo è stato
 riportato al suo aspetto
 originario.
 Il Regno di Hyrule
-è salvo ancora una volta.
+è salvo ancora una 
+volta.
 ]]
 }
 
@@ -3266,21 +3315,23 @@ dialog{
   id = "dungeon_9.zelda_children",
   text = [[
 $1Io devo distruggere
-questo artefatto. Il potere
-del Solarus è troppo 
-pericoloso. Distruggendolo,
-non ci sarà più un modo per
+questo artefatto. Il 
+potere del Solarus è 
+troppo pericoloso. 
+Distruggendolo, non ci 
+sarà più un modo per
 ricostruire il Treforte
 dai suoi frammenti.
 Anche se è per un buon
 motivo che tu lo hai
 utilizzato, i malvagi
-come Agahnim and Ganondorf
+come Agahnim e Ganondorf
 cercheranno sempre di
 impossessarsene.
 Col potere degli otto
-esseri creati dall'essenza
-del Solarus, l'artefatto
+esseri creati dall'
+essenza del Solarus, 
+l'artefatto
 può rompere il sigillo.
 Tu ora capisci perchè
 lo devo distruggere.
@@ -3306,10 +3357,11 @@ dialog{
   id = "fairy_cave.first_time",
   text = [[
 Benvenuto, ragazzo
-pieno di saggezza. Ti stavo
-aspettando. Io sono la
-Fatina Incantatrice. Tu,
-che sei in cerca di
+pieno di saggezza. Ti 
+stavo aspettando. 
+Io sono la
+Fatina Incantatrice.
+Tu, che sei in cerca di
 giustizia,
 mi hai permesso di 
 omaggiarti con
@@ -3380,7 +3432,8 @@ dialog{
   text = [[
 Hai trovato quattro 
 Frammenti del Cuore.
-Ora ottieni un Cuore extra!
+Ora ottieni un Cuore 
+extra!
 ]]
 }
 
@@ -3447,13 +3500,13 @@ Agahnim ha preso il
 controllo del regno...
 Il Male si diffonde lungo
 il suo passaggio. Uno dei
-soldati del castello, Tom,
-si presume abbia rapito 
-Sahasrahla,
+soldati del castello, 
+Tom, si presume abbia 
+rapito Sahasrahla,
 ma non è possibile!
 Inoltre, alcuni banditi
-hanno saccheggiato la Casa
-delle Monete!
+hanno saccheggiato la
+Casa delle Monete!
 ]]
 }
 
@@ -3467,8 +3520,9 @@ cespugli che proteggono
 il villaggio. Non stai
 cercando l'Antico 
 Sahasrahla?
-La sua casa è a sud-ovest
-da qui, vicino alla 
+La sua casa è a 
+sud-ovest da qui, 
+vicino alla 
 pasticceria.
 Non ti ricordi?
 ]]
@@ -3507,9 +3561,9 @@ dialog{
   text = [[
 Che bella chiave che
 hai trovato! Non è
-ora che cominci a cercare
-il secondo figlio 
-perduto?
+ora che cominci a 
+cercare il secondo 
+figlio perduto?
 ]]
 }
 
@@ -3529,12 +3583,14 @@ dialog{
   skip = "all",
   text = [[
 Che cosa stai dicendo?
-Non riesco a sentirti bene!
-Alla mia età, le mie 
-orecchie non funzionano bene
+Non riesco a sentirti 
+bene! Alla mia età, 
+le mie orecchie non 
+funzionano bene
 come un tempo ...
-Cosa ne dici di comunicare
-con la telepatia?
+Cosa ne dici di 
+comunicare con la 
+telepatia?
 È moderna e più adatta
 a questo vecchio
 corpo.
@@ -3545,11 +3601,11 @@ dialog{
   id = "grandma_house.go_twin_caves",
   skip = "all",
   text = [[
-E così hai trovato un Arco?
-Sono sicuro che puoi
-accedere alle caverne
-gemelle a sud, e 
-scoprire i segreti 
+E così hai trovato un
+Arco? Sono sicuro che 
+puoi accedere alle 
+caverne gemelle a sud,
+e scoprire i segreti 
 che nascondono.
 Fatti forza!
 ]]
@@ -3567,12 +3623,13 @@ qualcosa di terribile.
 
 Stavi cercando una
 spada? Alla mia età, 
-io non avevo idea di cosa
-fare con quelle cose ... 
+io non avevo idea di 
+cosa fare con quelle 
+cose ... 
 Forse è meglio che vai
-a cercare il fabbro nella
-caverna a nord-est del
-villaggio. È un po'
+a cercare il fabbro 
+nella caverna a nord-est
+del villaggio. È un po'
 scontroso ma dovrebbe
 essere in grado di 
 aiutarti.
@@ -3630,10 +3687,11 @@ Il Signore delle
 Fiamme?!
 Sarai punito per questo
 tuo comportamento!
-Se vuoi essere perdonato,
-fatti avanti e cerca
-le tre Pietre del Fuoco
-che ho nascosto nel mio
+Se vuoi essere
+perdonato, fatti avanti 
+e cerca le tre Pietre 
+del Fuoco che ho 
+nascosto nel mio
 oscuro labirinto.
 ]]
 }
@@ -3650,6 +3708,7 @@ stupefacente!
 Mi inchino ad esso ...
 Farò in modo di darti
 ciò che desideri.
+
 Che cosa preferisci?
 I massi neri...
 100 Monete?
@@ -3698,10 +3757,11 @@ sotto la benedizione
 di tre divinità, 
 rappresentate nella
 forma del Treforte.
-Sette saggi hanno sigillato
-il Treforte nelle
-Terre Dorate, il riflesso
-Utopico di questo mondo.
+Sette saggi hanno
+sigillato il Treforte 
+nelle Terre Dorate, 
+il riflesso Utopico 
+di questo mondo.
 Centinaia di anni
 sono trascorsi...
 ]]
@@ -3736,11 +3796,13 @@ dialog{
   id = "intro2",
   skip = "current",
   text = [[
-$2Si racconta che un giovane
-uomo vestito di verde partì
+$2Si racconta che un 
+giovane uomo vestito 
+di verde partì
 all'avventura,
-esplorando templi perduti,
-viaggiando nelle valli e
+esplorando templi 
+perduti, viaggiando 
+nelle valli e
 nelle pianure.
 ]]
 }
@@ -3813,11 +3875,12 @@ sbriciolare il Treforte
 in otto frammenti
 e disseminarli lungo
 tutto il regno facendo
-tornare nuovamente la pace.
+tornare nuovamente la 
+pace.
 
 
-E così la nostra avventura
-comincia...
+E così la nostra 
+avventura comincia...
 ]]
 }
 
@@ -3839,8 +3902,8 @@ prezzo ridotto.
 dialog{
   id = "junk_shop.croissant",
   text = [[
-Un Cornetto. Per recuperare
-i tuoi Cuori.
+Un Cornetto. Per 
+recuperare i tuoi Cuori.
 ]]
 }
 
@@ -3894,7 +3957,8 @@ Benvenuto nel Negozio
 dei Rottami! 
 I migliori oggetti
 della gamma a un prezzo
-straordinario! Affrettati!
+straordinario!
+Affrettati!
 ]]
 }
 
@@ -3918,7 +3982,8 @@ dialog{
   id = "lake_shop.big_magic_flask",
   text = [[
 Offerta speciale:
-un'anfora di energia magica.
+un'anfora di energia 
+magica.
 ]]
 }
 
@@ -3955,8 +4020,9 @@ Fai presto, $v...
 dialog{
   id = "lyriann_cave.tom.accept_help",
   text = [[
-Grazie. Io posso prestarti
-questo, spero che possa
+Grazie. Io posso 
+prestarti questo, 
+spero che possa
 esserti utile.
 Non dimenticarti di
 riportarmelo una volta
@@ -3991,9 +4057,10 @@ dialog{
   question = "1",
   text = [[
 Ciao, giovane
-avventuriero. Io sono Tom,
-una guardia ufficiale del
-nostro caro Re.
+avventuriero. Io sono 
+Tom, una guardia 
+ufficiale del nostro 
+caro Re.
 Non pensavo che avrei
 mai trovato qualcuno qui.
 Cosa stai facendo in
@@ -4004,9 +4071,10 @@ di tutto questo sarebbe
 mai successo se il nostro
 Re fosse ancora qua
 a proteggerlo...
-Stai cercando di risolvere
-i misteri di questa
-caverna? Questo luogo
+Stai cercando di 
+risolvere i misteri 
+di questa caverna? 
+Questo luogo
 pullula di indovinelli
 , tesori, e
 pericoli. Sembri
@@ -4044,13 +4112,17 @@ dialog{
   id = "lyriann_cave.tom.leaving.cavern_not_finished",
   text = [[
 Hai già finito la
-tua esplorazione? Non credo 
-che tu abbia trovato
-tutto quanto... Se per te
-non è un problema, rivorrei
-indietro il mio Boomerang. 
-Ti serve un po' di pratica
-per riuscire ad utilizzarlo!
+tua esplorazione? Non 
+credo che tu abbia 
+trovato tutto quanto... 
+Se per te non è un
+problema, rivorrei
+indietro il mio 
+Boomerang. 
+Ti serve un po' 
+di pratica
+per riuscire ad 
+utilizzarlo!
 Torna pure a 
 trovarmi se hai
 bisogno di me.
@@ -4063,7 +4135,8 @@ dialog{
   text = [[
 È tutto a posto? 
 Usa il mio Boomerang
-per superare gli ostacoli.
+per superare gli 
+ostacoli.
 Hai bisogno di imparare
 a padroneggiarlo se vuoi
 trovare tutti i segreti
@@ -4072,7 +4145,6 @@ Non dimenticarti che
 il Boomerang torna
 sempre da te, anche se
 ti muovi.
-
 Che cosa vuoi fare?
 Continuare
 Restituire il Boomerang
@@ -4084,13 +4156,15 @@ dialog{
   next2 = "lyriann_cave.tom.refuse_help",
   question = "1",
   text = [[
-Giovane esploratore, lascia
-che ti aiuti. Io sono 
-un fallito,
+Giovane esploratore, 
+lascia che ti aiuti. 
+Io sono un fallito,
 Non sono stato capace di
 proteggere il nostro Re.
 Dammi una possibilità di
 riscatto! 
+
+
 Accetti il mio aiuto?
 Si
 No
@@ -4132,8 +4206,8 @@ dialog{
   text = [[
 Una Borsa per le Bombe 
 più grande.
-Davvero molto alla moda in
-questi giorni!
+Davvero molto alla moda
+in questi giorni!
 ]]
 }
 
@@ -4225,13 +4299,13 @@ dialog{
   text = [[
 Benvenuto, giovane amico
 coraggioso.
-Ti stavo aspettando. Sono la
-Fatina Viaggiatrice. Tu,
-che viaggi per il mondo
-per combattere il male
-senza sosta, permettimi
-di insegnarti un'antica
-tecnica ...
+Ti stavo aspettando. Sono
+la Fatina Viaggiatrice.
+Tu, che viaggi per il 
+mondo per combattere il 
+male senza sosta,
+permettimi di insegnarti 
+un'antica tecnica ...
 ]]
 }
 
@@ -4287,8 +4361,9 @@ dialog{
   id = "outside_world.how_to_save_npc",
   skip = "all",
   text = [[
-Per salvare i tuoi progressi
-premi D per mettere in pausa
+Per salvare i tuoi
+progressi premi D per 
+mettere in pausa
 il gioco e poi premi C.
 Tieni d'occhio l'icona
 verde!
@@ -4298,7 +4373,7 @@ verde!
 dialog{
   id = "outside_world.ice_key_required",
   text = [[
-  - Serratura di Ghiaccio -
+- Serratura di Ghiaccio -
 È chiusa!
 ]]
 }
@@ -4353,7 +4428,7 @@ dialog{
 dialog{
   id = "outside_world.stone_key_required",
   text = [[
-   - Serratura di Pietra -
+ - Serratura di Pietra -
 È chiusa!
 ]]
 }
@@ -4405,7 +4480,8 @@ dialog{
   next = "outside_world.surprise_wall_guy.open",
   text = [[
 Super! Mangerò la torta
-in segno di apprezzamento.
+in segno di 
+apprezzamento.
 ]]
 }
 
@@ -4445,7 +4521,8 @@ dialog{
   id = "outside_world.tom_dungeon_1_entrance.let_me_see",
   text = [[
 Hmmm, Suppongo che ci
-sia una scala nascosta qui.
+sia una scala nascosta 
+qui.
 Diamo un'occhiata...
 ]]
 }
@@ -4460,7 +4537,8 @@ Ti serve una mano?
 dialog{
   id = "outside_world.tom_dungeon_1_entrance.open",
   text = [[
-Credo di poterlo spostare.
+Credo di poterlo 
+spostare.
 $0Voila!
 ]]
 }
@@ -4483,15 +4561,16 @@ azione premendo
 il tasto Azione (spazio)
 viene effettuata.
 In base a quello che
-stai esaminando, effettuerà
-diverse azioni come guardare
+stai esaminando, 
+effettuerà diverse azioni
+come guardare
 , parlare, leggere 
 un'insegna, sollevare
 un vaso, ecc.
-Tieni un occhio sull'icona
-per sapere quando puoi
-interagire con ciò che
-ti circonda!
+Tieni un occhio
+sull'icona per sapere 
+quando puoi interagire 
+con ciò che ti circonda!
 ]]
 }
 
@@ -4499,9 +4578,9 @@ dialog{
   id = "outside_world.village.chignon_woman_dungeons",
   skip = "all",
   text = [[
-Si dice che ogni sotterraneo
-nasconde un Frammento
-di Cuore...
+Si dice che ogni 
+sotterraneo nasconde 
+un Frammento di Cuore...
 Buffo, non è vero?
 ]]
 }
@@ -4537,8 +4616,9 @@ ti conviene andare a
 trovare Nonna Lyly. Lei
 ama dare consigli e
 aiutare gli avventurieri.
-Lei vive nella casa a fianco
-alla Casa delle Monete.
+Lei vive nella casa a 
+fianco alla Casa delle 
+Monete.
 Non so nient'altro, sono
 solo un bambino!
 ]]
@@ -4580,7 +4660,8 @@ dialog{
   skip = "all",
   text = [[
 Non leggere lettere che
-non sono indirizzate a te!
+non sono indirizzate a
+te!
 ]]
 }
 
@@ -4603,7 +4684,8 @@ dialog{
 Non ho idea di quello
 che sta succedendo, 
 ma hai ragione a volere
-almeno uno Scudo con te...
+almeno uno Scudo 
+con te...
 Fa attenzione!
 ]]
 }
@@ -4654,9 +4736,10 @@ dialog{
   id = "outside_world.village.tree_woman.again",
   next = "outside_world.village.tree_woman.long_text",
   text = [[
-Bene, lascia che ti spieghi
-di nuovo, ma ascoltami
-attentamente questa volta.
+Bene, lascia che ti 
+spieghi di nuovo, ma 
+ascoltami attentamente
+questa volta.
 Le icone in alto
 ]]
 }
@@ -4668,8 +4751,9 @@ dialog{
   question = "1",
   text = [[
 a sinistra sono allineate
-come i tasti della tastiera
-Il tasto C è l'icona verde,
+come i tasti della 
+tastiera Il tasto C è
+l'icona verde,
 premendolo utilizzi
 la spada. Ma quando il
 gioco è in pausa, l'icona 
@@ -4696,14 +4780,14 @@ agli oggetti assegnati
 ai tasti X e V. Quindi
 tieni sempre d'occhio
 quello che dicono
-le icone. Non dimenticarti
-di personalizzare
-i controlli nella
+le icone. Non 
+dimenticarti di 
+personalizzare i 
+controlli nella
 schermata delle opzioni,
 e ricordati che puoi
 anche giocare con
 un gamepad.
-
 
 Hai capito tutto?
 Si
@@ -4726,12 +4810,10 @@ piccolo regalo.
 dialog{
   id = "outside_world.village.waterfall_sign",
   text = [[
-
-
 Prego sentitevi liberi
 di portare le nostre
-fresche acque ristoratrici
-con voi.
+fresche acque 
+ristoratrici con voi.
         Lyriann
     Centro Turistico
 ]]
@@ -4783,10 +4865,10 @@ e il mana! Hehehe...
 dialog{
   id = "potion_shop.give_bottle",
   text = [[
-Come ad ogni nuovo cliente,
-anche tu vieni omaggiato 
-di una Ampolla Magica.
-Hehehe...
+Come ad ogni nuovo 
+cliente, anche tu vieni
+omaggiato di una Ampolla
+Magica. Hehehe...
 ]]
 }
 
@@ -4826,15 +4908,16 @@ delle Pozioni!
 Hehehe...
 Rossa restituisce salute,
 verde restituisce mana,
-blu li restituisce entrambi.
+blu li restituisce
+entrambi.
 ]]
 }
 
 dialog{
   id = "potion_shop.witch_bottle_offered",
   text = [[
-Benvenuto al Negozio delle
-Pozioni!
+Benvenuto al Negozio
+delle Pozioni!
 Hehehe...
 Una Ampolla Magica è
 regalata ad ogni nuovo
@@ -4876,6 +4959,8 @@ aprire uno dei tre
 forzieri e avere la
 possibilità di 
 guadagnare più monete!
+
+
 Vuoi fare una partita?
 Si
 No
@@ -4895,7 +4980,8 @@ causa tua!
 dialog{
   id = "rupee_house.game_1.not_playing",
   text = [[
-Dovresti avere più passione!
+Dovresti avere più
+passione!
 Vivi a cuor leggero!
 ]]
 }
@@ -4936,7 +5022,6 @@ per allineare tre
 simboli uguali per
 vincere la tua puntata
 moltiplicata!
-
 Vuoi fare una partita?
 Si
 No
@@ -4954,7 +5039,8 @@ Grazie!
 dialog{
   id = "rupee_house.game_2.not_playing",
   text = [[
-La prossima volta allora...
+La prossima volta 
+allora...
 ]]
 }
 
@@ -5058,7 +5144,6 @@ dialog{
   id = "rupee_house.game_3.intro",
   question = "1",
   text = [[
-
 Percorri il labirinto
 prima che scada il tempo.
 Potresti dover spingere
@@ -5136,8 +5221,8 @@ dialog{
   id = "rupee_house_broken.help_us_middle",
   text = [[
 I banditi hanno rubato
-le Monete usate per pagare
-le vincite!
+le Monete usate per 
+pagare le vincite!
 ]]
 }
 
@@ -5145,7 +5230,8 @@ dialog{
   id = "rupee_house_broken.help_us_right",
   text = [[
 I banditi si sono diretti
-verso la grotta del fabbro!
+verso la grotta del 
+fabbro!
 ]]
 }
 
@@ -5155,8 +5241,9 @@ dialog{
 Hai ritrovato le 
 nostre Monete!
 Grazie a te ora possiamo
-riprendere a fare il nostro
-lavoro come abbiamo sempre
+riprendere a fare il 
+nostro lavoro come 
+abbiamo sempre
 fatto. Non so come
 sdebitarmi...
 ]]
@@ -5183,8 +5270,9 @@ figli di Solarus sono
 stati rapiti...
 Ho paura che il Treforte
 sia in grave pericolo.
-Qualcuno vuole approfittarsi
-della morte del Re e
+Qualcuno vuole 
+approfittarsi della 
+morte del Re e
 impossessarsi del
 Treforte.
 Chi può aver fatto
@@ -5195,8 +5283,9 @@ Il Sigillo dei Sette
 Saggi si è indebolito
 molto dopo la morte 
 del nostro povero Re.
-Ganon è riuscito a fuggire
-dal Mondo dell'Oscurità?
+Ganon è riuscito a
+fuggire dal Mondo 
+dell'Oscurità?
 Non dobbiamo permettergli
 di impossessarsi di un
 tale potere!
@@ -5228,8 +5317,7 @@ dialog{
 $v, devo insistere.
 Tu sei la nostra 
 unica speranza
-per salvare il regno...
-
+di salvare il regno...
 D'accordo
 Non ci pensare
 ]]
@@ -5260,13 +5348,15 @@ dialog{
   id = "sahasrahla_house.dungeon_1_finished",
   next = "sahasrahla_house.go_grandma",
   text = [[
-Ottimo lavoro, sei riuscito
-a superare le sfide
-della Foresta Intricata. 
-Prima di riprendere il tuo
+Ottimo lavoro, sei 
+riuscito a superare le
+sfide della Foresta
+Intricata. Prima di 
+riprendere il tuo
 viaggio, torna nella mia 
-grotta, forse potrei avere 
-dei nuovi oggetti da darti.
+grotta, forse potrei 
+avere dei nuovi oggetti
+da darti.
 ]]
 }
 
@@ -5276,7 +5366,8 @@ dialog{
   text = [[
 La porta è congelata.
 Ci dev'essere un modo
-per sciogliere il ghiaccio!
+per sciogliere il
+ghiaccio!
 ]]
 }
 
@@ -5286,7 +5377,8 @@ dialog{
   text = [[
 La porta è congelata?
 Prova a sciogliere il
-ghiaccio con un po' d'acqua.
+ghiaccio con un po'
+d'acqua.
 ]]
 }
 
@@ -5303,9 +5395,10 @@ cammino.
 dialog{
   id = "sahasrahla_house.go_grandma",
   text = [[
-Se non sai come proseguire
-nella tua avventura, fai
-visita a Nonna Lyly,
+Se non sai come 
+proseguire nella tua
+avventura, fai visita 
+a Nonna Lyly,
 a est nel villaggio.
 Lei è una vecchia amica
 e conosce tutto di 
@@ -5330,7 +5423,8 @@ No
 dialog{
   id = "sahasrahla_house.memories.read",
   text = [[
-Sono davvero troppo lunghe!
+Sono davvero troppo
+lunghe!
 ]]
 }
 
@@ -5338,12 +5432,12 @@ dialog{
   id = "sahasrahla_house.quest_accepted",
   text = [[
 Dovresti dare un'occhiata
-alla grotta, ho conservato
-alcune cose che potrebbero
-esserti utili. Niente
-di speciale suppongo,
-è un po' che non
-torno là...
+alla grotta, ho
+conservato alcune cose
+che potrebbero esserti
+utili. Niente di speciale
+suppongo, è un po' che
+non torno là...
 ]]
 }
 
@@ -5360,8 +5454,9 @@ in grossi guai.
 dialog{
   id = "smith_cave.not_enough_money",
   text = [[
-Stai cercando di sbarazzarti
-di me? Non hai abbastanza
+Stai cercando di
+sbarazzarti di me?
+Non hai abbastanza
 Monete!
 ]]
 }
@@ -5380,9 +5475,10 @@ un attacco rotante!
 dialog{
   id = "smith_cave.with_sword",
   text = [[
-Non permetterti di rompere
-la mia Spada perchè non
-te ne forgerò un'altra!
+Non permetterti di
+rompere la mia Spada
+perchè non te ne forgerò
+un'altra!
 ]]
 }
 
@@ -5526,8 +5622,9 @@ dialog{
 $v, riesci a sentirmi?
 Sono Nonna Lyly!
 È telepatia, funziona!
-Ma è un periodo bruttissimo.
-Il regno è completamente
+Ma è un periodo
+bruttissimo. Il regno
+è completamente
 devastato...
 È come se la vita stessa
 si fosse fermata.
@@ -5536,7 +5633,8 @@ in città! Da allora hanno
 cominciato a vendere
 solo armi per la 
 sopravvivenza, stanno 
-facendo un sacco di soldi!
+facendo un sacco di
+soldi!
 ]]
 }
 
@@ -5557,6 +5655,7 @@ dialog{
   text = [[
 Mangiare una mela ti
 farà recuperare un Cuore.
+
 Che cosa vuoi fare?
 Mangia una mela
 Niente
@@ -5570,6 +5669,7 @@ dialog{
   text = [[
 La tua Ampolla Magica è
 riempita con acqua.
+
 Vuoi rovesciarla?
 Rovescia l'acqua
 No
@@ -5581,9 +5681,10 @@ dialog{
   icon = "18",
   question = "1",
   text = [[
-Un Cornetto fa recuperare
-sette cuori. Che cosa
-vuoi fare?
+Un Cornetto fa
+recuperare sette cuori.
+
+Che cosa vuoi fare?
 Mangiane uno
 Niente
 ]]
@@ -5596,8 +5697,8 @@ dialog{
   text = [[
 Un Cornetto al
 Cioccolato fa recuperare
-tre cuori. Che
-cosa vuoi fare?
+tre cuori.
+Che cosa vuoi fare?
 Mangiane uno
 Niente
 ]]
