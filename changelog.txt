@@ -1,6 +1,9 @@
 zsdx 1.11 (in progress)
 
 * Upgrade to Solarus 1.5.
+
+zsdx 1.10.3 (in progress)
+
 * Fix game-over stopped sometimes using a workaround (#87).
 
 zsdx 1.10.2 (2015-11-22)
