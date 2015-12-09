@@ -28,9 +28,9 @@ local game_2_timeout
 -- Function called when the map starts.
 function map:on_started(destination)
 
-  chest_1.on_empty = open_game_1_chest
-  chest_2.on_empty = open_game_1_chest
-  chest_3.on_empty = open_game_1_chest
+  chest_1.on_opened = open_game_1_chest
+  chest_2.on_opened = open_game_1_chest
+  chest_3.on_opened = open_game_1_chest
   for npc, v in pairs(game_2_slots) do
     v.sprite = npc:get_sprite()
     v.sprite:set_frame(v.initial_frame)

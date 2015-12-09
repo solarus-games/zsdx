@@ -20,7 +20,7 @@ function map:on_started(destination)
   -- piece of heart found
   for i = 1, 7 do
     local chest = map:get_entity("chest_" .. i)
-    chest.on_empty = chest_empty
+    chest.on_opened = chest_empty
     if map:get_game():get_value("b197") then
       chest:set_open(true)
     end
