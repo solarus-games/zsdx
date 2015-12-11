@@ -4,7 +4,8 @@ properties{
   width = 480,
   height = 480,
   world = "dungeon_9",
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "15",
 }
 
