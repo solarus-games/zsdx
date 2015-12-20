@@ -2,7 +2,7 @@ zsdx 1.11 (in progress)
 
 * Upgrade to Solarus 1.5.
 
-zsdx 1.10.3 (in progress)
+zsdx 1.10.3 (2015-12-20)
 
 * Fix Italian dialogs exceeding the dialog box (thanks Marco).
 * Fix game-over stopped sometimes using a workaround (#87).
