@@ -138,7 +138,13 @@ function map:on_camera_back()
     camera_back_start_timer = false
     local timer = sol.timer.start(7000, function()
       sol.audio.play_sound("door_closed")
-      pegasus_run_barrier:set_enabled(true)
+      sol.timer.start(10, function()
+        if pegasus_run_barrier:overlaps(hero) then
+          return true -- Repeat the timer.
+        else
+          pegasus_run_barrier:set_enabled(true)
+        end
+      end)
       pegasus_run_switch:set_activated(false)
       pegasus_run_switch_2:set_activated(false)
     end)
