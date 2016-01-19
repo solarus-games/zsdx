@@ -20,6 +20,7 @@ right_blade_sprite:synchronize(main_sprite)
 -- Properties.
 enemy:set_life(5)
 enemy:set_damage(2)
+enemy:set_hurt_style("boss")
 enemy:set_pushed_back_when_hurt(false)
 enemy:set_size(40, 48)
 enemy:set_origin(20, 25)

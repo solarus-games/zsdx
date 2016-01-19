@@ -8,6 +8,7 @@ function enemy:on_created()
 
   self:set_life(30)
   self:set_damage(16)
+  self:set_hurt_style("boss")
   self:create_sprite("enemies/billy")
   self:set_hurt_style("boss")
   self:set_pushed_back_when_hurt(true)

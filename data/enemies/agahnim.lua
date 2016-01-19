@@ -20,6 +20,7 @@ function enemy:on_created()
 
   self:set_life(initial_life)
   self:set_damage(12)
+  self:set_hurt_style("boss")
   self:set_optimization_distance(0)
   self:set_size(16, 16)
   self:set_origin(8, 13)

@@ -3930,7 +3930,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "drakomos",
-  rank = 2,
   savegame_variable = "b321",
   treasure_name = "heart_container",
   treasure_variant = 1,

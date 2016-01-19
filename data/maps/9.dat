@@ -12709,7 +12709,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "agahnim",
-  rank = 2,
   savegame_variable = "b520",
   treasure_name = "heart_container",
   treasure_variant = 1,

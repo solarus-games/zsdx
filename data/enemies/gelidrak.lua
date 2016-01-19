@@ -15,6 +15,7 @@ function enemy:on_created()
 
   self:set_life(1000000)
   self:set_damage(12)
+  self:set_hurt_style("boss")
   self:create_sprite("enemies/gelidrak")
   self:set_size(240, 112)
   self:set_origin(120, 88)

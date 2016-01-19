@@ -10695,7 +10695,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "billy",
-  rank = 2,
   savegame_variable = "b727",
   treasure_name = "heart_container",
   treasure_savegame_variable = "b729",

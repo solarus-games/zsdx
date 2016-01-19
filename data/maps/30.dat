@@ -4914,7 +4914,6 @@ enemy{
   name = "miniboss",
   direction = 3,
   breed = "khotor",
-  rank = 1,
   savegame_variable = "b92",
   treasure_name = "fairy",
 }

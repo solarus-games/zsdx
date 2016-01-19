@@ -11,6 +11,7 @@ function enemy:on_created()
 
   self:set_life(initial_life)
   self:set_damage(2)
+  self:set_hurt_style("boss")
   main_sprite = self:create_sprite("enemies/firebird")
   claw_sprite = self:create_sprite("enemies/firebird")
   claw_sprite:set_animation("claw")

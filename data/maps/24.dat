@@ -4568,7 +4568,6 @@ enemy{
   y = 144,
   direction = 3,
   breed = "papillosaur_king",
-  rank = 2,
   savegame_variable = "b63",
   treasure_name = "heart_container",
   treasure_savegame_variable = "b64",

@@ -8,6 +8,7 @@ function enemy:on_created()
 
   self:set_life(1)
   self:set_damage(6)
+  self:set_hurt_style("boss")
   self:create_sprite("enemies/flora_gohma")
   self:set_size(80, 80)
   self:set_origin(40, 64)

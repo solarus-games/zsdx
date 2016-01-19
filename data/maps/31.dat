@@ -5576,7 +5576,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "firebird",
-  rank = 2,
   savegame_variable = "b93",
   treasure_variant = 1,
 }

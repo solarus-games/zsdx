@@ -1001,7 +1001,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "ganon",
-  rank = 2,
   savegame_variable = "b881",
 }
 

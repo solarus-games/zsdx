@@ -10134,7 +10134,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "poutroxor",
-  rank = 2,
   savegame_variable = "b299",
   treasure_variant = 1,
 }

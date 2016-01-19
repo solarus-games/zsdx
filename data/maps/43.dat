@@ -4864,7 +4864,6 @@ enemy{
   y = 533,
   direction = 3,
   breed = "master_arbror",
-  rank = 2,
   savegame_variable = "b902",
   treasure_name = "heart_container",
   treasure_savegame_variable = "b903",
@@ -5224,7 +5223,6 @@ enemy{
   y = 872,
   direction = 3,
   breed = "mowatulla",
-  rank = 1,
   savegame_variable = "b901",
   treasure_name = "fairy",
 }

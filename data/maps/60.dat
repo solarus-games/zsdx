@@ -9336,7 +9336,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "flora_gohma",
-  rank = 2,
   savegame_variable = "b415",
   treasure_name = "heart_container",
   treasure_variant = 1,

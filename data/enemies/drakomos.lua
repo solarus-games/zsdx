@@ -9,6 +9,7 @@ function enemy:on_created()
 
   self:set_life(1)
   self:set_damage(8)
+  self:set_hurt_style("boss")
   self:create_sprite("enemies/drakomos")
   self:set_size(128, 80)
   self:set_origin(64, 64)
