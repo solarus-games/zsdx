@@ -175,7 +175,7 @@ end
 function map:on_obtained_treasure(item, variant, savegame_variable)
 
   if item:get_name() == "boss_key" then
-    -- the hero was unfreezed by the chest, so cancel a possible previous guard
+    -- the hero was unfrozen by the chest, so cancel a possible previous guard
     -- (putting chests in the area of guards is probably not a good idea)
     map:cancel_prison()
   end
