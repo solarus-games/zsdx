@@ -236,10 +236,8 @@ animation{
 animation{
   name = "heart",
   src_image = "entities/items.png",
-  frame_delay = 100,
-  frame_to_loop_on = 24,
   directions = {
-    { x = 112, y = 48, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 8, num_frames = 25, num_columns = 10 },
+    { x = 112, y = 48, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 8 },
   },
 }
 animation{
@@ -247,6 +245,15 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 656, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "heart_falling",
+  src_image = "entities/items.png",
+  frame_delay = 100,
+  frame_to_loop_on = 24,
+  directions = {
+    { x = 112, y = 48, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 8, num_frames = 25, num_columns = 10 },
   },
 }
 animation{
