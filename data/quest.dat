@@ -13,3 +13,4 @@ Main game from the Solarus team. The Solarus engine was in fact primarily design
   min_quest_size = "320x200",
   max_quest_size = "400x240",
 }
+
