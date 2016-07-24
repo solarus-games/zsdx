@@ -16,7 +16,7 @@ local function initialize_map()
     delay_before = delay_before or 1000
     delay_after = delay_after or 1000
 
-    local old_x, old_y = camera:get_position()
+    local back_x, back_y = camera:get_position_to_track(hero)
     game:set_suspended(true)
     camera:start_manual()
 
@@ -31,7 +31,7 @@ local function initialize_map()
         end
         local timer_2 = sol.timer.start(self, delay_after, function()
           local movement = sol.movement.create("target")
-          movement:set_target(old_x, old_y)
+          movement:set_target(back_x, back_y)
           movement:set_ignore_obstacles(true)
           movement:set_speed(speed)
           movement:start(camera, function()
