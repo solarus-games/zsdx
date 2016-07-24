@@ -84,7 +84,7 @@ function enemy:on_pre_draw()
     else
       y = initial_y or y
     end
-    self:get_map():draw_sprite(shadow_sprite, x, y)
+    self:get_map():draw_visual(shadow_sprite, x, y)
   end
 end
 

@@ -55,7 +55,7 @@ end
 function enemy:on_pre_draw()
 
   for i = 1, nb_links do
-    self:get_map():draw_sprite(link_sprite, link_xy[i].x, link_xy[i].y)
+    self:get_map():draw_visual(link_sprite, link_xy[i].x, link_xy[i].y)
   end
 end
 
