@@ -122,7 +122,6 @@ function pegasus_run_switch_2:on_activated()
 end
 
 function left_eye_switch:on_activated()
-
   check_eye_statues()
 end
 
