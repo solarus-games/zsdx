@@ -4925,6 +4925,42 @@ crystal_block{
   subtype = 1,
 }
 
+wall{
+  layer = 1,
+  x = 536,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 744,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 744,
+  y = 224,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 536,
+  y = 224,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
 tile{
   layer = 2,
   x = 600,
