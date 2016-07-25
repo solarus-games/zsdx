@@ -6,8 +6,8 @@ quest{
   long_description = [[
 Main game from the Solarus team. The Solarus engine was in fact primarily designed for this quest.]],
   author = "Christopho",
-  quest_version = "1.10.3",
-  release_date = "20151220",
+  quest_version = "1.11.0",
+  release_date = "",
   website = "http://www.solarus-games.org",
   normal_quest_size = "320x240",
   min_quest_size = "320x200",
