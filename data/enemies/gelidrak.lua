@@ -108,6 +108,11 @@ end
 
 function enemy:on_position_changed(x, y)
 
+  if head == nil then
+    -- Not initialized yet.
+    return
+  end
+
   -- The body has just moved: do the same movement to the head and the tail.
   local dx = x - current_xy.x
   local dy = y - current_xy.y
