@@ -51,7 +51,7 @@ end
 
 function enemy:on_position_changed(x, y)
 
-  if eye:exists() then
+  if eye ~= nil and eye:exists() then
     -- The body has just moved: do the same movement to the eye.
     local dx = x - current_xy.x
     local dy = y - current_xy.y

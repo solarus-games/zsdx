@@ -47,10 +47,11 @@ function enemy:on_update()
     and self:get_life() > 0
     and not killing then
 
+    local my_name = self:get_name()
     killing = true
     self:hurt(1)
-    self:get_map():remove_entities(head_1:get_name())
-    self:get_map():remove_entities(head_2:get_name())
+    self:get_map():remove_entities(my_name .. "head_1")
+    self:get_map():remove_entities(my_name .. "head_2")
     self:get_map():remove_entities("spawner")
   end
 end
