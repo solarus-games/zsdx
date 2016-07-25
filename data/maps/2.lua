@@ -231,8 +231,15 @@ function game_3_question_dialog_finished(answer)
       game:start_dialog("rupee_house.game_3.go", function()
         game_3_timer = sol.timer.start(8000, function()
           sol.audio.play_sound("door_closed")
-          game_3_middle_barrier:set_enabled(true)
+          sol.timer.start(10, function()
+            if game_3_middle_barrier:overlaps(hero) then
+              return true -- Repeat the timer.
+            else
+              game_3_middle_barrier:set_enabled(true)
+            end
+          end)
         end)
+
         game_3_timer:set_with_sound(true)
         game_3_sensor:set_enabled(true)
       end)
