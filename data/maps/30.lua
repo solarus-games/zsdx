@@ -23,14 +23,12 @@ local function check_eye_statues()
     right_eye_switch:set_activated(false)
 
     if not game:get_value("b90") then
-      sol.audio.play_sound("switch")
       map:move_camera(456, 232, 250, function()
         sol.audio.play_sound("secret")
         open_hidden_stairs()
         game:set_value("b90", true)
       end)
     elseif not game:get_value("b91") then
-      sol.audio.play_sound("switch")
       map:move_camera(520, 320, 250, function()
         sol.audio.play_sound("secret")
         open_hidden_door()
