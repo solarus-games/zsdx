@@ -20933,24 +20933,6 @@ sensor{
 }
 
 sensor{
-  name = "save_solid_ground_sensor_2",
-  layer = 1,
-  x = 624,
-  y = 405,
-  width = 16,
-  height = 16,
-}
-
-sensor{
-  name = "save_solid_ground_sensor",
-  layer = 1,
-  x = 176,
-  y = 293,
-  width = 16,
-  height = 16,
-}
-
-sensor{
   name = "reset_solid_ground_sensor_3",
   layer = 1,
   x = 672,
