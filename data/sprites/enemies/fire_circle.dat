@@ -10,4 +10,15 @@ animation{
     { x = 0, y = 0, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 29, num_frames = 4 },
   },
 }
-
+animation{
+  name = "hurt",
+  src_image = "enemies/fire_circle.png",
+  frame_delay = 300,
+  frame_to_loop_on = 2,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 29, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 29, num_frames = 4 },
+  },
+}
