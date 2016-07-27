@@ -1,4 +1,4 @@
-zsdx 1.11 (in progress)
+zsdx 1.11.0 (2016-07-27)
 
 * Upgrade to Solarus 1.5.
 * Fix wrong layer when leaving dungeon 10.
