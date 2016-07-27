@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Zelda Mystery of Solarus DX"
-#define MyAppVersion "1.10.3"
+#define MyAppVersion "1.11.0"
 #define MyAppPublisher "Solarus"
 #define MyAppURL "http://www.solarus-games.org"
 #define MyAppExeName "solarus_run.exe"
@@ -36,8 +36,11 @@ Name: "english"; MessagesFile: "compiler:Default.isl"; InfoBeforeFile: "info_pre
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "files_to_install\solarus_run.exe"; DestDir: "{app}"; Flags: ignoreversion    
 Source: "files_to_install\libsolarus.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\solarus-run.exe"; DestDir: "{app}"; Flags: ignoreversion    
+Source: "files_to_install\libsolarus-gui.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\solarus.exe"; DestDir: "{app}"; Flags: ignoreversion    
+Source: "files_to_install\solarus-fr.qm"; DestDir: "{app}"; Flags: ignoreversion    
 Source: "files_to_install\data.solarus"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\quest_icon.ico"; DestDir: "{app}"
 Source: "files_to_install\libfreetype-6.dll"; DestDir: "{app}"; Flags: ignoreversion
