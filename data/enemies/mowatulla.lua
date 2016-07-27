@@ -9,6 +9,7 @@ function enemy:on_created()
 
   self:set_life(8)
   self:set_damage(2)
+  self:set_hurt_style("boss")
   self:create_sprite("enemies/mowatulla")
   self:set_size(96, 112)
   self:set_origin(48, 64)

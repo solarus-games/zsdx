@@ -86,9 +86,9 @@ function map_submenu:on_started()
       self.selected_floor = self.hero_floor
       if self.nb_floors <= 7 then
         self.highest_floor_displayed = self.dungeon.highest_floor
-      elseif self.floor >= self.dungeon.highest_floor - 2 then
+      elseif self.hero_floor >= self.dungeon.highest_floor - 2 then
         self.highest_floor_displayed = self.dungeon.highest_floor
-      elseif self.floor <= self.dungeon.lowest_floor + 2 then
+      elseif self.hero_floor <= self.dungeon.lowest_floor + 2 then
         self.highest_floor_displayed = self.dungeon.lowest_floor + 6
       else
         self.highest_floor_displayed = self.hero_floor + 3

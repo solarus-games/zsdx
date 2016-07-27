@@ -84,8 +84,16 @@ local function fix_starting_location(game)
   end
 end
 
+-- Allows the hero to jump over water when he cannot swim.
+-- This was the default behavior before Solarus 1.5.
+local function fix_jump_over_water(game)
+
+  game:set_ability("jump_over_water", 1)
+end
+
 -- Run the game.
 sol.main.game = game
 fix_starting_location(game)
+fix_jump_over_water(game)
 game:start()
 

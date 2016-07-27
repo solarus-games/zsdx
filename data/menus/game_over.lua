@@ -48,7 +48,7 @@ function game_over_menu:on_started()
   state = "waiting_start"
 
   local map = game:get_map()
-  local camera_x, camera_y = map:get_camera_position()
+  local camera_x, camera_y = map:get_camera():get_bounding_box()
   local hero_x, hero_y = hero:get_position()
   hero_dead_x = hero_x - camera_x
   hero_dead_y = hero_y - camera_y

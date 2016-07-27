@@ -650,7 +650,7 @@ dialog{
   text = [[
 Run as fast as
 lightning by using
-the Pegasus Shoes.
+the Pegasus Boots.
 Press and hold the
 Action key to run.
 ]]
@@ -1575,7 +1575,7 @@ dialog{
   icon = "13",
   text = [[
 You found the
-Pegasus Shoes!$0
+Pegasus Boots!$0
 
 Run and charge
 through the toughest

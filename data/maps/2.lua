@@ -28,9 +28,9 @@ local game_2_timeout
 -- Function called when the map starts.
 function map:on_started(destination)
 
-  chest_1.on_empty = open_game_1_chest
-  chest_2.on_empty = open_game_1_chest
-  chest_3.on_empty = open_game_1_chest
+  chest_1.on_opened = open_game_1_chest
+  chest_2.on_opened = open_game_1_chest
+  chest_3.on_opened = open_game_1_chest
   for npc, v in pairs(game_2_slots) do
     v.sprite = npc:get_sprite()
     v.sprite:set_frame(v.initial_frame)
@@ -231,8 +231,15 @@ function game_3_question_dialog_finished(answer)
       game:start_dialog("rupee_house.game_3.go", function()
         game_3_timer = sol.timer.start(8000, function()
           sol.audio.play_sound("door_closed")
-          game_3_middle_barrier:set_enabled(true)
+          sol.timer.start(10, function()
+            if game_3_middle_barrier:overlaps(hero) then
+              return true -- Repeat the timer.
+            else
+              game_3_middle_barrier:set_enabled(true)
+            end
+          end)
         end)
+
         game_3_timer:set_with_sound(true)
         game_3_sensor:set_enabled(true)
       end)

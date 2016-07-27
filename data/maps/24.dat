@@ -3,7 +3,8 @@ properties{
   y = 0,
   width = 1032,
   height = 696,
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   world = "dungeon_1",
   floor = -1,
   tileset = "5",
@@ -4567,7 +4568,6 @@ enemy{
   y = 144,
   direction = 3,
   breed = "papillosaur_king",
-  rank = 2,
   savegame_variable = "b63",
   treasure_name = "heart_container",
   treasure_savegame_variable = "b64",
@@ -4923,6 +4923,42 @@ crystal_block{
   width = 16,
   height = 16,
   subtype = 1,
+}
+
+wall{
+  layer = 1,
+  x = 536,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 744,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 744,
+  y = 224,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 536,
+  y = 224,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
 }
 
 tile{

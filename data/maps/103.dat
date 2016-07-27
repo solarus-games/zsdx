@@ -5,7 +5,8 @@ properties{
   height = 1056,
   world = "dungeon_7",
   floor = 2,
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "2",
   music = "same",
 }
@@ -10269,7 +10270,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "gelidrak",
-  rank = 2,
   savegame_variable = "b625",
 }
 

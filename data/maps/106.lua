@@ -317,7 +317,7 @@ local function compass_chest_empty(chest)
 end
 
 for chest in map:get_entities("compass_chest_") do
-  chest.on_empty = compass_chest_empty
+  chest.on_opened = compass_chest_empty
 end
 
 -- Torches on this map interact with the map script

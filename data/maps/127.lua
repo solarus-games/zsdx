@@ -8,7 +8,7 @@ function map:on_started(destination)
   map:set_light(0)
 end
 
-function sword_chest:on_empty()
+function sword_chest:on_opened()
 
   local variant = 2
   if map:get_game():get_ability("sword") >= 2 then

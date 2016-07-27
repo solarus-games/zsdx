@@ -3,7 +3,8 @@ properties{
   y = 0,
   width = 2576,
   height = 2320,
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   world = "dungeon_9",
   floor = 0,
   tileset = "15",
@@ -20927,24 +20928,6 @@ sensor{
   layer = 1,
   x = 176,
   y = 229,
-  width = 16,
-  height = 16,
-}
-
-sensor{
-  name = "save_solid_ground_sensor_2",
-  layer = 1,
-  x = 624,
-  y = 405,
-  width = 16,
-  height = 16,
-}
-
-sensor{
-  name = "save_solid_ground_sensor",
-  layer = 1,
-  x = 176,
-  y = 293,
   width = 16,
   height = 16,
 }

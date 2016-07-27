@@ -48,6 +48,7 @@ function item:on_pickable_created(pickable)
     m:set_loop(false)
     m:set_ignore_obstacles(true)
     m:start(pickable)
+    pickable:get_sprite():set_animation("heart_falling")
   end
 end
 

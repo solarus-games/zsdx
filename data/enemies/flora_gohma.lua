@@ -8,6 +8,7 @@ function enemy:on_created()
 
   self:set_life(1)
   self:set_damage(6)
+  self:set_hurt_style("boss")
   self:create_sprite("enemies/flora_gohma")
   self:set_size(80, 80)
   self:set_origin(40, 64)
@@ -50,7 +51,7 @@ end
 
 function enemy:on_position_changed(x, y)
 
-  if eye:exists() then
+  if eye ~= nil and eye:exists() then
     -- The body has just moved: do the same movement to the eye.
     local dx = x - current_xy.x
     local dy = y - current_xy.y
@@ -77,7 +78,7 @@ function enemy:display_balls(x1, y1, x2, y2)
   local x_inc = (x2 - x1) / (nb_balls - 1)
   local y_inc = (y2 - y1) / (nb_balls - 1)
   for i = 1, nb_balls do
-    self:get_map():draw_sprite(ball_sprite, x, y)
+    self:get_map():draw_visual(ball_sprite, x, y)
     x = x + x_inc
     y = y + y_inc
   end

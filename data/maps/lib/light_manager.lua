@@ -49,7 +49,7 @@ function light_manager.enable_light_features(map)
     local screen_width, screen_height = dst_surface:get_size()
     local hero = map:get_entity("hero")
     local hero_x, hero_y = hero:get_center_position()
-    local camera_x, camera_y = map:get_camera_position()
+    local camera_x, camera_y = map:get_camera():get_bounding_box()
     local x = 320 - hero_x + camera_x
     local y = 240 - hero_y + camera_y
     local dark_surface = dark_surfaces[hero:get_direction()]

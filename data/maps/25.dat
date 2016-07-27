@@ -5,7 +5,8 @@ properties{
   height = 464,
   world = "dungeon_1",
   floor = 1,
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "5",
   music = "light_world_dungeon",
 }
@@ -3903,7 +3904,6 @@ enemy{
   name = "khorneth",
   direction = 3,
   breed = "khorneth",
-  rank = 1,
   savegame_variable = "b62",
   treasure_name = "fairy",
   treasure_variant = 1,

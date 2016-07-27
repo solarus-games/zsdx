@@ -100,8 +100,8 @@ function enemy:on_pre_draw()
   local x3 = x - math.cos(angle) * 24
   local y3 = y + math.sin(angle) * 24
 
-  self:get_map():draw_sprite(sprite2, x2, y2)
-  self:get_map():draw_sprite(sprite3, x3, y3)
+  self:get_map():draw_visual(sprite2, x2, y2)
+  self:get_map():draw_visual(sprite3, x3, y3)
 end
 
 -- Method called by other enemies.

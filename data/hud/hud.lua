@@ -85,7 +85,7 @@ function game:check_hud()
     -- If the hero is below the top-left icons, make them semi-transparent.
     local hero = map:get_entity("hero")
     local hero_x, hero_y = hero:get_position()
-    local camera_x, camera_y = map:get_camera_position()
+    local camera_x, camera_y = map:get_camera():get_bounding_box()
     local x = hero_x - camera_x
     local y = hero_y - camera_y
     local opacity = nil

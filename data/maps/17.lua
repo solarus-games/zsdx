@@ -104,7 +104,7 @@ function block_13:on_moved()
   game:set_value("b228", true)
 end
 
-function chest:on_empty()
+function chest:on_opened()
   sol.audio.play_sound("wrong")
   game:start_dialog("_empty_chest")
   hero:unfreeze()

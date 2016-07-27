@@ -44,4 +44,3 @@ function grandma:on_interaction()
   end
 
 end
-

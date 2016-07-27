@@ -5,7 +5,8 @@ properties{
   height = 1808,
   world = "dungeon_8",
   floor = 0,
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "9",
   music = "dark_world_dungeon",
 }
@@ -10694,7 +10695,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "billy",
-  rank = 2,
   savegame_variable = "b727",
   treasure_name = "heart_container",
   treasure_savegame_variable = "b729",

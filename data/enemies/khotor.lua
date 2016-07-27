@@ -8,6 +8,7 @@ function enemy:on_created()
 
   self:set_life(12)
   self:set_damage(3)
+  self:set_hurt_style("boss")
   self:set_pushed_back_when_hurt(false)
   self:set_push_hero_on_sword(true)
   self:create_sprite("enemies/khotor")

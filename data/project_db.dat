@@ -470,6 +470,7 @@ sound{ id = "stairs_down_start", description = "stairs_down_start" }
 sound{ id = "stairs_up_end", description = "stairs_up_end" }
 sound{ id = "stairs_up_start", description = "stairs_up_start" }
 sound{ id = "stone", description = "stone" }
+sound{ id = "swim", description = "swim" }
 sound{ id = "switch", description = "switch" }
 sound{ id = "sword1", description = "sword1" }
 sound{ id = "sword2", description = "sword2" }
@@ -487,6 +488,10 @@ sound{ id = "victory", description = "victory" }
 sound{ id = "walk_on_grass", description = "walk_on_grass" }
 sound{ id = "walk_on_water", description = "walk_on_water" }
 sound{ id = "warp", description = "warp" }
+sound{ id = "water_drain", description = "water_drain" }
+sound{ id = "water_drain_begin", description = "water_drain_begin" }
+sound{ id = "water_fill", description = "water_fill" }
+sound{ id = "water_fill_begin", description = "water_fill_begin" }
 sound{ id = "world_warp", description = "world_warp" }
 sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
@@ -558,6 +563,7 @@ enemy{ id = "billy", description = "Billy" }
 enemy{ id = "blue_bullblin", description = "Bullblin (blue)" }
 enemy{ id = "blue_dogman", description = "Dogman (blue)" }
 enemy{ id = "blue_duck_soldier", description = "Duck Soldier (blue)" }
+enemy{ id = "blue_fireball_triple", description = "blue_fireball_triple" }
 enemy{ id = "blue_flame", description = "Flame (blue)" }
 enemy{ id = "blue_hardhat_beetle", description = "Hardhat Beetle (blue)" }
 enemy{ id = "blue_knight_soldier", description = "Knight Soldier (blue)" }
@@ -569,13 +575,15 @@ enemy{ id = "drakomos_head", description = "Drakomos head" }
 enemy{ id = "drakomos_lava_spawner", description = "Drakomos lava spawner" }
 enemy{ id = "evil_tile", description = "Evil Tile" }
 enemy{ id = "fire_bat", description = "Fire bat" }
+enemy{ id = "fire_circle", description = "fire_circle" }
 enemy{ id = "fireball_simple", description = "Fireball (simple)" }
-enemy{ id = "fireball_triple", description = "Fireball (triple)" }
 enemy{ id = "firebird", description = "Fire Bird" }
 enemy{ id = "flora_gohma", description = "Flora Gohma" }
 enemy{ id = "flora_gohma_eye", description = "Flora Gohma eye" }
 enemy{ id = "ganon", description = "Ganon" }
 enemy{ id = "gelidrak", description = "Gelidrak" }
+enemy{ id = "gelidrak_head", description = "gelidrak_head" }
+enemy{ id = "gelidrak_tail", description = "gelidrak_tail" }
 enemy{ id = "gibdo", description = "Gibdo" }
 enemy{ id = "globul", description = "Globul" }
 enemy{ id = "green_duck_soldier", description = "Duck Soldier (green)" }
@@ -586,6 +594,7 @@ enemy{ id = "laser", description = "Laser" }
 enemy{ id = "lizalfos", description = "Lizalfos" }
 enemy{ id = "mandible", description = "Mandible" }
 enemy{ id = "master_arbror", description = "Master Arbror" }
+enemy{ id = "mini_mowatulla", description = "mini_mowatulla" }
 enemy{ id = "minillosaur_egg_fixed", description = "Minillosaur Egg (thrown)" }
 enemy{ id = "minillosaur_egg_thrown", description = "Minillosaur Egg (fixed)" }
 enemy{ id = "mowatulla", description = "Mowatulla" }
@@ -597,6 +606,8 @@ enemy{ id = "poutroxor", description = "Poutroxor" }
 enemy{ id = "red_bullblin", description = "Bullblin (red)" }
 enemy{ id = "red_dogman", description = "Dogman (red)" }
 enemy{ id = "red_duck_soldier", description = "Duck Soldier (red)" }
+enemy{ id = "red_fireball_triple", description = "red_fireball_triple" }
+enemy{ id = "red_flame", description = "red_flame" }
 enemy{ id = "red_hardhat_beetle", description = "Hardhat Beetle (red)" }
 enemy{ id = "red_helmasaur", description = "Helmasaur (red)" }
 enemy{ id = "red_knight_soldier", description = "Knight Soldier (red)" }

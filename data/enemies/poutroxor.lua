@@ -13,6 +13,7 @@ function enemy:on_created()
 
   self:set_life(14)
   self:set_damage(1)
+  self:set_hurt_style("boss")
   bird = self:create_sprite("enemies/poutroxor")
   head = self:create_sprite("enemies/poutroxor_head")
   skeleton = self:create_sprite("enemies/poutroxor_skeleton")

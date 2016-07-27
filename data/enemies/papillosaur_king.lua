@@ -12,6 +12,7 @@ function enemy:on_created()
 
   self:set_life(boss_starting_life)
   self:set_damage(2)
+  self:set_hurt_style("boss")
   self:create_sprite("enemies/papillosaur_king")
   self:set_size(176, 96)
   self:set_origin(88, 64)

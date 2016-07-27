@@ -9,6 +9,7 @@ function enemy:on_created()
 
   self:set_life(1)
   self:set_damage(8)
+  self:set_hurt_style("boss")
   self:create_sprite("enemies/drakomos")
   self:set_size(128, 80)
   self:set_origin(64, 64)
@@ -46,10 +47,11 @@ function enemy:on_update()
     and self:get_life() > 0
     and not killing then
 
+    local my_name = self:get_name()
     killing = true
     self:hurt(1)
-    self:get_map():remove_entities(head_1:get_name())
-    self:get_map():remove_entities(head_2:get_name())
+    self:get_map():remove_entities(my_name .. "head_1")
+    self:get_map():remove_entities(my_name .. "head_2")
     self:get_map():remove_entities("spawner")
   end
 end
@@ -75,7 +77,7 @@ function enemy:display_balls(x1, y1, x2, y2)
   for i = 1, nb_balls do
     local x = x1 + (x2 - x1) * i / nb_balls
     local y = y1 + (y2 - y1) * i / nb_balls
-    self:get_map():draw_sprite(ball_sprite, x, y)
+    self:get_map():draw_visual(ball_sprite, x, y)
   end
 end
 

@@ -5,7 +5,8 @@ properties{
   height = 1120,
   world = "dungeon_4",
   floor = 0,
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "11",
   music = "light_world_dungeon",
 }
@@ -9335,7 +9336,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "flora_gohma",
-  rank = 2,
   savegame_variable = "b415",
   treasure_name = "heart_container",
   treasure_variant = 1,

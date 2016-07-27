@@ -5,7 +5,8 @@ properties{
   height = 768,
   world = "dungeon_6",
   floor = 3,
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "10",
   music = "dark_world_dungeon",
 }
@@ -3929,7 +3930,6 @@ enemy{
   name = "boss",
   direction = 3,
   breed = "drakomos",
-  rank = 2,
   savegame_variable = "b321",
   treasure_name = "heart_container",
   treasure_variant = 1,

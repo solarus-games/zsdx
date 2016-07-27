@@ -5,7 +5,8 @@ properties{
   height = 768,
   world = "dungeon_2",
   floor = 0,
-  num_layers = 3,
+  min_layer = 0,
+  max_layer = 2,
   tileset = "7",
   music = "light_world_dungeon",
 }
@@ -4913,7 +4914,6 @@ enemy{
   name = "miniboss",
   direction = 3,
   breed = "khotor",
-  rank = 1,
   savegame_variable = "b92",
   treasure_name = "fairy",
 }

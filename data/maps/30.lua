@@ -23,14 +23,12 @@ local function check_eye_statues()
     right_eye_switch:set_activated(false)
 
     if not game:get_value("b90") then
-      sol.audio.play_sound("switch")
       map:move_camera(456, 232, 250, function()
         sol.audio.play_sound("secret")
         open_hidden_stairs()
         game:set_value("b90", true)
       end)
     elseif not game:get_value("b91") then
-      sol.audio.play_sound("switch")
       map:move_camera(520, 320, 250, function()
         sol.audio.play_sound("secret")
         open_hidden_door()
@@ -124,7 +122,6 @@ function pegasus_run_switch_2:on_activated()
 end
 
 function left_eye_switch:on_activated()
-
   check_eye_statues()
 end
 
@@ -138,7 +135,13 @@ function map:on_camera_back()
     camera_back_start_timer = false
     local timer = sol.timer.start(7000, function()
       sol.audio.play_sound("door_closed")
-      pegasus_run_barrier:set_enabled(true)
+      sol.timer.start(10, function()
+        if pegasus_run_barrier:overlaps(hero) then
+          return true -- Repeat the timer.
+        else
+          pegasus_run_barrier:set_enabled(true)
+        end
+      end)
       pegasus_run_switch:set_activated(false)
       pegasus_run_switch_2:set_activated(false)
     end)

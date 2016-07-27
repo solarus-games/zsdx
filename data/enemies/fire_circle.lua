@@ -10,6 +10,7 @@ function enemy:on_created()
   self:set_size(16, 16)
   self:set_origin(8, 13)
   self:set_invincible()
+  self:set_obstacle_behavior("flying")
 end
 
 function enemy:on_restarted()
