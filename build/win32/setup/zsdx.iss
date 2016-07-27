@@ -5,7 +5,7 @@
 #define MyAppVersion "1.11.0"
 #define MyAppPublisher "Solarus"
 #define MyAppURL "http://www.solarus-games.org"
-#define MyAppExeName "solarus_run.exe"
+#define MyAppExeName "solarus-run.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -40,9 +40,12 @@ Source: "files_to_install\libsolarus.dll"; DestDir: "{app}"; Flags: ignoreversio
 Source: "files_to_install\solarus-run.exe"; DestDir: "{app}"; Flags: ignoreversion    
 Source: "files_to_install\libsolarus-gui.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\solarus.exe"; DestDir: "{app}"; Flags: ignoreversion    
-Source: "files_to_install\solarus-fr.qm"; DestDir: "{app}"; Flags: ignoreversion    
+Source: "files_to_install\solarus_fr.qm"; DestDir: "{app}"; Flags: ignoreversion    
 Source: "files_to_install\data.solarus"; DestDir: "{app}"; Flags: ignoreversion
-Source: "files_to_install\quest_icon.ico"; DestDir: "{app}"
+Source: "files_to_install\quest_icon.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\icudt52.dll"; DestDir: "{app}"; Flags: ignoreversion                    
+Source: "files_to_install\icuin52.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\icuuc52.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\libfreetype-6.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\libgcc_s_dw2-1.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\libmodplug-1.dll"; DestDir: "{app}"; Flags: ignoreversion
@@ -55,11 +58,15 @@ Source: "files_to_install\libvorbisfile.dll"; DestDir: "{app}"; Flags: ignorever
 Source: "files_to_install\libwinpthread-1.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\lua51.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\OpenAL32.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\Qt5Core.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\Qt5Gui.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\Qt5Widgets.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\SDL2.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\SDL2_image.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\SDL2_ttf.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\wrap_oal.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "files_to_install\zlib1.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "files_to_install\zlib1.dll"; DestDir: "{app}"; Flags: ignoreversion 
+Source: "files_to_install\platforms\qwindows.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
