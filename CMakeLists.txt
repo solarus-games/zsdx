@@ -57,7 +57,7 @@ add_custom_target(${quest_name}_data
 add_custom_command(
   OUTPUT ${quest_name}
   COMMAND echo '\#!/bin/sh' > ${quest_name}
-  COMMAND echo 'solarus-run ${SOLARUS_INSTALL_ABSOLUTE_DATADIR}/${quest_name} $*' >> ${quest_name}
+  COMMAND echo 'solarus-run ${SOLARUS_INSTALL_ABSOLUTE_DATADIR}/${quest_name} $$*' >> ${quest_name}
 )
 add_custom_target(${quest_name}_command
   ALL
