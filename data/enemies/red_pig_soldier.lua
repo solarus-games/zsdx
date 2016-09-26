@@ -2,7 +2,7 @@ local enemy = ...
 
 -- Red pig soldier.
 
-sol.main.load_file("enemies/generic_soldier")(enemy)
+require("enemies/generic_soldier")(enemy)
 enemy:set_properties({
   main_sprite = "enemies/red_pig_soldier",
   sword_sprite = "enemies/red_pig_soldier_sword",

@@ -2,7 +2,8 @@ local map = ...
 local game = map:get_game()
 -- Dungeon 5 1F
 
-sol.main.load_file("maps/prison_guard")(map)
+local init_guards = require("maps/prison_guard")
+init_guards(map)
 
 -- Returns whether all torches are on
 local function are_all_torches_on()

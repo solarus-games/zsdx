@@ -3,7 +3,7 @@ local map = ...
 
 local door3_flag = false
 
-local init_evil_tiles = sol.main.load_file("maps/evil_tiles")
+local init_evil_tiles = require("maps/evil_tiles")
 init_evil_tiles(map)
 
 function map:on_started(destination)

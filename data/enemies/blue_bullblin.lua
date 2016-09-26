@@ -2,7 +2,7 @@ local enemy = ...
 
 -- Blue Bullblin
 
-sol.main.load_file("enemies/generic_soldier")(enemy)
+require("enemies/generic_soldier")(enemy)
 enemy:set_properties({
   main_sprite = "enemies/blue_bullblin",
   sword_sprite = "enemies/blue_bullblin_sword",

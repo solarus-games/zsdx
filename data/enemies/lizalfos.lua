@@ -2,7 +2,7 @@ local enemy = ...
 
 -- Lizalfos.
 
-sol.main.load_file("enemies/generic_soldier")(enemy)
+require("enemies/generic_soldier")(enemy)
 enemy:set_properties({
   main_sprite = "enemies/lizalfos",
   sword_sprite = "enemies/lizalfos_sword",

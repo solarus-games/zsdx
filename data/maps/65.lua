@@ -2,7 +2,8 @@ local map = ...
 local game = map:get_game()
 -- Dungeon 5 B1
 
-sol.main.load_file("maps/prison_guard")(map)
+local init_guards = require("maps/prison_guard")
+init_guards(map)
 
 local prison_2_nb_messages = 0
 local door_sets = { -- possible doors open when going to prison

@@ -235,7 +235,7 @@ end
 -- Starts a game.
 function sol.main:start_savegame(game)
 
-  local play_game = sol.main.load_file("play_game")
+  local play_game = require("play_game")
   play_game(game)
 end
 
