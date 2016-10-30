@@ -1,7 +1,7 @@
 
 ![Zelda: Mystery of Solarus DX Logo](/data/logos/logo.png)
 
-# Zelda: Mystery of Solarus XD
+# Zelda: Mystery of Solarus DX
 
 This package contains the data files of the game Zelda: Mystery of Solarus DX.
 This quest is a free, open-source game that works with [Solarus](https://github.com/christopho/solarus),
