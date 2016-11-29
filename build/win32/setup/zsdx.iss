@@ -40,6 +40,7 @@ Source: "files_to_install\libsolarus.dll"; DestDir: "{app}"; Flags: ignoreversio
 Source: "files_to_install\solarus-run.exe"; DestDir: "{app}"; Flags: ignoreversion    
 Source: "files_to_install\libsolarus-gui.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\solarus.exe"; DestDir: "{app}"; Flags: ignoreversion    
+Source: "files_to_install\solarus_es.qm"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\solarus_fr.qm"; DestDir: "{app}"; Flags: ignoreversion    
 Source: "files_to_install\data.solarus"; DestDir: "{app}"; Flags: ignoreversion
 Source: "files_to_install\quest_icon.ico"; DestDir: "{app}"; Flags: ignoreversion
