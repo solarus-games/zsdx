@@ -1,5 +1,5 @@
 quest{
-  solarus_version = "1.5",
+  solarus_version = "1.6",
   write_dir = "zsdx",
   title = "Zelda Mystery of Solarus DX",
   short_description = "The first game created with Solarus",
@@ -10,7 +10,7 @@ Main game from the Solarus team. The Solarus engine was in fact primarily design
   release_date = "",
   website = "http://www.solarus-games.org",
   normal_quest_size = "320x240",
-  min_quest_size = "320x200",
+  min_quest_size = "160x144",
   max_quest_size = "400x240",
 }
 
