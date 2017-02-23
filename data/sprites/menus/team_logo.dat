@@ -1,0 +1,24 @@
+animation{
+  name = "rotation",
+  src_image = "menus/team_logo.png",
+  frame_delay = 40,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 54, origin_x = 0, origin_y = 0, num_frames = 28, num_columns = 4 },
+  },
+}
+animation{
+  name = "shine",
+  src_image = "menus/team_logo.png",
+  frame_delay = 40,
+  directions = {
+    { x = 0, y = 378, frame_width = 48, frame_height = 54, origin_x = 0, origin_y = 0, num_frames = 12, num_columns = 4 },
+  },
+}
+animation{
+  name = "static",
+  src_image = "menus/team_logo.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 54, origin_x = 0, origin_y = 0 },
+  },
+}

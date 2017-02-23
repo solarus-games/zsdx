@@ -1,20 +1,37 @@
+We give in this file the license information of
+the Zelda Mystery of Solarus XD quest.
+
 - Lua scripts are licensed under the terms of the GNU General Public License
 in version 3.
 
-- All data files we created are licensed under
-Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).
-http://creativecommons.org/licenses/by-sa/3.0/
+- Most data files other than Lua scripts are licensed under
+Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
+http://creativecommons.org/licenses/by-sa/4.0/
 
 - Some graphics, sounds and names include content that belong to Nintendo.
 We don't own this content.
 
-Scripts under GNU GPL v3:
--------------------------
-**.lua
+This quest was made by the Solarus team.
 
-Data files under CC BY-SA 3.0:                      Author (if not us)
-------------------------------                      ------------------
+Main contributors:
+- Christopho
+- Metallizer
+- Newlink
+- Binbin
+
+Scripts under GNU GPL v3:                           Author
+-------------------------                           ------
+**.lua                                              Christopho, Metallizer, Binbin
+
+Data files under CC BY-SA 4.0:                      Author
+------------------------------                      ------
 **.dat
+
+fonts/minecraftia.ttf                               Andrew Tyler: http://www.andrewtyler.net
+
+sounds/diarandor/solarus_logo.ogg                   Diarandor
+sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
+
 sprites/enemies/arbror_root.png
 sprites/enemies/bee_guard.png
 sprites/enemies/billy.png
@@ -62,6 +79,9 @@ sprites/menus/selection_menu_mode.png
 sprites/menus/selection_menu_option_container.png
 sprites/menus/selection_menu_save*.png
 sprites/menus/selection_menu_save_container.png
+sprites/menus/solarus_logo.png                      Olivier Cléro
+sprites/menus/team_logo.png                         Olivier Cléro
+sprites/menus/team_logo_text.png                    Olivier Cléro
 sprites/menus/title_daylight_*.png
 sprites/menus/title_dx.png
 sprites/menus/title_night_*.png
@@ -70,11 +90,10 @@ sprites/menus/title_sunset_*.png
 sprites/npc/inferno.png
 sprites/npc/newlink.png
 sprites/npc/solarus_child*.png
-text/minecraftia.png                                Andrew Tyler: http://www.andrewtyler.net
 
 Data files under GNU GPL v2:
 -------------------------
-text/wqy-zenhei.ttc                                 WenQuanYi project: http://wenq.org/en
+fonts/wqy-zenhei.ttc                                 WenQuanYi project: http://wenq.org/en
 
 Files with original content (CC BY-SA 3.0) but with a Nintendo filename:
 ------------------------------------------------------------------------
@@ -84,11 +103,20 @@ sprites/enemies/agahnim_fake.png
 Files that include content from Nintendo:
 -----------------------------------------
 languages/*/images/*.png
-musics/*
-sounds/*
-text/*.png
+
+musics/*.ogg
+musics/*.it
+
+sounds/*.ogg
+
+text/green_digits.png
+text/small_green_digits.png
+text/small_white_digits.png
+text/white_digits.png
 text/la.ttf
+
 tilesets/*.png
+
 sprites/enemies/blue_flame.png
 sprites/enemies/*_knight_soldier.png
 sprites/enemies/bubble.png

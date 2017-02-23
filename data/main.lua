@@ -21,6 +21,7 @@ function sol.main:on_started()
   debug_enabled = sol.file.exists("debug")
 
   local solarus_logo = require("menus/solarus_logo")
+  local team_logo = require("menus/team_logo")
   local language_menu = require("menus/language")
   local title_screen = require("menus/title")
   local savegame_menu = require("menus/savegames")
@@ -28,8 +29,15 @@ function sol.main:on_started()
   -- Show the Solarus logo first.
   sol.menu.start(self, solarus_logo)
 
-  -- Then the language selection menu, unless a game was started by a debug key.
+  -- Then the Solarus team logo, unless a game was started by a debug key.
   solarus_logo.on_finished = function()
+    if self.game == nil then
+      sol.menu.start(self, team_logo)
+    end
+  end
+
+  -- Then the language selection menu.
+  team_logo.on_finished = function()
     if self.game == nil then
       sol.menu.start(self, language_menu)
     end

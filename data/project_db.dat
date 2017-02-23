@@ -322,6 +322,7 @@ sprite{ id = "menus/pause_cursor", description = "Menu: Pause cursor" }
 sprite{ id = "menus/pause_save_dialog", description = "Menu: Pause save dialog" }
 sprite{ id = "menus/selection_menu_cursor", description = "Menu: Savegame cursor" }
 sprite{ id = "menus/solarus_logo", description = "Menu: Solarus logo" }
+sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
 sprite{ id = "npc/agahnim", description = "Agahnim" }
 sprite{ id = "npc/billy", description = "Billy" }
 sprite{ id = "npc/black_knight_soldier", description = "Black Knight Soldier" }
@@ -418,6 +419,7 @@ sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }
+sound{ id = "diarandor/solarus_logo", description = "Solarus logo" }
 sound{ id = "door_closed", description = "door_closed" }
 sound{ id = "door_open", description = "door_open" }
 sound{ id = "door_unlocked", description = "door_unlocked" }
@@ -463,7 +465,6 @@ sound{ id = "rupee_counter", description = "rupee_counter" }
 sound{ id = "rupee_counter_end", description = "rupee_counter_end" }
 sound{ id = "secret", description = "secret" }
 sound{ id = "shield", description = "shield" }
-sound{ id = "solarus_logo", description = "Solarus logo" }
 sound{ id = "splash", description = "splash" }
 sound{ id = "stairs_down_end", description = "stairs_down_end" }
 sound{ id = "stairs_down_start", description = "stairs_down_start" }
