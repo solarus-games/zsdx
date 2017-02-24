@@ -155,7 +155,7 @@ function start_boss_sensor:on_activated()
 end
 
 for enemy in map:get_entities("room_LD1_enemy") do
-  
+
   function enemy:on_dead()
     if not map:has_entities("room_LD1_enemy") then
       -- LD1 room: kill all enemies will open the doors LD1 and LD2
@@ -169,7 +169,7 @@ for enemy in map:get_entities("room_LD1_enemy") do
 end
 
 for enemy in map:get_entities("room_LD5_enemy") do
-  
+
   function enemy:on_dead()
 
     if not map:has_entities("room_LD5_enemy") and not LD5:is_open() then
@@ -181,7 +181,7 @@ for enemy in map:get_entities("room_LD5_enemy") do
 end
 
 for enemy in map:get_entities("map_enemy") do
-  
+
   function enemy:on_dead()
 
     if not map:has_entities("map_enemy") then
@@ -198,7 +198,7 @@ for enemy in map:get_entities("map_enemy") do
 end
 
 for enemy in map:get_entities("room_big_enemy") do
-  
+
   function enemy:on_dead()
 
     if not map:has_entities("room_big_enemy") then

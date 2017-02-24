@@ -70,7 +70,7 @@ function logo_sprite:on_frame_changed(animation, frame)
     return
   end
 
-  if animation == "rotation" and (frame % rotation_frame_count) == 0 then  
+  if animation == "rotation" and (frame % rotation_frame_count) == 0 then
     local current_time = rotation_count / (max_rotation_count - 1)
 
     -- Decrement the speed.
@@ -166,7 +166,7 @@ end
 
 -----------------------------------------------------------------
 
-function team_logo_menu:on_started() 
+function team_logo_menu:on_started()
   -- Start the animation.
   team_logo_menu:start_animation()
 end
@@ -177,7 +177,7 @@ function team_logo_menu:on_draw(screen)
   local screen_width, screen_height = screen:get_size()
   local full_logo_x = (screen_width - full_logo_width) / 2
   local full_logo_y = (screen_height - full_logo_height) / 2
-  
+
   -- Draw logo sprite.
   logo_sprite:draw(screen, full_logo_x, full_logo_y)
 

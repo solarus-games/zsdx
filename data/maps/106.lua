@@ -237,7 +237,7 @@ function close_door_b_sensor_1:on_activated()
     close_door_b_sensor_2:set_enabled(false)
   end
 end
-close_door_b_sensor_2.on_activated = close_door_b_sensor_1.on_activated 
+close_door_b_sensor_2.on_activated = close_door_b_sensor_1.on_activated
 
 
 -- north enemies room
@@ -250,7 +250,7 @@ function close_door_c_sensor_1:on_activated()
     close_door_c_sensor_2:set_enabled(false)
   end
 end
-close_door_c_sensor_2.on_activated = close_door_c_sensor_1.on_activated 
+close_door_c_sensor_2.on_activated = close_door_c_sensor_1.on_activated
 
 -- save solid ground location
 for sensor in map:get_entities("save_solid_ground_sensor") do

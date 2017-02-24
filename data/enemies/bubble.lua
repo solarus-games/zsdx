@@ -64,13 +64,13 @@ function enemy:go(direction8)
   last_direction8 = direction8
 end
 
--- Bubbles have a specific attack which drain magic.
+-- Bubbles have a specific attack that drains magic.
 function enemy:on_attacking_hero(hero)
   local game = enemy:get_game()
-  
+
   -- In any case, we do the hurt animation as usual
   hero:start_hurt(enemy, 2)
-  
+
   -- If hero has magic, it is drained.
   if game:get_magic() > 0 then
     game:remove_magic(4)

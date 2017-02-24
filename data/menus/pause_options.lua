@@ -185,7 +185,7 @@ function options_submenu:on_draw(dst_surface)
 end
 
 function options_submenu:on_command_pressed(command)
- 
+
   if self.command_customizing ~= nil then
     -- We are customizing a command: any key pressed should have been handled before.
     error("options_submenu:on_command_pressed() should not called in this state")

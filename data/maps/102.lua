@@ -102,7 +102,7 @@ function close_door_c_sensor:on_activated()
     map:close_doors("door_c")
   end
 end
-close_door_c_sensor_2.on_activated = close_door_c_sensor.on_activated 
+close_door_c_sensor_2.on_activated = close_door_c_sensor.on_activated
 
 -- miniboss
 function start_miniboss_sensor:on_activated()
