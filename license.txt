@@ -93,7 +93,7 @@ sprites/npc/solarus_child*.png
 
 Data files under GNU GPL v2:
 -------------------------
-fonts/wqy-zenhei.ttc                                 WenQuanYi project: http://wenq.org/en
+fonts/wqy-zenhei.ttc                                WenQuanYi project: http://wenq.org/en
 
 Files with original content (CC BY-SA 3.0) but with a Nintendo filename:
 ------------------------------------------------------------------------
