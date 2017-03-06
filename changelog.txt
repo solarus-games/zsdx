@@ -10,7 +10,7 @@ zsdx 1.11.0 (2016-07-27)
 * Upgrade to Solarus 1.5.
 * Fix wrong layer when leaving dungeon 10.
 * Dungeon 2: Fix sound played twice when activating the statues.
-* Dungeon 9: fix geting back to room entrance when touching spikes.
+* Dungeon 9: fix getting back to room entrance when touching spikes.
 * English dialogs: rename Pegasus Shoes to Pegasus Boots.
 
 zsdx 1.10.3 (2015-12-20)
