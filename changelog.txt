@@ -3,7 +3,7 @@ zsdx 1.12.0 (in progress)
 * Upgrade to Solarus 1.6.
 * Add the Solarus team logo.
 * Change the sound of the Solarus logo.
-* Dungeon 3: Fix a typo in French dialogs (thanks Renkineko).
+* Fix typos in French dialogs (thanks Renkineko).
 
 zsdx 1.11.0 (2016-07-27)
 
