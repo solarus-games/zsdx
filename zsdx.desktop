@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Zelda: Mystery of Solarus DX
+GenericName=Zelda fangame for the Solarus engine
+Comment=Zelda: Mystery of Solarus DX (action rpg game)
+Exec=zsdx
+Terminal=false
+Type=Application
+Icon=zsdx
+Categories=Game;AdventureGame;

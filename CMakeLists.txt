@@ -97,3 +97,9 @@ if(UNIX AND NOT APPLE)
   install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/logo_2x.png
     DESTINATION ${CMAKE_INSTALL_PREFIX}/share/pixmaps RENAME zsdx.png)
 endif(UNIX AND NOT APPLE)
+
+# FreeDesktop compatible start menu launcher
+if(UNIX AND NOT APPLE)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/zsdx.desktop
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/applications)
+endif(UNIX AND NOT APPLE)
