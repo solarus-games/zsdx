@@ -74,3 +74,26 @@ install(PROGRAMS ${CMAKE_CURRENT_BINARY_DIR}/${quest_name}
   DESTINATION ${SOLARUS_INSTALL_BINDIR}
 )
 
+# FreeDesktop compatible icons
+if(UNIX AND NOT APPLE)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_16.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/16x16/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_24.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/24x24/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_32.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/32x32/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_48.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/48x48/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_64.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/64x64/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_128.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/128x128/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_256.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/256x256/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_512.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/512x512/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/icon_1024.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/1024x1024/apps RENAME zsdx.png)
+  install (FILES ${CMAKE_CURRENT_SOURCE_DIR}/data/logos/logo_2x.png
+    DESTINATION ${CMAKE_INSTALL_PREFIX}/share/pixmaps RENAME zsdx.png)
+endif(UNIX AND NOT APPLE)
