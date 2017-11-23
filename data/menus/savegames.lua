@@ -2,6 +2,7 @@
 
 local savegame_menu = {}
 local cloud_width, cloud_height = 111, 88
+local last_joy_axis_move = { 0, 0 }
 
 function savegame_menu:on_started()
 
@@ -104,19 +105,27 @@ end
 
 function savegame_menu:on_joypad_axis_moved(axis, state)
 
-  if axis % 2 == 0 then  -- Horizontal axis.
-    if state > 0 then
-      self:direction_pressed(0)
-    elseif state < 0 then
-      self:direction_pressed(4)
-    end
-  else  -- Vertical axis.
-    if state > 0 then
-      self:direction_pressed(6)
-    elseif state < 0 then
-      self:direction_pressed(2)
+  -- Avoid move repetition
+  local handled = last_joy_axis_move[axis % 2] == state
+  last_joy_axis_move[axis % 2] = state
+
+  if not handled then
+    if axis % 2 == 0 then  -- Horizontal axis.
+      if state > 0 then
+        self:direction_pressed(0)
+      elseif state < 0 then
+        self:direction_pressed(4)
+      end
+    else  -- Vertical axis.
+      if state > 0 then
+        self:direction_pressed(6)
+      elseif state < 0 then
+        self:direction_pressed(2)
+      end
     end
   end
+
+  return handled
 end
 
 function savegame_menu:on_joypad_hat_moved(hat, direction8)
