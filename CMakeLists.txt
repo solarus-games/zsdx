@@ -28,6 +28,8 @@ file(GLOB_RECURSE data_files
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.glsl
 )
 
+list(SORT data_files)
+
 file(GLOB_RECURSE data_files_prefixed
   RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.spc
@@ -41,6 +43,8 @@ file(GLOB_RECURSE data_files_prefixed
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.fon
   ${CMAKE_CURRENT_SOURCE_DIR}/data/*.glsl
 )
+
+list(SORT data_files_prefixed)
 
 # add other data to zip archive
 add_custom_command(
